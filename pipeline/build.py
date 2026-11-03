@@ -357,12 +357,19 @@ def build_snapshot(
     denom = sum(abs(v) for v in numer.values()) or 1.0
 
     components = []
+    avail = [c for c in COMPONENT_LABELS if zvec.get(c) is not None]
+    avail_w = sum(COMPONENT_WEIGHTS[c] for c in avail) or 1.0
     for c, label in COMPONENT_LABELS.items():
         z = zvec.get(c)
         components.append({
             "key": c,
             "label": label,
             "weight": COMPONENT_WEIGHTS[c],
+            # 「设计权重」和「这次实际生效的权重」必须分开显示。物理征兆和信息叙事
+            # 目前没有历史（证据只来自新闻簇），它们缺席时如果还按原权重展示，
+            # 页面会假装六个分项都在参与计算。宁可写清楚"这次只有 4/6 有效"。
+            "effective_weight": 0.0 if z is None else round(COMPONENT_WEIGHTS[c] / avail_w, 3),
+            "available": z is not None,
             "z": None if z is None else round(z, 2),
             "score": None if z is None else round(score.to_index(z), 1),
             "contrib": round(numer.get(c, 0.0) / denom, 3),

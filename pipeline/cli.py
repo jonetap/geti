@@ -12,18 +12,20 @@ import argparse
 import functools
 import http.server
 import os
+import random
 import socketserver
 import sys
 from datetime import date, datetime, timedelta, timezone
 
 from . import backtest as bt
-from . import build, cluster, market, store
+from . import build, cluster, composite, epidemic, hazard, market, store
 from . import fetch as fetcher
 from .synth import synth_items, synth_signals
 
 UTC = timezone.utc
 DEFAULT_SERIES = "data/series.jsonl"
 DEFAULT_HEALTH = "data/source_health.json"
+DEFAULT_AUX = "data/aux_series.jsonl"
 MIN_EVENTS_PER_DAY = 200
 
 
@@ -51,6 +53,42 @@ def _assemble(signals, items, target, now, coverage, series_path, span, extra=No
     return snap
 
 
+def _aux_block(day, items, end_is_known: bool = True) -> tuple[dict, list[dict]]:
+    """灾害层 + 疫情层。
+
+    **任何一侧失败都不许影响主指数**：这里全部包在 try 里，抓不到就把分项留空，
+    页面显示"数据累积中"。宁可少一个数字，也不要给一个假的 50。
+    """
+    hz: dict = {}
+    ep: dict = {}
+    health: list[dict] = []
+    try:
+        hz, h1 = hazard.fetch_day(day)
+        health += h1
+    except Exception as exc:                            # noqa: BLE001
+        health.append({"source": "hazard", "ok": False, "items": 0,
+                       "error": f"{type(exc).__name__}: {exc}"[:200]})
+    try:
+        ep, h2 = epidemic.fetch_day(day, items)
+        health += h2
+    except Exception as exc:                            # noqa: BLE001
+        health.append({"source": "epidemic", "ok": False, "items": 0,
+                       "error": f"{type(exc).__name__}: {exc}"[:200]})
+
+    if hz:
+        store.save_series(DEFAULT_AUX, composite.readings_to_series("hazard", day, hz),
+                          keep_days=400, end=day)
+    if ep:
+        store.save_series(DEFAULT_AUX, composite.readings_to_series("epidemic", day, ep),
+                          keep_days=400, end=day)
+
+    series = store.load_series(DEFAULT_AUX)
+    return {
+        "hazard": composite.subindex(series, "hazard", day),
+        "epidemic": composite.subindex(series, "epidemic", day),
+    }, health
+
+
 # ---------------------------------------------------------------- 子命令
 
 
@@ -66,6 +104,21 @@ def cmd_demo(args: argparse.Namespace) -> int:
         "mode": "synthetic",
     }
     snap = _assemble(signals, items, end, now, coverage, args.series, args.days)
+
+    # 演示用的灾害/疫情：编一组平稳的历史，让页面三个模块都能渲染
+    rnd = random.Random(20261103)
+    fake: dict = {}
+    for kind, keys in (("hazard", hazard.WEIGHTS), ("epidemic", epidemic.WEIGHTS)):
+        for k in keys:
+            cell = {end - timedelta(days=i): round(10 + rnd.random() * 6, 2)
+                    for i in range(60)}
+            cell[end] = round(15.5 + rnd.random() * 3, 2)
+            fake[(kind, k)] = cell
+    snap["hazard"] = composite.subindex(fake, "hazard", end)
+    snap["epidemic"] = composite.subindex(fake, "epidemic", end)
+    snap["doom"] = composite.doom(snap.get("geti"), snap["hazard"]["index"],
+                            snap["epidemic"]["index"])
+
     store.write_json(args.out, snap)
     print(f"[demo] {args.out}  GETI={snap['geti']}  Δz={snap['delta_z']}  "
           f"驱动={snap['driver_label']}  置信度={snap['confidence']}")
@@ -109,13 +162,22 @@ def cmd_run(args: argparse.Namespace) -> int:
 
     snap = _assemble(signals, items, resolved, now, coverage, args.series, args.span,
                      extra={"market": mkt})
-    snap["adapters"] = gh + fh
+
+    aux_block, aux_health = _aux_block(resolved, items)
+    snap["hazard"] = aux_block["hazard"]
+    snap["epidemic"] = aux_block["epidemic"]
+    snap["doom"] = composite.doom(snap.get("geti"),
+                            aux_block["hazard"].get("index"),
+                            aux_block["epidemic"].get("index"))
+    snap["adapters"] = gh + fh + aux_health
     store.write_json(args.out, snap)
 
     os.makedirs(os.path.dirname(DEFAULT_HEALTH) or ".", exist_ok=True)
     fetcher.save_health(DEFAULT_HEALTH, gh + fh, now=now)
 
-    print(f"[run] {args.out}  数据截止={resolved}  GETI={snap['geti']}  Δz={snap['delta_z']}  "
+    print(f"[run] {args.out}  数据截止={resolved}  GETI={snap['geti']}  "
+          f"末日={snap['doom']['index']}  灾害={snap['hazard']['index']}  "
+          f"疫情={snap['epidemic']['index']}  Δz={snap['delta_z']}  "
           f"事件={len(signals)}  新闻={len(items)}  市场={mkt.get('index')}  "
           f"源 ok={ok} bad={bad}")
     if ok == 0:
