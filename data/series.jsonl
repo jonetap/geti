@@ -1692,7 +1692,7 @@
 {"r":"EUROPE","c":"military","d":"2026-11-02","v":975.2407}
 {"r":"EUROPE","c":"military","d":"2026-11-03","v":1.4886}
 {"r":"EUROPE","c":"narrative","d":"2026-11-02","v":0.2729}
-{"r":"EUROPE","c":"narrative","d":"2026-11-03","v":1.3489}
+{"r":"EUROPE","c":"narrative","d":"2026-11-03","v":1.2962}
 {"r":"LATAM","c":"diplomacy","d":"2026-06-06","v":1.6176}
 {"r":"LATAM","c":"diplomacy","d":"2026-06-07","v":1.0986}
 {"r":"LATAM","c":"diplomacy","d":"2026-06-15","v":0.9318}
@@ -2782,8 +2782,8 @@
 {"r":"MIDDLE_EAST","c":"military","d":"2026-10-30","v":0.1971}
 {"r":"MIDDLE_EAST","c":"military","d":"2026-10-31","v":954.0798}
 {"r":"MIDDLE_EAST","c":"military","d":"2026-11-01","v":977.015}
-{"r":"MIDDLE_EAST","c":"military","d":"2026-11-02","v":1434.7794}
-{"r":"MIDDLE_EAST","c":"military","d":"2026-11-03","v":2.9359}
+{"r":"MIDDLE_EAST","c":"military","d":"2026-11-02","v":1434.7506}
+{"r":"MIDDLE_EAST","c":"military","d":"2026-11-03","v":3.0631}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-30","v":0.0536}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-31","v":0.0985}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-11-02","v":0.3484}
@@ -4348,7 +4348,7 @@
 {"r":"OTHER","c":"internal","d":"2026-10-31","v":163.2209}
 {"r":"OTHER","c":"internal","d":"2026-11-01","v":167.6869}
 {"r":"OTHER","c":"internal","d":"2026-11-02","v":216.9993}
-{"r":"OTHER","c":"internal","d":"2026-11-03","v":2.4209}
+{"r":"OTHER","c":"internal","d":"2026-11-03","v":2.638}
 {"r":"OTHER","c":"military","d":"2026-06-05","v":3.5375}
 {"r":"OTHER","c":"military","d":"2026-06-06","v":2.0966}
 {"r":"OTHER","c":"military","d":"2026-06-07","v":5.2761}
@@ -4504,7 +4504,7 @@
 {"r":"OTHER","c":"narrative","d":"2026-10-30","v":0.1682}
 {"r":"OTHER","c":"narrative","d":"2026-11-01","v":0.0985}
 {"r":"OTHER","c":"narrative","d":"2026-11-02","v":1.0638}
-{"r":"OTHER","c":"narrative","d":"2026-11-03","v":4.8782}
+{"r":"OTHER","c":"narrative","d":"2026-11-03","v":4.3608}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-06","v":3.7519}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-07","v":3.9557}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-08","v":0.4832}
@@ -5051,7 +5051,7 @@
 {"r":"RUSSIA_CIS","c":"military","d":"2026-10-31","v":1.3597}
 {"r":"RUSSIA_CIS","c":"military","d":"2026-11-01","v":416.2667}
 {"r":"RUSSIA_CIS","c":"military","d":"2026-11-02","v":676.5805}
-{"r":"RUSSIA_CIS","c":"military","d":"2026-11-03","v":2.462}
+{"r":"RUSSIA_CIS","c":"military","d":"2026-11-03","v":1.8259}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-30","v":0.2637}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-11-02","v":0.0985}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-11-03","v":0.353}
@@ -5623,8 +5623,8 @@
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-27","v":0.0697}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-28","v":0.0536}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-30","v":0.1072}
-{"r":"SOUTH_ASIA","c":"narrative","d":"2026-11-03","v":1.73}
-{"r":"SOUTH_ASIA","c":"physical","d":"2026-11-03","v":0.6361}
+{"r":"SOUTH_ASIA","c":"narrative","d":"2026-11-03","v":1.8572}
+{"r":"SOUTH_ASIA","c":"physical","d":"2026-11-03","v":0.4927}
 {"r":"__vol__","c":"n","d":"2026-06-05","v":62.0}
 {"r":"__vol__","c":"n","d":"2026-06-06","v":159.0}
 {"r":"__vol__","c":"n","d":"2026-06-07","v":184.0}

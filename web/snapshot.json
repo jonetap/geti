@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-03T15:29:59+00:00",
+ "generated_at": "2026-11-03T15:53:40+00:00",
  "date": "2026-11-02",
  "geti": 68.3,
  "delta_z": 0.82,
@@ -186,6 +186,8 @@
    "key": "military",
    "label": "军事升级",
    "weight": 0.26,
+   "effective_weight": 0.371,
+   "available": true,
    "z": 1.69,
    "score": 89.3,
    "contrib": 0.413
@@ -194,6 +196,8 @@
    "key": "physical",
    "label": "物理征兆",
    "weight": 0.22,
+   "effective_weight": 0.0,
+   "available": false,
    "z": null,
    "score": null,
    "contrib": 0.0
@@ -202,6 +206,8 @@
    "key": "diplomacy",
    "label": "外交",
    "weight": 0.18,
+   "effective_weight": 0.257,
+   "available": true,
    "z": 1.58,
    "score": 87.8,
    "contrib": 0.267
@@ -210,6 +216,8 @@
    "key": "economy",
    "label": "经济",
    "weight": 0.15,
+   "effective_weight": 0.214,
+   "available": true,
    "z": 1.42,
    "score": 85.5,
    "contrib": 0.2
@@ -218,6 +226,8 @@
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
+   "effective_weight": 0.157,
+   "available": true,
    "z": 1.17,
    "score": 81.2,
    "contrib": 0.121
@@ -226,6 +236,8 @@
    "key": "narrative",
    "label": "信息/叙事",
    "weight": 0.08,
+   "effective_weight": 0.0,
+   "available": false,
    "z": null,
    "score": null,
    "contrib": 0.0
@@ -323,27 +335,12 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "d251e6cf8b75",
-   "title": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
-   "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-03T10:18:18+00:00",
-   "note": "Medical facility was struck by Russian ballistic missiles and aerial bombs overnight.",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "3ce54d04cdc8",
    "title": "Mid-air helicopter collision on Nepal’s Everest kills Indian tourist",
    "url": "https://www.scmp.com/news/asia/south-asia/article/3373136/mid-air-helicopter-collision-nepals-everest-kills-indian-tourist",
    "component": "physical",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -426,21 +423,6 @@
    "published": "2026-10-26T15:07:23+00:00",
    "note": "Commanders suspected of sexual violence during the largest and fastest slaughter of civilians in more than 30 years have been subjected to travel ban and asset freeze Senior Sudane",
    "region": "AFRICA"
-  },
-  {
-   "id": "6c24e48b3cc1",
-   "title": "Reform UK councillor charged with 12 counts of rape",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/03/reform-uk-councillor-george-madgwick-charged-12-counts-rape",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T14:34:05+00:00",
-   "note": "George Madgwick of Hampshire county council has been charged with a total of 35 offences A Reform UK councillor has been charged with 12 counts of rape, the Crown Prosecution Servi",
-   "region": "OTHER"
   },
   {
    "id": "d34eaba27fe3",
@@ -591,6 +573,36 @@
    "published": "2026-11-02T12:00:00+00:00",
    "note": "联合国世界粮食计划署周一表示，在乌克兰赫尔松地区短暂停火期间，400多名民众得以从俄罗斯控制的奥莱什基市撤离。粮食署已向他们提供紧急食品援助，并准备根据后续撤离情况扩大援助规模。与此同时，联合国开发计划署呼吁国际社会继续提供资金支持，帮助乌克兰在严冬来临前恢复能源供应。",
    "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "6a2aaf71d08e",
+   "title": "世卫组织警告：埃塞俄比亚北部暴力冲突使卫生系统濒临崩溃",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143117",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "埃塞俄比亚北部上周末发生致命无人机袭击后，世界卫生组织总干事谭德塞周一呼吁加强对受冲突影响平民的保护。他警告，持续的暴力正将本已脆弱的卫生系统推向崩溃边缘。",
+   "region": "AFRICA"
+  },
+  {
+   "id": "44842eaf436e",
+   "title": "国际刑事法院院长呼吁联合国会员国捍卫司法独立，抵制针对国际刑事司法的施压",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143115",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "联合国大会周一（11月2日）听取了国际刑事法院院长赤根智子（Tomoko Akane）提交的法院年度工作报告。赤根表示，国际刑事法院正面临前所未有的制裁和施压，但法院将继续独立、公正地履行职责。她同时呼吁各国采取具体行动，维护《罗马规约》和国际法治原则。",
+   "region": "OTHER"
   }
  ],
  "breaking": [
@@ -1290,6 +1302,108 @@
   ],
   "mode": "live"
  },
+ "hazard": {
+  "index": null,
+  "z": null,
+  "components": [
+   {
+    "key": "quake_energy",
+    "label": "地震能量",
+    "weight": 0.34,
+    "value": 8.59,
+    "z": null,
+    "score": null,
+    "available": false
+   },
+   {
+    "key": "quake_count",
+    "label": "强震次数",
+    "weight": 0.2,
+    "value": 17.0,
+    "z": null,
+    "score": null,
+    "available": false
+   },
+   {
+    "key": "storm_events",
+    "label": "灾害事件",
+    "weight": 0.2,
+    "value": 2.0,
+    "z": null,
+    "score": null,
+    "available": false
+   },
+   {
+    "key": "gdacs_alert",
+    "label": "红色预警",
+    "weight": 0.16,
+    "value": 5.0,
+    "z": null,
+    "score": null,
+    "available": false
+   },
+   {
+    "key": "space_weather",
+    "label": "地磁扰动",
+    "weight": 0.1,
+    "value": 2.0,
+    "z": null,
+    "score": null,
+    "available": false
+   }
+  ],
+  "history_days": 0,
+  "components_ok": 0
+ },
+ "epidemic": {
+  "index": null,
+  "z": null,
+  "components": [
+   {
+    "key": "who_don",
+    "label": "官方通报",
+    "weight": 0.4,
+    "value": 15.0,
+    "z": null,
+    "score": null,
+    "available": false
+   },
+   {
+    "key": "policy",
+    "label": "政策信号",
+    "weight": 0.3,
+    "value": 0.0,
+    "z": null,
+    "score": null,
+    "available": false
+   },
+   {
+    "key": "coverage",
+    "label": "报道密度",
+    "weight": 0.3,
+    "value": 6.6,
+    "z": null,
+    "score": null,
+    "available": false
+   }
+  ],
+  "history_days": 0,
+  "components_ok": 0
+ },
+ "doom": {
+  "index": 68.3,
+  "z": 0.46,
+  "parts": {
+   "military": 0.46,
+   "hazard": null,
+   "epidemic": null
+  },
+  "resonance": 0,
+  "partial": true,
+  "available": [
+   "military"
+  ]
+ },
  "adapters": [
   {
    "source": "gdelt_daily_2026-11-03",
@@ -1385,6 +1499,36 @@
    "source": "fred:DGS10",
    "ok": true,
    "items": 101,
+   "error": ""
+  },
+  {
+   "source": "usgs:quake",
+   "ok": true,
+   "items": 17,
+   "error": ""
+  },
+  {
+   "source": "nasa:eonet",
+   "ok": true,
+   "items": 2,
+   "error": ""
+  },
+  {
+   "source": "gdacs:rss",
+   "ok": true,
+   "items": 237,
+   "error": ""
+  },
+  {
+   "source": "noaa:swpc",
+   "ok": true,
+   "items": 186,
+   "error": ""
+  },
+  {
+   "source": "who:don",
+   "ok": true,
+   "items": 83,
    "error": ""
   }
  ]
