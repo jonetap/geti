@@ -77,7 +77,8 @@
   /* ---------- columns ---------- */
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
   .grid2{display:grid;grid-template-columns:340px 1fr;gap:16px}
-  @media(max-width:820px){.grid,.grid2{grid-template-columns:1fr}}
+  @media(max-width:820px){.grid,.grid2{grid-template-columns:1fr}
+    .mkt-row{grid-template-columns:1fr 72px 80px 62px}}
 
   /* bars */
   .bar-row{display:grid;grid-template-columns:86px 1fr 52px;gap:10px;align-items:center;margin-bottom:11px}
@@ -100,6 +101,32 @@
   .reg .dl.up{color:var(--sev)} .reg .dl.down{color:var(--calm)}
   .excl{opacity:.4;filter:saturate(.25)}
   .excl .track i{background:var(--dim)}
+
+  /* note under card title */
+  .note{font:10.5px/1.5 var(--mono);color:var(--dim);margin:-8px 0 12px}
+  /* 未接入的分项 */
+  .bar-row.off .nm{color:var(--dim)}
+  .bar-row.off .track i{background:var(--dim)}
+  .unavail{font:10px/1 var(--mono);color:var(--dim);border:1px solid var(--line);
+    border-radius:4px;padding:2px 5px;margin-left:6px;vertical-align:1px}
+
+  /* 市场面板 L3 */
+  .solo{margin-bottom:16px}
+  .mkt-top{display:grid;grid-template-columns:44px 1fr 52px;gap:10px;align-items:center;
+    margin-bottom:12px}
+  .mkt-lbl{font:10px/1 var(--mono);color:var(--dim);letter-spacing:.1em}
+  .mkt-sc{font:13px/1 var(--mono);text-align:right;color:var(--txt)}
+  .mkt-row{display:grid;grid-template-columns:1fr 84px 92px 78px;gap:10px;align-items:center;
+    padding:7px 0;border-bottom:1px dashed #16202c;font-size:12.5px}
+  .mkt-row:last-child{border-bottom:0}
+  .mkt-row .v{font:12px/1 var(--mono);text-align:right;color:var(--txt)}
+  .mkt-row .c{font:11.5px/1 var(--mono);text-align:right;color:var(--dim)}
+  .mkt-row .c.up{color:var(--calm)} .mkt-row .c.down{color:var(--sev)}
+  .mkt-row .z{font:11px/1 var(--mono);text-align:right;color:var(--dim)}
+  .mkt-row.off{opacity:.45}
+  .mkt-row.off .v{color:var(--dim)}
+  .mkt-src{margin-top:10px;padding-top:9px;border-top:1px solid var(--line);
+    font:10px/1.4 var(--mono);color:var(--dim)}
 
   /* events */
   .ev{display:block;padding:11px 0;border-bottom:1px solid #141d28}
@@ -124,6 +151,14 @@
   footer b{color:var(--mut);font-weight:500}
   .err{max-width:640px;margin:60px auto;padding:20px;border:1px solid #5c2334;
     border-radius:12px;background:#1a0d13;color:#ffc9d4;font:13px/1.7 var(--mono)}
+
+  /* 末日指数（总指数） */
+  .doom{display:grid;grid-template-columns:158px 1fr;gap:28px;align-items:center}
+  .doom-num b{display:block;font:600 46px/1 var(--mono);letter-spacing:-.01em}
+  .doom-num .band{font:11px/1.4 var(--mono);color:var(--mut);margin-top:9px;letter-spacing:.06em}
+  .doom-parts{display:grid;gap:9px}
+  .doom-note{margin-top:12px;font:10.5px/1.5 var(--mono);color:var(--dim)}
+  @media(max-width:760px){.doom{grid-template-columns:1fr;gap:16px}}
   [hidden]{display:none!important}
 </style>
 </head>
@@ -142,6 +177,18 @@
   </header>
 
   <main id="app" hidden>
+
+    <section class="solo">
+      <div class="card">
+        <h2>末日指数 · Doomsday Composite</h2>
+        <div class="note">三个子系统的合成：军事紧张 + 自然灾害 + 传染病。仍然是体温计，不是末日概率。</div>
+        <div class="doom">
+          <div class="doom-num"><b id="doomIdx">–</b><div class="band" id="doomBand">–</div></div>
+          <div class="doom-parts" id="doomParts"></div>
+        </div>
+        <div class="doom-note" id="doomNote"></div>
+      </div>
+    </section>
     <section class="hero">
       <div class="card gauge-card">
         <svg class="gauge" viewBox="0 0 280 170" aria-hidden="true">
@@ -183,11 +230,33 @@
     <section class="grid">
       <div class="card">
         <h2>分项驱动 · 主驱动区域</h2>
+        <div class="note" id="compsNote"></div>
         <div id="comps"></div>
       </div>
       <div class="card">
         <h2>区域张力分解</h2>
         <div id="regions"></div>
+      </div>
+    </section>
+
+    <section class="solo">
+      <div class="card">
+        <h2>市场压力（L3）</h2>
+        <div class="note" id="mktNote"></div>
+        <div id="market"></div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <div class="head-row"><h2>自然灾害（L4）</h2><span class="mkt-sc" id="hzSc">–</span></div>
+        <div class="note">USGS 地震目录 · NASA EONET · GDACS 预警 · NOAA SWPC</div>
+        <div id="hazard"></div>
+      </div>
+      <div class="card">
+        <div class="head-row"><h2>传染病（L5）</h2><span class="mkt-sc" id="epSc">–</span></div>
+        <div class="note">WHO 通报 · ECDC · 政策信号（PHEIC/旅行限制）· 报道密度</div>
+        <div id="epidemic"></div>
       </div>
     </section>
 
@@ -275,6 +344,109 @@ function drawSpark(){
   $("spark").style.setProperty("--accent", getComputedStyle(document.documentElement).getPropertyValue("--accent"));
 }
 
+/* ---------------- 市场层 ---------------- */
+const MKT_DP = {vix:2, oil:2, hy:2, usd:3, ust:2};
+
+function renderMarket(m){
+  const note = $("mktNote"), box = $("market");
+  const tail = "市场层不并入 GETI——华尔街恐慌不该给台海加分";
+  if (!m || m.mode === "skipped" || m.mode === "failed"){
+    note.textContent = "数据截止 — · " + tail;
+    box.innerHTML = '<div class="val">本次未取到市场数据（不影响 GETI）</div>';
+    return;
+  }
+  note.textContent = `数据截止 ${m.asof || "—"} · ${tail}`;
+
+  const idx = m.index == null ? null : Math.max(0, Math.min(100, m.index));
+  const rows = (m.rows || []).map(r => {
+    if (r.ok === false){
+      return `<div class="mkt-row off">
+        <div class="nm">${esc(r.label)}</div>
+        <div class="v">ERR</div>
+        <div class="c">—</div>
+        <div class="z">—</div>
+      </div>`;
+    }
+    const dp = MKT_DP[r.id] != null ? MKT_DP[r.id] : 2;
+    const last = Number(r.last);
+    const chg = Number(r.chg5);
+    const cls = chg > 0 ? "up" : chg < 0 ? "down" : "";
+    const arrow = chg > 0 ? "▲ " : chg < 0 ? "▼ " : "· ";
+    const z = r.z == null ? "—" : "z " + (r.z > 0 ? "+" : "") + Number(r.z).toFixed(2);
+    return `<div class="mkt-row">
+      <div class="nm">${esc(r.label)}</div>
+      <div class="v">${isFinite(last) ? last.toFixed(dp) : "—"}</div>
+      <div class="c ${cls}">${isFinite(chg) ? arrow + Math.abs(chg).toFixed(2) + "%" : "—"}</div>
+      <div class="z">${z}</div>
+    </div>`;
+  }).join("");
+
+  box.innerHTML = `
+    <div class="mkt-top">
+      <span class="mkt-lbl">综合</span>
+      <div class="track"><i style="width:${idx == null ? 0 : idx}%"></i></div>
+      <span class="mkt-sc">${idx == null ? "—" : m.index.toFixed(1)}</span>
+    </div>
+    <div class="mkt-rows">${rows}</div>
+    <div class="mkt-src">${esc(m.source || "")}${m.z == null ? "" : " · z " + Number(m.z).toFixed(2)}</div>`;
+}
+
+
+/* ---------------- 末日指数 / 子指数 ---------------- */
+const DOOM_PART = {military:"军事升级", hazard:"自然灾害", epidemic:"传染病"};
+
+function renderDoom(d){
+  const el = $("doomIdx"), bd = $("doomBand"), note = $("doomNote");
+  if (!d || d.index == null){
+    el.textContent = "—"; el.style.color = "var(--dim)";
+    bd.textContent = "子系统数据不足";
+    $("doomParts").innerHTML = '<div class="val">暂无可用子系统</div>';
+    note.textContent = "";
+    return;
+  }
+  el.textContent = d.index.toFixed(1);
+  const b = bandOf(d.index);
+  el.style.color = b.c;
+  bd.textContent = b.t + (d.partial ? " · 部分子系统" : "");
+  $("doomParts").innerHTML = ["military","hazard","epidemic"].map(k => {
+    const z = d.parts ? d.parts[k] : null;
+    if (z == null){
+      return `<div class="bar-row off"><div class="nm">${DOOM_PART[k]}<span class="unavail">无历史</span></div>
+        <div class="track"><i style="width:0%"></i></div><div class="val">—</div></div>`;
+    }
+    const p = Math.max(2, Math.min(100, 50 + 50 * Math.tanh(z / 1.2)));
+    return `<div class="bar-row"><div class="nm">${DOOM_PART[k]}</div>
+      <div class="track"><i class="${z < 0 ? "neg" : ""}" style="width:${p.toFixed(1)}%"></i></div>
+      <div class="val">${(z > 0 ? "+" : "") + z.toFixed(2)}σ</div></div>`;
+  }).join("");
+  const parts = [];
+  if (d.resonance >= 2) parts.push(`<span style="color:var(--sev)">⚠ 多重危机共振：${d.resonance} 个子系统同时异常</span>`);
+  if (d.partial) parts.push("数据累积中——仅 " + (d.available || []).length + "/3 个子系统有效");
+  parts.push("合成口径：0.55×峰值 + 0.45×加权均值（军事 .5 / 灾害 .3 / 疫情 .2），共振另加 +0.35σ");
+  note.innerHTML = parts.join("<br>");
+}
+
+function renderSub(host, sub, scoreEl, need){
+  if (!sub || sub.index == null){
+    host.innerHTML = '<div class="val">数据累积中（需要 ' + need + ' 天历史）</div>';
+    scoreEl.textContent = "–";
+    return;
+  }
+  scoreEl.textContent = sub.index.toFixed(1);
+  scoreEl.style.color = bandOf(sub.index).c;
+  host.innerHTML = (sub.components || []).map(c => {
+    if (!c.available){
+      const v = c.value == null ? "—" : c.value;
+      return `<div class="bar-row off"><div class="nm">${esc(c.label)}<span class="unavail">无历史</span></div>
+        <div class="track"><i style="width:0%"></i></div><div class="val">${esc(v)}</div></div>`;
+    }
+    const p = Math.max(2, Math.min(100, c.score));
+    return `<div class="bar-row"><div class="nm">${esc(c.label)}<em>${esc(c.value)}</em></div>
+      <div class="track"><i class="${c.z < 0 ? "neg" : ""}" style="width:${p.toFixed(1)}%"></i></div>
+      <div class="val">${(c.z > 0 ? "+" : "") + c.z.toFixed(1)}σ</div></div>`;
+  }).join("") || '<div class="val">暂无分项</div>';
+}
+
 /* ---------------- 渲染 ---------------- */
 function render(S){
   const g = S.geti, band = bandOf(g);
@@ -300,6 +472,7 @@ function render(S){
     ["生成", new Date(S.generated_at).toLocaleString("zh-CN", {hour12:false})],
     ["窗口", S.history_days + " 天"],
     ["版本", S.index_version],
+    ["数据截止", S.coverage.data_through || S.date || "—"],
     ["源", `${S.coverage.sources_ok} 正常 / ${S.coverage.sources_failed} 异常`],
     ["条目", String(S.coverage.items)],
     satBad
@@ -320,14 +493,27 @@ function render(S){
 
   // 分项
   const comps = S.components || [];
+  const isOn = (c) => c.available !== false && c.score != null && c.z != null;
+  const availN = comps.filter(isOn).length;
+  $("compsNote").textContent = `本次有效分项 ${availN}/6，有效权重已重新归一`;
+
   $("comps").innerHTML = comps.map(c => {
-    const has = c.score != null;
-    const w = has ? Math.max(2, Math.min(100, c.score)) : 0;
-    const neg = has && c.z < 0;
+    const dw = Math.round((c.weight || 0) * 100);
+    if (!isOn(c)) {
+      // 未接入：条归零、置灰，权重标注"设计值但未生效"
+      return `<div class="bar-row off">
+      <div class="nm">${esc(c.label)}<span class="unavail">未接入</span><em>设计 ${dw}% · 未生效</em></div>
+      <div class="track"><i style="width:0%"></i></div>
+      <div class="val">—</div>
+    </div>`;
+    }
+    const w = Math.max(2, Math.min(100, c.score));
+    const neg = c.z < 0;
+    const ew = Math.round((c.effective_weight != null ? c.effective_weight : c.weight) * 100);
     return `<div class="bar-row">
-      <div class="nm">${esc(c.label)}<em>权重 ${Math.round(c.weight * 100)}%</em></div>
+      <div class="nm">${esc(c.label)}<em>有效 ${ew}%</em></div>
       <div class="track"><i class="${neg ? "neg" : ""}" style="width:${w}%"></i></div>
-      <div class="val">${has ? (c.z > 0 ? "+" : "") + c.z.toFixed(1) + "σ" : "历史不足"}</div>
+      <div class="val">${(c.z > 0 ? "+" : "") + c.z.toFixed(1)}σ</div>
     </div>`;
   }).join("") || '<div class="val">该区域数据不足</div>';
 
@@ -373,6 +559,14 @@ function render(S){
       </div>
     </div>`;
   }).join("") || '<div class="val">暂无事件</div>';
+
+  // 市场层（L3）
+  renderMarket(S.market);
+
+  // 末日指数与两个子系统
+  renderDoom(S.doom);
+  renderSub($("hazard"), S.hazard, $("hzSc"), 14);
+  renderSub($("epidemic"), S.epidemic, $("epSc"), 14);
 
   // 统计
   $("stats").innerHTML = [
