@@ -22,7 +22,7 @@ from .model import (
 )
 
 UTC = timezone.utc
-INDEX_VERSION = "geti-0.2.0"
+INDEX_VERSION = "geti-0.3.0"
 HISTORY_DAYS = 90
 
 
@@ -197,7 +197,11 @@ def compute_day(series: Series, day: date, regions: Sequence[str]) -> DayResult:
         for c in COMPONENT_WEIGHTS:
             total += 1
             hist = _trailing(series, (r, c), day, HISTORY_DAYS)
-            z = score.robust_z(_value(series, (r, c), day), hist)
+            # 对数尺度：压力是乘性的，线性 z 会把重尾算成"天天爆表"
+            z = score.robust_z(
+                score.signed_log(_value(series, (r, c), day)),
+                [score.signed_log(v) for v in hist],
+            )
             if z is None:
                 continue
             ok += 1
@@ -264,6 +268,28 @@ def index_series(results: dict[date, DayResult], days: Sequence[date]) -> tuple[
 
 
 # ---------------------------------------------------------------- 快照
+
+
+def _diagnostics(series: Series, day: date, driver: str, zvec: dict[str, float]) -> dict:
+    """驱动区域每个分项的原始压力 vs 历史分位。
+
+    线上只剩一个 z 的时候，没法区分"今天真的大涨"和"尺度算坏了"——第一版
+    四个分项同时顶在 3.0 就是这个盲点。把 now / p50 / p90 / 倍数一起吐出来，
+    下次出事肉眼就能定位到是数据的问题还是标定的问题。
+    """
+    rows: dict[str, dict] = {}
+    for c in COMPONENT_WEIGHTS:
+        hist = _trailing(series, (driver, c), day, HISTORY_DAYS)
+        now_v = _value(series, (driver, c), day)
+        med = score.median(hist) if hist else None
+        rows[c] = {
+            "now": round(now_v, 2),
+            "p50": None if med is None else round(med, 2),
+            "p90": None if not hist else round(score.p90(hist), 2),
+            "ratio": None if not med or abs(med) < 0.1 else round(now_v / med, 2),
+            "z": None if c not in zvec else round(zvec[c], 2),
+        }
+    return {"region": driver, "history_days": HISTORY_DAYS, "components": rows}
 
 
 def build_snapshot(
@@ -393,6 +419,9 @@ def build_snapshot(
             "saturated_ratio": round(today.saturated / max(1, today.covered), 3),
             "note": "覆盖不足时请看置信度，不要看指数",
         },
+        # 标定诊断：驱动区域每个分项的"今天 vs 历史中位数/P90"。
+        # 没有这几行，线上只剩一个 z，看不出到底是真涨还是尺度坏了。
+        "diagnostics": _diagnostics(series, target, driver, today.zvec.get(driver, {})),
         "series": [
             {"date": d.isoformat(), "geti": round(v, 1)}
             for d, v in zip(days, gseries)

@@ -108,6 +108,19 @@ def is_saturated(z: float, ratio: float = 0.85) -> bool:
     return abs(z) >= ratio * Z_SOFT
 
 
+def signed_log(x: float) -> float:
+    """带符号对数压缩。
+
+    新闻压力是**乘性**的：今天 5 倍于平常，和 50 倍于平常，在原始尺度上
+    差十倍，在"有多不寻常"上其实只差一个量级。直接对原始值做中位数/MAD，
+    重尾会把尺度算小、把 z 顶到上限——实测四个分项同时 2.2 就是这么来的。
+    先取 signed log1p，倍数关系就变成加法关系，MAD 才描述得动。
+    """
+    if x == 0:
+        return 0.0
+    return math.copysign(math.log1p(abs(x)), x)
+
+
 def p90(xs: Sequence[float]) -> float:
     if not xs:
         return 0.0
@@ -160,14 +173,15 @@ def evidence(severity: int, conf: float, spec: float) -> float:
 
 _SEV_PATTERNS: list[tuple[int, re.Pattern[str]]] = [
     (5, re.compile(r"(开战|宣战|入侵|空袭|导弹袭击|核打击|地面进攻|交火|击落|爆炸|炮击|"
-                   r"declare war|invasion|airstrike|missile strike|nuclear strike|offensive|shelling|"
-                   r"shot down|explosion|combat)", re.I)),
+                   r"declare war|invasion|airstrike|missile strike|nuclear strike|offensive|shelling|shelled|"
+                   r"shot down|explosion|combat|bombs?|bombed|bombing|killed|killing|death toll|casualties)", re.I)),
     (4, re.compile(r"(动员|集结|增兵|撤离|撤侨|断交|制裁|封锁|击沉|袭击|召回大使|"
                    r"暂停外交关系|暂停大使级|"
                    r"mobiliz|deploy|evacuat|sever relations|sanction|blockade|assault|strike)", re.I)),
-    (3, re.compile(r"(军演|演习|联合演习|召见|驱逐|谈判破裂|抗议|示威|戒严|"
+    (3, re.compile(r"(军演|演习|联合演习|召见|驱逐|谈判破裂|抗议|示威|戒严|罢工|"
                    r"出口管制|禁运|关税|断供|配额|"
                    r"drill|exercise|summon|expel|talks collapse|protest|martial law|"
+                   r"walkout|unrest|demonstrat|riot|"
                    r"export control|embargo|tariff)", re.I)),
     (2, re.compile(r"(谴责|警告|批评|反对|威胁|未达成|会谈未果|无果而终|"
                    r"condemn|warn|criticiz|oppose|threaten|no agreement|inconclusive)", re.I)),
@@ -180,16 +194,21 @@ _COMP_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
                             r"集结|炮兵|旅级|营级|"
                             r"military|troop|missile|warplane|warship|drill|airstrike|tank|nuclear|"
                             r"drone|air ?defen[cs]e|radar|artillery|battalion|brigade|"
-                            r"air ?strikes?|strikes?[^a-z]{0,4}(?:on|against)|bombard|shelling)", re.I)),
+                            r"air ?strikes?|strikes?[^a-z]{0,4}(?:on|against)|bombard|shelling|"
+                            r"(?<!general )(?<!labor )(?<!worker )(?<!workers )strikes?|"
+                            r"bombs?|bombed|bombing|shelled|raids?)", re.I)),
     ("diplomacy", re.compile(r"(外交|大使|召见|制裁|谈判|会谈|磋商|斡旋|峰会|条约|断交|"
                              r"diplomat|ambassador|summon|sanction|negotiat|summit|treaty)", re.I)),
     ("economy", re.compile(r"(关税|出口管制|能源|油价|汇率|供应链|禁运|"
                            r"tariff|export control|oil price|currency|supply chain|embargo)", re.I)),
     ("internal", re.compile(r"(抗议|示威|骚乱|选举|政变|戒严|罢工|"
                             r"protest|riot|election|coup|martial law|"
-                            r"labor strike|worker strike|general strike|walkout|strike action)", re.I)),
-    ("physical", re.compile(r"(航行通告|空域关闭|撤侨|使馆关闭|NOTAM|airspace closed|"
-                            r"embassy closed|evacuation|port clos)", re.I)),
+                            r"labor strike|workers? strike|general strike|walkout|strike action)", re.I)),
+    ("physical", re.compile(r"(航行通告|空域关闭|撤侨|使馆关闭|铀浓缩|离心机|导弹试射|卫星图像|"
+                            r"航母打击群|航班绕飞|"
+                            r"NOTAM|airspace closed|embassy closed|evacuation|port clos|"
+                            r"uranium|enrichment|centrifuge|missile test|satellite imagery|"
+                            r"flight ?divert|carrier strike group)", re.I)),
 ]
 
 
