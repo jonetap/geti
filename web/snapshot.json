@@ -1,14 +1,14 @@
 {
- "index_version": "geti-0.2.0",
- "generated_at": "2026-11-03T15:05:47+00:00",
+ "index_version": "geti-0.3.0",
+ "generated_at": "2026-11-03T15:15:50+00:00",
  "date": "2026-11-02",
- "geti": 75.1,
- "delta_z": 0.79,
- "delta_pts": 2.0,
+ "geti": 78.2,
+ "delta_z": 0.96,
+ "delta_pts": 2.7,
  "confidence": 0.94,
  "history_days": 120,
- "driver_region": "EUROPE",
- "driver_label": "欧洲",
+ "driver_region": "NORTH_AMERICA",
+ "driver_label": "北美",
  "regions": [
   {
    "code": "OTHER",
@@ -28,10 +28,10 @@
    ]
   },
   {
-   "code": "EUROPE",
-   "label": "欧洲",
-   "score": 87.3,
-   "delta": 0.0,
+   "code": "NORTH_AMERICA",
+   "label": "北美",
+   "score": 87.2,
+   "delta": 0.1,
    "excluded": false,
    "drivers": [
     [
@@ -45,9 +45,9 @@
    ]
   },
   {
-   "code": "NORTH_AMERICA",
-   "label": "北美",
-   "score": 87.3,
+   "code": "EUROPE",
+   "label": "欧洲",
+   "score": 87.2,
    "delta": 0.0,
    "excluded": false,
    "drivers": [
@@ -56,7 +56,7 @@
      2.2
     ],
     [
-     "diplomacy",
+     "internal",
      2.2
     ]
    ]
@@ -64,25 +64,25 @@
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 85.1,
-   "delta": -0.2,
+   "score": 85.2,
+   "delta": -0.1,
    "excluded": false,
    "drivers": [
     [
      "military",
-     2.2
+     2.19
     ],
     [
      "diplomacy",
-     2.2
+     2.19
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 82.9,
-   "delta": 1.4,
+   "score": 82.7,
+   "delta": 0.4,
    "excluded": false,
    "drivers": [
     [
@@ -98,85 +98,85 @@
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 82.5,
-   "delta": 2.4,
+   "score": 82.3,
+   "delta": 1.0,
    "excluded": false,
    "drivers": [
     [
-     "military",
+     "diplomacy",
      2.2
     ],
     [
-     "diplomacy",
-     2.2
+     "military",
+     2.16
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 82.2,
-   "delta": 2.0,
+   "score": 82.1,
+   "delta": 1.3,
    "excluded": false,
    "drivers": [
     [
-     "military",
+     "diplomacy",
      2.2
     ],
     [
-     "diplomacy",
-     2.2
+     "military",
+     2.1
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 80.6,
-   "delta": 2.6,
+   "score": 79.6,
+   "delta": 1.1,
    "excluded": false,
    "drivers": [
     [
-     "military",
+     "diplomacy",
      2.2
     ],
     [
-     "diplomacy",
-     2.2
+     "military",
+     2.03
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 78.6,
-   "delta": 2.3,
+   "score": 79.0,
+   "delta": 2.1,
    "excluded": false,
    "drivers": [
     [
      "military",
-     2.2
+     2.18
     ],
     [
      "diplomacy",
-     2.2
+     2.18
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 54.2,
-   "delta": 2.6,
+   "score": 53.8,
+   "delta": 2.0,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     0.65
+     0.91
     ],
     [
      "internal",
-     -0.63
+     -0.75
     ]
    ]
   }
@@ -218,7 +218,7 @@
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
-   "z": 2.2,
+   "z": 2.19,
    "score": 94.0,
    "contrib": 0.157
   },
@@ -232,6 +232,81 @@
   }
  ],
  "events": [
+  {
+   "id": "355286bfabfa",
+   "title": "Bulgaria confirms bomb threats against flights from Bergamo and Dublin – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T14:57:15+00:00",
+   "note": "Seven bomb threats have now been reported across Europe, all incidents have been confirmed as false alarms Back to Poland, Warsaw Modlin airport says it has resumed operations afte",
+   "region": "EUROPE"
+  },
+  {
+   "id": "3b7c09429341",
+   "title": "Four planes flying across Europe targeted by bomb threats",
+   "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T14:21:24+00:00",
+   "note": "Flights from London, Manchester, Copenhagen and Israel affected but no explosives found after touchdown Europe live – latest updates Four planes have landed safely after bomb threa",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "04629b882098",
+   "title": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
+   "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T13:26:19+00:00",
+   "note": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president calls an \"utterly horrific\" attack.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "4a76a07e7514",
+   "title": "Russia bombs humanitarian hub in Ukraine, killing at least 31 people",
+   "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T12:25:07+00:00",
+   "note": "Other overnight strikes targeted power plants across Ukraine, damaged hospitals and wounded scores of people Russia has bombed a humanitarian hub in southern Ukraine, killing at le",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "53d00eabe9ea",
+   "title": "Indian tourist killed after two helicopters collide near Everest base camp",
+   "url": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T11:51:08+00:00",
+   "note": "The two aircraft crashed just metres from the ground after trying to land at the same spot.",
+   "region": "SOUTH_ASIA"
+  },
   {
    "id": "0642bc07afb4",
    "title": "US conducts series of ‘defensive strikes’ against Iran",
@@ -248,6 +323,51 @@
    "region": "MIDDLE_EAST"
   },
   {
+   "id": "d251e6cf8b75",
+   "title": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
+   "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-03T10:18:18+00:00",
+   "note": "Medical facility was struck by Russian ballistic missiles and aerial bombs overnight.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "3ce54d04cdc8",
+   "title": "Mid-air helicopter collision on Nepal’s Everest kills Indian tourist",
+   "url": "https://www.scmp.com/news/asia/south-asia/article/3373136/mid-air-helicopter-collision-nepals-everest-kills-indian-tourist",
+   "component": "physical",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-03T09:52:05+00:00",
+   "note": "An Indian tourist was killed and a New Zealand national injured when two helicopters collided and crashed while attempting to land in Nepal’s Everest region on Tuesday, police said",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "d876bc51b421",
+   "title": "2 Pakistani police officers guarding polio workers killed by suspected militants",
+   "url": "https://www.scmp.com/news/asia/south-asia/article/3373114/2-pakistani-police-officers-guarding-polio-workers-killed-suspected-militants",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-03T08:45:07+00:00",
+   "note": "Suspected militants riding a motorcycle shot and killed two police officers assigned to protect polio workers during a door-to-door vaccination campaign on Tuesday in northwestern ",
+   "region": "SOUTH_ASIA"
+  },
+  {
    "id": "35dcef767bbc",
    "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
    "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
@@ -261,6 +381,66 @@
    "published": "2026-11-03T00:07:05+00:00",
    "note": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
    "region": "EUROPE"
+  },
+  {
+   "id": "5394b8ec989c",
+   "title": "What Florida jet audio and flight data tells us about its final moments",
+   "url": "https://www.bbc.co.uk/news/videos/c52e9lgxjz82o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-02T19:49:22+00:00",
+   "note": "A private jet crashed in Florida on Sunday, killing all nine people on board, according to US authorities.",
+   "region": "OTHER"
+  },
+  {
+   "id": "c2a1568886c5",
+   "title": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
+   "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.28,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-03T10:58:38+00:00",
+   "note": "The death toll from a Russian attack in southern Ukraine on a site where people had gathered to receive humanitarian aid rose to 29 on Tuesday, with 48 still missing, as a wave of ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "328551c17a05",
+   "title": "'I couldn't be silent': Iranian teen's mother seeking justice after daughter shot dead",
+   "url": "https://www.bbc.co.uk/news/videos/cwjdmp25mem9o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-02T06:05:34+00:00",
+   "note": "BBC Panorama follows grieving Samira who - after the killing of Sevda - faces up to the Tehran regime.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "fdb36572848c",
+   "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
+   "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-10-26T15:07:23+00:00",
+   "note": "Commanders suspected of sexual violence during the largest and fastest slaughter of civilians in more than 30 years have been subjected to travel ban and asset freeze Senior Sudane",
+   "region": "AFRICA"
   },
   {
    "id": "6c24e48b3cc1",
@@ -308,21 +488,6 @@
    "region": "AFRICA"
   },
   {
-   "id": "4a76a07e7514",
-   "title": "Russia bombs humanitarian hub in Ukraine, killing at least 31 people",
-   "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T12:25:07+00:00",
-   "note": "Other overnight strikes targeted power plants across Ukraine, damaged hospitals and wounded scores of people Russia has bombed a humanitarian hub in southern Ukraine, killing at le",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "57edd5888cd0",
    "title": "Grain under fire: Russian, Ukrainian Black Sea attacks threaten food supply",
    "url": "https://www.aljazeera.com/news/2026/11/3/disruptions-of-black-sea-grain-exports-spike-global-prices?traffic_source=rss",
@@ -341,7 +506,7 @@
    "id": "afb149854fa6",
    "title": "US strikes Iranian island ahead of midterm elections",
    "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-   "component": "internal",
+   "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
@@ -353,27 +518,12 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "3ce54d04cdc8",
-   "title": "Mid-air helicopter collision on Nepal’s Everest kills Indian tourist",
-   "url": "https://www.scmp.com/news/asia/south-asia/article/3373136/mid-air-helicopter-collision-nepals-everest-kills-indian-tourist",
-   "component": "physical",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-03T09:52:05+00:00",
-   "note": "An Indian tourist was killed and a New Zealand national injured when two helicopters collided and crashed while attempting to land in Nepal’s Everest region on Tuesday, police said",
-   "region": "SOUTH_ASIA"
-  },
-  {
    "id": "90db80e4337d",
    "title": "Tenerife striker De Miguel dies after on-field collision",
    "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
+   "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -401,7 +551,7 @@
    "id": "441c12d342f5",
    "title": "French schools blockade resume on smaller scale as holidays end",
    "url": "https://www.france24.com/en/video/20261103-french-schools-blockade-resume-on-smaller-scale-as-holidays-end",
-   "component": "narrative",
+   "component": "military",
    "severity": 4,
    "confidence": 0.28,
    "origins": 1,
@@ -428,21 +578,6 @@
    "region": "AFRICA"
   },
   {
-   "id": "c2a1568886c5",
-   "title": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
-   "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.28,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-03T10:58:38+00:00",
-   "note": "The death toll from a Russian attack in southern Ukraine on a site where people had gathered to receive humanitarian aid rose to 29 on Tuesday, with 48 still missing, as a wave of ",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "61ba72cd707f",
    "title": "Most Israelis think settlements policy should change to avoid more sanctions, poll finds",
    "url": "https://www.theguardian.com/world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
@@ -456,219 +591,132 @@
    "published": "2026-11-02T06:00:33+00:00",
    "note": "Survey finds UK government’s decision to impose trade ban was not a decisive factor in how Israelis voted in election The UK government’s decision to impose a ban on trade in goods",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "fdb36572848c",
-   "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
-   "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-10-26T15:07:23+00:00",
-   "note": "Commanders suspected of sexual violence during the largest and fastest slaughter of civilians in more than 30 years have been subjected to travel ban and asset freeze Senior Sudane",
-   "region": "AFRICA"
-  },
-  {
-   "id": "64d293be669e",
-   "title": "乌克兰：联合国援助400多名撤离围困的民众，呼吁保障冬季能源供应",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143119",
-   "component": "economy",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "联合国世界粮食计划署周一表示，在乌克兰赫尔松地区短暂停火期间，400多名民众得以从俄罗斯控制的奥莱什基市撤离。粮食署已向他们提供紧急食品援助，并准备根据后续撤离情况扩大援助规模。与此同时，联合国开发计划署呼吁国际社会继续提供资金支持，帮助乌克兰在严冬来临前恢复能源供应。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "6a2aaf71d08e",
-   "title": "世卫组织警告：埃塞俄比亚北部暴力冲突使卫生系统濒临崩溃",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143117",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "埃塞俄比亚北部上周末发生致命无人机袭击后，世界卫生组织总干事谭德塞周一呼吁加强对受冲突影响平民的保护。他警告，持续的暴力正将本已脆弱的卫生系统推向崩溃边缘。",
-   "region": "AFRICA"
-  },
-  {
-   "id": "44842eaf436e",
-   "title": "国际刑事法院院长呼吁联合国会员国捍卫司法独立，抵制针对国际刑事司法的施压",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143115",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "联合国大会周一（11月2日）听取了国际刑事法院院长赤根智子（Tomoko Akane）提交的法院年度工作报告。赤根表示，国际刑事法院正面临前所未有的制裁和施压，但法院将继续独立、公正地履行职责。她同时呼吁各国采取具体行动，维护《罗马规约》和国际法治原则。",
-   "region": "OTHER"
-  },
-  {
-   "id": "0f3f471bfb1b",
-   "title": "教科文组织：每七起记者遇害案件中，六起未能惩治凶手",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143114",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "联合国教科文组织周一表示，全球记者遇害案件中，凶手未受惩罚的比例十多年来首次上升。同时，无人机越来越多地被用于袭击记者，成为冲突地区新闻工作者面临的新威胁。",
-   "region": "OTHER"
-  },
-  {
-   "id": "dcd60581a348",
-   "title": "【世界进行时】2026年10月30日",
-   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143108",
-   "component": "economy",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-10-30T12:00:00+00:00",
-   "note": "本期要点：美古代表在联合国大会现场激烈交锋；独立调查委员会认定：俄军袭击乌克兰能源设施已构成战争罪；四大受战火影响国家，近千万民众面临严寒无着；阿富汗鸦片产量出现反弹，激增至上一年的五倍；缅甸因冲突死亡人数已超过10万；联合国官员专访：透视朝鲜人权与生活现状；武装冲突中女性死亡人数过去五年内翻倍；全球生态系统恢复取得新进展，但海洋吸碳能力减弱、温室气体浓度再",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "1e2c06b2eb0b",
-   "title": "乌克兰：奥列什基停火为平民带来希望，但救援车辆仍遭袭击",
-   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143106",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-10-30T12:00:00+00:00",
-   "note": "联合国最高人道主义官员周五表示，乌克兰南部赫尔松州奥列什基的停火每维持一天，当地平民就多一份希望。他强调，必须保障希望撤离的平民能够安全、自愿地离开。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "47bf393d9750",
-   "title": "人权高专办：加沙民众正深陷反复流离失所的“梦魇”",
-   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143101",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-10-30T12:00:00+00:00",
-   "note": "联合国人权事务高级专员办事处周五警告，以色列军队不断将巴勒斯坦人逼向加沙地带日益狭小的区域，同时破坏民用基础设施、袭击流离失所者安置点，引发国际社会对种族清洗的担忧。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "8b8bd25b42e0",
-   "title": "【子午播报】2026年10月30日",
-   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143097",
-   "component": "economy",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-10-30T12:00:00+00:00",
-   "note": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，美古代表联大激烈交锋，国际社会要求终结封锁；独立调查委员会表示，俄袭击乌能源设施构成国际罪行；子午聚焦：在银川打卡可持续发展目标。",
-   "region": "EAST_ASIA"
   }
  ],
  "breaking": [
   {
-   "id": "0642bc07afb4",
-   "title": "US conducts series of ‘defensive strikes’ against Iran",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/us-conducts-series-of-defensive-strikes-against-iran?traffic_source=rss",
+   "id": "355286bfabfa",
+   "title": "Bulgaria confirms bomb threats against flights from Bergamo and Dublin – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "guardian"
    ],
-   "published": "2026-11-03T10:39:36+00:00",
-   "note": "The US has carried out a series of ‘defensive strikes’ on Iranian locations near Hormuz, with explosions heard on Qeshm.",
+   "published": "2026-11-03T14:57:15+00:00",
+   "note": "Seven bomb threats have now been reported across Europe, all incidents have been confirmed as false alarms Back to Poland, Warsaw Modlin airport says it has resumed operations afte",
+   "region": "EUROPE"
+  },
+  {
+   "id": "3b7c09429341",
+   "title": "Four planes flying across Europe targeted by bomb threats",
+   "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T14:21:24+00:00",
+   "note": "Flights from London, Manchester, Copenhagen and Israel affected but no explosives found after touchdown Europe live – latest updates Four planes have landed safely after bomb threa",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "35dcef767bbc",
-   "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
-   "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
+   "id": "04629b882098",
+   "title": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
+   "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-03T00:07:05+00:00",
-   "note": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
-   "region": "EUROPE"
+   "published": "2026-11-03T13:26:19+00:00",
+   "note": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president calls an \"utterly horrific\" attack.",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "6c24e48b3cc1",
-   "title": "Reform UK councillor charged with 12 counts of rape",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/03/reform-uk-councillor-george-madgwick-charged-12-counts-rape",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T14:34:05+00:00",
-   "note": "George Madgwick of Hampshire county council has been charged with a total of 35 offences A Reform UK councillor has been charged with 12 counts of rape, the Crown Prosecution Servi",
-   "region": "OTHER"
-  },
-  {
-   "id": "d34eaba27fe3",
-   "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
-   "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+   "id": "4a76a07e7514",
+   "title": "Russia bombs humanitarian hub in Ukraine, killing at least 31 people",
+   "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
    "component": "military",
-   "severity": 4,
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-03T13:52:34+00:00",
-   "note": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours ",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-03T12:25:07+00:00",
+   "note": "Other overnight strikes targeted power plants across Ukraine, damaged hospitals and wounded scores of people Russia has bombed a humanitarian hub in southern Ukraine, killing at le",
+   "region": "RUSSIA_CIS"
   }
  ],
  "coverage": {
   "sources_ok": 15,
   "sources_failed": 1,
-  "items": 42927,
+  "items": 42928,
   "gdelt_events": 42708,
   "mode": "live",
   "data_through": "2026-11-02",
-  "clusters": 217,
-  "origins": 218,
+  "clusters": 218,
+  "origins": 219,
   "components_covered": 42,
   "components_required": 60,
   "components_saturated": 25,
   "saturated_ratio": 0.595,
   "note": "覆盖不足时请看置信度，不要看指数"
+ },
+ "diagnostics": {
+  "region": "NORTH_AMERICA",
+  "history_days": 90,
+  "components": {
+   "military": {
+    "now": 1646.14,
+    "p50": 12.03,
+    "p90": 21.48,
+    "ratio": 136.88,
+    "z": 2.2
+   },
+   "physical": {
+    "now": 0.0,
+    "p50": null,
+    "p90": null,
+    "ratio": null,
+    "z": null
+   },
+   "diplomacy": {
+    "now": 1111.27,
+    "p50": 9.37,
+    "p90": 16.06,
+    "ratio": 118.58,
+    "z": 2.2
+   },
+   "economy": {
+    "now": 771.55,
+    "p50": 8.86,
+    "p90": 16.79,
+    "ratio": 87.06,
+    "z": 2.2
+   },
+   "internal": {
+    "now": 268.32,
+    "p50": 2.51,
+    "p90": 6.75,
+    "ratio": 106.96,
+    "z": 2.19
+   },
+   "narrative": {
+    "now": 0.0,
+    "p50": null,
+    "p90": null,
+    "ratio": null,
+    "z": null
+   }
+  }
  },
  "series": [
   {
@@ -729,99 +777,99 @@
   },
   {
    "date": "2026-07-20",
-   "geti": 42.5
+   "geti": 41.4
   },
   {
    "date": "2026-07-21",
-   "geti": 47.2
+   "geti": 44.8
   },
   {
    "date": "2026-07-22",
-   "geti": 46.0
+   "geti": 43.7
   },
   {
    "date": "2026-07-23",
-   "geti": 54.1
+   "geti": 53.9
   },
   {
    "date": "2026-07-24",
-   "geti": 57.0
+   "geti": 57.3
   },
   {
    "date": "2026-07-25",
-   "geti": 57.9
+   "geti": 57.6
   },
   {
    "date": "2026-07-26",
-   "geti": 61.0
+   "geti": 62.0
   },
   {
    "date": "2026-07-27",
-   "geti": 54.0
+   "geti": 55.1
   },
   {
    "date": "2026-07-28",
-   "geti": 48.9
+   "geti": 50.5
   },
   {
    "date": "2026-07-29",
-   "geti": 48.3
-  },
-  {
-   "date": "2026-07-30",
    "geti": 49.2
   },
   {
+   "date": "2026-07-30",
+   "geti": 50.8
+  },
+  {
    "date": "2026-07-31",
-   "geti": 53.7
+   "geti": 55.9
   },
   {
    "date": "2026-08-01",
-   "geti": 54.4
+   "geti": 55.4
   },
   {
    "date": "2026-08-02",
-   "geti": 52.8
+   "geti": 52.2
   },
   {
    "date": "2026-08-03",
-   "geti": 52.3
+   "geti": 49.4
   },
   {
    "date": "2026-08-04",
-   "geti": 46.7
+   "geti": 44.5
   },
   {
    "date": "2026-08-05",
-   "geti": 41.7
+   "geti": 39.0
   },
   {
    "date": "2026-08-06",
-   "geti": 43.5
+   "geti": 43.8
   },
   {
    "date": "2026-08-07",
-   "geti": 43.3
+   "geti": 43.2
   },
   {
    "date": "2026-08-08",
-   "geti": 42.7
+   "geti": 41.5
   },
   {
    "date": "2026-08-09",
-   "geti": 34.3
+   "geti": 34.2
   },
   {
    "date": "2026-08-10",
-   "geti": 38.5
+   "geti": 37.8
   },
   {
    "date": "2026-08-11",
-   "geti": 37.4
+   "geti": 37.6
   },
   {
    "date": "2026-08-12",
-   "geti": 41.0
+   "geti": 40.4
   },
   {
    "date": "2026-08-13",
@@ -829,127 +877,127 @@
   },
   {
    "date": "2026-08-14",
-   "geti": 46.3
+   "geti": 45.0
   },
   {
    "date": "2026-08-15",
-   "geti": 50.2
+   "geti": 47.6
   },
   {
    "date": "2026-08-16",
-   "geti": 49.4
+   "geti": 47.0
   },
   {
    "date": "2026-08-17",
-   "geti": 45.9
+   "geti": 42.0
   },
   {
    "date": "2026-08-18",
-   "geti": 38.2
+   "geti": 36.1
   },
   {
    "date": "2026-08-19",
-   "geti": 34.7
+   "geti": 32.8
   },
   {
    "date": "2026-08-20",
-   "geti": 46.5
+   "geti": 42.8
   },
   {
    "date": "2026-08-21",
-   "geti": 50.4
+   "geti": 48.1
   },
   {
    "date": "2026-08-22",
-   "geti": 46.5
+   "geti": 46.4
   },
   {
    "date": "2026-08-23",
-   "geti": 39.0
-  },
-  {
-   "date": "2026-08-24",
-   "geti": 43.5
-  },
-  {
-   "date": "2026-08-25",
-   "geti": 43.2
-  },
-  {
-   "date": "2026-08-26",
-   "geti": 35.4
-  },
-  {
-   "date": "2026-08-27",
-   "geti": 46.0
-  },
-  {
-   "date": "2026-08-28",
-   "geti": 52.5
-  },
-  {
-   "date": "2026-08-29",
-   "geti": 56.6
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 58.9
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 59.4
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 51.7
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 47.8
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 45.6
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 48.9
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 45.6
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 41.1
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 35.2
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 35.9
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 33.3
-  },
-  {
-   "date": "2026-09-10",
    "geti": 38.7
   },
   {
+   "date": "2026-08-24",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-08-25",
+   "geti": 40.8
+  },
+  {
+   "date": "2026-08-26",
+   "geti": 33.7
+  },
+  {
+   "date": "2026-08-27",
+   "geti": 45.7
+  },
+  {
+   "date": "2026-08-28",
+   "geti": 50.3
+  },
+  {
+   "date": "2026-08-29",
+   "geti": 54.4
+  },
+  {
+   "date": "2026-08-30",
+   "geti": 57.1
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 59.1
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 51.1
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 46.4
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 43.6
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 44.8
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 43.0
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 39.7
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 33.9
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 33.3
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 31.2
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 36.5
+  },
+  {
    "date": "2026-09-11",
-   "geti": 38.6
+   "geti": 35.5
   },
   {
    "date": "2026-09-12",
-   "geti": 34.3
+   "geti": 31.8
   },
   {
    "date": "2026-09-13",
-   "geti": 29.6
+   "geti": 28.3
   },
   {
    "date": "2026-09-14",
@@ -957,31 +1005,31 @@
   },
   {
    "date": "2026-09-15",
-   "geti": 30.9
+   "geti": 30.6
   },
   {
    "date": "2026-09-16",
-   "geti": 33.5
+   "geti": 34.0
   },
   {
    "date": "2026-09-17",
-   "geti": 40.6
+   "geti": 41.1
   },
   {
    "date": "2026-09-18",
-   "geti": 38.8
+   "geti": 36.9
   },
   {
    "date": "2026-09-19",
-   "geti": 41.0
+   "geti": 41.1
   },
   {
    "date": "2026-09-20",
-   "geti": 46.4
+   "geti": 47.3
   },
   {
    "date": "2026-09-21",
-   "geti": 46.4
+   "geti": 46.7
   },
   {
    "date": "2026-09-22",
@@ -989,67 +1037,67 @@
   },
   {
    "date": "2026-09-23",
-   "geti": 48.3
+   "geti": 47.3
   },
   {
    "date": "2026-09-24",
-   "geti": 53.3
+   "geti": 49.8
   },
   {
    "date": "2026-09-25",
-   "geti": 52.6
+   "geti": 50.5
   },
   {
    "date": "2026-09-26",
-   "geti": 54.2
+   "geti": 54.6
   },
   {
    "date": "2026-09-27",
-   "geti": 46.6
+   "geti": 47.1
   },
   {
    "date": "2026-09-28",
-   "geti": 41.1
+   "geti": 40.0
   },
   {
    "date": "2026-09-29",
-   "geti": 37.3
+   "geti": 36.7
   },
   {
    "date": "2026-09-30",
-   "geti": 36.4
+   "geti": 36.7
   },
   {
    "date": "2026-10-01",
-   "geti": 36.9
+   "geti": 34.8
   },
   {
    "date": "2026-10-02",
-   "geti": 42.5
+   "geti": 41.0
   },
   {
    "date": "2026-10-03",
-   "geti": 39.3
+   "geti": 37.7
   },
   {
    "date": "2026-10-04",
-   "geti": 44.3
+   "geti": 44.1
   },
   {
    "date": "2026-10-05",
-   "geti": 38.3
+   "geti": 39.4
   },
   {
    "date": "2026-10-06",
-   "geti": 40.9
+   "geti": 40.1
   },
   {
    "date": "2026-10-07",
-   "geti": 36.2
+   "geti": 35.8
   },
   {
    "date": "2026-10-08",
-   "geti": 30.5
+   "geti": 30.2
   },
   {
    "date": "2026-10-09",
@@ -1057,99 +1105,99 @@
   },
   {
    "date": "2026-10-10",
-   "geti": 46.2
+   "geti": 45.6
   },
   {
    "date": "2026-10-11",
-   "geti": 52.8
+   "geti": 54.1
   },
   {
    "date": "2026-10-12",
-   "geti": 41.3
+   "geti": 42.0
   },
   {
    "date": "2026-10-13",
-   "geti": 40.3
+   "geti": 40.0
   },
   {
    "date": "2026-10-14",
-   "geti": 40.2
+   "geti": 39.9
   },
   {
    "date": "2026-10-15",
-   "geti": 42.2
-  },
-  {
-   "date": "2026-10-16",
-   "geti": 48.3
-  },
-  {
-   "date": "2026-10-17",
-   "geti": 53.4
-  },
-  {
-   "date": "2026-10-18",
-   "geti": 54.8
-  },
-  {
-   "date": "2026-10-19",
-   "geti": 52.4
-  },
-  {
-   "date": "2026-10-20",
-   "geti": 46.6
-  },
-  {
-   "date": "2026-10-21",
    "geti": 43.2
   },
   {
+   "date": "2026-10-16",
+   "geti": 48.4
+  },
+  {
+   "date": "2026-10-17",
+   "geti": 54.0
+  },
+  {
+   "date": "2026-10-18",
+   "geti": 56.1
+  },
+  {
+   "date": "2026-10-19",
+   "geti": 53.6
+  },
+  {
+   "date": "2026-10-20",
+   "geti": 46.8
+  },
+  {
+   "date": "2026-10-21",
+   "geti": 42.8
+  },
+  {
    "date": "2026-10-22",
-   "geti": 42.6
+   "geti": 41.9
   },
   {
    "date": "2026-10-23",
-   "geti": 40.4
+   "geti": 39.7
   },
   {
    "date": "2026-10-24",
-   "geti": 49.6
+   "geti": 48.0
   },
   {
    "date": "2026-10-25",
-   "geti": 56.6
+   "geti": 57.2
   },
   {
    "date": "2026-10-26",
-   "geti": 46.2
+   "geti": 45.9
   },
   {
    "date": "2026-10-27",
-   "geti": 56.6
+   "geti": 54.8
   },
   {
    "date": "2026-10-28",
-   "geti": 63.7
+   "geti": 62.7
   },
   {
    "date": "2026-10-29",
-   "geti": 68.1
+   "geti": 66.2
   },
   {
    "date": "2026-10-30",
-   "geti": 69.9
+   "geti": 70.1
   },
   {
    "date": "2026-10-31",
-   "geti": 70.2
+   "geti": 71.5
   },
   {
    "date": "2026-11-01",
-   "geti": 73.2
+   "geti": 75.6
   },
   {
    "date": "2026-11-02",
-   "geti": 75.1
+   "geti": 78.2
   }
  ],
  "market": {
@@ -1278,7 +1326,7 @@
   {
    "source": "dw",
    "ok": true,
-   "items": 12,
+   "items": 13,
    "error": ""
   },
   {
