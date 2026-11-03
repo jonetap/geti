@@ -1,182 +1,182 @@
 {
- "index_version": "geti-0.3.1",
- "generated_at": "2026-11-03T15:24:41+00:00",
+ "index_version": "geti-0.4.0",
+ "generated_at": "2026-11-03T15:29:59+00:00",
  "date": "2026-11-02",
- "geti": 67.6,
- "delta_z": 0.99,
- "delta_pts": 8.7,
+ "geti": 68.3,
+ "delta_z": 0.82,
+ "delta_pts": 6.2,
  "confidence": 0.94,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
  "driver_label": "北美",
  "regions": [
   {
-   "code": "OTHER",
-   "label": "其他",
-   "score": 88.2,
-   "delta": 0.8,
-   "excluded": true,
-   "drivers": [
-    [
-     "diplomacy",
-     2.2
-    ],
-    [
-     "economy",
-     2.2
-    ]
-   ]
-  },
-  {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 87.2,
-   "delta": 0.1,
+   "score": 79.2,
+   "delta": 1.9,
    "excluded": false,
    "drivers": [
     [
      "military",
-     2.2
+     1.69
     ],
     [
      "diplomacy",
-     2.2
+     1.58
+    ]
+   ]
+  },
+  {
+   "code": "OTHER",
+   "label": "其他",
+   "score": 75.8,
+   "delta": 0.3,
+   "excluded": true,
+   "drivers": [
+    [
+     "military",
+     1.48
+    ],
+    [
+     "diplomacy",
+     1.32
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 87.2,
-   "delta": 0.0,
+   "score": 74.6,
+   "delta": -0.6,
    "excluded": false,
    "drivers": [
     [
      "military",
-     2.2
+     1.41
     ],
     [
      "diplomacy",
-     2.19
-    ]
-   ]
-  },
-  {
-   "code": "MIDDLE_EAST",
-   "label": "中东",
-   "score": 85.2,
-   "delta": -0.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     2.19
-    ],
-    [
-     "diplomacy",
-     2.19
+     1.27
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 83.4,
-   "delta": -1.4,
+   "score": 73.9,
+   "delta": -0.9,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     2.2
+     "military",
+     1.45
     ],
     [
+     "diplomacy",
+     1.33
+    ]
+   ]
+  },
+  {
+   "code": "MIDDLE_EAST",
+   "label": "中东",
+   "score": 73.0,
+   "delta": -0.7,
+   "excluded": false,
+   "drivers": [
+    [
      "military",
-     2.19
+     1.47
+    ],
+    [
+     "diplomacy",
+     1.27
     ]
    ]
   },
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 82.5,
-   "delta": 1.1,
+   "score": 71.0,
+   "delta": 2.1,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     2.2
+     "military",
+     1.3
     ],
     [
-     "military",
-     2.16
+     "diplomacy",
+     1.16
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 82.2,
-   "delta": 1.4,
+   "score": 66.9,
+   "delta": 2.6,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     2.2
+     "military",
+     1.03
     ],
     [
-     "military",
-     2.13
-    ]
-   ]
-  },
-  {
-   "code": "OCEANIA",
-   "label": "大洋洲",
-   "score": 80.1,
-   "delta": 1.1,
-   "excluded": false,
-   "drivers": [
-    [
      "diplomacy",
-     2.2
-    ],
-    [
-     "military",
-     2.12
+     0.89
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 79.3,
+   "score": 64.2,
    "delta": 2.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     2.19
+     1.28
     ],
     [
      "diplomacy",
-     2.18
+     0.93
+    ]
+   ]
+  },
+  {
+   "code": "OCEANIA",
+   "label": "大洋洲",
+   "score": 61.7,
+   "delta": 1.2,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.8
+    ],
+    [
+     "diplomacy",
+     0.79
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 54.9,
-   "delta": -0.2,
+   "score": 46.0,
+   "delta": -1.0,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     0.96
+     "internal",
+     -0.68
     ],
     [
-     "internal",
-     -0.69
+     "economy",
+     -0.6
     ]
    ]
   }
@@ -186,9 +186,9 @@
    "key": "military",
    "label": "军事升级",
    "weight": 0.26,
-   "z": 2.2,
-   "score": 94.0,
-   "contrib": 0.371
+   "z": 1.69,
+   "score": 89.3,
+   "contrib": 0.413
   },
   {
    "key": "physical",
@@ -202,25 +202,25 @@
    "key": "diplomacy",
    "label": "外交",
    "weight": 0.18,
-   "z": 2.2,
-   "score": 94.0,
-   "contrib": 0.257
+   "z": 1.58,
+   "score": 87.8,
+   "contrib": 0.267
   },
   {
    "key": "economy",
    "label": "经济",
    "weight": 0.15,
-   "z": 2.2,
-   "score": 94.0,
-   "contrib": 0.214
+   "z": 1.42,
+   "score": 85.5,
+   "contrib": 0.2
   },
   {
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
-   "z": 2.2,
-   "score": 94.0,
-   "contrib": 0.157
+   "z": 1.17,
+   "score": 81.2,
+   "contrib": 0.121
   },
   {
    "key": "narrative",
@@ -396,21 +396,6 @@
    "published": "2026-11-02T19:49:22+00:00",
    "note": "A private jet crashed in Florida on Sunday, killing all nine people on board, according to US authorities.",
    "region": "OTHER"
-  },
-  {
-   "id": "c2a1568886c5",
-   "title": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
-   "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.28,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-03T10:58:38+00:00",
-   "note": "The death toll from a Russian attack in southern Ukraine on a site where people had gathered to receive humanitarian aid rose to 29 on Tuesday, with 48 still missing, as a wave of ",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "328551c17a05",
@@ -591,6 +576,21 @@
    "published": "2026-11-02T06:00:33+00:00",
    "note": "Survey finds UK government’s decision to impose trade ban was not a decisive factor in how Israelis voted in election The UK government’s decision to impose a ban on trade in goods",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "64d293be669e",
+   "title": "乌克兰：联合国援助400多名撤离围困的民众，呼吁保障冬季能源供应",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143119",
+   "component": "economy",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "联合国世界粮食计划署周一表示，在乌克兰赫尔松地区短暂停火期间，400多名民众得以从俄罗斯控制的奥莱什基市撤离。粮食署已向他们提供紧急食品援助，并准备根据后续撤离情况扩大援助规模。与此同时，联合国开发计划署呼吁国际社会继续提供资金支持，帮助乌克兰在严冬来临前恢复能源供应。",
+   "region": "RUSSIA_CIS"
   }
  ],
  "breaking": [
@@ -664,16 +664,14 @@
   "data_through": "2026-11-02",
   "clusters": 218,
   "origins": 219,
-  "failed_days": 3,
+  "failed_days": 1,
   "failed_days_last": [
-   "2026-07-31",
-   "2026-10-29",
    "2026-10-30"
   ],
   "components_covered": 42,
   "components_required": 60,
-  "components_saturated": 25,
-  "saturated_ratio": 0.595,
+  "components_saturated": 0,
+  "saturated_ratio": 0.0,
   "note": "覆盖不足时请看置信度，不要看指数"
  },
  "diagnostics": {
@@ -681,11 +679,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 1646.14,
-    "p50": 12.06,
-    "p90": 20.35,
-    "ratio": 136.54,
-    "z": 2.2
+    "now": 3.4,
+    "p50": 0.43,
+    "p90": 0.85,
+    "ratio": 7.89,
+    "z": 1.69
    },
    "physical": {
     "now": 0.0,
@@ -695,25 +693,25 @@
     "z": null
    },
    "diplomacy": {
-    "now": 1111.27,
-    "p50": 8.92,
-    "p90": 15.87,
-    "ratio": 124.55,
-    "z": 2.2
+    "now": 2.72,
+    "p50": 0.38,
+    "p90": 0.72,
+    "ratio": 7.25,
+    "z": 1.58
    },
    "economy": {
-    "now": 771.55,
-    "p50": 8.63,
-    "p90": 16.98,
-    "ratio": 89.43,
-    "z": 2.2
+    "now": 2.21,
+    "p50": 0.38,
+    "p90": 0.69,
+    "ratio": 5.85,
+    "z": 1.42
    },
    "internal": {
-    "now": 268.32,
-    "p50": 2.45,
-    "p90": 6.79,
-    "ratio": 109.41,
-    "z": 2.2
+    "now": 1.21,
+    "p50": 0.15,
+    "p90": 0.38,
+    "ratio": 8.05,
+    "z": 1.17
    },
    "narrative": {
     "now": 0.0,
@@ -783,427 +781,427 @@
   },
   {
    "date": "2026-07-20",
-   "geti": 41.3
+   "geti": 44.9
   },
   {
    "date": "2026-07-21",
-   "geti": 44.8
-  },
-  {
-   "date": "2026-07-22",
-   "geti": 43.7
-  },
-  {
-   "date": "2026-07-23",
-   "geti": 53.8
-  },
-  {
-   "date": "2026-07-24",
-   "geti": 57.2
-  },
-  {
-   "date": "2026-07-25",
-   "geti": 57.5
-  },
-  {
-   "date": "2026-07-26",
-   "geti": 62.0
-  },
-  {
-   "date": "2026-07-27",
-   "geti": 55.1
-  },
-  {
-   "date": "2026-07-28",
-   "geti": 50.6
-  },
-  {
-   "date": "2026-07-29",
-   "geti": 49.3
-  },
-  {
-   "date": "2026-07-30",
-   "geti": 50.7
-  },
-  {
-   "date": "2026-07-31",
-   "geti": 35.1
-  },
-  {
-   "date": "2026-08-01",
-   "geti": 42.8
-  },
-  {
-   "date": "2026-08-02",
-   "geti": 45.7
-  },
-  {
-   "date": "2026-08-03",
-   "geti": 46.1
-  },
-  {
-   "date": "2026-08-04",
-   "geti": 42.6
-  },
-  {
-   "date": "2026-08-05",
-   "geti": 38.3
-  },
-  {
-   "date": "2026-08-06",
-   "geti": 43.3
-  },
-  {
-   "date": "2026-08-07",
-   "geti": 43.3
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 42.9
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 35.4
-  },
-  {
-   "date": "2026-08-10",
-   "geti": 39.0
-  },
-  {
-   "date": "2026-08-11",
-   "geti": 39.0
-  },
-  {
-   "date": "2026-08-12",
-   "geti": 42.1
-  },
-  {
-   "date": "2026-08-13",
    "geti": 46.7
   },
   {
-   "date": "2026-08-14",
-   "geti": 46.6
-  },
-  {
-   "date": "2026-08-15",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-16",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-17",
-   "geti": 44.0
-  },
-  {
-   "date": "2026-08-18",
-   "geti": 37.9
-  },
-  {
-   "date": "2026-08-19",
-   "geti": 34.5
-  },
-  {
-   "date": "2026-08-20",
-   "geti": 44.5
-  },
-  {
-   "date": "2026-08-21",
-   "geti": 49.4
-  },
-  {
-   "date": "2026-08-22",
-   "geti": 47.6
-  },
-  {
-   "date": "2026-08-23",
-   "geti": 39.6
-  },
-  {
-   "date": "2026-08-24",
-   "geti": 42.0
-  },
-  {
-   "date": "2026-08-25",
-   "geti": 41.4
-  },
-  {
-   "date": "2026-08-26",
-   "geti": 34.1
-  },
-  {
-   "date": "2026-08-27",
-   "geti": 46.0
-  },
-  {
-   "date": "2026-08-28",
-   "geti": 50.9
-  },
-  {
-   "date": "2026-08-29",
-   "geti": 54.9
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 57.9
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 59.7
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 51.6
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 47.1
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 44.3
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 45.6
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 43.9
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 40.2
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 34.3
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 33.4
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 31.2
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 36.5
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 35.6
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 32.0
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 28.5
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 29.7
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 30.9
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 34.3
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 41.2
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 37.0
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 41.2
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 47.3
-  },
-  {
-   "date": "2026-09-21",
-   "geti": 46.6
-  },
-  {
-   "date": "2026-09-22",
-   "geti": 46.4
-  },
-  {
-   "date": "2026-09-23",
-   "geti": 47.5
-  },
-  {
-   "date": "2026-09-24",
-   "geti": 49.7
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 50.4
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 54.6
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 47.2
-  },
-  {
-   "date": "2026-09-28",
-   "geti": 40.2
-  },
-  {
-   "date": "2026-09-29",
-   "geti": 37.1
-  },
-  {
-   "date": "2026-09-30",
-   "geti": 37.1
-  },
-  {
-   "date": "2026-10-01",
-   "geti": 35.0
-  },
-  {
-   "date": "2026-10-02",
-   "geti": 40.8
-  },
-  {
-   "date": "2026-10-03",
-   "geti": 37.5
-  },
-  {
-   "date": "2026-10-04",
+   "date": "2026-07-22",
    "geti": 44.1
   },
   {
-   "date": "2026-10-05",
-   "geti": 39.5
+   "date": "2026-07-23",
+   "geti": 53.6
   },
   {
-   "date": "2026-10-06",
-   "geti": 39.8
+   "date": "2026-07-24",
+   "geti": 57.3
   },
   {
-   "date": "2026-10-07",
-   "geti": 35.7
+   "date": "2026-07-25",
+   "geti": 59.1
   },
   {
-   "date": "2026-10-08",
-   "geti": 30.2
+   "date": "2026-07-26",
+   "geti": 63.1
   },
   {
-   "date": "2026-10-09",
-   "geti": 37.7
+   "date": "2026-07-27",
+   "geti": 58.3
   },
   {
-   "date": "2026-10-10",
-   "geti": 45.9
+   "date": "2026-07-28",
+   "geti": 54.1
   },
   {
-   "date": "2026-10-11",
-   "geti": 54.3
+   "date": "2026-07-29",
+   "geti": 50.3
   },
   {
-   "date": "2026-10-12",
-   "geti": 42.3
+   "date": "2026-07-30",
+   "geti": 51.0
   },
   {
-   "date": "2026-10-13",
-   "geti": 40.2
+   "date": "2026-07-31",
+   "geti": 54.1
   },
   {
-   "date": "2026-10-14",
-   "geti": 39.7
+   "date": "2026-08-01",
+   "geti": 55.0
   },
   {
-   "date": "2026-10-15",
-   "geti": 42.7
+   "date": "2026-08-02",
+   "geti": 55.3
   },
   {
-   "date": "2026-10-16",
-   "geti": 48.2
+   "date": "2026-08-03",
+   "geti": 52.7
   },
   {
-   "date": "2026-10-17",
-   "geti": 54.0
+   "date": "2026-08-04",
+   "geti": 52.8
   },
   {
-   "date": "2026-10-18",
-   "geti": 56.8
+   "date": "2026-08-05",
+   "geti": 46.3
   },
   {
-   "date": "2026-10-19",
-   "geti": 54.2
+   "date": "2026-08-06",
+   "geti": 49.3
   },
   {
-   "date": "2026-10-20",
-   "geti": 47.0
+   "date": "2026-08-07",
+   "geti": 47.6
   },
   {
-   "date": "2026-10-21",
-   "geti": 43.2
-  },
-  {
-   "date": "2026-10-22",
-   "geti": 42.1
-  },
-  {
-   "date": "2026-10-23",
-   "geti": 39.8
-  },
-  {
-   "date": "2026-10-24",
-   "geti": 48.1
-  },
-  {
-   "date": "2026-10-25",
-   "geti": 57.2
-  },
-  {
-   "date": "2026-10-26",
+   "date": "2026-08-08",
    "geti": 46.2
   },
   {
-   "date": "2026-10-27",
-   "geti": 54.9
+   "date": "2026-08-09",
+   "geti": 42.3
   },
   {
-   "date": "2026-10-28",
-   "geti": 62.7
+   "date": "2026-08-10",
+   "geti": 47.1
   },
   {
-   "date": "2026-10-29",
+   "date": "2026-08-11",
+   "geti": 49.1
+  },
+  {
+   "date": "2026-08-12",
+   "geti": 50.8
+  },
+  {
+   "date": "2026-08-13",
+   "geti": 50.7
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 49.8
+  },
+  {
+   "date": "2026-08-15",
+   "geti": 53.2
+  },
+  {
+   "date": "2026-08-16",
+   "geti": 54.0
+  },
+  {
+   "date": "2026-08-17",
+   "geti": 47.3
+  },
+  {
+   "date": "2026-08-18",
+   "geti": 43.3
+  },
+  {
+   "date": "2026-08-19",
+   "geti": 41.0
+  },
+  {
+   "date": "2026-08-20",
+   "geti": 46.2
+  },
+  {
+   "date": "2026-08-21",
+   "geti": 49.1
+  },
+  {
+   "date": "2026-08-22",
+   "geti": 46.5
+  },
+  {
+   "date": "2026-08-23",
+   "geti": 41.7
+  },
+  {
+   "date": "2026-08-24",
+   "geti": 46.2
+  },
+  {
+   "date": "2026-08-25",
+   "geti": 44.2
+  },
+  {
+   "date": "2026-08-26",
+   "geti": 39.0
+  },
+  {
+   "date": "2026-08-27",
+   "geti": 49.4
+  },
+  {
+   "date": "2026-08-28",
+   "geti": 52.0
+  },
+  {
+   "date": "2026-08-29",
+   "geti": 52.2
+  },
+  {
+   "date": "2026-08-30",
+   "geti": 57.8
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 59.0
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 52.4
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 51.4
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 49.3
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 49.2
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 51.3
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 49.2
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 44.5
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 43.8
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 41.6
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 39.7
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 39.3
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 42.2
+  },
+  {
+   "date": "2026-09-13",
+   "geti": 44.1
+  },
+  {
+   "date": "2026-09-14",
+   "geti": 43.1
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 44.2
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 45.1
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 42.4
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 45.9
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 51.4
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 47.9
+  },
+  {
+   "date": "2026-09-22",
+   "geti": 46.1
+  },
+  {
+   "date": "2026-09-23",
+   "geti": 48.2
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-09-25",
    "geti": 42.6
   },
   {
+   "date": "2026-09-26",
+   "geti": 47.6
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 47.1
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 42.4
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 38.7
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 35.2
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 39.3
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 40.5
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 44.8
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 46.8
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 47.8
+  },
+  {
+   "date": "2026-10-07",
+   "geti": 45.9
+  },
+  {
+   "date": "2026-10-08",
+   "geti": 44.2
+  },
+  {
+   "date": "2026-10-09",
+   "geti": 47.0
+  },
+  {
+   "date": "2026-10-10",
+   "geti": 52.5
+  },
+  {
+   "date": "2026-10-11",
+   "geti": 57.2
+  },
+  {
+   "date": "2026-10-12",
+   "geti": 52.5
+  },
+  {
+   "date": "2026-10-13",
+   "geti": 52.1
+  },
+  {
+   "date": "2026-10-14",
+   "geti": 52.7
+  },
+  {
+   "date": "2026-10-15",
+   "geti": 56.5
+  },
+  {
+   "date": "2026-10-16",
+   "geti": 56.6
+  },
+  {
+   "date": "2026-10-17",
+   "geti": 56.1
+  },
+  {
+   "date": "2026-10-18",
+   "geti": 57.4
+  },
+  {
+   "date": "2026-10-19",
+   "geti": 58.2
+  },
+  {
+   "date": "2026-10-20",
+   "geti": 54.5
+  },
+  {
+   "date": "2026-10-21",
+   "geti": 50.2
+  },
+  {
+   "date": "2026-10-22",
+   "geti": 49.5
+  },
+  {
+   "date": "2026-10-23",
+   "geti": 53.7
+  },
+  {
+   "date": "2026-10-24",
+   "geti": 57.0
+  },
+  {
+   "date": "2026-10-25",
+   "geti": 62.7
+  },
+  {
+   "date": "2026-10-26",
+   "geti": 55.1
+  },
+  {
+   "date": "2026-10-27",
+   "geti": 56.5
+  },
+  {
+   "date": "2026-10-28",
+   "geti": 61.4
+  },
+  {
+   "date": "2026-10-29",
+   "geti": 61.9
+  },
+  {
    "date": "2026-10-30",
-   "geti": 29.6
+   "geti": 45.4
   },
   {
    "date": "2026-10-31",
-   "geti": 45.5
+   "geti": 53.2
   },
   {
    "date": "2026-11-01",
-   "geti": 58.9
+   "geti": 62.1
   },
   {
    "date": "2026-11-02",
-   "geti": 67.6
+   "geti": 68.3
   }
  ],
  "market": {
