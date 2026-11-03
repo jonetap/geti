@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-03T16:04:54+00:00",
+ "generated_at": "2026-11-03T20:58:10+00:00",
  "date": "2026-11-02",
  "geti": 68.3,
  "delta_z": 0.82,
@@ -245,8 +245,83 @@
  ],
  "events": [
   {
+   "id": "7de2da2f4a44",
+   "title": "Spanish transport minister resigns days after deadly train crash",
+   "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T20:56:32+00:00",
+   "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+   "region": "OTHER"
+  },
+  {
+   "id": "554480cde850",
+   "title": "Seven flights across Europe targeted by suspected bomb threats",
+   "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T20:42:47+00:00",
+   "note": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "5938199776fc",
+   "title": "Nasa telescope launched in 2004 to plunge back to Earth after failed rescue mission",
+   "url": "https://www.theguardian.com/science/2026/nov/03/nasa-telescope-neil-gehrels-swift-observatory",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T19:50:27+00:00",
+   "note": "Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere Wednesday, burning up in the process Nasa’s Neil Gehrels Swift Observatory, which has spent two decades st",
+   "region": "OTHER"
+  },
+  {
+   "id": "48a2d0d66500",
+   "title": "Convicted murderer who escaped from Tennessee prison captured in Missouri",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/jacob-morley-tennessee-prisoner-capture",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T19:42:35+00:00",
+   "note": "Jacob Morley, serving a life sentence for killing a co-worker, slipped through a prison fence last week A man convicted of murder who escaped from a Tennessee prison was recaptured",
+   "region": "OTHER"
+  },
+  {
+   "id": "c5bd585d67c7",
+   "title": "Fake bomb threats on flights and cruise ship cause travel disruption in Europe",
+   "url": "https://www.scmp.com/news/world/europe/article/3373186/fake-bomb-threats-flights-and-cruise-ship-cause-travel-disruption-europe",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-03T19:04:21+00:00",
+   "note": "At least seven flights and a cruise ⁠ship in Europe received bomb threats on ⁠Tuesday, causing disruption at airports although no devices were discovered. At least ⁠two flights to ",
+   "region": "EUROPE"
+  },
+  {
    "id": "355286bfabfa",
-   "title": "Bulgaria confirms bomb threats against flights from Bergamo and Dublin – Europe live",
+   "title": "Seven reported bomb threats against European flights confirmed as false alarms – as it happened",
    "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
    "component": "military",
    "severity": 5,
@@ -255,13 +330,13 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-03T15:52:50+00:00",
-   "note": "Seven bomb threats have now been reported across Europe, all incidents have been confirmed as false alarms Back to Poland, Warsaw Modlin airport says it has resumed operations afte",
+   "published": "2026-11-03T18:22:57+00:00",
+   "note": "Bomb threats were made on routes involving a number of airlines, including Ryanair and WizzAir Back to Poland, Warsaw Modlin airport says it has resumed operations after an earlier",
    "region": "EUROPE"
   },
   {
    "id": "3b7c09429341",
-   "title": "Four planes flying across Europe targeted by bomb threats",
+   "title": "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
    "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
    "component": "military",
    "severity": 5,
@@ -270,9 +345,54 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-03T14:21:24+00:00",
-   "note": "Flights from London, Manchester, Copenhagen and Israel affected but no explosives found after touchdown Europe live – latest updates Four planes have landed safely after bomb threa",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-03T17:32:45+00:00",
+   "note": "Unclear if series of incidents affecting two UK departures and several Ryanair services, among others, were connected Seven planes across Europe have been searched or diverted afte",
+   "region": "EUROPE"
+  },
+  {
+   "id": "5475f673c6a8",
+   "title": "Darfur survivors vow to tell story of those killed after Sudan camp attacks",
+   "url": "https://www.aljazeera.com/features/2026/11/3/darfur-survivors-vow-to-tell-story-of-those-killed-after-sudan-camp-attacks?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-03T17:03:24+00:00",
+   "note": "Survivors of attacks on displacement camps in Darfur recall the lives they built, and violence that forced them to flee.",
+   "region": "AFRICA"
+  },
+  {
+   "id": "2b8f7ef8b095",
+   "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+   "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T16:57:41+00:00",
+   "note": "At least 38 people are killed in 24 hours and Ukraine's Volodymyr Zelensky warns dozens more could be trapped under rubble.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "0bc2d1df4814",
+   "title": "Opposition party organiser killed before South Africa elections",
+   "url": "https://www.aljazeera.com/news/2026/11/3/opposition-party-organiser-killed-ahead-of-south-africa-elections?traffic_source=rss",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-03T16:39:00+00:00",
+   "note": "Police are investigating the motive in murder of MKP coordinator as political killings rise during municipal elections.",
+   "region": "EUROPE"
   },
   {
    "id": "04629b882098",
@@ -280,7 +400,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -295,7 +415,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -310,7 +430,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -318,21 +438,6 @@
    "published": "2026-11-03T11:51:08+00:00",
    "note": "The two aircraft crashed just metres from the ground after trying to land at the same spot.",
    "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "0642bc07afb4",
-   "title": "US conducts series of ‘defensive strikes’ against Iran",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/us-conducts-series-of-defensive-strikes-against-iran?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-03T10:39:36+00:00",
-   "note": "The US has carried out a series of ‘defensive strikes’ on Iranian locations near Hormuz, with explosions heard on Qeshm.",
-   "region": "MIDDLE_EAST"
   },
   {
    "id": "3ce54d04cdc8",
@@ -380,12 +485,42 @@
    "region": "EUROPE"
   },
   {
+   "id": "bf251d88d4de",
+   "title": "‘Vile terrorist attack’: Russia bombs Ukraine aid centre",
+   "url": "https://www.france24.com/en/video/20261103-vile-terrorist-attack-russia-bombs-ukraine-aid-centre",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.28,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-03T16:30:08+00:00",
+   "note": "A Russian “double tap” strike on a Ukrainian school being used as an aid distribution has killed at least 31 people, according to local authorities, with Ukrainian President Volody",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "ec11df3502ec",
+   "title": "Bomb threats against European airlines force Warsaw airport closure, affect several flights",
+   "url": "https://www.france24.com/en/europe/20261103-bomb-threats-disrupt-europe-flights",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.28,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-03T15:41:48+00:00",
+   "note": "Bomb threats targeted at least 10 European airlines on Tuesday, forcing the temporary closure of a Warsaw airport and affecting at least four Ryanair flights. No explosives were fo",
+   "region": "EUROPE"
+  },
+  {
    "id": "5394b8ec989c",
    "title": "What Florida jet audio and flight data tells us about its final moments",
    "url": "https://www.bbc.co.uk/news/videos/c52e9lgxjz82o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -425,12 +560,27 @@
    "region": "AFRICA"
   },
   {
+   "id": "ff35d8dfd401",
+   "title": "Russian strikes on Dnipro kill two, injure 20 others",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/russian-strikes-on-dnipro-kill-two-injure-20-others?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-03T17:24:08+00:00",
+   "note": "Russian strikes on Dnipro damaged residential areas and several medical facilities.",
+   "region": "RUSSIA_CIS"
+  },
+  {
    "id": "d34eaba27fe3",
    "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
    "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
    "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -445,7 +595,7 @@
    "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
    "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -453,193 +603,28 @@
    "published": "2026-11-03T13:28:30+00:00",
    "note": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
    "region": "AFRICA"
-  },
-  {
-   "id": "57edd5888cd0",
-   "title": "Grain under fire: Russian, Ukrainian Black Sea attacks threaten food supply",
-   "url": "https://www.aljazeera.com/news/2026/11/3/disruptions-of-black-sea-grain-exports-spike-global-prices?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-03T12:10:47+00:00",
-   "note": "Renewed strikes on Black Sea shipping imperil grain exports, drive up food prices and deepen global food insecurity.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "afb149854fa6",
-   "title": "US strikes Iranian island ahead of midterm elections",
-   "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T11:33:33+00:00",
-   "note": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "90db80e4337d",
-   "title": "Tenerife striker De Miguel dies after on-field collision",
-   "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T09:09:18+00:00",
-   "note": "Tenerife forward Jesus de Miguel dies aged 30 after an on-field collision during a Spanish second-division match.",
-   "region": "OTHER"
-  },
-  {
-   "id": "33347a506f39",
-   "title": "US strikes Iran's Qeshm Island as midterm elections start",
-   "url": "https://www.france24.com/en/us-strikes-iran-s-qeshm-island-as-midterm-elections-start",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.28,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-03T12:12:06+00:00",
-   "note": "The United States has conducted defensive strikes on some Iranian targets in the Strait of Hormuz, a US official said Monday, on the eve of crucial midterm elections. The unpopular",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "441c12d342f5",
-   "title": "French schools blockade resume on smaller scale as holidays end",
-   "url": "https://www.france24.com/en/video/20261103-french-schools-blockade-resume-on-smaller-scale-as-holidays-end",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.28,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-03T12:01:02+00:00",
-   "note": "Students blockaded dozens of high schools across France on Tuesday to maintain pressure on the government over education reforms as trade unions prepared for a nationwide strike la",
-   "region": "EUROPE"
-  },
-  {
-   "id": "a81c489d39b3",
-   "title": "Uganda withdraws its troops from Somalia as fight against rebels persists",
-   "url": "https://www.france24.com/en/video/20261103-uganda-withdraws-its-troops-from-somalia-as-fight-against-rebels-persists",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.28,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-03T11:50:18+00:00",
-   "note": "Kampala announced on Monday it had begun pulling its troops out of Somalia. Uganda was the first country to send deployments to help Mogadishu when the African Union set up an inte",
-   "region": "AFRICA"
-  },
-  {
-   "id": "61ba72cd707f",
-   "title": "Most Israelis think settlements policy should change to avoid more sanctions, poll finds",
-   "url": "https://www.theguardian.com/world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-02T06:00:33+00:00",
-   "note": "Survey finds UK government’s decision to impose trade ban was not a decisive factor in how Israelis voted in election The UK government’s decision to impose a ban on trade in goods",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "64d293be669e",
-   "title": "乌克兰：联合国援助400多名撤离围困的民众，呼吁保障冬季能源供应",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143119",
-   "component": "economy",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "联合国世界粮食计划署周一表示，在乌克兰赫尔松地区短暂停火期间，400多名民众得以从俄罗斯控制的奥莱什基市撤离。粮食署已向他们提供紧急食品援助，并准备根据后续撤离情况扩大援助规模。与此同时，联合国开发计划署呼吁国际社会继续提供资金支持，帮助乌克兰在严冬来临前恢复能源供应。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "6a2aaf71d08e",
-   "title": "世卫组织警告：埃塞俄比亚北部暴力冲突使卫生系统濒临崩溃",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143117",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "埃塞俄比亚北部上周末发生致命无人机袭击后，世界卫生组织总干事谭德塞周一呼吁加强对受冲突影响平民的保护。他警告，持续的暴力正将本已脆弱的卫生系统推向崩溃边缘。",
-   "region": "AFRICA"
-  },
-  {
-   "id": "44842eaf436e",
-   "title": "国际刑事法院院长呼吁联合国会员国捍卫司法独立，抵制针对国际刑事司法的施压",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143115",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "联合国大会周一（11月2日）听取了国际刑事法院院长赤根智子（Tomoko Akane）提交的法院年度工作报告。赤根表示，国际刑事法院正面临前所未有的制裁和施压，但法院将继续独立、公正地履行职责。她同时呼吁各国采取具体行动，维护《罗马规约》和国际法治原则。",
-   "region": "OTHER"
   }
  ],
  "breaking": [
   {
-   "id": "355286bfabfa",
-   "title": "Bulgaria confirms bomb threats against flights from Bergamo and Dublin – Europe live",
-   "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
-   "component": "military",
+   "id": "7de2da2f4a44",
+   "title": "Spanish transport minister resigns days after deadly train crash",
+   "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "bbc"
    ],
-   "published": "2026-11-03T15:52:50+00:00",
-   "note": "Seven bomb threats have now been reported across Europe, all incidents have been confirmed as false alarms Back to Poland, Warsaw Modlin airport says it has resumed operations afte",
-   "region": "EUROPE"
+   "published": "2026-11-03T20:56:32+00:00",
+   "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+   "region": "OTHER"
   },
   {
-   "id": "3b7c09429341",
-   "title": "Four planes flying across Europe targeted by bomb threats",
-   "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T14:21:24+00:00",
-   "note": "Flights from London, Manchester, Copenhagen and Israel affected but no explosives found after touchdown Europe live – latest updates Four planes have landed safely after bomb threa",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "04629b882098",
-   "title": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
-   "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+   "id": "554480cde850",
+   "title": "Seven flights across Europe targeted by suspected bomb threats",
+   "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -647,35 +632,50 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-03T13:26:19+00:00",
-   "note": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president calls an \"utterly horrific\" attack.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-03T20:42:47+00:00",
+   "note": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+   "region": "EUROPE"
   },
   {
-   "id": "4a76a07e7514",
-   "title": "Russia bombs humanitarian hub in Ukraine, killing at least 31 people",
-   "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
-   "component": "military",
+   "id": "5938199776fc",
+   "title": "Nasa telescope launched in 2004 to plunge back to Earth after failed rescue mission",
+   "url": "https://www.theguardian.com/science/2026/nov/03/nasa-telescope-neil-gehrels-swift-observatory",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-03T12:25:07+00:00",
-   "note": "Other overnight strikes targeted power plants across Ukraine, damaged hospitals and wounded scores of people Russia has bombed a humanitarian hub in southern Ukraine, killing at le",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-03T19:50:27+00:00",
+   "note": "Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere Wednesday, burning up in the process Nasa’s Neil Gehrels Swift Observatory, which has spent two decades st",
+   "region": "OTHER"
+  },
+  {
+   "id": "48a2d0d66500",
+   "title": "Convicted murderer who escaped from Tennessee prison captured in Missouri",
+   "url": "https://www.theguardian.com/us-news/2026/nov/03/jacob-morley-tennessee-prisoner-capture",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T19:42:35+00:00",
+   "note": "Jacob Morley, serving a life sentence for killing a co-worker, slipped through a prison fence last week A man convicted of murder who escaped from a Tennessee prison was recaptured",
+   "region": "OTHER"
   }
  ],
  "coverage": {
-  "sources_ok": 15,
-  "sources_failed": 1,
-  "items": 42928,
+  "sources_ok": 14,
+  "sources_failed": 2,
+  "items": 42902,
   "gdelt_events": 42708,
   "mode": "live",
   "data_through": "2026-11-02",
-  "clusters": 218,
-  "origins": 219,
+  "clusters": 194,
+  "origins": 194,
   "failed_days": 1,
   "failed_days_last": [
    "2026-10-30"
@@ -1381,7 +1381,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 2.27,
+    "value": 1.03,
     "z": null,
     "score": null,
     "available": false
@@ -1426,7 +1426,7 @@
   {
    "source": "bbc",
    "ok": true,
-   "items": 26,
+   "items": 32,
    "error": ""
   },
   {
@@ -1444,7 +1444,7 @@
   {
    "source": "dw",
    "ok": true,
-   "items": 13,
+   "items": 11,
    "error": ""
   },
   {
@@ -1467,9 +1467,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": true,
-   "items": 30,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）"
   },
   {
    "source": "fred:VIXCLS",
@@ -1516,7 +1516,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 10,
+   "items": 4,
    "error": ""
   },
   {
