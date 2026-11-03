@@ -1,114 +1,182 @@
 {
  "index_version": "geti-0.1.0",
- "generated_at": "2026-11-03T12:00:00+00:00",
- "date": "2026-11-03",
- "geti": 39.7,
- "delta_z": -0.1,
- "delta_pts": 3.4,
- "confidence": 0.9,
+ "generated_at": "2026-11-03T14:44:05+00:00",
+ "date": "2026-11-02",
+ "geti": 89.2,
+ "delta_z": 1.63,
+ "delta_pts": 2.5,
+ "confidence": 0.94,
  "history_days": 120,
- "driver_region": "RUSSIA_CIS",
- "driver_label": "俄与独联体",
+ "driver_region": "AFRICA",
+ "driver_label": "非洲",
  "regions": [
   {
-   "code": "RUSSIA_CIS",
-   "label": "俄与独联体",
-   "score": 71.9,
-   "delta": 28.8,
-   "excluded": false,
+   "code": "OTHER",
+   "label": "其他",
+   "score": 94.9,
+   "delta": 0.6,
+   "excluded": true,
    "drivers": [
     [
-     "internal",
-     1.78
+     "military",
+     3.0
     ],
     [
      "diplomacy",
-     1.44
+     3.0
     ]
    ]
   },
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 66.3,
-   "delta": -0.5,
+   "score": 93.2,
+   "delta": 0.0,
    "excluded": false,
    "drivers": [
     [
-     "internal",
+     "military",
      3.0
     ],
     [
-     "economy",
-     1.58
+     "diplomacy",
+     3.0
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 61.1,
-   "delta": 5.1,
+   "score": 93.2,
+   "delta": 0.0,
    "excluded": false,
    "drivers": [
     [
-     "economy",
+     "military",
      3.0
     ],
     [
-     "narrative",
-     1.93
-    ]
-   ]
-  },
-  {
-   "code": "MIDDLE_EAST",
-   "label": "中东",
-   "score": 56.5,
-   "delta": 14.5,
-   "excluded": false,
-   "drivers": [
-    [
-     "narrative",
-     1.61
-    ],
-    [
-     "internal",
-     0.98
+     "diplomacy",
+     3.0
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 50.6,
-   "delta": -1.4,
+   "score": 93.2,
+   "delta": 0.0,
    "excluded": false,
    "drivers": [
     [
-     "economy",
-     1.42
+     "military",
+     3.0
     ],
     [
-     "narrative",
-     -0.91
+     "diplomacy",
+     3.0
+    ]
+   ]
+  },
+  {
+   "code": "MIDDLE_EAST",
+   "label": "中东",
+   "score": 93.2,
+   "delta": 0.0,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     3.0
+    ],
+    [
+     "diplomacy",
+     3.0
+    ]
+   ]
+  },
+  {
+   "code": "NORTH_AMERICA",
+   "label": "北美",
+   "score": 93.2,
+   "delta": 0.0,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     3.0
+    ],
+    [
+     "diplomacy",
+     3.0
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 40.3,
-   "delta": -0.5,
+   "score": 93.2,
+   "delta": 0.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     -0.99
+     3.0
     ],
     [
      "diplomacy",
-     -0.32
+     3.0
+    ]
+   ]
+  },
+  {
+   "code": "RUSSIA_CIS",
+   "label": "俄与独联体",
+   "score": 91.2,
+   "delta": 1.8,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     3.0
+    ],
+    [
+     "diplomacy",
+     3.0
+    ]
+   ]
+  },
+  {
+   "code": "OCEANIA",
+   "label": "大洋洲",
+   "score": 90.5,
+   "delta": 0.5,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     3.0
+    ],
+    [
+     "diplomacy",
+     3.0
+    ]
+   ]
+  },
+  {
+   "code": "LATAM",
+   "label": "拉美",
+   "score": 74.8,
+   "delta": 3.6,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     3.0
+    ],
+    [
+     "military",
+     1.06
     ]
    ]
   }
@@ -118,9 +186,9 @@
    "key": "military",
    "label": "军事升级",
    "weight": 0.26,
-   "z": 1.43,
-   "score": 85.7,
-   "contrib": 0.412
+   "z": 3.0,
+   "score": 97.7,
+   "contrib": 0.371
   },
   {
    "key": "physical",
@@ -134,25 +202,25 @@
    "key": "diplomacy",
    "label": "外交",
    "weight": 0.18,
-   "z": 1.44,
-   "score": 85.7,
-   "contrib": 0.286
+   "z": 3.0,
+   "score": 97.7,
+   "contrib": 0.257
   },
   {
    "key": "economy",
    "label": "经济",
    "weight": 0.15,
-   "z": -0.5,
-   "score": 34.7,
-   "contrib": -0.084
+   "z": 3.0,
+   "score": 97.7,
+   "contrib": 0.214
   },
   {
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
-   "z": 1.78,
-   "score": 90.3,
-   "contrib": 0.217
+   "z": 3.0,
+   "score": 97.7,
+   "contrib": 0.157
   },
   {
    "key": "narrative",
@@ -165,190 +233,446 @@
  ],
  "events": [
   {
-   "id": "8cc04ea9417b",
-   "title": "波兰防空系统在边境地区击落一架无人机",
-   "url": "https://example.invalid/isw/0/5",
+   "id": "0642bc07afb4",
+   "title": "US conducts series of ‘defensive strikes’ against Iran",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/us-conducts-series-of-defensive-strikes-against-iran?traffic_source=rss",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-03T10:39:36+00:00",
+   "note": "The US has carried out a series of ‘defensive strikes’ on Iranian locations near Hormuz, with explosions heard on Qeshm.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "35dcef767bbc",
+   "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+   "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.99,
-   "origins": 6,
+   "confidence": 0.34,
+   "origins": 1,
    "sources": [
-    "isw",
-    "reuters",
-    "aljazeera",
-    "ap",
-    "bbc",
-    "x_osint"
+    "bbc"
    ],
-   "published": "2026-11-03T11:00:00+00:00",
-   "note": "波兰防空系统在边境地区击落一架无人机。",
+   "published": "2026-11-03T00:07:05+00:00",
+   "note": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
    "region": "EUROPE"
   },
   {
-   "id": "eb3c548ebf1e",
-   "title": "俄罗斯在乌克兰边境集结装甲部队，卫星图显示至少 200 辆坦克",
-   "url": "https://example.invalid/telegram_osint/0/0",
+   "id": "d34eaba27fe3",
+   "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+   "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
    "component": "military",
    "severity": 4,
-   "confidence": 0.94,
-   "origins": 5,
+   "confidence": 0.56,
+   "origins": 1,
    "sources": [
-    "telegram_osint",
-    "isw",
-    "aljazeera",
-    "x_osint",
-    "reuters",
-    "isw"
+    "guardian"
    ],
-   "published": "2026-11-03T07:00:00+00:00",
-   "note": "俄罗斯在乌克兰边境集结装甲部队，卫星图显示至少 200 辆坦克。",
+   "published": "2026-11-03T13:52:34+00:00",
+   "note": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours ",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "94558a92c338",
+   "title": "Trump to remove Rwanda and South Africa from US trade deal",
+   "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T13:28:30+00:00",
+   "note": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
+   "region": "AFRICA"
+  },
+  {
+   "id": "4a76a07e7514",
+   "title": "Russia bombs humanitarian hub in Ukraine, killing at least 31 people",
+   "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T12:25:07+00:00",
+   "note": "Other overnight strikes targeted power plants across Ukraine, damaged hospitals and wounded scores of people Russia has bombed a humanitarian hub in southern Ukraine, killing at le",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "3a08cb3993c1",
-   "title": "以色列与黎巴嫩宣布暂停大使级外交关系并召回大使",
-   "url": "https://example.invalid/reuters/0/1",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.91,
-   "origins": 4,
-   "sources": [
-    "reuters",
-    "x_osint",
-    "isw",
-    "x_osint",
-    "afp"
-   ],
-   "published": "2026-11-03T12:00:00+00:00",
-   "note": "以色列与黎巴嫩宣布暂停大使级外交关系并召回大使。细节待核实。细节待核实。细节待核实。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "1f5f1871b436",
-   "title": "中国对关键矿产实施新的出口管制（更新）",
-   "url": "https://example.invalid/aljazeera/0/4",
-   "component": "economy",
-   "severity": 3,
-   "confidence": 0.92,
-   "origins": 3,
-   "sources": [
-    "aljazeera",
-    "bbc",
-    "bbc",
-    "x_osint"
-   ],
-   "published": "2026-11-03T12:00:00+00:00",
-   "note": "中国对关键矿产实施新的出口管制。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "1225f8966981",
-   "title": "伊朗首都德黑兰爆发大规模抗议，政府宣布宵禁",
-   "url": "https://example.invalid/telegram_osint/0/3",
+   "id": "57edd5888cd0",
+   "title": "Grain under fire: Russian, Ukrainian Black Sea attacks threaten food supply",
+   "url": "https://www.aljazeera.com/news/2026/11/3/disruptions-of-black-sea-grain-exports-spike-global-prices?traffic_source=rss",
    "component": "internal",
-   "severity": 3,
-   "confidence": 0.66,
-   "origins": 4,
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
    "sources": [
-    "telegram_osint",
-    "reuters",
-    "bbc",
-    "afp"
-   ],
-   "published": "2026-11-03T09:00:00+00:00",
-   "note": "伊朗首都德黑兰爆发大规模抗议，政府宣布宵禁。细节待核实。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "94350c0a967a",
-   "title": "韩国军方宣布在东海争议海域举行大规模联合演习",
-   "url": "https://example.invalid/telegram_osint/0/2",
-   "component": "military",
-   "severity": 3,
-   "confidence": 0.37,
-   "origins": 2,
-   "sources": [
-    "telegram_osint",
     "aljazeera"
    ],
-   "published": "2026-11-03T09:00:00+00:00",
-   "note": "韩国军方宣布在东海争议海域举行大规模联合演习。",
+   "published": "2026-11-03T12:10:47+00:00",
+   "note": "Renewed strikes on Black Sea shipping imperil grain exports, drive up food prices and deepen global food insecurity.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "afb149854fa6",
+   "title": "US strikes Iranian island ahead of midterm elections",
+   "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T11:33:33+00:00",
+   "note": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "3ce54d04cdc8",
+   "title": "Mid-air helicopter collision on Nepal’s Everest kills Indian tourist",
+   "url": "https://www.scmp.com/news/asia/south-asia/article/3373136/mid-air-helicopter-collision-nepals-everest-kills-indian-tourist",
+   "component": "physical",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-03T09:52:05+00:00",
+   "note": "An Indian tourist was killed and a New Zealand national injured when two helicopters collided and crashed while attempting to land in Nepal’s Everest region on Tuesday, police said",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "33347a506f39",
+   "title": "US strikes Iran's Qeshm Island as midterm elections start",
+   "url": "https://www.france24.com/en/us-strikes-iran-s-qeshm-island-as-midterm-elections-start",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.28,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-03T12:12:06+00:00",
+   "note": "The United States has conducted defensive strikes on some Iranian targets in the Strait of Hormuz, a US official said Monday, on the eve of crucial midterm elections. The unpopular",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "441c12d342f5",
+   "title": "French schools blockade resume on smaller scale as holidays end",
+   "url": "https://www.france24.com/en/video/20261103-french-schools-blockade-resume-on-smaller-scale-as-holidays-end",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.28,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-03T12:01:02+00:00",
+   "note": "Students blockaded dozens of high schools across France on Tuesday to maintain pressure on the government over education reforms as trade unions prepared for a nationwide strike la",
+   "region": "EUROPE"
+  },
+  {
+   "id": "a81c489d39b3",
+   "title": "Uganda withdraws its troops from Somalia as fight against rebels persists",
+   "url": "https://www.france24.com/en/video/20261103-uganda-withdraws-its-troops-from-somalia-as-fight-against-rebels-persists",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.28,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-03T11:50:18+00:00",
+   "note": "Kampala announced on Monday it had begun pulling its troops out of Somalia. Uganda was the first country to send deployments to help Mogadishu when the African Union set up an inte",
+   "region": "AFRICA"
+  },
+  {
+   "id": "c2a1568886c5",
+   "title": "Dozens killed, dozens more missing after Russian strike on Ukrainian aid site",
+   "url": "https://www.france24.com/en/video/20261103-dozens-killed-dozens-more-missing-after-russian-strike-on-ukrainian-aid-site",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.28,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-03T10:58:38+00:00",
+   "note": "The death toll from a Russian attack in southern Ukraine on a site where people had gathered to receive humanitarian aid rose to 29 on Tuesday, with 48 still missing, as a wave of ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "61ba72cd707f",
+   "title": "Most Israelis think settlements policy should change to avoid more sanctions, poll finds",
+   "url": "https://www.theguardian.com/world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-02T06:00:33+00:00",
+   "note": "Survey finds UK government’s decision to impose trade ban was not a decisive factor in how Israelis voted in election The UK government’s decision to impose a ban on trade in goods",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "fdb36572848c",
+   "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
+   "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-10-26T15:07:23+00:00",
+   "note": "Commanders suspected of sexual violence during the largest and fastest slaughter of civilians in more than 30 years have been subjected to travel ban and asset freeze Senior Sudane",
+   "region": "AFRICA"
+  },
+  {
+   "id": "64d293be669e",
+   "title": "乌克兰：联合国援助400多名撤离围困的民众，呼吁保障冬季能源供应",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143119",
+   "component": "economy",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "联合国世界粮食计划署周一表示，在乌克兰赫尔松地区短暂停火期间，400多名民众得以从俄罗斯控制的奥莱什基市撤离。粮食署已向他们提供紧急食品援助，并准备根据后续撤离情况扩大援助规模。与此同时，联合国开发计划署呼吁国际社会继续提供资金支持，帮助乌克兰在严冬来临前恢复能源供应。",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "6a2aaf71d08e",
+   "title": "世卫组织警告：埃塞俄比亚北部暴力冲突使卫生系统濒临崩溃",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143117",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "埃塞俄比亚北部上周末发生致命无人机袭击后，世界卫生组织总干事谭德塞周一呼吁加强对受冲突影响平民的保护。他警告，持续的暴力正将本已脆弱的卫生系统推向崩溃边缘。",
+   "region": "AFRICA"
+  },
+  {
+   "id": "44842eaf436e",
+   "title": "国际刑事法院院长呼吁联合国会员国捍卫司法独立，抵制针对国际刑事司法的施压",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143115",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "联合国大会周一（11月2日）听取了国际刑事法院院长赤根智子（Tomoko Akane）提交的法院年度工作报告。赤根表示，国际刑事法院正面临前所未有的制裁和施压，但法院将继续独立、公正地履行职责。她同时呼吁各国采取具体行动，维护《罗马规约》和国际法治原则。",
+   "region": "OTHER"
+  },
+  {
+   "id": "0f3f471bfb1b",
+   "title": "教科文组织：每七起记者遇害案件中，六起未能惩治凶手",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143114",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "联合国教科文组织周一表示，全球记者遇害案件中，凶手未受惩罚的比例十多年来首次上升。同时，无人机越来越多地被用于袭击记者，成为冲突地区新闻工作者面临的新威胁。",
+   "region": "OTHER"
+  },
+  {
+   "id": "dcd60581a348",
+   "title": "【世界进行时】2026年10月30日",
+   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143108",
+   "component": "economy",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-10-30T12:00:00+00:00",
+   "note": "本期要点：美古代表在联合国大会现场激烈交锋；独立调查委员会认定：俄军袭击乌克兰能源设施已构成战争罪；四大受战火影响国家，近千万民众面临严寒无着；阿富汗鸦片产量出现反弹，激增至上一年的五倍；缅甸因冲突死亡人数已超过10万；联合国官员专访：透视朝鲜人权与生活现状；武装冲突中女性死亡人数过去五年内翻倍；全球生态系统恢复取得新进展，但海洋吸碳能力减弱、温室气体浓度再",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "1e2c06b2eb0b",
+   "title": "乌克兰：奥列什基停火为平民带来希望，但救援车辆仍遭袭击",
+   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143106",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-10-30T12:00:00+00:00",
+   "note": "联合国最高人道主义官员周五表示，乌克兰南部赫尔松州奥列什基的停火每维持一天，当地平民就多一份希望。他强调，必须保障希望撤离的平民能够安全、自愿地离开。",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "47bf393d9750",
+   "title": "人权高专办：加沙民众正深陷反复流离失所的“梦魇”",
+   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143101",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-10-30T12:00:00+00:00",
+   "note": "联合国人权事务高级专员办事处周五警告，以色列军队不断将巴勒斯坦人逼向加沙地带日益狭小的区域，同时破坏民用基础设施、袭击流离失所者安置点，引发国际社会对种族清洗的担忧。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8b8bd25b42e0",
+   "title": "【子午播报】2026年10月30日",
+   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143097",
+   "component": "economy",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-10-30T12:00:00+00:00",
+   "note": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，美古代表联大激烈交锋，国际社会要求终结封锁；独立调查委员会表示，俄袭击乌能源设施构成国际罪行；子午聚焦：在银川打卡可持续发展目标。",
    "region": "EAST_ASIA"
   },
   {
-   "id": "7f75f8887327",
-   "title": "印度与巴基斯坦代表在第三国会谈，未达成任何协议，多方证实",
-   "url": "https://example.invalid/isw/0/6",
-   "component": "diplomacy",
-   "severity": 2,
-   "confidence": 0.86,
-   "origins": 4,
+   "id": "8a61b3ac52c1",
+   "title": "俄罗斯无人机袭击乌克兰火车站，造成至少13名平民死亡",
+   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143095",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
    "sources": [
-    "isw",
-    "bbc",
-    "aljazeera",
-    "telegram_osint",
-    "bbc",
-    "isw"
+    "un_news_zh"
    ],
-   "published": "2026-11-03T05:00:00+00:00",
-   "note": "印度与巴基斯坦代表在第三国会谈，未达成任何协议。细节待核实。细节待核实。",
-   "region": "SOUTH_ASIA"
+   "published": "2026-10-29T12:00:00+00:00",
+   "note": "俄罗斯对乌克兰第聂伯罗市主要火车站发动无人机袭击，造成至少13名平民死亡、10人受伤。联合国驻乌克兰人道主义协调员马蒂亚斯·施马勒（Matthias Schmale）周四对此予以谴责。",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "e543543aebe4",
+   "title": "Cuba flight, Taiwan trade pushback, Panama probe: 7 Latin America relations reads",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3372642/cuba-flight-taiwan-trade-pushback-panama-probe-7-latin-america-relations-reads",
+   "component": "economy",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-03T14:00:08+00:00",
+   "note": "We have selected seven of the most interesting and important news stories covering Latin American relations from the past few weeks. If you would like to see more of our reporting,",
+   "region": "EAST_ASIA"
   }
  ],
  "breaking": [
   {
-   "id": "8cc04ea9417b",
-   "title": "波兰防空系统在边境地区击落一架无人机",
-   "url": "https://example.invalid/isw/0/5",
+   "id": "0642bc07afb4",
+   "title": "US conducts series of ‘defensive strikes’ against Iran",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/us-conducts-series-of-defensive-strikes-against-iran?traffic_source=rss",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-03T10:39:36+00:00",
+   "note": "The US has carried out a series of ‘defensive strikes’ on Iranian locations near Hormuz, with explosions heard on Qeshm.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "35dcef767bbc",
+   "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+   "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.99,
-   "origins": 6,
+   "confidence": 0.34,
+   "origins": 1,
    "sources": [
-    "isw",
-    "reuters",
-    "aljazeera",
-    "ap",
-    "bbc",
-    "x_osint"
+    "bbc"
    ],
-   "published": "2026-11-03T11:00:00+00:00",
-   "note": "波兰防空系统在边境地区击落一架无人机。",
+   "published": "2026-11-03T00:07:05+00:00",
+   "note": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
    "region": "EUROPE"
   },
   {
-   "id": "3a08cb3993c1",
-   "title": "以色列与黎巴嫩宣布暂停大使级外交关系并召回大使",
-   "url": "https://example.invalid/reuters/0/1",
+   "id": "d34eaba27fe3",
+   "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+   "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T13:52:34+00:00",
+   "note": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours ",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "94558a92c338",
+   "title": "Trump to remove Rwanda and South Africa from US trade deal",
+   "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
    "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.91,
-   "origins": 4,
+   "confidence": 0.56,
+   "origins": 1,
    "sources": [
-    "reuters",
-    "x_osint",
-    "isw",
-    "x_osint",
-    "afp"
+    "bbc"
    ],
-   "published": "2026-11-03T12:00:00+00:00",
-   "note": "以色列与黎巴嫩宣布暂停大使级外交关系并召回大使。细节待核实。细节待核实。细节待核实。",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-03T13:28:30+00:00",
+   "note": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
+   "region": "AFRICA"
   }
  ],
  "coverage": {
-  "sources_ok": 16,
+  "sources_ok": 14,
   "sources_failed": 2,
-  "items": 3108,
-  "mode": "synthetic",
-  "clusters": 7,
-  "origins": 28,
-  "components_covered": 30,
+  "items": 42914,
+  "gdelt_events": 42708,
+  "mode": "live",
+  "data_through": "2026-11-02",
+  "clusters": 204,
+  "origins": 205,
+  "components_covered": 42,
   "components_required": 60,
   "note": "覆盖不足时请看置信度，不要看指数"
  },
  "series": [
+  {
+   "date": "2026-07-06",
+   "geti": 50.0
+  },
   {
    "date": "2026-07-07",
    "geti": 50.0
@@ -403,431 +727,611 @@
   },
   {
    "date": "2026-07-20",
-   "geti": 50.0
+   "geti": 41.1
   },
   {
    "date": "2026-07-21",
-   "geti": 50.0
+   "geti": 51.7
   },
   {
    "date": "2026-07-22",
-   "geti": 50.0
+   "geti": 38.9
   },
   {
    "date": "2026-07-23",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-07-24",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-07-25",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-07-26",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-07-27",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-07-28",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-07-29",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-07-30",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-07-31",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-08-01",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-08-02",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-08-03",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-08-04",
-   "geti": 43.9
-  },
-  {
-   "date": "2026-08-05",
-   "geti": 43.0
-  },
-  {
-   "date": "2026-08-06",
-   "geti": 43.1
-  },
-  {
-   "date": "2026-08-07",
-   "geti": 57.0
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 42.7
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 50.5
-  },
-  {
-   "date": "2026-08-10",
-   "geti": 39.1
-  },
-  {
-   "date": "2026-08-11",
-   "geti": 39.6
-  },
-  {
-   "date": "2026-08-12",
-   "geti": 45.3
-  },
-  {
-   "date": "2026-08-13",
-   "geti": 48.4
-  },
-  {
-   "date": "2026-08-14",
-   "geti": 46.7
-  },
-  {
-   "date": "2026-08-15",
-   "geti": 60.1
-  },
-  {
-   "date": "2026-08-16",
-   "geti": 41.5
-  },
-  {
-   "date": "2026-08-17",
-   "geti": 55.9
-  },
-  {
-   "date": "2026-08-18",
-   "geti": 50.1
-  },
-  {
-   "date": "2026-08-19",
-   "geti": 45.6
-  },
-  {
-   "date": "2026-08-20",
-   "geti": 45.9
-  },
-  {
-   "date": "2026-08-21",
-   "geti": 63.7
-  },
-  {
-   "date": "2026-08-22",
-   "geti": 66.9
-  },
-  {
-   "date": "2026-08-23",
-   "geti": 54.5
-  },
-  {
-   "date": "2026-08-24",
    "geti": 56.6
   },
   {
-   "date": "2026-08-25",
-   "geti": 58.5
-  },
-  {
-   "date": "2026-08-26",
-   "geti": 55.7
-  },
-  {
-   "date": "2026-08-27",
+   "date": "2026-07-24",
    "geti": 48.7
   },
   {
-   "date": "2026-08-28",
-   "geti": 34.9
+   "date": "2026-07-25",
+   "geti": 62.1
   },
   {
-   "date": "2026-08-29",
-   "geti": 41.6
+   "date": "2026-07-26",
+   "geti": 72.3
   },
   {
-   "date": "2026-08-30",
-   "geti": 53.7
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 63.4
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 72.1
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 67.4
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 70.3
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 78.7
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 51.6
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 49.9
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 47.8
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 58.5
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 65.1
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 71.1
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 55.8
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 36.7
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 37.2
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 26.5
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 22.4
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 29.6
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 26.6
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 20.2
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 26.9
-  },
-  {
-   "date": "2026-09-21",
-   "geti": 28.4
-  },
-  {
-   "date": "2026-09-22",
-   "geti": 19.0
-  },
-  {
-   "date": "2026-09-23",
-   "geti": 14.5
-  },
-  {
-   "date": "2026-09-24",
-   "geti": 25.4
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 40.8
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 58.2
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 39.3
-  },
-  {
-   "date": "2026-09-28",
-   "geti": 30.5
-  },
-  {
-   "date": "2026-09-29",
-   "geti": 24.0
-  },
-  {
-   "date": "2026-09-30",
-   "geti": 40.2
-  },
-  {
-   "date": "2026-10-01",
-   "geti": 47.4
-  },
-  {
-   "date": "2026-10-02",
-   "geti": 60.6
-  },
-  {
-   "date": "2026-10-03",
-   "geti": 50.0
-  },
-  {
-   "date": "2026-10-04",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-10-05",
-   "geti": 55.8
-  },
-  {
-   "date": "2026-10-06",
-   "geti": 46.6
-  },
-  {
-   "date": "2026-10-07",
-   "geti": 34.8
-  },
-  {
-   "date": "2026-10-08",
-   "geti": 33.2
-  },
-  {
-   "date": "2026-10-09",
-   "geti": 23.9
-  },
-  {
-   "date": "2026-10-10",
-   "geti": 44.7
-  },
-  {
-   "date": "2026-10-11",
-   "geti": 29.5
-  },
-  {
-   "date": "2026-10-12",
-   "geti": 35.1
-  },
-  {
-   "date": "2026-10-13",
-   "geti": 40.1
-  },
-  {
-   "date": "2026-10-14",
-   "geti": 58.3
-  },
-  {
-   "date": "2026-10-15",
-   "geti": 42.9
-  },
-  {
-   "date": "2026-10-16",
-   "geti": 54.6
-  },
-  {
-   "date": "2026-10-17",
-   "geti": 62.7
-  },
-  {
-   "date": "2026-10-18",
-   "geti": 52.6
-  },
-  {
-   "date": "2026-10-19",
-   "geti": 47.3
-  },
-  {
-   "date": "2026-10-20",
-   "geti": 31.9
-  },
-  {
-   "date": "2026-10-21",
-   "geti": 38.6
-  },
-  {
-   "date": "2026-10-22",
-   "geti": 49.5
-  },
-  {
-   "date": "2026-10-23",
-   "geti": 48.5
-  },
-  {
-   "date": "2026-10-24",
-   "geti": 47.9
-  },
-  {
-   "date": "2026-10-25",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-10-26",
-   "geti": 61.9
-  },
-  {
-   "date": "2026-10-27",
-   "geti": 68.6
-  },
-  {
-   "date": "2026-10-28",
-   "geti": 51.4
-  },
-  {
-   "date": "2026-10-29",
-   "geti": 39.3
-  },
-  {
-   "date": "2026-10-30",
-   "geti": 46.6
-  },
-  {
-   "date": "2026-10-31",
-   "geti": 51.4
-  },
-  {
-   "date": "2026-11-01",
+   "date": "2026-07-27",
    "geti": 52.9
   },
   {
-   "date": "2026-11-02",
+   "date": "2026-07-28",
+   "geti": 43.0
+  },
+  {
+   "date": "2026-07-29",
+   "geti": 31.1
+  },
+  {
+   "date": "2026-07-30",
+   "geti": 35.1
+  },
+  {
+   "date": "2026-07-31",
+   "geti": 49.8
+  },
+  {
+   "date": "2026-08-01",
+   "geti": 56.2
+  },
+  {
+   "date": "2026-08-02",
+   "geti": 67.2
+  },
+  {
+   "date": "2026-08-03",
+   "geti": 74.6
+  },
+  {
+   "date": "2026-08-04",
+   "geti": 63.5
+  },
+  {
+   "date": "2026-08-05",
+   "geti": 52.8
+  },
+  {
+   "date": "2026-08-06",
+   "geti": 38.2
+  },
+  {
+   "date": "2026-08-07",
+   "geti": 28.5
+  },
+  {
+   "date": "2026-08-08",
+   "geti": 33.0
+  },
+  {
+   "date": "2026-08-09",
+   "geti": 27.6
+  },
+  {
+   "date": "2026-08-10",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-08-11",
+   "geti": 40.7
+  },
+  {
+   "date": "2026-08-12",
+   "geti": 47.2
+  },
+  {
+   "date": "2026-08-13",
+   "geti": 39.5
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 34.7
+  },
+  {
+   "date": "2026-08-15",
+   "geti": 52.5
+  },
+  {
+   "date": "2026-08-16",
+   "geti": 55.3
+  },
+  {
+   "date": "2026-08-17",
+   "geti": 37.2
+  },
+  {
+   "date": "2026-08-18",
+   "geti": 25.0
+  },
+  {
+   "date": "2026-08-19",
+   "geti": 19.3
+  },
+  {
+   "date": "2026-08-20",
+   "geti": 38.5
+  },
+  {
+   "date": "2026-08-21",
+   "geti": 39.8
+  },
+  {
+   "date": "2026-08-22",
+   "geti": 32.0
+  },
+  {
+   "date": "2026-08-23",
+   "geti": 22.1
+  },
+  {
+   "date": "2026-08-24",
+   "geti": 36.6
+  },
+  {
+   "date": "2026-08-25",
+   "geti": 29.0
+  },
+  {
+   "date": "2026-08-26",
+   "geti": 19.1
+  },
+  {
+   "date": "2026-08-27",
+   "geti": 41.7
+  },
+  {
+   "date": "2026-08-28",
+   "geti": 54.5
+  },
+  {
+   "date": "2026-08-29",
+   "geti": 59.5
+  },
+  {
+   "date": "2026-08-30",
+   "geti": 71.2
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 77.0
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 55.3
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 64.1
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 49.8
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 60.5
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 65.5
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 71.1
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 62.5
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 63.7
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 55.7
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 48.0
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 36.5
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 35.3
+  },
+  {
+   "date": "2026-09-13",
+   "geti": 39.6
+  },
+  {
+   "date": "2026-09-14",
+   "geti": 31.4
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 35.5
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 37.7
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 39.2
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 25.7
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 37.4
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 48.2
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 53.9
+  },
+  {
+   "date": "2026-09-22",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-09-23",
+   "geti": 32.7
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 31.6
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 23.9
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 39.7
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 37.0
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 26.4
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 18.8
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 12.5
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 8.3
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 12.6
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 10.7
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 17.1
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 27.1
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 48.5
+  },
+  {
+   "date": "2026-10-07",
    "geti": 36.4
   },
   {
-   "date": "2026-11-03",
-   "geti": 39.7
+   "date": "2026-10-08",
+   "geti": 24.9
+  },
+  {
+   "date": "2026-10-09",
+   "geti": 38.1
+  },
+  {
+   "date": "2026-10-10",
+   "geti": 55.1
+  },
+  {
+   "date": "2026-10-11",
+   "geti": 68.0
+  },
+  {
+   "date": "2026-10-12",
+   "geti": 51.8
+  },
+  {
+   "date": "2026-10-13",
+   "geti": 57.1
+  },
+  {
+   "date": "2026-10-14",
+   "geti": 62.5
+  },
+  {
+   "date": "2026-10-15",
+   "geti": 65.6
+  },
+  {
+   "date": "2026-10-16",
+   "geti": 70.4
+  },
+  {
+   "date": "2026-10-17",
+   "geti": 74.6
+  },
+  {
+   "date": "2026-10-18",
+   "geti": 69.3
+  },
+  {
+   "date": "2026-10-19",
+   "geti": 74.9
+  },
+  {
+   "date": "2026-10-20",
+   "geti": 66.1
+  },
+  {
+   "date": "2026-10-21",
+   "geti": 64.7
+  },
+  {
+   "date": "2026-10-22",
+   "geti": 53.0
+  },
+  {
+   "date": "2026-10-23",
+   "geti": 50.4
+  },
+  {
+   "date": "2026-10-24",
+   "geti": 59.0
+  },
+  {
+   "date": "2026-10-25",
+   "geti": 71.0
+  },
+  {
+   "date": "2026-10-26",
+   "geti": 52.8
+  },
+  {
+   "date": "2026-10-27",
+   "geti": 66.4
+  },
+  {
+   "date": "2026-10-28",
+   "geti": 76.0
+  },
+  {
+   "date": "2026-10-29",
+   "geti": 78.9
+  },
+  {
+   "date": "2026-10-30",
+   "geti": 80.4
+  },
+  {
+   "date": "2026-10-31",
+   "geti": 82.9
+  },
+  {
+   "date": "2026-11-01",
+   "geti": 86.7
+  },
+  {
+   "date": "2026-11-02",
+   "geti": 89.2
+  }
+ ],
+ "market": {
+  "index": 98.3,
+  "z": 2.429,
+  "rows": [
+   {
+    "id": "vix",
+    "label": "VIX 波动率",
+    "last": 21.15,
+    "chg5": 15.01,
+    "z": 3.0,
+    "ok": true,
+    "asof": "2026-11-02"
+   },
+   {
+    "id": "oil",
+    "label": "WTI 原油",
+    "last": 103.37,
+    "chg5": -4.19,
+    "z": 1.287,
+    "ok": true,
+    "asof": "2026-10-27"
+   },
+   {
+    "id": "hy",
+    "label": "高收益债利差",
+    "last": 3.44,
+    "chg5": 1.78,
+    "z": 3.0,
+    "ok": true,
+    "asof": "2026-10-30"
+   },
+   {
+    "id": "usd",
+    "label": "广义美元",
+    "last": 121.666,
+    "chg5": 0.28,
+    "z": -0.838,
+    "ok": true,
+    "asof": "2026-10-30"
+   },
+   {
+    "id": "ust",
+    "label": "美十年期",
+    "last": 4.94,
+    "chg5": -1.2,
+    "z": -0.728,
+    "ok": true,
+    "asof": "2026-10-30"
+   }
+  ],
+  "asof": "2026-11-02",
+  "source": "FRED (fredgraph.csv, 无需 key)",
+  "health": [
+   {
+    "source": "fred:VIXCLS",
+    "ok": true,
+    "items": 106,
+    "error": ""
+   },
+   {
+    "source": "fred:DCOILWTICO",
+    "ok": true,
+    "items": 99,
+    "error": ""
+   },
+   {
+    "source": "fred:BAMLH0A0HYM2",
+    "ok": true,
+    "items": 105,
+    "error": ""
+   },
+   {
+    "source": "fred:DTWEXBGS",
+    "ok": true,
+    "items": 101,
+    "error": ""
+   },
+   {
+    "source": "fred:DGS10",
+    "ok": true,
+    "items": 101,
+    "error": ""
+   }
+  ],
+  "mode": "live"
+ },
+ "adapters": [
+  {
+   "source": "gdelt_daily_2026-11-03",
+   "ok": false,
+   "items": 0,
+   "error": "HTTP 404（文件尚未发布）"
+  },
+  {
+   "source": "gdelt_daily_2026-11-02",
+   "ok": true,
+   "items": 26101,
+   "error": ""
+  },
+  {
+   "source": "gdelt_daily_2026-11-01",
+   "ok": true,
+   "items": 16607,
+   "error": ""
+  },
+  {
+   "source": "bbc",
+   "ok": true,
+   "items": 25,
+   "error": ""
+  },
+  {
+   "source": "aljazeera",
+   "ok": true,
+   "items": 25,
+   "error": ""
+  },
+  {
+   "source": "guardian",
+   "ok": true,
+   "items": 45,
+   "error": ""
+  },
+  {
+   "source": "dw",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）"
+  },
+  {
+   "source": "france24",
+   "ok": true,
+   "items": 24,
+   "error": ""
+  },
+  {
+   "source": "nhk",
+   "ok": true,
+   "items": 7,
+   "error": ""
+  },
+  {
+   "source": "scmp",
+   "ok": true,
+   "items": 50,
+   "error": ""
+  },
+  {
+   "source": "un_news_zh",
+   "ok": true,
+   "items": 30,
+   "error": ""
+  },
+  {
+   "source": "fred:VIXCLS",
+   "ok": true,
+   "items": 106,
+   "error": ""
+  },
+  {
+   "source": "fred:DCOILWTICO",
+   "ok": true,
+   "items": 99,
+   "error": ""
+  },
+  {
+   "source": "fred:BAMLH0A0HYM2",
+   "ok": true,
+   "items": 105,
+   "error": ""
+  },
+  {
+   "source": "fred:DTWEXBGS",
+   "ok": true,
+   "items": 101,
+   "error": ""
+  },
+  {
+   "source": "fred:DGS10",
+   "ok": true,
+   "items": 101,
+   "error": ""
   }
  ]
 }
