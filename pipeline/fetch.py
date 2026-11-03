@@ -9,6 +9,7 @@ import json
 import time
 import urllib.error
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
 from .model import EventSignal, RawItem

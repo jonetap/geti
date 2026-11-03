@@ -149,7 +149,9 @@ def parse_kp(text: str, day=None) -> dict:
                 ts = str(row.get("time_tag") or "")[:10]
                 if ts and ts != day.strftime("%Y-%m-%d"):
                     continue
-            v = _f(row.get("kp_index") or row.get("k_index") or row.get("kp"))
+            # 实测 products/noaa-planetary-k-index.json 的键是 "Kp"（大写），
+            # 1m 文件用的是 "kp_index"——两个都得认，否则整段解析出空值。
+            v = _f(row.get("Kp") or row.get("kp_index") or row.get("k_index") or row.get("kp"))
             if v is not None:
                 vals.append(v)
     if not vals:
