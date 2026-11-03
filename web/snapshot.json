@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-03T15:58:16+00:00",
+ "generated_at": "2026-11-03T16:04:54+00:00",
  "date": "2026-11-02",
  "geti": 68.3,
  "delta_z": 0.82,
@@ -255,7 +255,7 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-03T14:57:15+00:00",
+   "published": "2026-11-03T15:52:50+00:00",
    "note": "Seven bomb threats have now been reported across Europe, all incidents have been confirmed as false alarms Back to Poland, Warsaw Modlin airport says it has resumed operations afte",
    "region": "EUROPE"
   },
@@ -617,7 +617,7 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-03T14:57:15+00:00",
+   "published": "2026-11-03T15:52:50+00:00",
    "note": "Seven bomb threats have now been reported across Europe, all incidents have been confirmed as false alarms Back to Poland, Warsaw Modlin airport says it has resumed operations afte",
    "region": "EUROPE"
   },
@@ -1217,8 +1217,8 @@
   }
  ],
  "market": {
-  "index": 83.1,
-  "z": 0.955,
+  "index": 83.0,
+  "z": 0.951,
   "rows": [
    {
     "id": "vix",
@@ -1241,11 +1241,11 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.44,
-    "chg5": 1.78,
-    "z": 0.969,
+    "last": 3.43,
+    "chg5": 3.94,
+    "z": 0.957,
     "ok": true,
-    "asof": "2026-10-30"
+    "asof": "2026-11-02"
    },
    {
     "id": "usd",
@@ -1284,7 +1284,7 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 105,
+    "items": 106,
     "error": ""
    },
    {
@@ -1337,7 +1337,7 @@
     "key": "gdacs_alert",
     "label": "红色预警",
     "weight": 0.16,
-    "value": 5.0,
+    "value": 0.0,
     "z": null,
     "score": null,
     "available": false
@@ -1346,7 +1346,7 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 2.0,
+    "value": 3.0,
     "z": null,
     "score": null,
     "available": false
@@ -1363,7 +1363,7 @@
     "key": "who_don",
     "label": "官方通报",
     "weight": 0.4,
-    "value": 15.0,
+    "value": 0.0,
     "z": null,
     "score": null,
     "available": false
@@ -1381,7 +1381,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 6.6,
+    "value": 2.27,
     "z": null,
     "score": null,
     "available": false
@@ -1486,7 +1486,7 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 105,
+   "items": 106,
    "error": ""
   },
   {
@@ -1515,21 +1515,21 @@
   },
   {
    "source": "gdacs:rss",
-   "ok": false,
-   "items": 0,
-   "error": "NameError: name 'ET' is not defined"
+   "ok": true,
+   "items": 10,
+   "error": ""
   },
   {
    "source": "noaa:swpc",
-   "ok": false,
-   "items": 0,
-   "error": "全部候选地址失败"
+   "ok": true,
+   "items": 8,
+   "error": ""
   },
   {
-   "source": "epidemic",
-   "ok": false,
+   "source": "who:don",
+   "ok": true,
    "items": 0,
-   "error": "NameError: name 'ET' is not defined"
+   "error": ""
   }
  ]
 }
