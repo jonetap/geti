@@ -1,0 +1,70 @@
+name: geti
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      backfill_days:
+        description: "回补历史天数（首次填 120；之后留空）"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: geti
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 单元测试
+        run: python -m unittest discover -s tests
+
+      - name: 回补历史
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.backfill_days != '' }}
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m pipeline.cli backfill --days ${{ inputs.backfill_days }}
+
+      - name: 计算指数
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m pipeline.cli run --out web/snapshot.json --series data/series.jsonl
+
+      - name: 提交历史与快照
+        run: |
+          git config user.name  "geti-bot"
+          git config user.email "geti-bot@users.noreply.github.com"
+          git add data web
+          if git diff --cached --quiet; then
+            echo "无变化"
+          else
+            git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ) GETI"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
