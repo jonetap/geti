@@ -22,7 +22,7 @@ from .model import (
 )
 
 UTC = timezone.utc
-INDEX_VERSION = "geti-0.1.0"
+INDEX_VERSION = "geti-0.2.0"
 HISTORY_DAYS = 90
 
 
@@ -66,6 +66,11 @@ def infer_region(text: str) -> str:
 
 Series = dict[tuple[str, str], dict[date, float]]
 
+# 每天处理的原始条目数，记为一条"虚拟序列"，用来做体量归一化。
+# GDELT 日文件 1.6 万到 2.6 万条是常态，涨 60% 不等于局势变紧 60%——
+# 那只是那天新闻多。不归一化，指数就会跟着抓取量起伏，而不是跟着局势。
+VOLUME_KEY = ("__vol__", "n")
+
 
 def pressure_from_signals(signals: Iterable[EventSignal]) -> Series:
     """GDELT 这类结构化的、不需要 LLM 的信号。"""
@@ -73,6 +78,8 @@ def pressure_from_signals(signals: Iterable[EventSignal]) -> Series:
     for ev in signals:
         base = ev.severity / 5.0
         salience = 1.0 + 0.15 * math.log1p(ev.mentions)
+        vol = s.setdefault(VOLUME_KEY, {})
+        vol[ev.day] = vol.get(ev.day, 0.0) + 1.0
         if ev.goldstein > 1.5:
             w = 0.5 * base * salience           # 合作事件：记为去紧张
             cell = s.setdefault((ev.region, ev.component), {})
@@ -82,6 +89,31 @@ def pressure_from_signals(signals: Iterable[EventSignal]) -> Series:
             cell = s.setdefault((ev.region, ev.component), {})
             cell[ev.day] = cell.get(ev.day, 0.0) + w
     return s
+
+
+def normalize_volume(series: Series) -> Series:
+    """按当日条目数把压力折成"每单位体量"，削掉抓取量波动。
+
+    历史上还没攒够体量数据时（少于 5 天）原样返回，不做任何猜测。
+    因子夹在 [0.6, 1.8]，防止某天文件残缺（只解析到一半）把整条历史拉歪。
+    """
+    vol = series.get(VOLUME_KEY, {})
+    if len(vol) < 5:
+        return series
+    base = score.median(list(vol.values()))
+    if base <= 0:
+        return series
+    out: Series = {}
+    for k, days in series.items():
+        if k == VOLUME_KEY:
+            continue
+        cell: dict[date, float] = {}
+        for d, v in days.items():
+            n = vol.get(d)
+            f = 1.0 if not n else min(1.8, max(0.6, n / base))
+            cell[d] = v / f
+        out[k] = cell
+    return out
 
 
 def pressure_from_clusters(scored: Iterable[ScoredCluster]) -> Series:
@@ -139,6 +171,7 @@ class DayResult:
     zvec: dict[str, dict[str, float]]     # region -> comp -> z
     covered: int                          # 有 z 的 (区域×分项) 个数
     required: int
+    saturated: int = 0                    # 贴到软压缩上限的 (区域×分项) 个数
 
     @property
     def aggregate_regions(self) -> list[float]:
@@ -158,6 +191,7 @@ def compute_day(series: Series, day: date, regions: Sequence[str]) -> DayResult:
     zmap: dict[str, dict[str, float]] = {}
     ok = 0
     total = 0
+    saturated = 0
     for r in regions:
         zvec: dict[str, float] = {}
         for c in COMPONENT_WEIGHTS:
@@ -167,13 +201,16 @@ def compute_day(series: Series, day: date, regions: Sequence[str]) -> DayResult:
             if z is None:
                 continue
             ok += 1
+            if score.is_saturated(z):
+                saturated += 1
             if abs(z) > 0.01:
                 zvec[c] = z
         if len(zvec) >= MIN_COMPONENTS:
             # 不做权重归一化：缺的分项就是缺证据，不该被放大成满分
             per_region[r] = score.combine(zvec)
             zmap[r] = zvec
-    return DayResult(day=day, regions=per_region, zvec=zmap, covered=ok, required=max(1, total))
+    return DayResult(day=day, regions=per_region, zvec=zmap, covered=ok,
+                     required=max(1, total), saturated=saturated)
 
 
 def compute_window(series: Series, days: Sequence[date], regions: Sequence[str]) -> dict[date, DayResult]:
@@ -238,7 +275,8 @@ def build_snapshot(
     now: datetime | None = None,
 ) -> dict:
     now = now or datetime.now(UTC)
-    regions = sorted({r for (r, _c) in series})
+    series = normalize_volume(series)
+    regions = sorted({r for (r, _c) in series if not str(r).startswith("__")})
     for r in REGION_LABELS:
         if r not in regions:
             regions.append(r)
@@ -351,6 +389,8 @@ def build_snapshot(
             **coverage,
             "components_covered": today.covered,
             "components_required": today.required,
+            "components_saturated": today.saturated,
+            "saturated_ratio": round(today.saturated / max(1, today.covered), 3),
             "note": "覆盖不足时请看置信度，不要看指数",
         },
         "series": [

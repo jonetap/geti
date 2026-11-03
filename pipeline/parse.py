@@ -139,6 +139,19 @@ def _text(el: ET.Element | None) -> str:
     return (el.text or "").strip()
 
 
+def _local(tag: str) -> str:
+    """去掉 {namespace} 前缀。RSS 1.0（RDF）把 item 放在默认命名空间里，
+    用 iter("item") 一条都匹配不到——这就是 DW 那种源读出 0 条的原因。"""
+    return tag.rsplit("}", 1)[-1]
+
+
+def _child(el: ET.Element, name: str) -> ET.Element | None:
+    for c in el:
+        if isinstance(c.tag, str) and _local(c.tag) == name:
+            return c
+    return None
+
+
 def _atom_link(entry: ET.Element, ns: str) -> str:
     for link in entry.findall(f"{ns}link"):
         href = link.get("href")
@@ -179,17 +192,21 @@ def parse_feed(xml_text: str, source_id: str, now: datetime | None = None,
 
     items: list[RawItem] = []
 
-    # RSS 2.0
-    for it in root.iter("item"):
-        title = strip_html(_text(it.find("title")))
+    # RSS 2.0 / RSS 1.0（RDF）：按本地名匹配，两种格式都能读
+    for it in root.iter():
+        if not isinstance(it.tag, str) or _local(it.tag) != "item":
+            continue
+        title = strip_html(_text(_child(it, "title")))
         if not title:
             continue
-        body = strip_html(_text(it.find("description")))
-        link = _text(it.find("link"))
+        body = strip_html(_text(_child(it, "description")))
+        link = _text(_child(it, "link"))
         if not link:
-            guid = it.find("guid")
-            link = _text(guid) if guid is not None and (_text(guid).startswith("http")) else ""
-        pub = _parse_time(_text(it.find("pubDate")), now)
+            guid = _child(it, "guid")
+            link = _text(guid) if guid is not None and _text(guid).startswith("http") else ""
+        raw_time = _text(_child(it, "pubDate")) or _text(_child(it, "date")) \
+            or _text(_child(it, "published"))
+        pub = _parse_time(raw_time, now)
         items.append(RawItem(source_id, title, body, link, pub, lang))
 
     # Atom（有些源用 entries，xmlns 命名空间必须显式带）

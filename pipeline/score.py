@@ -18,7 +18,9 @@ from .model import COMPONENT_WEIGHTS
 
 MIN_HISTORY_DAYS = 14       # 低于这个天数不给 z，只给"覆盖不足"
 EWMA_LAMBDA = 0.25
-Z_CLIP = 3.0
+Z_SOFT = 2.2                # 软压缩上限（取代硬截断）
+SCALE_FLOOR = 0.50          # 尺度绝对下限：稀疏计数序列的 MAD 常常是 0
+SCALE_REL = 0.25            # 尺度相对下限：不得小于中位数的这个比例
 TANH_SCALE = 1.6
 DECAY_6H = 0.6
 DECAY_24H = 0.3
@@ -50,23 +52,60 @@ def stdev(xs: Sequence[float]) -> float:
     return math.sqrt(sum((x - m) ** 2 for x in xs) / (n - 1))
 
 
-def robust_z(x: float, hist: Sequence[float]) -> float | None:
-    """中位数 + MAD 标准化。历史不足返回 None（宁可不给数，也不给假数）。
+def iqr(xs: Sequence[float]) -> float:
+    """四分位距。比 MAD 更抗"一半以上是 0"的稀疏序列。"""
+    if len(xs) < 4:
+        return 0.0
+    s = sorted(xs)
+    n = len(s)
 
-    边界处理：某个区域连续 90 天毫无动静、某天突然出事时 MAD=0，
-    这种情况必须给最大惊讶度，而不是 0（把它当"正常"是最危险的 bug）。
+    def _q(p: float) -> float:
+        i = p * (n - 1)
+        lo, hi = int(math.floor(i)), min(n - 1, int(math.ceil(i)))
+        return s[lo] + (s[hi] - s[lo]) * (i - lo)
+
+    return _q(0.75) - _q(0.25)
+
+
+def robust_scale(hist: Sequence[float], med: float | None = None) -> float:
+    """稳健尺度，带两道下限。
+
+    真实数据里 MAD 经常是 0（某个区域某个分项一个月只有两三天有事件），
+    此时若退回 stdev，一点风吹草动就能算出 z=20，然后被截断成 3.0——
+    所有区域一起顶在天花板上，指数就只剩"爆表"一个读数，失去区分度。
+    所以尺度必须有下限：低于噪声底限的离散度不可能是真实波动。
+    """
+    m = median(hist) if med is None else med
+    scale = max(
+        1.4826 * mad(hist, m),
+        iqr(hist) / 1.349,
+        SCALE_REL * abs(m),
+        SCALE_FLOOR,
+    )
+    return scale
+
+
+def robust_z(x: float, hist: Sequence[float]) -> float | None:
+    """中位数 + 稳健尺度标准化，再软压缩到 ±Z_SOFT。
+
+    历史不足返回 None（宁可不给数，也不给假数）。
+
+    为什么不用硬截断：截断会把"2.4 倍异常"和"9 倍异常"压成同一个 3.0，
+    于是所有区域、所有分项同时贴顶，指数变成一个只会喊"极高"的警报器。
+    改用 z̃ = Z_SOFT·tanh(z/Z_SOFT) 后，极端值仍然很强但不再并列，
+    程度差异保留下来了。
     """
     if len(hist) < MIN_HISTORY_DAYS:
         return None
     med = median(hist)
-    scale = 1.4826 * mad(hist, med)
-    if scale < 1e-9:
-        scale = stdev(hist)
-    if scale < 1e-9:
-        if abs(x - med) < 1e-9:
-            return None
-        return Z_CLIP if x > med else -Z_CLIP
-    return max(-Z_CLIP, min(Z_CLIP, (x - med) / scale))
+    scale = robust_scale(hist, med)
+    z = (x - med) / scale
+    return Z_SOFT * math.tanh(z / Z_SOFT)
+
+
+def is_saturated(z: float, ratio: float = 0.85) -> bool:
+    """这一分项是否已经贴到软压缩的上限附近。用于标定健康自检。"""
+    return abs(z) >= ratio * Z_SOFT
 
 
 def p90(xs: Sequence[float]) -> float:
@@ -140,13 +179,15 @@ _COMP_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
                             r"演习|空袭|坦克|核武|核设施|核打击|核试验|防空|无人机|雷达|"
                             r"集结|炮兵|旅级|营级|"
                             r"military|troop|missile|warplane|warship|drill|airstrike|tank|nuclear|"
-                            r"drone|air ?defen[cs]e|radar|artillery|battalion|brigade)", re.I)),
+                            r"drone|air ?defen[cs]e|radar|artillery|battalion|brigade|"
+                            r"air ?strikes?|strikes?[^a-z]{0,4}(?:on|against)|bombard|shelling)", re.I)),
     ("diplomacy", re.compile(r"(外交|大使|召见|制裁|谈判|会谈|磋商|斡旋|峰会|条约|断交|"
                              r"diplomat|ambassador|summon|sanction|negotiat|summit|treaty)", re.I)),
     ("economy", re.compile(r"(关税|出口管制|能源|油价|汇率|供应链|禁运|"
                            r"tariff|export control|oil price|currency|supply chain|embargo)", re.I)),
     ("internal", re.compile(r"(抗议|示威|骚乱|选举|政变|戒严|罢工|"
-                            r"protest|riot|election|coup|martial law|strike)", re.I)),
+                            r"protest|riot|election|coup|martial law|"
+                            r"labor strike|worker strike|general strike|walkout|strike action)", re.I)),
     ("physical", re.compile(r"(航行通告|空域关闭|撤侨|使馆关闭|NOTAM|airspace closed|"
                             r"embassy closed|evacuation|port clos)", re.I)),
 ]
