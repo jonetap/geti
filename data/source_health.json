@@ -1,97 +1,97 @@
 {
   "gdelt_daily_2026-11-03": {
     "last_success_at": null,
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "HTTP 404（文件尚未发布）",
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "gdelt_daily_2026-11-02": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "gdelt_daily_2026-11-01": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "bbc": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "aljazeera": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "guardian": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "dw": {
-    "last_success_at": null,
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
-    "last_error": "解析到 0 条（可能改版）",
-    "consecutive_failures": 1
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
+    "last_error": "",
+    "consecutive_failures": 0
   },
   "france24": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "nhk": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "scmp": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "un_news_zh": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:VIXCLS": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DCOILWTICO": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:BAMLH0A0HYM2": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DTWEXBGS": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DGS10": {
-    "last_success_at": "2026-11-03T14:44:05+00:00",
-    "last_attempt_at": "2026-11-03T14:44:05+00:00",
+    "last_success_at": "2026-11-03T15:05:47+00:00",
+    "last_attempt_at": "2026-11-03T15:05:47+00:00",
     "last_error": "",
     "consecutive_failures": 0
   }

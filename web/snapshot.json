@@ -1,182 +1,182 @@
 {
- "index_version": "geti-0.1.0",
- "generated_at": "2026-11-03T14:44:05+00:00",
+ "index_version": "geti-0.2.0",
+ "generated_at": "2026-11-03T15:05:47+00:00",
  "date": "2026-11-02",
- "geti": 89.2,
- "delta_z": 1.63,
- "delta_pts": 2.5,
+ "geti": 75.1,
+ "delta_z": 0.79,
+ "delta_pts": 2.0,
  "confidence": 0.94,
  "history_days": 120,
- "driver_region": "AFRICA",
- "driver_label": "非洲",
+ "driver_region": "EUROPE",
+ "driver_label": "欧洲",
  "regions": [
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 94.9,
-   "delta": 0.6,
+   "score": 88.2,
+   "delta": 0.8,
    "excluded": true,
    "drivers": [
     [
      "military",
-     3.0
+     2.2
     ],
     [
      "diplomacy",
-     3.0
-    ]
-   ]
-  },
-  {
-   "code": "AFRICA",
-   "label": "非洲",
-   "score": 93.2,
-   "delta": 0.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     3.0
-    ],
-    [
-     "diplomacy",
-     3.0
-    ]
-   ]
-  },
-  {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 93.2,
-   "delta": 0.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     3.0
-    ],
-    [
-     "diplomacy",
-     3.0
+     2.2
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 93.2,
+   "score": 87.3,
    "delta": 0.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     3.0
+     2.2
     ],
     [
      "diplomacy",
-     3.0
-    ]
-   ]
-  },
-  {
-   "code": "MIDDLE_EAST",
-   "label": "中东",
-   "score": 93.2,
-   "delta": 0.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     3.0
-    ],
-    [
-     "diplomacy",
-     3.0
+     2.2
     ]
    ]
   },
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 93.2,
+   "score": 87.3,
    "delta": 0.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     3.0
+     2.2
     ],
     [
      "diplomacy",
-     3.0
+     2.2
+    ]
+   ]
+  },
+  {
+   "code": "MIDDLE_EAST",
+   "label": "中东",
+   "score": 85.1,
+   "delta": -0.2,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     2.2
+    ],
+    [
+     "diplomacy",
+     2.2
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 93.2,
-   "delta": 0.0,
+   "score": 82.9,
+   "delta": 1.4,
    "excluded": false,
    "drivers": [
     [
      "military",
-     3.0
+     2.2
     ],
     [
      "diplomacy",
-     3.0
+     2.2
     ]
    ]
   },
   {
-   "code": "RUSSIA_CIS",
-   "label": "俄与独联体",
-   "score": 91.2,
-   "delta": 1.8,
+   "code": "AFRICA",
+   "label": "非洲",
+   "score": 82.5,
+   "delta": 2.4,
    "excluded": false,
    "drivers": [
     [
      "military",
-     3.0
+     2.2
     ],
     [
      "diplomacy",
-     3.0
+     2.2
+    ]
+   ]
+  },
+  {
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 82.2,
+   "delta": 2.0,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     2.2
+    ],
+    [
+     "diplomacy",
+     2.2
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 90.5,
-   "delta": 0.5,
+   "score": 80.6,
+   "delta": 2.6,
    "excluded": false,
    "drivers": [
     [
      "military",
-     3.0
+     2.2
     ],
     [
      "diplomacy",
-     3.0
+     2.2
+    ]
+   ]
+  },
+  {
+   "code": "RUSSIA_CIS",
+   "label": "俄与独联体",
+   "score": 78.6,
+   "delta": 2.3,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     2.2
+    ],
+    [
+     "diplomacy",
+     2.2
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 74.8,
-   "delta": 3.6,
+   "score": 54.2,
+   "delta": 2.6,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     3.0
+     0.65
     ],
     [
-     "military",
-     1.06
+     "internal",
+     -0.63
     ]
    ]
   }
@@ -186,8 +186,8 @@
    "key": "military",
    "label": "军事升级",
    "weight": 0.26,
-   "z": 3.0,
-   "score": 97.7,
+   "z": 2.2,
+   "score": 94.0,
    "contrib": 0.371
   },
   {
@@ -202,24 +202,24 @@
    "key": "diplomacy",
    "label": "外交",
    "weight": 0.18,
-   "z": 3.0,
-   "score": 97.7,
+   "z": 2.2,
+   "score": 94.0,
    "contrib": 0.257
   },
   {
    "key": "economy",
    "label": "经济",
    "weight": 0.15,
-   "z": 3.0,
-   "score": 97.7,
+   "z": 2.2,
+   "score": 94.0,
    "contrib": 0.214
   },
   {
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
-   "z": 3.0,
-   "score": 97.7,
+   "z": 2.2,
+   "score": 94.0,
    "contrib": 0.157
   },
   {
@@ -236,7 +236,7 @@
    "id": "0642bc07afb4",
    "title": "US conducts series of ‘defensive strikes’ against Iran",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/us-conducts-series-of-defensive-strikes-against-iran?traffic_source=rss",
-   "component": "internal",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
@@ -261,6 +261,21 @@
    "published": "2026-11-03T00:07:05+00:00",
    "note": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
    "region": "EUROPE"
+  },
+  {
+   "id": "6c24e48b3cc1",
+   "title": "Reform UK councillor charged with 12 counts of rape",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/03/reform-uk-councillor-george-madgwick-charged-12-counts-rape",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T14:34:05+00:00",
+   "note": "George Madgwick of Hampshire county council has been charged with a total of 35 offences A Reform UK councillor has been charged with 12 counts of rape, the Crown Prosecution Servi",
+   "region": "OTHER"
   },
   {
    "id": "d34eaba27fe3",
@@ -296,7 +311,7 @@
    "id": "4a76a07e7514",
    "title": "Russia bombs humanitarian hub in Ukraine, killing at least 31 people",
    "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
-   "component": "internal",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
@@ -311,7 +326,7 @@
    "id": "57edd5888cd0",
    "title": "Grain under fire: Russian, Ukrainian Black Sea attacks threaten food supply",
    "url": "https://www.aljazeera.com/news/2026/11/3/disruptions-of-black-sea-grain-exports-spike-global-prices?traffic_source=rss",
-   "component": "internal",
+   "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
@@ -353,10 +368,25 @@
    "region": "SOUTH_ASIA"
   },
   {
+   "id": "90db80e4337d",
+   "title": "Tenerife striker De Miguel dies after on-field collision",
+   "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T09:09:18+00:00",
+   "note": "Tenerife forward Jesus de Miguel dies aged 30 after an on-field collision during a Spanish second-division match.",
+   "region": "OTHER"
+  },
+  {
    "id": "33347a506f39",
    "title": "US strikes Iran's Qeshm Island as midterm elections start",
    "url": "https://www.france24.com/en/us-strikes-iran-s-qeshm-island-as-midterm-elections-start",
-   "component": "internal",
+   "component": "military",
    "severity": 4,
    "confidence": 0.28,
    "origins": 1,
@@ -371,7 +401,7 @@
    "id": "441c12d342f5",
    "title": "French schools blockade resume on smaller scale as holidays end",
    "url": "https://www.france24.com/en/video/20261103-french-schools-blockade-resume-on-smaller-scale-as-holidays-end",
-   "component": "internal",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.28,
    "origins": 1,
@@ -561,36 +591,6 @@
    "published": "2026-10-30T12:00:00+00:00",
    "note": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，美古代表联大激烈交锋，国际社会要求终结封锁；独立调查委员会表示，俄袭击乌能源设施构成国际罪行；子午聚焦：在银川打卡可持续发展目标。",
    "region": "EAST_ASIA"
-  },
-  {
-   "id": "8a61b3ac52c1",
-   "title": "俄罗斯无人机袭击乌克兰火车站，造成至少13名平民死亡",
-   "url": "https://news.un.org/feed/view/zh/story/2026/10/1143095",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-10-29T12:00:00+00:00",
-   "note": "俄罗斯对乌克兰第聂伯罗市主要火车站发动无人机袭击，造成至少13名平民死亡、10人受伤。联合国驻乌克兰人道主义协调员马蒂亚斯·施马勒（Matthias Schmale）周四对此予以谴责。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "e543543aebe4",
-   "title": "Cuba flight, Taiwan trade pushback, Panama probe: 7 Latin America relations reads",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3372642/cuba-flight-taiwan-trade-pushback-panama-probe-7-latin-america-relations-reads",
-   "component": "economy",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-03T14:00:08+00:00",
-   "note": "We have selected seven of the most interesting and important news stories covering Latin American relations from the past few weeks. If you would like to see more of our reporting,",
-   "region": "EAST_ASIA"
   }
  ],
  "breaking": [
@@ -598,7 +598,7 @@
    "id": "0642bc07afb4",
    "title": "US conducts series of ‘defensive strikes’ against Iran",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/us-conducts-series-of-defensive-strikes-against-iran?traffic_source=rss",
-   "component": "internal",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
@@ -625,6 +625,21 @@
    "region": "EUROPE"
   },
   {
+   "id": "6c24e48b3cc1",
+   "title": "Reform UK councillor charged with 12 counts of rape",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/03/reform-uk-councillor-george-madgwick-charged-12-counts-rape",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-03T14:34:05+00:00",
+   "note": "George Madgwick of Hampshire county council has been charged with a total of 35 offences A Reform UK councillor has been charged with 12 counts of rape, the Crown Prosecution Servi",
+   "region": "OTHER"
+  },
+  {
    "id": "d34eaba27fe3",
    "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
    "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
@@ -638,34 +653,21 @@
    "published": "2026-11-03T13:52:34+00:00",
    "note": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours ",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "94558a92c338",
-   "title": "Trump to remove Rwanda and South Africa from US trade deal",
-   "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T13:28:30+00:00",
-   "note": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
-   "region": "AFRICA"
   }
  ],
  "coverage": {
-  "sources_ok": 14,
-  "sources_failed": 2,
-  "items": 42914,
+  "sources_ok": 15,
+  "sources_failed": 1,
+  "items": 42927,
   "gdelt_events": 42708,
   "mode": "live",
   "data_through": "2026-11-02",
-  "clusters": 204,
-  "origins": 205,
+  "clusters": 217,
+  "origins": 218,
   "components_covered": 42,
   "components_required": 60,
+  "components_saturated": 25,
+  "saturated_ratio": 0.595,
   "note": "覆盖不足时请看置信度，不要看指数"
  },
  "series": [
@@ -727,439 +729,439 @@
   },
   {
    "date": "2026-07-20",
-   "geti": 41.1
+   "geti": 42.5
   },
   {
    "date": "2026-07-21",
-   "geti": 51.7
-  },
-  {
-   "date": "2026-07-22",
-   "geti": 38.9
-  },
-  {
-   "date": "2026-07-23",
-   "geti": 56.6
-  },
-  {
-   "date": "2026-07-24",
-   "geti": 48.7
-  },
-  {
-   "date": "2026-07-25",
-   "geti": 62.1
-  },
-  {
-   "date": "2026-07-26",
-   "geti": 72.3
-  },
-  {
-   "date": "2026-07-27",
-   "geti": 52.9
-  },
-  {
-   "date": "2026-07-28",
-   "geti": 43.0
-  },
-  {
-   "date": "2026-07-29",
-   "geti": 31.1
-  },
-  {
-   "date": "2026-07-30",
-   "geti": 35.1
-  },
-  {
-   "date": "2026-07-31",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-01",
-   "geti": 56.2
-  },
-  {
-   "date": "2026-08-02",
-   "geti": 67.2
-  },
-  {
-   "date": "2026-08-03",
-   "geti": 74.6
-  },
-  {
-   "date": "2026-08-04",
-   "geti": 63.5
-  },
-  {
-   "date": "2026-08-05",
-   "geti": 52.8
-  },
-  {
-   "date": "2026-08-06",
-   "geti": 38.2
-  },
-  {
-   "date": "2026-08-07",
-   "geti": 28.5
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 33.0
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 27.6
-  },
-  {
-   "date": "2026-08-10",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-08-11",
-   "geti": 40.7
-  },
-  {
-   "date": "2026-08-12",
    "geti": 47.2
   },
   {
-   "date": "2026-08-13",
-   "geti": 39.5
+   "date": "2026-07-22",
+   "geti": 46.0
   },
   {
-   "date": "2026-08-14",
-   "geti": 34.7
+   "date": "2026-07-23",
+   "geti": 54.1
   },
   {
-   "date": "2026-08-15",
-   "geti": 52.5
+   "date": "2026-07-24",
+   "geti": 57.0
   },
   {
-   "date": "2026-08-16",
-   "geti": 55.3
+   "date": "2026-07-25",
+   "geti": 57.9
   },
   {
-   "date": "2026-08-17",
-   "geti": 37.2
+   "date": "2026-07-26",
+   "geti": 61.0
   },
   {
-   "date": "2026-08-18",
-   "geti": 25.0
+   "date": "2026-07-27",
+   "geti": 54.0
   },
   {
-   "date": "2026-08-19",
-   "geti": 19.3
+   "date": "2026-07-28",
+   "geti": 48.9
   },
   {
-   "date": "2026-08-20",
-   "geti": 38.5
+   "date": "2026-07-29",
+   "geti": 48.3
   },
   {
-   "date": "2026-08-21",
-   "geti": 39.8
+   "date": "2026-07-30",
+   "geti": 49.2
   },
   {
-   "date": "2026-08-22",
-   "geti": 32.0
+   "date": "2026-07-31",
+   "geti": 53.7
   },
   {
-   "date": "2026-08-23",
-   "geti": 22.1
+   "date": "2026-08-01",
+   "geti": 54.4
   },
   {
-   "date": "2026-08-24",
-   "geti": 36.6
-  },
-  {
-   "date": "2026-08-25",
-   "geti": 29.0
-  },
-  {
-   "date": "2026-08-26",
-   "geti": 19.1
-  },
-  {
-   "date": "2026-08-27",
-   "geti": 41.7
-  },
-  {
-   "date": "2026-08-28",
-   "geti": 54.5
-  },
-  {
-   "date": "2026-08-29",
-   "geti": 59.5
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 71.2
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 77.0
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 55.3
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 64.1
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 60.5
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 65.5
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 71.1
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 62.5
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 63.7
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 55.7
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 48.0
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 36.5
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 35.3
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 39.6
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 31.4
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 35.5
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 37.7
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 39.2
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 25.7
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 37.4
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 48.2
-  },
-  {
-   "date": "2026-09-21",
-   "geti": 53.9
-  },
-  {
-   "date": "2026-09-22",
-   "geti": 41.3
-  },
-  {
-   "date": "2026-09-23",
-   "geti": 32.7
-  },
-  {
-   "date": "2026-09-24",
-   "geti": 31.6
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 23.9
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 39.7
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 37.0
-  },
-  {
-   "date": "2026-09-28",
-   "geti": 26.4
-  },
-  {
-   "date": "2026-09-29",
-   "geti": 18.8
-  },
-  {
-   "date": "2026-09-30",
-   "geti": 12.5
-  },
-  {
-   "date": "2026-10-01",
-   "geti": 8.3
-  },
-  {
-   "date": "2026-10-02",
-   "geti": 12.6
-  },
-  {
-   "date": "2026-10-03",
-   "geti": 10.7
-  },
-  {
-   "date": "2026-10-04",
-   "geti": 17.1
-  },
-  {
-   "date": "2026-10-05",
-   "geti": 27.1
-  },
-  {
-   "date": "2026-10-06",
-   "geti": 48.5
-  },
-  {
-   "date": "2026-10-07",
-   "geti": 36.4
-  },
-  {
-   "date": "2026-10-08",
-   "geti": 24.9
-  },
-  {
-   "date": "2026-10-09",
-   "geti": 38.1
-  },
-  {
-   "date": "2026-10-10",
-   "geti": 55.1
-  },
-  {
-   "date": "2026-10-11",
-   "geti": 68.0
-  },
-  {
-   "date": "2026-10-12",
-   "geti": 51.8
-  },
-  {
-   "date": "2026-10-13",
-   "geti": 57.1
-  },
-  {
-   "date": "2026-10-14",
-   "geti": 62.5
-  },
-  {
-   "date": "2026-10-15",
-   "geti": 65.6
-  },
-  {
-   "date": "2026-10-16",
-   "geti": 70.4
-  },
-  {
-   "date": "2026-10-17",
-   "geti": 74.6
-  },
-  {
-   "date": "2026-10-18",
-   "geti": 69.3
-  },
-  {
-   "date": "2026-10-19",
-   "geti": 74.9
-  },
-  {
-   "date": "2026-10-20",
-   "geti": 66.1
-  },
-  {
-   "date": "2026-10-21",
-   "geti": 64.7
-  },
-  {
-   "date": "2026-10-22",
-   "geti": 53.0
-  },
-  {
-   "date": "2026-10-23",
-   "geti": 50.4
-  },
-  {
-   "date": "2026-10-24",
-   "geti": 59.0
-  },
-  {
-   "date": "2026-10-25",
-   "geti": 71.0
-  },
-  {
-   "date": "2026-10-26",
+   "date": "2026-08-02",
    "geti": 52.8
   },
   {
+   "date": "2026-08-03",
+   "geti": 52.3
+  },
+  {
+   "date": "2026-08-04",
+   "geti": 46.7
+  },
+  {
+   "date": "2026-08-05",
+   "geti": 41.7
+  },
+  {
+   "date": "2026-08-06",
+   "geti": 43.5
+  },
+  {
+   "date": "2026-08-07",
+   "geti": 43.3
+  },
+  {
+   "date": "2026-08-08",
+   "geti": 42.7
+  },
+  {
+   "date": "2026-08-09",
+   "geti": 34.3
+  },
+  {
+   "date": "2026-08-10",
+   "geti": 38.5
+  },
+  {
+   "date": "2026-08-11",
+   "geti": 37.4
+  },
+  {
+   "date": "2026-08-12",
+   "geti": 41.0
+  },
+  {
+   "date": "2026-08-13",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 46.3
+  },
+  {
+   "date": "2026-08-15",
+   "geti": 50.2
+  },
+  {
+   "date": "2026-08-16",
+   "geti": 49.4
+  },
+  {
+   "date": "2026-08-17",
+   "geti": 45.9
+  },
+  {
+   "date": "2026-08-18",
+   "geti": 38.2
+  },
+  {
+   "date": "2026-08-19",
+   "geti": 34.7
+  },
+  {
+   "date": "2026-08-20",
+   "geti": 46.5
+  },
+  {
+   "date": "2026-08-21",
+   "geti": 50.4
+  },
+  {
+   "date": "2026-08-22",
+   "geti": 46.5
+  },
+  {
+   "date": "2026-08-23",
+   "geti": 39.0
+  },
+  {
+   "date": "2026-08-24",
+   "geti": 43.5
+  },
+  {
+   "date": "2026-08-25",
+   "geti": 43.2
+  },
+  {
+   "date": "2026-08-26",
+   "geti": 35.4
+  },
+  {
+   "date": "2026-08-27",
+   "geti": 46.0
+  },
+  {
+   "date": "2026-08-28",
+   "geti": 52.5
+  },
+  {
+   "date": "2026-08-29",
+   "geti": 56.6
+  },
+  {
+   "date": "2026-08-30",
+   "geti": 58.9
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 59.4
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 51.7
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 47.8
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 45.6
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 48.9
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 45.6
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 41.1
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 35.2
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 35.9
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 33.3
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 38.7
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 38.6
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 34.3
+  },
+  {
+   "date": "2026-09-13",
+   "geti": 29.6
+  },
+  {
+   "date": "2026-09-14",
+   "geti": 29.5
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 30.9
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 33.5
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 40.6
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 38.8
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 41.0
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 46.4
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 46.4
+  },
+  {
+   "date": "2026-09-22",
+   "geti": 46.3
+  },
+  {
+   "date": "2026-09-23",
+   "geti": 48.3
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 53.3
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 52.6
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 54.2
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 46.6
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 41.1
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 37.3
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 36.4
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 36.9
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 42.5
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 39.3
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 44.3
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 38.3
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 40.9
+  },
+  {
+   "date": "2026-10-07",
+   "geti": 36.2
+  },
+  {
+   "date": "2026-10-08",
+   "geti": 30.5
+  },
+  {
+   "date": "2026-10-09",
+   "geti": 37.6
+  },
+  {
+   "date": "2026-10-10",
+   "geti": 46.2
+  },
+  {
+   "date": "2026-10-11",
+   "geti": 52.8
+  },
+  {
+   "date": "2026-10-12",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-10-13",
+   "geti": 40.3
+  },
+  {
+   "date": "2026-10-14",
+   "geti": 40.2
+  },
+  {
+   "date": "2026-10-15",
+   "geti": 42.2
+  },
+  {
+   "date": "2026-10-16",
+   "geti": 48.3
+  },
+  {
+   "date": "2026-10-17",
+   "geti": 53.4
+  },
+  {
+   "date": "2026-10-18",
+   "geti": 54.8
+  },
+  {
+   "date": "2026-10-19",
+   "geti": 52.4
+  },
+  {
+   "date": "2026-10-20",
+   "geti": 46.6
+  },
+  {
+   "date": "2026-10-21",
+   "geti": 43.2
+  },
+  {
+   "date": "2026-10-22",
+   "geti": 42.6
+  },
+  {
+   "date": "2026-10-23",
+   "geti": 40.4
+  },
+  {
+   "date": "2026-10-24",
+   "geti": 49.6
+  },
+  {
+   "date": "2026-10-25",
+   "geti": 56.6
+  },
+  {
+   "date": "2026-10-26",
+   "geti": 46.2
+  },
+  {
    "date": "2026-10-27",
-   "geti": 66.4
+   "geti": 56.6
   },
   {
    "date": "2026-10-28",
-   "geti": 76.0
+   "geti": 63.7
   },
   {
    "date": "2026-10-29",
-   "geti": 78.9
+   "geti": 68.1
   },
   {
    "date": "2026-10-30",
-   "geti": 80.4
+   "geti": 69.9
   },
   {
    "date": "2026-10-31",
-   "geti": 82.9
+   "geti": 70.2
   },
   {
    "date": "2026-11-01",
-   "geti": 86.7
+   "geti": 73.2
   },
   {
    "date": "2026-11-02",
-   "geti": 89.2
+   "geti": 75.1
   }
  ],
  "market": {
-  "index": 98.3,
-  "z": 2.429,
+  "index": 83.1,
+  "z": 0.955,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
     "last": 21.15,
     "chg5": 15.01,
-    "z": 3.0,
+    "z": 1.176,
     "ok": true,
     "asof": "2026-11-02"
    },
@@ -1168,7 +1170,7 @@
     "label": "WTI 原油",
     "last": 103.37,
     "chg5": -4.19,
-    "z": 1.287,
+    "z": 0.719,
     "ok": true,
     "asof": "2026-10-27"
    },
@@ -1177,7 +1179,7 @@
     "label": "高收益债利差",
     "last": 3.44,
     "chg5": 1.78,
-    "z": 3.0,
+    "z": 0.969,
     "ok": true,
     "asof": "2026-10-30"
    },
@@ -1186,7 +1188,7 @@
     "label": "广义美元",
     "last": 121.666,
     "chg5": 0.28,
-    "z": -0.838,
+    "z": -0.037,
     "ok": true,
     "asof": "2026-10-30"
    },
@@ -1195,7 +1197,7 @@
     "label": "美十年期",
     "last": 4.94,
     "chg5": -1.2,
-    "z": -0.728,
+    "z": -0.173,
     "ok": true,
     "asof": "2026-10-30"
    }
@@ -1258,7 +1260,7 @@
   {
    "source": "bbc",
    "ok": true,
-   "items": 25,
+   "items": 26,
    "error": ""
   },
   {
@@ -1275,9 +1277,9 @@
   },
   {
    "source": "dw",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）"
+   "ok": true,
+   "items": 12,
+   "error": ""
   },
   {
    "source": "france24",
