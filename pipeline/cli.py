@@ -24,6 +24,7 @@ from .synth import synth_items, synth_signals
 UTC = timezone.utc
 DEFAULT_SERIES = "data/series.jsonl"
 DEFAULT_HEALTH = "data/source_health.json"
+MIN_EVENTS_PER_DAY = 200
 
 
 def _span(target: date, n: int) -> list[date]:
@@ -136,20 +137,35 @@ def cmd_backfill(args: argparse.Namespace) -> int:
 
     d = start
     days_ok = 0
+    days_bad = 0
     events = 0
     while d <= end:
         sig, _health, res = fetcher.fetch_gdelt_daily(days=1, end=d, max_lookback=0,
                                                       min_mentions=args.min_mentions)
         if res is not None:
-            raw = build.pressure_from_signals(sig)
-            store.save_series(args.series, raw, keep_days=400, end=d)
-            days_ok += 1
-            events += len(sig)
-        print(f"  {d}  {'ok' if res else 'missing'}  {len(sig):6d} 条  "
-              f"累计 {days_ok} 天 / {events} 条", flush=True)
+            # 护栏：一个 ~10MB 日文件不可能只解析出几十条。真出现了，说明是
+            # 解析器/A 列位出了问题——**宁可留空，也不要把这种值写进历史**。
+            # 历史一旦被污染，后面所有 z 分数、所有回测都建立在错的基线上，
+            # 而且很难再看出来（我们就吃过一次：第一次回补用的是列位错位前的解析器）。
+            if len(sig) < MIN_EVENTS_PER_DAY:
+                days_bad += 1
+                print(f"  {d}  可疑  仅 {len(sig)} 条（< {MIN_EVENTS_PER_DAY}），"
+                      f"跳过写入——历史不能带毒", flush=True)
+            else:
+                raw = build.pressure_from_signals(sig)
+                store.save_series(args.series, raw, keep_days=400, end=d)
+                days_ok += 1
+                events += len(sig)
+                print(f"  {d}  ok  {len(sig):6d} 条  累计 {days_ok} 天 / {events} 条",
+                      flush=True)
+        else:
+            print(f"  {d}  missing", flush=True)
         d += timedelta(days=1)
 
     print(f"[backfill] 完成 {days_ok} 天，{events} 条事件 → {args.series}")
+    if days_bad:
+        print(f"[backfill] 有 {days_bad} 天因条数异常被判可疑并跳过——"
+              f"先查解析器，别急着调指数", file=sys.stderr)
     return 0 if days_ok else 2
 
 

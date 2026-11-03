@@ -22,8 +22,9 @@ from .model import (
 )
 
 UTC = timezone.utc
-INDEX_VERSION = "geti-0.3.0"
+INDEX_VERSION = "geti-0.3.1"
 HISTORY_DAYS = 90
+VOLUME_FLOOR_RATIO = 0.25
 
 
 # ---------------------------------------------------------------- 地理推断
@@ -89,6 +90,34 @@ def pressure_from_signals(signals: Iterable[EventSignal]) -> Series:
             cell = s.setdefault((ev.region, ev.component), {})
             cell[ev.day] = cell.get(ev.day, 0.0) + w
     return s
+
+
+def drop_failed_days(series: Series) -> tuple[Series, list[str]]:
+    """把"抓取失败日"从历史里剔除。
+
+    线上跑了一周才发现这件事：同样的代码、同样的 URL，某些日子只解析出几十条，
+    另一些日子几万条——相邻两天能差 300 倍。**真实新闻量不会隔天差 300 倍**，
+    所以那不是"平静的一天"，而是那天根本没抓到。
+
+    如果不剔除，这些日子会被当成"历史上很安稳"，于是今天所有分项都变成极端异常，
+    指数天天贴顶。这个错误在指标上表现得和"世界真的紧张了"一模一样，必须从数据层区分。
+
+    判据：当日条目数 < 全局中位数 × 25% 即视为抓取失败，整天丢弃（不是记 0）。
+    """
+    vol = series.get(VOLUME_KEY, {})
+    if len(vol) < 5:
+        return series, []
+    base = score.median(list(vol.values()))
+    if base <= 0:
+        return series, []
+    floor = base * VOLUME_FLOOR_RATIO
+    bad = {d for d, n in vol.items() if n < floor}
+    if not bad:
+        return series, []
+    out: Series = {}
+    for k, days in series.items():
+        out[k] = {d: v for d, v in days.items() if d not in bad}
+    return out, sorted(d.isoformat() for d in bad)
 
 
 def normalize_volume(series: Series) -> Series:
@@ -301,7 +330,12 @@ def build_snapshot(
     now: datetime | None = None,
 ) -> dict:
     now = now or datetime.now(UTC)
+    series, failed_days = drop_failed_days(series)
     series = normalize_volume(series)
+    coverage = dict(coverage or {})
+    if failed_days:
+        coverage["failed_days"] = len(failed_days)
+        coverage["failed_days_last"] = failed_days[-5:]
     regions = sorted({r for (r, _c) in series if not str(r).startswith("__")})
     for r in REGION_LABELS:
         if r not in regions:
