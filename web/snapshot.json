@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-03T15:53:40+00:00",
+ "generated_at": "2026-11-03T15:58:16+00:00",
  "date": "2026-11-02",
  "geti": 68.3,
  "delta_z": 0.82,
@@ -1515,21 +1515,21 @@
   },
   {
    "source": "gdacs:rss",
-   "ok": true,
-   "items": 237,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "NameError: name 'ET' is not defined"
   },
   {
    "source": "noaa:swpc",
-   "ok": true,
-   "items": 186,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "全部候选地址失败"
   },
   {
-   "source": "who:don",
-   "ok": true,
-   "items": 83,
-   "error": ""
+   "source": "epidemic",
+   "ok": false,
+   "items": 0,
+   "error": "NameError: name 'ET' is not defined"
   }
  ]
 }
