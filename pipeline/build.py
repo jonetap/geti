@@ -22,9 +22,9 @@ from .model import (
 )
 
 UTC = timezone.utc
-INDEX_VERSION = "geti-0.3.1"
+INDEX_VERSION = "geti-0.4.0"
 HISTORY_DAYS = 90
-VOLUME_FLOOR_RATIO = 0.25
+MIN_ITEMS_PER_DAY = 20
 
 
 # ---------------------------------------------------------------- 地理推断
@@ -93,25 +93,15 @@ def pressure_from_signals(signals: Iterable[EventSignal]) -> Series:
 
 
 def drop_failed_days(series: Series) -> tuple[Series, list[str]]:
-    """把"抓取失败日"从历史里剔除。
+    """丢掉几乎什么都没抓到的日子。
 
-    线上跑了一周才发现这件事：同样的代码、同样的 URL，某些日子只解析出几十条，
-    另一些日子几万条——相邻两天能差 300 倍。**真实新闻量不会隔天差 300 倍**，
-    所以那不是"平静的一天"，而是那天根本没抓到。
-
-    如果不剔除，这些日子会被当成"历史上很安稳"，于是今天所有分项都变成极端异常，
-    指数天天贴顶。这个错误在指标上表现得和"世界真的紧张了"一模一样，必须从数据层区分。
-
-    判据：当日条目数 < 全局中位数 × 25% 即视为抓取失败，整天丢弃（不是记 0）。
+    判据只看绝对量（< 20 条即视为没抓到），**不看中位数**——中位数本身会被
+    大批残缺日子拉低，用它当基准等于拿病历当健康标准（我们试过，只剔掉 3 天）。
     """
     vol = series.get(VOLUME_KEY, {})
-    if len(vol) < 5:
+    if not vol:
         return series, []
-    base = score.median(list(vol.values()))
-    if base <= 0:
-        return series, []
-    floor = base * VOLUME_FLOOR_RATIO
-    bad = {d for d, n in vol.items() if n < floor}
+    bad = {d for d, n in vol.items() if n < MIN_ITEMS_PER_DAY}
     if not bad:
         return series, []
     out: Series = {}
@@ -120,28 +110,38 @@ def drop_failed_days(series: Series) -> tuple[Series, list[str]]:
     return out, sorted(d.isoformat() for d in bad)
 
 
-def normalize_volume(series: Series) -> Series:
-    """按当日条目数把压力折成"每单位体量"，削掉抓取量波动。
+def share_normalize(series: Series) -> Series:
+    """把"当日压力绝对值"折成"当日份额 × log(当日总量)"。
 
-    历史上还没攒够体量数据时（少于 5 天）原样返回，不做任何猜测。
-    因子夹在 [0.6, 1.8]，防止某天文件残缺（只解析到一半）把整条历史拉歪。
+    为什么必须折：1.0 的历史日文件时好时坏，某些日子只解析出几十条、某些日子
+    几万条，**相邻两天差 300 倍**。用绝对量做 z 分数，今天永远是最极端的那个，
+    和"世界真的更紧张"在数值上无法区分。
+
+    除以当日总量，抓取规模就被消掉了，剩下的是"这一天里军事升级占多大比重"——
+    这才是跨日可比的。再乘 `log1p(总量)` 保留一点"真的更热闹"的权重：对数意味着
+    300 倍的抓取误差最多只放大 1.4 倍，而总量的真实变化仍然进得来。
     """
-    vol = series.get(VOLUME_KEY, {})
-    if len(vol) < 5:
-        return series
-    base = score.median(list(vol.values()))
-    if base <= 0:
-        return series
-    out: Series = {}
-    for k, days in series.items():
+    totals: dict[date, float] = {}
+    for k, cell in series.items():
         if k == VOLUME_KEY:
             continue
-        cell: dict[date, float] = {}
-        for d, v in days.items():
-            n = vol.get(d)
-            f = 1.0 if not n else min(1.8, max(0.6, n / base))
-            cell[d] = v / f
-        out[k] = cell
+        for d, v in cell.items():
+            if v > 0:
+                totals[d] = totals.get(d, 0.0) + v
+    if not totals:
+        return series
+    out: Series = {}
+    for k, cell in series.items():
+        if k == VOLUME_KEY:
+            continue
+        norm: dict[date, float] = {}
+        for d, v in cell.items():
+            tot = totals.get(d, 0.0)
+            if v <= 0 or tot <= 0:
+                norm[d] = 0.0
+                continue
+            norm[d] = math.sqrt(math.log1p(v) * (v / tot) * math.log1p(tot))
+        out[k] = norm
     return out
 
 
@@ -331,7 +331,7 @@ def build_snapshot(
 ) -> dict:
     now = now or datetime.now(UTC)
     series, failed_days = drop_failed_days(series)
-    series = normalize_volume(series)
+    series = share_normalize(series)
     coverage = dict(coverage or {})
     if failed_days:
         coverage["failed_days"] = len(failed_days)
