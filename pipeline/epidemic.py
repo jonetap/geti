@@ -15,7 +15,7 @@ import re
 import xml.etree.ElementTree as ET
 from datetime import date
 
-from .fetch import _get_retry
+from .fetch import _get_retry, on_day, parse_feed_items
 
 WHO_FEEDS = [
     "https://www.who.int/feeds/entity/csr/don/en/rss.xml",
@@ -85,6 +85,7 @@ def fetch_day(day: date, news_items=None) -> tuple[dict, list[dict]]:
 
     titles: list[str] = []
     don_count = 0
+    feed_ok = False
     tried = 0
     last_err = "全部候选地址失败"
     for url in WHO_FEEDS:
@@ -94,15 +95,20 @@ def fetch_day(day: date, news_items=None) -> tuple[dict, list[dict]]:
         except Exception as exc:                                # noqa: BLE001
             last_err = f"{type(exc).__name__}: {exc}"
             continue
-        titles = parse_feed_titles(data)
-        if titles:
+        pairs = parse_feed_items(data)
+        # 关键：feed 是历史存档（一次 80+ 条），不按日期过滤会得到一个几乎恒定的
+        # 大数字，z 恒为 0——看着有数据，其实什么都没测。
+        if pairs:
+            titles = [t for t, d in pairs if on_day(d, day)]
             don_count = sum(1 for t in titles if DISEASE.search(t))
-            rec(f"who:don", True, len(titles))
+            feed_ok = True
+            rec("who:don", True, len(titles))
             break
     else:
         rec("who:don", False, 0, last_err if tried else "未配置")
 
-    if titles:
+    if feed_ok:
+        # 今天没有疫情通报 = 0，这是信息；抓取失败才是缺失，不给 0
         out["who_don"] = float(don_count)
     # 政策信号优先用官方 feed 的标题；没有再退到新闻池
     corpus = [t for t in titles]

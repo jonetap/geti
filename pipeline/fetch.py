@@ -209,3 +209,48 @@ def fetch_gdelt_daily(days: int = 2, end=None, max_lookback: int = 6,
 
     resolved = max(got_days) if got_days else None
     return signals, health, resolved
+
+
+def parse_feed_items(xml: str) -> list:
+    """RSS/Atom → [(title, datetime|None)]，供按日期筛选。
+
+    时间字段三种写法都吃：RFC822（pubDate）、ISO（published/updated）。
+    解析不出来就给 None——调用方自己决定是"算今天"还是"丢掉"。
+    """
+    from email.utils import parsedate_to_datetime
+
+    out: list = []
+    try:
+        root = ET.fromstring(xml)
+    except ET.ParseError:
+        return out
+    for el in root.iter():
+        if el.tag.split("}")[-1] not in ("item", "entry"):
+            continue
+        title = None
+        when = None
+        for ch in el:
+            name = ch.tag.split("}")[-1].lower()
+            txt = (ch.text or "").strip()
+            if name == "title" and txt and title is None:
+                title = txt
+            elif name in ("pubdate", "published", "updated", "date") and txt:
+                try:
+                    when = parsedate_to_datetime(txt)
+                except (TypeError, ValueError):
+                    try:
+                        when = datetime.fromisoformat(txt.replace("Z", "+00:00"))
+                    except ValueError:
+                        when = None
+        if title:
+            out.append((title, when))
+    return out
+
+
+def on_day(when, day) -> bool:
+    """时间是否落在 day 当天（UTC）。None 视为未知，放行。"""
+    if when is None:
+        return True
+    if when.tzinfo is None:
+        when = when.replace(tzinfo=timezone.utc)
+    return when.astimezone(timezone.utc).date() == day

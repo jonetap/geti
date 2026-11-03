@@ -18,7 +18,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 
-from .fetch import _get_retry
+from .fetch import _get_retry, on_day, parse_feed_items
 
 UTC = timezone.utc
 
@@ -99,16 +99,24 @@ def parse_eonet(text: str) -> dict:
     return {"total": total, "by_cat": cats}
 
 
-def parse_gdacs(text: str) -> dict:
-    """GDACS RSS → 红/橙/绿预警计数。"""
+def parse_gdacs(text: str, day=None) -> dict:
+    """GDACS RSS → 红/橙/绿预警计数（只算 day 当天发布的）。"""
     try:
         root = ET.fromstring(text)
     except ET.ParseError:
         return {}
     counts = {"red": 0, "orange": 0, "green": 0}
+    stamps = {t: d for t, d in parse_feed_items(text)} if day else {}
     for item in root.iter():
         if not item.tag.endswith("item"):
             continue
+        if day:
+            title = ""
+            for ch in item:
+                if ch.tag.split("}")[-1].lower() == "title":
+                    title = (ch.text or "").strip()
+            if not on_day(stamps.get(title), day):
+                continue
         level = ""
         for child in item:
             name = child.tag.split("}")[-1].lower()
@@ -120,8 +128,8 @@ def parse_gdacs(text: str) -> dict:
     return counts
 
 
-def parse_kp(text: str) -> dict:
-    """NOAA SWPC Kp 指数（两种格式都吃）。"""
+def parse_kp(text: str, day=None) -> dict:
+    """NOAA SWPC Kp 指数（两种格式都吃）。day 给定时只取当天。"""
     try:
         doc = json.loads(text)
     except json.JSONDecodeError:
@@ -130,11 +138,17 @@ def parse_kp(text: str) -> dict:
     if doc and isinstance(doc[0], list):          # products 格式：[[header], [row], ...]
         for row in doc[1:]:
             if isinstance(row, list) and len(row) >= 2:
+                if day and not str(row[0])[:10] == day.strftime("%Y-%m-%d"):
+                    continue
                 v = _f(row[1])
                 if v is not None:
                     vals.append(v)
     elif doc and isinstance(doc[0], dict):        # json 格式：[{k_index: ...}, ...]
         for row in doc:
+            if day:
+                ts = str(row.get("time_tag") or "")[:10]
+                if ts and ts != day.strftime("%Y-%m-%d"):
+                    continue
             v = _f(row.get("kp_index") or row.get("k_index") or row.get("kp"))
             if v is not None:
                 vals.append(v)
@@ -187,7 +201,7 @@ def fetch_day(day: date) -> tuple[dict, list[dict]]:
     # 3) GDACS
     try:
         data = _get_retry(GDACS, timeout=60)
-        g = parse_gdacs(data)
+        g = parse_gdacs(data, day=day)
         if g:
             out["gdacs_alert"] = float(g["red"] * 2 + g["orange"])
             rec("gdacs:rss", True, g["total"])
@@ -201,7 +215,7 @@ def fetch_day(day: date) -> tuple[dict, list[dict]]:
     for url in SWPC:
         try:
             data = _get_retry(url, timeout=45)
-            k = parse_kp(data)
+            k = parse_kp(data, day=day)
             if k:
                 out["space_weather"] = round(k["max"], 2)
                 rec("noaa:swpc", True, k["n"])
