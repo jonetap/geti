@@ -75,6 +75,26 @@ class TestParse(unittest.TestCase):
         self.assertEqual(items[0].url, "https://y.invalid/1")
         self.assertEqual(items[0].published.hour, 7)
 
+    def test_rss1_rdf(self) -> None:
+        """RSS 1.0 的 item 在默认命名空间里，且时间用 dc:date。线上 DW 就是这么挂的。"""
+        xml = """<?xml version="1.0"?>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns="http://purl.org/rss/1.0/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <channel rdf:about="https://z.invalid/"><title>World</title></channel>
+          <item rdf:about="https://z.invalid/1">
+            <title>Border shelling kills two</title>
+            <link>https://z.invalid/1</link>
+            <description>Troops clashed near the frontier.</description>
+            <dc:date>2026-11-02T10:00:00Z</dc:date>
+          </item>
+        </rdf:RDF>"""
+        items = parse_feed(xml, "dw")
+        self.assertEqual(len(items), 1, "RSS 1.0 不许读成 0 条")
+        self.assertEqual(items[0].url, "https://z.invalid/1")
+        self.assertEqual(items[0].published.day, 2)
+        self.assertEqual(items[0].published.hour, 10)
+
 
 class TestCluster(unittest.TestCase):
     def test_same_event_merges(self) -> None:
@@ -120,13 +140,31 @@ class TestScore(unittest.TestCase):
         hist = [10.0, 11.0, 9.0, 10.5, 9.5, 10.0, 11.0, 9.0, 10.0, 10.2, 9.8, 10.1, 9.9, 10.0]
         z = score.robust_z(20.0, hist)
         self.assertIsNotNone(z)
-        self.assertAlmostEqual(z, 3.0, places=6, msg="远超历史应被截断在 +3")
+        self.assertGreater(z, 1.9, "远超历史仍然要给强信号")
+        self.assertLess(z, score.Z_SOFT, "软压缩不许触顶——触顶就意味着区分度丢失")
         self.assertIsNone(score.robust_z(20.0, hist[:5]), "历史不足必须返回 None")
 
     def test_flat_history_spike_is_max_surprise(self) -> None:
         flat = [0.0] * 20
-        self.assertIsNone(score.robust_z(0.0, flat))
-        self.assertEqual(score.robust_z(5.0, flat), 3.0)
+        self.assertAlmostEqual(score.robust_z(0.0, flat), 0.0)
+        self.assertAlmostEqual(score.robust_z(5.0, flat), score.Z_SOFT, places=3)
+
+    def test_saturation_never_piles_up(self) -> None:
+        """一批性质完全不同的历史，应给出不同强度的 z，而不是全撞上限。"""
+        base = [1.0, 2.0, 1.5, 1.2, 1.8, 1.4, 1.1, 1.9, 1.3, 1.6, 1.7, 1.0, 1.5, 1.4]
+        zs = [score.robust_z(base[0] * k, base) for k in (2.0, 4.0, 8.0)]
+        self.assertEqual(len({round(z, 2) for z in zs}), 3, f"应当互不相同：{zs}")
+        self.assertLess(zs[0], zs[1])
+        self.assertLess(zs[1], zs[2])
+
+    def test_strike_is_military_not_internal(self) -> None:
+        """英文 strike 两个意思：军事打击 / 罢工。线上把空袭判成了内部动荡。"""
+        self.assertEqual(
+            score.component_from_text("US conducts series of ‘defensive strikes’ against Iran"),
+            "military",
+        )
+        self.assertEqual(score.component_from_text("公交司机罢工进入第三天"), "internal")
+        self.assertEqual(score.component_from_text("Nationwide walkout over pensions"), "internal")
 
     def test_index_neutral_at_50(self) -> None:
         self.assertAlmostEqual(score.to_index(0.0), 50.0)
