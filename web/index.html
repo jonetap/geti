@@ -98,7 +98,8 @@
   .reg .sc{font:12px/1 var(--mono);text-align:right}
   .reg .dl{font:11px/1 var(--mono);text-align:right;color:var(--dim)}
   .reg .dl.up{color:var(--sev)} .reg .dl.down{color:var(--calm)}
-  .excl{opacity:.45}
+  .excl{opacity:.4;filter:saturate(.25)}
+  .excl .track i{background:var(--dim)}
 
   /* events */
   .ev{display:block;padding:11px 0;border-bottom:1px solid #141d28}
@@ -292,12 +293,18 @@ function render(S){
   $("driver").textContent = S.driver_label || "—";
 
   // meta
+  const satN = S.coverage.components_saturated || 0;
+  const satAll = S.coverage.components_covered || 0;
+  const satBad = satAll > 0 && satN / satAll > 0.4;
   $("meta").innerHTML = [
     ["生成", new Date(S.generated_at).toLocaleString("zh-CN", {hour12:false})],
     ["窗口", S.history_days + " 天"],
     ["版本", S.index_version],
     ["源", `${S.coverage.sources_ok} 正常 / ${S.coverage.sources_failed} 异常`],
     ["条目", String(S.coverage.items)],
+    satBad
+      ? ["<span style=\"color:var(--sev)\">⚠ 标定饱和</span>", `${satN}/${satAll} 分项贴顶，指数此刻不可信`]
+      : ["饱和", `${satN}/${satAll}`],
   ].map(([k, v]) => `<span><b>${k}</b> ${esc(v)}</span>`).join("");
 
   // live badge
