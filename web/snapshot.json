@@ -1,11 +1,11 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-04T01:20:25+00:00",
+ "generated_at": "2026-11-04T04:16:40+00:00",
  "date": "2026-11-02",
- "geti": 68.3,
- "delta_z": 0.82,
+ "geti": 68.4,
+ "delta_z": 0.83,
  "delta_pts": 6.2,
- "confidence": 0.94,
+ "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
  "driver_label": "北美",
@@ -31,7 +31,7 @@
    "code": "OTHER",
    "label": "其他",
    "score": 75.8,
-   "delta": 0.3,
+   "delta": 0.2,
    "excluded": true,
    "drivers": [
     [
@@ -47,7 +47,7 @@
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 74.6,
+   "score": 74.7,
    "delta": -0.6,
    "excluded": false,
    "drivers": [
@@ -81,7 +81,7 @@
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 73.0,
+   "score": 73.1,
    "delta": -0.7,
    "excluded": false,
    "drivers": [
@@ -115,8 +115,8 @@
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 66.9,
-   "delta": 2.6,
+   "score": 67.0,
+   "delta": 2.5,
    "excluded": false,
    "drivers": [
     [
@@ -132,7 +132,7 @@
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 64.2,
+   "score": 64.3,
    "delta": 2.0,
    "excluded": false,
    "drivers": [
@@ -186,11 +186,11 @@
    "key": "military",
    "label": "军事升级",
    "weight": 0.26,
-   "effective_weight": 0.371,
+   "effective_weight": 0.333,
    "available": true,
    "z": 1.69,
    "score": 89.3,
-   "contrib": 0.413
+   "contrib": 0.411
   },
   {
    "key": "physical",
@@ -206,51 +206,67 @@
    "key": "diplomacy",
    "label": "外交",
    "weight": 0.18,
-   "effective_weight": 0.257,
+   "effective_weight": 0.231,
    "available": true,
    "z": 1.58,
    "score": 87.8,
-   "contrib": 0.267
+   "contrib": 0.266
   },
   {
    "key": "economy",
    "label": "经济",
    "weight": 0.15,
-   "effective_weight": 0.214,
+   "effective_weight": 0.192,
    "available": true,
    "z": 1.42,
    "score": 85.5,
-   "contrib": 0.2
+   "contrib": 0.199
   },
   {
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
-   "effective_weight": 0.157,
+   "effective_weight": 0.141,
    "available": true,
    "z": 1.17,
    "score": 81.2,
-   "contrib": 0.121
+   "contrib": 0.12
   },
   {
    "key": "narrative",
    "label": "信息/叙事",
    "weight": 0.08,
-   "effective_weight": 0.0,
-   "available": false,
-   "z": null,
-   "score": null,
-   "contrib": 0.0
+   "effective_weight": 0.103,
+   "available": true,
+   "z": 0.05,
+   "score": 51.7,
+   "contrib": 0.004
   }
  ],
  "events": [
+  {
+   "id": "32571c66f04f",
+   "title": "Seven flights across Europe targeted by suspected bomb threats",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/seven-flights-across-europe-targeted-by-suspected-bomb-threats?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.74,
+   "origins": 2,
+   "sources": [
+    "aljazeera",
+    "bbc"
+   ],
+   "published": "2026-11-04T02:36:18+00:00",
+   "note": "Seven flights across Europe were targeted by suspected bomb threats.",
+   "region": "EUROPE"
+  },
   {
    "id": "7de2da2f4a44",
    "title": "Spanish transport minister resigns days after deadly train crash",
    "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.82,
+   "confidence": 0.74,
    "origins": 2,
    "sources": [
     "bbc",
@@ -281,7 +297,7 @@
    "url": "https://www.scmp.com/news/world/europe/article/3373189/spains-transport-minister-resigns-after-train-crash-killed-69",
    "component": "internal",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -289,21 +305,6 @@
    "published": "2026-11-03T21:55:32+00:00",
    "note": "Spain’s transport minister handed in his resignation on Tuesday following a train crash that killed 69 people last week, one of the worst railway disasters in Europe this century. ",
    "region": "OTHER"
-  },
-  {
-   "id": "554480cde850",
-   "title": "Seven flights across Europe targeted by suspected bomb threats",
-   "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T20:42:47+00:00",
-   "note": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
-   "region": "EUROPE"
   },
   {
    "id": "c5bd585d67c7",
@@ -411,51 +412,6 @@
    "region": "SOUTH_ASIA"
   },
   {
-   "id": "d876bc51b421",
-   "title": "2 Pakistani police officers guarding polio workers killed by suspected militants",
-   "url": "https://www.scmp.com/news/asia/south-asia/article/3373114/2-pakistani-police-officers-guarding-polio-workers-killed-suspected-militants",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-03T08:45:07+00:00",
-   "note": "Suspected militants riding a motorcycle shot and killed two police officers assigned to protect polio workers during a door-to-door vaccination campaign on Tuesday in northwestern ",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "bf251d88d4de",
-   "title": "‘Vile terrorist attack’: Russia bombs Ukraine aid centre",
-   "url": "https://www.france24.com/en/video/20261103-vile-terrorist-attack-russia-bombs-ukraine-aid-centre",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-03T16:30:08+00:00",
-   "note": "A Russian “double tap” strike on a Ukrainian school being used as an aid distribution has killed at least 31 people, according to local authorities, with Ukrainian President Volody",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "ec11df3502ec",
-   "title": "Bomb threats against European airlines force Warsaw airport closure, affect several flights",
-   "url": "https://www.france24.com/en/europe/20261103-bomb-threats-disrupt-europe-flights",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-03T15:41:48+00:00",
-   "note": "Bomb threats targeted at least 10 European airlines on Tuesday, forcing the temporary closure of a Warsaw airport and affecting at least four Ryanair flights. No explosives were fo",
-   "region": "EUROPE"
-  },
-  {
    "id": "35dcef767bbc",
    "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
    "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
@@ -501,9 +457,9 @@
    "region": "AFRICA"
   },
   {
-   "id": "727c0530265a",
-   "title": "China’s new nightmare: a Japanese containment arc in the Indo-Pacific",
-   "url": "https://www.scmp.com/opinion/asia-opinion/article/3372983/chinas-new-nightmare-japanese-containment-arc-indo-pacific",
+   "id": "f649117758ce",
+   "title": "Malaysian police arrest woman over viral shopping mall brawl",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373200/malaysian-police-arrest-woman-over-viral-shopping-mall-brawl",
    "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
@@ -511,24 +467,24 @@
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-03T21:30:06+00:00",
-   "note": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into h",
-   "region": "EAST_ASIA"
+   "published": "2026-11-04T02:52:28+00:00",
+   "note": "Malaysian police have arrested a 25-year-old woman who allegedly caused a disturbance by assaulting visitors at a shopping centre in Kuala Lumpur, with the suspect admitting her in",
+   "region": "OTHER"
   },
   {
-   "id": "ff35d8dfd401",
-   "title": "Russian strikes on Dnipro kill two, injure 20 others",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/russian-strikes-on-dnipro-kill-two-injure-20-others?traffic_source=rss",
-   "component": "military",
+   "id": "727c0530265a",
+   "title": "China’s new nightmare: a Japanese containment arc in the Indo-Pacific",
+   "url": "https://www.scmp.com/opinion/asia-opinion/article/3372983/chinas-new-nightmare-japanese-containment-arc-indo-pacific",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "scmp"
    ],
-   "published": "2026-11-03T17:24:08+00:00",
-   "note": "Russian strikes on Dnipro damaged residential areas and several medical facilities.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-03T21:30:06+00:00",
+   "note": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into h",
+   "region": "EAST_ASIA"
   },
   {
    "id": "d34eaba27fe3",
@@ -604,24 +560,69 @@
    "published": "2026-11-03T17:05:54+00:00",
    "note": "As Moscow continues to launch strikes across Ukraine, Russian citizens are facing increasing financial strain. Since the start of the war in 2022, utility bills in Russia have rise",
    "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "61ba72cd707f",
+   "title": "Most Israelis think settlements policy should change to avoid more sanctions, poll finds",
+   "url": "https://www.theguardian.com/world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-02T06:00:33+00:00",
+   "note": "Survey finds UK government’s decision to impose trade ban was not a decisive factor in how Israelis voted in election The UK government’s decision to impose a ban on trade in goods",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "64d293be669e",
+   "title": "乌克兰：联合国援助400多名撤离围困的民众，呼吁保障冬季能源供应",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143119",
+   "component": "economy",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "联合国世界粮食计划署周一表示，在乌克兰赫尔松地区短暂停火期间，400多名民众得以从俄罗斯控制的奥莱什基市撤离。粮食署已向他们提供紧急食品援助，并准备根据后续撤离情况扩大援助规模。与此同时，联合国开发计划署呼吁国际社会继续提供资金支持，帮助乌克兰在严冬来临前恢复能源供应。",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "6a2aaf71d08e",
+   "title": "世卫组织警告：埃塞俄比亚北部暴力冲突使卫生系统濒临崩溃",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143117",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "埃塞俄比亚北部上周末发生致命无人机袭击后，世界卫生组织总干事谭德塞周一呼吁加强对受冲突影响平民的保护。他警告，持续的暴力正将本已脆弱的卫生系统推向崩溃边缘。",
+   "region": "AFRICA"
   }
  ],
  "breaking": [
   {
-   "id": "7de2da2f4a44",
-   "title": "Spanish transport minister resigns days after deadly train crash",
-   "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
+   "id": "32571c66f04f",
+   "title": "Seven flights across Europe targeted by suspected bomb threats",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/seven-flights-across-europe-targeted-by-suspected-bomb-threats?traffic_source=rss",
+   "component": "military",
    "severity": 5,
-   "confidence": 0.82,
+   "confidence": 0.74,
    "origins": 2,
    "sources": [
-    "bbc",
-    "guardian"
+    "aljazeera",
+    "bbc"
    ],
-   "published": "2026-11-03T22:45:59+00:00",
-   "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
-   "region": "OTHER"
+   "published": "2026-11-04T02:36:18+00:00",
+   "note": "Seven flights across Europe were targeted by suspected bomb threats.",
+   "region": "EUROPE"
   },
   {
    "id": "12a455a8db13",
@@ -644,7 +645,7 @@
    "url": "https://www.scmp.com/news/world/europe/article/3373189/spains-transport-minister-resigns-after-train-crash-killed-69",
    "component": "internal",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -654,18 +655,18 @@
    "region": "OTHER"
   },
   {
-   "id": "554480cde850",
-   "title": "Seven flights across Europe targeted by suspected bomb threats",
-   "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+   "id": "c5bd585d67c7",
+   "title": "Fake bomb threats on flights and cruise ship cause travel disruption in Europe",
+   "url": "https://www.scmp.com/news/world/europe/article/3373186/fake-bomb-threats-flights-and-cruise-ship-cause-travel-disruption-europe",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "bbc"
+    "scmp"
    ],
-   "published": "2026-11-03T20:42:47+00:00",
-   "note": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+   "published": "2026-11-03T19:04:21+00:00",
+   "note": "At least seven flights and a cruise ⁠ship in Europe received bomb threats on ⁠Tuesday, causing disruption at airports although no devices were discovered. At least ⁠two flights to ",
    "region": "EUROPE"
   }
  ],
@@ -676,13 +677,13 @@
   "gdelt_events": 42708,
   "mode": "live",
   "data_through": "2026-11-02",
-  "clusters": 223,
-  "origins": 224,
+  "clusters": 219,
+  "origins": 222,
   "failed_days": 1,
   "failed_days_last": [
    "2026-10-30"
   ],
-  "components_covered": 42,
+  "components_covered": 46,
   "components_required": 60,
   "components_saturated": 0,
   "saturated_ratio": 0.0,
@@ -717,7 +718,7 @@
     "now": 2.21,
     "p50": 0.38,
     "p90": 0.69,
-    "ratio": 5.85,
+    "ratio": 5.84,
     "z": 1.42
    },
    "internal": {
@@ -728,11 +729,11 @@
     "z": 1.17
    },
    "narrative": {
-    "now": 0.0,
-    "p50": null,
-    "p90": null,
+    "now": 0.03,
+    "p50": 0.0,
+    "p90": 0.09,
     "ratio": null,
-    "z": null
+    "z": 0.05
    }
   }
  },
@@ -1099,7 +1100,7 @@
   },
   {
    "date": "2026-10-04",
-   "geti": 44.8
+   "geti": 44.7
   },
   {
    "date": "2026-10-05",
@@ -1211,11 +1212,11 @@
   },
   {
    "date": "2026-11-01",
-   "geti": 62.1
+   "geti": 62.2
   },
   {
    "date": "2026-11-02",
-   "geti": 68.3
+   "geti": 68.4
   }
  ],
  "market": {
@@ -1355,7 +1356,167 @@
    }
   ],
   "history_days": 0,
-  "components_ok": 0
+  "components_ok": 0,
+  "evidence": {
+   "quake": [
+    {
+     "t": "81 km SSE of Palekastro, Greece",
+     "v": 5.3,
+     "ts": "2026-11-02T16:49+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxy"
+    },
+    {
+     "t": "50 km WSW of Huarmey, Peru",
+     "v": 5.1,
+     "ts": "2026-11-02T15:28+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxg"
+    },
+    {
+     "t": "19 km WNW of Tomohon, Indonesia",
+     "v": 5.1,
+     "ts": "2026-11-02T08:13+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuuy"
+    },
+    {
+     "t": "Kermadec Islands region",
+     "v": 5.1,
+     "ts": "2026-11-02T01:18+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tut4"
+    },
+    {
+     "t": "Banda Sea",
+     "v": 5.1,
+     "ts": "2026-11-02T00:53+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tusv"
+    },
+    {
+     "t": "175 km WNW of Panguna, Papua New Guinea",
+     "v": 4.9,
+     "ts": "2026-11-02T05:19+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuu0"
+    },
+    {
+     "t": "193 km ENE of Nagqu, China",
+     "v": 4.7,
+     "ts": "2026-11-02T15:35+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxi"
+    },
+    {
+     "t": "south of the Fiji Islands",
+     "v": 4.7,
+     "ts": "2026-11-02T14:05+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuwv"
+    },
+    {
+     "t": "100 km SSE of Palekastro, Greece",
+     "v": 4.7,
+     "ts": "2026-11-02T08:59+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuv8"
+    },
+    {
+     "t": "113 km SW of Basco, Philippines",
+     "v": 4.7,
+     "ts": "2026-11-02T08:42+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuv5"
+    }
+   ],
+   "eonet": [
+    {
+     "t": "Super Typhoon In-fa",
+     "v": "severe storms",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728"
+    },
+    {
+     "t": "Tropical Cyclone Murasu",
+     "v": "severe storms",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25964"
+    }
+   ],
+   "gdacs": [
+    {
+     "t": "Green forest fire notification in Central African Republic",
+     "v": "green",
+     "ts": "2026-11-02 16:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033464"
+    },
+    {
+     "t": "Green forest fire notification in Mozambique",
+     "v": "green",
+     "ts": "2026-11-02 16:16",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033467"
+    },
+    {
+     "t": "Green forest fire notification in Central African Republic",
+     "v": "green",
+     "ts": "2026-11-02 16:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033437"
+    },
+    {
+     "t": "Green forest fire notification in Mozambique",
+     "v": "green",
+     "ts": "2026-11-02 16:16",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033403"
+    },
+    {
+     "t": "Green forest fire notification in South Sudan, Ethiopia",
+     "v": "green",
+     "ts": "2026-11-02 04:04",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033404"
+    },
+    {
+     "t": "Green forest fire notification in Mozambique",
+     "v": "green",
+     "ts": "2026-11-02 16:16",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033341"
+    },
+    {
+     "t": "Green forest fire notification in Mozambique",
+     "v": "green",
+     "ts": "2026-11-02 16:16",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033344"
+    },
+    {
+     "t": "Green forest fire notification in Botswana, Namibia",
+     "v": "green",
+     "ts": "2026-11-02 04:10",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033382"
+    },
+    {
+     "t": "Green forest fire notification in Botswana, Namibia",
+     "v": "green",
+     "ts": "2026-11-02 04:10",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033366"
+    },
+    {
+     "t": "Green forest fire notification in Central African Republic",
+     "v": "green",
+     "ts": "2026-11-02 16:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033439"
+    },
+    {
+     "t": "Green forest fire notification in Mozambique",
+     "v": "green",
+     "ts": "2026-11-02 16:16",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033423"
+    },
+    {
+     "t": "Green forest fire notification in Central African Republic",
+     "v": "green",
+     "ts": "2026-11-02 16:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033440"
+    }
+   ],
+   "kp": [
+    {
+     "t": "Kp 3.0 峰值（当日 8 个时段）",
+     "v": 3.0,
+     "ts": "2026-11-02",
+     "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
+    }
+   ]
+  }
  },
  "epidemic": {
   "index": null,
@@ -1383,17 +1544,20 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.79,
+    "value": 1.34,
     "z": null,
     "score": null,
     "available": false
    }
   ],
   "history_days": 0,
-  "components_ok": 0
+  "components_ok": 0,
+  "evidence": {
+   "who": []
+  }
  },
  "doom": {
-  "index": 68.3,
+  "index": 68.4,
   "z": 0.46,
   "parts": {
    "military": 0.46,
