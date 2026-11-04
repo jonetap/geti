@@ -1,11 +1,11 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-04T04:16:40+00:00",
- "date": "2026-11-02",
- "geti": 68.4,
- "delta_z": 0.83,
- "delta_pts": 6.2,
- "confidence": 0.95,
+ "generated_at": "2026-11-04T04:31:04+00:00",
+ "date": "2026-11-03",
+ "geti": 70.5,
+ "delta_z": 0.85,
+ "delta_pts": 5.4,
+ "confidence": 0.96,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
  "driver_label": "北美",
@@ -13,25 +13,25 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 79.2,
-   "delta": 1.9,
+   "score": 79.9,
+   "delta": 0.6,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.69
+     1.73
     ],
     [
      "diplomacy",
-     1.58
+     1.61
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 75.8,
-   "delta": 0.2,
+   "score": 75.7,
+   "delta": 3.0,
    "excluded": true,
    "drivers": [
     [
@@ -40,32 +40,32 @@
     ],
     [
      "diplomacy",
-     1.32
+     1.35
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 74.7,
-   "delta": -0.6,
+   "score": 74.5,
+   "delta": 2.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.41
+     1.44
     ],
     [
      "diplomacy",
-     1.27
+     1.25
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 73.9,
-   "delta": -0.9,
+   "score": 74.0,
+   "delta": 2.9,
    "excluded": false,
    "drivers": [
     [
@@ -74,109 +74,109 @@
     ],
     [
      "diplomacy",
-     1.33
+     1.31
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 73.1,
-   "delta": -0.7,
+   "score": 72.7,
+   "delta": 3.2,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.47
+     1.46
     ],
     [
      "diplomacy",
-     1.27
+     1.26
     ]
    ]
   },
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 71.0,
-   "delta": 2.1,
+   "score": 70.7,
+   "delta": 2.9,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.3
+     1.26
     ],
     [
      "diplomacy",
-     1.16
-    ]
-   ]
-  },
-  {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 67.0,
-   "delta": 2.5,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.03
-    ],
-    [
-     "diplomacy",
-     0.89
+     1.14
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 64.3,
-   "delta": 2.0,
+   "score": 65.2,
+   "delta": 3.6,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.28
+     1.32
     ],
     [
      "diplomacy",
-     0.93
+     0.98
+    ]
+   ]
+  },
+  {
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 64.3,
+   "delta": 1.9,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.83
+    ],
+    [
+     "military",
+     0.72
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 61.7,
-   "delta": 1.2,
+   "score": 61.3,
+   "delta": 1.6,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.8
+     0.77
     ],
     [
      "diplomacy",
-     0.79
+     0.67
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 46.0,
-   "delta": -1.0,
+   "score": 48.4,
+   "delta": 2.8,
    "excluded": false,
    "drivers": [
     [
      "internal",
-     -0.68
+     -0.66
     ],
     [
      "economy",
-     -0.6
+     -0.63
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.69,
-   "score": 89.3,
-   "contrib": 0.411
+   "z": 1.73,
+   "score": 89.7,
+   "contrib": 0.406
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.58,
-   "score": 87.8,
-   "contrib": 0.266
+   "z": 1.61,
+   "score": 88.2,
+   "contrib": 0.261
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.42,
-   "score": 85.5,
-   "contrib": 0.199
+   "z": 1.49,
+   "score": 86.5,
+   "contrib": 0.202
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 1.17,
-   "score": 81.2,
-   "contrib": 0.12
+   "z": 1.28,
+   "score": 83.2,
+   "contrib": 0.127
   },
   {
    "key": "narrative",
@@ -239,8 +239,8 @@
    "effective_weight": 0.103,
    "available": true,
    "z": 0.05,
-   "score": 51.7,
-   "contrib": 0.004
+   "score": 51.5,
+   "contrib": 0.003
   }
  ],
  "events": [
@@ -442,21 +442,6 @@
    "region": "OTHER"
   },
   {
-   "id": "fdb36572848c",
-   "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
-   "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-10-26T15:07:23+00:00",
-   "note": "Commanders suspected of sexual violence during the largest and fastest slaughter of civilians in more than 30 years have been subjected to travel ban and asset freeze Senior Sudane",
-   "region": "AFRICA"
-  },
-  {
    "id": "f649117758ce",
    "title": "Malaysian police arrest woman over viral shopping mall brawl",
    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373200/malaysian-police-arrest-woman-over-viral-shopping-mall-brawl",
@@ -605,6 +590,21 @@
    "published": "2026-11-02T12:00:00+00:00",
    "note": "埃塞俄比亚北部上周末发生致命无人机袭击后，世界卫生组织总干事谭德塞周一呼吁加强对受冲突影响平民的保护。他警告，持续的暴力正将本已脆弱的卫生系统推向崩溃边缘。",
    "region": "AFRICA"
+  },
+  {
+   "id": "44842eaf436e",
+   "title": "国际刑事法院院长呼吁联合国会员国捍卫司法独立，抵制针对国际刑事司法的施压",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143115",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.08,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-02T12:00:00+00:00",
+   "note": "联合国大会周一（11月2日）听取了国际刑事法院院长赤根智子（Tomoko Akane）提交的法院年度工作报告。赤根表示，国际刑事法院正面临前所未有的制裁和施压，但法院将继续独立、公正地履行职责。她同时呼吁各国采取具体行动，维护《罗马规约》和国际法治原则。",
+   "region": "OTHER"
   }
  ],
  "breaking": [
@@ -671,19 +671,20 @@
   }
  ],
  "coverage": {
-  "sources_ok": 15,
-  "sources_failed": 2,
-  "items": 42932,
-  "gdelt_events": 42708,
+  "sources_ok": 14,
+  "sources_failed": 0,
+  "items": 43001,
+  "gdelt_events": 42777,
   "mode": "live",
-  "data_through": "2026-11-02",
+  "data_through": "2026-11-03",
   "clusters": 219,
-  "origins": 222,
-  "failed_days": 1,
+  "origins": 221,
+  "failed_days": 2,
   "failed_days_last": [
+   "2026-10-28",
    "2026-10-30"
   ],
-  "components_covered": 46,
+  "components_covered": 48,
   "components_required": 60,
   "components_saturated": 0,
   "saturated_ratio": 0.0,
@@ -694,11 +695,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.4,
+    "now": 3.59,
     "p50": 0.43,
-    "p90": 0.85,
-    "ratio": 7.89,
-    "z": 1.69
+    "p90": 0.86,
+    "ratio": 8.33,
+    "z": 1.73
    },
    "physical": {
     "now": 0.0,
@@ -708,28 +709,28 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.72,
+    "now": 2.85,
     "p50": 0.38,
     "p90": 0.72,
-    "ratio": 7.25,
-    "z": 1.58
+    "ratio": 7.41,
+    "z": 1.61
    },
    "economy": {
-    "now": 2.21,
+    "now": 2.42,
     "p50": 0.38,
-    "p90": 0.69,
-    "ratio": 5.84,
-    "z": 1.42
+    "p90": 0.72,
+    "ratio": 6.31,
+    "z": 1.49
    },
    "internal": {
-    "now": 1.21,
+    "now": 1.38,
     "p50": 0.15,
-    "p90": 0.38,
-    "ratio": 8.05,
-    "z": 1.17
+    "p90": 0.37,
+    "ratio": 9.46,
+    "z": 1.28
    },
    "narrative": {
-    "now": 0.03,
+    "now": 0.02,
     "p50": 0.0,
     "p90": 0.09,
     "ratio": null,
@@ -738,10 +739,6 @@
   }
  },
  "series": [
-  {
-   "date": "2026-07-06",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-07",
    "geti": 50.0
@@ -796,91 +793,91 @@
   },
   {
    "date": "2026-07-20",
-   "geti": 44.9
+   "geti": 50.0
   },
   {
    "date": "2026-07-21",
-   "geti": 46.7
+   "geti": 50.2
   },
   {
    "date": "2026-07-22",
-   "geti": 44.1
+   "geti": 46.4
   },
   {
    "date": "2026-07-23",
-   "geti": 53.6
-  },
-  {
-   "date": "2026-07-24",
-   "geti": 57.3
-  },
-  {
-   "date": "2026-07-25",
-   "geti": 59.1
-  },
-  {
-   "date": "2026-07-26",
-   "geti": 63.1
-  },
-  {
-   "date": "2026-07-27",
-   "geti": 58.3
-  },
-  {
-   "date": "2026-07-28",
-   "geti": 54.1
-  },
-  {
-   "date": "2026-07-29",
-   "geti": 50.3
-  },
-  {
-   "date": "2026-07-30",
-   "geti": 51.0
-  },
-  {
-   "date": "2026-07-31",
-   "geti": 54.1
-  },
-  {
-   "date": "2026-08-01",
-   "geti": 55.0
-  },
-  {
-   "date": "2026-08-02",
    "geti": 55.3
   },
   {
+   "date": "2026-07-24",
+   "geti": 58.3
+  },
+  {
+   "date": "2026-07-25",
+   "geti": 59.8
+  },
+  {
+   "date": "2026-07-26",
+   "geti": 63.7
+  },
+  {
+   "date": "2026-07-27",
+   "geti": 58.4
+  },
+  {
+   "date": "2026-07-28",
+   "geti": 54.2
+  },
+  {
+   "date": "2026-07-29",
+   "geti": 50.4
+  },
+  {
+   "date": "2026-07-30",
+   "geti": 51.1
+  },
+  {
+   "date": "2026-07-31",
+   "geti": 54.2
+  },
+  {
+   "date": "2026-08-01",
+   "geti": 55.1
+  },
+  {
+   "date": "2026-08-02",
+   "geti": 55.2
+  },
+  {
    "date": "2026-08-03",
-   "geti": 52.7
+   "geti": 52.4
   },
   {
    "date": "2026-08-04",
-   "geti": 52.8
+   "geti": 52.4
   },
   {
    "date": "2026-08-05",
-   "geti": 46.3
+   "geti": 45.9
   },
   {
    "date": "2026-08-06",
-   "geti": 49.3
+   "geti": 48.8
   },
   {
    "date": "2026-08-07",
-   "geti": 47.6
+   "geti": 47.1
   },
   {
    "date": "2026-08-08",
-   "geti": 46.2
+   "geti": 45.6
   },
   {
    "date": "2026-08-09",
-   "geti": 42.3
+   "geti": 42.0
   },
   {
    "date": "2026-08-10",
-   "geti": 47.1
+   "geti": 46.9
   },
   {
    "date": "2026-08-11",
@@ -888,127 +885,127 @@
   },
   {
    "date": "2026-08-12",
-   "geti": 50.8
+   "geti": 50.5
   },
   {
    "date": "2026-08-13",
-   "geti": 50.7
+   "geti": 50.3
   },
   {
    "date": "2026-08-14",
-   "geti": 49.8
+   "geti": 49.5
   },
   {
    "date": "2026-08-15",
-   "geti": 53.2
+   "geti": 52.7
   },
   {
    "date": "2026-08-16",
-   "geti": 54.0
+   "geti": 53.7
   },
   {
    "date": "2026-08-17",
-   "geti": 47.3
+   "geti": 47.1
   },
   {
    "date": "2026-08-18",
-   "geti": 43.3
+   "geti": 43.1
   },
   {
    "date": "2026-08-19",
-   "geti": 41.0
+   "geti": 40.7
   },
   {
    "date": "2026-08-20",
-   "geti": 46.2
+   "geti": 45.9
   },
   {
    "date": "2026-08-21",
-   "geti": 49.1
+   "geti": 48.6
   },
   {
    "date": "2026-08-22",
-   "geti": 46.5
-  },
-  {
-   "date": "2026-08-23",
-   "geti": 41.7
-  },
-  {
-   "date": "2026-08-24",
    "geti": 46.2
   },
   {
+   "date": "2026-08-23",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-08-24",
+   "geti": 45.7
+  },
+  {
    "date": "2026-08-25",
-   "geti": 44.2
+   "geti": 43.6
   },
   {
    "date": "2026-08-26",
-   "geti": 39.0
+   "geti": 38.5
   },
   {
    "date": "2026-08-27",
-   "geti": 49.4
+   "geti": 49.2
   },
   {
    "date": "2026-08-28",
-   "geti": 52.0
+   "geti": 51.7
   },
   {
    "date": "2026-08-29",
-   "geti": 52.2
+   "geti": 51.7
   },
   {
    "date": "2026-08-30",
-   "geti": 57.8
+   "geti": 57.5
   },
   {
    "date": "2026-08-31",
-   "geti": 59.0
+   "geti": 58.8
   },
   {
    "date": "2026-09-01",
-   "geti": 52.4
+   "geti": 52.2
   },
   {
    "date": "2026-09-02",
-   "geti": 51.4
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 49.3
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-09-05",
    "geti": 51.3
   },
   {
-   "date": "2026-09-06",
+   "date": "2026-09-03",
    "geti": 49.2
   },
   {
+   "date": "2026-09-04",
+   "geti": 49.1
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 51.2
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 49.0
+  },
+  {
    "date": "2026-09-07",
-   "geti": 44.5
+   "geti": 44.4
   },
   {
    "date": "2026-09-08",
-   "geti": 43.8
+   "geti": 43.6
   },
   {
    "date": "2026-09-09",
-   "geti": 41.6
+   "geti": 41.4
   },
   {
    "date": "2026-09-10",
-   "geti": 39.7
+   "geti": 39.4
   },
   {
    "date": "2026-09-11",
-   "geti": 39.3
+   "geti": 39.1
   },
   {
    "date": "2026-09-12",
@@ -1032,103 +1029,103 @@
   },
   {
    "date": "2026-09-17",
-   "geti": 45.1
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.4
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 45.9
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 51.4
-  },
-  {
-   "date": "2026-09-21",
-   "geti": 47.9
-  },
-  {
-   "date": "2026-09-22",
-   "geti": 46.1
-  },
-  {
-   "date": "2026-09-23",
-   "geti": 48.2
-  },
-  {
-   "date": "2026-09-24",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 42.6
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 47.6
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 47.1
-  },
-  {
-   "date": "2026-09-28",
    "geti": 45.2
   },
   {
-   "date": "2026-09-29",
-   "geti": 42.4
+   "date": "2026-09-18",
+   "geti": 42.5
   },
   {
-   "date": "2026-09-30",
-   "geti": 38.7
+   "date": "2026-09-19",
+   "geti": 46.0
   },
   {
-   "date": "2026-10-01",
-   "geti": 35.2
+   "date": "2026-09-20",
+   "geti": 51.5
   },
   {
-   "date": "2026-10-02",
-   "geti": 39.3
+   "date": "2026-09-21",
+   "geti": 48.1
   },
   {
-   "date": "2026-10-03",
-   "geti": 40.5
+   "date": "2026-09-22",
+   "geti": 46.3
   },
   {
-   "date": "2026-10-04",
-   "geti": 44.7
+   "date": "2026-09-23",
+   "geti": 48.4
   },
   {
-   "date": "2026-10-05",
-   "geti": 46.8
+   "date": "2026-09-24",
+   "geti": 45.2
   },
   {
-   "date": "2026-10-06",
+   "date": "2026-09-25",
+   "geti": 42.8
+  },
+  {
+   "date": "2026-09-26",
    "geti": 47.8
   },
   {
+   "date": "2026-09-27",
+   "geti": 47.4
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 42.6
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 38.9
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 35.4
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 39.6
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 40.9
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 39.7
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 43.4
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 45.7
+  },
+  {
    "date": "2026-10-07",
-   "geti": 45.9
+   "geti": 44.7
   },
   {
    "date": "2026-10-08",
-   "geti": 44.2
+   "geti": 43.3
   },
   {
    "date": "2026-10-09",
-   "geti": 47.0
+   "geti": 46.6
   },
   {
    "date": "2026-10-10",
-   "geti": 52.5
+   "geti": 52.3
   },
   {
    "date": "2026-10-11",
-   "geti": 57.2
+   "geti": 57.1
   },
   {
    "date": "2026-10-12",
@@ -1144,79 +1141,83 @@
   },
   {
    "date": "2026-10-15",
-   "geti": 56.5
-  },
-  {
-   "date": "2026-10-16",
    "geti": 56.6
   },
   {
+   "date": "2026-10-16",
+   "geti": 56.8
+  },
+  {
    "date": "2026-10-17",
-   "geti": 56.1
+   "geti": 56.4
   },
   {
    "date": "2026-10-18",
-   "geti": 57.4
+   "geti": 57.7
   },
   {
    "date": "2026-10-19",
-   "geti": 58.2
+   "geti": 58.7
   },
   {
    "date": "2026-10-20",
-   "geti": 54.5
-  },
-  {
-   "date": "2026-10-21",
-   "geti": 50.2
-  },
-  {
-   "date": "2026-10-22",
-   "geti": 49.5
-  },
-  {
-   "date": "2026-10-23",
-   "geti": 53.7
-  },
-  {
-   "date": "2026-10-24",
-   "geti": 57.0
-  },
-  {
-   "date": "2026-10-25",
-   "geti": 62.7
-  },
-  {
-   "date": "2026-10-26",
    "geti": 55.1
   },
   {
+   "date": "2026-10-21",
+   "geti": 50.8
+  },
+  {
+   "date": "2026-10-22",
+   "geti": 50.0
+  },
+  {
+   "date": "2026-10-23",
+   "geti": 54.0
+  },
+  {
+   "date": "2026-10-24",
+   "geti": 57.2
+  },
+  {
+   "date": "2026-10-25",
+   "geti": 62.9
+  },
+  {
+   "date": "2026-10-26",
+   "geti": 55.6
+  },
+  {
    "date": "2026-10-27",
-   "geti": 56.5
+   "geti": 54.9
   },
   {
    "date": "2026-10-28",
-   "geti": 61.4
+   "geti": 40.9
   },
   {
    "date": "2026-10-29",
-   "geti": 61.9
+   "geti": 48.8
   },
   {
    "date": "2026-10-30",
-   "geti": 45.4
+   "geti": 36.9
   },
   {
    "date": "2026-10-31",
-   "geti": 53.2
+   "geti": 47.8
   },
   {
    "date": "2026-11-01",
-   "geti": 62.2
+   "geti": 57.9
   },
   {
    "date": "2026-11-02",
-   "geti": 68.4
+   "geti": 65.1
+  },
+  {
+   "date": "2026-11-03",
+   "geti": 70.5
   }
  ],
  "market": {
@@ -1313,7 +1314,7 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.59,
+    "value": 8.64,
     "z": null,
     "score": null,
     "available": false
@@ -1322,7 +1323,7 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 17.0,
+    "value": 12.0,
     "z": null,
     "score": null,
     "available": false
@@ -1349,75 +1350,75 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 3.0,
+    "value": 2.0,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 0,
+  "history_days": 1,
   "components_ok": 0,
   "evidence": {
    "quake": [
     {
-     "t": "81 km SSE of Palekastro, Greece",
-     "v": 5.3,
-     "ts": "2026-11-02T16:49+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxy"
+     "t": "24 km NNW of Rioblanco, Colombia",
+     "v": 5.4,
+     "ts": "2026-11-03T09:13+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv4i"
     },
     {
-     "t": "50 km WSW of Huarmey, Peru",
-     "v": 5.1,
-     "ts": "2026-11-02T15:28+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxg"
+     "t": "91 km ESE of Kyzyl-Eshme, Kyrgyzstan",
+     "v": 5.2,
+     "ts": "2026-11-03T21:34+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvtj"
     },
     {
-     "t": "19 km WNW of Tomohon, Indonesia",
-     "v": 5.1,
-     "ts": "2026-11-02T08:13+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuuy"
+     "t": "Mid-Indian Ridge",
+     "v": 5.2,
+     "ts": "2026-11-03T18:21+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvs3"
     },
     {
-     "t": "Kermadec Islands region",
-     "v": 5.1,
-     "ts": "2026-11-02T01:18+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tut4"
+     "t": "Volcano Islands, Japan region",
+     "v": 5.2,
+     "ts": "2026-11-03T16:48+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvie"
     },
     {
-     "t": "Banda Sea",
-     "v": 5.1,
-     "ts": "2026-11-02T00:53+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tusv"
-    },
-    {
-     "t": "175 km WNW of Panguna, Papua New Guinea",
+     "t": "9 km N of Delta, B.C., MX",
      "v": 4.9,
-     "ts": "2026-11-02T05:19+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuu0"
+     "ts": "2026-11-03T18:27+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41572064"
     },
     {
-     "t": "193 km ENE of Nagqu, China",
-     "v": 4.7,
-     "ts": "2026-11-02T15:35+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxi"
+     "t": "South Sandwich Islands region",
+     "v": 4.9,
+     "ts": "2026-11-03T13:34+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv5i"
     },
     {
-     "t": "south of the Fiji Islands",
-     "v": 4.7,
-     "ts": "2026-11-02T14:05+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuwv"
+     "t": "101 km SSE of Palekastro, Greece",
+     "v": 4.9,
+     "ts": "2026-11-03T11:03+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv51"
     },
     {
-     "t": "100 km SSE of Palekastro, Greece",
-     "v": 4.7,
-     "ts": "2026-11-02T08:59+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuv8"
+     "t": "85 km S of Gorontalo, Indonesia",
+     "v": 4.8,
+     "ts": "2026-11-03T15:37+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tva7"
     },
     {
-     "t": "113 km SW of Basco, Philippines",
+     "t": "6 km S of Asahi, Japan",
+     "v": 4.8,
+     "ts": "2026-11-03T05:40+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv3q"
+    },
+    {
+     "t": "74 km E of Petropavlovsk-Kamchatsky, Russia",
      "v": 4.7,
-     "ts": "2026-11-02T08:42+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuv5"
+     "ts": "2026-11-03T03:13+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv2p"
     }
    ],
    "eonet": [
@@ -1436,83 +1437,59 @@
    ],
    "gdacs": [
     {
-     "t": "Green forest fire notification in Central African Republic",
+     "t": "Green flood alert in Bulgaria",
      "v": "green",
-     "ts": "2026-11-02 16:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033464"
+     "ts": "2026-11-03 10:19",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104267"
     },
     {
-     "t": "Green forest fire notification in Mozambique",
+     "t": "Green flood alert in Spain",
      "v": "green",
-     "ts": "2026-11-02 16:16",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033467"
+     "ts": "2026-11-03 10:19",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104268"
     },
     {
-     "t": "Green forest fire notification in Central African Republic",
+     "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
-     "ts": "2026-11-02 16:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033437"
+     "ts": "2026-11-03 16:41",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033388"
     },
     {
-     "t": "Green forest fire notification in Mozambique",
+     "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
-     "ts": "2026-11-02 16:16",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033403"
+     "ts": "2026-11-03 16:41",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033401"
     },
     {
-     "t": "Green forest fire notification in South Sudan, Ethiopia",
+     "t": "Green flood alert in Philippines",
      "v": "green",
-     "ts": "2026-11-02 04:04",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033404"
+     "ts": "2026-11-03 06:49",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104266"
     },
     {
-     "t": "Green forest fire notification in Mozambique",
+     "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
-     "ts": "2026-11-02 16:16",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033341"
+     "ts": "2026-11-03 16:41",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033383"
     },
     {
-     "t": "Green forest fire notification in Mozambique",
+     "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
-     "ts": "2026-11-02 16:16",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033344"
+     "ts": "2026-11-03 16:41",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033407"
     },
     {
-     "t": "Green forest fire notification in Botswana, Namibia",
+     "t": "Green forest fire notification in Bolivia",
      "v": "green",
-     "ts": "2026-11-02 04:10",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033382"
-    },
-    {
-     "t": "Green forest fire notification in Botswana, Namibia",
-     "v": "green",
-     "ts": "2026-11-02 04:10",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033366"
-    },
-    {
-     "t": "Green forest fire notification in Central African Republic",
-     "v": "green",
-     "ts": "2026-11-02 16:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033439"
-    },
-    {
-     "t": "Green forest fire notification in Mozambique",
-     "v": "green",
-     "ts": "2026-11-02 16:16",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033423"
-    },
-    {
-     "t": "Green forest fire notification in Central African Republic",
-     "v": "green",
-     "ts": "2026-11-02 16:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033440"
+     "ts": "2026-11-03 08:12",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033447"
     }
    ],
    "kp": [
     {
-     "t": "Kp 3.0 峰值（当日 8 个时段）",
-     "v": 3.0,
-     "ts": "2026-11-02",
+     "t": "Kp 2.0 峰值（当日 8 个时段）",
+     "v": 2.0,
+     "ts": "2026-11-03",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -1550,17 +1527,17 @@
     "available": false
    }
   ],
-  "history_days": 0,
+  "history_days": 1,
   "components_ok": 0,
   "evidence": {
    "who": []
   }
  },
  "doom": {
-  "index": 68.4,
-  "z": 0.46,
+  "index": 70.5,
+  "z": 0.52,
   "parts": {
-   "military": 0.46,
+   "military": 0.52,
    "hazard": null,
    "epidemic": null
   },
@@ -1572,27 +1549,10 @@
  },
  "adapters": [
   {
-   "source": "gdelt_daily_2026-11-04",
-   "ok": false,
-   "items": 0,
-   "error": "HTTP 404（文件尚未发布）"
-  },
-  {
-   "source": "gdelt_daily_2026-11-03",
-   "ok": false,
-   "items": 0,
-   "error": "HTTP 404（文件尚未发布）"
-  },
-  {
-   "source": "gdelt_daily_2026-11-02",
+   "source": "gdelt_recent",
    "ok": true,
-   "items": 26101,
-   "error": ""
-  },
-  {
-   "source": "gdelt_daily_2026-11-01",
-   "ok": true,
-   "items": 16607,
+   "files": 141,
+   "items": 42777,
    "error": ""
   },
   {
@@ -1676,7 +1636,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 17,
+   "items": 12,
    "error": ""
   },
   {
@@ -1688,7 +1648,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 17,
+   "items": 8,
    "error": ""
   },
   {

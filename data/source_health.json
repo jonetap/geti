@@ -18,80 +18,80 @@
     "consecutive_failures": 0
   },
   "bbc": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "aljazeera": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "guardian": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "dw": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "france24": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "nhk": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "scmp": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "un_news_zh": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:VIXCLS": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DCOILWTICO": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:BAMLH0A0HYM2": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DTWEXBGS": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DGS10": {
-    "last_success_at": "2026-11-04T04:16:40+00:00",
-    "last_attempt_at": "2026-11-04T04:16:40+00:00",
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
@@ -100,5 +100,11 @@
     "last_attempt_at": "2026-11-04T04:16:40+00:00",
     "last_error": "HTTP 404（文件尚未发布）",
     "consecutive_failures": 2
+  },
+  "gdelt_recent": {
+    "last_success_at": "2026-11-04T04:31:04+00:00",
+    "last_attempt_at": "2026-11-04T04:31:04+00:00",
+    "last_error": "",
+    "consecutive_failures": 0
   }
 }
