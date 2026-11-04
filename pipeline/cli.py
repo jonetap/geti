@@ -18,7 +18,7 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 
 from . import backtest as bt
-from . import build, cluster, composite, epidemic, hazard, market, physical, policy, store
+from . import build, cluster, composite, epidemic, hazard, manual, market, physical, policy, store
 from . import fetch as fetcher
 from .synth import synth_items, synth_signals
 
@@ -44,7 +44,8 @@ def _assemble(signals, items, target, now, coverage, series_path, span, extra=No
     )
     if series_extra:                       # 物理征兆：空域份额（OpenSky）
         raw = build.merge_series(raw, series_extra)
-    merged = store.save_series(series_path, raw, keep_days=span + 40, end=target)
+    merged = store.save_series(series_path, raw, keep_days=span + 40, end=target,
+                               keep_existing=True)
 
     coverage = dict(coverage)
     coverage["clusters"] = len(clusters)
@@ -128,6 +129,27 @@ def cmd_demo(args: argparse.Namespace) -> int:
     snap["doom"] = composite.doom(snap.get("geti"), snap["hazard"]["index"],
                             snap["epidemic"]["index"])
 
+    # 演示用的人工线索（真跑时来自 GitHub Issue）
+    snap["manual"] = {
+        "items": [
+            {"number": 12, "title": "敖德萨港再次出现排队长龙",
+             "note": "朋友说本地俄语频道在播，英文一条都没有",
+             "url": "https://github.com/jonetap/geti/issues/12",
+             "author": "friend", "created": "2026-11-03T21:10:00Z",
+             "links": ["https://example.invalid/odesa"], "images": [],
+             "kind": "link", "seen": False},
+            {"number": 11, "title": "边境检查站排队的卡车",
+             "note": "截图来自当地群聊，无法核实",
+             "url": "https://github.com/jonetap/geti/issues/11",
+             "author": "friend", "created": "2026-11-02T08:40:00Z",
+             "links": [], "images": ["https://example.invalid/truck.png"],
+             "kind": "image", "seen": True},
+        ],
+        "unseen": 1,
+        "note": "人工提交 2 条，其中 1 条抓取器没有收录——这类条目也可能是我们的盲区。本层不计分。",
+        "mode": "shadow",
+    }
+
     store.write_json(args.out, snap)
     print(f"[demo] {args.out}  GETI={snap['geti']}  Δz={snap['delta_z']}  "
           f"驱动={snap['driver_label']}  置信度={snap['confidence']}")
@@ -205,7 +227,17 @@ def cmd_run(args: argparse.Namespace) -> int:
     snap["doom"] = composite.doom(snap.get("geti"),
                             aux_block["hazard"].get("index"),
                             aux_block["epidemic"].get("index"))
-    snap["adapters"] = gh + fh + aux_health + [phys_health]
+
+    # 人工线索：人看到但机器没抓到的东西。进页面，不进指数。
+    try:
+        snap["manual"], mh = manual.build_block(items, now=now)
+    except Exception as exc:                        # noqa: BLE001
+        snap["manual"] = {"items": [], "mode": "failed",
+                          "note": "本次没读到人工线索（不影响指数）"}
+        mh = {"source": "manual", "ok": False, "items": 0,
+              "error": f"{type(exc).__name__}: {exc}"[:200]}
+
+    snap["adapters"] = gh + fh + aux_health + [phys_health, mh]
     store.write_json(args.out, snap)
 
     os.makedirs(os.path.dirname(DEFAULT_HEALTH) or ".", exist_ok=True)
