@@ -200,6 +200,17 @@ REGISTRY: dict[str, SourceSpec] = {s.id: s for s in (
     _s("ap", "美联社", "agency", ("military", "diplomacy")),
     _s("afp", "法新社", "agency", ("military", "diplomacy")),
     _s("xinhua", "新华社", "agency", ("diplomacy", "economy")),
+    _s("xinhua_world", "新华网国际", "agency", ("diplomacy", "military")),
+    _s("people", "人民网", "media", ("diplomacy",)),
+    _s("chinanews", "中新网", "agency", ("diplomacy", "internal")),
+    _s("chinanews_cn", "中新网国内", "agency", ("internal",)),
+    _s("globaltimes", "环球时报", "media", ("military", "narrative")),
+    _s("cgtn", "CGTN", "media", ("narrative",)),
+    _s("bbc_zh", "BBC 中文", "media", ("narrative",)),
+    # 这两个一直在 RSS 列表里，却从没登记过——一直被当成自媒体 0.35 计分。
+    # 是新加的"每个 feed 都必须在 REGISTRY 里"那条测试把它们翻出来的。
+    _s("france24", "法国 24", "media", ("diplomacy", "narrative")),
+    _s("un_news_zh", "联合国新闻", "official", ("diplomacy",)),
     # 严肃媒体
     _s("bbc", "BBC", "media"),
     _s("aljazeera", "半岛电视台", "media"),

@@ -32,7 +32,18 @@ RSS_FEEDS: dict[str, tuple[str, str]] = {
     "nhk": ("https://www3.nhk.or.jp/rss/news/cat0.xml", "ja"),
     "scmp": ("https://www.scmp.com/rss/91/feed", "en"),
     "un_news_zh": ("https://news.un.org/feed/subscribe/zh/news/all/rss.xml", "zh"),
+    # 中文源：GDELT 对中文报道的覆盖本来就弱，东亚这一块的"我们这边怎么说的"
+    # 只能自己抓。注意这五家里四家是官媒，转载同一条通稿很常见——
+    # 所以置信度永远按"独立起源"算，不看条数。
+    "xinhua_world": ("http://www.xinhuanet.com/world/news_world.xml", "zh"),
+    "people": ("http://www.people.com.cn/rss/world.xml", "zh"),
+    "chinanews": ("https://www.chinanews.com.cn/rss/world.xml", "zh"),
+    "chinanews_cn": ("https://www.chinanews.com.cn/rss/china.xml", "zh"),
+    "globaltimes": ("https://www.globaltimes.cn/rss/outbrain.xml", "en"),
+    "bbc_zh": ("https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "zh"),
 }
+
+MAX_ITEM_AGE_HOURS = 48      # 新华社那个 feed 一次吐 300 条，能翻到两周前
 
 ADAPTER_INTERVAL_SEC = {
     "gdelt": 900,
@@ -143,11 +154,17 @@ def fetch_feeds(feeds: dict[str, tuple[str, str]] | None = None) -> tuple[list[R
         rec = {"source": sid, "ok": False, "items": 0, "error": ""}
         try:
             raw = http_get(url, timeout=25)
-            got = parse_feed(raw.decode("utf-8", errors="replace"), sid, now=now, lang=lang)
+            parsed = parse_feed(raw.decode("utf-8", errors="replace"), sid, now=now, lang=lang)
+            # 老条目不算今天的新闻。没有发布时间的留着——不猜。
+            got = [it for it in parsed
+                   if it.published is None
+                   or (now - it.published).total_seconds() <= MAX_ITEM_AGE_HOURS * 3600]
             items.extend(got)
             rec["items"] = len(got)
             rec["ok"] = bool(got)
-            if not got:
+            if not got and parsed:
+                rec["error"] = f"解析到 {len(parsed)} 条，但全部超过 {MAX_ITEM_AGE_HOURS} 小时"
+            elif not got:
                 rec["error"] = "解析到 0 条（可能改版）"
         except Exception as exc:
             rec["error"] = f"{type(exc).__name__}: {exc}"[:200]
