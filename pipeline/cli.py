@@ -18,7 +18,7 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 
 from . import backtest as bt
-from . import build, cluster, composite, epidemic, hazard, market, physical, store
+from . import build, cluster, composite, epidemic, hazard, market, physical, policy, store
 from . import fetch as fetcher
 from .synth import synth_items, synth_signals
 
@@ -51,6 +51,7 @@ def _assemble(signals, items, target, now, coverage, series_path, span, extra=No
     coverage["origins"] = sum(c.n_origin for c in clusters)
 
     snap = build.build_snapshot(merged, target, _span(target, span), scored, coverage, now=now)
+    snap["policy"] = policy.scan(clusters, target)     # 背景层，不进 GETI
     if extra:
         snap.update(extra)
     return snap
