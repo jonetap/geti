@@ -754,12 +754,36 @@ boot();
 .pt-ctl{color:#ffa94d;border:1px solid rgba(255,169,77,.45)}
 .pt-red{color:#63e6be;border:1px solid rgba(99,230,190,.45)}
 .pcty{color:rgba(255,255,255,.45);font-size:10.5px;letter-spacing:.08em}
+.psec{font-size:10.5px;color:rgba(255,255,255,.42);margin:12px 0 2px;letter-spacing:.08em}
+.pt-ref{color:rgba(255,255,255,.6);border:1px solid rgba(255,255,255,.22)}
+.prow.ref a{color:rgba(255,255,255,.62)}
 .prow a{color:rgba(255,255,255,.86);text-decoration:none}
 .prow a:hover{text-decoration:underline}
 </style>
 <script>
 // 政策脉冲：只展示，不进 GETI。
 // 挂在外层包一层 render()，这样不用改动原来那段大函数。
+var SRC = {"xinhua_world":"新华","chinanews":"中新","chinanews_cn":"中新","bbc":"BBC","bbc_zh":"BBC","un_news_zh":"UN","scmp":"SCMP","guardian":"卫报","aljazeera":"半岛","dw":"DW","nhk":"NHK","france24":"法24","reuters":"路透","ap":"AP","afp":"法新","isw":"ISW","gdacs":"GDACS","usgs":"USGS","eonet":"EONET"};
+
+
+// 个案：不归类、不计分，只作为客观事件摆在这里。
+function renderNotable(S){
+  const box = document.getElementById("policy");
+  if(!box) return;
+  const old = document.getElementById("policyNotable");
+  if(old) old.remove();
+  const n = (S && S.policy && S.policy.notable) || [];
+  if(!n.length) return;
+  box.insertAdjacentHTML("beforeend",
+    '<div class="psec" id="policyNotable">\u4e2a\u6848 \u00b7 \u5ba2\u89c2\u53c2\u8003\uff08\u4e0d\u5206\u7c7b\u3001\u4e0d\u8ba1\u5206\uff09</div>'
+    + '<div class="plist">' + n.map(function(it){
+        return '<div class="prow ref"><span class="ptag pt-ref">\u53c2\u8003</span>'
+          + '<span class="pcty">' + (it.country || SRC[it.source] || "\u2014") + '</span>'
+          + '<a href="' + esc(it.url || "#") + '" target="_blank" rel="noreferrer">'
+          + esc(it.title) + '</a></div>';
+      }).join("") + '</div>');
+}
+
 function renderPolicy(S){
   const box = document.getElementById("policy");
   const note = document.getElementById("policyNote");
@@ -781,7 +805,7 @@ function renderPolicy(S){
     const m = lab[it.type] || ["其他","pt-ext"];
     const href = it.url || "#";
     return '<div class="prow"><span class="ptag ' + m[1] + '">' + m[0] + '</span>'
-      + '<span class="pcty">' + (it.country || "—") + '</span>'
+      + '<span class="pcty">' + (it.country || SRC[it.source] || "—") + '</span>'
       + '<a href="' + esc(href) + '" target="_blank" rel="noreferrer">'
       + esc(it.title) + '</a></div>';
   }).join("") + "</div>";
@@ -790,7 +814,7 @@ function renderPolicy(S){
   const prev = window.render;
   if (typeof prev !== "function") return;
   window.render = function(S){
-    try { prev(S); } finally { try { renderPolicy(S); } catch(e){} }
+    try { prev(S); } finally { try { renderPolicy(S); } catch(e){} try { renderNotable(S); } catch(e){} }
   };
 })();
 </script>
