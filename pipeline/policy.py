@@ -55,11 +55,27 @@ EXTRACTIVE = re.compile(
     r"levy a fine|forced saving",
     re.I)
 
-CONTROL = re.compile(
-    r"紧急状态|宵禁|戒严|征兵|封控|限制出境|禁止出境|出境禁令|言论管控|"
-    r"网络管制|断网|军事管制|"
+# 管控型分两类：
+# ① 名词本身就等于"已经实施"（宵禁、戒严、征兵）——出现即成立；
+# ② 需要动词才成立（censorship、限制出境）——文章**提到**某词 ≠ 政府**实施**了某动作。
+# 教训来自一条误判：一篇讲"伦敦大屠杀档案馆研究首个'病毒式'反犹丑闻"的报道，
+# 正文里出现 censorship 就被算成管控政策。所以②必须同时有施动动词。
+CONTROL_SELF = re.compile(
+    r"紧急状态|宵禁|戒严|征兵|封控|军事管制|"
     r"state of emergency|curfew|conscription|martial law|lockdown|"
-    r"exit ban|travel ban|censorship|emergency powers|mobilization order",
+    r"emergency powers|mobilization order",
+    re.I)
+
+CONTROL_NEEDVERB = re.compile(
+    r"限制出境|禁止出境|出境禁令|言论管控|网络管制|断网|"
+    r"exit ban|travel ban|censorship|internet shutdown",
+    re.I)
+
+CONTROL_VERB = re.compile(
+    r"实施|实行|宣布|宣布实施|启动|执行|出台|下达|发布|强推|推行|"
+    r"impos\w*|declar\w*|order\w*|enforc\w*|introduc\w*|implements?|"
+    r"bans?|banned|weigh\w*|consider\w*|plan\w*|propos\w*|draft\w*|"
+    r"approv\w*|passes?|passed|signs?|signed",
     re.I)
 
 REDISTRIBUTIVE = re.compile(
@@ -141,18 +157,24 @@ COUNTRIES = {
 }
 
 MAX_ITEMS = 12
-MAX_NOTABLE = 6
+MAX_NOTABLE = 12
 
 
-def classify(text: str) -> str | None:
+def classify(text: str, title: str | None = None) -> str | None:
     """返回 extractive / control / redistributive / None。
 
     顺序很重要：先排除个案与货币政策，再要求"政策工具"名词，
     最后才看类型——反过来做（先看动词）就是 v1 栽跟头的原因。
+
+    title 单独传进来，是因为**管控名词必须出现在标题里**。正文里的
+    "censorship" 往往是文章在讨论某个现象，不是某个政府在实施政策。
     """
     if not text or EXCLUDE.search(text) or PROCEDURAL.search(text):
         return None
-    if CONTROL.search(text):
+    head = title if title is not None else text
+    if CONTROL_SELF.search(head):
+        return "control"
+    if CONTROL_NEEDVERB.search(head) and CONTROL_VERB.search(text):
         return "control"
     if not INSTRUMENT.search(text):
         return None
@@ -212,7 +234,7 @@ def scan(clusters, day: date | None = None) -> dict:
             counts["notable"] += 1
             continue
 
-        kind = classify(text)
+        kind = classify(text, cl.title)
         if kind is None:
             continue
         sc = intensity(text, kind)
@@ -240,6 +262,7 @@ def scan(clusters, day: date | None = None) -> dict:
     return {
         "items": items[:MAX_ITEMS],
         "notable": notable[:MAX_NOTABLE],
+        "notable_total": len(notable),
         "counts": counts,
         "pressure": dict(sorted(pressure.items(), key=lambda kv: -abs(kv[1]))),
         "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",

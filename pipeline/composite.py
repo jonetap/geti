@@ -29,6 +29,45 @@ TANH_K = 1.2
 RESO_THRESHOLD = 0.8     # 共振门槛（z 单位）
 RESO_BONUS = 0.35        # 每多一个子系统越线，加多少 z
 
+# 灾害与疫情的**影响不会当天结束**：一场疫情爆发后，新闻可能第二天就没了，
+# 但病人还在、余震还在、救援还在。所以子指数算的不是"今天有多少条"，
+# 而是"按 7 天半衰期加权之后，现在的负担有多重"。
+# 主指数（军事）不用这套——外交事件是离散的，昨天的会谈谈崩了不代表今天还在崩。
+HALF_LIFE_DAYS = 7.0
+SMOOTH_SPAN = 28         # 再往前权重已 <6%，截断省算力
+
+
+def _smooth(cell: dict, day: date, first: date) -> float | None:
+    """7 天半衰期加权平均。缺失日按 0 计（没报告 = 没发生），
+    但 first 之前不参与（那天还没开始采集，不是"当天为零"）。"""
+    total = 0.0
+    wsum = 0.0
+    for k in range(SMOOTH_SPAN + 1):
+        d = day - timedelta(days=k)
+        if d < first:
+            break
+        w = 0.5 ** (k / HALF_LIFE_DAYS)
+        total += w * cell.get(d, 0.0)
+        wsum += w
+    return (total / wsum) if wsum > 0 else None
+
+
+def persistence(series: dict, kind: str, end: date, span: int = 14) -> dict:
+    """近 span 天里有多少天"有东西在发生"——用来回答"这事过去了没有"。"""
+    comps = SUBI[kind][0]
+    active = 0
+    last = None
+    for i in range(span):
+        d = end - timedelta(days=i)
+        s = sum(series.get((kind, c), {}).get(d, 0.0) for c in comps)
+        if s > 0:
+            active += 1
+            if last is None:
+                last = d
+    return {"span": span, "active_days": active,
+            "last_seen": last.isoformat() if last else None,
+            "ongoing": active >= 3}
+
 
 def readings_to_series(kind: str, day: date, readings: dict) -> dict:
     """把一次抓取结果摊成 Series 片段（和 store 同构）。"""
@@ -47,34 +86,51 @@ def subindex(series: dict, kind: str, end: date, days: int = 90) -> dict:
     hist_days = 0
     for comp, w in weights.items():
         cell = series.get((kind, comp), {})
-        today = cell.get(end)
-        hist = [v for d, v in cell.items() if start <= d < end]
-        hist_days = max(hist_days, len(hist))
-        if today is None or len(hist) < MIN_HISTORY:
+        first = min(cell) if cell else None
+        raw_today = cell.get(end)
+        hist_raw = [v for d, v in cell.items() if start <= d < end]
+        hist_days = max(hist_days, len(hist_raw))
+        today = _smooth(cell, end, first) if first else None
+        if today is None or len(hist_raw) < MIN_HISTORY:
             rows.append({"key": comp, "label": labels[comp], "weight": w,
-                         "value": None if today is None else round(today, 2),
+                         "value": None if raw_today is None else round(raw_today, 2),
+                         "carry": None if today is None else round(today, 2),
                          "z": None, "score": None, "available": False})
             continue
+        hist = []
+        for i in range(1, days + 1):
+            d = end - timedelta(days=i)
+            if d < first:
+                break
+            v = _smooth(cell, d, first)
+            if v is not None:
+                hist.append(v)
         z = score.robust_z(today, hist)
         if z is None:
             rows.append({"key": comp, "label": labels[comp], "weight": w,
-                         "value": round(today, 2), "z": None, "score": None,
+                         "value": round(raw_today, 2),
+                         "carry": round(today, 2), "z": None, "score": None,
                          "available": False})
             continue
         zsum += w * z
         wsum += w
         rows.append({"key": comp, "label": labels[comp], "weight": w,
-                     "value": round(today, 2), "z": round(z, 2),
+                     "value": round(raw_today, 2),
+                     "carry": round(today, 2), "z": round(z, 2),
                      "score": round(score.to_index(z), 1), "available": True})
 
     if wsum <= 0:
         return {"index": None, "z": None, "components": rows,
-                "history_days": hist_days, "components_ok": 0}
+                "history_days": hist_days, "components_ok": 0,
+                "decay_days": HALF_LIFE_DAYS,
+                "persistence": persistence(series, kind, end)}
 
     z_agg = zsum / wsum
     idx = score.to_index(z_agg) if abs(z_agg) > 1e-9 else 50.0
     return {"index": round(idx, 1), "z": round(z_agg, 2), "components": rows,
-            "history_days": hist_days, "components_ok": sum(1 for r in rows if r["available"])}
+            "history_days": hist_days, "components_ok": sum(1 for r in rows if r["available"]),
+            "decay_days": HALF_LIFE_DAYS,
+            "persistence": persistence(series, kind, end)}
 
 
 def _to_z(index: float | None) -> float | None:
