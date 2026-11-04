@@ -18,7 +18,7 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 
 from . import backtest as bt
-from . import build, cluster, composite, epidemic, hazard, market, store
+from . import build, cluster, composite, epidemic, hazard, market, physical, store
 from . import fetch as fetcher
 from .synth import synth_items, synth_signals
 
@@ -33,7 +33,8 @@ def _span(target: date, n: int) -> list[date]:
     return [target - timedelta(days=i) for i in range(n - 1, -1, -1)]
 
 
-def _assemble(signals, items, target, now, coverage, series_path, span, extra=None):
+def _assemble(signals, items, target, now, coverage, series_path, span, extra=None,
+              series_extra=None):
     clusters = cluster.merge_by_origin(cluster.cluster_items(items))
     scored = build.score_clusters(clusters, now=now)
 
@@ -41,6 +42,8 @@ def _assemble(signals, items, target, now, coverage, series_path, span, extra=No
         build.pressure_from_signals(signals),
         build.pressure_from_clusters(scored),
     )
+    if series_extra:                       # 物理征兆：空域份额（OpenSky）
+        raw = build.merge_series(raw, series_extra)
     merged = store.save_series(series_path, raw, keep_days=span + 40, end=target)
 
     coverage = dict(coverage)
@@ -183,8 +186,17 @@ def cmd_run(args: argparse.Namespace) -> int:
         "data_through": score_day.isoformat(),  # 数据实际截止到哪天
     }
 
+    # 物理征兆：一个瞬时快照，归到被打分的那一天（约等于"过去一天的空域状态"）
+    phys_series, phys_health = {}, {"source": "opensky", "ok": False, "items": 0,
+                                    "error": "未调用"}
+    try:
+        phys_series, phys_health = physical.fetch_day(score_day)
+    except Exception as exc:                        # noqa: BLE001
+        phys_health = {"source": "opensky", "ok": False, "items": 0,
+                       "error": f"{type(exc).__name__}: {exc}"[:200]}
+
     snap = _assemble(signals, items, score_day, now, coverage, args.series, args.span,
-                     extra={"market": mkt})
+                     extra={"market": mkt}, series_extra=phys_series)
 
     aux_block, aux_health = _aux_block(score_day, items)
     snap["hazard"] = aux_block["hazard"]
@@ -192,7 +204,7 @@ def cmd_run(args: argparse.Namespace) -> int:
     snap["doom"] = composite.doom(snap.get("geti"),
                             aux_block["hazard"].get("index"),
                             aux_block["epidemic"].get("index"))
-    snap["adapters"] = gh + fh + aux_health
+    snap["adapters"] = gh + fh + aux_health + [phys_health]
     store.write_json(args.out, snap)
 
     os.makedirs(os.path.dirname(DEFAULT_HEALTH) or ".", exist_ok=True)

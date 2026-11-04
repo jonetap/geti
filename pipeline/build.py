@@ -152,8 +152,8 @@ def share_normalize(series: Series) -> Series:
     """
     totals: dict[date, float] = {}
     for k, cell in series.items():
-        if k == VOLUME_KEY:
-            continue
+        if k == VOLUME_KEY or k[1] == "physical":
+            continue      # 空域份额不是"证据累加"，混进来会把物理分项压成 0
         for d, v in cell.items():
             if v > 0:
                 totals[d] = totals.get(d, 0.0) + v
@@ -162,6 +162,9 @@ def share_normalize(series: Series) -> Series:
     out: Series = {}
     for k, cell in series.items():
         if k == VOLUME_KEY:
+            continue
+        if k[1] == "physical":
+            out[k] = dict(cell)        # 原样保留，量纲交给 robust_z
             continue
         norm: dict[date, float] = {}
         for d, v in cell.items():
