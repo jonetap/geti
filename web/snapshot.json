@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-04T04:38:28+00:00",
+ "generated_at": "2026-11-04T04:45:21+00:00",
  "date": "2026-11-03",
  "geti": 70.4,
  "delta_z": 0.85,
@@ -277,6 +277,111 @@
    "region": "OTHER"
   },
   {
+   "id": "b22984ae141f",
+   "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
+   "url": "http://www.news.cn/world/2022-12/13/c_1129205834.htm",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "9d930715366e",
+   "title": "阿富汗首都一酒店遭爆炸袭击 至少2名外国人受伤",
+   "url": "http://www.news.cn/world/2022-12/13/c_1129203448.htm",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "2db9d7535233",
+   "title": "英国泽西岛公寓楼爆炸致5人丧生",
+   "url": "http://www.news.cn/world/2022-12/12/c_1129201558.htm",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
+   "region": "EUROPE"
+  },
+  {
+   "id": "fabf87ffc6f9",
+   "title": "印尼西苏门答腊省一煤矿爆炸致9人死亡",
+   "url": "http://www.news.cn/world/2022-12/09/c_1129196117.htm",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "929990325de7",
+   "title": "墨西哥东北部军方与武装分子交火致8人死亡",
+   "url": "http://www.news.cn/world/2022-12/08/c_1129191971.htm",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "墨西哥东北部塔毛利帕斯州安全部门7日说，墨军方与武装分子当天在该州新拉雷多市发生交火，造成至少8人死亡、7人受伤。",
+   "region": "LATAM"
+  },
+  {
+   "id": "97d0b662e18b",
+   "title": "印尼一警局发生爆炸袭击致两人死亡",
+   "url": "http://www.news.cn/world/2022-12/07/c_1129190075.htm",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "印度尼西亚警方7日通报，印尼西爪哇省首府万隆市一所警察局当天发生炸弹袭击事件，已致2人死亡、7人受伤。",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "172b1ef51fb5",
+   "title": "欧洲多架客机及一艘邮轮遭炸弹威胁",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725708.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-03T23:07:04+00:00",
+   "note": "中新网11月4日电 据路透社报道，11月3日，欧洲至少有七架航班和一艘邮轮收到炸弹威胁，导致多座机场运行受到干扰，但最终均未发现爆炸装置。",
+   "region": "EUROPE"
+  },
+  {
    "id": "12a455a8db13",
    "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
    "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
@@ -442,169 +547,64 @@
    "region": "OTHER"
   },
   {
-   "id": "f649117758ce",
-   "title": "Malaysian police arrest woman over viral shopping mall brawl",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373200/malaysian-police-arrest-woman-over-viral-shopping-mall-brawl",
-   "component": "narrative",
+   "id": "a46c0e9d2635",
+   "title": "外交部发言人就阿富汗首都喀布尔发生恐怖袭击事件答记者问",
+   "url": "http://www.news.cn/world/2022-12/13/c_1129205654.htm",
+   "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "scmp"
+    "xinhua_world"
    ],
-   "published": "2026-11-04T02:52:28+00:00",
-   "note": "Malaysian police have arrested a 25-year-old woman who allegedly caused a disturbance by assaulting visitors at a shopping centre in Kuala Lumpur, with the suspect admitting her in",
-   "region": "OTHER"
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "外交部发言人汪文斌13日就阿富汗首都喀布尔日前发生恐怖袭击事件答记者问。",
+   "region": "SOUTH_ASIA"
   },
   {
-   "id": "727c0530265a",
-   "title": "China’s new nightmare: a Japanese containment arc in the Indo-Pacific",
-   "url": "https://www.scmp.com/opinion/asia-opinion/article/3372983/chinas-new-nightmare-japanese-containment-arc-indo-pacific",
+   "id": "d90eedeefea8",
+   "title": "墨西哥南部发生6级地震",
+   "url": "http://www.news.cn/world/2022-12/11/c_1129200728.htm",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "scmp"
+    "xinhua_world"
    ],
-   "published": "2026-11-03T21:30:06+00:00",
-   "note": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into h",
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "墨西哥国家地震局11日说，该国南部格雷罗州当天上午发生6级地震。首都墨西哥城响起地震警报，震感明显，有市民撤离至街头。",
+   "region": "LATAM"
+  },
+  {
+   "id": "2fda5bbab26c",
+   "title": "中方欢迎安理会通过制裁人道豁免决议",
+   "url": "http://www.news.cn/world/2022-12/10/c_1129197358.htm",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "中国常驻联合国副代表耿爽9日在安理会通过制裁人道豁免决议后作解释性发言，欢迎安理会通过该决议。",
    "region": "EAST_ASIA"
   },
   {
-   "id": "d34eaba27fe3",
-   "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
-   "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T13:52:34+00:00",
-   "note": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours ",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "94558a92c338",
-   "title": "Trump to remove Rwanda and South Africa from US trade deal",
-   "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+   "id": "6f2c95d88400",
+   "title": "俄外交部：俄公民布特与美国女篮运动员格里纳在阿布扎比机场完成交换",
+   "url": "http://www.news.cn/world/2022-12/09/c_1129193729.htm",
    "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "bbc"
+    "xinhua_world"
    ],
-   "published": "2026-11-03T13:28:30+00:00",
-   "note": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
-   "region": "AFRICA"
-  },
-  {
-   "id": "afb149854fa6",
-   "title": "US strikes Iranian island ahead of midterm elections",
-   "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T11:33:33+00:00",
-   "note": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "90db80e4337d",
-   "title": "Tenerife striker De Miguel dies after on-field collision",
-   "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T09:09:18+00:00",
-   "note": "Tenerife forward Jesus de Miguel dies aged 30 after an on-field collision during a Spanish second-division match.",
-   "region": "OTHER"
-  },
-  {
-   "id": "2bd43ae7f6eb",
-   "title": "Russian households face increasing financial strain as war in Ukraine drags on",
-   "url": "https://www.france24.com/en/video/20261103-russian-households-face-increasing-financial-strain-as-war-in-ukraine-drags-on",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-03T17:05:54+00:00",
-   "note": "As Moscow continues to launch strikes across Ukraine, Russian citizens are facing increasing financial strain. Since the start of the war in 2022, utility bills in Russia have rise",
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "俄罗斯外交部8日说，俄美两国当天在阿拉伯联合酋长国阿布扎比机场完成在押人员互换手续，俄公民维克托·布特与美国女篮运动员布里特妮·格里纳进行了交换。",
    "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "61ba72cd707f",
-   "title": "Most Israelis think settlements policy should change to avoid more sanctions, poll finds",
-   "url": "https://www.theguardian.com/world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-02T06:00:33+00:00",
-   "note": "Survey finds UK government’s decision to impose trade ban was not a decisive factor in how Israelis voted in election The UK government’s decision to impose a ban on trade in goods",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "64d293be669e",
-   "title": "乌克兰：联合国援助400多名撤离围困的民众，呼吁保障冬季能源供应",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143119",
-   "component": "economy",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "联合国世界粮食计划署周一表示，在乌克兰赫尔松地区短暂停火期间，400多名民众得以从俄罗斯控制的奥莱什基市撤离。粮食署已向他们提供紧急食品援助，并准备根据后续撤离情况扩大援助规模。与此同时，联合国开发计划署呼吁国际社会继续提供资金支持，帮助乌克兰在严冬来临前恢复能源供应。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "6a2aaf71d08e",
-   "title": "世卫组织警告：埃塞俄比亚北部暴力冲突使卫生系统濒临崩溃",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143117",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "埃塞俄比亚北部上周末发生致命无人机袭击后，世界卫生组织总干事谭德塞周一呼吁加强对受冲突影响平民的保护。他警告，持续的暴力正将本已脆弱的卫生系统推向崩溃边缘。",
-   "region": "AFRICA"
-  },
-  {
-   "id": "44842eaf436e",
-   "title": "国际刑事法院院长呼吁联合国会员国捍卫司法独立，抵制针对国际刑事司法的施压",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143115",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.08,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-02T12:00:00+00:00",
-   "note": "联合国大会周一（11月2日）听取了国际刑事法院院长赤根智子（Tomoko Akane）提交的法院年度工作报告。赤根表示，国际刑事法院正面临前所未有的制裁和施压，但法院将继续独立、公正地履行职责。她同时呼吁各国采取具体行动，维护《罗马规约》和国际法治原则。",
-   "region": "OTHER"
   }
  ],
  "breaking": [
@@ -625,60 +625,60 @@
    "region": "EUROPE"
   },
   {
-   "id": "12a455a8db13",
-   "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
-   "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
-   "component": "military",
+   "id": "b22984ae141f",
+   "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
+   "url": "http://www.news.cn/world/2022-12/13/c_1129205834.htm",
+   "component": "diplomacy",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "xinhua_world"
    ],
-   "published": "2026-11-04T00:35:44+00:00",
-   "note": "At least seven flights and an Israel-bound cruise ship received threats, but officials say searches found no explosives.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "d9821108b8d3",
-   "title": "Spain’s transport minister resigns after train crash that killed 69",
-   "url": "https://www.scmp.com/news/world/europe/article/3373189/spains-transport-minister-resigns-after-train-crash-killed-69",
-   "component": "internal",
+   "id": "9d930715366e",
+   "title": "阿富汗首都一酒店遭爆炸袭击 至少2名外国人受伤",
+   "url": "http://www.news.cn/world/2022-12/13/c_1129203448.htm",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "scmp"
+    "xinhua_world"
    ],
-   "published": "2026-11-03T21:55:32+00:00",
-   "note": "Spain’s transport minister handed in his resignation on Tuesday following a train crash that killed 69 people last week, one of the worst railway disasters in Europe this century. ",
-   "region": "OTHER"
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
+   "region": "SOUTH_ASIA"
   },
   {
-   "id": "c5bd585d67c7",
-   "title": "Fake bomb threats on flights and cruise ship cause travel disruption in Europe",
-   "url": "https://www.scmp.com/news/world/europe/article/3373186/fake-bomb-threats-flights-and-cruise-ship-cause-travel-disruption-europe",
-   "component": "military",
+   "id": "2db9d7535233",
+   "title": "英国泽西岛公寓楼爆炸致5人丧生",
+   "url": "http://www.news.cn/world/2022-12/12/c_1129201558.htm",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "scmp"
+    "xinhua_world"
    ],
-   "published": "2026-11-03T19:04:21+00:00",
-   "note": "At least seven flights and a cruise ⁠ship in Europe received bomb threats on ⁠Tuesday, causing disruption at airports although no devices were discovered. At least ⁠two flights to ",
+   "published": "2026-11-04T04:45:24.949813+00:00",
+   "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   }
  ],
  "coverage": {
-  "sources_ok": 14,
-  "sources_failed": 0,
-  "items": 43621,
+  "sources_ok": 16,
+  "sources_failed": 4,
+  "items": 43933,
   "gdelt_events": 43397,
   "mode": "live",
   "data_through": "2026-11-03",
-  "clusters": 219,
-  "origins": 221,
+  "clusters": 514,
+  "origins": 516,
   "failed_days": 2,
   "failed_days_last": [
    "2026-10-28",
@@ -1521,7 +1521,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.34,
+    "value": 0.56,
     "z": null,
     "score": null,
     "available": false
@@ -1570,7 +1570,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 45,
+   "items": 32,
    "error": ""
   },
   {
@@ -1581,15 +1581,15 @@
   },
   {
    "source": "france24",
-   "ok": true,
-   "items": 24,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "source": "nhk",
-   "ok": true,
-   "items": 7,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "解析到 7 条，但全部超过 48 小时"
   },
   {
    "source": "scmp",
@@ -1600,7 +1600,43 @@
   {
    "source": "un_news_zh",
    "ok": true,
+   "items": 8,
+   "error": ""
+  },
+  {
+   "source": "xinhua_world",
+   "ok": true,
+   "items": 300,
+   "error": ""
+  },
+  {
+   "source": "people",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 100 条，但全部超过 48 小时"
+  },
+  {
+   "source": "chinanews",
+   "ok": true,
    "items": 30,
+   "error": ""
+  },
+  {
+   "source": "chinanews_cn",
+   "ok": true,
+   "items": 30,
+   "error": ""
+  },
+  {
+   "source": "globaltimes",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 50 条，但全部超过 48 小时"
+  },
+  {
+   "source": "bbc_zh",
+   "ok": true,
+   "items": 18,
    "error": ""
   },
   {
@@ -1666,7 +1702,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 5735,
+   "items": 5618,
    "error": ""
   }
  ]
