@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-03T20:58:10+00:00",
+ "generated_at": "2026-11-04T01:20:25+00:00",
  "date": "2026-11-02",
  "geti": 68.3,
  "delta_z": 0.82,
@@ -250,13 +250,44 @@
    "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "bbc",
+    "guardian"
+   ],
+   "published": "2026-11-03T22:45:59+00:00",
+   "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+   "region": "OTHER"
+  },
+  {
+   "id": "12a455a8db13",
+   "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
+   "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "aljazeera"
    ],
-   "published": "2026-11-03T20:56:32+00:00",
-   "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+   "published": "2026-11-04T00:35:44+00:00",
+   "note": "At least seven flights and an Israel-bound cruise ship received threats, but officials say searches found no explosives.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "d9821108b8d3",
+   "title": "Spain’s transport minister resigns after train crash that killed 69",
+   "url": "https://www.scmp.com/news/world/europe/article/3373189/spains-transport-minister-resigns-after-train-crash-killed-69",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-03T21:55:32+00:00",
+   "note": "Spain’s transport minister handed in his resignation on Tuesday following a train crash that killed 69 people last week, one of the worst railway disasters in Europe this century. ",
    "region": "OTHER"
   },
   {
@@ -275,42 +306,12 @@
    "region": "EUROPE"
   },
   {
-   "id": "5938199776fc",
-   "title": "Nasa telescope launched in 2004 to plunge back to Earth after failed rescue mission",
-   "url": "https://www.theguardian.com/science/2026/nov/03/nasa-telescope-neil-gehrels-swift-observatory",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T19:50:27+00:00",
-   "note": "Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere Wednesday, burning up in the process Nasa’s Neil Gehrels Swift Observatory, which has spent two decades st",
-   "region": "OTHER"
-  },
-  {
-   "id": "48a2d0d66500",
-   "title": "Convicted murderer who escaped from Tennessee prison captured in Missouri",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/jacob-morley-tennessee-prisoner-capture",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T19:42:35+00:00",
-   "note": "Jacob Morley, serving a life sentence for killing a co-worker, slipped through a prison fence last week A man convicted of murder who escaped from a Tennessee prison was recaptured",
-   "region": "OTHER"
-  },
-  {
    "id": "c5bd585d67c7",
    "title": "Fake bomb threats on flights and cruise ship cause travel disruption in Europe",
    "url": "https://www.scmp.com/news/world/europe/article/3373186/fake-bomb-threats-flights-and-cruise-ship-cause-travel-disruption-europe",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -325,7 +326,7 @@
    "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -340,7 +341,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -350,27 +351,12 @@
    "region": "EUROPE"
   },
   {
-   "id": "5475f673c6a8",
-   "title": "Darfur survivors vow to tell story of those killed after Sudan camp attacks",
-   "url": "https://www.aljazeera.com/features/2026/11/3/darfur-survivors-vow-to-tell-story-of-those-killed-after-sudan-camp-attacks?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-03T17:03:24+00:00",
-   "note": "Survivors of attacks on displacement camps in Darfur recall the lives they built, and violence that forced them to flee.",
-   "region": "AFRICA"
-  },
-  {
    "id": "2b8f7ef8b095",
    "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
    "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -378,21 +364,6 @@
    "published": "2026-11-03T16:57:41+00:00",
    "note": "At least 38 people are killed in 24 hours and Ukraine's Volodymyr Zelensky warns dozens more could be trapped under rubble.",
    "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "0bc2d1df4814",
-   "title": "Opposition party organiser killed before South Africa elections",
-   "url": "https://www.aljazeera.com/news/2026/11/3/opposition-party-organiser-killed-ahead-of-south-africa-elections?traffic_source=rss",
-   "component": "internal",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-03T16:39:00+00:00",
-   "note": "Police are investigating the motive in murder of MKP coordinator as political killings rise during municipal elections.",
-   "region": "EUROPE"
   },
   {
    "id": "04629b882098",
@@ -407,21 +378,6 @@
    ],
    "published": "2026-11-03T13:26:19+00:00",
    "note": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president calls an \"utterly horrific\" attack.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "4a76a07e7514",
-   "title": "Russia bombs humanitarian hub in Ukraine, killing at least 31 people",
-   "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T12:25:07+00:00",
-   "note": "Other overnight strikes targeted power plants across Ukraine, damaged hospitals and wounded scores of people Russia has bombed a humanitarian hub in southern Ukraine, killing at le",
    "region": "RUSSIA_CIS"
   },
   {
@@ -470,27 +426,12 @@
    "region": "SOUTH_ASIA"
   },
   {
-   "id": "35dcef767bbc",
-   "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
-   "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T00:07:05+00:00",
-   "note": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
-   "region": "EUROPE"
-  },
-  {
    "id": "bf251d88d4de",
    "title": "‘Vile terrorist attack’: Russia bombs Ukraine aid centre",
    "url": "https://www.france24.com/en/video/20261103-vile-terrorist-attack-russia-bombs-ukraine-aid-centre",
    "component": "military",
    "severity": 5,
-   "confidence": 0.28,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "france24"
@@ -505,13 +446,28 @@
    "url": "https://www.france24.com/en/europe/20261103-bomb-threats-disrupt-europe-flights",
    "component": "military",
    "severity": 5,
-   "confidence": 0.28,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "france24"
    ],
    "published": "2026-11-03T15:41:48+00:00",
    "note": "Bomb threats targeted at least 10 European airlines on Tuesday, forcing the temporary closure of a Warsaw airport and affecting at least four Ryanair flights. No explosives were fo",
+   "region": "EUROPE"
+  },
+  {
+   "id": "35dcef767bbc",
+   "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+   "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T00:07:05+00:00",
+   "note": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
    "region": "EUROPE"
   },
   {
@@ -530,21 +486,6 @@
    "region": "OTHER"
   },
   {
-   "id": "328551c17a05",
-   "title": "'I couldn't be silent': Iranian teen's mother seeking justice after daughter shot dead",
-   "url": "https://www.bbc.co.uk/news/videos/cwjdmp25mem9o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-02T06:05:34+00:00",
-   "note": "BBC Panorama follows grieving Samira who - after the killing of Sevda - faces up to the Tehran regime.",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "fdb36572848c",
    "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
    "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
@@ -560,12 +501,27 @@
    "region": "AFRICA"
   },
   {
+   "id": "727c0530265a",
+   "title": "China’s new nightmare: a Japanese containment arc in the Indo-Pacific",
+   "url": "https://www.scmp.com/opinion/asia-opinion/article/3372983/chinas-new-nightmare-japanese-containment-arc-indo-pacific",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-03T21:30:06+00:00",
+   "note": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into h",
+   "region": "EAST_ASIA"
+  },
+  {
    "id": "ff35d8dfd401",
    "title": "Russian strikes on Dnipro kill two, injure 20 others",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/russian-strikes-on-dnipro-kill-two-injure-20-others?traffic_source=rss",
    "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
@@ -603,6 +559,51 @@
    "published": "2026-11-03T13:28:30+00:00",
    "note": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
    "region": "AFRICA"
+  },
+  {
+   "id": "afb149854fa6",
+   "title": "US strikes Iranian island ahead of midterm elections",
+   "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T11:33:33+00:00",
+   "note": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "90db80e4337d",
+   "title": "Tenerife striker De Miguel dies after on-field collision",
+   "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-03T09:09:18+00:00",
+   "note": "Tenerife forward Jesus de Miguel dies aged 30 after an on-field collision during a Spanish second-division match.",
+   "region": "OTHER"
+  },
+  {
+   "id": "2bd43ae7f6eb",
+   "title": "Russian households face increasing financial strain as war in Ukraine drags on",
+   "url": "https://www.france24.com/en/video/20261103-russian-households-face-increasing-financial-strain-as-war-in-ukraine-drags-on",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-03T17:05:54+00:00",
+   "note": "As Moscow continues to launch strikes across Ukraine, Russian citizens are facing increasing financial strain. Since the start of the war in 2022, utility bills in Russia have rise",
+   "region": "RUSSIA_CIS"
   }
  ],
  "breaking": [
@@ -612,13 +613,44 @@
    "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "bbc",
+    "guardian"
+   ],
+   "published": "2026-11-03T22:45:59+00:00",
+   "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+   "region": "OTHER"
+  },
+  {
+   "id": "12a455a8db13",
+   "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
+   "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "aljazeera"
    ],
-   "published": "2026-11-03T20:56:32+00:00",
-   "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+   "published": "2026-11-04T00:35:44+00:00",
+   "note": "At least seven flights and an Israel-bound cruise ship received threats, but officials say searches found no explosives.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "d9821108b8d3",
+   "title": "Spain’s transport minister resigns after train crash that killed 69",
+   "url": "https://www.scmp.com/news/world/europe/article/3373189/spains-transport-minister-resigns-after-train-crash-killed-69",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-03T21:55:32+00:00",
+   "note": "Spain’s transport minister handed in his resignation on Tuesday following a train crash that killed 69 people last week, one of the worst railway disasters in Europe this century. ",
    "region": "OTHER"
   },
   {
@@ -635,47 +667,17 @@
    "published": "2026-11-03T20:42:47+00:00",
    "note": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
    "region": "EUROPE"
-  },
-  {
-   "id": "5938199776fc",
-   "title": "Nasa telescope launched in 2004 to plunge back to Earth after failed rescue mission",
-   "url": "https://www.theguardian.com/science/2026/nov/03/nasa-telescope-neil-gehrels-swift-observatory",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T19:50:27+00:00",
-   "note": "Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere Wednesday, burning up in the process Nasa’s Neil Gehrels Swift Observatory, which has spent two decades st",
-   "region": "OTHER"
-  },
-  {
-   "id": "48a2d0d66500",
-   "title": "Convicted murderer who escaped from Tennessee prison captured in Missouri",
-   "url": "https://www.theguardian.com/us-news/2026/nov/03/jacob-morley-tennessee-prisoner-capture",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T19:42:35+00:00",
-   "note": "Jacob Morley, serving a life sentence for killing a co-worker, slipped through a prison fence last week A man convicted of murder who escaped from a Tennessee prison was recaptured",
-   "region": "OTHER"
   }
  ],
  "coverage": {
-  "sources_ok": 14,
+  "sources_ok": 15,
   "sources_failed": 2,
-  "items": 42902,
+  "items": 42932,
   "gdelt_events": 42708,
   "mode": "live",
   "data_through": "2026-11-02",
-  "clusters": 194,
-  "origins": 194,
+  "clusters": 223,
+  "origins": 224,
   "failed_days": 1,
   "failed_days_last": [
    "2026-10-30"
@@ -1259,11 +1261,11 @@
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 4.94,
-    "chg5": -1.2,
-    "z": -0.173,
+    "last": 4.91,
+    "chg5": -1.8,
+    "z": -0.139,
     "ok": true,
-    "asof": "2026-10-30"
+    "asof": "2026-11-02"
    }
   ],
   "asof": "2026-11-02",
@@ -1296,7 +1298,7 @@
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 101,
+    "items": 102,
     "error": ""
    }
   ],
@@ -1381,7 +1383,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.03,
+    "value": 1.79,
     "z": null,
     "score": null,
     "available": false
@@ -1405,6 +1407,12 @@
   ]
  },
  "adapters": [
+  {
+   "source": "gdelt_daily_2026-11-04",
+   "ok": false,
+   "items": 0,
+   "error": "HTTP 404（文件尚未发布）"
+  },
   {
    "source": "gdelt_daily_2026-11-03",
    "ok": false,
@@ -1467,9 +1475,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）"
+   "ok": true,
+   "items": 30,
+   "error": ""
   },
   {
    "source": "fred:VIXCLS",
@@ -1498,7 +1506,7 @@
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 101,
+   "items": 102,
    "error": ""
   },
   {
@@ -1516,7 +1524,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 4,
+   "items": 17,
    "error": ""
   },
   {
