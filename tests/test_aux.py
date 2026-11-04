@@ -126,3 +126,42 @@ class TestComposite(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestDateFilter(unittest.TestCase):
+    """快照型源必须切到当天，否则每天一个几乎恒定的大数字，z 恒为 0。"""
+
+    def test_on_day_keeps_today(self):
+        from pipeline.fetch import on_day
+        from datetime import date, datetime, timezone
+        d = date(2026, 11, 2)
+        self.assertTrue(on_day(datetime(2026, 11, 2, 9, 0, tzinfo=timezone.utc), d))
+        self.assertFalse(on_day(datetime(2026, 10, 20, 9, 0, tzinfo=timezone.utc), d))
+        self.assertTrue(on_day(None, d))  # 时间未知时放行，不丢数据
+
+    def test_parse_feed_items_reads_pubdate(self):
+        from pipeline.fetch import parse_feed_items
+        xml = (
+            "<rss><channel>"
+            "<item><title>Outbreak of cholera</title>"
+            "<pubDate>Mon, 02 Nov 2026 09:00:00 GMT</pubDate></item>"
+            "<item><title>Old news</title>"
+            "<pubDate>Mon, 20 Oct 2026 09:00:00 GMT</pubDate></item>"
+            "</channel></rss>"
+        )
+        items = parse_feed_items(xml)
+        self.assertEqual(len(items), 2)
+        self.assertEqual(items[0]["t"], "Outbreak of cholera")
+        self.assertEqual(items[0]["d"].date().isoformat(), "2026-11-02")
+
+    def test_parse_kp_filters_by_day(self):
+        from pipeline.hazard import parse_kp
+        from datetime import date
+        text = (
+            '[["time_tag","Kp"],'
+            '["2026-11-02 00:00:00",5.0],'
+            '["2026-11-02 03:00:00",6.0],'
+            '["2026-10-01 00:00:00",8.0]]'
+        )
+        got = parse_kp(text, day=date(2026, 11, 2))
+        self.assertEqual(got["max"], 6.0)  # 8.0 属于别的日子，不许混进来

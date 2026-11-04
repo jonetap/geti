@@ -14,7 +14,9 @@ from unittest import mock
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from pipeline import backtest, build, cluster, market, score, store          # noqa: E402
+from pipeline import (
+    backtest, build, cluster, epidemic, hazard, market, score, store,
+)          # noqa: E402
 from pipeline.parse import gdelt_rows, parse_feed          # noqa: E402
 from pipeline.synth import synth_items, synth_signals      # noqa: E402
 
@@ -401,7 +403,18 @@ class TestRunEndToEnd(unittest.TestCase):
                      mock.patch.object(fetcher, "fetch_feeds",
                                        return_value=(items, [{"source": "bbc", "ok": True}])), \
                      mock.patch.object(market, "fetch_market",
-                                       return_value={"index": 55.0, "rows": [], "health": []}):
+                                       return_value={"index": 55.0, "rows": [], "health": []}), \
+                     mock.patch.object(hazard, "fetch_day",
+                                       return_value=({"quake_energy": 15.0, "quake_count": 20.0},
+                                                     [{"source": "usgs:quake", "ok": True}],
+                                                     {"quake": [{"t": "M6.0 Somewhere", "v": 6.0,
+                                                                 "ts": "2026-11-02T01:00+00:00",
+                                                                 "u": "https://example.org/eq1"}]})), \
+                     mock.patch.object(epidemic, "fetch_day",
+                                       return_value=({"who_don": 1.0, "policy": 0.0},
+                                                     [{"source": "who:don", "ok": True}],
+                                                     {"who": [{"t": "Cholera outbreak", "v": "通报",
+                                                               "ts": "", "u": "https://example.org/who1"}]})):
                     code = cli.main(["run", "--out", out, "--series", series])
             finally:
                 cli.DEFAULT_HEALTH = old_health
@@ -415,11 +428,80 @@ class TestRunEndToEnd(unittest.TestCase):
             self.assertEqual(snap["market"]["index"], 55.0)
             self.assertTrue(0.0 <= snap["geti"] <= 100.0)
             self.assertGreater(len(snap["series"]), 10)
+            # 原始信源必须一路传进快照，不能被 try/except 悄悄吞掉
+            self.assertEqual(snap["hazard"]["evidence"]["quake"][0]["v"], 6.0)
+            self.assertEqual(snap["epidemic"]["evidence"]["who"][0]["t"], "Cholera outbreak")
             self.assertTrue(os.path.exists(health))
         finally:
             for name in os.listdir(tmp):
                 os.remove(os.path.join(tmp, name))
             os.rmdir(tmp)
+
+
+class TestFailedDays(unittest.TestCase):
+    """抓取失败日必须被剔除，不能被当成"平静的一天"。"""
+
+    def _series(self, vols, val=5.0):
+        s = {build.VOLUME_KEY: {}}
+        for i, n in enumerate(vols):
+            d = date(2026, 9, 1) + timedelta(days=i)
+            s[build.VOLUME_KEY][d] = n
+            s.setdefault(("AFRICA", "military"), {})[d] = val
+        return s
+
+    def test_failed_days_are_dropped(self):
+        vols = [20000] * 19 + [5]             # 最后一天只抓到 5 条
+        series, bad = build.drop_failed_days(self._series(vols))
+        self.assertEqual(bad, ["2026-09-20"])
+        self.assertNotIn(date(2026, 9, 20), series[("AFRICA", "military")])
+        self.assertEqual(len(series[("AFRICA", "military")]), 19)
+
+    def test_normal_days_survive(self):
+        vols = [20000, 18000, 22000, 15000, 21000, 19000]
+        series, bad = build.drop_failed_days(self._series(vols))
+        self.assertEqual(bad, [])
+        self.assertEqual(len(series[("AFRICA", "military")]), 6)
+
+    def test_no_volume_history_is_left_alone(self):
+        plain = {("AFRICA", "military"): {date(2026, 9, 1): 3.0}}
+        series, bad = build.drop_failed_days(plain)
+        self.assertEqual(bad, [])
+        self.assertEqual(series, plain)
+
+
+class TestShareNormalize(unittest.TestCase):
+    """抓取量差 300 倍的两天，折完之后必须可比。"""
+
+    def _day(self, day, cells):
+        return {k: {day: v} for k, v in cells.items()}
+
+    def test_share_normalize_kills_volume_scale(self):
+        d1, d2 = date(2026, 11, 2), date(2026, 10, 29)
+        # 真实数据里的样子：好的一天抓两万六，坏的一天只抓几十条
+        big = self._day(d1, {
+            ("NA", "military"): 1646.14, ("NA", "diplomacy"): 1111.27,
+            ("NA", "economy"): 771.55, ("NA", "internal"): 268.32,
+            ("EU", "military"): 3000.0, ("EU", "diplomacy"): 5000.0,
+        })
+        small = self._day(d2, {
+            ("NA", "military"): 12.06, ("NA", "diplomacy"): 8.92,
+            ("NA", "economy"): 8.63, ("NA", "internal"): 2.45,
+            ("EU", "military"): 9.0, ("EU", "diplomacy"): 6.0,
+        })
+        merged = {}
+        for src in (big, small):
+            for k, cell in src.items():
+                merged.setdefault(k, {}).update(cell)
+        out = build.share_normalize(merged)
+        a = out[("NA", "military")][d1]
+        b = out[("NA", "military")][d2]
+        self.assertGreater(a, b)
+        self.assertLess(a / b, 3.0)        # 原先是 137 倍
+
+    def test_zero_total_is_safe(self):
+        series = {("NA", "military"): {date(2026, 11, 1): 0.0}}
+        out = build.share_normalize(series)
+        self.assertEqual(out[("NA", "military")][date(2026, 11, 1)], 0.0)
 
 
 if __name__ == "__main__":
