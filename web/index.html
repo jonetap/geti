@@ -109,6 +109,11 @@
   .bar-row.off .track i{background:var(--dim)}
   .unavail{font:10px/1 var(--mono);color:var(--dim);border:1px solid var(--line);
     border-radius:4px;padding:2px 5px;margin-left:6px;vertical-align:1px}
+  /* 持续性：灾害/疫情的影响不会当天清零 */
+  .persist{font:10.5px/1.6 var(--mono);color:var(--txt);margin-top:10px;padding-top:8px;
+    border-top:1px solid var(--line)}
+  .persist.dim{color:var(--dim);border-top:0;padding-top:2px;margin-top:2px}
+  .persist .on{color:var(--warm)}
 
   /* 市场面板 L3 */
   .solo{margin-bottom:16px}
@@ -476,15 +481,31 @@ function renderDoom(d){
   note.innerHTML = parts.join("<br>");
 }
 
+function persistHtml(sub){
+  const p = sub && sub.persistence;
+  if (!p) return "";
+  let t;
+  if (!p.active_days){
+    t = `近 ${p.span} 天没有记录`;
+  } else {
+    t = `近 ${p.span} 天有 ${p.active_days} 天在发生 · 最近 ${esc(p.last_seen || "—")}`;
+    t += p.ongoing ? ' · <b class="on">仍在持续</b>' : " · 间歇";
+  }
+  const d = sub.decay_days
+    ? `<div class="persist dim">影响按 ${sub.decay_days} 天半衰期累积——昨天的灾情今天仍算数，不会当天清零</div>`
+    : "";
+  return `<div class="persist">${t}</div>` + d;
+}
+
 function renderSub(host, sub, scoreEl, need){
   if (!sub || sub.index == null){
-    host.innerHTML = '<div class="val">数据累积中（需要 ' + need + ' 天历史）</div>';
+    host.innerHTML = '<div class="val">数据累积中（需要 ' + need + ' 天历史）</div>' + persistHtml(sub);
     scoreEl.textContent = "–";
     return;
   }
   scoreEl.textContent = sub.index.toFixed(1);
   scoreEl.style.color = bandOf(sub.index).c;
-  host.innerHTML = (sub.components || []).map(c => {
+  host.innerHTML = ((sub.components || []).map(c => {
     if (!c.available){
       const v = c.value == null ? "—" : c.value;
       return `<div class="bar-row off"><div class="nm">${esc(c.label)}<span class="unavail">无历史</span></div>
@@ -494,7 +515,7 @@ function renderSub(host, sub, scoreEl, need){
     return `<div class="bar-row"><div class="nm">${esc(c.label)}<em>${esc(c.value)}</em></div>
       <div class="track"><i class="${c.z < 0 ? "neg" : ""}" style="width:${p.toFixed(1)}%"></i></div>
       <div class="val">${(c.z > 0 ? "+" : "") + c.z.toFixed(1)}σ</div></div>`;
-  }).join("") || '<div class="val">暂无分项</div>';
+  }).join("") || '<div class="val">暂无分项</div>') + persistHtml(sub);
 }
 
 /* ---------------- 原始信源（分析之前的原始条目） ---------------- */
@@ -774,8 +795,12 @@ function renderNotable(S){
   if(old) old.remove();
   const n = (S && S.policy && S.policy.notable) || [];
   if(!n.length) return;
+  const total = (S && S.policy && S.policy.notable_total) || n.length;
+  const head = total > n.length
+    ? '\u4e2a\u6848 \u00b7 \u5ba2\u89c2\u53c2\u8003\uff08\u4e0d\u5206\u7c7b\u3001\u4e0d\u8ba1\u5206\uff09 \u00b7 \u5171 ' + total + ' \u6761\uff0c\u663e\u793a\u6700\u8fd1 ' + n.length + ' \u6761'
+    : '\u4e2a\u6848 \u00b7 \u5ba2\u89c2\u53c2\u8003\uff08\u4e0d\u5206\u7c7b\u3001\u4e0d\u8ba1\u5206\uff09 \u00b7 \u5171 ' + total + ' \u6761';
   box.insertAdjacentHTML("beforeend",
-    '<div class="psec" id="policyNotable">\u4e2a\u6848 \u00b7 \u5ba2\u89c2\u53c2\u8003\uff08\u4e0d\u5206\u7c7b\u3001\u4e0d\u8ba1\u5206\uff09</div>'
+    '<div class="psec" id="policyNotable">' + head + '</div>'
     + '<div class="plist">' + n.map(function(it){
         return '<div class="prow ref"><span class="ptag pt-ref">\u53c2\u8003</span>'
           + '<span class="pcty">' + (it.country || SRC[it.source] || "\u2014") + '</span>'
