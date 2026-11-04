@@ -1,11 +1,11 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-04T04:31:04+00:00",
+ "generated_at": "2026-11-04T04:38:28+00:00",
  "date": "2026-11-03",
- "geti": 70.5,
+ "geti": 70.4,
  "delta_z": 0.85,
  "delta_pts": 5.4,
- "confidence": 0.96,
+ "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
  "driver_label": "北美",
@@ -13,7 +13,7 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 79.9,
+   "score": 80.0,
    "delta": 0.6,
    "excluded": false,
    "drivers": [
@@ -31,7 +31,7 @@
    "code": "OTHER",
    "label": "其他",
    "score": 75.7,
-   "delta": 3.0,
+   "delta": 3.1,
    "excluded": true,
    "drivers": [
     [
@@ -48,7 +48,7 @@
    "code": "EUROPE",
    "label": "欧洲",
    "score": 74.5,
-   "delta": 2.0,
+   "delta": 2.2,
    "excluded": false,
    "drivers": [
     [
@@ -65,7 +65,7 @@
    "code": "SOUTH_ASIA",
    "label": "南亚",
    "score": 74.0,
-   "delta": 2.9,
+   "delta": 3.9,
    "excluded": false,
    "drivers": [
     [
@@ -99,7 +99,7 @@
    "code": "AFRICA",
    "label": "非洲",
    "score": 70.7,
-   "delta": 2.9,
+   "delta": 2.7,
    "excluded": false,
    "drivers": [
     [
@@ -116,7 +116,7 @@
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
    "score": 65.2,
-   "delta": 3.6,
+   "delta": 3.8,
    "excluded": false,
    "drivers": [
     [
@@ -133,7 +133,7 @@
    "code": "EAST_ASIA",
    "label": "东亚",
    "score": 64.3,
-   "delta": 1.9,
+   "delta": 2.2,
    "excluded": false,
    "drivers": [
     [
@@ -150,7 +150,7 @@
    "code": "OCEANIA",
    "label": "大洋洲",
    "score": 61.3,
-   "delta": 1.6,
+   "delta": 1.4,
    "excluded": false,
    "drivers": [
     [
@@ -167,7 +167,7 @@
    "code": "LATAM",
    "label": "拉美",
    "score": 48.4,
-   "delta": 2.8,
+   "delta": 2.7,
    "excluded": false,
    "drivers": [
     [
@@ -673,8 +673,8 @@
  "coverage": {
   "sources_ok": 14,
   "sources_failed": 0,
-  "items": 43001,
-  "gdelt_events": 42777,
+  "items": 43621,
+  "gdelt_events": 43397,
   "mode": "live",
   "data_through": "2026-11-03",
   "clusters": 219,
@@ -685,7 +685,7 @@
    "2026-10-30"
   ],
   "components_covered": 48,
-  "components_required": 60,
+  "components_required": 66,
   "components_saturated": 0,
   "saturated_ratio": 0.0,
   "note": "覆盖不足时请看置信度，不要看指数"
@@ -698,7 +698,7 @@
     "now": 3.59,
     "p50": 0.43,
     "p90": 0.86,
-    "ratio": 8.33,
+    "ratio": 8.37,
     "z": 1.73
    },
    "physical": {
@@ -1185,7 +1185,7 @@
   },
   {
    "date": "2026-10-26",
-   "geti": 55.6
+   "geti": 55.7
   },
   {
    "date": "2026-10-27",
@@ -1205,7 +1205,7 @@
   },
   {
    "date": "2026-10-31",
-   "geti": 47.8
+   "geti": 47.9
   },
   {
    "date": "2026-11-01",
@@ -1217,7 +1217,7 @@
   },
   {
    "date": "2026-11-03",
-   "geti": 70.5
+   "geti": 70.4
   }
  ],
  "market": {
@@ -1534,7 +1534,7 @@
   }
  },
  "doom": {
-  "index": 70.5,
+  "index": 70.4,
   "z": 0.52,
   "parts": {
    "military": 0.52,
@@ -1551,8 +1551,8 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 141,
-   "items": 42777,
+   "files": 144,
+   "items": 43397,
    "error": ""
   },
   {
@@ -1661,6 +1661,12 @@
    "source": "who:don",
    "ok": true,
    "items": 0,
+   "error": ""
+  },
+  {
+   "source": "opensky",
+   "ok": true,
+   "items": 5735,
    "error": ""
   }
  ]
