@@ -301,6 +301,15 @@
       </div>
     </section>
 
+    <section class="solo">
+      <div class="card">
+        <h2 style="display:flex;align-items:baseline;gap:10px">政策脉冲
+          <span style="font-size:11px;color:rgba(255,255,255,.42);font-weight:400;letter-spacing:.06em">背景层 · 不计入 GETI</span>
+        </h2>
+        <div class="note" id="policyNote"></div>
+        <div id="policy"></div>
+      </div>
+    </section>
     <section class="grid2">
       <div class="card">
         <h2>突发 · 待核实</h2>
@@ -733,6 +742,57 @@ async function boot(){
   }
 }
 boot();
+</script>
+
+<style>
+.plist{display:flex;flex-direction:column}
+.prow{display:grid;grid-template-columns:56px 36px 1fr;gap:8px;align-items:baseline;
+      padding:7px 0;border-top:1px solid rgba(255,255,255,.07);font-size:12.5px}
+.prow:first-child{border-top:none}
+.ptag{font-size:10px;padding:1px 4px;border-radius:3px;text-align:center;letter-spacing:.02em;white-space:nowrap}
+.pt-ext{color:#ff6b6b;border:1px solid rgba(255,107,107,.45)}
+.pt-ctl{color:#ffa94d;border:1px solid rgba(255,169,77,.45)}
+.pt-red{color:#63e6be;border:1px solid rgba(99,230,190,.45)}
+.pcty{color:rgba(255,255,255,.45);font-size:10.5px;letter-spacing:.08em}
+.prow a{color:rgba(255,255,255,.86);text-decoration:none}
+.prow a:hover{text-decoration:underline}
+</style>
+<script>
+// 政策脉冲：只展示，不进 GETI。
+// 挂在外层包一层 render()，这样不用改动原来那段大函数。
+function renderPolicy(S){
+  const box = document.getElementById("policy");
+  const note = document.getElementById("policyNote");
+  if(!box || !note) return;
+  const p = (S && S.policy) || {};
+  const items = p.items || [];
+  const c = p.counts || {};
+  if(!items.length){
+    box.innerHTML = "";
+    note.textContent = "今日没有识别到政策类条目（纯程序性的法案不算）。";
+    return;
+  }
+  note.textContent = "政策是原因、抗议是结果，所以这一层只做背景："
+    + (c.extractive||0) + " 条提取型 / " + (c.control||0) + " 条管控型 / "
+    + (c.redistributive||0) + " 条再分配型。";
+  const lab = {extractive:["提取型","pt-ext"], control:["管控型","pt-ctl"],
+               redistributive:["再分配型","pt-red"]};
+  box.innerHTML = '<div class="plist">' + items.slice(0,6).map(function(it){
+    const m = lab[it.type] || ["其他","pt-ext"];
+    const href = it.url || "#";
+    return '<div class="prow"><span class="ptag ' + m[1] + '">' + m[0] + '</span>'
+      + '<span class="pcty">' + (it.country || "—") + '</span>'
+      + '<a href="' + esc(href) + '" target="_blank" rel="noreferrer">'
+      + esc(it.title) + '</a></div>';
+  }).join("") + "</div>";
+}
+(function(){
+  const prev = window.render;
+  if (typeof prev !== "function") return;
+  window.render = function(S){
+    try { prev(S); } finally { try { renderPolicy(S); } catch(e){} }
+  };
+})();
 </script>
 </body>
 </html>
