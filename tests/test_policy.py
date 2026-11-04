@@ -73,5 +73,45 @@ class TestScan(unittest.TestCase):
         self.assertGreaterEqual(abs(out["items"][0]["signed"]), abs(out["items"][-1]["signed"]))
 
 
+class TestRealFalsePositives(unittest.TestCase):
+    """线上 v1 的三条误判，逐条钉成回归测试。"""
+
+    def test_anti_corruption_investigation_is_not_policy(self):
+        self.assertIsNone(policy.classify("湖南省政协经济科技委员会原副主任张建军接受审查调查"))
+
+    def test_prosecution_is_not_policy(self):
+        self.assertIsNone(policy.classify("检察机关依法对杨宏勇涉嫌受贿、利用影响力受贿案提起公诉"))
+
+    def test_monetary_policy_is_not_social_policy(self):
+        self.assertIsNone(policy.classify("菲律宾央行：货币政策仍处紧缩周期 通胀预计数月后见顶"))
+
+    def test_policy_word_alone_is_not_enough(self):
+        # 有"政策"两个字，但没有任何强制性，仍然不算
+        self.assertIsNone(policy.classify("专家解读产业政策走向"))
+
+
+class TestNotable(unittest.TestCase):
+    """个案不剔除，但也不归类：它只是客观事件。"""
+
+    def test_corruption_case_goes_to_notable(self):
+        out = policy.scan([_cl("检察机关依法对杨宏勇涉嫌受贿案提起公诉")], date(2026, 11, 3))
+        self.assertEqual(out["items"], [])
+        self.assertEqual(len(out["notable"]), 1)
+        self.assertEqual(out["notable"][0]["kind"], "judicial")
+        self.assertEqual(out["counts"]["notable"], 1)
+
+    def test_monetary_is_dropped_entirely(self):
+        out = policy.scan([_cl("菲律宾央行：货币政策仍处紧缩周期")], date(2026, 11, 3))
+        self.assertEqual(out["items"], [])
+        self.assertEqual(out["notable"], [])
+
+    def test_notable_not_mixed_into_typed_items(self):
+        cls = [_cl("英国强制所有公民缴纳社保，违者重罚"),
+               _cl("检察机关对某官员涉嫌受贿提起公诉")]
+        out = policy.scan(cls, date(2026, 11, 3))
+        self.assertEqual([i["type"] for i in out["items"]], ["extractive"])
+        self.assertEqual(len(out["notable"]), 1)
+
+
 if __name__ == "__main__":
     unittest.main()
