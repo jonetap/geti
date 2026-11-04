@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-04T04:45:21+00:00",
+ "generated_at": "2026-11-04T05:13:18+00:00",
  "date": "2026-11-03",
- "geti": 70.4,
+ "geti": 62.6,
  "delta_z": 0.85,
- "delta_pts": 5.4,
+ "delta_pts": 9.6,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -14,7 +14,7 @@
    "code": "NORTH_AMERICA",
    "label": "北美",
    "score": 80.0,
-   "delta": 0.6,
+   "delta": 0.7,
    "excluded": false,
    "drivers": [
     [
@@ -31,7 +31,7 @@
    "code": "OTHER",
    "label": "其他",
    "score": 75.7,
-   "delta": 3.1,
+   "delta": 3.3,
    "excluded": true,
    "drivers": [
     [
@@ -48,7 +48,7 @@
    "code": "EUROPE",
    "label": "欧洲",
    "score": 74.5,
-   "delta": 2.2,
+   "delta": 2.5,
    "excluded": false,
    "drivers": [
     [
@@ -64,8 +64,8 @@
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 74.0,
-   "delta": 3.9,
+   "score": 74.1,
+   "delta": 4.0,
    "excluded": false,
    "drivers": [
     [
@@ -82,7 +82,7 @@
    "code": "MIDDLE_EAST",
    "label": "中东",
    "score": 72.7,
-   "delta": 3.2,
+   "delta": 3.6,
    "excluded": false,
    "drivers": [
     [
@@ -99,7 +99,7 @@
    "code": "AFRICA",
    "label": "非洲",
    "score": 70.7,
-   "delta": 2.7,
+   "delta": 2.6,
    "excluded": false,
    "drivers": [
     [
@@ -116,7 +116,7 @@
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
    "score": 65.2,
-   "delta": 3.8,
+   "delta": 3.7,
    "excluded": false,
    "drivers": [
     [
@@ -132,8 +132,8 @@
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 64.3,
-   "delta": 2.2,
+   "score": 64.0,
+   "delta": 2.4,
    "excluded": false,
    "drivers": [
     [
@@ -142,7 +142,7 @@
     ],
     [
      "military",
-     0.72
+     0.69
     ]
    ]
   },
@@ -150,7 +150,7 @@
    "code": "OCEANIA",
    "label": "大洋洲",
    "score": 61.3,
-   "delta": 1.4,
+   "delta": 1.7,
    "excluded": false,
    "drivers": [
     [
@@ -159,15 +159,15 @@
     ],
     [
      "diplomacy",
-     0.67
+     0.68
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 48.4,
-   "delta": 2.7,
+   "score": 49.1,
+   "delta": 2.3,
    "excluded": false,
    "drivers": [
     [
@@ -176,7 +176,7 @@
     ],
     [
      "economy",
-     -0.63
+     -0.64
     ]
    ]
   }
@@ -219,7 +219,7 @@
    "effective_weight": 0.192,
    "available": true,
    "z": 1.49,
-   "score": 86.5,
+   "score": 86.6,
    "contrib": 0.202
   },
   {
@@ -261,22 +261,6 @@
    "region": "EUROPE"
   },
   {
-   "id": "7de2da2f4a44",
-   "title": "Spanish transport minister resigns days after deadly train crash",
-   "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.74,
-   "origins": 2,
-   "sources": [
-    "bbc",
-    "guardian"
-   ],
-   "published": "2026-11-03T22:45:59+00:00",
-   "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
-   "region": "OTHER"
-  },
-  {
    "id": "b22984ae141f",
    "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
    "url": "http://www.news.cn/world/2022-12/13/c_1129205834.htm",
@@ -287,7 +271,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -302,7 +286,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -317,7 +301,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   },
@@ -332,7 +316,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
    "region": "SOUTH_ASIA"
   },
@@ -347,7 +331,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "墨西哥东北部塔毛利帕斯州安全部门7日说，墨军方与武装分子当天在该州新拉雷多市发生交火，造成至少8人死亡、7人受伤。",
    "region": "LATAM"
   },
@@ -362,24 +346,25 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "印度尼西亚警方7日通报，印尼西爪哇省首府万隆市一所警察局当天发生炸弹袭击事件，已致2人死亡、7人受伤。",
    "region": "SOUTH_ASIA"
   },
   {
-   "id": "172b1ef51fb5",
-   "title": "欧洲多架客机及一艘邮轮遭炸弹威胁",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725708.shtml",
+   "id": "7de2da2f4a44",
+   "title": "Spanish transport minister resigns days after deadly train crash",
+   "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
+   "confidence": 0.6,
+   "origins": 2,
    "sources": [
-    "chinanews"
+    "bbc",
+    "guardian"
    ],
-   "published": "2026-11-03T23:07:04+00:00",
-   "note": "中新网11月4日电 据路透社报道，11月3日，欧洲至少有七架航班和一艘邮轮收到炸弹威胁，导致多座机场运行受到干扰，但最终均未发现爆炸装置。",
-   "region": "EUROPE"
+   "published": "2026-11-03T22:45:59+00:00",
+   "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+   "region": "OTHER"
   },
   {
    "id": "12a455a8db13",
@@ -395,6 +380,21 @@
    "published": "2026-11-04T00:35:44+00:00",
    "note": "At least seven flights and an Israel-bound cruise ship received threats, but officials say searches found no explosives.",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "172b1ef51fb5",
+   "title": "欧洲多架客机及一艘邮轮遭炸弹威胁",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725708.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-03T23:07:04+00:00",
+   "note": "中新网11月4日电 据路透社报道，11月3日，欧洲至少有七架航班和一艘邮轮收到炸弹威胁，导致多座机场运行受到干扰，但最终均未发现爆炸装置。",
+   "region": "EUROPE"
   },
   {
    "id": "d9821108b8d3",
@@ -557,7 +557,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "外交部发言人汪文斌13日就阿富汗首都喀布尔日前发生恐怖袭击事件答记者问。",
    "region": "SOUTH_ASIA"
   },
@@ -572,7 +572,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "墨西哥国家地震局11日说，该国南部格雷罗州当天上午发生6级地震。首都墨西哥城响起地震警报，震感明显，有市民撤离至街头。",
    "region": "LATAM"
   },
@@ -587,7 +587,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "中国常驻联合国副代表耿爽9日在安理会通过制裁人道豁免决议后作解释性发言，欢迎安理会通过该决议。",
    "region": "EAST_ASIA"
   },
@@ -602,7 +602,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "俄罗斯外交部8日说，俄美两国当天在阿拉伯联合酋长国阿布扎比机场完成在押人员互换手续，俄公民维克托·布特与美国女篮运动员布里特妮·格里纳进行了交换。",
    "region": "RUSSIA_CIS"
   }
@@ -635,7 +635,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -650,7 +650,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -665,24 +665,24 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T04:45:24.949813+00:00",
+   "published": "2026-11-04T05:13:21.067729+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   }
  ],
  "coverage": {
-  "sources_ok": 16,
-  "sources_failed": 4,
+  "sources_ok": 17,
+  "sources_failed": 3,
   "items": 43933,
-  "gdelt_events": 43397,
+  "gdelt_events": 43373,
   "mode": "live",
   "data_through": "2026-11-03",
-  "clusters": 514,
-  "origins": 516,
+  "clusters": 534,
+  "origins": 536,
   "failed_days": 2,
   "failed_days_last": [
-   "2026-10-28",
-   "2026-10-30"
+   "2026-10-30",
+   "2026-11-01"
   ],
   "components_covered": 48,
   "components_required": 66,
@@ -718,8 +718,8 @@
    "economy": {
     "now": 2.42,
     "p50": 0.38,
-    "p90": 0.72,
-    "ratio": 6.31,
+    "p90": 0.7,
+    "ratio": 6.42,
     "z": 1.49
    },
    "internal": {
@@ -1193,33 +1193,75 @@
   },
   {
    "date": "2026-10-28",
-   "geti": 40.9
+   "geti": 60.0
   },
   {
    "date": "2026-10-29",
-   "geti": 48.8
+   "geti": 61.1
   },
   {
    "date": "2026-10-30",
-   "geti": 36.9
+   "geti": 44.9
   },
   {
    "date": "2026-10-31",
-   "geti": 47.9
+   "geti": 52.9
   },
   {
    "date": "2026-11-01",
-   "geti": 57.9
+   "geti": 39.6
   },
   {
    "date": "2026-11-02",
-   "geti": 65.1
+   "geti": 53.1
   },
   {
    "date": "2026-11-03",
-   "geti": 70.4
+   "geti": 62.6
   }
  ],
+ "policy": {
+  "items": [
+   {
+    "type": "control",
+    "country": "",
+    "score": 0.45,
+    "signed": 0.45,
+    "title": "湖南省政协经济科技委员会原副主任张志军接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725751.shtml",
+    "origins": 1,
+    "when": "2026-11-04"
+   },
+   {
+    "type": "control",
+    "country": "",
+    "score": 0.3,
+    "signed": 0.3,
+    "title": "检察机关依法对杨宏勇涉嫌受贿、利用影响力受贿案提起公诉",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725784.shtml",
+    "origins": 1,
+    "when": "2026-11-04"
+   },
+   {
+    "type": "extractive",
+    "country": "",
+    "score": 0.3,
+    "signed": 0.3,
+    "title": "菲律宾央行：货币政策仍处紧缩周期 通胀预计数月后见顶",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725700.shtml",
+    "origins": 1,
+    "when": "2026-11-03"
+   }
+  ],
+  "counts": {
+   "extractive": 1,
+   "control": 2,
+   "redistributive": 0
+  },
+  "pressure": {},
+  "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。",
+  "mode": "shadow"
+ },
  "market": {
   "index": 83.0,
   "z": 0.951,
@@ -1521,7 +1563,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.56,
+    "value": 0.54,
     "z": null,
     "score": null,
     "available": false
@@ -1534,10 +1576,10 @@
   }
  },
  "doom": {
-  "index": 70.4,
-  "z": 0.52,
+  "index": 62.6,
+  "z": 0.31,
   "parts": {
-   "military": 0.52,
+   "military": 0.31,
    "hazard": null,
    "epidemic": null
   },
@@ -1552,7 +1594,7 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 43397,
+   "items": 43373,
    "error": ""
   },
   {
@@ -1581,9 +1623,9 @@
   },
   {
    "source": "france24",
-   "ok": false,
-   "items": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "ok": true,
+   "items": 24,
+   "error": ""
   },
   {
    "source": "nhk",
@@ -1702,7 +1744,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 5618,
+   "items": 5437,
    "error": ""
   }
  ]
