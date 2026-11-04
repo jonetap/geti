@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-04T05:13:18+00:00",
+ "generated_at": "2026-11-04T10:53:01+00:00",
  "date": "2026-11-03",
- "geti": 62.6,
+ "geti": 59.6,
  "delta_z": 0.85,
- "delta_pts": 9.6,
+ "delta_pts": 11.3,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -14,7 +14,7 @@
    "code": "NORTH_AMERICA",
    "label": "北美",
    "score": 80.0,
-   "delta": 0.7,
+   "delta": 4.6,
    "excluded": false,
    "drivers": [
     [
@@ -30,8 +30,8 @@
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 75.7,
-   "delta": 3.3,
+   "score": 75.8,
+   "delta": 11.3,
    "excluded": true,
    "drivers": [
     [
@@ -47,8 +47,8 @@
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 74.5,
-   "delta": 2.5,
+   "score": 74.6,
+   "delta": 10.7,
    "excluded": false,
    "drivers": [
     [
@@ -57,7 +57,7 @@
     ],
     [
      "diplomacy",
-     1.25
+     1.26
     ]
    ]
   },
@@ -65,7 +65,7 @@
    "code": "SOUTH_ASIA",
    "label": "南亚",
    "score": 74.1,
-   "delta": 4.0,
+   "delta": 17.0,
    "excluded": false,
    "drivers": [
     [
@@ -74,20 +74,20 @@
     ],
     [
      "diplomacy",
-     1.31
+     1.32
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 72.7,
-   "delta": 3.6,
+   "score": 72.8,
+   "delta": 9.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.46
+     1.47
     ],
     [
      "diplomacy",
@@ -99,7 +99,7 @@
    "code": "AFRICA",
    "label": "非洲",
    "score": 70.7,
-   "delta": 2.6,
+   "delta": 10.3,
    "excluded": false,
    "drivers": [
     [
@@ -115,8 +115,8 @@
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 65.2,
-   "delta": 3.7,
+   "score": 65.3,
+   "delta": 8.3,
    "excluded": false,
    "drivers": [
     [
@@ -125,15 +125,15 @@
     ],
     [
      "diplomacy",
-     0.98
+     0.99
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 64.0,
-   "delta": 2.4,
+   "score": 64.4,
+   "delta": 8.6,
    "excluded": false,
    "drivers": [
     [
@@ -142,15 +142,15 @@
     ],
     [
      "military",
-     0.69
+     0.75
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 61.3,
-   "delta": 1.7,
+   "score": 61.5,
+   "delta": 7.1,
    "excluded": false,
    "drivers": [
     [
@@ -166,8 +166,8 @@
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 49.1,
-   "delta": 2.3,
+   "score": 49.8,
+   "delta": 3.6,
    "excluded": false,
    "drivers": [
     [
@@ -176,7 +176,7 @@
     ],
     [
      "economy",
-     -0.64
+     -0.63
     ]
    ]
   }
@@ -190,7 +190,7 @@
    "available": true,
    "z": 1.73,
    "score": 89.7,
-   "contrib": 0.406
+   "contrib": 0.405
   },
   {
    "key": "physical",
@@ -209,8 +209,8 @@
    "effective_weight": 0.231,
    "available": true,
    "z": 1.61,
-   "score": 88.2,
-   "contrib": 0.261
+   "score": 88.3,
+   "contrib": 0.262
   },
   {
    "key": "economy",
@@ -245,20 +245,21 @@
  ],
  "events": [
   {
-   "id": "32571c66f04f",
-   "title": "Seven flights across Europe targeted by suspected bomb threats",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/seven-flights-across-europe-targeted-by-suspected-bomb-threats?traffic_source=rss",
-   "component": "military",
+   "id": "a0a162f39dc2",
+   "title": "Spanish transport minister resigns after train crash killed 69 people",
+   "url": "https://www.aljazeera.com/news/2026/11/4/spanish-transport-minister-resigns-after-train-crash-killed-69-people?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.74,
-   "origins": 2,
+   "confidence": 0.9,
+   "origins": 3,
    "sources": [
     "aljazeera",
-    "bbc"
+    "scmp",
+    "guardian"
    ],
-   "published": "2026-11-04T02:36:18+00:00",
-   "note": "Seven flights across Europe were targeted by suspected bomb threats.",
-   "region": "EUROPE"
+   "published": "2026-11-04T07:18:08+00:00",
+   "note": "Oscar Puente says he could not 'continue in office' after two major train accidents in less than a year.",
+   "region": "OTHER"
   },
   {
    "id": "b22984ae141f",
@@ -271,7 +272,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -286,7 +287,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -301,7 +302,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   },
@@ -316,7 +317,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
    "region": "SOUTH_ASIA"
   },
@@ -331,7 +332,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "墨西哥东北部塔毛利帕斯州安全部门7日说，墨军方与武装分子当天在该州新拉雷多市发生交火，造成至少8人死亡、7人受伤。",
    "region": "LATAM"
   },
@@ -346,9 +347,69 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "印度尼西亚警方7日通报，印尼西爪哇省首府万隆市一所警察局当天发生炸弹袭击事件，已致2人死亡、7人受伤。",
    "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "a201ac3ad5ca",
+   "title": "欧洲多架客机收到炸弹威胁 安检未发现爆炸物",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725859.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-04T05:07:57+00:00",
+   "note": "中新社北京11月4日电 综合消息：欧洲7架客机3日相继收到炸弹威胁，安检人员在涉事飞机上没有发现爆炸物，受到影响的机场重新开放。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "2537d1ca26f6",
+   "title": "Indonesian military helicopter on wildfire mission crashes off Borneo, killing 1",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373275/indonesian-military-helicopter-wildfire-mission-crashes-borneo-killing-1",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-04T10:26:07+00:00",
+   "note": "An Indonesian military helicopter carrying eight people on a firefighting mission crashed in waters off Borneo island on Wednesday, killing a crew member, the army said. The Southe",
+   "region": "OTHER"
+  },
+  {
+   "id": "11a759c404ea",
+   "title": "Why North Korea’s Kim sees no need for another Trump ‘photo-op summit’",
+   "url": "https://www.scmp.com/week-asia/politics/article/3373219/why-north-koreas-kim-sees-no-need-another-trump-photo-op-summit",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-04T05:14:56+00:00",
+   "note": "Kim Jong-un’s powerful sister on Wednesday rejected holding any further talks with the United States, days after the FBI accused North Korea of stealing more than US$6 billion from",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "2e4556bd7562",
+   "title": "UK apologises to Ukrainian child refugees who were told to study Russian",
+   "url": "https://www.theguardian.com/education/2026/nov/04/ukrainian-gcse-uk-apologises-child-refugees",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-04T05:00:25+00:00",
+   "note": "Exclusive: Schools minister launches new Ukrainian GCSE and says she is sorry students were pushed to study Russian in its absence The UK has apologised to Ukrainian child refugees",
+   "region": "RUSSIA_CIS"
   },
   {
    "id": "7de2da2f4a44",
@@ -356,60 +417,29 @@
    "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.6,
-   "origins": 2,
+   "confidence": 0.34,
+   "origins": 1,
    "sources": [
-    "bbc",
-    "guardian"
+    "bbc"
    ],
    "published": "2026-11-03T22:45:59+00:00",
    "note": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
    "region": "OTHER"
   },
   {
-   "id": "12a455a8db13",
-   "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
-   "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
+   "id": "554480cde850",
+   "title": "Seven flights across Europe targeted by suspected bomb threats",
+   "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
    "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-04T00:35:44+00:00",
-   "note": "At least seven flights and an Israel-bound cruise ship received threats, but officials say searches found no explosives.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "172b1ef51fb5",
-   "title": "欧洲多架客机及一艘邮轮遭炸弹威胁",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725708.shtml",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-03T23:07:04+00:00",
-   "note": "中新网11月4日电 据路透社报道，11月3日，欧洲至少有七架航班和一艘邮轮收到炸弹威胁，导致多座机场运行受到干扰，但最终均未发现爆炸装置。",
-   "region": "EUROPE"
-  },
-  {
-   "id": "d9821108b8d3",
-   "title": "Spain’s transport minister resigns after train crash that killed 69",
-   "url": "https://www.scmp.com/news/world/europe/article/3373189/spains-transport-minister-resigns-after-train-crash-killed-69",
-   "component": "internal",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "scmp"
+    "bbc"
    ],
-   "published": "2026-11-03T21:55:32+00:00",
-   "note": "Spain’s transport minister handed in his resignation on Tuesday following a train crash that killed 69 people last week, one of the worst railway disasters in Europe this century. ",
-   "region": "OTHER"
+   "published": "2026-11-03T20:42:47+00:00",
+   "note": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+   "region": "EUROPE"
   },
   {
    "id": "c5bd585d67c7",
@@ -427,108 +457,18 @@
    "region": "EUROPE"
   },
   {
-   "id": "355286bfabfa",
-   "title": "Seven reported bomb threats against European flights confirmed as false alarms – as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
+   "id": "7ca18249f546",
+   "title": "Multiple flights to European airports targeted by bomb threats",
+   "url": "https://www.dw.com/en/multiple-flights-to-european-airports-targeted-by-bomb-threats/a-79842434?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "guardian"
+    "dw"
    ],
-   "published": "2026-11-03T18:22:57+00:00",
-   "note": "Bomb threats were made on routes involving a number of airlines, including Ryanair and WizzAir Back to Poland, Warsaw Modlin airport says it has resumed operations after an earlier",
-   "region": "EUROPE"
-  },
-  {
-   "id": "3b7c09429341",
-   "title": "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
-   "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-03T17:32:45+00:00",
-   "note": "Unclear if series of incidents affecting two UK departures and several Ryanair services, among others, were connected Seven planes across Europe have been searched or diverted afte",
-   "region": "EUROPE"
-  },
-  {
-   "id": "2b8f7ef8b095",
-   "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
-   "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T16:57:41+00:00",
-   "note": "At least 38 people are killed in 24 hours and Ukraine's Volodymyr Zelensky warns dozens more could be trapped under rubble.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "04629b882098",
-   "title": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
-   "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T13:26:19+00:00",
-   "note": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president calls an \"utterly horrific\" attack.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "53d00eabe9ea",
-   "title": "Indian tourist killed after two helicopters collide near Everest base camp",
-   "url": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T11:51:08+00:00",
-   "note": "The two aircraft crashed just metres from the ground after trying to land at the same spot.",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "3ce54d04cdc8",
-   "title": "Mid-air helicopter collision on Nepal’s Everest kills Indian tourist",
-   "url": "https://www.scmp.com/news/asia/south-asia/article/3373136/mid-air-helicopter-collision-nepals-everest-kills-indian-tourist",
-   "component": "physical",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-03T09:52:05+00:00",
-   "note": "An Indian tourist was killed and a New Zealand national injured when two helicopters collided and crashed while attempting to land in Nepal’s Everest region on Tuesday, police said",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "35dcef767bbc",
-   "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
-   "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-03T00:07:05+00:00",
-   "note": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
+   "published": "2026-11-03T14:18:00+00:00",
+   "note": "The bomb threats involved two passenger planes bound for Warsaw, a Ryanair flight from London to Spain, two flights to Rome and a flight traveling from Israel to the Bulgarian capi",
    "region": "EUROPE"
   },
   {
@@ -557,7 +497,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "外交部发言人汪文斌13日就阿富汗首都喀布尔日前发生恐怖袭击事件答记者问。",
    "region": "SOUTH_ASIA"
   },
@@ -572,7 +512,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "墨西哥国家地震局11日说，该国南部格雷罗州当天上午发生6级地震。首都墨西哥城响起地震警报，震感明显，有市民撤离至街头。",
    "region": "LATAM"
   },
@@ -587,7 +527,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "中国常驻联合国副代表耿爽9日在安理会通过制裁人道豁免决议后作解释性发言，欢迎安理会通过该决议。",
    "region": "EAST_ASIA"
   },
@@ -602,28 +542,72 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "俄罗斯外交部8日说，俄美两国当天在阿拉伯联合酋长国阿布扎比机场完成在押人员互换手续，俄公民维克托·布特与美国女篮运动员布里特妮·格里纳进行了交换。",
    "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "5c46f74905fa",
+   "title": "最新动态：俄外交部表示俄美暂停战略稳定和削减战略武器谈判 乌方称乌能源设施和输电线遭大规模袭击",
+   "url": "http://www.news.cn/world/2022-12/09/c_1129193610.htm",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-04T10:53:03.934722+00:00",
+   "note": "",
+   "region": "OTHER"
+  },
+  {
+   "id": "b8d4e5109e6e",
+   "title": "红旗漫卷大别山|﻿他牺牲在第四次反“围剿”战场，两封家书留在了大别山",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726026.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews_cn"
+   ],
+   "published": "2026-11-04T08:09:39+00:00",
+   "note": "大皖新闻讯 11月2日至6日，“红星照耀中国·红旗漫卷大别山”网络主题宣传活动走进鄂豫皖三省红色热土。活动期间，大皖新闻记者来到金寨县汤家汇镇红军街，探访赤城县邮政局旧址。这是安徽境内第一个苏区邮政机构，也是鄂豫皖革命根据地最早建立的邮政机构之一。赤城县邮政局设立后，邮局承担了发行报刊、邮寄信件、传递文件等任务。交通员把信件藏在衣帽、鞋子的夹层里，或搓成纸捻",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "d666d067904a",
+   "title": "加拿大总理： 俄罗斯运动员不得代表本国参加世界青年冰球锦标赛",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725896.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-04T06:03:22+00:00",
+   "note": "中新社北京11月4日电 渥太华消息：据加拿大广播公司报道，加拿大总理卡尼3日表示，俄罗斯和白俄罗斯冰球运动员将不被允许代表本国参加即将在加拿大艾伯塔省举行的世界青年冰球锦标赛。",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "242530859dd1",
+   "title": "Houthis’ monthlong siege on Taiz creating hell for trapped Yemenis",
+   "url": "https://www.aljazeera.com/news/2026/11/4/houthis-one-month-siege-on-taiz-is-creating-hell-for-yemenis-stuck-there?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-04T10:44:46+00:00",
+   "note": "Blockade prompts warnings of a 'catastrophe' as food, water, fuel and medical supplies are unable to reach city.",
+   "region": "MIDDLE_EAST"
   }
  ],
  "breaking": [
-  {
-   "id": "32571c66f04f",
-   "title": "Seven flights across Europe targeted by suspected bomb threats",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/seven-flights-across-europe-targeted-by-suspected-bomb-threats?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.74,
-   "origins": 2,
-   "sources": [
-    "aljazeera",
-    "bbc"
-   ],
-   "published": "2026-11-04T02:36:18+00:00",
-   "note": "Seven flights across Europe were targeted by suspected bomb threats.",
-   "region": "EUROPE"
-  },
   {
    "id": "b22984ae141f",
    "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
@@ -635,7 +619,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -650,7 +634,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -665,22 +649,38 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T05:13:21.067729+00:00",
+   "published": "2026-11-04T10:53:03.934722+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
+  },
+  {
+   "id": "fabf87ffc6f9",
+   "title": "印尼西苏门答腊省一煤矿爆炸致9人死亡",
+   "url": "http://www.news.cn/world/2022-12/09/c_1129196117.htm",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-04T10:53:03.934722+00:00",
+   "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
+   "region": "SOUTH_ASIA"
   }
  ],
  "coverage": {
-  "sources_ok": 17,
-  "sources_failed": 3,
-  "items": 43933,
-  "gdelt_events": 43373,
+  "sources_ok": 16,
+  "sources_failed": 4,
+  "items": 42448,
+  "gdelt_events": 41920,
   "mode": "live",
   "data_through": "2026-11-03",
-  "clusters": 534,
-  "origins": 536,
-  "failed_days": 2,
+  "clusters": 510,
+  "origins": 512,
+  "failed_days": 3,
   "failed_days_last": [
+   "2026-10-26",
    "2026-10-30",
    "2026-11-01"
   ],
@@ -698,7 +698,7 @@
     "now": 3.59,
     "p50": 0.43,
     "p90": 0.86,
-    "ratio": 8.37,
+    "ratio": 8.33,
     "z": 1.73
    },
    "physical": {
@@ -710,29 +710,29 @@
    },
    "diplomacy": {
     "now": 2.85,
-    "p50": 0.38,
+    "p50": 0.37,
     "p90": 0.72,
-    "ratio": 7.41,
+    "ratio": 7.63,
     "z": 1.61
    },
    "economy": {
     "now": 2.42,
     "p50": 0.38,
     "p90": 0.7,
-    "ratio": 6.42,
+    "ratio": 6.4,
     "z": 1.49
    },
    "internal": {
     "now": 1.38,
-    "p50": 0.15,
+    "p50": 0.14,
     "p90": 0.37,
-    "ratio": 9.46,
+    "ratio": 9.61,
     "z": 1.28
    },
    "narrative": {
     "now": 0.02,
     "p50": 0.0,
-    "p90": 0.09,
+    "p90": 0.11,
     "ratio": null,
     "z": 0.05
    }
@@ -1101,35 +1101,35 @@
   },
   {
    "date": "2026-10-05",
-   "geti": 43.4
+   "geti": 43.9
   },
   {
    "date": "2026-10-06",
-   "geti": 45.7
+   "geti": 46.1
   },
   {
    "date": "2026-10-07",
-   "geti": 44.7
+   "geti": 44.9
   },
   {
    "date": "2026-10-08",
-   "geti": 43.3
+   "geti": 43.6
   },
   {
    "date": "2026-10-09",
-   "geti": 46.6
+   "geti": 46.8
   },
   {
    "date": "2026-10-10",
-   "geti": 52.3
+   "geti": 52.4
   },
   {
    "date": "2026-10-11",
-   "geti": 57.1
+   "geti": 57.2
   },
   {
    "date": "2026-10-12",
-   "geti": 52.5
+   "geti": 52.6
   },
   {
    "date": "2026-10-13",
@@ -1157,23 +1157,23 @@
   },
   {
    "date": "2026-10-19",
-   "geti": 58.7
+   "geti": 58.5
   },
   {
    "date": "2026-10-20",
-   "geti": 55.1
+   "geti": 54.8
   },
   {
    "date": "2026-10-21",
-   "geti": 50.8
+   "geti": 50.6
   },
   {
    "date": "2026-10-22",
-   "geti": 50.0
+   "geti": 49.9
   },
   {
    "date": "2026-10-23",
-   "geti": 54.0
+   "geti": 53.9
   },
   {
    "date": "2026-10-24",
@@ -1185,80 +1185,82 @@
   },
   {
    "date": "2026-10-26",
-   "geti": 55.7
+   "geti": 46.1
   },
   {
    "date": "2026-10-27",
-   "geti": 54.9
+   "geti": 48.7
   },
   {
    "date": "2026-10-28",
-   "geti": 60.0
+   "geti": 53.5
   },
   {
    "date": "2026-10-29",
-   "geti": 61.1
+   "geti": 56.9
   },
   {
    "date": "2026-10-30",
-   "geti": 44.9
+   "geti": 42.2
   },
   {
    "date": "2026-10-31",
-   "geti": 52.9
+   "geti": 51.2
   },
   {
    "date": "2026-11-01",
-   "geti": 39.6
+   "geti": 38.6
   },
   {
    "date": "2026-11-02",
-   "geti": 53.1
+   "geti": 48.3
   },
   {
    "date": "2026-11-03",
-   "geti": 62.6
+   "geti": 59.6
   }
  ],
  "policy": {
   "items": [
    {
     "type": "control",
-    "country": "",
+    "country": "CN",
     "score": 0.45,
     "signed": 0.45,
-    "title": "湖南省政协经济科技委员会原副主任张志军接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725751.shtml",
+    "title": "中国铁道建筑集团有限公司党委常委李兴龙接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726101.shtml",
     "origins": 1,
     "when": "2026-11-04"
    },
    {
     "type": "control",
     "country": "",
-    "score": 0.3,
-    "signed": 0.3,
-    "title": "检察机关依法对杨宏勇涉嫌受贿、利用影响力受贿案提起公诉",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-04/10725784.shtml",
+    "score": 0.45,
+    "signed": 0.45,
+    "title": "广东省揭阳市委原副书记王绍乐被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726100.shtml",
     "origins": 1,
     "when": "2026-11-04"
    },
    {
-    "type": "extractive",
-    "country": "",
-    "score": 0.3,
-    "signed": 0.3,
-    "title": "菲律宾央行：货币政策仍处紧缩周期 通胀预计数月后见顶",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-04/10725700.shtml",
+    "type": "control",
+    "country": "CN",
+    "score": 0.45,
+    "signed": 0.45,
+    "title": "中国东航下属东方航空物流股份有限公司党委委员徐陈接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726054.shtml",
     "origins": 1,
-    "when": "2026-11-03"
+    "when": "2026-11-04"
    }
   ],
   "counts": {
-   "extractive": 1,
-   "control": 2,
+   "extractive": 0,
+   "control": 3,
    "redistributive": 0
   },
-  "pressure": {},
+  "pressure": {
+   "CN": 0.9
+  },
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。",
   "mode": "shadow"
  },
@@ -1491,16 +1493,34 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104268"
     },
     {
-     "t": "Green forest fire notification in Burkina Faso",
+     "t": "Green forest fire notification in South Sudan, Sudan",
      "v": "green",
-     "ts": "2026-11-03 16:41",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033388"
+     "ts": "2026-11-03 20:42",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033400"
+    },
+    {
+     "t": "Green forest fire notification in South Sudan, Sudan",
+     "v": "green",
+     "ts": "2026-11-03 20:42",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033466"
+    },
+    {
+     "t": "Green forest fire notification in South Sudan, Sudan",
+     "v": "green",
+     "ts": "2026-11-03 20:42",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033418"
     },
     {
      "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
      "ts": "2026-11-03 16:41",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033401"
+    },
+    {
+     "t": "Green forest fire notification in Burkina Faso",
+     "v": "green",
+     "ts": "2026-11-03 16:41",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033388"
     },
     {
      "t": "Green flood alert in Philippines",
@@ -1515,16 +1535,22 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033383"
     },
     {
-     "t": "Green forest fire notification in Burkina Faso",
+     "t": "Green forest fire notification in South Sudan, Sudan",
      "v": "green",
-     "ts": "2026-11-03 16:41",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033407"
+     "ts": "2026-11-03 20:42",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033372"
     },
     {
      "t": "Green forest fire notification in Bolivia",
      "v": "green",
      "ts": "2026-11-03 08:12",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033447"
+    },
+    {
+     "t": "Green forest fire notification in South Sudan, Sudan",
+     "v": "green",
+     "ts": "2026-11-03 20:42",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033333"
     }
    ],
    "kp": [
@@ -1563,7 +1589,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.54,
+    "value": 0.76,
     "z": null,
     "score": null,
     "available": false
@@ -1576,10 +1602,10 @@
   }
  },
  "doom": {
-  "index": 62.6,
-  "z": 0.31,
+  "index": 59.6,
+  "z": 0.23,
   "parts": {
-   "military": 0.31,
+   "military": 0.23,
    "hazard": null,
    "epidemic": null
   },
@@ -1593,14 +1619,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 43373,
+   "files": 140,
+   "items": 41920,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 32,
+   "items": 25,
    "error": ""
   },
   {
@@ -1612,7 +1638,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 32,
+   "items": 30,
    "error": ""
   },
   {
@@ -1623,9 +1649,9 @@
   },
   {
    "source": "france24",
-   "ok": true,
-   "items": 24,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "source": "nhk",
@@ -1678,7 +1704,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 18,
+   "items": 19,
    "error": ""
   },
   {
@@ -1726,7 +1752,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 8,
+   "items": 19,
    "error": ""
   },
   {
@@ -1744,7 +1770,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 5437,
+   "items": 6578,
    "error": ""
   }
  ]
