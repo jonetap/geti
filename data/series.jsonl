@@ -2252,6 +2252,7 @@
 {"r":"LATAM","c":"military","d":"2026-11-02","v":3.6453}
 {"r":"LATAM","c":"military","d":"2026-11-03","v":163.59}
 {"r":"LATAM","c":"military","d":"2026-11-04","v":63.269}
+{"r":"LATAM","c":"narrative","d":"2026-10-28","v":1.5764}
 {"r":"LATAM","c":"narrative","d":"2026-10-29","v":0.1072}
 {"r":"LATAM","c":"narrative","d":"2026-11-01","v":1.4141}
 {"r":"LATAM","c":"narrative","d":"2026-11-02","v":1.4088}
@@ -2838,9 +2839,11 @@
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-02","v":1.3665}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-03","v":1.8574}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-04","v":1.5908}
+{"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-05","v":1.1158}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-25","v":3.9128}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-26","v":1.4599}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-27","v":1.0543}
+{"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-28","v":1.1889}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-30","v":0.0536}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-31","v":0.0985}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-11-01","v":1.5565}

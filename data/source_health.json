@@ -18,80 +18,80 @@
     "consecutive_failures": 0
   },
   "bbc": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "aljazeera": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "guardian": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "dw": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "france24": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "nhk": {
     "last_success_at": "2026-11-04T04:38:28+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "解析到 7 条，但全部超过 48 小时",
-    "consecutive_failures": 7
+    "consecutive_failures": 8
   },
   "scmp": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "un_news_zh": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:VIXCLS": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DCOILWTICO": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:BAMLH0A0HYM2": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DTWEXBGS": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DGS10": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
@@ -102,44 +102,44 @@
     "consecutive_failures": 2
   },
   "gdelt_recent": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "xinhua_world": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "people": {
     "last_success_at": null,
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "解析到 100 条，但全部超过 48 小时",
-    "consecutive_failures": 7
+    "consecutive_failures": 8
   },
   "chinanews": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "chinanews_cn": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "globaltimes": {
     "last_success_at": null,
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "解析到 50 条，但全部超过 48 小时",
-    "consecutive_failures": 7
+    "consecutive_failures": 8
   },
   "bbc_zh": {
-    "last_success_at": "2026-11-04T12:37:12+00:00",
-    "last_attempt_at": "2026-11-04T12:37:12+00:00",
+    "last_success_at": "2026-11-04T19:43:51+00:00",
+    "last_attempt_at": "2026-11-04T19:43:51+00:00",
     "last_error": "",
     "consecutive_failures": 0
   }
