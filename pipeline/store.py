@@ -35,9 +35,24 @@ def _merge(base: Series, new: Series) -> Series:
     return out
 
 
-def save_series(path: str, new: Series, keep_days: int = 200, end: date | None = None) -> Series:
-    """把新算出的部分并进历史，覆盖同键同日（幂等），再整体重写。"""
-    merged = _merge(load_series(path), new)
+def save_series(path: str, new: Series, keep_days: int = 200, end: date | None = None,
+                keep_existing: bool = False) -> Series:
+    """把新算出的部分并进历史，覆盖同键同日（幂等），再整体重写。
+
+    `keep_existing=True` 时**已存在的日期一律不再改写**。为什么要这个开关：
+    每次运行都会重算最近两天，而 GDELT 的 36 小时窗口每 3 小时滚动一次，
+    同一个日期在不同时刻会算出不同的值——于是历史序列会自己抖动，
+    指数跟着一天掉 9 分再涨 10 分。那不是世界在变，是我们数了两遍。
+    """
+    base = load_series(path)
+    if keep_existing:
+        merged: Series = {k: dict(v) for k, v in base.items()}
+        for k, days in new.items():
+            slot = merged.setdefault(k, {})
+            for d, v in days.items():
+                slot.setdefault(d, v)
+    else:
+        merged = _merge(base, new)
     cutoff = (end or max((max(v) for v in merged.values() if v), default=date.today())) - timedelta(days=keep_days)
 
     lines: list[str] = []
