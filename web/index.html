@@ -128,6 +128,43 @@
   .mkt-src{margin-top:10px;padding-top:9px;border-top:1px solid var(--line);
     font:10px/1.4 var(--mono);color:var(--dim)}
 
+  /* 原始信源：分析之前的原始条目，自己点开核对 */
+  .src{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+  .src>summary{cursor:pointer;list-style:none;font:10.5px/1.4 var(--mono);color:var(--mut);
+    letter-spacing:.06em;user-select:none}
+  .src>summary::-webkit-details-marker{display:none}
+  .src>summary::before{content:"▸ ";color:var(--dim)}
+  .src[open]>summary::before{content:"▾ "}
+  .src>summary:hover{color:#e6eef8}
+  .src-body{max-height:320px;overflow:auto;margin-top:8px;
+    scrollbar-width:thin;scrollbar-color:#2a3746 transparent}
+  .src-body::-webkit-scrollbar{width:8px}
+  .src-body::-webkit-scrollbar-thumb{background:#243140;border-radius:4px}
+  .src-g+.src-g{margin-top:9px}
+  .src-g>b{display:block;font:10px/1 var(--mono);color:var(--dim);letter-spacing:.12em;margin-bottom:3px}
+  .src-row{display:flex;align-items:baseline;gap:8px;padding:3px 0;font-size:12px;line-height:1.4;
+    border-bottom:1px dashed #16202c}
+  .src-row:last-child{border-bottom:0}
+  .src-row .tt{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .src-row .ts{flex:0 0 auto;font:10px/1 var(--mono);color:var(--dim);white-space:nowrap}
+  .src-row .v{flex:0 0 auto;font:10px/1 var(--mono);padding:2px 5px;border-radius:4px;
+    max-width:112px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+    border:1px solid #26313f;background:#111923;color:var(--mut)}
+  a.src-row:hover .tt{color:#fff;text-decoration:underline;text-decoration-color:#3b4a5c}
+  .src-row .v.red{color:#ff7a8a;border-color:#7f2436;background:#2a0f16}
+  .src-row .v.org{color:var(--hot);border-color:#5c3a1a;background:#231607}
+  .src-row .v.grn{color:var(--calm);border-color:#1b4a44;background:#0b1a18}
+  .src-row .v.mag6{color:#f3f8ff;font-weight:600;border-color:#41536b;background:#161f2b}
+  .src-row .v.warn{color:var(--warm);border-color:#5c4a1a;background:#221c0c}
+  .src-row .v.pol{color:#93c5fd;border-color:#26455e;background:#0d1a24}
+  .src-empty{font:10.5px/1.5 var(--mono);color:var(--dim);padding:1px 0}
+  .go-src{margin-top:10px;padding-top:9px;border-top:1px solid var(--line);
+    font:10px/1.7 var(--mono);color:var(--dim)}
+  .go-src b{color:var(--mut);font-weight:500;margin-right:9px}
+  .go-src a{color:var(--mut);border-bottom:1px dotted #2a3746}
+  .go-src a+a{margin-left:11px}
+  .go-src a:hover{color:#e6eef8;border-bottom-color:#4a5d73}
+
   /* events */
   .ev{display:block;padding:11px 0;border-bottom:1px solid #141d28}
   .ev:last-child{border-bottom:0}
@@ -252,11 +289,15 @@
         <div class="head-row"><h2>自然灾害（L4）</h2><span class="mkt-sc" id="hzSc">–</span></div>
         <div class="note">USGS 地震目录 · NASA EONET · GDACS 预警 · NOAA SWPC</div>
         <div id="hazard"></div>
+        <div id="hzSrc"></div>
+        <div class="go-src"><b>自己去看</b><a href="https://earthquake.usgs.gov/earthquakes/map/" target="_blank" rel="noopener">USGS 实时地震</a><a href="https://www.gdacs.org/" target="_blank" rel="noopener">GDACS</a><a href="https://eonet.gsfc.nasa.gov/" target="_blank" rel="noopener">NASA EONET</a><a href="https://www.swpc.noaa.gov/" target="_blank" rel="noopener">NOAA SWPC</a></div>
       </div>
       <div class="card">
         <div class="head-row"><h2>传染病（L5）</h2><span class="mkt-sc" id="epSc">–</span></div>
         <div class="note">WHO 通报 · ECDC · 政策信号（PHEIC/旅行限制）· 报道密度</div>
         <div id="epidemic"></div>
+        <div id="epSrc"></div>
+        <div class="go-src"><b>自己去看</b><a href="https://www.who.int/emergencies/disease-outbreak-news" target="_blank" rel="noopener">WHO 疫情通报</a><a href="https://ecdc.europa.eu/en" target="_blank" rel="noopener">ECDC</a></div>
       </div>
     </section>
 
@@ -447,6 +488,81 @@ function renderSub(host, sub, scoreEl, need){
   }).join("") || '<div class="val">暂无分项</div>';
 }
 
+/* ---------------- 原始信源（分析之前的原始条目） ---------------- */
+const HZ_SRC = [
+  {k:"quake", label:"地震"},
+  {k:"eonet", label:"灾害事件"},
+  {k:"gdacs", label:"红色预警"},
+  {k:"kp",    label:"地磁"},
+];
+const EP_SRC = [{k:"who", label:"WHO 通报 / 政策信号"}];
+
+// 徽标：级别/数值 → {文本, 颜色类}。任何意外输入都收敛成 "—"，不让 undefined 漏到页面上。
+function srcBadge(v, kind){
+  if (kind === "gdacs"){
+    const l = String(v == null ? "" : v).trim().toLowerCase();
+    if (l === "red")    return {t:"RED",    c:"red"};
+    if (l === "orange") return {t:"ORANGE", c:"org"};
+    if (l === "green")  return {t:"GREEN",  c:"grn"};
+    return {t: l || "—", c:""};
+  }
+  if (kind === "quake"){
+    const m = (v == null || v === "") ? NaN : Number(v);
+    if (!isFinite(m)) return {t:"—", c:""};
+    return {t:"M" + m.toFixed(1), c: m >= 6 ? "mag6" : ""};
+  }
+  if (kind === "who"){
+    const s = String(v == null ? "" : v).trim();
+    return s === "政策" ? {t:"政策", c:"pol"} : {t: s || "通报", c:"warn"};
+  }
+  if (kind === "kp"){                            // 地磁保留一位小数：3 → 3.0
+    const n = (v == null || v === "") ? NaN : Number(v);
+    if (isFinite(n)) return {t: n.toFixed(1), c:""};
+    return {t: String(v == null ? "" : v).trim() || "—", c:""};
+  }
+  const s = String(v == null ? "" : v).trim();   // eonet 类别
+  return {t: s || "—", c:""};
+}
+
+// 时间只做"看得懂"的缩短：11-02 08:12。认不出来就原样截断，绝不显示 Invalid Date。
+function srcWhen(ts){
+  const s = String(ts == null ? "" : ts).trim();
+  if (!s) return "";
+  const m = s.match(/^(\d{4})-(\d{2})-(\d{2})(?:[T ](\d{2}):(\d{2}))?/);
+  if (!m) return s.length > 18 ? s.slice(0, 18) + "…" : s;
+  return m[4] ? m[2] + "-" + m[3] + " " + m[4] + ":" + m[5] : m[2] + "-" + m[3];
+}
+
+function srcRow(it, kind){
+  const o = (it && typeof it === "object") ? it : {};
+  const title = String(o.t == null ? "" : o.t).trim() || "（无标题）";
+  const when = srcWhen(o.ts);
+  const b = srcBadge(o.v, kind);
+  const u = String(o.u == null ? "" : o.u).trim();
+  const body = `<span class="tt" title="${esc(title)}">${esc(title)}</span>` +
+    (when ? `<span class="ts">${esc(when)}</span>` : "") +
+    `<span class="${b.c ? "v " + b.c : "v"}">${esc(b.t)}</span>`;
+  // 只认 http(s)：脏链接退化成纯文本行，避免 javascript: 之类被点开
+  if (/^https?:\/\//i.test(u)){
+    return `<a class="src-row" href="${esc(u)}" target="_blank" rel="noopener">${body}</a>`;
+  }
+  return `<div class="src-row">${body}</div>`;
+}
+
+function renderSrc(host, ev, groups){
+  if (!host) return;
+  const E = (ev && typeof ev === "object" && !Array.isArray(ev)) ? ev : {};
+  let total = 0;
+  const blocks = groups.map(g => {
+    const arr = Array.isArray(E[g.k]) ? E[g.k] : [];
+    const rows = arr.filter(x => x && typeof x === "object").map(x => srcRow(x, g.k));
+    total += rows.length;
+    return rows.length ? `<div class="src-g"><b>${esc(g.label)}</b>${rows.join("")}</div>` : "";
+  }).join("");
+  host.innerHTML = `<details class="src"><summary>原始信源 · ${total} 条</summary>` +
+    `<div class="src-body">${total ? blocks : '<div class="src-empty">本次未取到原始条目</div>'}</div></details>`;
+}
+
 /* ---------------- 渲染 ---------------- */
 function render(S){
   const g = S.geti, band = bandOf(g);
@@ -567,6 +683,9 @@ function render(S){
   renderDoom(S.doom);
   renderSub($("hazard"), S.hazard, $("hzSc"), 14);
   renderSub($("epidemic"), S.epidemic, $("epSc"), 14);
+  // 原始条目与索引是否可用无关：没有历史照样能看源
+  renderSrc($("hzSrc"), S.hazard && S.hazard.evidence, HZ_SRC);
+  renderSrc($("epSrc"), S.epidemic && S.epidemic.evidence, EP_SRC);
 
   // 统计
   $("stats").innerHTML = [
