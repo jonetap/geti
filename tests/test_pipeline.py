@@ -254,6 +254,29 @@ class TestStore(unittest.TestCase):
                 os.remove(os.path.join(tmp, name))
             os.rmdir(tmp)
 
+    def test_keep_existing_freezes_past_days(self) -> None:
+        """已定格的日期不许被后来的重算改写——否则历史会自己抖动。"""
+        tmp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_tmp_store2")
+        os.makedirs(tmp, exist_ok=True)
+        path = os.path.join(tmp, "series.jsonl")
+        d1, d2 = date(2026, 11, 1), date(2026, 11, 2)
+        try:
+            store.save_series(path, {("EUROPE", "military"): {d1: 3.0, d2: 4.0}}, end=d2)
+            store.save_series(path, {("EUROPE", "military"): {d1: 99.0, d2: 98.0}}, end=d2,
+                              keep_existing=True)
+            back = store.load_series(path)
+            self.assertAlmostEqual(back[("EUROPE", "military")][d1], 3.0)
+            self.assertAlmostEqual(back[("EUROPE", "military")][d2], 4.0)
+            # 新日期仍然可以写入
+            d3 = date(2026, 11, 3)
+            store.save_series(path, {("EUROPE", "military"): {d3: 5.0}}, end=d3,
+                              keep_existing=True)
+            self.assertAlmostEqual(store.load_series(path)[("EUROPE", "military")][d3], 5.0)
+        finally:
+            for name in os.listdir(tmp):
+                os.remove(os.path.join(tmp, name))
+            os.rmdir(tmp)
+
 
 def _gdelt_row10(**over) -> str:
     """GDELT 1.0 日文件：58 列，Geo_CC=51 / SOURCEURL=57。"""
