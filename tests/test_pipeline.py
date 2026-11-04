@@ -380,6 +380,7 @@ class TestRunEndToEnd(unittest.TestCase):
     def test_run_produces_snapshot(self) -> None:
         import pipeline.cli as cli
         from pipeline import fetch as fetcher
+        from pipeline import physical
 
         tmp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_tmp_run")
         os.makedirs(tmp, exist_ok=True)
@@ -406,6 +407,11 @@ class TestRunEndToEnd(unittest.TestCase):
                                        return_value=(items, [{"source": "bbc", "ok": True}])), \
                      mock.patch.object(market, "fetch_market",
                                        return_value={"index": 55.0, "rows": [], "health": []}), \
+                     mock.patch.object(physical, "fetch_day",
+                                       return_value=({("EUROPE", "physical"):
+                                                      {date(2026, 11, 2): -0.25}},
+                                                     {"source": "opensky", "ok": True,
+                                                      "items": 5000, "error": ""})), \
                      mock.patch.object(hazard, "fetch_day",
                                        return_value=({"quake_energy": 15.0, "quake_count": 20.0},
                                                      [{"source": "usgs:quake", "ok": True}],
