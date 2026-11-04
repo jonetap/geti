@@ -123,6 +123,33 @@ class TestComposite(unittest.TestCase):
     def test_doom_all_missing(self):
         self.assertIsNone(composite.doom(None, None, None)["index"])
 
+    def test_yesterday_still_counts(self):
+        """昨天爆发、今天没新闻——影响不该当天清零（7 天半衰期）。"""
+        end = date(2026, 11, 2)
+        series = self._series("epidemic", "who_don", [3.0] * 16, end)
+        cell = series[("epidemic", "who_don")]
+        cell[end - timedelta(days=1)] = 60.0
+        cell[end] = 0.0
+        sub = composite.subindex(series, "epidemic", end)
+        self.assertIsNotNone(sub["index"])
+        self.assertGreater(sub["index"], 50.0)
+        self.assertEqual(sub["decay_days"], composite.HALF_LIFE_DAYS)
+
+    def test_persistence_marks_ongoing(self):
+        end = date(2026, 11, 2)
+        series = self._series("hazard", "quake_count", [5.0] * 11, end)
+        p = composite.persistence(series, "hazard", end)
+        self.assertTrue(p["ongoing"])
+        self.assertEqual(p["active_days"], 11)
+        self.assertEqual(p["last_seen"], (end - timedelta(days=1)).isoformat())
+
+    def test_persistence_silent_when_empty(self):
+        end = date(2026, 11, 2)
+        p = composite.persistence({}, "hazard", end)
+        self.assertFalse(p["ongoing"])
+        self.assertEqual(p["active_days"], 0)
+        self.assertIsNone(p["last_seen"])
+
 
 if __name__ == "__main__":
     unittest.main()

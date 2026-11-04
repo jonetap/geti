@@ -47,6 +47,21 @@ class TestClassify(unittest.TestCase):
     def test_plain_news_is_not_policy(self):
         self.assertEqual(policy.classify("Earthquake strikes northern Japan"), None)
 
+    def test_mention_is_not_action(self):
+        """标题里没有管控名词、正文只是"提到"某个词——不算政策。"""
+        title = ("'The point was to dehumanise': London Holocaust archive examines "
+                 "world's first 'viral' antisemitism scandal")
+        body = ("Historians say the archive documents how censorship and lockdown "
+                "rhetoric spread online; the museum examines its legacy.")
+        self.assertIsNone(policy.classify(title + " " + body, title))
+
+    def test_control_needs_a_verb(self):
+        """管控名词在标题里但没动词（"讨论/研究"）——不成立。"""
+        title = "Report studies censorship in wartime archives"
+        self.assertIsNone(policy.classify(title, title))
+        title2 = "EU imposes travel ban on officials"
+        self.assertEqual(policy.classify(title2, title2), "control")
+
 
 class TestScan(unittest.TestCase):
     def test_signed_pressure_by_country(self):
