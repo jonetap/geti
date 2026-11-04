@@ -398,7 +398,9 @@ class TestRunEndToEnd(unittest.TestCase):
             old_health = cli.DEFAULT_HEALTH
             cli.DEFAULT_HEALTH = health
             try:
-                with mock.patch.object(fetcher, "fetch_gdelt_daily",
+                with mock.patch.object(fetcher, "fetch_gdelt_recent",
+                                       return_value=(today, [{"source": "gdelt_recent", "ok": True}], target)), \
+                     mock.patch.object(fetcher, "fetch_gdelt_daily",
                                        return_value=(today, [{"source": "gdelt", "ok": True}], target)), \
                      mock.patch.object(fetcher, "fetch_feeds",
                                        return_value=(items, [{"source": "bbc", "ok": True}])), \
