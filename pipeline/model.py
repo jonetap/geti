@@ -256,6 +256,7 @@ class EventSignal:
     mentions: int
     actors: str = ""
     url: str = ""
+    eid: str = ""            # GLOBALEVENTID：去重靠它，别靠标题
 
     def __post_init__(self) -> None:
         self.severity = max(1, min(5, int(self.severity)))

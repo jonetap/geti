@@ -112,6 +112,7 @@ def gdelt_rows(text: str, keep_regions: set[str] | None = None,
             severity=sev,
             goldstein=gold,
             mentions=max(1, mentions),
+            eid=(cols[0] or "").strip(),
             actors=f"{a1} → {a2}".strip(" →"),
             url=(cols[url_idx] or "").strip(),
         ))

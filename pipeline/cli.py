@@ -133,11 +133,17 @@ def cmd_demo(args: argparse.Namespace) -> int:
 def cmd_run(args: argparse.Namespace) -> int:
     now = datetime.now(UTC)
 
-    signals, gh, resolved = fetcher.fetch_gdelt_daily(
-        days=args.days,
-        max_lookback=args.lookback,
+    signals, gh, resolved = fetcher.fetch_gdelt_recent(
+        hours=getattr(args, "hours", 36),
         min_mentions=args.min_mentions,
     )
+    if resolved is None:
+        # 实时窗口拿不到 → 退回日档。日档滞后 1–2 天，但比"今天没有指数"强。
+        signals, gh, resolved = fetcher.fetch_gdelt_daily(
+            days=args.days,
+            max_lookback=args.lookback,
+            min_mentions=args.min_mentions,
+        )
     items, fh = fetcher.fetch_feeds()
 
     mkt: dict = {"mode": "skipped"}
@@ -154,6 +160,18 @@ def cmd_run(args: argparse.Namespace) -> int:
               file=sys.stderr)
         return 2
 
+    # GDELT 当天的事件是陆续补进来的（实测中午只有全天的两成左右）。
+    # 拿一个没走完的日子去比 90 天历史，指数就会每天"早上低、半夜高"——
+    # 那不是世界在变，是我们数的时候天还没黑。所以只给已经走完的日子打分，
+    # 今天正在发生的事照常进事件流。
+    score_day = resolved
+    if score_day >= now.date():
+        done = [ev.day for ev in signals if ev.day < now.date()]
+        score_day = max(done) if done else None
+    if score_day is None:
+        print("[run] 今天才开始，还没有一个走完的日子可以打分", file=sys.stderr)
+        return 2
+
     ok = sum(1 for r in gh if r.get("ok")) + sum(1 for r in fh if r.get("ok"))
     bad = len(gh) + len(fh) - ok
     coverage = {
@@ -162,13 +180,13 @@ def cmd_run(args: argparse.Namespace) -> int:
         "items": len(signals) + len(items),
         "gdelt_events": len(signals),
         "mode": "live",
-        "data_through": resolved.isoformat(),   # 数据实际截止到哪天
+        "data_through": score_day.isoformat(),  # 数据实际截止到哪天
     }
 
-    snap = _assemble(signals, items, resolved, now, coverage, args.series, args.span,
+    snap = _assemble(signals, items, score_day, now, coverage, args.series, args.span,
                      extra={"market": mkt})
 
-    aux_block, aux_health = _aux_block(resolved, items)
+    aux_block, aux_health = _aux_block(score_day, items)
     snap["hazard"] = aux_block["hazard"]
     snap["epidemic"] = aux_block["epidemic"]
     snap["doom"] = composite.doom(snap.get("geti"),
@@ -180,7 +198,10 @@ def cmd_run(args: argparse.Namespace) -> int:
     os.makedirs(os.path.dirname(DEFAULT_HEALTH) or ".", exist_ok=True)
     fetcher.save_health(DEFAULT_HEALTH, gh + fh, now=now)
 
-    print(f"[run] {args.out}  数据截止={resolved}  GETI={snap['geti']}  "
+    if score_day != resolved:
+        coverage["note_scored_day"] = (
+            f"今天（{resolved}）还在累积，指数按最后一个完整日 {score_day} 计算")
+    print(f"[run] {args.out}  数据截止={score_day}  GETI={snap['geti']}  "
           f"末日={snap['doom']['index']}  灾害={snap['hazard']['index']}  "
           f"疫情={snap['epidemic']['index']}  Δz={snap['delta_z']}  "
           f"事件={len(signals)}  新闻={len(items)}  市场={mkt.get('index')}  "

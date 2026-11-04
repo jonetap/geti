@@ -93,6 +93,47 @@ def fetch_gdelt(n_windows: int = 1, keep_regions: set[str] | None = None) -> tup
 
 # ---------------------------------------------------------------- RSS
 
+def fetch_gdelt_recent(hours: int = 36, workers: int = 8,
+                       keep_regions: set[str] | None = None,
+                       min_mentions: int = 2) -> tuple[list[EventSignal], list[dict], object]:
+    """最近 N 小时的 15 分钟文件（GDELT 2.0）。
+
+    为什么不用 events/YYYYMMDD 日档：日档要等 GDELT 归档，实测滞后 1–2 天，
+    页面上会一直写着"数据截止 = 前天"，而首页写着"实时数据"。
+    15 分钟文件基本实时（滞后 15–45 分钟），代价是同一事件在多个窗口重复出现，
+    必须按 GLOBALEVENTID 去重（去重发生在 build.pressure_from_signals）。
+    """
+    from concurrent.futures import ThreadPoolExecutor
+
+    urls = gdelt_urls(max(4, int(hours) * 4))
+    health = [{"source": "gdelt_recent", "ok": False, "files": 0, "items": 0, "error": ""}]
+    if not urls:
+        health[0]["error"] = "lastupdate.txt 不可读"
+        return [], health, None
+
+    def one(u: str) -> list[EventSignal]:
+        try:
+            return gdelt_from_zip(http_get(u, timeout=40), keep_regions,
+                                  min_mentions=min_mentions)
+        except Exception:                       # 单个窗口失败不算整体失败
+            return []
+
+    got: list[EventSignal] = []
+    files = 0
+    with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
+        for rows in pool.map(one, urls):
+            if rows:
+                files += 1
+                got.extend(rows)
+    health[0]["files"] = files
+    if not got:
+        health[0]["error"] = "窗口内没有解析出事件"
+        return got, health, None
+    health[0]["ok"] = True
+    health[0]["items"] = len(got)
+    return got, health, max(ev.day for ev in got)
+
+
 def fetch_feeds(feeds: dict[str, tuple[str, str]] | None = None) -> tuple[list[RawItem], list[dict]]:
     feeds = feeds or RSS_FEEDS
     items: list[RawItem] = []

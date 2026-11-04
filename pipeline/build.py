@@ -79,6 +79,21 @@ def pressure_from_signals(signals: Iterable[EventSignal]) -> Series:
     # 信息/叙事：不用"事件数量"，用"平均报道放大倍数"。
     # 事件多 ≠ 叙事强——同一件事被更多家媒体反复咬住，才是舆情在升温。
     # 逐条累加 (严重度加权 × log(提及数))，最后除以条数，得到当天的平均 salience。
+    # GDELT 2.0 的 15 分钟文件里，同一事件会随报道增加反复出现（NumMentions 递增）。
+    # 不去重的话，一场空袭在 36 小时里会被记几十遍，指数直接顶死。
+    if any(getattr(ev, "eid", "") for ev in signals):
+        best: dict = {}
+        rest: list = []
+        for ev in signals:
+            eid = getattr(ev, "eid", "")
+            if not eid:
+                rest.append(ev)
+                continue
+            cur = best.get(eid)
+            if cur is None or ev.mentions > cur.mentions:
+                best[eid] = ev
+        signals = list(best.values()) + rest
+
     narr: dict = {}
     for ev in signals:
         base = ev.severity / 5.0
