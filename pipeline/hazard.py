@@ -50,6 +50,14 @@ LABELS = {
 }
 
 
+def _iso_ms(ms) -> str:
+    """USGS 的 time 是毫秒时间戳。"""
+    try:
+        return datetime.fromtimestamp(float(ms) / 1000.0, timezone.utc).isoformat(timespec="minutes")
+    except (TypeError, ValueError, OSError):
+        return ""
+
+
 def _f(x, default=None):
     try:
         return float(x)
@@ -76,7 +84,17 @@ def parse_usgs(text: str) -> dict:
     feats = doc.get("features") or []
     mags = [m for m in (_f((f.get("properties") or {}).get("mag")) for f in feats)
             if m is not None]
+    items = []
+    for f in feats:
+        pr = f.get("properties") or {}
+        m = _f(pr.get("mag"))
+        if m is None:
+            continue
+        items.append({"t": str(pr.get("place") or "")[:80], "v": round(m, 1),
+                      "ts": _iso_ms(pr.get("time")), "u": pr.get("url") or ""})
+    items.sort(key=lambda x: -x["v"])
     return {
+        "items": items[:10],
         "count": len(mags),
         "m6": sum(1 for m in mags if m >= 6.0),
         "max": max(mags) if mags else 0.0,
@@ -91,12 +109,16 @@ def parse_eonet(text: str) -> dict:
     except json.JSONDecodeError:
         return {}
     cats: dict[str, int] = {}
+    items = []
     for ev in doc.get("events") or []:
+        geo = (ev.get("geometries") or [{}])[0]
         for c in ev.get("categories") or []:
             title = (c.get("title") or "other").lower()
             cats[title] = cats.get(title, 0) + 1
+            items.append({"t": str(ev.get("title") or title)[:80], "v": title,
+                          "ts": str(geo.get("date") or "")[:16], "u": ev.get("link") or ""})
     total = sum(cats.values())
-    return {"total": total, "by_cat": cats}
+    return {"total": total, "by_cat": cats, "items": items[:10]}
 
 
 def parse_gdacs(text: str, day=None) -> dict:
@@ -106,7 +128,8 @@ def parse_gdacs(text: str, day=None) -> dict:
     except ET.ParseError:
         return {}
     counts = {"red": 0, "orange": 0, "green": 0}
-    stamps = {t: d for t, d in parse_feed_items(text)} if day else {}
+    items: list = []
+    stamps = {it["t"]: it["d"] for it in parse_feed_items(text)} if day else {}
     for item in root.iter():
         if not item.tag.endswith("item"):
             continue
@@ -118,13 +141,25 @@ def parse_gdacs(text: str, day=None) -> dict:
             if not on_day(stamps.get(title), day):
                 continue
         level = ""
+        title = ""
+        link = ""
         for child in item:
             name = child.tag.split("}")[-1].lower()
+            text = (child.text or "").strip()
             if name in ("alertlevel", "alert_level", "gdacs_alertlevel"):
-                level = (child.text or "").strip().lower()
+                level = text.lower()
+            elif name == "title":
+                title = text
+            elif name == "link":
+                link = text
         if level in counts:
             counts[level] += 1
+            items.append({"t": title[:80], "v": level,
+                          "ts": str(stamps.get(title) or "")[:16], "u": link})
     counts["total"] = sum(counts.values())
+    order = {"red": 0, "orange": 1, "green": 2}
+    items.sort(key=lambda x: order.get(x["v"], 9))
+    counts["items"] = items[:12]
     return counts
 
 
@@ -168,6 +203,7 @@ def fetch_day(day: date) -> tuple[dict, list[dict]]:
     """
     out: dict[str, float] = {}
     health: list[dict] = []
+    evidence: dict = {}
     s = day.strftime("%Y-%m-%d")
     e = (day + timedelta(days=1)).strftime("%Y-%m-%d")
 
@@ -182,6 +218,7 @@ def fetch_day(day: date) -> tuple[dict, list[dict]]:
             out["quake_energy"] = round(q["energy"], 3)
             out["quake_count"] = float(q["count"])
             out["quake_max"] = round(q["max"], 1)
+            evidence["quake"] = q.get("items") or []
             rec("usgs:quake", True, q["count"])
         else:
             rec("usgs:quake", False, 0, "解析到 0 条")
@@ -194,6 +231,7 @@ def fetch_day(day: date) -> tuple[dict, list[dict]]:
         ev = parse_eonet(data)
         if ev:
             out["storm_events"] = float(ev["total"])
+            evidence["eonet"] = ev.get("items") or []
             rec("nasa:eonet", True, ev["total"])
         else:
             rec("nasa:eonet", False, 0, "解析到 0 条")
@@ -206,6 +244,7 @@ def fetch_day(day: date) -> tuple[dict, list[dict]]:
         g = parse_gdacs(data, day=day)
         if g:
             out["gdacs_alert"] = float(g["red"] * 2 + g["orange"])
+            evidence["gdacs"] = g.get("items") or []
             rec("gdacs:rss", True, g["total"])
         else:
             rec("gdacs:rss", False, 0, "解析到 0 条")
@@ -220,6 +259,9 @@ def fetch_day(day: date) -> tuple[dict, list[dict]]:
             k = parse_kp(data, day=day)
             if k:
                 out["space_weather"] = round(k["max"], 2)
+                evidence["kp"] = [{"t": f"Kp {round(k['max'], 2)} 峰值（当日 {k['n']} 个时段）",
+                                   "v": round(k["max"], 2), "ts": day.isoformat(),
+                                   "u": "https://www.swpc.noaa.gov/products/planetary-k-index"}]
                 rec("noaa:swpc", True, k["n"])
                 break
         except Exception as exc:                                # noqa: BLE001
@@ -227,4 +269,4 @@ def fetch_day(day: date) -> tuple[dict, list[dict]]:
     else:
         rec("noaa:swpc", False, 0, kp_error)
 
-    return out, health
+    return out, health, evidence

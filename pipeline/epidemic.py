@@ -84,6 +84,7 @@ def fetch_day(day: date, news_items=None) -> tuple[dict, list[dict]]:
         health.append({"source": source, "ok": ok, "items": items, "error": error[:200]})
 
     titles: list[str] = []
+    who_items: list[dict] = []
     don_count = 0
     feed_ok = False
     tried = 0
@@ -99,8 +100,11 @@ def fetch_day(day: date, news_items=None) -> tuple[dict, list[dict]]:
         # 关键：feed 是历史存档（一次 80+ 条），不按日期过滤会得到一个几乎恒定的
         # 大数字，z 恒为 0——看着有数据，其实什么都没测。
         if pairs:
-            titles = [t for t, d in pairs if on_day(d, day)]
+            today = [p for p in pairs if on_day(p["d"], day)]
+            titles = [p["t"] for p in today]
             don_count = sum(1 for t in titles if DISEASE.search(t))
+            who_items = [{"t": p["t"][:80], "v": "通报", "ts": "", "u": p["u"]}
+                         for p in today if DISEASE.search(p["t"])][:10]
             feed_ok = True
             rec("who:don", True, len(titles))
             break
@@ -116,7 +120,9 @@ def fetch_day(day: date, news_items=None) -> tuple[dict, list[dict]]:
         corpus += [(i.title or "") for i in news_items]
     if corpus:
         hits = [t for t in corpus if POLICY.search(t)]
+        for t in hits[:8]:
+            who_items.append({"t": str(t)[:80], "v": "政策", "ts": "", "u": ""})
         out["policy"] = float(len(hits))
         out["coverage"] = round(
             sum(1 for t in corpus if DISEASE.search(t)) / max(1, len(corpus)) * 100.0, 2)
-    return out, health
+    return out, health, {"who": who_items[:12]}

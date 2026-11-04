@@ -62,15 +62,18 @@ def _aux_block(day, items, end_is_known: bool = True) -> tuple[dict, list[dict]]
     hz: dict = {}
     ep: dict = {}
     health: list[dict] = []
+    ev: dict = {}
     try:
-        hz, h1 = hazard.fetch_day(day)
+        hz, h1, evh = hazard.fetch_day(day)
         health += h1
+        ev["hazard"] = evh
     except Exception as exc:                            # noqa: BLE001
         health.append({"source": "hazard", "ok": False, "items": 0,
                        "error": f"{type(exc).__name__}: {exc}"[:200]})
     try:
-        ep, h2 = epidemic.fetch_day(day, items)
+        ep, h2, evp = epidemic.fetch_day(day, items)
         health += h2
+        ev["epidemic"] = evp
     except Exception as exc:                            # noqa: BLE001
         health.append({"source": "epidemic", "ok": False, "items": 0,
                        "error": f"{type(exc).__name__}: {exc}"[:200]})
@@ -83,10 +86,12 @@ def _aux_block(day, items, end_is_known: bool = True) -> tuple[dict, list[dict]]
                           keep_days=400, end=day)
 
     series = store.load_series(DEFAULT_AUX)
-    return {
-        "hazard": composite.subindex(series, "hazard", day),
-        "epidemic": composite.subindex(series, "epidemic", day),
-    }, health
+    hzb = composite.subindex(series, "hazard", day)
+    epb = composite.subindex(series, "epidemic", day)
+    # 原始信源：分析之前长什么样，用户要能自己点开核对
+    hzb["evidence"] = ev.get("hazard") or {}
+    epb["evidence"] = ev.get("epidemic") or {}
+    return {"hazard": hzb, "epidemic": epb}, health
 
 
 # ---------------------------------------------------------------- 子命令

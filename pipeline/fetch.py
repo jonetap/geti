@@ -213,7 +213,7 @@ def fetch_gdelt_daily(days: int = 2, end=None, max_lookback: int = 6,
 
 
 def parse_feed_items(xml: str) -> list:
-    """RSS/Atom → [(title, datetime|None)]，供按日期筛选。
+    """RSS/Atom → [{"t": 标题, "d": 时间, "u": 链接}]，供按日期筛选。
 
     时间字段三种写法都吃：RFC822（pubDate）、ISO（published/updated）。
     解析不出来就给 None——调用方自己决定是"算今天"还是"丢掉"。
@@ -230,11 +230,14 @@ def parse_feed_items(xml: str) -> list:
             continue
         title = None
         when = None
+        link = None
         for ch in el:
             name = ch.tag.split("}")[-1].lower()
             txt = (ch.text or "").strip()
             if name == "title" and txt and title is None:
                 title = txt
+            elif name == "link" and txt and not link:
+                link = txt
             elif name in ("pubdate", "published", "updated", "date") and txt:
                 try:
                     when = parsedate_to_datetime(txt)
@@ -244,7 +247,7 @@ def parse_feed_items(xml: str) -> list:
                     except ValueError:
                         when = None
         if title:
-            out.append((title, when))
+            out.append({"t": title, "d": when, "u": link or ""})
     return out
 
 

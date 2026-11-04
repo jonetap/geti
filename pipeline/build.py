@@ -76,9 +76,17 @@ VOLUME_KEY = ("__vol__", "n")
 def pressure_from_signals(signals: Iterable[EventSignal]) -> Series:
     """GDELT 这类结构化的、不需要 LLM 的信号。"""
     s: Series = {}
+    # 信息/叙事：不用"事件数量"，用"平均报道放大倍数"。
+    # 事件多 ≠ 叙事强——同一件事被更多家媒体反复咬住，才是舆情在升温。
+    # 逐条累加 (严重度加权 × log(提及数))，最后除以条数，得到当天的平均 salience。
+    narr: dict = {}
     for ev in signals:
         base = ev.severity / 5.0
         salience = 1.0 + 0.15 * math.log1p(ev.mentions)
+        if ev.severity >= 3:
+            slot = narr.setdefault((ev.region, ev.day), [0.0, 0])
+            slot[0] += base * math.log1p(ev.mentions)
+            slot[1] += 1
         vol = s.setdefault(VOLUME_KEY, {})
         vol[ev.day] = vol.get(ev.day, 0.0) + 1.0
         if ev.goldstein > 1.5:
@@ -89,6 +97,12 @@ def pressure_from_signals(signals: Iterable[EventSignal]) -> Series:
             w = base * salience * (1.0 if ev.goldstein <= 0 else 0.7)
             cell = s.setdefault((ev.region, ev.component), {})
             cell[ev.day] = cell.get(ev.day, 0.0) + w
+    # 平均报道放大倍数：把「事件多」这个因素除掉，只留「被放大了多少」
+    for (region, day), (tot, n) in narr.items():
+        if n < 3:
+            continue
+        cell = s.setdefault((region, "narrative"), {})
+        cell[day] = tot / n
     return s
 
 
@@ -149,6 +163,8 @@ def pressure_from_clusters(scored: Iterable[ScoredCluster]) -> Series:
     """新闻簇：证据量已经合成了可信度与特异性。"""
     s: Series = {}
     for sc in scored:
+        if sc.component == "narrative":
+            continue  # narrative 已由 GDELT 权重给出，别两种量纲相加
         day = sc.cluster.published.date()
         reg = infer_region(f"{sc.cluster.title} {sc.cluster.body[:200]}")
         cell = s.setdefault((reg, sc.component), {})
