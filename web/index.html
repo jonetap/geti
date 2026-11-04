@@ -315,6 +315,21 @@
         <div id="policy"></div>
       </div>
     </section>
+
+    <section class="solo">
+      <div class="card">
+        <h2 style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap">人工线索
+          <span style="font-size:11px;color:rgba(255,255,255,.42);font-weight:400;letter-spacing:.06em">人看到、机器没抓到的 · 不计分</span>
+        </h2>
+        <div class="note" id="manualNote"></div>
+        <div class="plist" id="manual"></div>
+        <div class="note" style="margin:12px 0 0">
+          <a id="manualSubmit" href="#" target="_blank" rel="noreferrer"
+             style="color:var(--warm);text-decoration:none">＋ 提交一条线索（新闻链接 / 截图）</a>
+          <span style="opacity:.7">　提交会开一个 GitHub issue，公开可查，不进指数。</span>
+        </div>
+      </div>
+    </section>
     <section class="grid2">
       <div class="card">
         <h2>突发 · 待核实</h2>
@@ -780,6 +795,18 @@ boot();
 .prow.ref a{color:rgba(255,255,255,.62)}
 .prow a{color:rgba(255,255,255,.86);text-decoration:none}
 .prow a:hover{text-decoration:underline}
+
+/* 人工线索 */
+.mitem{padding:10px 0;border-top:1px solid rgba(255,255,255,.07)}
+.mitem:first-child{border-top:none;padding-top:2px}
+.mi-top{display:flex;gap:8px;align-items:center;font-size:10.5px;color:rgba(255,255,255,.45);letter-spacing:.06em}
+.pt-ok{color:#63e6be;border:1px solid rgba(99,230,190,.45)}
+.pt-new{color:#ffd43b;border:1px solid rgba(255,212,59,.45)}
+.mi-title{display:block;margin:5px 0 3px;font-size:13px;color:rgba(255,255,255,.9);text-decoration:none}
+.mi-title:hover{text-decoration:underline}
+.mnote{font-size:11.5px;line-height:1.6;color:rgba(255,255,255,.5)}
+.mthumbs{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+.mthumbs img{height:54px;border-radius:4px;border:1px solid rgba(255,255,255,.14);object-fit:cover}
 </style>
 <script>
 // 政策脉冲：只展示，不进 GETI。
@@ -807,6 +834,43 @@ function renderNotable(S){
           + '<a href="' + esc(it.url || "#") + '" target="_blank" rel="noreferrer">'
           + esc(it.title) + '</a></div>';
       }).join("") + '</div>');
+}
+
+var REPO = "jonetap/geti";
+var MANUAL_BODY = "### 链接\n（把新闻链接粘在这里）\n\n### 一句话说明\n（发生了什么，为什么你觉得重要）\n\n### 截图\n（直接把图片拖进来，或者从剪贴板粘贴）\n";
+
+// 人工线索：人看到、机器没抓到的东西。不计分——理由见 pipeline/manual.py。
+function renderManual(S){
+  const box = $("manual");
+  if(!box) return;
+  const note = $("manualNote");
+  const m = (S && S.manual) || {};
+  const items = m.items || [];
+  if(note) note.textContent = m.note || "还没有人工线索。";
+  box.innerHTML = items.map(function(it){
+    const badge = it.seen
+      ? '<span class="ptag pt-ok">已收录</span>'
+      : '<span class="ptag pt-new">未收录</span>';
+    const href = it.url || (it.links && it.links[0]) || "#";
+    const imgs = (it.images || []).map(function(u){
+      return '<a href="' + esc(u) + '" target="_blank" rel="noreferrer">'
+        + '<img src="' + esc(u) + '" alt="" loading="lazy"></a>';
+    }).join("");
+    const when = it.created ? String(it.created).slice(0, 10) : "";
+    const src = (it.links && it.links[0]) || "";
+    return '<div class="mitem">'
+      + '<div class="mi-top">' + badge
+      + '<span>' + esc(it.author || "—") + '</span>'
+      + (when ? '<span>' + esc(when) + '</span>' : '') + '</div>'
+      + '<a class="mi-title" href="' + esc(href) + '" target="_blank" rel="noreferrer">'
+      + esc(it.title) + '</a>'
+      + (it.note ? '<div class="mnote">' + esc(it.note) + '</div>' : '')
+      + (imgs ? '<div class="mthumbs">' + imgs + '</div>' : '')
+      + (src ? '<div class="mnote" style="margin-top:4px">原文：<a href="' + esc(src)
+              + '" target="_blank" rel="noreferrer" style="color:rgba(255,255,255,.7)">'
+              + esc(src) + '</a></div>' : '')
+      + '</div>';
+  }).join("") || '<div class="val">还没有人提交。看到机器漏掉的东西，就丢进来。</div>';
 }
 
 function renderPolicy(S){
@@ -837,9 +901,14 @@ function renderPolicy(S){
 }
 (function(){
   const prev = window.render;
+  const sub = document.getElementById("manualSubmit");
+  if (sub) {
+    sub.href = "https://github.com/" + REPO + "/issues/new?labels=intel&title="
+      + encodeURIComponent("线索：") + "&body=" + encodeURIComponent(MANUAL_BODY);
+  }
   if (typeof prev !== "function") return;
   window.render = function(S){
-    try { prev(S); } finally { try { renderPolicy(S); } catch(e){} try { renderNotable(S); } catch(e){} }
+    try { prev(S); } finally { try { renderPolicy(S); } catch(e){} try { renderNotable(S); } catch(e){} try { renderManual(S); } catch(e){} }
   };
 })();
 </script>
