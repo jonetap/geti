@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-04T19:43:51+00:00",
- "date": "2026-11-03",
- "geti": 52.6,
- "delta_z": 0.87,
- "delta_pts": 15.3,
+ "generated_at": "2026-11-05T01:27:34+00:00",
+ "date": "2026-11-04",
+ "geti": 61.6,
+ "delta_z": 0.77,
+ "delta_pts": 9.0,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,115 +13,81 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 80.0,
-   "delta": 26.9,
+   "score": 80.1,
+   "delta": 0.0,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     1.73
+     "diplomacy",
+     1.74
     ],
     [
-     "diplomacy",
-     1.62
+     "military",
+     1.73
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 75.8,
-   "delta": 19.6,
+   "score": 74.9,
+   "delta": -0.9,
    "excluded": true,
    "drivers": [
     [
      "military",
-     1.48
+     1.38
     ],
     [
      "diplomacy",
-     1.35
-    ]
-   ]
-  },
-  {
-   "code": "EUROPE",
-   "label": "欧洲",
-   "score": 74.6,
-   "delta": 18.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.44
-    ],
-    [
-     "diplomacy",
-     1.26
+     1.31
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 74.1,
-   "delta": 18.9,
+   "score": 71.2,
+   "delta": -2.9,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     1.45
+     "diplomacy",
+     1.24
     ],
     [
-     "diplomacy",
-     1.32
+     "military",
+     1.18
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 72.8,
-   "delta": 21.2,
+   "score": 70.4,
+   "delta": -2.4,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.47
-    ],
-    [
-     "diplomacy",
      1.26
-    ]
-   ]
-  },
-  {
-   "code": "AFRICA",
-   "label": "非洲",
-   "score": 70.8,
-   "delta": 12.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.27
     ],
     [
      "diplomacy",
-     1.14
+     1.18
     ]
    ]
   },
   {
-   "code": "RUSSIA_CIS",
-   "label": "俄与独联体",
-   "score": 65.3,
-   "delta": 16.4,
+   "code": "EUROPE",
+   "label": "欧洲",
+   "score": 70.3,
+   "delta": -4.2,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.32
+     1.2
     ],
     [
      "diplomacy",
@@ -130,53 +96,87 @@
    ]
   },
   {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 64.4,
-   "delta": 10.6,
+   "code": "AFRICA",
+   "label": "非洲",
+   "score": 66.7,
+   "delta": -4.1,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     0.83
+     1.04
     ],
     [
      "military",
-     0.76
+     0.94
+    ]
+   ]
+  },
+  {
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 65.8,
+   "delta": 1.4,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.94
+    ],
+    [
+     "diplomacy",
+     0.84
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 61.5,
-   "delta": 8.4,
+   "score": 63.0,
+   "delta": 1.5,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.77
+     0.88
     ],
     [
      "diplomacy",
-     0.68
+     0.76
+    ]
+   ]
+  },
+  {
+   "code": "RUSSIA_CIS",
+   "label": "俄与独联体",
+   "score": 60.8,
+   "delta": -4.5,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     1.08
+    ],
+    [
+     "diplomacy",
+     0.66
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 49.5,
-   "delta": -2.1,
+   "score": 46.9,
+   "delta": -2.6,
    "excluded": false,
    "drivers": [
     [
-     "internal",
-     -0.67
+     "economy",
+     -0.73
     ],
     [
-     "economy",
-     -0.64
+     "internal",
+     -0.7
     ]
    ]
   }
@@ -189,8 +189,8 @@
    "effective_weight": 0.333,
    "available": true,
    "z": 1.73,
-   "score": 89.7,
-   "contrib": 0.405
+   "score": 89.6,
+   "contrib": 0.404
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.62,
-   "score": 88.3,
-   "contrib": 0.263
+   "z": 1.74,
+   "score": 89.8,
+   "contrib": 0.282
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.49,
-   "score": 86.6,
-   "contrib": 0.202
+   "z": 1.45,
+   "score": 85.9,
+   "contrib": 0.195
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 1.28,
-   "score": 83.2,
-   "contrib": 0.127
+   "z": 1.16,
+   "score": 81.0,
+   "contrib": 0.115
   },
   {
    "key": "narrative",
@@ -238,9 +238,9 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": 0.05,
-   "score": 51.5,
-   "contrib": 0.003
+   "z": 0.06,
+   "score": 52.0,
+   "contrib": 0.005
   }
  ],
  "events": [
@@ -255,7 +255,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -270,7 +270,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -285,7 +285,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   },
@@ -300,7 +300,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
    "region": "SOUTH_ASIA"
   },
@@ -315,7 +315,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "墨西哥东北部塔毛利帕斯州安全部门7日说，墨军方与武装分子当天在该州新拉雷多市发生交火，造成至少8人死亡、7人受伤。",
    "region": "LATAM"
   },
@@ -330,24 +330,9 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "印度尼西亚警方7日通报，印尼西爪哇省首府万隆市一所警察局当天发生炸弹袭击事件，已致2人死亡、7人受伤。",
    "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "2fe5e9e2bd90",
-   "title": "WHO approves trials for two new Ebola vaccines",
-   "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-04T19:22:09+00:00",
-   "note": "Two new vaccines were designed for the Bundibugyo virus that has killed more than 5,300 in the DR Congo.",
-   "region": "AFRICA"
   },
   {
    "id": "941fcd3aa883",
@@ -360,39 +345,54 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-04T17:45:58+00:00",
+   "published": "2026-11-04T22:48:43+00:00",
    "note": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "d8cb594dfd1d",
-   "title": "Kosovo: Protests and outrage after a woman was killed despite repeatedly seeking assistance from the authorities",
-   "url": "https://www.dw.com/en/kosovo-protests-and-outrage-after-a-woman-was-killed-despite-repeatedly-seeking-assistance-from-the-authorities/a-79856726?maca=en-rss-en-world-4025-rdf",
-   "component": "internal",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-04T16:17:00+00:00",
-   "note": "Despite reporting her husband to the police and pleading for protection, Arlinda Zekaj was brutally murdered. Now, thousands in Kosovo are protesting what they say is a dramatic fa",
-   "region": "OTHER"
-  },
-  {
-   "id": "79a4cb5ed513",
-   "title": "Ice hockey federation reiterates opposition to reinstatement of Russia",
-   "url": "https://www.aljazeera.com/sports/2026/11/4/ice-hockey-federation-reiterates-opposition-to-reinstatement-of-russia?traffic_source=rss",
-   "component": "narrative",
+   "id": "19451339bc69",
+   "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
+   "url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-04T15:04:34+00:00",
-   "note": "The CAS ruled last week to overturn governing body's exclusion of ‌Russia over its 2022 invasion of Ukraine.",
+   "published": "2026-11-04T20:31:56+00:00",
+   "note": "Dozens may still be under the rubble in Komyshuvakha. Rescue efforts ongoing despite interruptions by Russian drones.",
    "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "6fc98d7b3348",
+   "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
+   "url": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-04T19:42:47+00:00",
+   "note": "Conservation officers say more than one bear may have been involved in attack on women near their home Search teams in Canada have discovered the body of a 20-year-old woman and co",
+   "region": "OTHER"
+  },
+  {
+   "id": "2fe5e9e2bd90",
+   "title": "WHO approves trials for two new Ebola vaccines",
+   "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-04T19:22:09+00:00",
+   "note": "Two new vaccines were designed for the Bundibugyo virus that has killed more than 5,300 in the DR Congo.",
+   "region": "AFRICA"
   },
   {
    "id": "a360187c7601",
@@ -400,7 +400,7 @@
    "url": "https://www.theguardian.com/us-news/2026/nov/04/joy-iran-trump-defeat-us-midterm-elections-war",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -440,21 +440,6 @@
    "region": "OTHER"
   },
   {
-   "id": "11a759c404ea",
-   "title": "Why North Korea’s Kim sees no need for another Trump ‘photo-op summit’",
-   "url": "https://www.scmp.com/week-asia/politics/article/3373219/why-north-koreas-kim-sees-no-need-another-trump-photo-op-summit",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-04T05:14:56+00:00",
-   "note": "Kim Jong-un’s powerful sister on Wednesday rejected holding any further talks with the United States, days after the FBI accused North Korea of stealing more than US$6 billion from",
-   "region": "EAST_ASIA"
-  },
-  {
    "id": "913295905be7",
    "title": "乌克兰学校频遭袭击，儿童就学受到严重干扰",
    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143124",
@@ -485,21 +470,6 @@
    "region": "EUROPE"
   },
   {
-   "id": "5394b8ec989c",
-   "title": "What Florida jet audio and flight data tells us about its final moments",
-   "url": "https://www.bbc.co.uk/news/videos/c52e9lgxjz82o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-02T19:49:22+00:00",
-   "note": "A private jet crashed in Florida on Sunday, killing all nine people on board, according to US authorities.",
-   "region": "OTHER"
-  },
-  {
    "id": "a46c0e9d2635",
    "title": "外交部发言人就阿富汗首都喀布尔发生恐怖袭击事件答记者问",
    "url": "http://www.news.cn/world/2022-12/13/c_1129205654.htm",
@@ -510,7 +480,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "外交部发言人汪文斌13日就阿富汗首都喀布尔日前发生恐怖袭击事件答记者问。",
    "region": "SOUTH_ASIA"
   },
@@ -525,7 +495,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "墨西哥国家地震局11日说，该国南部格雷罗州当天上午发生6级地震。首都墨西哥城响起地震警报，震感明显，有市民撤离至街头。",
    "region": "LATAM"
   },
@@ -540,7 +510,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "中国常驻联合国副代表耿爽9日在安理会通过制裁人道豁免决议后作解释性发言，欢迎安理会通过该决议。",
    "region": "EAST_ASIA"
   },
@@ -555,7 +525,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "俄罗斯外交部8日说，俄美两国当天在阿拉伯联合酋长国阿布扎比机场完成在押人员互换手续，俄公民维克托·布特与美国女篮运动员布里特妮·格里纳进行了交换。",
    "region": "RUSSIA_CIS"
   },
@@ -570,39 +540,69 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "",
    "region": "OTHER"
   },
   {
-   "id": "9735a2d7113e",
-   "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
-   "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
-   "component": "narrative",
+   "id": "19b68ccafe2a",
+   "title": "Champions League: Real Madrid seal late comeback as Liverpool lose to Fenerbahce",
+   "url": "https://www.france24.com/en/sport/20261104-champions-league-real-madrid-comeback-liverpool-fenerbahce",
+   "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "france24"
    ],
-   "published": "2026-11-04T18:18:37+00:00",
-   "note": "Patient is ⁠in ​stable condition and will be transferred to a specialist ‘high consequence’ infectious disease unit A British healthcare worker with Ebola is being evacuated from t",
+   "published": "2026-11-04T22:17:58+00:00",
+   "note": "Real Madrid maintained their perfect Champions League record as Federico Valverde’s stoppage-time strike secured a 3-2 comeback win at AEK Athens on Wednesday. Madrid twice trailed",
+   "region": "OTHER"
+  },
+  {
+   "id": "703bd575ab85",
+   "title": "Zelensky honours Melania Trump with Ukraine award for brokering Oleshky truce",
+   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373320/zelensky-honours-melania-trump-ukraine-award-brokering-oleshky-truce",
+   "component": "physical",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-04T21:44:37+00:00",
+   "note": "Ukraine’s President Volodymyr Zelensky on Wednesday awarded US first lady Melania Trump a national honour for her role in brokering a partial ceasefire that allowed the evacuation ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "30ab157cf45a",
+   "title": "South Africans vote in key municipal elections",
+   "url": "https://www.france24.com/en/south-africans-vote-in-key-municipal-elections",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-04T21:26:13+00:00",
+   "note": "In tonight's edition, a crucial test for South Africa's ruling ANC as millions vote to elect municipal governments. Also, Ethiopia has expelled six Sudanese diplomats amid accusati",
    "region": "AFRICA"
   },
   {
-   "id": "51c306497e47",
-   "title": "Husband who invited men to rape wife asked for an online review, court told",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/04/husband-who-invited-men-to-rape-wife-asked-for-an-online-review-court-told",
-   "component": "narrative",
+   "id": "b037b385bbee",
+   "title": "5 takeaways from US midterms as Democrats sweep Congress and Trump faces Iran reckoning",
+   "url": "https://www.scmp.com/news/us/us-elections/article/3373318/five-takeaways-us-midterms-democrats-sweep-congress-and-trump-faces-iran-reckoning",
+   "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "scmp"
    ],
-   "published": "2026-11-04T18:07:57+00:00",
-   "note": "Nine men on trial in Manchester accused of either taking part in abuse or encouraging offending on internet A husband who invited other men to rape and sexually assault his wife ar",
-   "region": "OTHER"
+   "published": "2026-11-04T21:24:00+00:00",
+   "note": "A Democratic victory that reached from Texas to Kansas changed the terms of Donald Trump’s final two years in office. When the new US Congress convenes in January, Democrats will c",
+   "region": "MIDDLE_EAST"
   }
  ],
  "breaking": [
@@ -617,7 +617,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -632,7 +632,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -647,7 +647,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   },
@@ -662,7 +662,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-04T19:43:55.067670+00:00",
+   "published": "2026-11-05T01:27:37.321755+00:00",
    "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
    "region": "SOUTH_ASIA"
   }
@@ -670,12 +670,12 @@
  "coverage": {
   "sources_ok": 17,
   "sources_failed": 3,
-  "items": 44935,
-  "gdelt_events": 44384,
+  "items": 45397,
+  "gdelt_events": 44843,
   "mode": "live",
-  "data_through": "2026-11-03",
-  "clusters": 537,
-  "origins": 537,
+  "data_through": "2026-11-04",
+  "clusters": 539,
+  "origins": 539,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -693,10 +693,10 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.59,
+    "now": 3.58,
     "p50": 0.43,
-    "p90": 0.85,
-    "ratio": 8.37,
+    "p90": 0.86,
+    "ratio": 8.31,
     "z": 1.73
    },
    "physical": {
@@ -707,40 +707,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.85,
+    "now": 3.46,
     "p50": 0.36,
     "p90": 0.72,
-    "ratio": 7.81,
-    "z": 1.62
+    "ratio": 9.49,
+    "z": 1.74
    },
    "economy": {
-    "now": 2.42,
+    "now": 2.28,
     "p50": 0.38,
-    "p90": 0.7,
-    "ratio": 6.4,
-    "z": 1.49
+    "p90": 0.72,
+    "ratio": 6.02,
+    "z": 1.45
    },
    "internal": {
-    "now": 1.38,
+    "now": 1.18,
     "p50": 0.14,
-    "p90": 0.37,
-    "ratio": 9.61,
-    "z": 1.28
+    "p90": 0.38,
+    "ratio": 8.18,
+    "z": 1.16
    },
    "narrative": {
-    "now": 0.02,
+    "now": 0.03,
     "p50": 0.0,
     "p90": 0.11,
     "ratio": null,
-    "z": 0.05
+    "z": 0.06
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-07",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-08",
    "geti": 50.0
@@ -795,327 +791,327 @@
   },
   {
    "date": "2026-07-21",
-   "geti": 50.2
+   "geti": 50.0
   },
   {
    "date": "2026-07-22",
-   "geti": 46.4
-  },
-  {
-   "date": "2026-07-23",
-   "geti": 55.3
-  },
-  {
-   "date": "2026-07-24",
-   "geti": 58.3
-  },
-  {
-   "date": "2026-07-25",
-   "geti": 59.8
-  },
-  {
-   "date": "2026-07-26",
-   "geti": 63.7
-  },
-  {
-   "date": "2026-07-27",
-   "geti": 58.4
-  },
-  {
-   "date": "2026-07-28",
-   "geti": 54.2
-  },
-  {
-   "date": "2026-07-29",
-   "geti": 50.4
-  },
-  {
-   "date": "2026-07-30",
-   "geti": 51.1
-  },
-  {
-   "date": "2026-07-31",
-   "geti": 54.2
-  },
-  {
-   "date": "2026-08-01",
-   "geti": 55.1
-  },
-  {
-   "date": "2026-08-02",
-   "geti": 55.2
-  },
-  {
-   "date": "2026-08-03",
-   "geti": 52.4
-  },
-  {
-   "date": "2026-08-04",
-   "geti": 52.4
-  },
-  {
-   "date": "2026-08-05",
-   "geti": 45.9
-  },
-  {
-   "date": "2026-08-06",
-   "geti": 48.8
-  },
-  {
-   "date": "2026-08-07",
-   "geti": 47.1
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 45.6
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 42.0
-  },
-  {
-   "date": "2026-08-10",
-   "geti": 46.9
-  },
-  {
-   "date": "2026-08-11",
-   "geti": 49.1
-  },
-  {
-   "date": "2026-08-12",
-   "geti": 50.5
-  },
-  {
-   "date": "2026-08-13",
-   "geti": 50.3
-  },
-  {
-   "date": "2026-08-14",
-   "geti": 49.5
-  },
-  {
-   "date": "2026-08-15",
-   "geti": 52.7
-  },
-  {
-   "date": "2026-08-16",
-   "geti": 53.7
-  },
-  {
-   "date": "2026-08-17",
-   "geti": 47.1
-  },
-  {
-   "date": "2026-08-18",
-   "geti": 43.1
-  },
-  {
-   "date": "2026-08-19",
-   "geti": 40.7
-  },
-  {
-   "date": "2026-08-20",
-   "geti": 45.9
-  },
-  {
-   "date": "2026-08-21",
-   "geti": 48.6
-  },
-  {
-   "date": "2026-08-22",
    "geti": 46.2
   },
   {
-   "date": "2026-08-23",
-   "geti": 41.3
+   "date": "2026-07-23",
+   "geti": 55.0
   },
   {
-   "date": "2026-08-24",
-   "geti": 45.7
+   "date": "2026-07-24",
+   "geti": 58.2
   },
   {
-   "date": "2026-08-25",
-   "geti": 43.6
+   "date": "2026-07-25",
+   "geti": 59.7
   },
   {
-   "date": "2026-08-26",
-   "geti": 38.5
+   "date": "2026-07-26",
+   "geti": 63.3
   },
   {
-   "date": "2026-08-27",
-   "geti": 49.2
+   "date": "2026-07-27",
+   "geti": 57.8
   },
   {
-   "date": "2026-08-28",
+   "date": "2026-07-28",
+   "geti": 53.5
+  },
+  {
+   "date": "2026-07-29",
+   "geti": 50.0
+  },
+  {
+   "date": "2026-07-30",
+   "geti": 50.8
+  },
+  {
+   "date": "2026-07-31",
+   "geti": 54.0
+  },
+  {
+   "date": "2026-08-01",
+   "geti": 54.6
+  },
+  {
+   "date": "2026-08-02",
+   "geti": 54.6
+  },
+  {
+   "date": "2026-08-03",
+   "geti": 51.9
+  },
+  {
+   "date": "2026-08-04",
    "geti": 51.7
   },
   {
-   "date": "2026-08-29",
-   "geti": 51.7
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 57.5
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 58.8
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 52.2
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 51.3
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 49.1
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 51.2
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 49.0
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 44.4
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 43.6
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 41.4
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 39.4
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 39.1
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 42.2
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 44.1
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 43.1
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 44.2
-  },
-  {
-   "date": "2026-09-16",
+   "date": "2026-08-05",
    "geti": 45.4
   },
   {
-   "date": "2026-09-17",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.5
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 46.0
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 51.5
-  },
-  {
-   "date": "2026-09-21",
+   "date": "2026-08-06",
    "geti": 48.1
   },
   {
-   "date": "2026-09-22",
-   "geti": 46.3
+   "date": "2026-08-07",
+   "geti": 46.6
   },
   {
-   "date": "2026-09-23",
+   "date": "2026-08-08",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-08-09",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-08-10",
+   "geti": 46.4
+  },
+  {
+   "date": "2026-08-11",
    "geti": 48.4
   },
   {
-   "date": "2026-09-24",
-   "geti": 45.2
+   "date": "2026-08-12",
+   "geti": 49.8
   },
   {
-   "date": "2026-09-25",
-   "geti": 42.8
+   "date": "2026-08-13",
+   "geti": 49.8
   },
   {
-   "date": "2026-09-26",
-   "geti": 47.8
+   "date": "2026-08-14",
+   "geti": 49.2
   },
   {
-   "date": "2026-09-27",
-   "geti": 47.4
+   "date": "2026-08-15",
+   "geti": 52.5
   },
   {
-   "date": "2026-09-28",
-   "geti": 45.4
+   "date": "2026-08-16",
+   "geti": 53.5
   },
   {
-   "date": "2026-09-29",
-   "geti": 42.6
+   "date": "2026-08-17",
+   "geti": 46.9
   },
   {
-   "date": "2026-09-30",
-   "geti": 38.9
+   "date": "2026-08-18",
+   "geti": 43.0
   },
   {
-   "date": "2026-10-01",
-   "geti": 35.4
+   "date": "2026-08-19",
+   "geti": 40.6
   },
   {
-   "date": "2026-10-02",
-   "geti": 39.6
+   "date": "2026-08-20",
+   "geti": 45.5
   },
   {
-   "date": "2026-10-03",
-   "geti": 40.9
+   "date": "2026-08-21",
+   "geti": 48.4
   },
   {
-   "date": "2026-10-04",
-   "geti": 39.7
+   "date": "2026-08-22",
+   "geti": 46.0
   },
   {
-   "date": "2026-10-05",
+   "date": "2026-08-23",
+   "geti": 41.2
+  },
+  {
+   "date": "2026-08-24",
+   "geti": 45.3
+  },
+  {
+   "date": "2026-08-25",
+   "geti": 43.4
+  },
+  {
+   "date": "2026-08-26",
+   "geti": 38.1
+  },
+  {
+   "date": "2026-08-27",
+   "geti": 48.6
+  },
+  {
+   "date": "2026-08-28",
+   "geti": 51.0
+  },
+  {
+   "date": "2026-08-29",
+   "geti": 51.2
+  },
+  {
+   "date": "2026-08-30",
+   "geti": 57.2
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 58.5
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 52.0
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 51.1
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 49.0
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 49.0
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 51.1
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 48.9
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 44.3
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 43.5
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 41.2
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 39.2
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 38.8
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 41.9
+  },
+  {
+   "date": "2026-09-13",
    "geti": 43.9
   },
   {
-   "date": "2026-10-06",
+   "date": "2026-09-14",
+   "geti": 42.9
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 44.1
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 45.3
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 45.1
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 42.4
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 45.8
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 51.4
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 47.9
+  },
+  {
+   "date": "2026-09-22",
    "geti": 46.1
   },
   {
+   "date": "2026-09-23",
+   "geti": 48.2
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 42.6
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 47.6
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 47.1
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 42.4
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 38.7
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 35.2
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 39.3
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 40.7
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 39.5
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 43.7
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 45.9
+  },
+  {
    "date": "2026-10-07",
-   "geti": 44.9
+   "geti": 44.8
   },
   {
    "date": "2026-10-08",
-   "geti": 43.6
+   "geti": 43.5
   },
   {
    "date": "2026-10-09",
-   "geti": 46.8
+   "geti": 46.7
   },
   {
    "date": "2026-10-10",
@@ -1123,7 +1119,7 @@
   },
   {
    "date": "2026-10-11",
-   "geti": 57.2
+   "geti": 57.1
   },
   {
    "date": "2026-10-12",
@@ -1216,6 +1212,10 @@
   {
    "date": "2026-11-03",
    "geti": 52.6
+  },
+  {
+   "date": "2026-11-04",
+   "geti": 61.6
   }
  ],
  "policy": {
@@ -1227,7 +1227,7 @@
     "url": "http://www.news.cn/world/2022-12/11/c_1129200037.htm",
     "country": "US",
     "source": "xinhua_world",
-    "when": "2026-11-04"
+    "when": "2026-11-05"
    },
    {
     "kind": "judicial",
@@ -1235,6 +1235,14 @@
     "url": "http://www.news.cn/world/2022-12/09/c_1129193635.htm",
     "country": "JP",
     "source": "xinhua_world",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "Serbia detains police officers over alleged use of force against protesters",
+    "url": "https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters",
+    "country": "",
+    "source": "guardian",
     "when": "2026-11-04"
    },
    {
@@ -1278,12 +1286,12 @@
     "when": "2026-11-04"
    }
   ],
-  "notable_total": 7,
+  "notable_total": 8,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 7
+   "notable": 8
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1332,11 +1340,11 @@
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 4.91,
-    "chg5": -1.8,
-    "z": -0.139,
+    "last": 4.95,
+    "chg5": -0.8,
+    "z": -0.168,
     "ok": true,
-    "asof": "2026-11-02"
+    "asof": "2026-11-03"
    }
   ],
   "asof": "2026-11-03",
@@ -1369,7 +1377,7 @@
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 102,
+    "items": 103,
     "error": ""
    }
   ],
@@ -1383,8 +1391,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.64,
-    "carry": 11.66,
+    "value": 7.72,
+    "carry": 10.22,
     "z": null,
     "score": null,
     "available": false
@@ -1393,8 +1401,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 12.0,
-    "carry": 15.8,
+    "value": 4.0,
+    "carry": 11.47,
     "z": null,
     "score": null,
     "available": false
@@ -1423,83 +1431,47 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 2.0,
-    "carry": 2.48,
+    "value": 3.33,
+    "carry": 2.79,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 1,
+  "history_days": 2,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 2,
-   "last_seen": "2026-11-03",
-   "ongoing": false
+   "active_days": 3,
+   "last_seen": "2026-11-04",
+   "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "24 km NNW of Rioblanco, Colombia",
-     "v": 5.4,
-     "ts": "2026-11-03T09:13+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv4i"
+     "t": "207 km ESE of Sarangani, Philippines",
+     "v": 5.0,
+     "ts": "2026-11-04T07:40+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvwj"
     },
     {
-     "t": "91 km ESE of Kyzyl-Eshme, Kyrgyzstan",
-     "v": 5.2,
-     "ts": "2026-11-03T21:34+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvtj"
+     "t": "south of the Fiji Islands",
+     "v": 4.6,
+     "ts": "2026-11-04T21:24+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw43"
     },
     {
-     "t": "Mid-Indian Ridge",
-     "v": 5.2,
-     "ts": "2026-11-03T18:21+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvs3"
+     "t": "Fiji region",
+     "v": 4.6,
+     "ts": "2026-11-04T00:32+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvuv"
     },
     {
-     "t": "Volcano Islands, Japan region",
-     "v": 5.2,
-     "ts": "2026-11-03T16:48+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvie"
-    },
-    {
-     "t": "9 km N of Delta, B.C., MX",
-     "v": 4.9,
-     "ts": "2026-11-03T18:27+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41572064"
-    },
-    {
-     "t": "South Sandwich Islands region",
-     "v": 4.9,
-     "ts": "2026-11-03T13:34+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv5i"
-    },
-    {
-     "t": "101 km SSE of Palekastro, Greece",
-     "v": 4.9,
-     "ts": "2026-11-03T11:03+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv51"
-    },
-    {
-     "t": "85 km S of Gorontalo, Indonesia",
-     "v": 4.8,
-     "ts": "2026-11-03T15:37+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tva7"
-    },
-    {
-     "t": "6 km S of Asahi, Japan",
-     "v": 4.8,
-     "ts": "2026-11-03T05:40+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv3q"
-    },
-    {
-     "t": "74 km E of Petropavlovsk-Kamchatsky, Russia",
-     "v": 4.7,
-     "ts": "2026-11-03T03:13+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv2p"
+     "t": "2 km W of Chinandega, Nicaragua",
+     "v": 4.5,
+     "ts": "2026-11-04T19:55+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw3k"
     }
    ],
    "eonet": [
@@ -1518,83 +1490,17 @@
    ],
    "gdacs": [
     {
-     "t": "Green flood alert in Bulgaria",
+     "t": "Green forest fire notification in Indonesia",
      "v": "green",
-     "ts": "2026-11-03 10:19",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104267"
-    },
-    {
-     "t": "Green flood alert in Spain",
-     "v": "green",
-     "ts": "2026-11-03 10:19",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104268"
-    },
-    {
-     "t": "Green forest fire notification in South Sudan, Sudan",
-     "v": "green",
-     "ts": "2026-11-03 20:42",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033400"
-    },
-    {
-     "t": "Green forest fire notification in South Sudan, Sudan",
-     "v": "green",
-     "ts": "2026-11-03 20:42",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033466"
-    },
-    {
-     "t": "Green forest fire notification in Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-03 16:41",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033388"
-    },
-    {
-     "t": "Green forest fire notification in South Sudan, Sudan",
-     "v": "green",
-     "ts": "2026-11-03 20:42",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033418"
-    },
-    {
-     "t": "Green forest fire notification in Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-03 16:41",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033401"
-    },
-    {
-     "t": "Green flood alert in Philippines",
-     "v": "green",
-     "ts": "2026-11-03 06:49",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104266"
-    },
-    {
-     "t": "Green forest fire notification in Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-03 16:41",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033383"
-    },
-    {
-     "t": "Green forest fire notification in South Sudan, Sudan",
-     "v": "green",
-     "ts": "2026-11-03 20:42",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033372"
-    },
-    {
-     "t": "Green forest fire notification in Bolivia",
-     "v": "green",
-     "ts": "2026-11-03 08:12",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033447"
-    },
-    {
-     "t": "Green forest fire notification in Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-03 16:41",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033407"
+     "ts": "2026-11-04 20:09",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033458"
     }
    ],
    "kp": [
     {
-     "t": "Kp 2.0 峰值（当日 8 个时段）",
-     "v": 2.0,
-     "ts": "2026-11-03",
+     "t": "Kp 3.33 峰值（当日 8 个时段）",
+     "v": 3.33,
+     "ts": "2026-11-04",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -1609,7 +1515,7 @@
     "label": "官方通报",
     "weight": 0.4,
     "value": 0.0,
-    "carry": 0.48,
+    "carry": 0.3,
     "z": null,
     "score": null,
     "available": false
@@ -1628,31 +1534,31 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.09,
-    "carry": 1.21,
+    "value": 1.08,
+    "carry": 1.16,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 1,
+  "history_days": 2,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 2,
-   "last_seen": "2026-11-03",
-   "ongoing": false
+   "active_days": 3,
+   "last_seen": "2026-11-04",
+   "ongoing": true
   },
   "evidence": {
    "who": []
   }
  },
  "doom": {
-  "index": 52.6,
-  "z": 0.06,
+  "index": 61.6,
+  "z": 0.28,
   "parts": {
-   "military": 0.06,
+   "military": 0.28,
    "hazard": null,
    "epidemic": null
   },
@@ -1689,14 +1595,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 44384,
+   "files": 143,
+   "items": 44843,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 21,
+   "items": 19,
    "error": ""
   },
   {
@@ -1738,7 +1644,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 8,
+   "items": 14,
    "error": ""
   },
   {
@@ -1774,7 +1680,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 17,
+   "items": 16,
    "error": ""
   },
   {
@@ -1804,13 +1710,13 @@
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 102,
+   "items": 103,
    "error": ""
   },
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 12,
+   "items": 4,
    "error": ""
   },
   {
@@ -1822,7 +1728,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 19,
+   "items": 1,
    "error": ""
   },
   {
@@ -1840,7 +1746,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 11734,
+   "items": 8226,
    "error": ""
   },
   {

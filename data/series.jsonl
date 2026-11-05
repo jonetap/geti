@@ -139,6 +139,7 @@
 {"r":"AFRICA","c":"diplomacy","d":"2026-11-02","v":3.9127}
 {"r":"AFRICA","c":"diplomacy","d":"2026-11-03","v":402.257}
 {"r":"AFRICA","c":"diplomacy","d":"2026-11-04","v":185.91}
+{"r":"AFRICA","c":"diplomacy","d":"2026-11-05","v":21.5577}
 {"r":"AFRICA","c":"economy","d":"2026-06-09","v":1.0877}
 {"r":"AFRICA","c":"economy","d":"2026-06-10","v":0.9931}
 {"r":"AFRICA","c":"economy","d":"2026-06-13","v":3.0531}
@@ -274,6 +275,7 @@
 {"r":"AFRICA","c":"economy","d":"2026-11-02","v":3.0346}
 {"r":"AFRICA","c":"economy","d":"2026-11-03","v":257.2524}
 {"r":"AFRICA","c":"economy","d":"2026-11-04","v":84.4831}
+{"r":"AFRICA","c":"economy","d":"2026-11-05","v":11.9528}
 {"r":"AFRICA","c":"internal","d":"2026-06-21","v":0.9827}
 {"r":"AFRICA","c":"internal","d":"2026-06-22","v":0.9827}
 {"r":"AFRICA","c":"internal","d":"2026-06-29","v":6.9642}
@@ -402,6 +404,7 @@
 {"r":"AFRICA","c":"internal","d":"2026-11-02","v":1.5053}
 {"r":"AFRICA","c":"internal","d":"2026-11-03","v":100.2893}
 {"r":"AFRICA","c":"internal","d":"2026-11-04","v":44.8019}
+{"r":"AFRICA","c":"internal","d":"2026-11-05","v":6.93}
 {"r":"AFRICA","c":"military","d":"2026-06-05","v":1.3597}
 {"r":"AFRICA","c":"military","d":"2026-06-06","v":13.1018}
 {"r":"AFRICA","c":"military","d":"2026-06-07","v":2.2345}
@@ -545,6 +548,7 @@
 {"r":"AFRICA","c":"military","d":"2026-11-02","v":3.9375}
 {"r":"AFRICA","c":"military","d":"2026-11-03","v":776.9535}
 {"r":"AFRICA","c":"military","d":"2026-11-04","v":227.6832}
+{"r":"AFRICA","c":"military","d":"2026-11-05","v":22.5817}
 {"r":"AFRICA","c":"narrative","d":"2026-10-26","v":1.5782}
 {"r":"AFRICA","c":"narrative","d":"2026-10-27","v":1.7241}
 {"r":"AFRICA","c":"narrative","d":"2026-10-28","v":0.1394}
@@ -554,8 +558,11 @@
 {"r":"AFRICA","c":"narrative","d":"2026-11-02","v":1.381}
 {"r":"AFRICA","c":"narrative","d":"2026-11-03","v":1.3793}
 {"r":"AFRICA","c":"narrative","d":"2026-11-04","v":1.374}
+{"r":"AFRICA","c":"narrative","d":"2026-11-05","v":1.329}
 {"r":"AFRICA","c":"physical","d":"2026-11-03","v":-4.9139}
+{"r":"AFRICA","c":"physical","d":"2026-11-04","v":-1.8475}
 {"r":"AMERICAS","c":"physical","d":"2026-11-03","v":-28.1954}
+{"r":"AMERICAS","c":"physical","d":"2026-11-04","v":-69.803}
 {"r":"EAST_ASIA","c":"diplomacy","d":"2026-06-05","v":0.4966}
 {"r":"EAST_ASIA","c":"diplomacy","d":"2026-06-06","v":3.5895}
 {"r":"EAST_ASIA","c":"diplomacy","d":"2026-06-07","v":0.9907}
@@ -700,6 +707,7 @@
 {"r":"EAST_ASIA","c":"diplomacy","d":"2026-11-02","v":1.015}
 {"r":"EAST_ASIA","c":"diplomacy","d":"2026-11-03","v":182.2135}
 {"r":"EAST_ASIA","c":"diplomacy","d":"2026-11-04","v":109.02}
+{"r":"EAST_ASIA","c":"diplomacy","d":"2026-11-05","v":21.4153}
 {"r":"EAST_ASIA","c":"economy","d":"2026-06-09","v":2.3265}
 {"r":"EAST_ASIA","c":"economy","d":"2026-06-10","v":3.0417}
 {"r":"EAST_ASIA","c":"economy","d":"2026-06-11","v":4.0462}
@@ -838,6 +846,7 @@
 {"r":"EAST_ASIA","c":"economy","d":"2026-11-02","v":2.212}
 {"r":"EAST_ASIA","c":"economy","d":"2026-11-03","v":108.8098}
 {"r":"EAST_ASIA","c":"economy","d":"2026-11-04","v":64.7538}
+{"r":"EAST_ASIA","c":"economy","d":"2026-11-05","v":15.8105}
 {"r":"EAST_ASIA","c":"internal","d":"2026-06-07","v":1.1882}
 {"r":"EAST_ASIA","c":"internal","d":"2026-06-08","v":0.9827}
 {"r":"EAST_ASIA","c":"internal","d":"2026-06-10","v":0.9797}
@@ -970,6 +979,7 @@
 {"r":"EAST_ASIA","c":"internal","d":"2026-11-02","v":1.015}
 {"r":"EAST_ASIA","c":"internal","d":"2026-11-03","v":62.4318}
 {"r":"EAST_ASIA","c":"internal","d":"2026-11-04","v":38.5762}
+{"r":"EAST_ASIA","c":"internal","d":"2026-11-05","v":3.0275}
 {"r":"EAST_ASIA","c":"military","d":"2026-06-05","v":1.3597}
 {"r":"EAST_ASIA","c":"military","d":"2026-06-06","v":3.1699}
 {"r":"EAST_ASIA","c":"military","d":"2026-06-07","v":1.4236}
@@ -1111,6 +1121,7 @@
 {"r":"EAST_ASIA","c":"military","d":"2026-11-02","v":0.8158}
 {"r":"EAST_ASIA","c":"military","d":"2026-11-03","v":200.2935}
 {"r":"EAST_ASIA","c":"military","d":"2026-11-04","v":174.1984}
+{"r":"EAST_ASIA","c":"military","d":"2026-11-05","v":24.3973}
 {"r":"EAST_ASIA","c":"narrative","d":"2026-08-08","v":0.1394}
 {"r":"EAST_ASIA","c":"narrative","d":"2026-10-03","v":1.1781}
 {"r":"EAST_ASIA","c":"narrative","d":"2026-10-04","v":1.6029}
@@ -1121,7 +1132,9 @@
 {"r":"EAST_ASIA","c":"narrative","d":"2026-11-02","v":1.6707}
 {"r":"EAST_ASIA","c":"narrative","d":"2026-11-03","v":1.4053}
 {"r":"EAST_ASIA","c":"narrative","d":"2026-11-04","v":1.4826}
+{"r":"EAST_ASIA","c":"narrative","d":"2026-11-05","v":1.6289}
 {"r":"EAST_ASIA","c":"physical","d":"2026-11-03","v":-11.7318}
+{"r":"EAST_ASIA","c":"physical","d":"2026-11-04","v":-11.0975}
 {"r":"EUROPE","c":"diplomacy","d":"2026-06-05","v":2.907}
 {"r":"EUROPE","c":"diplomacy","d":"2026-06-06","v":6.5858}
 {"r":"EUROPE","c":"diplomacy","d":"2026-06-07","v":8.121}
@@ -1273,6 +1286,7 @@
 {"r":"EUROPE","c":"diplomacy","d":"2026-11-02","v":1.4792}
 {"r":"EUROPE","c":"diplomacy","d":"2026-11-03","v":643.9316}
 {"r":"EUROPE","c":"diplomacy","d":"2026-11-04","v":211.8444}
+{"r":"EUROPE","c":"diplomacy","d":"2026-11-05","v":32.4998}
 {"r":"EUROPE","c":"economy","d":"2026-06-05","v":1.2456}
 {"r":"EUROPE","c":"economy","d":"2026-06-06","v":2.83}
 {"r":"EUROPE","c":"economy","d":"2026-06-07","v":8.6345}
@@ -1424,6 +1438,7 @@
 {"r":"EUROPE","c":"economy","d":"2026-11-02","v":1.0335}
 {"r":"EUROPE","c":"economy","d":"2026-11-03","v":370.4465}
 {"r":"EUROPE","c":"economy","d":"2026-11-04","v":119.2352}
+{"r":"EUROPE","c":"economy","d":"2026-11-05","v":20.4918}
 {"r":"EUROPE","c":"internal","d":"2026-06-07","v":3.5642}
 {"r":"EUROPE","c":"internal","d":"2026-06-08","v":3.4666}
 {"r":"EUROPE","c":"internal","d":"2026-06-09","v":4.6098}
@@ -1564,6 +1579,7 @@
 {"r":"EUROPE","c":"internal","d":"2026-11-02","v":2.9468}
 {"r":"EUROPE","c":"internal","d":"2026-11-03","v":278.2666}
 {"r":"EUROPE","c":"internal","d":"2026-11-04","v":106.5801}
+{"r":"EUROPE","c":"internal","d":"2026-11-05","v":11.2475}
 {"r":"EUROPE","c":"military","d":"2026-06-05","v":4.3078}
 {"r":"EUROPE","c":"military","d":"2026-06-06","v":8.0475}
 {"r":"EUROPE","c":"military","d":"2026-06-07","v":9.7853}
@@ -1717,6 +1733,7 @@
 {"r":"EUROPE","c":"military","d":"2026-11-02","v":4.292}
 {"r":"EUROPE","c":"military","d":"2026-11-03","v":1080.1165}
 {"r":"EUROPE","c":"military","d":"2026-11-04","v":367.2459}
+{"r":"EUROPE","c":"military","d":"2026-11-05","v":57.0475}
 {"r":"EUROPE","c":"narrative","d":"2026-10-02","v":1.4221}
 {"r":"EUROPE","c":"narrative","d":"2026-10-03","v":2.0431}
 {"r":"EUROPE","c":"narrative","d":"2026-10-04","v":1.3866}
@@ -1729,7 +1746,9 @@
 {"r":"EUROPE","c":"narrative","d":"2026-11-02","v":1.1893}
 {"r":"EUROPE","c":"narrative","d":"2026-11-03","v":1.3469}
 {"r":"EUROPE","c":"narrative","d":"2026-11-04","v":1.347}
+{"r":"EUROPE","c":"narrative","d":"2026-11-05","v":1.5162}
 {"r":"EUROPE","c":"physical","d":"2026-11-03","v":-46.3111}
+{"r":"EUROPE","c":"physical","d":"2026-11-04","v":-3.7685}
 {"r":"LATAM","c":"diplomacy","d":"2026-06-06","v":1.6176}
 {"r":"LATAM","c":"diplomacy","d":"2026-06-07","v":1.0986}
 {"r":"LATAM","c":"diplomacy","d":"2026-06-15","v":0.9318}
@@ -1862,6 +1881,7 @@
 {"r":"LATAM","c":"diplomacy","d":"2026-11-02","v":3.0215}
 {"r":"LATAM","c":"diplomacy","d":"2026-11-03","v":104.0063}
 {"r":"LATAM","c":"diplomacy","d":"2026-11-04","v":42.4876}
+{"r":"LATAM","c":"diplomacy","d":"2026-11-05","v":9.6629}
 {"r":"LATAM","c":"economy","d":"2026-06-08","v":4.4125}
 {"r":"LATAM","c":"economy","d":"2026-06-09","v":3.0198}
 {"r":"LATAM","c":"economy","d":"2026-06-10","v":2.0266}
@@ -1994,6 +2014,7 @@
 {"r":"LATAM","c":"economy","d":"2026-11-02","v":18.7273}
 {"r":"LATAM","c":"economy","d":"2026-11-03","v":79.7436}
 {"r":"LATAM","c":"economy","d":"2026-11-04","v":33.1465}
+{"r":"LATAM","c":"economy","d":"2026-11-05","v":8.2332}
 {"r":"LATAM","c":"internal","d":"2026-06-10","v":0.5439}
 {"r":"LATAM","c":"internal","d":"2026-07-01","v":0.5439}
 {"r":"LATAM","c":"internal","d":"2026-07-04","v":0.4966}
@@ -2120,6 +2141,7 @@
 {"r":"LATAM","c":"internal","d":"2026-11-02","v":0.4832}
 {"r":"LATAM","c":"internal","d":"2026-11-03","v":21.0352}
 {"r":"LATAM","c":"internal","d":"2026-11-04","v":9.5126}
+{"r":"LATAM","c":"internal","d":"2026-11-05","v":3.0483}
 {"r":"LATAM","c":"military","d":"2026-06-06","v":3.581}
 {"r":"LATAM","c":"military","d":"2026-06-08","v":3.5608}
 {"r":"LATAM","c":"military","d":"2026-06-09","v":3.5988}
@@ -2252,12 +2274,14 @@
 {"r":"LATAM","c":"military","d":"2026-11-02","v":3.6453}
 {"r":"LATAM","c":"military","d":"2026-11-03","v":163.59}
 {"r":"LATAM","c":"military","d":"2026-11-04","v":63.269}
+{"r":"LATAM","c":"military","d":"2026-11-05","v":7.5131}
 {"r":"LATAM","c":"narrative","d":"2026-10-28","v":1.5764}
 {"r":"LATAM","c":"narrative","d":"2026-10-29","v":0.1072}
 {"r":"LATAM","c":"narrative","d":"2026-11-01","v":1.4141}
 {"r":"LATAM","c":"narrative","d":"2026-11-02","v":1.4088}
 {"r":"LATAM","c":"narrative","d":"2026-11-03","v":1.4274}
 {"r":"LATAM","c":"narrative","d":"2026-11-04","v":1.4324}
+{"r":"LATAM","c":"narrative","d":"2026-11-05","v":1.5132}
 {"r":"MIDDLE_EAST","c":"diplomacy","d":"2026-06-05","v":3.4268}
 {"r":"MIDDLE_EAST","c":"diplomacy","d":"2026-06-06","v":6.9706}
 {"r":"MIDDLE_EAST","c":"diplomacy","d":"2026-06-07","v":5.641}
@@ -2411,6 +2435,7 @@
 {"r":"MIDDLE_EAST","c":"diplomacy","d":"2026-11-02","v":1.015}
 {"r":"MIDDLE_EAST","c":"diplomacy","d":"2026-11-03","v":613.5588}
 {"r":"MIDDLE_EAST","c":"diplomacy","d":"2026-11-04","v":301.2956}
+{"r":"MIDDLE_EAST","c":"diplomacy","d":"2026-11-05","v":70.3076}
 {"r":"MIDDLE_EAST","c":"economy","d":"2026-06-05","v":1.2456}
 {"r":"MIDDLE_EAST","c":"economy","d":"2026-06-06","v":7.1273}
 {"r":"MIDDLE_EAST","c":"economy","d":"2026-06-07","v":2.1373}
@@ -2551,6 +2576,7 @@
 {"r":"MIDDLE_EAST","c":"economy","d":"2026-11-02","v":0.0758}
 {"r":"MIDDLE_EAST","c":"economy","d":"2026-11-03","v":219.5744}
 {"r":"MIDDLE_EAST","c":"economy","d":"2026-11-04","v":100.8025}
+{"r":"MIDDLE_EAST","c":"economy","d":"2026-11-05","v":18.5596}
 {"r":"MIDDLE_EAST","c":"internal","d":"2026-06-08","v":1.4566}
 {"r":"MIDDLE_EAST","c":"internal","d":"2026-06-10","v":0.9978}
 {"r":"MIDDLE_EAST","c":"internal","d":"2026-06-15","v":3.0865}
@@ -2684,6 +2710,7 @@
 {"r":"MIDDLE_EAST","c":"internal","d":"2026-11-02","v":1.459}
 {"r":"MIDDLE_EAST","c":"internal","d":"2026-11-03","v":108.4508}
 {"r":"MIDDLE_EAST","c":"internal","d":"2026-11-04","v":48.1207}
+{"r":"MIDDLE_EAST","c":"internal","d":"2026-11-05","v":10.6657}
 {"r":"MIDDLE_EAST","c":"military","d":"2026-06-05","v":6.5369}
 {"r":"MIDDLE_EAST","c":"military","d":"2026-06-06","v":19.8698}
 {"r":"MIDDLE_EAST","c":"military","d":"2026-06-07","v":6.1735}
@@ -2836,6 +2863,7 @@
 {"r":"MIDDLE_EAST","c":"military","d":"2026-11-02","v":2.7194}
 {"r":"MIDDLE_EAST","c":"military","d":"2026-11-03","v":1382.5006}
 {"r":"MIDDLE_EAST","c":"military","d":"2026-11-04","v":502.0323}
+{"r":"MIDDLE_EAST","c":"military","d":"2026-11-05","v":49.0038}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-02","v":1.3665}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-03","v":1.8574}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-04","v":1.5908}
@@ -2850,7 +2878,9 @@
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-11-02","v":1.5543}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-11-03","v":1.3923}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-11-04","v":1.3498}
+{"r":"MIDDLE_EAST","c":"narrative","d":"2026-11-05","v":1.3207}
 {"r":"MIDDLE_EAST","c":"physical","d":"2026-11-03","v":-6.1599}
+{"r":"MIDDLE_EAST","c":"physical","d":"2026-11-04","v":-3.5533}
 {"r":"NORTH_AMERICA","c":"diplomacy","d":"2026-06-05","v":5.6987}
 {"r":"NORTH_AMERICA","c":"diplomacy","d":"2026-06-06","v":8.0498}
 {"r":"NORTH_AMERICA","c":"diplomacy","d":"2026-06-07","v":12.5178}
@@ -3004,6 +3034,7 @@
 {"r":"NORTH_AMERICA","c":"diplomacy","d":"2026-11-02","v":1.8809}
 {"r":"NORTH_AMERICA","c":"diplomacy","d":"2026-11-03","v":2262.1351}
 {"r":"NORTH_AMERICA","c":"diplomacy","d":"2026-11-04","v":1820.7473}
+{"r":"NORTH_AMERICA","c":"diplomacy","d":"2026-11-05","v":338.6859}
 {"r":"NORTH_AMERICA","c":"economy","d":"2026-06-05","v":3.9423}
 {"r":"NORTH_AMERICA","c":"economy","d":"2026-06-06","v":8.9958}
 {"r":"NORTH_AMERICA","c":"economy","d":"2026-06-07","v":15.5082}
@@ -3156,6 +3187,7 @@
 {"r":"NORTH_AMERICA","c":"economy","d":"2026-11-02","v":18.6974}
 {"r":"NORTH_AMERICA","c":"economy","d":"2026-11-03","v":1698.4202}
 {"r":"NORTH_AMERICA","c":"economy","d":"2026-11-04","v":874.3076}
+{"r":"NORTH_AMERICA","c":"economy","d":"2026-11-05","v":198.8021}
 {"r":"NORTH_AMERICA","c":"internal","d":"2026-06-05","v":0.9827}
 {"r":"NORTH_AMERICA","c":"internal","d":"2026-06-07","v":1.3978}
 {"r":"NORTH_AMERICA","c":"internal","d":"2026-06-08","v":3.8264}
@@ -3304,6 +3336,7 @@
 {"r":"NORTH_AMERICA","c":"internal","d":"2026-11-02","v":4.0468}
 {"r":"NORTH_AMERICA","c":"internal","d":"2026-11-03","v":637.1029}
 {"r":"NORTH_AMERICA","c":"internal","d":"2026-11-04","v":280.2993}
+{"r":"NORTH_AMERICA","c":"internal","d":"2026-11-05","v":59.932}
 {"r":"NORTH_AMERICA","c":"military","d":"2026-06-05","v":5.8824}
 {"r":"NORTH_AMERICA","c":"military","d":"2026-06-06","v":10.1334}
 {"r":"NORTH_AMERICA","c":"military","d":"2026-06-07","v":37.8429}
@@ -3457,6 +3490,7 @@
 {"r":"NORTH_AMERICA","c":"military","d":"2026-11-02","v":0.7448}
 {"r":"NORTH_AMERICA","c":"military","d":"2026-11-03","v":3402.8811}
 {"r":"NORTH_AMERICA","c":"military","d":"2026-11-04","v":1926.9191}
+{"r":"NORTH_AMERICA","c":"military","d":"2026-11-05","v":456.4364}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-02","v":2.1526}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-03","v":1.5604}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-04","v":1.3054}
@@ -3469,6 +3503,7 @@
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-11-02","v":1.2215}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-11-03","v":1.4017}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-11-04","v":1.4123}
+{"r":"NORTH_AMERICA","c":"narrative","d":"2026-11-05","v":1.469}
 {"r":"OCEANIA","c":"diplomacy","d":"2026-06-06","v":4.5568}
 {"r":"OCEANIA","c":"diplomacy","d":"2026-06-08","v":1.4486}
 {"r":"OCEANIA","c":"diplomacy","d":"2026-06-13","v":4.1933}
@@ -3606,6 +3641,7 @@
 {"r":"OCEANIA","c":"diplomacy","d":"2026-11-02","v":1.9723}
 {"r":"OCEANIA","c":"diplomacy","d":"2026-11-03","v":122.3556}
 {"r":"OCEANIA","c":"diplomacy","d":"2026-11-04","v":89.8703}
+{"r":"OCEANIA","c":"diplomacy","d":"2026-11-05","v":32.1315}
 {"r":"OCEANIA","c":"economy","d":"2026-06-07","v":3.1307}
 {"r":"OCEANIA","c":"economy","d":"2026-06-09","v":2.2531}
 {"r":"OCEANIA","c":"economy","d":"2026-06-10","v":1.0877}
@@ -3744,6 +3780,7 @@
 {"r":"OCEANIA","c":"economy","d":"2026-11-02","v":2.0266}
 {"r":"OCEANIA","c":"economy","d":"2026-11-03","v":115.5345}
 {"r":"OCEANIA","c":"economy","d":"2026-11-04","v":82.7138}
+{"r":"OCEANIA","c":"economy","d":"2026-11-05","v":9.2887}
 {"r":"OCEANIA","c":"internal","d":"2026-06-07","v":1.5145}
 {"r":"OCEANIA","c":"internal","d":"2026-06-15","v":1.4629}
 {"r":"OCEANIA","c":"internal","d":"2026-06-20","v":0.5318}
@@ -3873,6 +3910,7 @@
 {"r":"OCEANIA","c":"internal","d":"2026-11-02","v":1.0133}
 {"r":"OCEANIA","c":"internal","d":"2026-11-03","v":44.8951}
 {"r":"OCEANIA","c":"internal","d":"2026-11-04","v":18.7399}
+{"r":"OCEANIA","c":"internal","d":"2026-11-05","v":9.7399}
 {"r":"OCEANIA","c":"military","d":"2026-06-05","v":6.8197}
 {"r":"OCEANIA","c":"military","d":"2026-06-06","v":0.6989}
 {"r":"OCEANIA","c":"military","d":"2026-06-07","v":1.1648}
@@ -4011,6 +4049,7 @@
 {"r":"OCEANIA","c":"military","d":"2026-11-02","v":1.0877}
 {"r":"OCEANIA","c":"military","d":"2026-11-03","v":201.6272}
 {"r":"OCEANIA","c":"military","d":"2026-11-04","v":152.4757}
+{"r":"OCEANIA","c":"military","d":"2026-11-05","v":24.2492}
 {"r":"OCEANIA","c":"narrative","d":"2026-10-04","v":1.0254}
 {"r":"OCEANIA","c":"narrative","d":"2026-10-25","v":1.0962}
 {"r":"OCEANIA","c":"narrative","d":"2026-10-27","v":2.2182}
@@ -4018,6 +4057,7 @@
 {"r":"OCEANIA","c":"narrative","d":"2026-11-02","v":1.5875}
 {"r":"OCEANIA","c":"narrative","d":"2026-11-03","v":1.6631}
 {"r":"OCEANIA","c":"narrative","d":"2026-11-04","v":1.5963}
+{"r":"OCEANIA","c":"narrative","d":"2026-11-05","v":1.7985}
 {"r":"OTHER","c":"diplomacy","d":"2026-06-05","v":0.5767}
 {"r":"OTHER","c":"diplomacy","d":"2026-06-06","v":2.1118}
 {"r":"OTHER","c":"diplomacy","d":"2026-06-07","v":3.5838}
@@ -4168,6 +4208,7 @@
 {"r":"OTHER","c":"diplomacy","d":"2026-11-02","v":2.3931}
 {"r":"OTHER","c":"diplomacy","d":"2026-11-03","v":669.1899}
 {"r":"OTHER","c":"diplomacy","d":"2026-11-04","v":345.8586}
+{"r":"OTHER","c":"diplomacy","d":"2026-11-05","v":52.6141}
 {"r":"OTHER","c":"economy","d":"2026-06-05","v":2.9132}
 {"r":"OTHER","c":"economy","d":"2026-06-06","v":2.0396}
 {"r":"OTHER","c":"economy","d":"2026-06-07","v":3.9445}
@@ -4314,6 +4355,7 @@
 {"r":"OTHER","c":"economy","d":"2026-11-02","v":2.2998}
 {"r":"OTHER","c":"economy","d":"2026-11-03","v":500.0087}
 {"r":"OTHER","c":"economy","d":"2026-11-04","v":258.9622}
+{"r":"OTHER","c":"economy","d":"2026-11-05","v":54.0488}
 {"r":"OTHER","c":"internal","d":"2026-06-08","v":1.0877}
 {"r":"OTHER","c":"internal","d":"2026-06-13","v":0.5439}
 {"r":"OTHER","c":"internal","d":"2026-06-15","v":0.5439}
@@ -4448,6 +4490,7 @@
 {"r":"OTHER","c":"internal","d":"2026-11-02","v":0.5439}
 {"r":"OTHER","c":"internal","d":"2026-11-03","v":222.0541}
 {"r":"OTHER","c":"internal","d":"2026-11-04","v":146.0744}
+{"r":"OTHER","c":"internal","d":"2026-11-05","v":15.2683}
 {"r":"OTHER","c":"military","d":"2026-06-05","v":3.5375}
 {"r":"OTHER","c":"military","d":"2026-06-06","v":2.0966}
 {"r":"OTHER","c":"military","d":"2026-06-07","v":5.2761}
@@ -4598,6 +4641,7 @@
 {"r":"OTHER","c":"military","d":"2026-11-02","v":1.5848}
 {"r":"OTHER","c":"military","d":"2026-11-03","v":1078.5736}
 {"r":"OTHER","c":"military","d":"2026-11-04","v":485.4991}
+{"r":"OTHER","c":"military","d":"2026-11-05","v":82.2579}
 {"r":"OTHER","c":"narrative","d":"2026-08-08","v":0.3668}
 {"r":"OTHER","c":"narrative","d":"2026-10-03","v":1.1048}
 {"r":"OTHER","c":"narrative","d":"2026-10-04","v":1.1048}
@@ -4611,6 +4655,7 @@
 {"r":"OTHER","c":"narrative","d":"2026-11-02","v":2.3619}
 {"r":"OTHER","c":"narrative","d":"2026-11-03","v":1.561}
 {"r":"OTHER","c":"narrative","d":"2026-11-04","v":1.586}
+{"r":"OTHER","c":"narrative","d":"2026-11-05","v":1.6904}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-06","v":3.7519}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-07","v":3.9557}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-08","v":0.4832}
@@ -4757,6 +4802,7 @@
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-11-02","v":1.9804}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-11-03","v":312.3663}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-11-04","v":86.1001}
+{"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-11-05","v":9.343}
 {"r":"RUSSIA_CIS","c":"economy","d":"2026-06-07","v":1.015}
 {"r":"RUSSIA_CIS","c":"economy","d":"2026-06-10","v":0.9318}
 {"r":"RUSSIA_CIS","c":"economy","d":"2026-06-17","v":6.2748}
@@ -5164,6 +5210,7 @@
 {"r":"RUSSIA_CIS","c":"military","d":"2026-11-02","v":1.4294}
 {"r":"RUSSIA_CIS","c":"military","d":"2026-11-03","v":773.1113}
 {"r":"RUSSIA_CIS","c":"military","d":"2026-11-04","v":267.9404}
+{"r":"RUSSIA_CIS","c":"military","d":"2026-11-05","v":11.847}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-03","v":1.6782}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-04","v":1.3183}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-05","v":1.116}
@@ -5175,7 +5222,9 @@
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-11-02","v":1.7695}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-11-03","v":1.3521}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-11-04","v":1.4039}
+{"r":"RUSSIA_CIS","c":"narrative","d":"2026-11-05","v":1.1199}
 {"r":"RUSSIA_CIS","c":"physical","d":"2026-11-03","v":-2.5339}
+{"r":"RUSSIA_CIS","c":"physical","d":"2026-11-04","v":-0.1763}
 {"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-06-06","v":1.2887}
 {"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-06-07","v":3.9833}
 {"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-06-08","v":1.9318}
@@ -5321,6 +5370,7 @@
 {"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-11-02","v":0.5439}
 {"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-11-03","v":559.5528}
 {"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-11-04","v":273.1508}
+{"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-11-05","v":11.0756}
 {"r":"SOUTH_ASIA","c":"economy","d":"2026-06-06","v":1.0877}
 {"r":"SOUTH_ASIA","c":"economy","d":"2026-06-07","v":3.0832}
 {"r":"SOUTH_ASIA","c":"economy","d":"2026-06-08","v":3.0941}
@@ -5462,6 +5512,7 @@
 {"r":"SOUTH_ASIA","c":"economy","d":"2026-11-02","v":2.1273}
 {"r":"SOUTH_ASIA","c":"economy","d":"2026-11-03","v":372.6801}
 {"r":"SOUTH_ASIA","c":"economy","d":"2026-11-04","v":150.9854}
+{"r":"SOUTH_ASIA","c":"economy","d":"2026-11-05","v":15.5628}
 {"r":"SOUTH_ASIA","c":"internal","d":"2026-06-05","v":0.5318}
 {"r":"SOUTH_ASIA","c":"internal","d":"2026-06-09","v":0.5439}
 {"r":"SOUTH_ASIA","c":"internal","d":"2026-06-10","v":0.4966}
@@ -5603,6 +5654,7 @@
 {"r":"SOUTH_ASIA","c":"internal","d":"2026-11-02","v":3.9278}
 {"r":"SOUTH_ASIA","c":"internal","d":"2026-11-03","v":247.7778}
 {"r":"SOUTH_ASIA","c":"internal","d":"2026-11-04","v":108.8223}
+{"r":"SOUTH_ASIA","c":"internal","d":"2026-11-05","v":3.0543}
 {"r":"SOUTH_ASIA","c":"military","d":"2026-06-05","v":1.2414}
 {"r":"SOUTH_ASIA","c":"military","d":"2026-06-06","v":1.2688}
 {"r":"SOUTH_ASIA","c":"military","d":"2026-06-08","v":3.918}
@@ -5747,6 +5799,7 @@
 {"r":"SOUTH_ASIA","c":"military","d":"2026-11-02","v":1.3597}
 {"r":"SOUTH_ASIA","c":"military","d":"2026-11-03","v":914.1549}
 {"r":"SOUTH_ASIA","c":"military","d":"2026-11-04","v":283.4647}
+{"r":"SOUTH_ASIA","c":"military","d":"2026-11-05","v":8.9252}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-04","v":1.418}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-23","v":0.0697}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-27","v":1.8887}
@@ -5757,7 +5810,9 @@
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-11-02","v":1.9712}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-11-03","v":1.4341}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-11-04","v":1.4094}
+{"r":"SOUTH_ASIA","c":"narrative","d":"2026-11-05","v":1.5328}
 {"r":"SOUTH_ASIA","c":"physical","d":"2026-11-03","v":-3.7659}
+{"r":"SOUTH_ASIA","c":"physical","d":"2026-11-04","v":-2.9977}
 {"r":"__vol__","c":"n","d":"2026-06-05","v":62.0}
 {"r":"__vol__","c":"n","d":"2026-06-06","v":159.0}
 {"r":"__vol__","c":"n","d":"2026-06-07","v":184.0}
@@ -5911,3 +5966,4 @@
 {"r":"__vol__","c":"n","d":"2026-11-02","v":43.0}
 {"r":"__vol__","c":"n","d":"2026-11-03","v":27876.0}
 {"r":"__vol__","c":"n","d":"2026-11-04","v":14225.0}
+{"r":"__vol__","c":"n","d":"2026-11-05","v":2382.0}
