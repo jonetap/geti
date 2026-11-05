@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-05T01:27:34+00:00",
+ "generated_at": "2026-11-05T10:51:47+00:00",
  "date": "2026-11-04",
- "geti": 61.6,
+ "geti": 61.7,
  "delta_z": 0.77,
- "delta_pts": 9.0,
+ "delta_pts": 8.9,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -98,8 +98,8 @@
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 66.7,
-   "delta": -4.1,
+   "score": 66.8,
+   "delta": -4.0,
    "excluded": false,
    "drivers": [
     [
@@ -245,6 +245,22 @@
  ],
  "events": [
   {
+   "id": "cd14ede85148",
+   "title": "Bomb threat diverts Dublin-Rome flight to France",
+   "url": "https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "aljazeera",
+    "france24"
+   ],
+   "published": "2026-11-05T09:50:08+00:00",
+   "note": "A separate incident has been reported in Bulgaria, amid a string of bomb threats disrupting air travel across Europe.",
+   "region": "EUROPE"
+  },
+  {
    "id": "b22984ae141f",
    "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
    "url": "http://www.news.cn/world/2022-12/13/c_1129205834.htm",
@@ -255,7 +271,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -270,7 +286,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -285,7 +301,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   },
@@ -300,7 +316,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
    "region": "SOUTH_ASIA"
   },
@@ -315,7 +331,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "墨西哥东北部塔毛利帕斯州安全部门7日说，墨军方与武装分子当天在该州新拉雷多市发生交火，造成至少8人死亡、7人受伤。",
    "region": "LATAM"
   },
@@ -330,9 +346,130 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "印度尼西亚警方7日通报，印尼西爪哇省首府万隆市一所警察局当天发生炸弹袭击事件，已致2人死亡、7人受伤。",
    "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "4b0958f3e67c",
+   "title": "Dozens dead and missing after Russian strike on Ukrainian aid centre",
+   "url": "https://www.france24.com/en/video/20261105-dozens-dead-and-missing-after-russian-strike-on-ukrainian-aid-centre",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-05T10:34:55+00:00",
+   "note": "The death toll from a Russian bombing of an aid distribution point in Ukraine's southeastern Zaporizhzhia region on Monday has risen to 42, with dozens still missing, officials sai",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "906dbea1d6f6",
+   "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
+   "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc",
+    "bbc"
+   ],
+   "published": "2026-11-05T10:33:21+00:00",
+   "note": "The chef had stated that putting pineapple on pizza was \"offensive to his culture\".",
+   "region": "OTHER"
+  },
+  {
+   "id": "4b79addc60e5",
+   "title": "Zelensky in Spain for talks with world leaders as Kyiv seeks to strengthen air defences",
+   "url": "https://www.france24.com/en/video/20261105-zelensky-in-spain-for-talks-with-world-leaders-as-kyiv-seeks-to-strengthen-air-defences",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-05T10:32:12+00:00",
+   "note": "Ukrainian President Volodymyr Zelensky made a surprise visit to Madrid on Wednesday to drum up fresh military support against Russia during a summit of Latin American leaders in Sp",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "a56543517e04",
+   "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-05T10:25:42+00:00",
+   "note": "France confirms Dublin-Rome flight has landed in military base, while threats also reported in Italy, Bulgaria and Belgium And the Italian news agency Ansa reported that two more p",
+   "region": "EUROPE"
+  },
+  {
+   "id": "340dc4e7d56b",
+   "title": "Several European flights receive bomb threats, some divert",
+   "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-world-4025-rdf",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-05T10:10:00+00:00",
+   "note": "Several flights across Europe have either diverted or landed with a military escort after bomb or security threats. The first reported case involved a flight from Dublin to Rome la",
+   "region": "EUROPE"
+  },
+  {
+   "id": "192f6ba60a84",
+   "title": "Bomb threat forces Ireland-Italy flight to divert to French airbase",
+   "url": "https://www.scmp.com/news/world/europe/article/3373414/bomb-threat-forces-ireland-italy-flight-divert-french-airbase",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-05T10:07:38+00:00",
+   "note": "A flight from Ireland to Italy was diverted to a military airbase in western France on Thursday because of a bomb threat, the French prime minister’s office said. The flight landed",
+   "region": "EUROPE"
+  },
+  {
+   "id": "4631beeb7d5f",
+   "title": "A month after Yemen government offensive began, war of attrition takes hold",
+   "url": "https://www.aljazeera.com/news/2026/11/5/a-month-after-yemen-government-offensive-began-war-of-attrition-takes-hold?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-05T09:58:18+00:00",
+   "note": "The Houthis suffer losses but also inflict pain on government forces and Saudi Arabia.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "cd3c09882ced",
+   "title": "Hunt in Canada after multiple grizzlies suspected of killing mother and daughter",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373329/hunt-canada-after-multiple-grizzlies-suspected-killing-mother-and-daughter",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-05T02:02:10+00:00",
+   "note": "More than one grizzly may have been involved in a bear attack that relatives say left a mother and daughter dead in Bella Coola along the province’s central coast, the Conservation",
+   "region": "NORTH_AMERICA"
   },
   {
    "id": "941fcd3aa883",
@@ -340,7 +477,7 @@
    "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -350,27 +487,12 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "19451339bc69",
-   "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
-   "url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-04T20:31:56+00:00",
-   "note": "Dozens may still be under the rubble in Komyshuvakha. Rescue efforts ongoing despite interruptions by Russian drones.",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "6fc98d7b3348",
    "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
    "url": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -378,21 +500,6 @@
    "published": "2026-11-04T19:42:47+00:00",
    "note": "Conservation officers say more than one bear may have been involved in attack on women near their home Search teams in Canada have discovered the body of a 20-year-old woman and co",
    "region": "OTHER"
-  },
-  {
-   "id": "2fe5e9e2bd90",
-   "title": "WHO approves trials for two new Ebola vaccines",
-   "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-04T19:22:09+00:00",
-   "note": "Two new vaccines were designed for the Bundibugyo virus that has killed more than 5,300 in the DR Congo.",
-   "region": "AFRICA"
   },
   {
    "id": "a360187c7601",
@@ -410,66 +517,6 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "7190ef508489",
-   "title": "Education chief dismisses push for final-year university internships amid AI threat",
-   "url": "https://www.scmp.com/news/hong-kong/education/article/3373280/education-chief-dismisses-push-final-year-university-internships-amid-ai-threat",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-04T11:03:49+00:00",
-   "note": "Hong Kong’s education minister has shot down a suggestion to turn the final stretch of undergraduate degree programmes into an internship period to boost employability, amid a fall",
-   "region": "OTHER"
-  },
-  {
-   "id": "2537d1ca26f6",
-   "title": "Indonesian military helicopter on wildfire mission crashes off Borneo, killing 1",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373275/indonesian-military-helicopter-wildfire-mission-crashes-borneo-killing-1",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-04T10:26:07+00:00",
-   "note": "An Indonesian military helicopter carrying eight people on a firefighting mission crashed in waters off Borneo island on Wednesday, killing a crew member, the army said. The Southe",
-   "region": "OTHER"
-  },
-  {
-   "id": "913295905be7",
-   "title": "乌克兰学校频遭袭击，儿童就学受到严重干扰",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143124",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.22,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-03T12:00:00+00:00",
-   "note": "联合国儿童基金会周二表示，自2022年俄罗斯全面入侵乌克兰以来，乌克兰教育领域已遭受近2000次袭击，仅今年就发生约270次。频繁的空袭警报持续打断课堂教学，也给儿童的心理健康带来严重影响。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "7ca18249f546",
-   "title": "Multiple flights to European airports targeted by bomb threats",
-   "url": "https://www.dw.com/en/multiple-flights-to-european-airports-targeted-by-bomb-threats/a-79842434?maca=en-rss-en-world-4025-rdf",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-03T14:18:00+00:00",
-   "note": "The bomb threats involved two passenger planes bound for Warsaw, a Ryanair flight from London to Spain, two flights to Rome and a flight traveling from Israel to the Bulgarian capi",
-   "region": "EUROPE"
-  },
-  {
    "id": "a46c0e9d2635",
    "title": "外交部发言人就阿富汗首都喀布尔发生恐怖袭击事件答记者问",
    "url": "http://www.news.cn/world/2022-12/13/c_1129205654.htm",
@@ -480,7 +527,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "外交部发言人汪文斌13日就阿富汗首都喀布尔日前发生恐怖袭击事件答记者问。",
    "region": "SOUTH_ASIA"
   },
@@ -495,7 +542,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "墨西哥国家地震局11日说，该国南部格雷罗州当天上午发生6级地震。首都墨西哥城响起地震警报，震感明显，有市民撤离至街头。",
    "region": "LATAM"
   },
@@ -510,7 +557,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "中国常驻联合国副代表耿爽9日在安理会通过制裁人道豁免决议后作解释性发言，欢迎安理会通过该决议。",
    "region": "EAST_ASIA"
   },
@@ -525,7 +572,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "俄罗斯外交部8日说，俄美两国当天在阿拉伯联合酋长国阿布扎比机场完成在押人员互换手续，俄公民维克托·布特与美国女篮运动员布里特妮·格里纳进行了交换。",
    "region": "RUSSIA_CIS"
   },
@@ -540,72 +587,43 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "",
    "region": "OTHER"
   },
   {
-   "id": "19b68ccafe2a",
-   "title": "Champions League: Real Madrid seal late comeback as Liverpool lose to Fenerbahce",
-   "url": "https://www.france24.com/en/sport/20261104-champions-league-real-madrid-comeback-liverpool-fenerbahce",
-   "component": "military",
+   "id": "477b1cb44e25",
+   "title": "胡塞武装称遭沙特上百次袭击 也门政府军与胡塞武装交战升级",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-05/10726532.shtml",
+   "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "france24"
+    "chinanews"
    ],
-   "published": "2026-11-04T22:17:58+00:00",
-   "note": "Real Madrid maintained their perfect Champions League record as Federico Valverde’s stoppage-time strike secured a 3-2 comeback win at AEK Athens on Wednesday. Madrid twice trailed",
-   "region": "OTHER"
-  },
-  {
-   "id": "703bd575ab85",
-   "title": "Zelensky honours Melania Trump with Ukraine award for brokering Oleshky truce",
-   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373320/zelensky-honours-melania-trump-ukraine-award-brokering-oleshky-truce",
-   "component": "physical",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-04T21:44:37+00:00",
-   "note": "Ukraine’s President Volodymyr Zelensky on Wednesday awarded US first lady Melania Trump a national honour for her role in brokering a partial ceasefire that allowed the evacuation ",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "30ab157cf45a",
-   "title": "South Africans vote in key municipal elections",
-   "url": "https://www.france24.com/en/south-africans-vote-in-key-municipal-elections",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-04T21:26:13+00:00",
-   "note": "In tonight's edition, a crucial test for South Africa's ruling ANC as millions vote to elect municipal governments. Also, Ethiopia has expelled six Sudanese diplomats amid accusati",
-   "region": "AFRICA"
-  },
-  {
-   "id": "b037b385bbee",
-   "title": "5 takeaways from US midterms as Democrats sweep Congress and Trump faces Iran reckoning",
-   "url": "https://www.scmp.com/news/us/us-elections/article/3373318/five-takeaways-us-midterms-democrats-sweep-congress-and-trump-faces-iran-reckoning",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-04T21:24:00+00:00",
-   "note": "A Democratic victory that reached from Texas to Kansas changed the terms of Donald Trump’s final two years in office. When the new US Congress convenes in January, Democrats will c",
+   "published": "2026-11-05T05:49:16+00:00",
+   "note": "中新社北京11月5日电 综合消息：也门胡塞武装当地时间4日称，沙特阿拉伯方面对也门境内多地发动上百次袭击，造成数十人伤亡。另据报道，也门政府军和胡塞武装在境内部分地区的战斗已经升级，造成大量人员死伤。",
    "region": "MIDDLE_EAST"
   }
  ],
  "breaking": [
+  {
+   "id": "cd14ede85148",
+   "title": "Bomb threat diverts Dublin-Rome flight to France",
+   "url": "https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "aljazeera",
+    "france24"
+   ],
+   "published": "2026-11-05T09:50:08+00:00",
+   "note": "A separate incident has been reported in Bulgaria, amid a string of bomb threats disrupting air travel across Europe.",
+   "region": "EUROPE"
+  },
   {
    "id": "b22984ae141f",
    "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
@@ -617,7 +635,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -632,7 +650,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -647,42 +665,27 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
+   "published": "2026-11-05T10:51:50.012683+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
-  },
-  {
-   "id": "fabf87ffc6f9",
-   "title": "印尼西苏门答腊省一煤矿爆炸致9人死亡",
-   "url": "http://www.news.cn/world/2022-12/09/c_1129196117.htm",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-05T01:27:37.321755+00:00",
-   "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
-   "region": "SOUTH_ASIA"
   }
  ],
  "coverage": {
-  "sources_ok": 17,
-  "sources_failed": 3,
-  "items": 45397,
-  "gdelt_events": 44843,
+  "sources_ok": 16,
+  "sources_failed": 4,
+  "items": 42092,
+  "gdelt_events": 41554,
   "mode": "live",
   "data_through": "2026-11-04",
-  "clusters": 539,
-  "origins": 539,
+  "clusters": 518,
+  "origins": 520,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
    "2026-10-30",
    "2026-11-01"
   ],
-  "components_covered": 48,
+  "components_covered": 49,
   "components_required": 66,
   "components_saturated": 0,
   "saturated_ratio": 0.0,
@@ -1119,7 +1122,7 @@
   },
   {
    "date": "2026-10-11",
-   "geti": 57.1
+   "geti": 57.2
   },
   {
    "date": "2026-10-12",
@@ -1135,7 +1138,7 @@
   },
   {
    "date": "2026-10-15",
-   "geti": 56.6
+   "geti": 56.7
   },
   {
    "date": "2026-10-16",
@@ -1147,7 +1150,7 @@
   },
   {
    "date": "2026-10-18",
-   "geti": 57.7
+   "geti": 57.8
   },
   {
    "date": "2026-10-19",
@@ -1155,7 +1158,7 @@
   },
   {
    "date": "2026-10-20",
-   "geti": 54.8
+   "geti": 54.9
   },
   {
    "date": "2026-10-21",
@@ -1167,7 +1170,7 @@
   },
   {
    "date": "2026-10-23",
-   "geti": 53.9
+   "geti": 54.0
   },
   {
    "date": "2026-10-24",
@@ -1183,19 +1186,19 @@
   },
   {
    "date": "2026-10-27",
-   "geti": 48.8
+   "geti": 49.0
   },
   {
    "date": "2026-10-28",
-   "geti": 48.6
+   "geti": 48.7
   },
   {
    "date": "2026-10-29",
-   "geti": 53.7
+   "geti": 53.8
   },
   {
    "date": "2026-10-30",
-   "geti": 40.2
+   "geti": 40.3
   },
   {
    "date": "2026-10-31",
@@ -1207,15 +1210,15 @@
   },
   {
    "date": "2026-11-02",
-   "geti": 37.3
+   "geti": 37.7
   },
   {
    "date": "2026-11-03",
-   "geti": 52.6
+   "geti": 52.8
   },
   {
    "date": "2026-11-04",
-   "geti": 61.6
+   "geti": 61.7
   }
  ],
  "policy": {
@@ -1239,18 +1242,74 @@
    },
    {
     "kind": "judicial",
+    "title": "South Africans eager to vote as local elections put failing services in focus",
+    "url": "https://www.france24.com/en/video/20261105-south-africans-eager-to-vote-as-local-elections-put-failing-services-in-focus",
+    "country": "FR",
+    "source": "france24",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "拉萨以监督之力整治旅游市场乱象 护航文旅行业高质量发展",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-05/10726763.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
+    "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
+    "country": "CN",
+    "source": "guardian",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "Starved, beaten: Singaporean gets life imprisonment for murdering sister",
+    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373370/starved-beaten-singaporean-gets-life-imprisonment-murdering-sister",
+    "country": "SG",
+    "source": "scmp",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "Ex-Politburo member Ma Xingrui’s corruption charges extend to end of last century",
+    "url": "https://www.scmp.com/news/china/politics/article/3373345/ex-politburo-member-ma-xingruis-corruption-charges-extend-end-last-century",
+    "country": "",
+    "source": "scmp",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "Hong Kong government doctor found guilty of misconduct over driving conviction",
+    "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3373353/hong-kong-government-doctor-found-guilty-misconduct-over-driving-conviction",
+    "country": "HK",
+    "source": "scmp",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion",
+    "url": "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
+    "country": "CN",
+    "source": "france24",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "Joshua Wong jailed for 10 years over bid to instigate sanctions on Beijing, Hong Kong",
+    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373335/joshua-wong-jailed-10-years-over-bid-instigate-sanctions-beijing-hong-kong",
+    "country": "CN",
+    "source": "scmp",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
     "title": "Serbia detains police officers over alleged use of force against protesters",
     "url": "https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters",
     "country": "",
     "source": "guardian",
-    "when": "2026-11-04"
-   },
-   {
-    "kind": "judicial",
-    "title": "Democrats warn Trump camp to ‘lawyer up’ as anger over corruption drives midterms wipeout",
-    "url": "https://www.france24.com/en/americas/20261104-democrats-warn-trump-camp-lawyer-up-anger-over-corruption-drives-midterms-wipeout-gop",
-    "country": "",
-    "source": "france24",
     "when": "2026-11-04"
    },
    {
@@ -1260,38 +1319,14 @@
     "country": "US",
     "source": "chinanews",
     "when": "2026-11-04"
-   },
-   {
-    "kind": "judicial",
-    "title": "韩国前总统尹锡悦涉嫌违反《公职选举法》案二审维持原判",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-04/10726222.shtml",
-    "country": "KR",
-    "source": "chinanews",
-    "when": "2026-11-04"
-   },
-   {
-    "kind": "judicial",
-    "title": "尹锡悦违反选举法案二审亦获刑 或致当选无效",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-04/10726191.shtml",
-    "country": "KR",
-    "source": "chinanews",
-    "when": "2026-11-04"
-   },
-   {
-    "kind": "judicial",
-    "title": "Ex-HKEX vice-president and mother charged over alleged confidential data access",
-    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373255/ex-hkex-vice-president-and-mother-charged-over-alleged-confidential-data-access",
-    "country": "HK",
-    "source": "scmp",
-    "when": "2026-11-04"
    }
   ],
-  "notable_total": 8,
+  "notable_total": 12,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 8
+   "notable": 12
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1534,8 +1569,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.08,
-    "carry": 1.16,
+    "value": 0.93,
+    "carry": 1.11,
     "z": null,
     "score": null,
     "available": false
@@ -1555,10 +1590,10 @@
   }
  },
  "doom": {
-  "index": 61.6,
-  "z": 0.28,
+  "index": 61.7,
+  "z": 0.29,
   "parts": {
-   "military": 0.28,
+   "military": 0.29,
    "hazard": null,
    "epidemic": null
   },
@@ -1595,14 +1630,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 143,
-   "items": 44843,
+   "files": 142,
+   "items": 41554,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 19,
+   "items": 17,
    "error": ""
   },
   {
@@ -1614,13 +1649,13 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 33,
+   "items": 35,
    "error": ""
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 13,
+   "items": 11,
    "error": ""
   },
   {
@@ -1643,9 +1678,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": true,
-   "items": 14,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）"
   },
   {
    "source": "xinhua_world",
@@ -1746,7 +1781,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 8226,
+   "items": 7000,
    "error": ""
   },
   {
