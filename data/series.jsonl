@@ -1744,6 +1744,7 @@
 {"r":"EUROPE","c":"narrative","d":"2026-10-25","v":1.3107}
 {"r":"EUROPE","c":"narrative","d":"2026-10-26","v":1.283}
 {"r":"EUROPE","c":"narrative","d":"2026-10-27","v":1.5022}
+{"r":"EUROPE","c":"narrative","d":"2026-10-29","v":1.4874}
 {"r":"EUROPE","c":"narrative","d":"2026-10-31","v":1.3435}
 {"r":"EUROPE","c":"narrative","d":"2026-11-01","v":1.6399}
 {"r":"EUROPE","c":"narrative","d":"2026-11-02","v":1.1893}
@@ -4663,6 +4664,7 @@
 {"r":"OTHER","c":"narrative","d":"2026-11-03","v":1.561}
 {"r":"OTHER","c":"narrative","d":"2026-11-04","v":1.586}
 {"r":"OTHER","c":"narrative","d":"2026-11-05","v":1.6904}
+{"r":"OTHER","c":"physical","d":"2026-11-05","v":0.5089}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-06","v":3.7519}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-07","v":3.9557}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-08","v":0.4832}
@@ -5223,6 +5225,7 @@
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-03","v":1.6782}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-04","v":1.3183}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-05","v":1.116}
+{"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-06","v":1.3798}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-26","v":1.6706}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-27","v":1.5313}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-28","v":1.1967}

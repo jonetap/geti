@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-05T10:51:47+00:00",
+ "generated_at": "2026-11-05T19:56:35+00:00",
  "date": "2026-11-04",
  "geti": 61.7,
  "delta_z": 0.77,
@@ -245,19 +245,19 @@
  ],
  "events": [
   {
-   "id": "cd14ede85148",
-   "title": "Bomb threat diverts Dublin-Rome flight to France",
-   "url": "https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france?traffic_source=rss",
+   "id": "66a37cad6149",
+   "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears",
+   "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
    "component": "military",
    "severity": 5,
-   "confidence": 0.82,
+   "confidence": 0.74,
    "origins": 2,
    "sources": [
-    "aljazeera",
-    "france24"
+    "guardian",
+    "dw"
    ],
-   "published": "2026-11-05T09:50:08+00:00",
-   "note": "A separate incident has been reported in Bulgaria, amid a string of bomb threats disrupting air travel across Europe.",
+   "published": "2026-11-05T18:17:36+00:00",
+   "note": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Hoax bomb threats have caused at least 25 flights across Europe to be disrupted, ",
    "region": "EUROPE"
   },
   {
@@ -271,7 +271,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -286,7 +286,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -301,7 +301,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   },
@@ -316,7 +316,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
    "region": "SOUTH_ASIA"
   },
@@ -331,7 +331,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "墨西哥东北部塔毛利帕斯州安全部门7日说，墨军方与武装分子当天在该州新拉雷多市发生交火，造成至少8人死亡、7人受伤。",
    "region": "LATAM"
   },
@@ -346,45 +346,59 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "印度尼西亚警方7日通报，印尼西爪哇省首府万隆市一所警察局当天发生炸弹袭击事件，已致2人死亡、7人受伤。",
    "region": "SOUTH_ASIA"
   },
   {
-   "id": "4b0958f3e67c",
-   "title": "Dozens dead and missing after Russian strike on Ukrainian aid centre",
-   "url": "https://www.france24.com/en/video/20261105-dozens-dead-and-missing-after-russian-strike-on-ukrainian-aid-centre",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-05T10:34:55+00:00",
-   "note": "The death toll from a Russian bombing of an aid distribution point in Ukraine's southeastern Zaporizhzhia region on Monday has risen to 42, with dozens still missing, officials sai",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "906dbea1d6f6",
-   "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
-   "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
+   "id": "f14430077cbc",
+   "title": "Top US civil rights official resigns",
+   "url": "https://www.aljazeera.com/news/2026/11/5/top-us-civil-rights-official-resigns?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc",
-    "bbc"
+    "aljazeera"
    ],
-   "published": "2026-11-05T10:33:21+00:00",
-   "note": "The chef had stated that putting pineapple on pizza was \"offensive to his culture\".",
+   "published": "2026-11-05T19:48:00+00:00",
+   "note": "New Democratic Congress expected to probe Trump Justice Department office's handling of Epstein files and ICE killings.",
    "region": "OTHER"
   },
   {
-   "id": "4b79addc60e5",
-   "title": "Zelensky in Spain for talks with world leaders as Kyiv seeks to strengthen air defences",
-   "url": "https://www.france24.com/en/video/20261105-zelensky-in-spain-for-talks-with-world-leaders-as-kyiv-seeks-to-strengthen-air-defences",
+   "id": "ce65aea47048",
+   "title": "Eight killed in series of shootings in western Turkey",
+   "url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-05T19:32:54+00:00",
+   "note": "Victims are found in several locations in three separate vehicles, according to local reports.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "5b4785558eb5",
+   "title": "Bank of England raises interest rates to 4%, the first increase for more than three years",
+   "url": "https://www.theguardian.com/business/2026/nov/05/bank-of-england-raises-interest-rates-first-increase-for-more-than-three-years",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-05T18:00:28+00:00",
+   "note": "Base rate increases from 3.75% and Bank governor signals another rise in near future to combat rising inflation Analysis: Interest rate rise in midst of cost of living crisis will ",
+   "region": "OTHER"
+  },
+  {
+   "id": "6a8c44ff08cb",
+   "title": "Myanmar: Civilians under fire from military junta",
+   "url": "https://www.france24.com/en/asia-pacific/20261105-myanmar-civilians-under-fire-from-military-junta",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -392,13 +406,13 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-05T10:32:12+00:00",
-   "note": "Ukrainian President Volodymyr Zelensky made a surprise visit to Madrid on Wednesday to drum up fresh military support against Russia during a summit of Latin American leaders in Sp",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-05T17:58:28+00:00",
+   "note": "More than five years after the military coup, the junta launched a new offensive in September to retake Rakhine State, intensifying airstrikes against civilians and employing doubl",
+   "region": "OTHER"
   },
   {
    "id": "a56543517e04",
-   "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – live",
+   "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – as it happened",
    "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
    "component": "military",
    "severity": 5,
@@ -407,44 +421,29 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-05T10:25:42+00:00",
-   "note": "France confirms Dublin-Rome flight has landed in military base, while threats also reported in Italy, Bulgaria and Belgium And the Italian news agency Ansa reported that two more p",
+   "published": "2026-11-05T17:57:54+00:00",
+   "note": "EU transport commissioner says ‘too early’ to say if bomb threats to 20 flights are linked Tell us: have you been affected by the bomb threats? And the Italian news agency Ansa rep",
    "region": "EUROPE"
   },
   {
-   "id": "340dc4e7d56b",
-   "title": "Several European flights receive bomb threats, some divert",
-   "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-world-4025-rdf",
+   "id": "e9f7e3d0aa61",
+   "title": "Hoax bomb threats target European airlines and airports for second time in a week",
+   "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "dw"
+    "bbc"
    ],
-   "published": "2026-11-05T10:10:00+00:00",
-   "note": "Several flights across Europe have either diverted or landed with a military escort after bomb or security threats. The first reported case involved a flight from Dublin to Rome la",
+   "published": "2026-11-05T17:39:48+00:00",
+   "note": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
    "region": "EUROPE"
   },
   {
-   "id": "192f6ba60a84",
-   "title": "Bomb threat forces Ireland-Italy flight to divert to French airbase",
-   "url": "https://www.scmp.com/news/world/europe/article/3373414/bomb-threat-forces-ireland-italy-flight-divert-french-airbase",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-05T10:07:38+00:00",
-   "note": "A flight from Ireland to Italy was diverted to a military airbase in western France on Thursday because of a bomb threat, the French prime minister’s office said. The flight landed",
-   "region": "EUROPE"
-  },
-  {
-   "id": "4631beeb7d5f",
-   "title": "A month after Yemen government offensive began, war of attrition takes hold",
-   "url": "https://www.aljazeera.com/news/2026/11/5/a-month-after-yemen-government-offensive-began-war-of-attrition-takes-hold?traffic_source=rss",
+   "id": "367349acf91e",
+   "title": "Jordanian officer killed in stabbing attack in Amman",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -452,39 +451,114 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-05T09:58:18+00:00",
-   "note": "The Houthis suffer losses but also inflict pain on government forces and Saudi Arabia.",
+   "published": "2026-11-05T17:08:45+00:00",
+   "note": "A Jordanian security officer has been killed and another one wounded near the Sri Lankan embassy in Amman.",
+   "region": "OTHER"
+  },
+  {
+   "id": "56951b31c856",
+   "title": "Europe: Dozens of flights diverted following bomb threats",
+   "url": "https://www.france24.com/en/video/20261105-europe-dozens-of-flights-diverted-following-bomb-threats",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-05T15:40:50+00:00",
+   "note": "Hoax bomb threats hit at least 27 affected flights around Europe this week.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "b9064f021605",
+   "title": "‘Healthcare not bombs’: How Gaza shaped Adam Hamawy’s path to US Congress",
+   "url": "https://www.aljazeera.com/news/2026/11/5/healthcare-not-bombs-how-gaza-shaped-adam-hamawys-path-to-us-congress?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-05T14:30:37+00:00",
+   "note": "Former army surgeon and Gaza volunteer Hamawy is the first Muslim American elected to the US Congress from New Jersey.",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "cd3c09882ced",
-   "title": "Hunt in Canada after multiple grizzlies suspected of killing mother and daughter",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373329/hunt-canada-after-multiple-grizzlies-suspected-killing-mother-and-daughter",
-   "component": "narrative",
+   "id": "e9b7ce982841",
+   "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
+   "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
+   "component": "military",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "scmp"
+    "guardian"
    ],
-   "published": "2026-11-05T02:02:10+00:00",
-   "note": "More than one grizzly may have been involved in a bear attack that relatives say left a mother and daughter dead in Bella Coola along the province’s central coast, the Conservation",
-   "region": "NORTH_AMERICA"
+   "published": "2026-11-05T13:47:00+00:00",
+   "note": "Dismissals follow Houthi victories and pressure from southern Yemenis for more power The UN-recognised government of Yemen has shaken up its political and military leadership in an",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "941fcd3aa883",
-   "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-   "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+   "id": "301a847feb69",
+   "title": "Multiple flights in Europe diverted because of bomb threats after earlier hoaxes",
+   "url": "https://www.france24.com/en/video/20261105-multiple-flights-in-europe-diverted-because-of-bomb-threats-after-earlier-hoaxes",
    "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-05T12:52:44+00:00",
+   "note": "Multiple flights in Europe made emergency landings on Thursday after being diverted because of bomb threats. The incidents followed hoax bomb threats earlier this week that prompte",
+   "region": "EUROPE"
+  },
+  {
+   "id": "ab7fb761f076",
+   "title": "Bomb threats cause major flight disruptions across Europe",
+   "url": "https://www.france24.com/en/video/20261105-bomb-threats-cause-major-flight-disruptions-across-europe",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-05T11:32:13+00:00",
+   "note": "Bomb ​threats forced airliners to make unplanned landings across Europe on Thursday morning, the latest in a series of threats targeting flights in Europe. While no country has att",
+   "region": "EUROPE"
+  },
+  {
+   "id": "906dbea1d6f6",
+   "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
+   "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-04T22:48:43+00:00",
-   "note": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-05T10:33:21+00:00",
+   "note": "The chef had stated that putting pineapple on pizza was \"offensive to his culture\".",
+   "region": "OTHER"
+  },
+  {
+   "id": "192f6ba60a84",
+   "title": "European flights diverted again after fresh wave of hoax bomb threats",
+   "url": "https://www.scmp.com/news/world/europe/article/3373414/bomb-threat-forces-ireland-italy-flight-divert-french-airbase",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-05T10:07:38+00:00",
+   "note": "Multiple flights in Europe made emergency landings on Thursday after being diverted because of bomb threats, authorities said. The incidents followed hoax bomb threats earlier this",
+   "region": "EUROPE"
   },
   {
    "id": "6fc98d7b3348",
@@ -492,7 +566,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -507,7 +581,7 @@
    "url": "https://www.theguardian.com/us-news/2026/nov/04/joy-iran-trump-defeat-us-midterm-elections-war",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -527,101 +601,26 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "外交部发言人汪文斌13日就阿富汗首都喀布尔日前发生恐怖袭击事件答记者问。",
    "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "d90eedeefea8",
-   "title": "墨西哥南部发生6级地震",
-   "url": "http://www.news.cn/world/2022-12/11/c_1129200728.htm",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
-   "note": "墨西哥国家地震局11日说，该国南部格雷罗州当天上午发生6级地震。首都墨西哥城响起地震警报，震感明显，有市民撤离至街头。",
-   "region": "LATAM"
-  },
-  {
-   "id": "2fda5bbab26c",
-   "title": "中方欢迎安理会通过制裁人道豁免决议",
-   "url": "http://www.news.cn/world/2022-12/10/c_1129197358.htm",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
-   "note": "中国常驻联合国副代表耿爽9日在安理会通过制裁人道豁免决议后作解释性发言，欢迎安理会通过该决议。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "6f2c95d88400",
-   "title": "俄外交部：俄公民布特与美国女篮运动员格里纳在阿布扎比机场完成交换",
-   "url": "http://www.news.cn/world/2022-12/09/c_1129193729.htm",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
-   "note": "俄罗斯外交部8日说，俄美两国当天在阿拉伯联合酋长国阿布扎比机场完成在押人员互换手续，俄公民维克托·布特与美国女篮运动员布里特妮·格里纳进行了交换。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "5c46f74905fa",
-   "title": "最新动态：俄外交部表示俄美暂停战略稳定和削减战略武器谈判 乌方称乌能源设施和输电线遭大规模袭击",
-   "url": "http://www.news.cn/world/2022-12/09/c_1129193610.htm",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
-   "note": "",
-   "region": "OTHER"
-  },
-  {
-   "id": "477b1cb44e25",
-   "title": "胡塞武装称遭沙特上百次袭击 也门政府军与胡塞武装交战升级",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-05/10726532.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-05T05:49:16+00:00",
-   "note": "中新社北京11月5日电 综合消息：也门胡塞武装当地时间4日称，沙特阿拉伯方面对也门境内多地发动上百次袭击，造成数十人伤亡。另据报道，也门政府军和胡塞武装在境内部分地区的战斗已经升级，造成大量人员死伤。",
-   "region": "MIDDLE_EAST"
   }
  ],
  "breaking": [
   {
-   "id": "cd14ede85148",
-   "title": "Bomb threat diverts Dublin-Rome flight to France",
-   "url": "https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france?traffic_source=rss",
+   "id": "66a37cad6149",
+   "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears",
+   "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
    "component": "military",
    "severity": 5,
-   "confidence": 0.82,
+   "confidence": 0.74,
    "origins": 2,
    "sources": [
-    "aljazeera",
-    "france24"
+    "guardian",
+    "dw"
    ],
-   "published": "2026-11-05T09:50:08+00:00",
-   "note": "A separate incident has been reported in Bulgaria, amid a string of bomb threats disrupting air travel across Europe.",
+   "published": "2026-11-05T18:17:36+00:00",
+   "note": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Hoax bomb threats have caused at least 25 flights across Europe to be disrupted, ",
    "region": "EUROPE"
   },
   {
@@ -635,7 +634,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -650,7 +649,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -665,20 +664,20 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T10:51:50.012683+00:00",
+   "published": "2026-11-05T19:56:37.927958+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   }
  ],
  "coverage": {
-  "sources_ok": 16,
-  "sources_failed": 4,
-  "items": 42092,
-  "gdelt_events": 41554,
+  "sources_ok": 17,
+  "sources_failed": 3,
+  "items": 42578,
+  "gdelt_events": 42025,
   "mode": "live",
   "data_through": "2026-11-04",
-  "clusters": 518,
-  "origins": 520,
+  "clusters": 537,
+  "origins": 538,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1194,7 +1193,7 @@
   },
   {
    "date": "2026-10-29",
-   "geti": 53.8
+   "geti": 53.9
   },
   {
    "date": "2026-10-30",
@@ -1202,11 +1201,11 @@
   },
   {
    "date": "2026-10-31",
-   "geti": 50.0
+   "geti": 50.1
   },
   {
    "date": "2026-11-01",
-   "geti": 37.8
+   "geti": 37.9
   },
   {
    "date": "2026-11-02",
@@ -1214,7 +1213,7 @@
   },
   {
    "date": "2026-11-03",
-   "geti": 52.8
+   "geti": 52.9
   },
   {
    "date": "2026-11-04",
@@ -1242,18 +1241,42 @@
    },
    {
     "kind": "judicial",
-    "title": "South Africans eager to vote as local elections put failing services in focus",
-    "url": "https://www.france24.com/en/video/20261105-south-africans-eager-to-vote-as-local-elections-put-failing-services-in-focus",
-    "country": "FR",
+    "title": "British actor Russell Brand faces prison after rape, sexual assault conviction",
+    "url": "https://www.scmp.com/news/world/europe/article/3373453/british-actor-russell-brand-faces-prison-after-rape-sexual-assault-conviction",
+    "country": "",
+    "source": "scmp",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "Russell Brand found guilty of rape and sexual assault by UK court",
+    "url": "https://www.aljazeera.com/news/2026/11/5/russell-brand-found-guilty-of-rape-and-sexual-assault-by-uk-court?traffic_source=rss",
+    "country": "GB",
+    "source": "aljazeera",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "British comedian Russell Brand found guilty of rape, sexual assault",
+    "url": "https://www.france24.com/en/europe/20261105-british-comedian-russell-brand-found-guilty-of-rape-sexual-assault",
+    "country": "",
     "source": "france24",
     "when": "2026-11-05"
    },
    {
     "kind": "judicial",
-    "title": "拉萨以监督之力整治旅游市场乱象 护航文旅行业高质量发展",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-05/10726763.shtml",
-    "country": "",
-    "source": "chinanews_cn",
+    "title": "Finland jails Russian cargo ship captain over Baltic Sea cable sabotage",
+    "url": "https://www.scmp.com/news/world/europe/article/3373432/finland-jails-russian-cargo-ship-captain-over-baltic-sea-cable-sabotage",
+    "country": "RU",
+    "source": "scmp",
+    "when": "2026-11-05"
+   },
+   {
+    "kind": "judicial",
+    "title": "Hong Kong grandmother gets 20 days for slapping 5-year-old girl at play area",
+    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373430/hong-kong-grandmother-gets-20-days-slapping-five-year-old-girl-play-area",
+    "country": "HK",
+    "source": "scmp",
     "when": "2026-11-05"
    },
    {
@@ -1271,79 +1294,31 @@
     "country": "SG",
     "source": "scmp",
     "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "Ex-Politburo member Ma Xingrui’s corruption charges extend to end of last century",
-    "url": "https://www.scmp.com/news/china/politics/article/3373345/ex-politburo-member-ma-xingruis-corruption-charges-extend-end-last-century",
-    "country": "",
-    "source": "scmp",
-    "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "Hong Kong government doctor found guilty of misconduct over driving conviction",
-    "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3373353/hong-kong-government-doctor-found-guilty-misconduct-over-driving-conviction",
-    "country": "HK",
-    "source": "scmp",
-    "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion",
-    "url": "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
-    "country": "CN",
-    "source": "france24",
-    "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "Joshua Wong jailed for 10 years over bid to instigate sanctions on Beijing, Hong Kong",
-    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373335/joshua-wong-jailed-10-years-over-bid-instigate-sanctions-beijing-hong-kong",
-    "country": "CN",
-    "source": "scmp",
-    "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "Serbia detains police officers over alleged use of force against protesters",
-    "url": "https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters",
-    "country": "",
-    "source": "guardian",
-    "when": "2026-11-04"
-   },
-   {
-    "kind": "judicial",
-    "title": "驻韩美军两名士兵涉嫌走私毒品被捕",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-04/10726317.shtml",
-    "country": "US",
-    "source": "chinanews",
-    "when": "2026-11-04"
    }
   ],
-  "notable_total": 12,
+  "notable_total": 9,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 12
+   "notable": 9
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 79.0,
-  "z": 0.796,
+  "index": 67.8,
+  "z": 0.447,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 20.83,
-    "chg5": 18.89,
-    "z": 1.118,
+    "last": 16.61,
+    "chg5": -1.77,
+    "z": 0.172,
     "ok": true,
-    "asof": "2026-11-03"
+    "asof": "2026-11-04"
    },
    {
     "id": "oil",
@@ -1357,11 +1332,11 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.4,
-    "chg5": 6.92,
-    "z": 0.921,
+    "last": 3.32,
+    "chg5": 5.73,
+    "z": 0.823,
     "ok": true,
-    "asof": "2026-11-03"
+    "asof": "2026-11-04"
    },
    {
     "id": "usd",
@@ -1382,13 +1357,13 @@
     "asof": "2026-11-03"
    }
   ],
-  "asof": "2026-11-03",
+  "asof": "2026-11-04",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 107,
+    "items": 108,
     "error": ""
    },
    {
@@ -1400,7 +1375,7 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 107,
+    "items": 108,
     "error": ""
    },
    {
@@ -1426,8 +1401,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 7.72,
-    "carry": 10.22,
+    "value": 7.77,
+    "carry": 10.23,
     "z": null,
     "score": null,
     "available": false
@@ -1436,8 +1411,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 4.0,
-    "carry": 11.47,
+    "value": 5.0,
+    "carry": 11.84,
     "z": null,
     "score": null,
     "available": false
@@ -1446,8 +1421,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 2.0,
-    "carry": 2.0,
+    "value": 1.0,
+    "carry": 1.63,
     "z": null,
     "score": null,
     "available": false
@@ -1503,6 +1478,12 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvuv"
     },
     {
+     "t": "South Indian Ocean",
+     "v": 4.5,
+     "ts": "2026-11-04T20:06+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw3n"
+    },
+    {
      "t": "2 km W of Chinandega, Nicaragua",
      "v": 4.5,
      "ts": "2026-11-04T19:55+00:00",
@@ -1515,12 +1496,6 @@
      "v": "severe storms",
      "ts": "",
      "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728"
-    },
-    {
-     "t": "Tropical Cyclone Murasu",
-     "v": "severe storms",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25964"
     }
    ],
    "gdacs": [
@@ -1569,8 +1544,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.93,
-    "carry": 1.11,
+    "value": 0.72,
+    "carry": 1.03,
     "z": null,
     "score": null,
     "available": false
@@ -1630,14 +1605,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 142,
-   "items": 41554,
+   "files": 141,
+   "items": 42025,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 17,
+   "items": 19,
    "error": ""
   },
   {
@@ -1649,7 +1624,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 35,
+   "items": 36,
    "error": ""
   },
   {
@@ -1678,9 +1653,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）"
+   "ok": true,
+   "items": 13,
+   "error": ""
   },
   {
    "source": "xinhua_world",
@@ -1715,13 +1690,13 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 16,
+   "items": 15,
    "error": ""
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 107,
+   "items": 108,
    "error": ""
   },
   {
@@ -1733,7 +1708,7 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 107,
+   "items": 108,
    "error": ""
   },
   {
@@ -1751,13 +1726,13 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "error": ""
   },
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "error": ""
   },
   {
@@ -1781,7 +1756,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 7000,
+   "items": 12188,
    "error": ""
   },
   {
