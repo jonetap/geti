@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.0",
- "generated_at": "2026-11-05T19:56:35+00:00",
- "date": "2026-11-04",
- "geti": 61.7,
- "delta_z": 0.77,
- "delta_pts": 8.9,
+ "generated_at": "2026-11-06T01:31:59+00:00",
+ "date": "2026-11-05",
+ "geti": 65.2,
+ "delta_z": 0.56,
+ "delta_pts": 3.5,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,170 +13,170 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 80.1,
-   "delta": 0.0,
+   "score": 78.9,
+   "delta": -1.1,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     1.74
+     "military",
+     1.69
     ],
     [
-     "military",
-     1.73
+     "diplomacy",
+     1.61
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 74.9,
-   "delta": -0.9,
+   "score": 70.7,
+   "delta": -4.2,
    "excluded": true,
    "drivers": [
     [
      "military",
-     1.38
+     1.15
     ],
     [
      "diplomacy",
-     1.31
-    ]
-   ]
-  },
-  {
-   "code": "SOUTH_ASIA",
-   "label": "南亚",
-   "score": 71.2,
-   "delta": -2.9,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     1.24
-    ],
-    [
-     "military",
-     1.18
+     1.03
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 70.4,
-   "delta": -2.4,
+   "score": 65.1,
+   "delta": -5.4,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     1.26
+     "diplomacy",
+     1.1
     ],
     [
-     "diplomacy",
-     1.18
+     "military",
+     0.7
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 70.3,
-   "delta": -4.2,
+   "score": 64.8,
+   "delta": -5.6,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.2
+     0.91
     ],
     [
      "diplomacy",
-     0.99
-    ]
-   ]
-  },
-  {
-   "code": "AFRICA",
-   "label": "非洲",
-   "score": 66.8,
-   "delta": -4.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     1.04
-    ],
-    [
-     "military",
-     0.94
+     0.69
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 65.8,
-   "delta": 1.4,
+   "score": 61.2,
+   "delta": -4.6,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     0.94
+     "diplomacy",
+     0.67
     ],
     [
-     "diplomacy",
-     0.84
+     "military",
+     0.6
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 63.0,
-   "delta": 1.5,
+   "score": 60.3,
+   "delta": -2.7,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     0.88
+     "diplomacy",
+     0.84
     ],
     [
+     "military",
+     0.61
+    ]
+   ]
+  },
+  {
+   "code": "AFRICA",
+   "label": "非洲",
+   "score": 59.2,
+   "delta": -7.6,
+   "excluded": false,
+   "drivers": [
+    [
      "diplomacy",
-     0.76
+     0.64
+    ],
+    [
+     "military",
+     0.43
+    ]
+   ]
+  },
+  {
+   "code": "SOUTH_ASIA",
+   "label": "南亚",
+   "score": 57.0,
+   "delta": -14.2,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.44
+    ],
+    [
+     "economy",
+     0.44
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 60.8,
-   "delta": -4.5,
+   "score": 52.2,
+   "delta": -8.6,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     1.08
+     "internal",
+     -0.54
     ],
     [
      "diplomacy",
-     0.66
+     0.28
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 46.9,
-   "delta": -2.6,
+   "score": 43.9,
+   "delta": -3.0,
    "excluded": false,
    "drivers": [
     [
      "economy",
-     -0.73
+     -0.79
     ],
     [
      "internal",
-     -0.7
+     -0.71
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.73,
-   "score": 89.6,
-   "contrib": 0.404
+   "z": 1.69,
+   "score": 89.2,
+   "contrib": 0.415
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.74,
-   "score": 89.8,
-   "contrib": 0.282
+   "z": 1.61,
+   "score": 88.2,
+   "contrib": 0.274
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.45,
-   "score": 85.9,
-   "contrib": 0.195
+   "z": 1.36,
+   "score": 84.6,
+   "contrib": 0.193
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 1.16,
-   "score": 81.0,
-   "contrib": 0.115
+   "z": 1.03,
+   "score": 78.3,
+   "contrib": 0.107
   },
   {
    "key": "narrative",
@@ -238,28 +238,12 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": 0.06,
-   "score": 52.0,
-   "contrib": 0.005
+   "z": 0.14,
+   "score": 54.4,
+   "contrib": 0.011
   }
  ],
  "events": [
-  {
-   "id": "66a37cad6149",
-   "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears",
-   "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.74,
-   "origins": 2,
-   "sources": [
-    "guardian",
-    "dw"
-   ],
-   "published": "2026-11-05T18:17:36+00:00",
-   "note": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Hoax bomb threats have caused at least 25 flights across Europe to be disrupted, ",
-   "region": "EUROPE"
-  },
   {
    "id": "b22984ae141f",
    "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
@@ -271,7 +255,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -286,7 +270,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -301,7 +285,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
   },
@@ -316,7 +300,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
    "region": "SOUTH_ASIA"
   },
@@ -331,7 +315,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "墨西哥东北部塔毛利帕斯州安全部门7日说，墨军方与武装分子当天在该州新拉雷多市发生交火，造成至少8人死亡、7人受伤。",
    "region": "LATAM"
   },
@@ -346,13 +330,59 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "印度尼西亚警方7日通报，印尼西爪哇省首府万隆市一所警察局当天发生炸弹袭击事件，已致2人死亡、7人受伤。",
    "region": "SOUTH_ASIA"
   },
   {
+   "id": "66a37cad6149",
+   "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears",
+   "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.6,
+   "origins": 2,
+   "sources": [
+    "guardian",
+    "dw"
+   ],
+   "published": "2026-11-05T18:17:36+00:00",
+   "note": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Why have more than 30 European flights been hit by bomb threats this week? Hoax b",
+   "region": "EUROPE"
+  },
+  {
+   "id": "4d519f67a912",
+   "title": "Hoax bomb threats force emergency landings, evacuations across Europe",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-05T21:26:21+00:00",
+   "note": "Bomb threats are causing travel disruptions at airports across Europe, targeting at least 27 flights.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "c6022b4daf88",
+   "title": "Who could be behind hoax bomb threats to European air travel?",
+   "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-05T19:58:40+00:00",
+   "note": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+   "region": "MIDDLE_EAST"
+  },
+  {
    "id": "f14430077cbc",
-   "title": "Top US civil rights official resigns",
+   "title": "Harmeet Dhillon, top US civil rights official under Trump, resigns",
    "url": "https://www.aljazeera.com/news/2026/11/5/top-us-civil-rights-official-resigns?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
@@ -381,12 +411,27 @@
    "region": "MIDDLE_EAST"
   },
   {
+   "id": "799293bfaa1b",
+   "title": "Bomb hoaxes: Messages reveal how threat was passed on by air traffic control",
+   "url": "https://www.bbc.co.uk/news/videos/cq398m8w41lyo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-05T18:22:46+00:00",
+   "note": "BBC Verify has been analysing messages after flights across Europe were targeted by fake bomb threats - the second such incident this week.",
+   "region": "EUROPE"
+  },
+  {
    "id": "5b4785558eb5",
    "title": "Bank of England raises interest rates to 4%, the first increase for more than three years",
    "url": "https://www.theguardian.com/business/2026/nov/05/bank-of-england-raises-interest-rates-first-increase-for-more-than-three-years",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -401,7 +446,7 @@
    "url": "https://www.france24.com/en/asia-pacific/20261105-myanmar-civilians-under-fire-from-military-junta",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -416,7 +461,7 @@
    "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -431,7 +476,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -446,7 +491,7 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
@@ -461,7 +506,7 @@
    "url": "https://www.france24.com/en/video/20261105-europe-dozens-of-flights-diverted-following-bomb-threats",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -469,21 +514,6 @@
    "published": "2026-11-05T15:40:50+00:00",
    "note": "Hoax bomb threats hit at least 27 affected flights around Europe this week.",
    "region": "EUROPE"
-  },
-  {
-   "id": "b9064f021605",
-   "title": "‘Healthcare not bombs’: How Gaza shaped Adam Hamawy’s path to US Congress",
-   "url": "https://www.aljazeera.com/news/2026/11/5/healthcare-not-bombs-how-gaza-shaped-adam-hamawys-path-to-us-congress?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-05T14:30:37+00:00",
-   "note": "Former army surgeon and Gaza volunteer Hamawy is the first Muslim American elected to the US Congress from New Jersey.",
-   "region": "MIDDLE_EAST"
   },
   {
    "id": "e9b7ce982841",
@@ -499,36 +529,6 @@
    "published": "2026-11-05T13:47:00+00:00",
    "note": "Dismissals follow Houthi victories and pressure from southern Yemenis for more power The UN-recognised government of Yemen has shaken up its political and military leadership in an",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "301a847feb69",
-   "title": "Multiple flights in Europe diverted because of bomb threats after earlier hoaxes",
-   "url": "https://www.france24.com/en/video/20261105-multiple-flights-in-europe-diverted-because-of-bomb-threats-after-earlier-hoaxes",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-05T12:52:44+00:00",
-   "note": "Multiple flights in Europe made emergency landings on Thursday after being diverted because of bomb threats. The incidents followed hoax bomb threats earlier this week that prompte",
-   "region": "EUROPE"
-  },
-  {
-   "id": "ab7fb761f076",
-   "title": "Bomb threats cause major flight disruptions across Europe",
-   "url": "https://www.france24.com/en/video/20261105-bomb-threats-cause-major-flight-disruptions-across-europe",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-05T11:32:13+00:00",
-   "note": "Bomb ​threats forced airliners to make unplanned landings across Europe on Thursday morning, the latest in a series of threats targeting flights in Europe. While no country has att",
-   "region": "EUROPE"
   },
   {
    "id": "906dbea1d6f6",
@@ -601,28 +601,12 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "外交部发言人汪文斌13日就阿富汗首都喀布尔日前发生恐怖袭击事件答记者问。",
    "region": "SOUTH_ASIA"
   }
  ],
  "breaking": [
-  {
-   "id": "66a37cad6149",
-   "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears",
-   "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.74,
-   "origins": 2,
-   "sources": [
-    "guardian",
-    "dw"
-   ],
-   "published": "2026-11-05T18:17:36+00:00",
-   "note": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Hoax bomb threats have caused at least 25 flights across Europe to be disrupted, ",
-   "region": "EUROPE"
-  },
   {
    "id": "b22984ae141f",
    "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
@@ -634,7 +618,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
    "region": "EAST_ASIA"
   },
@@ -649,7 +633,7 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
    "region": "SOUTH_ASIA"
   },
@@ -664,20 +648,35 @@
    "sources": [
     "xinhua_world"
    ],
-   "published": "2026-11-05T19:56:37.927958+00:00",
+   "published": "2026-11-06T01:32:03.511391+00:00",
    "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
    "region": "EUROPE"
+  },
+  {
+   "id": "fabf87ffc6f9",
+   "title": "印尼西苏门答腊省一煤矿爆炸致9人死亡",
+   "url": "http://www.news.cn/world/2022-12/09/c_1129196117.htm",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "xinhua_world"
+   ],
+   "published": "2026-11-06T01:32:03.511391+00:00",
+   "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
+   "region": "SOUTH_ASIA"
   }
  ],
  "coverage": {
   "sources_ok": 17,
   "sources_failed": 3,
-  "items": 42578,
-  "gdelt_events": 42025,
+  "items": 44660,
+  "gdelt_events": 44108,
   "mode": "live",
-  "data_through": "2026-11-04",
-  "clusters": 537,
-  "origins": 538,
+  "data_through": "2026-11-05",
+  "clusters": 536,
+  "origins": 537,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -695,11 +694,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.58,
+    "now": 3.37,
     "p50": 0.43,
-    "p90": 0.86,
-    "ratio": 8.31,
-    "z": 1.73
+    "p90": 0.87,
+    "ratio": 7.79,
+    "z": 1.69
    },
    "physical": {
     "now": 0.0,
@@ -709,40 +708,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 3.46,
-    "p50": 0.36,
-    "p90": 0.72,
-    "ratio": 9.49,
-    "z": 1.74
+    "now": 2.83,
+    "p50": 0.37,
+    "p90": 0.74,
+    "ratio": 7.58,
+    "z": 1.61
    },
    "economy": {
-    "now": 2.28,
+    "now": 2.07,
     "p50": 0.38,
-    "p90": 0.72,
-    "ratio": 6.02,
-    "z": 1.45
+    "p90": 0.79,
+    "ratio": 5.38,
+    "z": 1.36
    },
    "internal": {
-    "now": 1.18,
-    "p50": 0.14,
-    "p90": 0.38,
-    "ratio": 8.18,
-    "z": 1.16
+    "now": 1.0,
+    "p50": 0.15,
+    "p90": 0.4,
+    "ratio": 6.84,
+    "z": 1.03
    },
    "narrative": {
-    "now": 0.03,
+    "now": 0.07,
     "p50": 0.0,
     "p90": 0.11,
     "ratio": null,
-    "z": 0.06
+    "z": 0.14
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-08",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-09",
    "geti": 50.0
@@ -797,323 +792,323 @@
   },
   {
    "date": "2026-07-22",
-   "geti": 46.2
-  },
-  {
-   "date": "2026-07-23",
-   "geti": 55.0
-  },
-  {
-   "date": "2026-07-24",
-   "geti": 58.2
-  },
-  {
-   "date": "2026-07-25",
-   "geti": 59.7
-  },
-  {
-   "date": "2026-07-26",
-   "geti": 63.3
-  },
-  {
-   "date": "2026-07-27",
-   "geti": 57.8
-  },
-  {
-   "date": "2026-07-28",
-   "geti": 53.5
-  },
-  {
-   "date": "2026-07-29",
    "geti": 50.0
   },
   {
+   "date": "2026-07-23",
+   "geti": 57.6
+  },
+  {
+   "date": "2026-07-24",
+   "geti": 59.9
+  },
+  {
+   "date": "2026-07-25",
+   "geti": 60.8
+  },
+  {
+   "date": "2026-07-26",
+   "geti": 64.3
+  },
+  {
+   "date": "2026-07-27",
+   "geti": 58.8
+  },
+  {
+   "date": "2026-07-28",
+   "geti": 54.5
+  },
+  {
+   "date": "2026-07-29",
+   "geti": 50.6
+  },
+  {
    "date": "2026-07-30",
-   "geti": 50.8
-  },
-  {
-   "date": "2026-07-31",
-   "geti": 54.0
-  },
-  {
-   "date": "2026-08-01",
-   "geti": 54.6
-  },
-  {
-   "date": "2026-08-02",
-   "geti": 54.6
-  },
-  {
-   "date": "2026-08-03",
-   "geti": 51.9
-  },
-  {
-   "date": "2026-08-04",
-   "geti": 51.7
-  },
-  {
-   "date": "2026-08-05",
-   "geti": 45.4
-  },
-  {
-   "date": "2026-08-06",
-   "geti": 48.1
-  },
-  {
-   "date": "2026-08-07",
-   "geti": 46.6
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 41.3
-  },
-  {
-   "date": "2026-08-10",
-   "geti": 46.4
-  },
-  {
-   "date": "2026-08-11",
-   "geti": 48.4
-  },
-  {
-   "date": "2026-08-12",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-13",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-14",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-08-15",
-   "geti": 52.5
-  },
-  {
-   "date": "2026-08-16",
-   "geti": 53.5
-  },
-  {
-   "date": "2026-08-17",
-   "geti": 46.9
-  },
-  {
-   "date": "2026-08-18",
-   "geti": 43.0
-  },
-  {
-   "date": "2026-08-19",
-   "geti": 40.6
-  },
-  {
-   "date": "2026-08-20",
-   "geti": 45.5
-  },
-  {
-   "date": "2026-08-21",
-   "geti": 48.4
-  },
-  {
-   "date": "2026-08-22",
-   "geti": 46.0
-  },
-  {
-   "date": "2026-08-23",
-   "geti": 41.2
-  },
-  {
-   "date": "2026-08-24",
-   "geti": 45.3
-  },
-  {
-   "date": "2026-08-25",
-   "geti": 43.4
-  },
-  {
-   "date": "2026-08-26",
-   "geti": 38.1
-  },
-  {
-   "date": "2026-08-27",
-   "geti": 48.6
-  },
-  {
-   "date": "2026-08-28",
-   "geti": 51.0
-  },
-  {
-   "date": "2026-08-29",
    "geti": 51.2
   },
   {
-   "date": "2026-08-30",
-   "geti": 57.2
+   "date": "2026-07-31",
+   "geti": 54.3
   },
   {
-   "date": "2026-08-31",
-   "geti": 58.5
+   "date": "2026-08-01",
+   "geti": 55.2
   },
   {
-   "date": "2026-09-01",
-   "geti": 52.0
+   "date": "2026-08-02",
+   "geti": 55.3
   },
   {
-   "date": "2026-09-02",
-   "geti": 51.1
+   "date": "2026-08-03",
+   "geti": 52.4
   },
   {
-   "date": "2026-09-03",
-   "geti": 49.0
+   "date": "2026-08-04",
+   "geti": 52.4
   },
   {
-   "date": "2026-09-04",
-   "geti": 49.0
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 51.1
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 48.9
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 44.3
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 43.5
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 41.2
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 39.2
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 38.8
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 41.9
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 43.9
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 42.9
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 44.1
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 45.3
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 45.1
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.4
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 45.8
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 51.4
-  },
-  {
-   "date": "2026-09-21",
-   "geti": 47.9
-  },
-  {
-   "date": "2026-09-22",
-   "geti": 46.1
-  },
-  {
-   "date": "2026-09-23",
-   "geti": 48.2
-  },
-  {
-   "date": "2026-09-24",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 42.6
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 47.6
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 47.1
-  },
-  {
-   "date": "2026-09-28",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-29",
-   "geti": 42.4
-  },
-  {
-   "date": "2026-09-30",
-   "geti": 38.7
-  },
-  {
-   "date": "2026-10-01",
-   "geti": 35.2
-  },
-  {
-   "date": "2026-10-02",
-   "geti": 39.3
-  },
-  {
-   "date": "2026-10-03",
-   "geti": 40.7
-  },
-  {
-   "date": "2026-10-04",
-   "geti": 39.5
-  },
-  {
-   "date": "2026-10-05",
-   "geti": 43.7
-  },
-  {
-   "date": "2026-10-06",
+   "date": "2026-08-05",
    "geti": 45.9
   },
   {
+   "date": "2026-08-06",
+   "geti": 48.8
+  },
+  {
+   "date": "2026-08-07",
+   "geti": 47.1
+  },
+  {
+   "date": "2026-08-08",
+   "geti": 45.6
+  },
+  {
+   "date": "2026-08-09",
+   "geti": 42.0
+  },
+  {
+   "date": "2026-08-10",
+   "geti": 46.9
+  },
+  {
+   "date": "2026-08-11",
+   "geti": 49.1
+  },
+  {
+   "date": "2026-08-12",
+   "geti": 50.5
+  },
+  {
+   "date": "2026-08-13",
+   "geti": 50.3
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 49.5
+  },
+  {
+   "date": "2026-08-15",
+   "geti": 52.7
+  },
+  {
+   "date": "2026-08-16",
+   "geti": 53.7
+  },
+  {
+   "date": "2026-08-17",
+   "geti": 47.1
+  },
+  {
+   "date": "2026-08-18",
+   "geti": 43.1
+  },
+  {
+   "date": "2026-08-19",
+   "geti": 40.7
+  },
+  {
+   "date": "2026-08-20",
+   "geti": 45.9
+  },
+  {
+   "date": "2026-08-21",
+   "geti": 48.6
+  },
+  {
+   "date": "2026-08-22",
+   "geti": 46.2
+  },
+  {
+   "date": "2026-08-23",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-08-24",
+   "geti": 45.7
+  },
+  {
+   "date": "2026-08-25",
+   "geti": 43.6
+  },
+  {
+   "date": "2026-08-26",
+   "geti": 38.5
+  },
+  {
+   "date": "2026-08-27",
+   "geti": 49.2
+  },
+  {
+   "date": "2026-08-28",
+   "geti": 51.7
+  },
+  {
+   "date": "2026-08-29",
+   "geti": 51.7
+  },
+  {
+   "date": "2026-08-30",
+   "geti": 57.5
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 58.8
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 52.2
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 51.3
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 49.2
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 49.1
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 51.2
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 49.0
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 44.4
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 43.6
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 41.4
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 39.4
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 39.1
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 42.2
+  },
+  {
+   "date": "2026-09-13",
+   "geti": 44.1
+  },
+  {
+   "date": "2026-09-14",
+   "geti": 43.1
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 44.2
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 42.5
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 46.0
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 51.5
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 48.1
+  },
+  {
+   "date": "2026-09-22",
+   "geti": 46.3
+  },
+  {
+   "date": "2026-09-23",
+   "geti": 48.4
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 42.8
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 47.8
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 47.4
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 42.6
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 38.9
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 35.4
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 39.6
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 40.9
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 39.7
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 43.9
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 46.1
+  },
+  {
    "date": "2026-10-07",
-   "geti": 44.8
+   "geti": 44.9
   },
   {
    "date": "2026-10-08",
-   "geti": 43.5
+   "geti": 43.6
   },
   {
    "date": "2026-10-09",
-   "geti": 46.7
+   "geti": 46.8
   },
   {
    "date": "2026-10-10",
@@ -1218,6 +1213,10 @@
   {
    "date": "2026-11-04",
    "geti": 61.7
+  },
+  {
+   "date": "2026-11-05",
+   "geti": 65.2
   }
  ],
  "policy": {
@@ -1229,7 +1228,7 @@
     "url": "http://www.news.cn/world/2022-12/11/c_1129200037.htm",
     "country": "US",
     "source": "xinhua_world",
-    "when": "2026-11-05"
+    "when": "2026-11-06"
    },
    {
     "kind": "judicial",
@@ -1237,7 +1236,23 @@
     "url": "http://www.news.cn/world/2022-12/09/c_1129193635.htm",
     "country": "JP",
     "source": "xinhua_world",
-    "when": "2026-11-05"
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "中央层面整治形式主义为基层减负专项工作机制办公室 中央纪委办公厅公开通报3起整治形式主义为基层减负典型问题",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727027.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "China’s new PLA theatre chiefs identified as anti-corruption drive clears ranks",
+    "url": "https://www.scmp.com/news/china/military/article/3373437/chinas-new-pla-theatre-chiefs-identified-anti-corruption-drive-clears-ranks",
+    "country": "CN",
+    "source": "scmp",
+    "when": "2026-11-06"
    },
    {
     "kind": "judicial",
@@ -1245,14 +1260,6 @@
     "url": "https://www.scmp.com/news/world/europe/article/3373453/british-actor-russell-brand-faces-prison-after-rape-sexual-assault-conviction",
     "country": "",
     "source": "scmp",
-    "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "Russell Brand found guilty of rape and sexual assault by UK court",
-    "url": "https://www.aljazeera.com/news/2026/11/5/russell-brand-found-guilty-of-rape-and-sexual-assault-by-uk-court?traffic_source=rss",
-    "country": "GB",
-    "source": "aljazeera",
     "when": "2026-11-05"
    },
    {
@@ -1285,14 +1292,6 @@
     "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
     "country": "CN",
     "source": "guardian",
-    "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "Starved, beaten: Singaporean gets life imprisonment for murdering sister",
-    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373370/starved-beaten-singaporean-gets-life-imprisonment-murdering-sister",
-    "country": "SG",
-    "source": "scmp",
     "when": "2026-11-05"
    }
   ],
@@ -1350,11 +1349,11 @@
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 4.95,
-    "chg5": -0.8,
-    "z": -0.168,
+    "last": 4.9,
+    "chg5": -2.97,
+    "z": -0.118,
     "ok": true,
-    "asof": "2026-11-03"
+    "asof": "2026-11-04"
    }
   ],
   "asof": "2026-11-04",
@@ -1363,25 +1362,25 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 108,
+    "items": 107,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 104,
+    "items": 103,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 108,
+    "items": 107,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 101,
+    "items": 100,
     "error": ""
    },
    {
@@ -1401,8 +1400,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 7.77,
-    "carry": 10.23,
+    "value": 9.19,
+    "carry": 9.93,
     "z": null,
     "score": null,
     "available": false
@@ -1411,8 +1410,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 5.0,
-    "carry": 11.84,
+    "value": 8.0,
+    "carry": 10.73,
     "z": null,
     "score": null,
     "available": false
@@ -1422,7 +1421,7 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 1.0,
-    "carry": 1.63,
+    "carry": 1.45,
     "z": null,
     "score": null,
     "available": false
@@ -1441,53 +1440,71 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 3.33,
-    "carry": 2.79,
+    "value": 2.33,
+    "carry": 2.66,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 2,
+  "history_days": 3,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 3,
-   "last_seen": "2026-11-04",
+   "active_days": 4,
+   "last_seen": "2026-11-05",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "207 km ESE of Sarangani, Philippines",
+     "t": "Fiji region",
+     "v": 6.1,
+     "ts": "2026-11-05T17:21+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8r"
+    },
+    {
+     "t": "19 km NNW of Masumbwe, Tanzania",
+     "v": 5.1,
+     "ts": "2026-11-05T09:22+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw76"
+    },
+    {
+     "t": "130 km NE of Thang, India",
      "v": 5.0,
-     "ts": "2026-11-04T07:40+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvwj"
+     "ts": "2026-11-05T16:56+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8p"
+    },
+    {
+     "t": "111 km W of Petrolia, CA",
+     "v": 5.0,
+     "ts": "2026-11-05T04:56+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462637"
+    },
+    {
+     "t": "Sea of Okhotsk",
+     "v": 4.8,
+     "ts": "2026-11-05T10:09+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw7b"
+    },
+    {
+     "t": "147 km SSE of False Pass, Alaska",
+     "v": 4.6,
+     "ts": "2026-11-05T23:04+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twd4"
     },
     {
      "t": "south of the Fiji Islands",
      "v": 4.6,
-     "ts": "2026-11-04T21:24+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw43"
+     "ts": "2026-11-05T22:34+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twcy"
     },
     {
-     "t": "Fiji region",
+     "t": "36 km E of Watari, Japan",
      "v": 4.6,
-     "ts": "2026-11-04T00:32+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvuv"
-    },
-    {
-     "t": "South Indian Ocean",
-     "v": 4.5,
-     "ts": "2026-11-04T20:06+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw3n"
-    },
-    {
-     "t": "2 km W of Chinandega, Nicaragua",
-     "v": 4.5,
-     "ts": "2026-11-04T19:55+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw3k"
+     "ts": "2026-11-05T18:05+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twaq"
     }
    ],
    "eonet": [
@@ -1500,17 +1517,35 @@
    ],
    "gdacs": [
     {
-     "t": "Green forest fire notification in Indonesia",
+     "t": "Green earthquake (Magnitude 6.1M, Depth:535km) in Fiji 05/11/2026 17:21 UTC, Few",
      "v": "green",
-     "ts": "2026-11-04 20:09",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033458"
+     "ts": "2026-11-05 17:39",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1575788"
+    },
+    {
+     "t": "Green flood alert in Democratic Republic of Congo",
+     "v": "green",
+     "ts": "2026-11-05 10:23",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269"
+    },
+    {
+     "t": "Green forest fire notification in Brazil, Guyana",
+     "v": "green",
+     "ts": "2026-11-05 08:07",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033503"
+    },
+    {
+     "t": "Green forest fire notification in Suriname, Brazil",
+     "v": "green",
+     "ts": "2026-11-05 08:08",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033504"
     }
    ],
    "kp": [
     {
-     "t": "Kp 3.33 峰值（当日 8 个时段）",
-     "v": 3.33,
-     "ts": "2026-11-04",
+     "t": "Kp 2.33 峰值（当日 8 个时段）",
+     "v": 2.33,
+     "ts": "2026-11-05",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -1525,7 +1560,7 @@
     "label": "官方通报",
     "weight": 0.4,
     "value": 0.0,
-    "carry": 0.3,
+    "carry": 0.21,
     "z": null,
     "score": null,
     "available": false
@@ -1544,20 +1579,20 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.72,
-    "carry": 1.03,
+    "value": 0.91,
+    "carry": 1.0,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 2,
+  "history_days": 3,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 3,
-   "last_seen": "2026-11-04",
+   "active_days": 4,
+   "last_seen": "2026-11-05",
    "ongoing": true
   },
   "evidence": {
@@ -1565,10 +1600,10 @@
   }
  },
  "doom": {
-  "index": 61.7,
-  "z": 0.29,
+  "index": 65.2,
+  "z": 0.38,
   "parts": {
-   "military": 0.29,
+   "military": 0.38,
    "hazard": null,
    "epidemic": null
   },
@@ -1605,14 +1640,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 141,
-   "items": 42025,
+   "files": 144,
+   "items": 44108,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 19,
+   "items": 20,
    "error": ""
   },
   {
@@ -1690,31 +1725,31 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 15,
+   "items": 13,
    "error": ""
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 108,
+   "items": 107,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 104,
+   "items": 103,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 108,
+   "items": 107,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 101,
+   "items": 100,
    "error": ""
   },
   {
@@ -1726,7 +1761,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 5,
+   "items": 8,
    "error": ""
   },
   {
@@ -1738,7 +1773,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 1,
+   "items": 4,
    "error": ""
   },
   {
@@ -1756,7 +1791,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 12188,
+   "items": 8692,
    "error": ""
   },
   {
