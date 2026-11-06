@@ -289,6 +289,14 @@
       </div>
     </section>
 
+    <section class="solo">
+      <div class="card">
+        <div class="head-row"><h2>实体压力 · 粮价（月度）</h2><span class="mkt-sc" id="foodSc">–</span></div>
+        <div class="note" id="foodNote"></div>
+        <div id="food"></div>
+      </div>
+    </section>
+
     <section class="grid">
       <div class="card">
         <div class="head-row"><h2>自然灾害（L4）</h2><span class="mkt-sc" id="hzSc">–</span></div>
@@ -461,6 +469,49 @@ function renderMarket(m){
     <div class="mkt-src">${esc(m.source || "")}${m.z == null ? "" : " · z " + Number(m.z).toFixed(2)}</div>`;
 }
 
+
+/* ---------------- 粮价（月度） ---------------- */
+
+function renderFood(f){
+  const note = $("foodNote"), box = $("food"), sc = $("foodSc");
+  if (!f || f.mode === "skipped" || f.mode === "failed"){
+    note.textContent = "本次未取到粮价数据";
+    sc.textContent = "–";
+    box.innerHTML = '<div class="val">本次未取到粮价数据（不影响 GETI）</div>';
+    return;
+  }
+  const lag = f.lag_months == null ? "" : ` · 最新数据 ${f.asof || "—"}，滞后约 ${f.lag_months} 个月`;
+  note.textContent = `月度序列，环比不是"今日变动"，是"这个月比上个月贵了多少"${lag}`;
+  sc.textContent = f.index == null ? "–" : Number(f.index).toFixed(1);
+
+  const rows = (f.rows || []).map(r => {
+    if (r.ok === false){
+      return `<div class="mkt-row off"><div class="nm">${esc(r.label)}</div>
+        <div class="v">ERR</div><div class="c">—</div><div class="z">—</div></div>`;
+    }
+    const mom = Number(r.mom);
+    const cls = mom > 0 ? "up" : mom < 0 ? "down" : "";
+    const arrow = mom > 0 ? "▲ " : mom < 0 ? "▼ " : "· ";
+    const z = r.z == null ? "—" : "z " + (r.z > 0 ? "+" : "") + Number(r.z).toFixed(2);
+    return `<div class="mkt-row">
+      <div class="nm">${esc(r.label)}</div>
+      <div class="v">${isFinite(Number(r.last)) ? Number(r.last).toFixed(1) : "—"}</div>
+      <div class="c ${cls}">${isFinite(mom) ? arrow + Math.abs(mom).toFixed(1) + "%" : "—"}</div>
+      <div class="z">${z}</div>
+    </div>`;
+  }).join("");
+
+  const idx = f.index == null ? null : Math.max(0, Math.min(100, f.index));
+  box.innerHTML = `
+    <div class="mkt-top">
+      <span class="mkt-lbl">综合</span>
+      <div class="track"><i style="width:${idx == null ? 0 : idx}%"></i></div>
+      <span class="mkt-sc">${idx == null ? "—" : Number(f.index).toFixed(1)}</span>
+    </div>
+    <div class="mkt-rows">${rows}</div>
+    <div class="mkt-src">${esc(f.source || "")}${f.z == null ? "" : " · z " + Number(f.z).toFixed(2)}
+      · 单列展示，不并入 GETI</div>`;
+}
 
 /* ---------------- 末日指数 / 子指数 ---------------- */
 const DOOM_PART = {military:"军事升级", hazard:"自然灾害", epidemic:"传染病"};
@@ -695,7 +746,7 @@ function render(S){
   const brk = S.breaking || [];
   $("breaking").innerHTML = brk.length ? brk.map(b => `
     <div class="brk">
-      <div class="tag">待核实 · 仅 ${b.origins} 个独立源</div>
+      <div class="tag">${b.origins <= 1 ? "待核实 · 仅 1 个独立源" : "已多源确认 · " + b.origins + " 个独立源"}</div>
       <a class="ti" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a>
       <div class="ev-meta"><span>${esc(COMP[b.component] || b.component)}</span>
       <span>${esc(REG[b.region] || "未归属")}</span><span>${ago(b.published)}</span></div>
@@ -723,6 +774,7 @@ function render(S){
 
   // 市场层（L3）
   renderMarket(S.market);
+  renderFood(S.food);
 
   // 末日指数与两个子系统
   renderDoom(S.doom);
@@ -854,7 +906,8 @@ function renderManual(S){
     const href = it.url || (it.links && it.links[0]) || "#";
     const imgs = (it.images || []).map(function(u){
       return '<a href="' + esc(u) + '" target="_blank" rel="noreferrer">'
-        + '<img src="' + esc(u) + '" alt="" loading="lazy"></a>';
+        + '<img src="' + esc(u) + '" alt="" loading="lazy"'
+        + ' onerror="this.parentNode.style.display=\'none\'"></a>';
     }).join("");
     const when = it.created ? String(it.created).slice(0, 10) : "";
     const src = (it.links && it.links[0]) || "";
