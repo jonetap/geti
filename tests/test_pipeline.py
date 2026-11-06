@@ -15,7 +15,7 @@ from unittest import mock
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from pipeline import (
-    backtest, build, cluster, epidemic, hazard, market, score, store,
+    backtest, build, cluster, epidemic, hazard, manual, market, score, store,
 )          # noqa: E402
 from pipeline.parse import gdelt_rows, parse_feed          # noqa: E402
 from pipeline.synth import synth_items, synth_signals      # noqa: E402
@@ -233,6 +233,38 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(snap["regions"], [], "两天历史不足以产生区域分")
         self.assertAlmostEqual(snap["geti"], 50.0, delta=1.0)
 
+    def test_breaking_requires_a_fresh_event(self) -> None:
+        """旧闻不许进突发——2022 年的新闻曾以"3 小时前"混进来过。"""
+        from pipeline.model import Cluster, RawItem, ScoredCluster
+
+        now = datetime(2026, 11, 3, 12, tzinfo=UTC)
+        d0 = date(2026, 9, 1)
+        series = {}
+        for i in range(40):
+            d = d0 + timedelta(days=i)
+            for r in ("MIDDLE_EAST", "EUROPE"):
+                for c in ("military", "diplomacy"):
+                    series.setdefault((r, c), {})[d] = 5.0
+        days = [d0 + timedelta(days=i) for i in range(40)]
+
+        def mk(pub: datetime, title: str) -> "ScoredCluster":
+            it = RawItem("bbc", title, "", "https://e/1", pub, "en")
+            c = Cluster(cid=title[:6], title=title, body="", url="https://e/1",
+                        published=pub, items=[it])
+            return ScoredCluster(cluster=c, component="military", severity=5,
+                                 confidence=0.30, evidence=1.0, corroboration=0.3,
+                                 specificity=0.4, origin_count=1)
+
+        cov = {"sources_ok": 10, "sources_failed": 0, "items": 500}
+        old = mk(now - timedelta(days=30), "Four-year-old archive headline")
+        snap = build.build_snapshot(series, days[-1], days, [old], cov, now=now)
+        self.assertEqual(snap["breaking"], [], "旧闻不该出现在突发里")
+
+        fresh = mk(now - timedelta(hours=1), "Fresh shelling reported")
+        snap2 = build.build_snapshot(series, days[-1], days, [fresh], cov, now=now)
+        self.assertEqual(len(snap2["breaking"]), 1)
+        self.assertEqual(snap2["breaking"][0]["title"], "Fresh shelling reported")
+
 
 class TestStore(unittest.TestCase):
     def test_idempotent_roundtrip(self) -> None:
@@ -359,6 +391,54 @@ class TestMarket(unittest.TestCase):
         self.assertEqual(block["mode"], "empty")
         self.assertEqual(block["index"], 50.0)
 
+    # ---------------------------------------------------------------- 粮价
+    @staticmethod
+    def _monthly(base: float, months: int, spike: float | None = None):
+        cell = {}
+        d = date(2026, 9, 1)
+        for i in range(months):
+            cell[d] = base
+            if spike is not None and i == 0:
+                cell[d] = spike
+            d = (d - timedelta(days=1)).replace(day=1)
+        return cell
+
+    def test_food_spike_raises_composite(self) -> None:
+        calm = {sid: self._monthly(100.0, 24) for sid, _c, _l in market.FOOD}
+        hot = dict(calm)
+        hot["wheat"] = self._monthly(100.0, 24, spike=190.0)
+        a = market.build_food_block(calm, today=date(2026, 9, 30))
+        b = market.build_food_block(hot, today=date(2026, 9, 30))
+        self.assertGreater(b["z"], a["z"])
+        self.assertGreater(b["index"], a["index"])
+
+    def test_food_reports_lag_in_months(self) -> None:
+        raw = {sid: self._monthly(100.0, 24) for sid, _c, _l in market.FOOD}
+        block = market.build_food_block(raw, today=date(2026, 11, 6))
+        self.assertEqual(block["asof"], "2026-09-01")
+        self.assertEqual(block["lag_months"], 2, "11 月时最新只到 9 月，滞后两个月")
+
+    def test_food_month_on_month_change(self) -> None:
+        cell = {date(2026, m, 1): 100.0 for m in range(3, 10)}
+        cell[date(2026, 9, 1)] = 110.0
+        block = market.build_food_block({"wheat": cell}, today=date(2026, 9, 30))
+        row = [r for r in block["rows"] if r["id"] == "wheat"][0]
+        self.assertAlmostEqual(row["mom"], 10.0, places=2)
+
+    def test_food_missing_history_is_marked_not_invented(self) -> None:
+        block = market.build_food_block({"rice": {date(2026, 9, 1): 100.0}},
+                                        today=date(2026, 9, 30))
+        rice = [r for r in block["rows"] if r["id"] == "rice"][0]
+        self.assertFalse(rice["ok"])
+        self.assertIsNone(rice["last"])
+
+    def test_food_standalone_never_touches_geti(self) -> None:
+        # 粮价是背景层：它的块里不该出现任何和 GETI 耦合的字段
+        raw = {sid: self._monthly(100.0, 24) for sid, _c, _l in market.FOOD}
+        block = market.build_food_block(raw, today=date(2026, 9, 30))
+        self.assertNotIn("contribution", block)
+        self.assertNotIn("component", block)
+
 
 class TestBacktest(unittest.TestCase):
     def test_without_history_is_honest(self) -> None:
@@ -430,6 +510,9 @@ class TestRunEndToEnd(unittest.TestCase):
                                        return_value=(items, [{"source": "bbc", "ok": True}])), \
                      mock.patch.object(market, "fetch_market",
                                        return_value={"index": 55.0, "rows": [], "health": []}), \
+                     mock.patch.object(market, "fetch_food",
+                                       return_value={"index": 52.0, "rows": [], "health": [],
+                                                     "mode": "live"}), \
                      mock.patch.object(physical, "fetch_day",
                                        return_value=({("EUROPE", "physical"):
                                                       {date(2026, 11, 2): -0.25}},
@@ -445,7 +528,8 @@ class TestRunEndToEnd(unittest.TestCase):
                                        return_value=({"who_don": 1.0, "policy": 0.0},
                                                      [{"source": "who:don", "ok": True}],
                                                      {"who": [{"t": "Cholera outbreak", "v": "通报",
-                                                               "ts": "", "u": "https://example.org/who1"}]})):
+                                                               "ts": "", "u": "https://example.org/who1"}]})), \
+                     mock.patch.object(manual, "fetch_issues", return_value=[]):
                     code = cli.main(["run", "--out", out, "--series", series])
             finally:
                 cli.DEFAULT_HEALTH = old_health
