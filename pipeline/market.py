@@ -36,6 +36,19 @@ INDICATORS: list[tuple[str, str, str, bool]] = [
 COMPOSITE_IDS = ("vix", "oil", "hy")   # 只让这三项进综合压力分
 WINDOW = 90                            # 与指数同口径的历史窗口
 
+# 粮价：FRED 上这条路只有**月度**序列（IMF 商品价格），而且发布滞后约两个月。
+# 所以它测的不是"今天涨了"，是"这半年饭变贵了多少"——结构性压力。
+# 单独成块、单独标注滞后，绝不并入 GETI（和上面的市场层同一条理由）。
+FOOD: list[tuple[str, str, str]] = [
+    ("wheat", "PWHEAMTUSDM", "小麦"),
+    ("corn", "PMAIZMTUSDM", "玉米"),
+    ("rice", "PRICENPQUSDM", "大米"),
+    ("sugar", "PSUGAISAUSDM", "糖"),
+    ("food", "PFOODINDEXM", "食品价格指数"),
+]
+FOOD_WINDOW = 24                       # 月度序列用 24 个月做基准，日频的 90 天在这里太短
+FOOD_COMPOSITE = ("wheat", "corn", "rice", "sugar")
+
 
 def _to_date(s: str) -> date | None:
     try:
@@ -139,3 +152,78 @@ def build_block(raw: dict[str, dict[date, float]], health: list[dict] | None = N
 def median_level(rows: list[dict]) -> float | None:
     vals = [r["last"] for r in rows if r.get("last") is not None]
     return median(vals) if vals else None
+
+
+# ---------------------------------------------------------------- 粮价（月度）
+
+def fetch_food(months: int = FOOD_WINDOW + 12) -> dict:
+    """月频数据，单独的 IO 路径。任何一项失败都不影响其它。"""
+    start = date.today() - timedelta(days=int(months * 31))
+    raw: dict[str, dict[date, float]] = {}
+    health: list[dict] = []
+    for sid, code, _ in FOOD:
+        rec = {"source": f"fred:{code}", "ok": False, "items": 0, "error": ""}
+        try:
+            body = http_get(
+                FRED.format(sid=code, start=start.isoformat(), end=date.today().isoformat()),
+                timeout=30,
+            ).decode("utf-8", errors="replace")
+            got = parse_fred(body)
+            raw[sid] = got
+            rec["items"] = len(got)
+            rec["ok"] = bool(got)
+            if not got:
+                rec["error"] = "解析到 0 行"
+        except Exception as exc:
+            rec["error"] = f"{type(exc).__name__}: {exc}"[:200]
+        health.append(rec)
+    return build_food_block(raw, health)
+
+
+def build_food_block(raw: dict[str, dict[date, float]], health: list[dict] | None = None,
+                     today: date | None = None) -> dict:
+    """纯函数。z 是"相对于自己过去 24 个月"，不是相对于别的商品。"""
+    today = today or date.today()
+    rows: list[dict] = []
+    zs: list[float] = []
+    latest: date | None = None
+
+    for sid, code, label in FOOD:
+        vals = raw.get(sid) or {}
+        days = sorted(vals)
+        if len(days) < 6:
+            rows.append({"id": sid, "label": label, "last": None,
+                         "mom": None, "z": 0.0, "ok": False})
+            continue
+        last = days[-1]
+        hist = [vals[d] for d in days[-FOOD_WINDOW:]]
+        z = robust_z(vals[last], hist)
+        z = 0.0 if z is None else z
+        prev = days[-2]
+        prev_v = vals.get(prev)
+        mom = ((vals[last] - prev_v) / prev_v * 100.0) if prev_v else None
+        rows.append({
+            "id": sid, "label": label, "last": round(vals[last], 2),
+            "mom": round(mom, 2) if mom is not None else None,
+            "z": round(z, 2), "ok": True, "asof": last.isoformat()[:7],
+        })
+        if sid in FOOD_COMPOSITE:
+            zs.append(z)
+        latest = last if latest is None or last > latest else latest
+
+    z_mean = sum(zs) / len(zs) if zs else 0.0
+    index = 50.0 + 50.0 * math.tanh(z_mean / 1.2) if zs else 50.0
+    lag = None
+    if latest is not None:
+        lag = (today.year - latest.year) * 12 + (today.month - latest.month)
+
+    return {
+        "index": round(index, 1),
+        "z": round(z_mean, 3),
+        "rows": rows,
+        "asof": latest.isoformat() if latest else None,
+        "lag_months": lag,
+        "source": "FRED / IMF 商品价格（月度）",
+        "health": health or [],
+        "mode": "live" if zs else "empty",
+    }

@@ -115,6 +115,23 @@ def cmd_demo(args: argparse.Namespace) -> int:
     }
     snap = _assemble(signals, items, end, now, coverage, args.series, args.days)
 
+    # 演示用的市场/粮价：造一条平稳序列，让两张卡都能渲染出真实布局
+    rnd_m = random.Random(777)
+    raw_m: dict = {}
+    for sid, _code, _label, _up in market.INDICATORS:
+        raw_m[sid] = {end - timedelta(days=i): round(20.0 + rnd_m.random() * 4, 3)
+                      for i in range(120)}
+    snap["market"] = market.build_block(raw_m, [])
+    raw_f: dict = {}
+    for sid, _code, _label in market.FOOD:
+        cell: dict = {}
+        d = end.replace(day=1)
+        for _ in range(24):
+            cell[d] = round(100.0 + rnd_m.random() * 8, 2)
+            d = (d - timedelta(days=1)).replace(day=1)
+        raw_f[sid] = cell
+    snap["food"] = market.build_food_block(raw_f, [], today=end)
+
     # 演示用的灾害/疫情：编一组平稳的历史，让页面三个模块都能渲染
     rnd = random.Random(20261103)
     fake: dict = {}
@@ -173,6 +190,7 @@ def cmd_run(args: argparse.Namespace) -> int:
     items, fh = fetcher.fetch_feeds()
 
     mkt: dict = {"mode": "skipped"}
+    food: dict = {"mode": "skipped"}
     if not args.no_market:
         try:
             mkt = market.fetch_market()
@@ -180,6 +198,11 @@ def cmd_run(args: argparse.Namespace) -> int:
             mkt = {"mode": "failed", "error": f"{type(exc).__name__}: {exc}"[:200]}
         health = mkt.get("health") or []
         fh = fh + health
+        try:
+            food = market.fetch_food()
+        except Exception as exc:
+            food = {"mode": "failed", "error": f"{type(exc).__name__}: {exc}"[:200]}
+        fh = fh + (food.get("health") or [])
 
     if resolved is None:
         print("[run] GDELT 连续多日拉不到任何日文件——不写快照（否则会用一个空窗口算指数）",
@@ -219,7 +242,7 @@ def cmd_run(args: argparse.Namespace) -> int:
                        "error": f"{type(exc).__name__}: {exc}"[:200]}
 
     snap = _assemble(signals, items, score_day, now, coverage, args.series, args.span,
-                     extra={"market": mkt}, series_extra=phys_series)
+                     extra={"market": mkt, "food": food}, series_extra=phys_series)
 
     aux_block, aux_health = _aux_block(score_day, items)
     snap["hazard"] = aux_block["hazard"]
@@ -230,7 +253,7 @@ def cmd_run(args: argparse.Namespace) -> int:
 
     # 人工线索：人看到但机器没抓到的东西。进页面，不进指数。
     try:
-        snap["manual"], mh = manual.build_block(items, now=now)
+        snap["manual"], mh = manual.build_block(items, now=now, out_dir="web/intel")
     except Exception as exc:                        # noqa: BLE001
         snap["manual"] = {"items": [], "mode": "failed",
                           "note": "本次没读到人工线索（不影响指数）"}
