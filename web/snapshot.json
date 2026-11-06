@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-06T06:47:14+00:00",
+ "generated_at": "2026-11-06T10:50:16+00:00",
  "date": "2026-11-05",
  "geti": 65.2,
  "delta_z": 0.56,
@@ -245,20 +245,109 @@
  ],
  "events": [
   {
-   "id": "66a37cad6149",
-   "title": "Bomb threats disrupt dozens of flights across Europe, raising hybrid war fears",
-   "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
+   "id": "91e21dcb6e83",
+   "title": "At least two killed, 16 injured in school bus accident in eastern France",
+   "url": "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-06T10:37:42+00:00",
+   "note": "A bus carrying school children crashed south of Bourg-en-Bresse in eastern France on Friday, killing at least two people and injuring 16 others. The vehicle was carrying 43 passeng",
+   "region": "EUROPE"
+  },
+  {
+   "id": "b5d297655711",
+   "title": "Two dead after bus crashes in France, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-06T10:36:31+00:00",
+   "note": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "f02968d4963a",
+   "title": "European skies on high alert after hoax bomb threats this week – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
    "component": "military",
    "severity": 5,
-   "confidence": 0.6,
-   "origins": 2,
+   "confidence": 0.56,
+   "origins": 1,
    "sources": [
-    "guardian",
-    "dw"
+    "guardian"
    ],
-   "published": "2026-11-05T18:17:36+00:00",
-   "note": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Why have more than 30 European flights been hit by bomb threats this week? Hoax b",
+   "published": "2026-11-06T10:33:41+00:00",
+   "note": "Hoax bomb threats targeted commercial flights this week leaving at least 35 planes searched or diverted A WizzAir flight from Prague to Rome has been diverted to Venice following a",
    "region": "EUROPE"
+  },
+  {
+   "id": "b2dc3ede62a9",
+   "title": "Death toll rises to 50 in Russian attack on aid distribution ‌point in Ukraine",
+   "url": "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-06T10:15:12+00:00",
+   "note": "The death toll from Russia's bombing of an aid ​distribution ‌point in ⁠Ukraine's southeastern Zaporizhzhia region on Monday ‌has risen to 50, Kyiv's Emergency Service said on Frid",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "65806a009070",
+   "title": "'Sleazy', 'manipulative' and 'ruthless': Russell Brand convicted of rape, sexual assault",
+   "url": "https://www.france24.com/en/tv-shows/press-review/20261106-sleazy-manipulative-and-ruthless-russell-brand-convicted-of-rape-sexual-assault",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-06T09:53:13+00:00",
+   "note": "PRESS REVIEW – Friday, November 6: Italian, British, French and Bulgarian papers discuss the bomb threats that diverted multiple flights across Europe on Thursday. British papers d",
+   "region": "OTHER"
+  },
+  {
+   "id": "1daee07c9efe",
+   "title": "Japan deploys AI, specialist teams to counter cyberattack wave",
+   "url": "https://www.scmp.com/news/asia/east-asia/article/3373555/japan-deploys-ai-specialist-teams-counter-cyberattack-wave",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-06T09:37:42+00:00",
+   "note": "Japan’s government on Friday compiled a package of emergency measures to address a spate of recent personal data breaches caused by unauthorised access, amid growing public concern",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "a9c1f1faa169",
+   "title": "Friday briefing: ​After a week of disruption, is living with threats our new normal?",
+   "url": "https://www.theguardian.com/world/2026/nov/06/friday-briefing-after-a-week-of-disruption-is-living-with-threats-our-new-normal",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-06T06:43:04+00:00",
+   "note": "In today’s newsletter: From diverted airliners to hacked ​fridges, a string of disruptive incidents has exposed the ​vulnerabilities of modern ​life. ​There is now an increasingly ",
+   "region": "OTHER"
   },
   {
    "id": "c954b34d78dc",
@@ -276,18 +365,19 @@
    "region": "OTHER"
   },
   {
-   "id": "4d519f67a912",
-   "title": "Hoax bomb threats force emergency landings, evacuations across Europe",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
+   "id": "66a37cad6149",
+   "title": "Bomb threats disrupt dozens of flights across Europe, raising hybrid war fears",
+   "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
+   "confidence": 0.49,
+   "origins": 2,
    "sources": [
-    "aljazeera"
+    "guardian",
+    "dw"
    ],
-   "published": "2026-11-05T21:26:21+00:00",
-   "note": "Bomb threats are causing travel disruptions at airports across Europe, targeting at least 27 flights.",
+   "published": "2026-11-05T18:17:36+00:00",
+   "note": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Why have more than 30 European flights been hit by bomb threats this week? Hoax b",
    "region": "EUROPE"
   },
   {
@@ -336,21 +426,6 @@
    "region": "EUROPE"
   },
   {
-   "id": "6a8c44ff08cb",
-   "title": "Myanmar: Civilians under fire from military junta",
-   "url": "https://www.france24.com/en/asia-pacific/20261105-myanmar-civilians-under-fire-from-military-junta",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-05T17:58:28+00:00",
-   "note": "More than five years after the military coup, the junta launched a new offensive in September to retake Rakhine State, intensifying airstrikes against civilians and employing doubl",
-   "region": "OTHER"
-  },
-  {
    "id": "a56543517e04",
    "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – as it happened",
    "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
@@ -381,21 +456,6 @@
    "region": "EUROPE"
   },
   {
-   "id": "56951b31c856",
-   "title": "Europe: Dozens of flights diverted following bomb threats",
-   "url": "https://www.france24.com/en/video/20261105-europe-dozens-of-flights-diverted-following-bomb-threats",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-05T15:40:50+00:00",
-   "note": "Hoax bomb threats hit at least 27 affected flights around Europe this week.",
-   "region": "EUROPE"
-  },
-  {
    "id": "e9b7ce982841",
    "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
    "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
@@ -416,7 +476,7 @@
    "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -456,6 +516,66 @@
    "region": "MIDDLE_EAST"
   },
   {
+   "id": "679973677bb8",
+   "title": "美国对古巴制裁新增两家中国公司 中方：坚决反对所谓“长臂管辖”",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727300.shtml",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews_cn"
+   ],
+   "published": "2026-11-06T07:28:57+00:00",
+   "note": "中新网北京11月6日电 (记者 张蔚然)中国外交部发言人郭嘉昆6日主持例行记者会。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "e86403f0535a",
+   "title": "Trump wooed Latino voters, but his ICE tactics sent them back to the polls: ‘They’re taking our neighbors’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/06/latino-voters-midterms-republicans-trump",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-06T10:00:50+00:00",
+   "note": "Texas business owner says he expected ICE raids to focus on those with criminal records not his relatives and employees Tuesday night’s explosive rout of the Republican party was s",
+   "region": "OTHER"
+  },
+  {
+   "id": "667f91d954c3",
+   "title": "UK jailing of Indian sailor over Russia sanctions sets off ‘perfect storm’",
+   "url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-06T08:32:57+00:00",
+   "note": "Captain Ajay Pant was in international waters when his allegedly 'shadow' tanker was captured by British soldiers.",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "739872f1fc8e",
+   "title": "Seven people arrested in Glasgow after Bonfire Night violence across Scotland",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/06/arrests-glasgow-bonfire-night-violence-scotland",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-06T08:11:24+00:00",
+   "note": "Emergency services targeted with fireworks and police vehicle set alight in Glasgow Seven people were arrested in Glasgow after violence on Bonfire Night in parts of Scotland durin",
+   "region": "OTHER"
+  },
+  {
    "id": "59a07474e554",
    "title": "5 months’ jail for helper convicted of molesting employer’s 12-year-old daughter",
    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373505/5-months-jail-helper-convicted-molesting-employers-12-year-old-daughter",
@@ -467,7 +587,7 @@
     "scmp"
    ],
    "published": "2026-11-06T05:30:29+00:00",
-   "note": "A Hong Kong court has sentenced a domestic helper to five months in jail for molesting her former employer’s daughter in the family home. Lady Jay Santos Flores, 45, did not submit",
+   "note": "A Hong Kong court has sentenced a domestic helper to five months in jail for molesting her former employer’s 12-year-old daughter in the family home. Lady Jay Santos Flores, 45, of",
    "region": "OTHER"
   },
   {
@@ -484,133 +604,28 @@
    "published": "2026-11-05T12:00:00+00:00",
    "note": "联合国儿童基金会周四发布报告指出，2021年至2025年，造成供水和环境卫生系统受损或被毁的袭击事件增至原来的三倍，儿童面临的疾病暴发、营养不良和暴力风险随之上升。",
    "region": "OTHER"
-  },
-  {
-   "id": "378b7397cc0b",
-   "title": "联合国阿卜耶伊安全部队继续发挥稳定作用 无人机袭击凸显地区安全风险",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143137",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.43,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-05T12:00:00+00:00",
-   "note": "联合国负责维和事务的副秘书长拉克鲁瓦和秘书长非洲之角问题特使丛光周四在安理会通报阿卜耶伊局势时指出，尽管阿卜耶伊整体安全形势有所改善，苏丹冲突外溢、武装势力活动和治理问题仍使当地局势面临严峻挑战。联合国阿卜耶伊临时安全部队继续发挥重要稳定作用。",
-   "region": "AFRICA"
-  },
-  {
-   "id": "4a8245ccbd38",
-   "title": "Spanish footballer Jesus de Miguel mourned by family and friends",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/spanish-footballer-jesus-de-miguel-mourned-by-family-and-friends?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-05T21:42:30+00:00",
-   "note": "The 30-year-old striker suffered cardiac arrest following an on-field collision.",
-   "region": "OTHER"
-  },
-  {
-   "id": "a85a2fc35362",
-   "title": "British Ebola patient evacuated from DR Congo arrives at London hospital",
-   "url": "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
-   "component": "physical",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-05T20:30:11+00:00",
-   "note": "Doctor who was helping response to outbreak in Africa taken to specialist isolation unit at Royal Free hospital A British doctor who tested positive for Ebola while working in the ",
-   "region": "AFRICA"
-  },
-  {
-   "id": "8d48305755f8",
-   "title": "Mass protests sweep France again, as workers strike and march for ‘dignified wage’",
-   "url": "https://www.scmp.com/news/world/europe/article/3373463/mass-protests-sweep-france-again-workers-strike-and-march-dignified-wage",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-05T20:23:56+00:00",
-   "note": "Hundreds of thousands of striking workers protested across France on Thursday against the rising cost of living following weeks of youth-led demonstrations, with police firing tear",
-   "region": "EUROPE"
-  },
-  {
-   "id": "99aea6e86172",
-   "title": "US sanctions Chinese firms over alleged military supplies to Cuba",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3373462/us-sanctions-chinese-firms-over-alleged-military-supplies-cuba",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-05T20:13:47+00:00",
-   "note": "The United States has imposed sanctions on two Chinese companies it accuses of supplying equipment and components to Cuba’s military, as Washington intensifies pressure on Havana’s",
-   "region": "NORTH_AMERICA"
-  },
-  {
-   "id": "65240ba30864",
-   "title": "French protests see numbers surge as unions join strikes over high cost of living",
-   "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-05T17:59:53+00:00",
-   "note": "The interior ministry estimates 600,000 people joined protests across France, while the unions say the number was far higher.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "7fd8dc032e08",
-   "title": "France needs 'more public services', 'salaries are too low', 'schools are in very, very bad shape'",
-   "url": "https://www.france24.com/en/france-needs-more-public-services-salaries-are-too-low-schools-are-in-very-very-bad-shape",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-05T17:36:48+00:00",
-   "note": "As France confronts another wave of strikes and protests, Gaëlle Martinez, National Secretary of the trade union Solidaires, presents the general strike as more than a confrontatio",
-   "region": "EUROPE"
-  },
-  {
-   "id": "2ccf420205d9",
-   "title": "Protesters march in cities across France as unions stage general strike",
-   "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-05T17:21:45+00:00",
-   "note": "Hundreds of thousands demonstrate over cost of living and cuts to public services as 70,000 police officers deployed Hundreds of thousands of people have marched in cities across F",
-   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "c954b34d78dc",
-   "title": "A wildfire killed their loved ones in Spain. These British families demand to know why",
-   "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss",
+   "id": "91e21dcb6e83",
+   "title": "At least two killed, 16 injured in school bus accident in eastern France",
+   "url": "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-06T10:37:42+00:00",
+   "note": "A bus carrying school children crashed south of Bourg-en-Bresse in eastern France on Friday, killing at least two people and injuring 16 others. The vehicle was carrying 43 passeng",
+   "region": "EUROPE"
+  },
+  {
+   "id": "b5d297655711",
+   "title": "Two dead after bus crashes in France, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -618,35 +633,50 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-06T06:00:46+00:00",
-   "note": "Nine British nationals were among the 15 people who died when fire ripped through the village of Bédar this summer.",
-   "region": "OTHER"
+   "published": "2026-11-06T10:36:31+00:00",
+   "note": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
+   "region": "EUROPE"
   },
   {
-   "id": "59a07474e554",
-   "title": "5 months’ jail for helper convicted of molesting employer’s 12-year-old daughter",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373505/5-months-jail-helper-convicted-molesting-employers-12-year-old-daughter",
-   "component": "narrative",
-   "severity": 4,
+   "id": "f02968d4963a",
+   "title": "European skies on high alert after hoax bomb threats this week – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
+   "component": "military",
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "scmp"
+    "guardian"
    ],
-   "published": "2026-11-06T05:30:29+00:00",
-   "note": "A Hong Kong court has sentenced a domestic helper to five months in jail for molesting her former employer’s daughter in the family home. Lady Jay Santos Flores, 45, did not submit",
-   "region": "OTHER"
+   "published": "2026-11-06T10:33:41+00:00",
+   "note": "Hoax bomb threats targeted commercial flights this week leaving at least 35 planes searched or diverted A WizzAir flight from Prague to Rome has been diverted to Venice following a",
+   "region": "EUROPE"
+  },
+  {
+   "id": "b2dc3ede62a9",
+   "title": "Death toll rises to 50 in Russian attack on aid distribution ‌point in Ukraine",
+   "url": "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-06T10:15:12+00:00",
+   "note": "The death toll from Russia's bombing of an aid ​distribution ‌point in ⁠Ukraine's southeastern Zaporizhzhia region on Monday ‌has risen to 50, Kyiv's Emergency Service said on Frid",
+   "region": "RUSSIA_CIS"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 41876,
-  "gdelt_events": 41619,
+  "items": 41406,
+  "gdelt_events": 41142,
   "mode": "live",
   "data_through": "2026-11-05",
-  "clusters": 253,
-  "origins": 254,
+  "clusters": 260,
+  "origins": 261,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1194,10 +1224,58 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "中国国家中医药管理局原局长余艳红被查 系主动投案",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727218.shtml",
+    "title": "Met police chief urges potential victims of Russell Brand to come forward",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/06/met-police-chief-potential-victims-russell-brand-come-forward",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "'Sleazy', 'manipulative' and 'ruthless': Russell Brand convicted of rape, sexual assault",
+    "url": "https://www.france24.com/en/tv-shows/press-review/20261106-sleazy-manipulative-and-ruthless-russell-brand-convicted-of-rape-sexual-assault",
+    "country": "",
+    "source": "france24",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "外逃职务犯罪嫌疑人李标被遣返回中国",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727384.shtml",
     "country": "CN",
     "source": "chinanews_cn",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "广东省住房和城乡建设厅原二级巡视员林兆雄接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727369.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "广西蚕业技术推广站原站长李标被遣返回国",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727323.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "The new anti-corruption law arming Beijing with wide global enforcement powers",
+    "url": "https://www.scmp.com/news/china/politics/article/3373519/new-anti-corruption-law-arms-beijing-expansive-global-enforcement-powers",
+    "country": "CN",
+    "source": "scmp",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "Macau jails pro-democracy campaigner in city's first national security case",
+    "url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
+    "country": "",
+    "source": "bbc",
     "when": "2026-11-06"
    },
    {
@@ -1218,15 +1296,7 @@
    },
    {
     "kind": "judicial",
-    "title": "罗织罪名！台湾民意代表高金素梅被“求刑”14年",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727185.shtml",
-    "country": "TW",
-    "source": "chinanews_cn",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "Malaysia’s Najib closer to house arrest as Umno pays US$12.3 million fine",
+    "title": "Malaysia’s Najib to remain in prison as legal questions linger despite fine payment",
     "url": "https://www.scmp.com/week-asia/politics/article/3373504/malaysias-najib-closer-house-arrest-umno-pays-us123-million-fine",
     "country": "MY",
     "source": "scmp",
@@ -1242,59 +1312,19 @@
    },
    {
     "kind": "judicial",
-    "title": "国家中医药管理局原党组书记、局长余艳红接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727056.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
     "title": "A son in prison, a daughter gone: Singapore parents face heartbreak",
     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373475/son-prison-daughter-gone-singapore-parents-face-heartbreak",
     "country": "SG",
     "source": "scmp",
     "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "中央层面整治形式主义为基层减负专项工作机制办公室 中央纪委办公厅公开通报3起整治形式主义为基层减负典型问题",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727027.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "China’s new PLA theatre chiefs identified as anti-corruption drive clears ranks",
-    "url": "https://www.scmp.com/news/china/military/article/3373437/chinas-new-pla-theatre-chiefs-identified-anti-corruption-drive-clears-ranks",
-    "country": "CN",
-    "source": "scmp",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "British actor Russell Brand faces prison after rape, sexual assault conviction",
-    "url": "https://www.scmp.com/news/world/europe/article/3373453/british-actor-russell-brand-faces-prison-after-rape-sexual-assault-conviction",
-    "country": "",
-    "source": "scmp",
-    "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "British comedian Russell Brand found guilty of rape, sexual assault",
-    "url": "https://www.france24.com/en/europe/20261105-british-comedian-russell-brand-found-guilty-of-rape-sexual-assault",
-    "country": "",
-    "source": "france24",
-    "when": "2026-11-05"
    }
   ],
-  "notable_total": 14,
+  "notable_total": 15,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 14
+   "notable": 15
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2392,8 +2422,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.78,
-    "carry": 0.96,
+    "value": 0.38,
+    "carry": 0.84,
     "z": null,
     "score": null,
     "available": false
@@ -2453,14 +2483,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 143,
-   "items": 41619,
+   "files": 144,
+   "items": 41142,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 20,
+   "items": 25,
    "error": "",
    "undated": 0
   },
@@ -2474,7 +2504,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 36,
+   "items": 37,
    "error": "",
    "undated": 0
   },
@@ -2530,7 +2560,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 14,
+   "items": 15,
    "error": "",
    "undated": 0
   },
@@ -2627,7 +2657,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 5953,
+   "items": 6952,
    "error": ""
   },
   {
