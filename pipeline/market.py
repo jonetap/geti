@@ -48,6 +48,7 @@ FOOD: list[tuple[str, str, str]] = [
 ]
 FOOD_WINDOW = 24                       # 月度序列用 24 个月做基准，日频的 90 天在这里太短
 FOOD_COMPOSITE = ("wheat", "corn", "rice", "sugar")
+SERIES_MONTHS = 36                     # 给折线图的历史长度（月）
 
 
 def _to_date(s: str) -> date | None:
@@ -185,6 +186,7 @@ def build_food_block(raw: dict[str, dict[date, float]], health: list[dict] | Non
     """纯函数。z 是"相对于自己过去 24 个月"，不是相对于别的商品。"""
     today = today or date.today()
     rows: list[dict] = []
+    series: dict[str, list] = {}
     zs: list[float] = []
     latest: date | None = None
 
@@ -207,6 +209,11 @@ def build_food_block(raw: dict[str, dict[date, float]], health: list[dict] | Non
             "mom": round(mom, 2) if mom is not None else None,
             "z": round(z, 2), "ok": True, "asof": last.isoformat()[:7],
         })
+        # 给前端画折线用：最近 36 个月的原值。量级差得远（大米 466 vs 糖 18），
+        # 所以前端要按"窗口首月=100"重整再画——不能直接同轴。
+        pts = [[d.isoformat()[:7], round(vals[d], 3)] for d in days[-SERIES_MONTHS:]]
+        if len(pts) >= 6:
+            series[sid] = pts
         if sid in FOOD_COMPOSITE:
             zs.append(z)
         latest = last if latest is None or last > latest else latest
@@ -221,6 +228,7 @@ def build_food_block(raw: dict[str, dict[date, float]], health: list[dict] | Non
         "index": round(index, 1),
         "z": round(z_mean, 3),
         "rows": rows,
+        "series": series,
         "asof": latest.isoformat() if latest else None,
         "lag_months": lag,
         "source": "FRED / IMF 商品价格（月度）",

@@ -22,7 +22,7 @@ from .model import (
 )
 
 UTC = timezone.utc
-INDEX_VERSION = "geti-0.4.1"
+INDEX_VERSION = "geti-0.4.3"
 HISTORY_DAYS = 90
 BREAKING_HOURS = 8.0          # 超过 8 小时的旧事，不叫"突发"
 MIN_ITEMS_PER_DAY = 20
