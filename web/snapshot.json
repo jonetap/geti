@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.1",
- "generated_at": "2026-11-06T06:11:12+00:00",
+ "generated_at": "2026-11-06T06:24:49+00:00",
  "date": "2026-11-05",
  "geti": 65.2,
  "delta_z": 0.56,
@@ -259,6 +259,21 @@
    "published": "2026-11-05T18:17:36+00:00",
    "note": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Why have more than 30 European flights been hit by bomb threats this week? Hoax b",
    "region": "EUROPE"
+  },
+  {
+   "id": "c954b34d78dc",
+   "title": "A wildfire killed their loved ones in Spain. These British families demand to know why",
+   "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-06T06:00:46+00:00",
+   "note": "Nine British nationals were among the 15 people who died when fire ripped through the village of Bédar this summer.",
+   "region": "OTHER"
   },
   {
    "id": "4d519f67a912",
@@ -546,21 +561,6 @@
    "region": "NORTH_AMERICA"
   },
   {
-   "id": "f9c142eb2e09",
-   "title": "Mass protests in France driven by nationwide strike action",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-05T20:11:37+00:00",
-   "note": "More than 250,000 people took to the streets across France on Thursday as five unions called a day of strike action.",
-   "region": "EUROPE"
-  },
-  {
    "id": "65240ba30864",
    "title": "French protests see numbers surge as unions join strikes over high cost of living",
    "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
@@ -608,6 +608,21 @@
  ],
  "breaking": [
   {
+   "id": "c954b34d78dc",
+   "title": "A wildfire killed their loved ones in Spain. These British families demand to know why",
+   "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-06T06:00:46+00:00",
+   "note": "Nine British nationals were among the 15 people who died when fire ripped through the village of Bédar this summer.",
+   "region": "OTHER"
+  },
+  {
    "id": "59a07474e554",
    "title": "5 months’ jail for helper convicted of molesting employer’s 12-year-old daughter",
    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373505/5-months-jail-helper-convicted-molesting-employers-12-year-old-daughter",
@@ -624,10 +639,10 @@
   }
  ],
  "coverage": {
-  "sources_ok": 16,
+  "sources_ok": 21,
   "sources_failed": 1,
-  "items": 41734,
-  "gdelt_events": 41477,
+  "items": 41918,
+  "gdelt_events": 41660,
   "mode": "live",
   "data_through": "2026-11-05",
   "clusters": 254,
@@ -1371,6 +1386,93 @@
   ],
   "mode": "live"
  },
+ "food": {
+  "index": 76.4,
+  "z": 0.706,
+  "rows": [
+   {
+    "id": "wheat",
+    "label": "小麦",
+    "last": 246.85,
+    "mom": 3.78,
+    "z": 1.18,
+    "ok": true,
+    "asof": "2026-09"
+   },
+   {
+    "id": "corn",
+    "label": "玉米",
+    "last": 236.92,
+    "mom": 7.05,
+    "z": 0.61,
+    "ok": true,
+    "asof": "2026-09"
+   },
+   {
+    "id": "rice",
+    "label": "大米",
+    "last": 466.45,
+    "mom": 5.91,
+    "z": 0.64,
+    "ok": true,
+    "asof": "2026-09"
+   },
+   {
+    "id": "sugar",
+    "label": "糖",
+    "last": 17.94,
+    "mom": 6.6,
+    "z": 0.4,
+    "ok": true,
+    "asof": "2026-09"
+   },
+   {
+    "id": "food",
+    "label": "食品价格指数",
+    "last": 137.11,
+    "mom": 0.83,
+    "z": 0.18,
+    "ok": true,
+    "asof": "2026-09"
+   }
+  ],
+  "asof": "2026-09-01",
+  "lag_months": 2,
+  "source": "FRED / IMF 商品价格（月度）",
+  "health": [
+   {
+    "source": "fred:PWHEAMTUSDM",
+    "ok": true,
+    "items": 36,
+    "error": ""
+   },
+   {
+    "source": "fred:PMAIZMTUSDM",
+    "ok": true,
+    "items": 36,
+    "error": ""
+   },
+   {
+    "source": "fred:PRICENPQUSDM",
+    "ok": true,
+    "items": 36,
+    "error": ""
+   },
+   {
+    "source": "fred:PSUGAISAUSDM",
+    "ok": true,
+    "items": 36,
+    "error": ""
+   },
+   {
+    "source": "fred:PFOODINDEXM",
+    "ok": true,
+    "items": 36,
+    "error": ""
+   }
+  ],
+  "mode": "live"
+ },
  "hazard": {
   "index": null,
   "z": null,
@@ -1593,40 +1695,22 @@
   ]
  },
  "manual": {
-  "items": [
-   {
-    "number": 1,
-    "title": "线索：工伤认定新闻（测试）",
-    "note": "（发生了什么，为什么你觉得重要）",
-    "url": "https://github.com/jonetap/geti/issues/1",
-    "author": "jonetap",
-    "created": "2026-11-04T12:36:06Z",
-    "links": [
-     "https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/SuilUDmQOA1-LzmKwmgg7g"
-    ],
-    "images": [
-     "https://github.com/user-attachments/assets/7813e2cf-be10-4e94-af85-f199b91a1b5b"
-    ],
-    "kind": "link",
-    "seen": false
-   }
-  ],
-  "unseen": 1,
-  "note": "人工提交 1 条，其中 1 条抓取器没有收录——这类条目也可能是我们的盲区。本层不计分。",
-  "mode": "shadow"
+  "items": [],
+  "mode": "failed",
+  "note": "本次没读到人工线索（不影响指数）"
  },
  "adapters": [
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 141,
-   "items": 41477,
+   "files": 143,
+   "items": 41660,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 20,
+   "items": 21,
    "error": "",
    "undated": 0
   },
@@ -1731,6 +1815,36 @@
    "error": ""
   },
   {
+   "source": "fred:PWHEAMTUSDM",
+   "ok": true,
+   "items": 36,
+   "error": ""
+  },
+  {
+   "source": "fred:PMAIZMTUSDM",
+   "ok": true,
+   "items": 36,
+   "error": ""
+  },
+  {
+   "source": "fred:PRICENPQUSDM",
+   "ok": true,
+   "items": 36,
+   "error": ""
+  },
+  {
+   "source": "fred:PSUGAISAUSDM",
+   "ok": true,
+   "items": 36,
+   "error": ""
+  },
+  {
+   "source": "fred:PFOODINDEXM",
+   "ok": true,
+   "items": 36,
+   "error": ""
+  },
+  {
    "source": "usgs:quake",
    "ok": true,
    "items": 8,
@@ -1756,20 +1870,21 @@
   },
   {
    "source": "who:don",
-   "ok": true,
+   "ok": false,
    "items": 0,
-   "error": ""
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "source": "opensky",
    "ok": true,
-   "items": 5980,
+   "items": 5994,
    "error": ""
   },
   {
-   "source": "manual:intel",
-   "ok": true,
-   "items": 1
+   "source": "manual",
+   "ok": false,
+   "items": 0,
+   "error": "TypeError: build_block() got an unexpected keyword argument 'out_dir'"
   }
  ]
 }
