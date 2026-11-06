@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-06T06:31:12+00:00",
+ "generated_at": "2026-11-06T06:47:14+00:00",
  "date": "2026-11-05",
  "geti": 65.2,
  "delta_z": 0.56,
@@ -641,8 +641,8 @@
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 42167,
-  "gdelt_events": 41910,
+  "items": 41876,
+  "gdelt_events": 41619,
   "mode": "live",
   "data_through": "2026-11-05",
   "clusters": 253,
@@ -1194,6 +1194,14 @@
   "notable": [
    {
     "kind": "judicial",
+    "title": "中国国家中医药管理局原局长余艳红被查 系主动投案",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727218.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
     "title": "US accuses trio of using AI to impersonate CEOs and lawyers to steal US$129 million",
     "url": "https://www.scmp.com/news/world/united-states-canada/article/3373511/us-accuses-trio-using-ai-impersonate-ceos-and-lawyers-steal-us129-million",
     "country": "",
@@ -1279,22 +1287,14 @@
     "country": "",
     "source": "france24",
     "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "英国女性举报强奸反遭刑事起诉，联合国委员会认定保护不力",
-    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143147",
-    "country": "GB",
-    "source": "un_news_zh",
-    "when": "2026-11-05"
    }
   ],
-  "notable_total": 13,
+  "notable_total": 14,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 13
+   "notable": 14
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2427,16 +2427,34 @@
   ]
  },
  "manual": {
-  "items": [],
-  "mode": "failed",
-  "note": "本次没读到人工线索（不影响指数）"
+  "items": [
+   {
+    "number": 1,
+    "title": "线索：工伤认定新闻（测试）",
+    "note": "工伤认定问题",
+    "url": "https://github.com/jonetap/geti/issues/1",
+    "author": "jonetap",
+    "created": "2026-11-04T12:36:06Z",
+    "links": [
+     "https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/SuilUDmQOA1-LzmKwmgg7g"
+    ],
+    "images": [
+     "intel/9d8835a9a14b1106.png"
+    ],
+    "kind": "link",
+    "seen": false
+   }
+  ],
+  "unseen": 1,
+  "note": "人工提交 1 条，其中 1 条抓取器没有收录——这类条目也可能是我们的盲区。本层不计分。",
+  "mode": "shadow"
  },
  "adapters": [
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 41910,
+   "files": 143,
+   "items": 41619,
    "error": ""
   },
   {
@@ -2609,14 +2627,13 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 6001,
+   "items": 5953,
    "error": ""
   },
   {
-   "source": "manual",
-   "ok": false,
-   "items": 0,
-   "error": "TypeError: build_block() got an unexpected keyword argument 'out_dir'"
+   "source": "manual:intel",
+   "ok": true,
+   "items": 1
   }
  ]
 }
