@@ -71,6 +71,50 @@ class TestParseIssue(unittest.TestCase):
         row = manual.parse_issue(_issue("https://example.com/a\n只有这一行说明"))
         self.assertIn("只有这一行说明", row["note"])
 
+    def test_template_placeholder_is_not_a_note(self):
+        body = ("### 链接\nhttps://example.org/x\n\n"
+                "### 一句话说明\n（发生了什么，为什么你觉得重要）\n")
+        row = manual.parse_issue(_issue(body, title="线索：某地停电"))
+        self.assertEqual(row["note"], "")
+        self.assertEqual(row["title"], "线索：某地停电")
+
+
+class TestLocalizeImages(unittest.TestCase):
+    def setUp(self):
+        self.tmp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_tmp_intel")
+        os.makedirs(self.tmp, exist_ok=True)
+
+    def tearDown(self):
+        for name in os.listdir(self.tmp):
+            os.remove(os.path.join(self.tmp, name))
+        try:
+            os.rmdir(self.tmp)
+        except OSError:
+            pass
+
+    def test_downloads_and_rewrites_url(self):
+        rows = [{"images": ["https://private-user-images.githubusercontent.com/a.png?jwt=x"]}]
+
+        def fake(url, timeout=20):
+            return b"\x89PNG" + b"0" * 64, "image/png"
+
+        with mock.patch.object(manual, "_download", side_effect=fake):
+            manual.localize_images(rows, out_dir=self.tmp)
+        self.assertTrue(rows[0]["images"][0].startswith("intel/"))
+        self.assertEqual(len(os.listdir(self.tmp)), 1)
+
+    def test_download_failure_keeps_original(self):
+        rows = [{"images": ["https://example.org/b.png"]}]
+        with mock.patch.object(manual, "_download", side_effect=RuntimeError("403")):
+            manual.localize_images(rows, out_dir=self.tmp)
+        self.assertEqual(rows[0]["images"], ["https://example.org/b.png"])
+
+    def test_already_local_is_left_alone(self):
+        rows = [{"images": ["intel/abc.png"]}]
+        with mock.patch.object(manual, "_download", side_effect=AssertionError("no download")):
+            manual.localize_images(rows, out_dir=self.tmp)
+        self.assertEqual(rows[0]["images"], ["intel/abc.png"])
+
 
 class TestMarkSeen(unittest.TestCase):
     def test_link_already_fetched_is_seen(self):
@@ -120,3 +164,14 @@ class TestBuildBlock(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class TestFailureIsVisible(unittest.TestCase):
+    def test_failure_note_carries_the_reason(self):
+        # 失败必须自曝原因：静默降级会让版本不一致的 TypeError 藏几天
+        from pipeline import manual
+        with mock.patch.object(manual, "fetch_issues", side_effect=TypeError("boom")):
+            block, health = manual.build_block([], repo="a/b")
+        self.assertEqual(block["mode"], "failed")
+        self.assertIn("TypeError", block["note"])
+        self.assertIn("boom", block["note"])
+        self.assertFalse(health["ok"])
