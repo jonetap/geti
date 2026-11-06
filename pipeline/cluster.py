@@ -110,7 +110,8 @@ def cluster_items(items: Iterable[RawItem], threshold: int = 6,
     时间窗口是必须的：同一句"边境交火"可能是周一和周三两次不同的事件，
     按文本合并会把它们算成"一个事件被反复报道"，直接抹掉一次升级。
     """
-    ordered = sorted(items, key=lambda x: x.published, reverse=True)
+    ordered = sorted((it for it in items if it.published is not None),
+                     key=lambda x: x.published, reverse=True)
     clusters: list[Cluster] = []
     reps: list[int] = []
     seen_url: dict[str, Cluster] = {}

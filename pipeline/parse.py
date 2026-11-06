@@ -161,7 +161,13 @@ def _atom_link(entry: ET.Element, ns: str) -> str:
     return ""
 
 
-def _parse_time(v: str, default: datetime) -> datetime:
+def _parse_time(v: str, default: "datetime | None" = None) -> "datetime | None":
+    """解析发布时间。**解析不出来就返回 None，绝不用"现在"顶上。**
+
+    这是一次事故换来的：新华网的国际 RSS 是一个从 2022-12 就不再更新的死档案，
+    而且条目里根本没有 pubDate。原先这里拿 now 当默认值，于是 2022 年的新闻
+    全部变成"刚刚发生"，还进了"突发"。空值不是"现在"，是"不知道"。
+    """
     v = (v or "").strip()
     if not v:
         return default
@@ -207,7 +213,7 @@ def parse_feed(xml_text: str, source_id: str, now: datetime | None = None,
             link = _text(guid) if guid is not None and _text(guid).startswith("http") else ""
         raw_time = _text(_child(it, "pubDate")) or _text(_child(it, "date")) \
             or _text(_child(it, "published"))
-        pub = _parse_time(raw_time, now)
+        pub = _parse_time(raw_time)
         items.append(RawItem(source_id, title, body, link, pub, lang))
 
     # Atom（有些源用 entries，xmlns 命名空间必须显式带）
@@ -221,7 +227,7 @@ def parse_feed(xml_text: str, source_id: str, now: datetime | None = None,
                 continue
             body = strip_html(_text(entry.find(f"{ns}summary")) or _text(entry.find(f"{ns}content")))
             link = _atom_link(entry, ns)
-            pub = _parse_time(_text(entry.find(f"{ns}updated")) or _text(entry.find(f"{ns}published")), now)
+            pub = _parse_time(_text(entry.find(f"{ns}updated")) or _text(entry.find(f"{ns}published")))
             items.append(RawItem(source_id, title, body, link, pub, lang))
 
     return items

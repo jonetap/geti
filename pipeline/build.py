@@ -22,8 +22,9 @@ from .model import (
 )
 
 UTC = timezone.utc
-INDEX_VERSION = "geti-0.4.0"
+INDEX_VERSION = "geti-0.4.1"
 HISTORY_DAYS = 90
+BREAKING_HOURS = 8.0          # 超过 8 小时的旧事，不叫"突发"
 MIN_ITEMS_PER_DAY = 20
 
 
@@ -443,28 +444,29 @@ def build_snapshot(
             "confidence": round(sc.confidence, 2),
             "origins": sc.origin_count,
             "sources": [it.source_id for it in c.items][:6],
-            "published": c.published.isoformat(),
+            "published": c.published.isoformat() if c.published else "",
             "note": c.body[:180],
             "region": infer_region(f"{c.title} {c.body[:120]}"),
         }
 
     event_rows = [_event_row(s) for s in events]
 
+    # "突发"= 又严重、又**确实刚发生**。原先的条件是 severity>=4 且
+    # （单源 或 3 小时内），于是"单源 + 四年前"也满足——这是 2022 年旧闻
+    # 混进突发的入口。现在新鲜度是硬门槛，单源只用来决定排序（待核实优先）。
     def _age_h(published: str) -> float:
         try:
-            t = datetime.fromisoformat(published)
+            t = datetime.fromisoformat(published or "")
         except ValueError:
             return 999.0
         if t.tzinfo is None:
             t = t.replace(tzinfo=UTC)
         return max(0.0, (now - t).total_seconds() / 3600.0)
 
-    # "突发"= 又严重又还没坐实（单源）或刚刚发生。已多源确认的重大事件
-    # 归入主事件流，不必再占突发位。
-    breaking = [
-        e for e in event_rows
-        if e["severity"] >= 4 and (e["origins"] <= 1 or _age_h(e["published"]) <= 3.0)
-    ][:4]
+    _recent = [e for e in event_rows
+               if e["severity"] >= 4 and _age_h(e["published"]) <= BREAKING_HOURS]
+    _recent.sort(key=lambda e: (_age_h(e["published"]), e["origins"]))
+    breaking = _recent[:4]
 
     conf = 0.0
     conf += 0.5 * min(1.0, coverage.get("items", 0) / 300.0)

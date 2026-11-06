@@ -33,13 +33,15 @@ RSS_FEEDS: dict[str, tuple[str, str]] = {
     "scmp": ("https://www.scmp.com/rss/91/feed", "en"),
     "un_news_zh": ("https://news.un.org/feed/subscribe/zh/news/all/rss.xml", "zh"),
     # 中文源：GDELT 对中文报道的覆盖本来就弱，东亚这一块的"我们这边怎么说的"
-    # 只能自己抓。注意这五家里四家是官媒，转载同一条通稿很常见——
-    # 所以置信度永远按"独立起源"算，不看条数。
-    "xinhua_world": ("http://www.xinhuanet.com/world/news_world.xml", "zh"),
-    "people": ("http://www.people.com.cn/rss/world.xml", "zh"),
+    # 只能自己抓。注意官媒转载同一条通稿很常见——所以置信度永远按
+    # "独立起源"算，不看条数。
+    #
+    # 已删掉三个源，都是 2026-11-05 查实的死源，留着只会每轮报红：
+    #   xinhua_world  条目里没有 pubDate，最新一篇停在 2022-12-14（停更四年的死档案）
+    #   people        时间戳停在 2025-06，且与新华网高度重合
+    #   globaltimes   50 条全部超过 48 小时（供旧闻）
     "chinanews": ("https://www.chinanews.com.cn/rss/world.xml", "zh"),
     "chinanews_cn": ("https://www.chinanews.com.cn/rss/china.xml", "zh"),
-    "globaltimes": ("https://www.globaltimes.cn/rss/outbrain.xml", "en"),
     "bbc_zh": ("https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "zh"),
 }
 
@@ -155,15 +157,20 @@ def fetch_feeds(feeds: dict[str, tuple[str, str]] | None = None) -> tuple[list[R
         try:
             raw = http_get(url, timeout=25)
             parsed = parse_feed(raw.decode("utf-8", errors="replace"), sid, now=now, lang=lang)
-            # 老条目不算今天的新闻。没有发布时间的留着——不猜。
-            got = [it for it in parsed
-                   if it.published is None
-                   or (now - it.published).total_seconds() <= MAX_ITEM_AGE_HOURS * 3600]
+            # 没有发布时间的条目一律丢弃。空值不是"现在"，是"不知道"——
+            # 而一个不知道时间的条目，无法支撑"突发"这个语义（见 §21 的事故）。
+            undated = [it for it in parsed if it.published is None]
+            dated = [it for it in parsed if it.published is not None]
+            got = [it for it in dated
+                   if (now - it.published).total_seconds() <= MAX_ITEM_AGE_HOURS * 3600]
             items.extend(got)
             rec["items"] = len(got)
+            rec["undated"] = len(undated)
             rec["ok"] = bool(got)
-            if not got and parsed:
-                rec["error"] = f"解析到 {len(parsed)} 条，但全部超过 {MAX_ITEM_AGE_HOURS} 小时"
+            if undated and not dated:
+                rec["error"] = f"{len(undated)} 条全无发布时间，无法判断新鲜度"
+            elif not got and dated:
+                rec["error"] = f"解析到 {len(dated)} 条，全部超过 {MAX_ITEM_AGE_HOURS} 小时"
             elif not got:
                 rec["error"] = "解析到 0 条（可能改版）"
         except Exception as exc:
