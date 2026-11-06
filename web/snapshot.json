@@ -1,6 +1,6 @@
 {
- "index_version": "geti-0.4.0",
- "generated_at": "2026-11-06T01:31:59+00:00",
+ "index_version": "geti-0.4.1",
+ "generated_at": "2026-11-06T06:11:12+00:00",
  "date": "2026-11-05",
  "geti": 65.2,
  "delta_z": 0.56,
@@ -245,98 +245,8 @@
  ],
  "events": [
   {
-   "id": "b22984ae141f",
-   "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
-   "url": "http://www.news.cn/world/2022-12/13/c_1129205834.htm",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "9d930715366e",
-   "title": "阿富汗首都一酒店遭爆炸袭击 至少2名外国人受伤",
-   "url": "http://www.news.cn/world/2022-12/13/c_1129203448.htm",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "2db9d7535233",
-   "title": "英国泽西岛公寓楼爆炸致5人丧生",
-   "url": "http://www.news.cn/world/2022-12/12/c_1129201558.htm",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
-   "region": "EUROPE"
-  },
-  {
-   "id": "fabf87ffc6f9",
-   "title": "印尼西苏门答腊省一煤矿爆炸致9人死亡",
-   "url": "http://www.news.cn/world/2022-12/09/c_1129196117.htm",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "929990325de7",
-   "title": "墨西哥东北部军方与武装分子交火致8人死亡",
-   "url": "http://www.news.cn/world/2022-12/08/c_1129191971.htm",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "墨西哥东北部塔毛利帕斯州安全部门7日说，墨军方与武装分子当天在该州新拉雷多市发生交火，造成至少8人死亡、7人受伤。",
-   "region": "LATAM"
-  },
-  {
-   "id": "97d0b662e18b",
-   "title": "印尼一警局发生爆炸袭击致两人死亡",
-   "url": "http://www.news.cn/world/2022-12/07/c_1129190075.htm",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "印度尼西亚警方7日通报，印尼西爪哇省首府万隆市一所警察局当天发生炸弹袭击事件，已致2人死亡、7人受伤。",
-   "region": "SOUTH_ASIA"
-  },
-  {
    "id": "66a37cad6149",
-   "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears",
+   "title": "Bomb threats disrupt dozens of flights across Europe, raising hybrid war fears",
    "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
    "component": "military",
    "severity": 5,
@@ -356,7 +266,7 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
@@ -371,7 +281,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -381,27 +291,12 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "f14430077cbc",
-   "title": "Harmeet Dhillon, top US civil rights official under Trump, resigns",
-   "url": "https://www.aljazeera.com/news/2026/11/5/top-us-civil-rights-official-resigns?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-05T19:48:00+00:00",
-   "note": "New Democratic Congress expected to probe Trump Justice Department office's handling of Epstein files and ICE killings.",
-   "region": "OTHER"
-  },
-  {
    "id": "ce65aea47048",
    "title": "Eight killed in series of shootings in western Turkey",
    "url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -424,21 +319,6 @@
    "published": "2026-11-05T18:22:46+00:00",
    "note": "BBC Verify has been analysing messages after flights across Europe were targeted by fake bomb threats - the second such incident this week.",
    "region": "EUROPE"
-  },
-  {
-   "id": "5b4785558eb5",
-   "title": "Bank of England raises interest rates to 4%, the first increase for more than three years",
-   "url": "https://www.theguardian.com/business/2026/nov/05/bank-of-england-raises-interest-rates-first-increase-for-more-than-three-years",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-05T18:00:28+00:00",
-   "note": "Base rate increases from 3.75% and Bank governor signals another rise in near future to combat rising inflation Analysis: Interest rate rise in midst of cost of living crisis will ",
-   "region": "OTHER"
   },
   {
    "id": "6a8c44ff08cb",
@@ -486,21 +366,6 @@
    "region": "EUROPE"
   },
   {
-   "id": "367349acf91e",
-   "title": "Jordanian officer killed in stabbing attack in Amman",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-05T17:08:45+00:00",
-   "note": "A Jordanian security officer has been killed and another one wounded near the Sri Lankan embassy in Amman.",
-   "region": "OTHER"
-  },
-  {
    "id": "56951b31c856",
    "title": "Europe: Dozens of flights diverted following bomb threats",
    "url": "https://www.france24.com/en/video/20261105-europe-dozens-of-flights-diverted-following-bomb-threats",
@@ -546,21 +411,6 @@
    "region": "OTHER"
   },
   {
-   "id": "192f6ba60a84",
-   "title": "European flights diverted again after fresh wave of hoax bomb threats",
-   "url": "https://www.scmp.com/news/world/europe/article/3373414/bomb-threat-forces-ireland-italy-flight-divert-french-airbase",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-05T10:07:38+00:00",
-   "note": "Multiple flights in Europe made emergency landings on Thursday after being diverted because of bomb threats, authorities said. The incidents followed hoax bomb threats earlier this",
-   "region": "EUROPE"
-  },
-  {
    "id": "6fc98d7b3348",
    "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
    "url": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
@@ -591,92 +441,197 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "a46c0e9d2635",
-   "title": "外交部发言人就阿富汗首都喀布尔发生恐怖袭击事件答记者问",
-   "url": "http://www.news.cn/world/2022-12/13/c_1129205654.htm",
-   "component": "diplomacy",
+   "id": "59a07474e554",
+   "title": "5 months’ jail for helper convicted of molesting employer’s 12-year-old daughter",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373505/5-months-jail-helper-convicted-molesting-employers-12-year-old-daughter",
+   "component": "narrative",
    "severity": 4,
-   "confidence": 0.64,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "xinhua_world"
+    "scmp"
    ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "外交部发言人汪文斌13日就阿富汗首都喀布尔日前发生恐怖袭击事件答记者问。",
-   "region": "SOUTH_ASIA"
+   "published": "2026-11-06T05:30:29+00:00",
+   "note": "A Hong Kong court has sentenced a domestic helper to five months in jail for molesting her former employer’s daughter in the family home. Lady Jay Santos Flores, 45, did not submit",
+   "region": "OTHER"
+  },
+  {
+   "id": "82261095a1fb",
+   "title": "儿基会：冲突中袭击供水和环境卫生设施事件增加三倍",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143138",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.43,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-05T12:00:00+00:00",
+   "note": "联合国儿童基金会周四发布报告指出，2021年至2025年，造成供水和环境卫生系统受损或被毁的袭击事件增至原来的三倍，儿童面临的疾病暴发、营养不良和暴力风险随之上升。",
+   "region": "OTHER"
+  },
+  {
+   "id": "378b7397cc0b",
+   "title": "联合国阿卜耶伊安全部队继续发挥稳定作用 无人机袭击凸显地区安全风险",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143137",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.43,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-05T12:00:00+00:00",
+   "note": "联合国负责维和事务的副秘书长拉克鲁瓦和秘书长非洲之角问题特使丛光周四在安理会通报阿卜耶伊局势时指出，尽管阿卜耶伊整体安全形势有所改善，苏丹冲突外溢、武装势力活动和治理问题仍使当地局势面临严峻挑战。联合国阿卜耶伊临时安全部队继续发挥重要稳定作用。",
+   "region": "AFRICA"
+  },
+  {
+   "id": "4a8245ccbd38",
+   "title": "Spanish footballer Jesus de Miguel mourned by family and friends",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/spanish-footballer-jesus-de-miguel-mourned-by-family-and-friends?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-05T21:42:30+00:00",
+   "note": "The 30-year-old striker suffered cardiac arrest following an on-field collision.",
+   "region": "OTHER"
+  },
+  {
+   "id": "a85a2fc35362",
+   "title": "British Ebola patient evacuated from DR Congo arrives at London hospital",
+   "url": "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
+   "component": "physical",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-05T20:30:11+00:00",
+   "note": "Doctor who was helping response to outbreak in Africa taken to specialist isolation unit at Royal Free hospital A British doctor who tested positive for Ebola while working in the ",
+   "region": "AFRICA"
+  },
+  {
+   "id": "8d48305755f8",
+   "title": "Mass protests sweep France again, as workers strike and march for ‘dignified wage’",
+   "url": "https://www.scmp.com/news/world/europe/article/3373463/mass-protests-sweep-france-again-workers-strike-and-march-dignified-wage",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-05T20:23:56+00:00",
+   "note": "Hundreds of thousands of striking workers protested across France on Thursday against the rising cost of living following weeks of youth-led demonstrations, with police firing tear",
+   "region": "EUROPE"
+  },
+  {
+   "id": "99aea6e86172",
+   "title": "US sanctions Chinese firms over alleged military supplies to Cuba",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3373462/us-sanctions-chinese-firms-over-alleged-military-supplies-cuba",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-05T20:13:47+00:00",
+   "note": "The United States has imposed sanctions on two Chinese companies it accuses of supplying equipment and components to Cuba’s military, as Washington intensifies pressure on Havana’s",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "f9c142eb2e09",
+   "title": "Mass protests in France driven by nationwide strike action",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-05T20:11:37+00:00",
+   "note": "More than 250,000 people took to the streets across France on Thursday as five unions called a day of strike action.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "65240ba30864",
+   "title": "French protests see numbers surge as unions join strikes over high cost of living",
+   "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-05T17:59:53+00:00",
+   "note": "The interior ministry estimates 600,000 people joined protests across France, while the unions say the number was far higher.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "7fd8dc032e08",
+   "title": "France needs 'more public services', 'salaries are too low', 'schools are in very, very bad shape'",
+   "url": "https://www.france24.com/en/france-needs-more-public-services-salaries-are-too-low-schools-are-in-very-very-bad-shape",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-05T17:36:48+00:00",
+   "note": "As France confronts another wave of strikes and protests, Gaëlle Martinez, National Secretary of the trade union Solidaires, presents the general strike as more than a confrontatio",
+   "region": "EUROPE"
+  },
+  {
+   "id": "2ccf420205d9",
+   "title": "Protesters march in cities across France as unions stage general strike",
+   "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-05T17:21:45+00:00",
+   "note": "Hundreds of thousands demonstrate over cost of living and cuts to public services as 70,000 police officers deployed Hundreds of thousands of people have marched in cities across F",
+   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "b22984ae141f",
-   "title": "阿富汗首都酒店爆炸袭击致5名中国公民受伤",
-   "url": "http://www.news.cn/world/2022-12/13/c_1129205834.htm",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "中国驻阿富汗大使王愚13日说，阿首都喀布尔一家酒店12日下午发生的爆炸袭击造成5名中国公民受伤。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "9d930715366e",
-   "title": "阿富汗首都一酒店遭爆炸袭击 至少2名外国人受伤",
-   "url": "http://www.news.cn/world/2022-12/13/c_1129203448.htm",
+   "id": "59a07474e554",
+   "title": "5 months’ jail for helper convicted of molesting employer’s 12-year-old daughter",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373505/5-months-jail-helper-convicted-molesting-employers-12-year-old-daughter",
    "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "xinhua_world"
+    "scmp"
    ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "阿富汗首都喀布尔一家酒店12日下午遭爆炸袭击，3名袭击者当场死亡，另有2名外国人受伤。",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "2db9d7535233",
-   "title": "英国泽西岛公寓楼爆炸致5人丧生",
-   "url": "http://www.news.cn/world/2022-12/12/c_1129201558.htm",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "英国属地泽西岛警方11日证实，当地一幢三层公寓楼10日发生爆炸，已致5人丧生，另有4人失踪。",
-   "region": "EUROPE"
-  },
-  {
-   "id": "fabf87ffc6f9",
-   "title": "印尼西苏门答腊省一煤矿爆炸致9人死亡",
-   "url": "http://www.news.cn/world/2022-12/09/c_1129196117.htm",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "xinhua_world"
-   ],
-   "published": "2026-11-06T01:32:03.511391+00:00",
-   "note": "印度尼西亚西苏门答腊省搜救局9日说，该省一个煤矿当天上午发生爆炸事故，已导致9人死亡。",
-   "region": "SOUTH_ASIA"
+   "published": "2026-11-06T05:30:29+00:00",
+   "note": "A Hong Kong court has sentenced a domestic helper to five months in jail for molesting her former employer’s daughter in the family home. Lady Jay Santos Flores, 45, did not submit",
+   "region": "OTHER"
   }
  ],
  "coverage": {
-  "sources_ok": 17,
-  "sources_failed": 3,
-  "items": 44660,
-  "gdelt_events": 44108,
+  "sources_ok": 16,
+  "sources_failed": 1,
+  "items": 41734,
+  "gdelt_events": 41477,
   "mode": "live",
   "data_through": "2026-11-05",
-  "clusters": 536,
-  "origins": 537,
+  "clusters": 254,
+  "origins": 255,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1224,18 +1179,58 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "权力与金钱的游戏——起底美国官员内幕交易",
-    "url": "http://www.news.cn/world/2022-12/11/c_1129200037.htm",
-    "country": "US",
-    "source": "xinhua_world",
+    "title": "US accuses trio of using AI to impersonate CEOs and lawyers to steal US$129 million",
+    "url": "https://www.scmp.com/news/world/united-states-canada/article/3373511/us-accuses-trio-using-ai-impersonate-ceos-and-lawyers-steal-us129-million",
+    "country": "",
+    "source": "scmp",
     "when": "2026-11-06"
    },
    {
     "kind": "judicial",
-    "title": "日本最高法院驳回冲绳县政府就驻日美军机场搬迁相关上诉",
-    "url": "http://www.news.cn/world/2022-12/09/c_1129193635.htm",
-    "country": "JP",
-    "source": "xinhua_world",
+    "title": "5 months’ jail for helper convicted of molesting employer’s 12-year-old daughter",
+    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373505/5-months-jail-helper-convicted-molesting-employers-12-year-old-daughter",
+    "country": "HK",
+    "source": "scmp",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "罗织罪名！台湾民意代表高金素梅被“求刑”14年",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727185.shtml",
+    "country": "TW",
+    "source": "chinanews_cn",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "Malaysia’s Najib closer to house arrest as Umno pays US$12.3 million fine",
+    "url": "https://www.scmp.com/week-asia/politics/article/3373504/malaysias-najib-closer-house-arrest-umno-pays-us123-million-fine",
+    "country": "MY",
+    "source": "scmp",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "12½ years’ jail for ex-Macau lawmaker Au Kam-san in city’s first national security trial",
+    "url": "https://www.scmp.com/news/hong-kong/politics/article/3373482/12-1/2-years-jail-ex-macau-lawmaker-au-kam-san-citys-first-national-security-trial",
+    "country": "",
+    "source": "scmp",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "国家中医药管理局原党组书记、局长余艳红接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727056.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "A son in prison, a daughter gone: Singapore parents face heartbreak",
+    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373475/son-prison-daughter-gone-singapore-parents-face-heartbreak",
+    "country": "SG",
+    "source": "scmp",
     "when": "2026-11-06"
    },
    {
@@ -1272,35 +1267,19 @@
    },
    {
     "kind": "judicial",
-    "title": "Finland jails Russian cargo ship captain over Baltic Sea cable sabotage",
-    "url": "https://www.scmp.com/news/world/europe/article/3373432/finland-jails-russian-cargo-ship-captain-over-baltic-sea-cable-sabotage",
-    "country": "RU",
-    "source": "scmp",
-    "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "Hong Kong grandmother gets 20 days for slapping 5-year-old girl at play area",
-    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373430/hong-kong-grandmother-gets-20-days-slapping-five-year-old-girl-play-area",
-    "country": "HK",
-    "source": "scmp",
-    "when": "2026-11-05"
-   },
-   {
-    "kind": "judicial",
-    "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
-    "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
-    "country": "CN",
-    "source": "guardian",
+    "title": "英国女性举报强奸反遭刑事起诉，联合国委员会认定保护不力",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143147",
+    "country": "GB",
+    "source": "un_news_zh",
     "when": "2026-11-05"
    }
   ],
-  "notable_total": 9,
+  "notable_total": 13,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 9
+   "notable": 13
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1579,8 +1558,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.91,
-    "carry": 1.0,
+    "value": 0.78,
+    "carry": 0.96,
     "z": null,
     "score": null,
     "available": false
@@ -1640,93 +1619,86 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 44108,
+   "files": 141,
+   "items": 41477,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
    "items": 20,
-   "error": ""
+   "error": "",
+   "undated": 0
   },
   {
    "source": "aljazeera",
    "ok": true,
    "items": 25,
-   "error": ""
+   "error": "",
+   "undated": 0
   },
   {
    "source": "guardian",
    "ok": true,
    "items": 36,
-   "error": ""
+   "error": "",
+   "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
    "items": 11,
-   "error": ""
+   "error": "",
+   "undated": 0
   },
   {
    "source": "france24",
    "ok": true,
    "items": 24,
-   "error": ""
+   "error": "",
+   "undated": 0
   },
   {
    "source": "nhk",
    "ok": false,
    "items": 0,
-   "error": "解析到 7 条，但全部超过 48 小时"
+   "error": "解析到 7 条，全部超过 48 小时",
+   "undated": 0
   },
   {
    "source": "scmp",
    "ok": true,
    "items": 50,
-   "error": ""
+   "error": "",
+   "undated": 0
   },
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 13,
-   "error": ""
-  },
-  {
-   "source": "xinhua_world",
-   "ok": true,
-   "items": 300,
-   "error": ""
-  },
-  {
-   "source": "people",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 100 条，但全部超过 48 小时"
+   "items": 17,
+   "error": "",
+   "undated": 0
   },
   {
    "source": "chinanews",
    "ok": true,
    "items": 30,
-   "error": ""
+   "error": "",
+   "undated": 0
   },
   {
    "source": "chinanews_cn",
    "ok": true,
    "items": 30,
-   "error": ""
-  },
-  {
-   "source": "globaltimes",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 50 条，但全部超过 48 小时"
+   "error": "",
+   "undated": 0
   },
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 13,
-   "error": ""
+   "items": 14,
+   "error": "",
+   "undated": 0
   },
   {
    "source": "fred:VIXCLS",
@@ -1791,7 +1763,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 8692,
+   "items": 5980,
    "error": ""
   },
   {
