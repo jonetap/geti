@@ -14,6 +14,7 @@
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -30,6 +31,12 @@ _URL = re.compile(r"https?://[^\s<>()\[\]\"']+")
 _IMG_EXT = re.compile(r"\.(?:png|jpe?g|gif|webp)(?:\?|$)", re.I)
 _IMG_MD = re.compile(r"!\[[^\]]*\]\((https?://[^)\s]+)\)")
 _NOTE_HEAD = re.compile(r"^#{1,4}\s*一句话[^\n]*$", re.M)
+# issue 模板里的提示语，用户没改就原样留在正文里。它不是"说明"，是占位符。
+_PLACEHOLDER = re.compile(r"^[（(][^）)]{0,120}[）)]$")
+
+IMAGE_DIR = "web/intel"
+IMAGE_BASE = "intel"
+MAX_IMAGE_BYTES = 3 * 1024 * 1024
 
 
 def _clean_url(u: str) -> str:
@@ -60,13 +67,15 @@ def parse_issue(issue: dict) -> dict | None:
         rest = body[m.end():].lstrip("\n")
         for line in rest.splitlines():
             s = line.strip().lstrip("-*").strip()
-            if s and not _URL.search(s) and not s.startswith("#"):
+            if s and not _URL.search(s) and not s.startswith("#") \
+                    and not _PLACEHOLDER.match(s):
                 note = s
                 break
     if not note:
         for line in body.splitlines():
             s = line.strip().lstrip("-*").strip()
-            if s and not _URL.search(s) and not s.startswith("#"):
+            if s and not _URL.search(s) and not s.startswith("#") \
+                    and not _PLACEHOLDER.match(s) and not s.startswith("###"):
                 note = s
                 break
 
@@ -117,6 +126,53 @@ def mark_seen(rows: list[dict], items) -> list[dict]:
     return rows
 
 
+def _download(url: str, timeout: int = 20) -> tuple[bytes, str]:
+    req = urllib.request.Request(url, headers={"User-Agent": "geti/0.5"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read(), r.headers.get("Content-Type", "") or ""
+
+
+def _ext_of(url: str, ctype: str) -> str:
+    m = re.search(r"\.(png|jpe?g|gif|webp)(?:\?|$)", url, re.I)
+    if m:
+        return "." + m.group(1).lower().replace("jpeg", "jpg")
+    for ext in ("png", "gif", "webp", "jpeg", "jpg"):
+        if ext in ctype:
+            return "." + ext.replace("jpeg", "jpg")
+    return ".jpg"
+
+
+def localize_images(rows, out_dir: str = IMAGE_DIR, prefix: str = IMAGE_BASE,
+                    timeout: int = 20):
+    """把截图存进仓库再引用。
+
+    为什么要这一步：issue 里粘的图是 GitHub 的临时图床链接，过一段时间就会失效，
+    页面上的缩略图会变成碎图——而线索本身是长期留存的。下载一次、按 URL 哈希命名，
+    重复提交同一张图不会产生第二份文件。下载失败就保留原链接，不让线索丢掉。
+    """
+    os.makedirs(out_dir, exist_ok=True)
+    for r in rows:
+        fixed: list[str] = []
+        for u in r.get("images") or []:
+            if u.startswith(prefix + "/"):
+                fixed.append(u)
+                continue
+            try:
+                data, ctype = _download(u, timeout)
+                if not data or len(data) > MAX_IMAGE_BYTES:
+                    raise ValueError("empty or too large")
+                name = hashlib.sha1(u.encode("utf-8")).hexdigest()[:16] + _ext_of(u, ctype)
+                path = os.path.join(out_dir, name)
+                if not os.path.exists(path):
+                    with open(path, "wb") as fh:
+                        fh.write(data)
+                fixed.append(f"{prefix}/{name}")
+            except Exception:                    # noqa: BLE001
+                fixed.append(u)
+        r["images"] = fixed
+    return rows
+
+
 def fetch_issues(repo: str = "", label: str = LABEL, timeout: int = 30):
     """读 issue 列表。公开仓库不需要 token；有 token 就用（配额更高）。"""
     repo = repo or os.environ.get("GITHUB_REPOSITORY") or DEFAULT_REPO
@@ -130,7 +186,8 @@ def fetch_issues(repo: str = "", label: str = LABEL, timeout: int = 30):
         return json.loads(r.read().decode("utf-8"))
 
 
-def build_block(items, now: datetime | None = None, repo: str = "") -> tuple[dict, dict]:
+def build_block(items, now: datetime | None = None, repo: str = "",
+                out_dir: str | None = None) -> tuple[dict, dict]:
     """返回 (manual 块, 健康记录)。任何异常都退化成空块，绝不阻断主流程。"""
     now = now or datetime.now(timezone.utc)
     health = {"source": f"manual:{LABEL}", "ok": False, "items": 0}
@@ -138,8 +195,12 @@ def build_block(items, now: datetime | None = None, repo: str = "") -> tuple[dic
         rows = parse_issues(fetch_issues(repo))
         health["ok"] = True
     except Exception as exc:                     # noqa: BLE001
-        health["error"] = f"{type(exc).__name__}: {exc}"[:200]
-        return {"items": [], "note": "本次没读到人工线索（不影响指数）",
+        err = f"{type(exc).__name__}: {exc}"
+        health["error"] = err[:200]
+        # 失败要说清是哪一种失败：读不到（网络/接口/版本不一致）和"没人提交"
+        # 是两件事，前者需要修，后者什么都不用做。曾经的静默降级让一个
+        # 版本不一致的 TypeError 藏了几天。
+        return {"items": [], "note": f"读取人工线索失败：{err[:120]}（不影响指数）",
                 "mode": "failed"}, health
 
     cutoff = (now - timedelta(days=KEEP_DAYS)).date()
@@ -154,6 +215,11 @@ def build_block(items, now: datetime | None = None, repo: str = "") -> tuple[dic
         keep.append(r)
     keep = mark_seen(keep, items)[:MAX_ITEMS]
     keep.sort(key=lambda x: x.get("created") or "", reverse=True)
+    if out_dir:
+        try:
+            localize_images(keep, out_dir=out_dir)
+        except Exception:                        # noqa: BLE001
+            pass                                 # 存图失败不影响线索本身
     unseen = sum(1 for r in keep if not r.get("seen"))
     health["items"] = len(keep)
     return {
