@@ -554,6 +554,7 @@
 {"r":"AFRICA","c":"military","d":"2026-11-05","v":22.5817}
 {"r":"AFRICA","c":"military","d":"2026-11-06","v":22.684}
 {"r":"AFRICA","c":"narrative","d":"2026-10-06","v":1.381}
+{"r":"AFRICA","c":"narrative","d":"2026-10-07","v":1.3399}
 {"r":"AFRICA","c":"narrative","d":"2026-10-26","v":1.5782}
 {"r":"AFRICA","c":"narrative","d":"2026-10-27","v":1.7241}
 {"r":"AFRICA","c":"narrative","d":"2026-10-28","v":0.1394}
@@ -1759,10 +1760,12 @@
 {"r":"EUROPE","c":"narrative","d":"2026-10-04","v":1.3866}
 {"r":"EUROPE","c":"narrative","d":"2026-10-05","v":1.1708}
 {"r":"EUROPE","c":"narrative","d":"2026-10-06","v":1.6632}
+{"r":"EUROPE","c":"narrative","d":"2026-10-07","v":1.0145}
 {"r":"EUROPE","c":"narrative","d":"2026-10-25","v":1.3107}
 {"r":"EUROPE","c":"narrative","d":"2026-10-26","v":1.283}
 {"r":"EUROPE","c":"narrative","d":"2026-10-27","v":1.5022}
 {"r":"EUROPE","c":"narrative","d":"2026-10-29","v":1.4874}
+{"r":"EUROPE","c":"narrative","d":"2026-10-30","v":1.3847}
 {"r":"EUROPE","c":"narrative","d":"2026-10-31","v":1.3435}
 {"r":"EUROPE","c":"narrative","d":"2026-11-01","v":1.6399}
 {"r":"EUROPE","c":"narrative","d":"2026-11-02","v":1.1893}
@@ -2902,6 +2905,7 @@
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-04","v":1.5908}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-05","v":1.1158}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-06","v":1.143}
+{"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-07","v":1.5214}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-25","v":3.9128}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-26","v":1.4599}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-27","v":1.0543}
@@ -5279,6 +5283,7 @@
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-04","v":1.3183}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-05","v":1.116}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-06","v":1.3798}
+{"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-07","v":1.2433}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-26","v":1.6706}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-27","v":1.5313}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-28","v":1.1967}

@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-06T10:50:16+00:00",
+ "generated_at": "2026-11-06T19:23:28+00:00",
  "date": "2026-11-05",
  "geti": 65.2,
  "delta_z": 0.56,
@@ -245,18 +245,93 @@
  ],
  "events": [
   {
-   "id": "91e21dcb6e83",
-   "title": "At least two killed, 16 injured in school bus accident in eastern France",
-   "url": "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
-   "component": "narrative",
+   "id": "6eca3e78c27a",
+   "title": "‘Message to the West’ bomb threats target European newsrooms, travel",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/message-to-the-west-bomb-threats-target-european-newsrooms-travel?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-06T18:38:44+00:00",
+   "note": "Newsrooms in Ireland and Bulgaria received bomb threats from someone identifying themself as ‘Mikhail Andropov’.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "31ed1a11cb54",
+   "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
+   "url": "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-06T18:09:49+00:00",
+   "note": "The attack on al-Hadara market in Taiz governorate's al-Waziiya district killed at least 30 people, Houthi rebels say.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "678d437da500",
+   "title": "Further bomb threats disrupt at least another 18 flights across Europe",
+   "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-06T17:14:31+00:00",
+   "note": "Media organisations in Ireland and UK also affected as apparently coordinated effort to cause chaos continues A fresh wave of bomb threats disrupted air traffic across Europe on Fr",
+   "region": "EUROPE"
+  },
+  {
+   "id": "acaf2c636e0a",
+   "title": "Europe: What we know about the hoax bomb threats disrupting flights",
+   "url": "https://www.france24.com/en/europe-what-we-know-about-the-hoax-bomb-threats-disrupting-flights",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-06T10:37:42+00:00",
-   "note": "A bus carrying school children crashed south of Bourg-en-Bresse in eastern France on Friday, killing at least two people and injuring 16 others. The vehicle was carrying 43 passeng",
+   "published": "2026-11-06T16:59:02+00:00",
+   "note": "Dozens of European flights have been disrupted this week after bomb threats were sent in to various airports, with fighter planes escorting many civilian aircraft after threats wer",
+   "region": "EUROPE"
+  },
+  {
+   "id": "877627832d10",
+   "title": "'Chaos within aviation industry' as European air traffic hit by bomb threats",
+   "url": "https://www.france24.com/en/video/20261106-chaos-within-aviation-industry-as-european-air-traffic-hit-by-bomb-threats",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-06T16:33:20+00:00",
+   "note": "Officials across Europe reported a fresh slew of bomb threats against multiple flights on Friday, November 6, following a string of hoaxes that have caused flight diversions this w",
+   "region": "EUROPE"
+  },
+  {
+   "id": "f02968d4963a",
+   "title": "Bomb threats against European flights ‘likely a coordinated campaign of disruption’, Ireland says – as it happened",
+   "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-06T16:26:17+00:00",
+   "note": "This blog is now closed, you can read more on this story here A Romanian airline Tarom flight from Prague to Bucharest is the latest believed to be affected by today’s bomb threats",
    "region": "EUROPE"
   },
   {
@@ -270,29 +345,59 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-06T10:36:31+00:00",
+   "published": "2026-11-06T15:33:52+00:00",
    "note": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
    "region": "EUROPE"
   },
   {
-   "id": "f02968d4963a",
-   "title": "European skies on high alert after hoax bomb threats this week – Europe live",
-   "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
+   "id": "42a58d94a529",
+   "title": "‘Clock is ticking’: European TV channels targeted in wave of hoax bomb threats",
+   "url": "https://www.scmp.com/news/world/europe/article/3373611/clock-ticking-european-tv-channels-targeted-wave-hoax-bomb-threats",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "scmp"
    ],
-   "published": "2026-11-06T10:33:41+00:00",
-   "note": "Hoax bomb threats targeted commercial flights this week leaving at least 35 planes searched or diverted A WizzAir flight from Prague to Rome has been diverted to Venice following a",
+   "published": "2026-11-06T15:31:04+00:00",
+   "note": "Bomb threats warning “the clock ⁠is ticking” were sent to TV stations across Europe on Friday, prompting evacuations and programming to be suspended. Warnings were sent to Irish br",
    "region": "EUROPE"
   },
   {
-   "id": "b2dc3ede62a9",
-   "title": "Death toll rises to 50 in Russian attack on aid distribution ‌point in Ukraine",
-   "url": "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine",
+   "id": "12168a9514cf",
+   "title": "New wave of bomb threats hit European airlines",
+   "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-06T15:25:35+00:00",
+   "note": "No link has been established between the threats against the airlines and those against the media outlets.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "1a136a34a5ff",
+   "title": "New bomb threats target European broadcasters, air traffic",
+   "url": "https://www.aljazeera.com/news/2026/11/6/new-bomb-threats-target-european-broadcasters-air-traffic?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-06T15:24:54+00:00",
+   "note": "A string of hoax alerts causing flight diversions across Europe this week has broadened to include newsrooms.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "c9ac9a6df2fb",
+   "title": "'Too early to draw conclusions' as bomb threat hoaxes target European countries",
+   "url": "https://www.france24.com/en/video/20261106-too-early-to-draw-conclusions-as-bomb-threat-hoaxes-target-european-countries",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -300,24 +405,54 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-06T10:15:12+00:00",
-   "note": "The death toll from Russia's bombing of an aid ​distribution ‌point in ⁠Ukraine's southeastern Zaporizhzhia region on Monday ‌has risen to 50, Kyiv's Emergency Service said on Frid",
+   "published": "2026-11-06T13:48:11+00:00",
+   "note": "Several Irish media outlets reported receiving bomb threats on Friday as a wave of hoax alerts that had so far mainly targeted airlines continued across Europe, with more than a do",
+   "region": "EUROPE"
+  },
+  {
+   "id": "7c6e82d872db",
+   "title": "Ukraine raises Zaporizhia aid strike death toll to at least 50",
+   "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-06T13:30:18+00:00",
+   "note": "Ukrainian officials say DNA tests are being used to identify bodies while up to 39 remain trapped under rubble.",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "65806a009070",
-   "title": "'Sleazy', 'manipulative' and 'ruthless': Russell Brand convicted of rape, sexual assault",
-   "url": "https://www.france24.com/en/tv-shows/press-review/20261106-sleazy-manipulative-and-ruthless-russell-brand-convicted-of-rape-sexual-assault",
+   "id": "dbece828400e",
+   "title": "Russian extremist group denies sending hoax bomb threats",
+   "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "france24"
+    "bbc"
    ],
-   "published": "2026-11-06T09:53:13+00:00",
-   "note": "PRESS REVIEW – Friday, November 6: Italian, British, French and Bulgarian papers discuss the bomb threats that diverted multiple flights across Europe on Thursday. British papers d",
-   "region": "OTHER"
+   "published": "2026-11-06T12:51:38+00:00",
+   "note": "Scores of flights across Europe have received bomb threats this week, but no explosives have been found so far.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "eed75987d191",
+   "title": "EU investigates fraud in Spain rail funds after fatal Madrid crash",
+   "url": "https://www.scmp.com/news/world/europe/article/3373589/eu-investigates-fraud-spain-rail-funds-after-fatal-madrid-crash",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-06T12:16:52+00:00",
+   "note": "The European Union is investigating the possible misuse of EU funds earmarked for the renovation of a Spanish railway line where a train crash killed 69 people, prosecutors said on",
+   "region": "EUROPE"
   },
   {
    "id": "1daee07c9efe",
@@ -325,7 +460,7 @@
    "url": "https://www.scmp.com/news/asia/east-asia/article/3373555/japan-deploys-ai-specialist-teams-counter-cyberattack-wave",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -335,27 +470,12 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "a9c1f1faa169",
-   "title": "Friday briefing: ​After a week of disruption, is living with threats our new normal?",
-   "url": "https://www.theguardian.com/world/2026/nov/06/friday-briefing-after-a-week-of-disruption-is-living-with-threats-our-new-normal",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-06T06:43:04+00:00",
-   "note": "In today’s newsletter: From diverted airliners to hacked ​fridges, a string of disruptive incidents has exposed the ​vulnerabilities of modern ​life. ​There is now an increasingly ",
-   "region": "OTHER"
-  },
-  {
    "id": "c954b34d78dc",
    "title": "A wildfire killed their loved ones in Spain. These British families demand to know why",
    "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -365,58 +485,12 @@
    "region": "OTHER"
   },
   {
-   "id": "66a37cad6149",
-   "title": "Bomb threats disrupt dozens of flights across Europe, raising hybrid war fears",
-   "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.49,
-   "origins": 2,
-   "sources": [
-    "guardian",
-    "dw"
-   ],
-   "published": "2026-11-05T18:17:36+00:00",
-   "note": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Why have more than 30 European flights been hit by bomb threats this week? Hoax b",
-   "region": "EUROPE"
-  },
-  {
-   "id": "c6022b4daf88",
-   "title": "Who could be behind hoax bomb threats to European air travel?",
-   "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-05T19:58:40+00:00",
-   "note": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "ce65aea47048",
-   "title": "Eight killed in series of shootings in western Turkey",
-   "url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-05T19:32:54+00:00",
-   "note": "Victims are found in several locations in three separate vehicles, according to local reports.",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "799293bfaa1b",
    "title": "Bomb hoaxes: Messages reveal how threat was passed on by air traffic control",
    "url": "https://www.bbc.co.uk/news/videos/cq398m8w41lyo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -426,42 +500,12 @@
    "region": "EUROPE"
   },
   {
-   "id": "a56543517e04",
-   "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-05T17:57:54+00:00",
-   "note": "EU transport commissioner says ‘too early’ to say if bomb threats to 20 flights are linked Tell us: have you been affected by the bomb threats? And the Italian news agency Ansa rep",
-   "region": "EUROPE"
-  },
-  {
-   "id": "e9f7e3d0aa61",
-   "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-   "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-05T17:39:48+00:00",
-   "note": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
-   "region": "EUROPE"
-  },
-  {
    "id": "e9b7ce982841",
    "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
    "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -486,54 +530,9 @@
    "region": "OTHER"
   },
   {
-   "id": "6fc98d7b3348",
-   "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
-   "url": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-04T19:42:47+00:00",
-   "note": "Conservation officers say more than one bear may have been involved in attack on women near their home Search teams in Canada have discovered the body of a 20-year-old woman and co",
-   "region": "OTHER"
-  },
-  {
-   "id": "a360187c7601",
-   "title": "Iran unveils ‘We will kill Trump’ banner – but US president may now be tempted to resume bombing",
-   "url": "https://www.theguardian.com/us-news/2026/nov/04/joy-iran-trump-defeat-us-midterm-elections-war",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-04T14:07:17+00:00",
-   "note": "Iran celebrates its claimed role in ‘regime change’ amid pressure on Trump to ‘finish the job’ with attack US midterms live – latest updates Iran this week unveiled a huge billboar",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "679973677bb8",
-   "title": "美国对古巴制裁新增两家中国公司 中方：坚决反对所谓“长臂管辖”",
-   "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727300.shtml",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews_cn"
-   ],
-   "published": "2026-11-06T07:28:57+00:00",
-   "note": "中新网北京11月6日电 (记者 张蔚然)中国外交部发言人郭嘉昆6日主持例行记者会。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "e86403f0535a",
-   "title": "Trump wooed Latino voters, but his ICE tactics sent them back to the polls: ‘They’re taking our neighbors’",
-   "url": "https://www.theguardian.com/us-news/2026/nov/06/latino-voters-midterms-republicans-trump",
+   "id": "d5a93c85a4b0",
+   "title": "Want to have a better chat? Scientists say the secret is ‘pink noise’",
+   "url": "https://www.theguardian.com/science/2026/nov/06/better-conversation-study-pink-noise",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
@@ -541,14 +540,44 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-06T10:00:50+00:00",
-   "note": "Texas business owner says he expected ICE raids to focus on those with criminal records not his relatives and employees Tuesday night’s explosive rout of the Republican party was s",
+   "published": "2026-11-06T19:00:49+00:00",
+   "note": "The most enjoyable conversations strike a balance between exploring a topic and pulling in fresh ideas, study finds As an early stab at rules for conversation, Cicero did a fine jo",
    "region": "OTHER"
   },
   {
-   "id": "667f91d954c3",
-   "title": "UK jailing of Indian sailor over Russia sanctions sets off ‘perfect storm’",
-   "url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm?traffic_source=rss",
+   "id": "c1990510f342",
+   "title": "Goats on weed-clearing duty become unlikely Tokyo celebrities",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/6-11-sv-tokyo-goats-weed-clearing?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-06T18:45:00+00:00",
+   "note": "Two goats deployed to clear overgrown grass near a Tokyo railway station have become social media stars.",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "3c9c9c4f810d",
+   "title": "British comedian Russell Brand found guilty of rape and three sexual assaults",
+   "url": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-06T16:45:41+00:00",
+   "note": "British comedian Russell Brand was on Thursday, November 5, found guilty of rape and three sexual assaults by a London jury, including a 16-year-old girl. He now faces \"significant",
+   "region": "OTHER"
+  },
+  {
+   "id": "53378036a408",
+   "title": "European troops prepare for possible post-ceasefire deployment to Ukraine",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
@@ -556,127 +585,97 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-06T08:32:57+00:00",
-   "note": "Captain Ajay Pant was in international waters when his allegedly 'shadow' tanker was captured by British soldiers.",
-   "region": "SOUTH_ASIA"
+   "published": "2026-11-06T16:04:19+00:00",
+   "note": "French- and British-led military drills in Poland will testing post-ceasefire deployment in Ukraine.",
+   "region": "EUROPE"
   },
   {
-   "id": "739872f1fc8e",
-   "title": "Seven people arrested in Glasgow after Bonfire Night violence across Scotland",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/06/arrests-glasgow-bonfire-night-violence-scotland",
-   "component": "narrative",
+   "id": "7c3574b74380",
+   "title": "EU charges TikTok with failing to protect users’ mental health",
+   "url": "https://www.theguardian.com/technology/2026/nov/06/eu-charges-tiktok-failure-to-protect-users-mental-health",
+   "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-06T08:11:24+00:00",
-   "note": "Emergency services targeted with fireworks and police vehicle set alight in Glasgow Seven people were arrested in Glasgow after violence on Bonfire Night in parts of Scotland durin",
-   "region": "OTHER"
-  },
-  {
-   "id": "59a07474e554",
-   "title": "5 months’ jail for helper convicted of molesting employer’s 12-year-old daughter",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373505/5-months-jail-helper-convicted-molesting-employers-12-year-old-daughter",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-06T05:30:29+00:00",
-   "note": "A Hong Kong court has sentenced a domestic helper to five months in jail for molesting her former employer’s 12-year-old daughter in the family home. Lady Jay Santos Flores, 45, of",
-   "region": "OTHER"
-  },
-  {
-   "id": "82261095a1fb",
-   "title": "儿基会：冲突中袭击供水和环境卫生设施事件增加三倍",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143138",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.43,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-05T12:00:00+00:00",
-   "note": "联合国儿童基金会周四发布报告指出，2021年至2025年，造成供水和环境卫生系统受损或被毁的袭击事件增至原来的三倍，儿童面临的疾病暴发、营养不良和暴力风险随之上升。",
-   "region": "OTHER"
+   "published": "2026-11-06T15:17:08+00:00",
+   "note": "Regulator’s initial ruling says algorithm ‘can be harmful’ and led young and vulnerable viewers ‘down rabbit holes they can’t easily escape’ Business live – latest updates TikTok h",
+   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "91e21dcb6e83",
-   "title": "At least two killed, 16 injured in school bus accident in eastern France",
-   "url": "https://www.france24.com/en/france/20261106-at-least-two-killed-16-injured-in-school-bus-accident-in-eastern-france",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-06T10:37:42+00:00",
-   "note": "A bus carrying school children crashed south of Bourg-en-Bresse in eastern France on Friday, killing at least two people and injuring 16 others. The vehicle was carrying 43 passeng",
-   "region": "EUROPE"
-  },
-  {
-   "id": "b5d297655711",
-   "title": "Two dead after bus crashes in France, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-06T10:36:31+00:00",
-   "note": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "f02968d4963a",
-   "title": "European skies on high alert after hoax bomb threats this week – Europe live",
-   "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
+   "id": "d5a93c85a4b0",
+   "title": "Want to have a better chat? Scientists say the secret is ‘pink noise’",
+   "url": "https://www.theguardian.com/science/2026/nov/06/better-conversation-study-pink-noise",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-06T10:33:41+00:00",
-   "note": "Hoax bomb threats targeted commercial flights this week leaving at least 35 planes searched or diverted A WizzAir flight from Prague to Rome has been diverted to Venice following a",
-   "region": "EUROPE"
+   "published": "2026-11-06T19:00:49+00:00",
+   "note": "The most enjoyable conversations strike a balance between exploring a topic and pulling in fresh ideas, study finds As an early stab at rules for conversation, Cicero did a fine jo",
+   "region": "OTHER"
   },
   {
-   "id": "b2dc3ede62a9",
-   "title": "Death toll rises to 50 in Russian attack on aid distribution ‌point in Ukraine",
-   "url": "https://www.france24.com/en/europe/20261106-death-toll-rises-to-50-in-russian-attack-on-aid-distribution-point-in-ukraine",
+   "id": "c1990510f342",
+   "title": "Goats on weed-clearing duty become unlikely Tokyo celebrities",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/6-11-sv-tokyo-goats-weed-clearing?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-06T18:45:00+00:00",
+   "note": "Two goats deployed to clear overgrown grass near a Tokyo railway station have become social media stars.",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "6eca3e78c27a",
+   "title": "‘Message to the West’ bomb threats target European newsrooms, travel",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/message-to-the-west-bomb-threats-target-european-newsrooms-travel?traffic_source=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "aljazeera"
    ],
-   "published": "2026-11-06T10:15:12+00:00",
-   "note": "The death toll from Russia's bombing of an aid ​distribution ‌point in ⁠Ukraine's southeastern Zaporizhzhia region on Monday ‌has risen to 50, Kyiv's Emergency Service said on Frid",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-06T18:38:44+00:00",
+   "note": "Newsrooms in Ireland and Bulgaria received bomb threats from someone identifying themself as ‘Mikhail Andropov’.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "31ed1a11cb54",
+   "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
+   "url": "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-06T18:09:49+00:00",
+   "note": "The attack on al-Hadara market in Taiz governorate's al-Waziiya district killed at least 30 people, Houthi rebels say.",
+   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 41406,
-  "gdelt_events": 41142,
+  "items": 43081,
+  "gdelt_events": 42824,
   "mode": "live",
   "data_through": "2026-11-05",
-  "clusters": 260,
-  "origins": 261,
+  "clusters": 251,
+  "origins": 253,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1220,46 +1219,90 @@
   }
  ],
  "policy": {
-  "items": [],
+  "items": [
+   {
+    "type": "redistributive",
+    "country": "JP",
+    "source": "chinanews",
+    "score": 0.2,
+    "signed": -0.2,
+    "title": "高市政府强推消费税减税相关法案遭质疑",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-06/10727537.shtml",
+    "origins": 1,
+    "when": "2026-11-06"
+   }
+  ],
   "notable": [
    {
     "kind": "judicial",
-    "title": "Met police chief urges potential victims of Russell Brand to come forward",
-    "url": "https://www.theguardian.com/uk-news/2026/nov/06/met-police-chief-potential-victims-russell-brand-come-forward",
+    "title": "Call to end ‘unjust’ national security cases as Hong Kong slams ‘malicious attacks’",
+    "url": "https://www.scmp.com/news/hong-kong/politics/article/3373613/call-end-unjust-national-security-cases-hong-kong-slams-malicious-attacks",
+    "country": "HK",
+    "source": "scmp",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "四川省广元市投资发展集团有限公司原董事覃敏严重违纪违法被开除党籍",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727652.shtml",
     "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+    "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+    "country": "KE",
     "source": "guardian",
     "when": "2026-11-06"
    },
    {
     "kind": "judicial",
-    "title": "'Sleazy', 'manipulative' and 'ruthless': Russell Brand convicted of rape, sexual assault",
-    "url": "https://www.france24.com/en/tv-shows/press-review/20261106-sleazy-manipulative-and-ruthless-russell-brand-convicted-of-rape-sexual-assault",
-    "country": "",
-    "source": "france24",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "外逃职务犯罪嫌疑人李标被遣返回中国",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727384.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "广东省住房和城乡建设厅原二级巡视员林兆雄接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727369.shtml",
+    "title": "原四川省绵阳市教育投资发展（集团）有限公司副总经理王云航严重违纪违法被开除党籍",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727621.shtml",
     "country": "",
     "source": "chinanews_cn",
     "when": "2026-11-06"
    },
    {
     "kind": "judicial",
-    "title": "广西蚕业技术推广站原站长李标被遣返回国",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727323.shtml",
+    "title": "Anti-fire ant eradication activist convicted after using legal arguments ‘similar to sovereign citizens’",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/07/trevor-hold-activist-convicted-qld-fire-ant-eradication-program-queensland-ntwnfb",
+    "country": "AU",
+    "source": "guardian",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "Kenyan doomsday cult leader jailed for 200 years for murdering 191 followers",
+    "url": "https://www.scmp.com/news/world/africa/article/3373594/kenyan-doomsday-cult-leader-jailed-200-years-murdering-191-followers",
+    "country": "KE",
+    "source": "scmp",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+    "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+    "country": "ZA",
+    "source": "guardian",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "Tanzania: Opposition leader Tundu Lissu jailed for four years",
+    "url": "https://www.dw.com/en/tanzania-opposition-leader-tundu-lissu-jailed-for-four-years/a-79875248?maca=en-rss-en-world-4025-rdf",
     "country": "",
-    "source": "chinanews_cn",
+    "source": "dw",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "Kenya cult leader Paul Mackenzie sentenced to 200 years",
+    "url": "https://www.dw.com/en/kenya-cult-leader-paul-mackenzie-sentenced-to-200-years/a-79875112?maca=en-rss-en-world-4025-rdf",
+    "country": "KE",
+    "source": "dw",
     "when": "2026-11-06"
    },
    {
@@ -1285,63 +1328,33 @@
     "country": "",
     "source": "scmp",
     "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "5 months’ jail for helper convicted of molesting employer’s 12-year-old daughter",
-    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373505/5-months-jail-helper-convicted-molesting-employers-12-year-old-daughter",
-    "country": "HK",
-    "source": "scmp",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "Malaysia’s Najib to remain in prison as legal questions linger despite fine payment",
-    "url": "https://www.scmp.com/week-asia/politics/article/3373504/malaysias-najib-closer-house-arrest-umno-pays-us123-million-fine",
-    "country": "MY",
-    "source": "scmp",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "12½ years’ jail for ex-Macau lawmaker Au Kam-san in city’s first national security trial",
-    "url": "https://www.scmp.com/news/hong-kong/politics/article/3373482/12-1/2-years-jail-ex-macau-lawmaker-au-kam-san-citys-first-national-security-trial",
-    "country": "",
-    "source": "scmp",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "A son in prison, a daughter gone: Singapore parents face heartbreak",
-    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373475/son-prison-daughter-gone-singapore-parents-face-heartbreak",
-    "country": "SG",
-    "source": "scmp",
-    "when": "2026-11-06"
    }
   ],
-  "notable_total": 15,
+  "notable_total": 16,
   "counts": {
    "extractive": 0,
    "control": 0,
-   "redistributive": 0,
-   "notable": 15
+   "redistributive": 1,
+   "notable": 16
   },
-  "pressure": {},
+  "pressure": {
+   "JP": -0.2
+  },
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 67.8,
-  "z": 0.447,
+  "index": 86.3,
+  "z": 1.104,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 16.61,
-    "chg5": -1.77,
-    "z": 0.172,
+    "last": 28.18,
+    "chg5": 63.84,
+    "z": 1.947,
     "ok": true,
-    "asof": "2026-11-04"
+    "asof": "2026-11-05"
    },
    {
     "id": "oil",
@@ -1355,11 +1368,11 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.32,
-    "chg5": 5.73,
-    "z": 0.823,
+    "last": 3.48,
+    "chg5": 6.75,
+    "z": 1.016,
     "ok": true,
-    "asof": "2026-11-04"
+    "asof": "2026-11-05"
    },
    {
     "id": "usd",
@@ -1380,13 +1393,13 @@
     "asof": "2026-11-04"
    }
   ],
-  "asof": "2026-11-04",
+  "asof": "2026-11-05",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 107,
+    "items": 108,
     "error": ""
    },
    {
@@ -1398,7 +1411,7 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 107,
+    "items": 108,
     "error": ""
    },
    {
@@ -2253,8 +2266,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 8.0,
-    "carry": 10.73,
+    "value": 9.0,
+    "carry": 11.02,
     "z": null,
     "score": null,
     "available": false
@@ -2348,40 +2361,12 @@
      "v": 4.6,
      "ts": "2026-11-05T18:05+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twaq"
-    }
-   ],
-   "eonet": [
-    {
-     "t": "Super Typhoon In-fa",
-     "v": "severe storms",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728"
-    }
-   ],
-   "gdacs": [
-    {
-     "t": "Green earthquake (Magnitude 6.1M, Depth:535km) in Fiji 05/11/2026 17:21 UTC, Few",
-     "v": "green",
-     "ts": "2026-11-05 17:39",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1575788"
     },
     {
-     "t": "Green flood alert in Democratic Republic of Congo",
-     "v": "green",
-     "ts": "2026-11-05 10:23",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269"
-    },
-    {
-     "t": "Green forest fire notification in Brazil, Guyana",
-     "v": "green",
-     "ts": "2026-11-05 08:07",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033503"
-    },
-    {
-     "t": "Green forest fire notification in Suriname, Brazil",
-     "v": "green",
-     "ts": "2026-11-05 08:08",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033504"
+     "t": "West Chile Rise",
+     "v": 4.5,
+     "ts": "2026-11-05T01:35+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twh9"
     }
    ],
    "kp": [
@@ -2422,8 +2407,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.38,
-    "carry": 0.84,
+    "value": 0.0,
+    "carry": 0.73,
     "z": null,
     "score": null,
     "available": false
@@ -2434,8 +2419,8 @@
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 4,
-   "last_seen": "2026-11-05",
+   "active_days": 3,
+   "last_seen": "2026-11-04",
    "ongoing": true
   },
   "evidence": {
@@ -2484,7 +2469,7 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 41142,
+   "items": 42824,
    "error": ""
   },
   {
@@ -2504,7 +2489,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 37,
+   "items": 35,
    "error": "",
    "undated": 0
   },
@@ -2539,7 +2524,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 17,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2560,14 +2545,14 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 15,
+   "items": 16,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 107,
+   "items": 108,
    "error": ""
   },
   {
@@ -2579,7 +2564,7 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 107,
+   "items": 108,
    "error": ""
   },
   {
@@ -2627,20 +2612,20 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 8,
+   "items": 9,
    "error": ""
   },
   {
    "source": "nasa:eonet",
-   "ok": true,
-   "items": 1,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
   },
   {
    "source": "gdacs:rss",
-   "ok": true,
-   "items": 4,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "URLError: <urlopen error timed out>"
   },
   {
    "source": "noaa:swpc",
@@ -2657,7 +2642,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 6952,
+   "items": 12462,
    "error": ""
   },
   {
