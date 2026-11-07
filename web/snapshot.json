@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-07T17:44:30+00:00",
+ "generated_at": "2026-11-07T21:48:31+00:00",
  "date": "2026-11-06",
  "geti": 68.6,
  "delta_z": 0.65,
@@ -250,7 +250,7 @@
    "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.82,
+   "confidence": 0.74,
    "origins": 2,
    "sources": [
     "aljazeera",
@@ -258,23 +258,6 @@
    ],
    "published": "2026-11-07T16:15:18+00:00",
    "note": "It happened in a region of the country known to have drug trafficking activity.",
-   "region": "OTHER"
-  },
-  {
-   "id": "ed6ef5008517",
-   "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-   "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.82,
-   "origins": 2,
-   "sources": [
-    "france24",
-    "france24",
-    "aljazeera"
-   ],
-   "published": "2026-11-07T15:26:49+00:00",
-   "note": "",
    "region": "OTHER"
   },
   {
@@ -288,13 +271,13 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-07T17:25:50+00:00",
-   "note": "Polish Prime Minister Donald Tusk, in a post on X, said police are investigating the attack Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the h",
+   "published": "2026-11-07T21:39:50+00:00",
+   "note": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: ",
    "region": "OTHER"
   },
   {
    "id": "1bdb4b680f56",
-   "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
+   "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
    "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
    "component": "narrative",
    "severity": 5,
@@ -303,9 +286,69 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-07T17:17:23+00:00",
-   "note": "Reports say man fired shots from from his car in Poland’s second city before being wounded by police while trying to flee Kraków shooting – latest updates Six people have been kill",
+   "published": "2026-11-07T21:19:01+00:00",
+   "note": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Kraków shooting – latest updates Six people have been killed and 16",
+   "region": "OTHER"
+  },
+  {
+   "id": "c9d7ce0b7c2d",
+   "title": "What we know so far after Krakow gun attack",
+   "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-07T21:13:24+00:00",
+   "note": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at his home.",
+   "region": "OTHER"
+  },
+  {
+   "id": "3abe0c6c6042",
+   "title": "Who is behind Europe’s suspected hybrid attacks?",
+   "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-07T20:48:58+00:00",
+   "note": "Bomb hoaxes and supermarket cyberattacks are heightening security fears.",
    "region": "EUROPE"
+  },
+  {
+   "id": "187c5d14a9be",
+   "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa",
+   "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-07T19:06:31+00:00",
+   "note": "Civilians bear the brunt of fighting as 27 people reported killed in strikes on a village in Sanaa province.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "989e47435eb3",
+   "title": "Houthis report 25 killed in Yemen strikes",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-07T17:39:23+00:00",
+   "note": "Yemen’s Houthis say at least 25 people have been killed and 30 injured in air strikes.",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "f224caaac7ab",
@@ -323,8 +366,38 @@
    "region": "MIDDLE_EAST"
   },
   {
+   "id": "4afb091d9c9d",
+   "title": "Houthis say at least 25 killed in Saudi air strike",
+   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-07T17:09:24+00:00",
+   "note": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "0e5ef6677440",
+   "title": "France investigating if bogus bomb threats against airlines linked to 'foreign powers'",
+   "url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-07T16:33:53+00:00",
+   "note": "French prosecutors are investigating a series of fake bomb threats that targeted commercial flights in Europe this week, including trying to establish whether foreign powers may be",
+   "region": "EUROPE"
+  },
+  {
    "id": "21ea7f411c13",
-   "title": "5 killed in shooting in tourist heart of Krakow, Poland",
+   "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
    "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
    "component": "narrative",
    "severity": 5,
@@ -334,7 +407,7 @@
     "scmp"
    ],
    "published": "2026-11-07T16:33:05+00:00",
-   "note": "A shooting in the tourist heart of Poland’s second city of Krakow on Saturday left five people dead and around a dozen wounded, police said. “A man drove a car onto Krakow’s main s",
+   "note": "Six people were killed and at least 15 wounded Saturday when a gunman opened fire in the landmark historic centre of Poland’s city of Krakow, the country’s deadliest shooting in de",
    "region": "EUROPE"
   },
   {
@@ -353,66 +426,6 @@
    "region": "EUROPE"
   },
   {
-   "id": "5cb2aa0184f1",
-   "title": "Iran’s IRGC says building underground sites for weapons production, storage",
-   "url": "https://www.aljazeera.com/news/2026/11/7/irans-irgc-says-building-underground-sites-for-weapons-production-storage?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T15:34:58+00:00",
-   "note": "IRGC says underground military complexes allow missile production to continue even under heavy bombardment.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "5a35f82bb1a9",
-   "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia",
-   "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T13:24:41+00:00",
-   "note": "A region once offering refuge becomes increasingly dangerous, as 50 people are killed in a single attack.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "b40f83d74eb4",
-   "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
-   "url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T13:07:23+00:00",
-   "note": "Floods have swept through Gaza after heavy rain, endangering families and putting war-damaged buildings at risk.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "315ed64c426c",
-   "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
-   "url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T11:59:26+00:00",
-   "note": "Government forces reclaim key territories in Taiz and Lahij but face setbacks under Houthi resistance in certain areas.",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "b091cd20c608",
    "title": "伊朗称两枚导弹击中格什姆岛，宣布击落一架美国MQ-9无人机",
    "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727758.shtml",
@@ -426,6 +439,22 @@
    "published": "2026-11-07T01:07:17+00:00",
    "note": "中新网11月7日电 据伊朗塔斯尼姆通讯社当地时间7日报道，初步报告结果显示，当日凌晨两枚导弹击中了格什姆岛。",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "ed6ef5008517",
+   "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
+   "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24",
+    "france24"
+   ],
+   "published": "2026-11-07T15:26:49+00:00",
+   "note": "",
+   "region": "OTHER"
   },
   {
    "id": "2aee74746189",
@@ -455,21 +484,6 @@
    ],
    "published": "2026-11-07T09:21:00+00:00",
    "note": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks i",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "eaf628540735",
-   "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
-   "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-07T08:08:44+00:00",
-   "note": "Moscow ⁠carried out missile ​and drone attacks on Kyiv and the surrounding region overnight Friday to Saturday, targeting energy infrastructure and killing at least one person whil",
    "region": "RUSSIA_CIS"
   },
   {
@@ -533,21 +547,6 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "a4661ac1e153",
-   "title": "Europe bomb hoaxes widen",
-   "url": "https://www.france24.com/en/europe-bomb-hoaxes-widen",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-06T21:22:24+00:00",
-   "note": "The series of hoax bomb scares sent to several Irish media outlets and European airlines are likely part of a coordinated campaign of disruption, according to the Irish government.",
-   "region": "EUROPE"
-  },
-  {
    "id": "15e3ad4f55d9",
    "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
    "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss",
@@ -593,19 +592,20 @@
    "region": "EUROPE"
   },
   {
-   "id": "799293bfaa1b",
-   "title": "Bomb hoaxes: Messages reveal how threat was passed on by air traffic control",
-   "url": "https://www.bbc.co.uk/news/videos/cq398m8w41lyo?at_medium=RSS&at_campaign=rss",
+   "id": "92ce9f17b10e",
+   "title": "US offers $20m reward for information about Iran's nuclear programme",
+   "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
    "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
+   "severity": 4,
+   "confidence": 0.74,
+   "origins": 2,
    "sources": [
-    "bbc"
+    "bbc",
+    "scmp"
    ],
-   "published": "2026-11-05T18:22:46+00:00",
-   "note": "BBC Verify has been analysing messages after flights across Europe were targeted by fake bomb threats - the second such incident this week.",
-   "region": "EUROPE"
+   "published": "2026-11-07T18:14:38+00:00",
+   "note": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
+   "region": "MIDDLE_EAST"
   }
  ],
  "breaking": [
@@ -620,13 +620,13 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-07T17:25:50+00:00",
-   "note": "Polish Prime Minister Donald Tusk, in a post on X, said police are investigating the attack Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the h",
+   "published": "2026-11-07T21:39:50+00:00",
+   "note": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: ",
    "region": "OTHER"
   },
   {
    "id": "1bdb4b680f56",
-   "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
+   "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
    "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
    "component": "narrative",
    "severity": 5,
@@ -635,14 +635,29 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-07T17:17:23+00:00",
-   "note": "Reports say man fired shots from from his car in Poland’s second city before being wounded by police while trying to flee Kraków shooting – latest updates Six people have been kill",
-   "region": "EUROPE"
+   "published": "2026-11-07T21:19:01+00:00",
+   "note": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Kraków shooting – latest updates Six people have been killed and 16",
+   "region": "OTHER"
   },
   {
-   "id": "f224caaac7ab",
-   "title": "Lebanese footballer refuses to give up after injuries from Israeli strike",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
+   "id": "c9d7ce0b7c2d",
+   "title": "What we know so far after Krakow gun attack",
+   "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-07T21:13:24+00:00",
+   "note": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at his home.",
+   "region": "OTHER"
+  },
+  {
+   "id": "3abe0c6c6042",
+   "title": "Who is behind Europe’s suspected hybrid attacks?",
+   "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -650,35 +665,20 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-07T17:16:50+00:00",
-   "note": "After surviving an Israeli airstrike that left her in a coma, Celine Haidar is back on the pitch, coaching footballers.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "21ea7f411c13",
-   "title": "5 killed in shooting in tourist heart of Krakow, Poland",
-   "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-07T16:33:05+00:00",
-   "note": "A shooting in the tourist heart of Poland’s second city of Krakow on Saturday left five people dead and around a dozen wounded, police said. “A man drove a car onto Krakow’s main s",
+   "published": "2026-11-07T20:48:58+00:00",
+   "note": "Bomb hoaxes and supermarket cyberattacks are heightening security fears.",
    "region": "EUROPE"
   }
  ],
  "coverage": {
-  "sources_ok": 21,
-  "sources_failed": 1,
-  "items": 34947,
-  "gdelt_events": 34701,
+  "sources_ok": 20,
+  "sources_failed": 2,
+  "items": 33398,
+  "gdelt_events": 33159,
   "mode": "live",
   "data_through": "2026-11-06",
-  "clusters": 240,
-  "origins": 243,
+  "clusters": 232,
+  "origins": 236,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1282,25 +1282,9 @@
    },
    {
     "kind": "judicial",
-    "title": "Call to end ‘unjust’ national security cases as Hong Kong slams ‘malicious attacks’",
-    "url": "https://www.scmp.com/news/hong-kong/politics/article/3373613/call-end-unjust-national-security-cases-hong-kong-slams-malicious-attacks",
-    "country": "HK",
-    "source": "scmp",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
     "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
     "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
     "country": "KE",
-    "source": "guardian",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "Anti-fire ant eradication activist convicted after using legal arguments ‘similar to sovereign citizens’",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/07/trevor-hold-activist-convicted-qld-fire-ant-eradication-program-queensland-ntwnfb",
-    "country": "AU",
     "source": "guardian",
     "when": "2026-11-06"
    },
@@ -1311,22 +1295,14 @@
     "country": "ZA",
     "source": "guardian",
     "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "Tanzania: Opposition leader Tundu Lissu jailed for four years",
-    "url": "https://www.dw.com/en/tanzania-opposition-leader-tundu-lissu-jailed-for-four-years/a-79875248?maca=en-rss-en-world-4025-rdf",
-    "country": "",
-    "source": "dw",
-    "when": "2026-11-06"
    }
   ],
-  "notable_total": 12,
+  "notable_total": 9,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 12
+   "notable": 9
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2460,8 +2436,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.0,
-    "carry": 0.56,
+    "value": 0.42,
+    "carry": 0.66,
     "z": null,
     "score": null,
     "available": false
@@ -2529,13 +2505,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 34701,
+   "items": 33159,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 20,
+   "items": 23,
    "error": "",
    "undated": 0
   },
@@ -2583,9 +2559,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": true,
-   "items": 10,
-   "error": "",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）",
    "undated": 0
   },
   {
@@ -2702,7 +2678,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 11410,
+   "items": 10059,
    "error": ""
   },
   {
