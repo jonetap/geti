@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-06T19:23:28+00:00",
- "date": "2026-11-05",
- "geti": 65.2,
- "delta_z": 0.56,
- "delta_pts": 3.5,
+ "generated_at": "2026-11-07T00:55:46+00:00",
+ "date": "2026-11-06",
+ "geti": 68.6,
+ "delta_z": 0.65,
+ "delta_pts": 3.3,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,25 +13,25 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 78.9,
-   "delta": -1.1,
+   "score": 79.6,
+   "delta": 0.6,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.69
+     1.72
     ],
     [
      "diplomacy",
-     1.61
+     1.54
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 70.7,
-   "delta": -4.2,
+   "score": 69.0,
+   "delta": -1.7,
    "excluded": true,
    "drivers": [
     [
@@ -40,37 +40,122 @@
     ],
     [
      "diplomacy",
-     1.03
-    ]
-   ]
-  },
-  {
-   "code": "MIDDLE_EAST",
-   "label": "中东",
-   "score": 65.1,
-   "delta": -5.4,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     1.1
-    ],
-    [
-     "military",
-     0.7
+     0.92
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 64.8,
-   "delta": -5.6,
+   "score": 67.9,
+   "delta": 3.1,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.91
+     1.08
+    ],
+    [
+     "diplomacy",
+     0.75
+    ]
+   ]
+  },
+  {
+   "code": "MIDDLE_EAST",
+   "label": "中东",
+   "score": 64.6,
+   "delta": -0.5,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.93
+    ],
+    [
+     "military",
+     0.82
+    ]
+   ]
+  },
+  {
+   "code": "SOUTH_ASIA",
+   "label": "南亚",
+   "score": 63.0,
+   "delta": 6.0,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.82
+    ],
+    [
+     "military",
+     0.71
+    ]
+   ]
+  },
+  {
+   "code": "OCEANIA",
+   "label": "大洋洲",
+   "score": 60.0,
+   "delta": -0.3,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.64
+    ],
+    [
+     "diplomacy",
+     0.61
+    ]
+   ]
+  },
+  {
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 57.2,
+   "delta": -4.0,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.56
+    ],
+    [
+     "military",
+     0.31
+    ]
+   ]
+  },
+  {
+   "code": "AFRICA",
+   "label": "非洲",
+   "score": 56.9,
+   "delta": -2.3,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.47
+    ],
+    [
+     "military",
+     0.37
+    ]
+   ]
+  },
+  {
+   "code": "RUSSIA_CIS",
+   "label": "俄与独联体",
+   "score": 52.9,
+   "delta": 0.7,
+   "excluded": false,
+   "drivers": [
+    [
+     "internal",
+     -0.78
     ],
     [
      "diplomacy",
@@ -79,104 +164,19 @@
    ]
   },
   {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 61.2,
-   "delta": -4.6,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.67
-    ],
-    [
-     "military",
-     0.6
-    ]
-   ]
-  },
-  {
-   "code": "OCEANIA",
-   "label": "大洋洲",
-   "score": 60.3,
-   "delta": -2.7,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.84
-    ],
-    [
-     "military",
-     0.61
-    ]
-   ]
-  },
-  {
-   "code": "AFRICA",
-   "label": "非洲",
-   "score": 59.2,
-   "delta": -7.6,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.64
-    ],
-    [
-     "military",
-     0.43
-    ]
-   ]
-  },
-  {
-   "code": "SOUTH_ASIA",
-   "label": "南亚",
-   "score": 57.0,
-   "delta": -14.2,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.44
-    ],
-    [
-     "economy",
-     0.44
-    ]
-   ]
-  },
-  {
-   "code": "RUSSIA_CIS",
-   "label": "俄与独联体",
-   "score": 52.2,
-   "delta": -8.6,
-   "excluded": false,
-   "drivers": [
-    [
-     "internal",
-     -0.54
-    ],
-    [
-     "diplomacy",
-     0.28
-    ]
-   ]
-  },
-  {
    "code": "LATAM",
    "label": "拉美",
-   "score": 43.9,
-   "delta": -3.0,
+   "score": 45.6,
+   "delta": 1.7,
    "excluded": false,
    "drivers": [
     [
-     "economy",
-     -0.79
+     "internal",
+     -0.84
     ],
     [
-     "internal",
-     -0.71
+     "economy",
+     -0.48
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.69,
-   "score": 89.2,
-   "contrib": 0.415
+   "z": 1.72,
+   "score": 89.6,
+   "contrib": 0.411
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.61,
-   "score": 88.2,
-   "contrib": 0.274
+   "z": 1.54,
+   "score": 87.3,
+   "contrib": 0.255
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.36,
-   "score": 84.6,
-   "contrib": 0.193
+   "z": 1.52,
+   "score": 86.9,
+   "contrib": 0.209
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 1.03,
-   "score": 78.3,
-   "contrib": 0.107
+   "z": 1.13,
+   "score": 80.5,
+   "contrib": 0.115
   },
   {
    "key": "narrative",
@@ -238,19 +238,34 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": 0.14,
-   "score": 54.4,
-   "contrib": 0.011
+   "z": 0.13,
+   "score": 53.9,
+   "contrib": 0.009
   }
  ],
  "events": [
+  {
+   "id": "a4661ac1e153",
+   "title": "Europe bomb hoaxes widen",
+   "url": "https://www.france24.com/en/europe-bomb-hoaxes-widen",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-06T21:22:24+00:00",
+   "note": "The series of hoax bomb scares sent to several Irish media outlets and European airlines are likely part of a coordinated campaign of disruption, according to the Irish government.",
+   "region": "EUROPE"
+  },
   {
    "id": "6eca3e78c27a",
    "title": "‘Message to the West’ bomb threats target European newsrooms, travel",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/message-to-the-west-bomb-threats-target-european-newsrooms-travel?traffic_source=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
@@ -260,19 +275,19 @@
    "region": "EUROPE"
   },
   {
-   "id": "31ed1a11cb54",
-   "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
-   "url": "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss",
-   "component": "military",
+   "id": "15e3ad4f55d9",
+   "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
+   "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "bbc"
    ],
-   "published": "2026-11-06T18:09:49+00:00",
-   "note": "The attack on al-Hadara market in Taiz governorate's al-Waziiya district killed at least 30 people, Houthi rebels say.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-06T17:44:02+00:00",
+   "note": "Prosecutors begin investigating EU funds meant for upgrading the Spanish railway line where a train crash killed 69 people.",
+   "region": "EUROPE"
   },
   {
    "id": "678d437da500",
@@ -280,7 +295,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -295,7 +310,7 @@
    "url": "https://www.france24.com/en/europe-what-we-know-about-the-hoax-bomb-threats-disrupting-flights",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -310,7 +325,7 @@
    "url": "https://www.france24.com/en/video/20261106-chaos-within-aviation-industry-as-european-air-traffic-hit-by-bomb-threats",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -325,7 +340,7 @@
    "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -340,7 +355,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -355,7 +370,7 @@
    "url": "https://www.scmp.com/news/world/europe/article/3373611/clock-ticking-european-tv-channels-targeted-wave-hoax-bomb-threats",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -370,7 +385,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -380,27 +395,12 @@
    "region": "EUROPE"
   },
   {
-   "id": "1a136a34a5ff",
-   "title": "New bomb threats target European broadcasters, air traffic",
-   "url": "https://www.aljazeera.com/news/2026/11/6/new-bomb-threats-target-european-broadcasters-air-traffic?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-06T15:24:54+00:00",
-   "note": "A string of hoax alerts causing flight diversions across Europe this week has broadened to include newsrooms.",
-   "region": "EUROPE"
-  },
-  {
    "id": "c9ac9a6df2fb",
    "title": "'Too early to draw conclusions' as bomb threat hoaxes target European countries",
    "url": "https://www.france24.com/en/video/20261106-too-early-to-draw-conclusions-as-bomb-threat-hoaxes-target-european-countries",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -408,21 +408,6 @@
    "published": "2026-11-06T13:48:11+00:00",
    "note": "Several Irish media outlets reported receiving bomb threats on Friday as a wave of hoax alerts that had so far mainly targeted airlines continued across Europe, with more than a do",
    "region": "EUROPE"
-  },
-  {
-   "id": "7c6e82d872db",
-   "title": "Ukraine raises Zaporizhia aid strike death toll to at least 50",
-   "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-06T13:30:18+00:00",
-   "note": "Ukrainian officials say DNA tests are being used to identify bodies while up to 39 remain trapped under rubble.",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "dbece828400e",
@@ -530,6 +515,51 @@
    "region": "OTHER"
   },
   {
+   "id": "ee471c36c5ba",
+   "title": "客机媒体频遭炸弹威胁 多方溯源无果 欧洲安全神经紧绷",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727729.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-06T22:17:47+00:00",
+   "note": "近日，法国、保加利亚、捷克、奥地利、丹麦等国多架航班陆续收到炸弹威胁，相关机场相继启动排查。当地时间6日，爱尔兰、英国多家媒体机构也报告收到炸弹或安全威胁。此外，瑞士一处火车站当天因发现可疑行李被封锁。欧洲多地接连出现安全警报，相关部门正调查威胁来源，多起事件是否存在关联目前尚无定论。专家分析称，尽管多起威胁事件未造成实质性破坏，但其引发的地缘安全和政治影响",
+   "region": "EUROPE"
+  },
+  {
+   "id": "06112407998b",
+   "title": "Russell Brand suspected to have attacked at least 10 other women",
+   "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-07T00:00:47+00:00",
+   "note": "Met police chief says ‘many more’ victims could come forward, as actor and comedian awaits sentencing Police are bracing themselves for more victims of Russell Brand to come forwar",
+   "region": "OTHER"
+  },
+  {
+   "id": "9600c82680f1",
+   "title": "Cornell faculty vote no-confidence in leadership after gang rape case",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373621/cornell-faculty-vote-no-confidence-leadership-after-gang-rape-case",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-06T23:06:09+00:00",
+   "note": "Faculty members at Cornell University on Friday passed a no-confidence resolution against the elite college’s leadership over its handling of an alleged gang rape that has sparked ",
+   "region": "OTHER"
+  },
+  {
    "id": "d5a93c85a4b0",
    "title": "Want to have a better chat? Scientists say the secret is ‘pink noise’",
    "url": "https://www.theguardian.com/science/2026/nov/06/better-conversation-study-pink-noise",
@@ -550,7 +580,7 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/6-11-sv-tokyo-goats-weed-clearing?traffic_source=rss",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
@@ -565,7 +595,7 @@
    "url": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -573,109 +603,79 @@
    "published": "2026-11-06T16:45:41+00:00",
    "note": "British comedian Russell Brand was on Thursday, November 5, found guilty of rape and three sexual assaults by a London jury, including a 16-year-old girl. He now faces \"significant",
    "region": "OTHER"
-  },
-  {
-   "id": "53378036a408",
-   "title": "European troops prepare for possible post-ceasefire deployment to Ukraine",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-06T16:04:19+00:00",
-   "note": "French- and British-led military drills in Poland will testing post-ceasefire deployment in Ukraine.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "7c3574b74380",
-   "title": "EU charges TikTok with failing to protect users’ mental health",
-   "url": "https://www.theguardian.com/technology/2026/nov/06/eu-charges-tiktok-failure-to-protect-users-mental-health",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-06T15:17:08+00:00",
-   "note": "Regulator’s initial ruling says algorithm ‘can be harmful’ and led young and vulnerable viewers ‘down rabbit holes they can’t easily escape’ Business live – latest updates TikTok h",
-   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "d5a93c85a4b0",
-   "title": "Want to have a better chat? Scientists say the secret is ‘pink noise’",
-   "url": "https://www.theguardian.com/science/2026/nov/06/better-conversation-study-pink-noise",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-06T19:00:49+00:00",
-   "note": "The most enjoyable conversations strike a balance between exploring a topic and pulling in fresh ideas, study finds As an early stab at rules for conversation, Cicero did a fine jo",
-   "region": "OTHER"
-  },
-  {
-   "id": "c1990510f342",
-   "title": "Goats on weed-clearing duty become unlikely Tokyo celebrities",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/6-11-sv-tokyo-goats-weed-clearing?traffic_source=rss",
+   "id": "06112407998b",
+   "title": "Russell Brand suspected to have attacked at least 10 other women",
+   "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
    "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "guardian"
    ],
-   "published": "2026-11-06T18:45:00+00:00",
-   "note": "Two goats deployed to clear overgrown grass near a Tokyo railway station have become social media stars.",
-   "region": "EAST_ASIA"
+   "published": "2026-11-07T00:00:47+00:00",
+   "note": "Met police chief says ‘many more’ victims could come forward, as actor and comedian awaits sentencing Police are bracing themselves for more victims of Russell Brand to come forwar",
+   "region": "OTHER"
   },
   {
-   "id": "6eca3e78c27a",
-   "title": "‘Message to the West’ bomb threats target European newsrooms, travel",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/message-to-the-west-bomb-threats-target-european-newsrooms-travel?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
+   "id": "9600c82680f1",
+   "title": "Cornell faculty vote no-confidence in leadership after gang rape case",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373621/cornell-faculty-vote-no-confidence-leadership-after-gang-rape-case",
+   "component": "narrative",
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "scmp"
    ],
-   "published": "2026-11-06T18:38:44+00:00",
-   "note": "Newsrooms in Ireland and Bulgaria received bomb threats from someone identifying themself as ‘Mikhail Andropov’.",
+   "published": "2026-11-06T23:06:09+00:00",
+   "note": "Faculty members at Cornell University on Friday passed a no-confidence resolution against the elite college’s leadership over its handling of an alleged gang rape that has sparked ",
+   "region": "OTHER"
+  },
+  {
+   "id": "ee471c36c5ba",
+   "title": "客机媒体频遭炸弹威胁 多方溯源无果 欧洲安全神经紧绷",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727729.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-06T22:17:47+00:00",
+   "note": "近日，法国、保加利亚、捷克、奥地利、丹麦等国多架航班陆续收到炸弹威胁，相关机场相继启动排查。当地时间6日，爱尔兰、英国多家媒体机构也报告收到炸弹或安全威胁。此外，瑞士一处火车站当天因发现可疑行李被封锁。欧洲多地接连出现安全警报，相关部门正调查威胁来源，多起事件是否存在关联目前尚无定论。专家分析称，尽管多起威胁事件未造成实质性破坏，但其引发的地缘安全和政治影响",
    "region": "EUROPE"
   },
   {
-   "id": "31ed1a11cb54",
-   "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
-   "url": "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss",
+   "id": "a4661ac1e153",
+   "title": "Europe bomb hoaxes widen",
+   "url": "https://www.france24.com/en/europe-bomb-hoaxes-widen",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "france24"
    ],
-   "published": "2026-11-06T18:09:49+00:00",
-   "note": "The attack on al-Hadara market in Taiz governorate's al-Waziiya district killed at least 30 people, Houthi rebels say.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-06T21:22:24+00:00",
+   "note": "The series of hoax bomb scares sent to several Irish media outlets and European airlines are likely part of a coordinated campaign of disruption, according to the Irish government.",
+   "region": "EUROPE"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 43081,
-  "gdelt_events": 42824,
+  "items": 42304,
+  "gdelt_events": 42048,
   "mode": "live",
-  "data_through": "2026-11-05",
-  "clusters": 251,
-  "origins": 253,
+  "data_through": "2026-11-06",
+  "clusters": 250,
+  "origins": 252,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -693,11 +693,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.37,
-    "p50": 0.43,
-    "p90": 0.87,
-    "ratio": 7.79,
-    "z": 1.69
+    "now": 3.58,
+    "p50": 0.44,
+    "p90": 0.9,
+    "ratio": 8.13,
+    "z": 1.72
    },
    "physical": {
     "now": 0.0,
@@ -707,40 +707,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.83,
-    "p50": 0.37,
-    "p90": 0.74,
-    "ratio": 7.58,
-    "z": 1.61
+    "now": 2.61,
+    "p50": 0.38,
+    "p90": 0.76,
+    "ratio": 6.78,
+    "z": 1.54
    },
    "economy": {
-    "now": 2.07,
-    "p50": 0.38,
-    "p90": 0.79,
-    "ratio": 5.38,
-    "z": 1.36
+    "now": 2.53,
+    "p50": 0.39,
+    "p90": 0.8,
+    "ratio": 6.49,
+    "z": 1.52
    },
    "internal": {
-    "now": 1.0,
+    "now": 1.15,
     "p50": 0.15,
     "p90": 0.4,
-    "ratio": 6.84,
-    "z": 1.03
+    "ratio": 7.85,
+    "z": 1.13
    },
    "narrative": {
-    "now": 0.07,
+    "now": 0.06,
     "p50": 0.0,
     "p90": 0.11,
     "ratio": null,
-    "z": 0.14
+    "z": 0.13
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-09",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-10",
    "geti": 50.0
@@ -795,323 +791,323 @@
   },
   {
    "date": "2026-07-23",
-   "geti": 57.6
+   "geti": 50.0
   },
   {
    "date": "2026-07-24",
-   "geti": 59.9
+   "geti": 54.9
   },
   {
    "date": "2026-07-25",
-   "geti": 60.8
+   "geti": 57.6
   },
   {
    "date": "2026-07-26",
-   "geti": 64.3
+   "geti": 61.9
   },
   {
    "date": "2026-07-27",
-   "geti": 58.8
+   "geti": 56.9
   },
   {
    "date": "2026-07-28",
-   "geti": 54.5
+   "geti": 52.9
   },
   {
    "date": "2026-07-29",
-   "geti": 50.6
+   "geti": 49.6
   },
   {
    "date": "2026-07-30",
-   "geti": 51.2
-  },
-  {
-   "date": "2026-07-31",
-   "geti": 54.3
-  },
-  {
-   "date": "2026-08-01",
-   "geti": 55.2
-  },
-  {
-   "date": "2026-08-02",
-   "geti": 55.3
-  },
-  {
-   "date": "2026-08-03",
-   "geti": 52.4
-  },
-  {
-   "date": "2026-08-04",
-   "geti": 52.4
-  },
-  {
-   "date": "2026-08-05",
-   "geti": 45.9
-  },
-  {
-   "date": "2026-08-06",
-   "geti": 48.8
-  },
-  {
-   "date": "2026-08-07",
-   "geti": 47.1
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 45.6
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 42.0
-  },
-  {
-   "date": "2026-08-10",
-   "geti": 46.9
-  },
-  {
-   "date": "2026-08-11",
-   "geti": 49.1
-  },
-  {
-   "date": "2026-08-12",
    "geti": 50.5
   },
   {
-   "date": "2026-08-13",
-   "geti": 50.3
+   "date": "2026-07-31",
+   "geti": 53.8
   },
   {
-   "date": "2026-08-14",
-   "geti": 49.5
+   "date": "2026-08-01",
+   "geti": 54.5
   },
   {
-   "date": "2026-08-15",
-   "geti": 52.7
+   "date": "2026-08-02",
+   "geti": 54.5
   },
   {
-   "date": "2026-08-16",
-   "geti": 53.7
+   "date": "2026-08-03",
+   "geti": 51.8
   },
   {
-   "date": "2026-08-17",
-   "geti": 47.1
-  },
-  {
-   "date": "2026-08-18",
-   "geti": 43.1
-  },
-  {
-   "date": "2026-08-19",
-   "geti": 40.7
-  },
-  {
-   "date": "2026-08-20",
-   "geti": 45.9
-  },
-  {
-   "date": "2026-08-21",
-   "geti": 48.6
-  },
-  {
-   "date": "2026-08-22",
-   "geti": 46.2
-  },
-  {
-   "date": "2026-08-23",
-   "geti": 41.3
-  },
-  {
-   "date": "2026-08-24",
-   "geti": 45.7
-  },
-  {
-   "date": "2026-08-25",
-   "geti": 43.6
-  },
-  {
-   "date": "2026-08-26",
-   "geti": 38.5
-  },
-  {
-   "date": "2026-08-27",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-08-28",
+   "date": "2026-08-04",
    "geti": 51.7
   },
   {
-   "date": "2026-08-29",
-   "geti": 51.7
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 57.5
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 58.8
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 52.2
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 51.3
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 49.1
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 51.2
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 49.0
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 44.4
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 43.6
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 41.4
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 39.4
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 39.1
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 42.2
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 44.1
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 43.1
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 44.2
-  },
-  {
-   "date": "2026-09-16",
+   "date": "2026-08-05",
    "geti": 45.4
   },
   {
-   "date": "2026-09-17",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.5
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 46.0
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 51.5
-  },
-  {
-   "date": "2026-09-21",
+   "date": "2026-08-06",
    "geti": 48.1
   },
   {
-   "date": "2026-09-22",
-   "geti": 46.3
+   "date": "2026-08-07",
+   "geti": 46.6
   },
   {
-   "date": "2026-09-23",
+   "date": "2026-08-08",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-08-09",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-08-10",
+   "geti": 46.4
+  },
+  {
+   "date": "2026-08-11",
    "geti": 48.4
   },
   {
-   "date": "2026-09-24",
-   "geti": 45.2
+   "date": "2026-08-12",
+   "geti": 49.8
   },
   {
-   "date": "2026-09-25",
-   "geti": 42.8
+   "date": "2026-08-13",
+   "geti": 49.8
   },
   {
-   "date": "2026-09-26",
-   "geti": 47.8
+   "date": "2026-08-14",
+   "geti": 49.2
   },
   {
-   "date": "2026-09-27",
-   "geti": 47.4
+   "date": "2026-08-15",
+   "geti": 52.5
   },
   {
-   "date": "2026-09-28",
-   "geti": 45.4
+   "date": "2026-08-16",
+   "geti": 53.5
   },
   {
-   "date": "2026-09-29",
-   "geti": 42.6
+   "date": "2026-08-17",
+   "geti": 46.9
   },
   {
-   "date": "2026-09-30",
-   "geti": 38.9
+   "date": "2026-08-18",
+   "geti": 43.0
   },
   {
-   "date": "2026-10-01",
-   "geti": 35.4
+   "date": "2026-08-19",
+   "geti": 40.6
   },
   {
-   "date": "2026-10-02",
-   "geti": 39.6
+   "date": "2026-08-20",
+   "geti": 45.5
   },
   {
-   "date": "2026-10-03",
-   "geti": 40.9
+   "date": "2026-08-21",
+   "geti": 48.4
   },
   {
-   "date": "2026-10-04",
-   "geti": 39.7
+   "date": "2026-08-22",
+   "geti": 46.0
   },
   {
-   "date": "2026-10-05",
+   "date": "2026-08-23",
+   "geti": 41.2
+  },
+  {
+   "date": "2026-08-24",
+   "geti": 45.3
+  },
+  {
+   "date": "2026-08-25",
+   "geti": 43.4
+  },
+  {
+   "date": "2026-08-26",
+   "geti": 38.1
+  },
+  {
+   "date": "2026-08-27",
+   "geti": 48.6
+  },
+  {
+   "date": "2026-08-28",
+   "geti": 51.0
+  },
+  {
+   "date": "2026-08-29",
+   "geti": 51.2
+  },
+  {
+   "date": "2026-08-30",
+   "geti": 57.2
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 58.5
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 52.0
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 51.1
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 49.0
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 49.0
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 51.1
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 48.9
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 44.3
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 43.5
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 41.2
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 39.2
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 38.8
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 41.9
+  },
+  {
+   "date": "2026-09-13",
    "geti": 43.9
   },
   {
-   "date": "2026-10-06",
+   "date": "2026-09-14",
+   "geti": 42.9
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 44.1
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 45.3
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 45.1
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 42.4
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 45.8
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 51.4
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 47.9
+  },
+  {
+   "date": "2026-09-22",
    "geti": 46.1
   },
   {
+   "date": "2026-09-23",
+   "geti": 48.2
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 42.6
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 47.6
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 47.1
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 42.4
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 38.7
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 35.2
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 39.3
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 40.7
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 39.5
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 43.7
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 45.9
+  },
+  {
    "date": "2026-10-07",
-   "geti": 44.9
+   "geti": 44.7
   },
   {
    "date": "2026-10-08",
-   "geti": 43.6
+   "geti": 43.7
   },
   {
    "date": "2026-10-09",
-   "geti": 46.8
+   "geti": 46.9
   },
   {
    "date": "2026-10-10",
-   "geti": 52.4
+   "geti": 52.5
   },
   {
    "date": "2026-10-11",
@@ -1127,7 +1123,7 @@
   },
   {
    "date": "2026-10-14",
-   "geti": 52.7
+   "geti": 52.8
   },
   {
    "date": "2026-10-15",
@@ -1216,6 +1212,10 @@
   {
    "date": "2026-11-05",
    "geti": 65.2
+  },
+  {
+   "date": "2026-11-06",
+   "geti": 68.6
   }
  ],
  "policy": {
@@ -1233,6 +1233,30 @@
    }
   ],
   "notable": [
+   {
+    "kind": "judicial",
+    "title": "Russell Brand suspected to have attacked at least 10 other women",
+    "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-07"
+   },
+   {
+    "kind": "judicial",
+    "title": "Kenyan cult leader sentenced to 200 years in prison",
+    "url": "https://www.france24.com/en/kenyan-cult-leader-sentenced-to-200-years-in-prison",
+    "country": "ZA",
+    "source": "france24",
+    "when": "2026-11-06"
+   },
+   {
+    "kind": "judicial",
+    "title": "Critics say Democrats should look into Trump's Middle East deals in future corruption investigations",
+    "url": "https://www.dw.com/en/critics-say-democrats-should-look-into-trump-s-middle-east-deals-in-future-corruption-investigations/a-79877104?maca=en-rss-en-world-4025-rdf",
+    "country": "",
+    "source": "dw",
+    "when": "2026-11-06"
+   },
    {
     "kind": "judicial",
     "title": "Call to end ‘unjust’ national security cases as Hong Kong slams ‘malicious attacks’",
@@ -1304,38 +1328,14 @@
     "country": "KE",
     "source": "dw",
     "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "The new anti-corruption law arming Beijing with wide global enforcement powers",
-    "url": "https://www.scmp.com/news/china/politics/article/3373519/new-anti-corruption-law-arms-beijing-expansive-global-enforcement-powers",
-    "country": "CN",
-    "source": "scmp",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "Macau jails pro-democracy campaigner in city's first national security case",
-    "url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
-    "country": "",
-    "source": "bbc",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "US accuses trio of using AI to impersonate CEOs and lawyers to steal US$129 million",
-    "url": "https://www.scmp.com/news/world/united-states-canada/article/3373511/us-accuses-trio-using-ai-impersonate-ceos-and-lawyers-steal-us129-million",
-    "country": "",
-    "source": "scmp",
-    "when": "2026-11-06"
    }
   ],
-  "notable_total": 16,
+  "notable_total": 17,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 1,
-   "notable": 16
+   "notable": 17
   },
   "pressure": {
    "JP": -0.2
@@ -1386,11 +1386,11 @@
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 4.9,
-    "chg5": -2.97,
-    "z": -0.118,
+    "last": 4.84,
+    "chg5": -2.81,
+    "z": -0.054,
     "ok": true,
-    "asof": "2026-11-04"
+    "asof": "2026-11-05"
    }
   ],
   "asof": "2026-11-05",
@@ -1399,25 +1399,25 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 108,
+    "items": 107,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 103,
+    "items": 102,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 108,
+    "items": 107,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 100,
+    "items": 99,
     "error": ""
    },
    {
@@ -2256,8 +2256,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 9.19,
-    "carry": 9.93,
+    "value": 9.17,
+    "carry": 9.75,
     "z": null,
     "score": null,
     "available": false
@@ -2266,8 +2266,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 9.0,
-    "carry": 11.02,
+    "value": 8.0,
+    "carry": 10.29,
     "z": null,
     "score": null,
     "available": false
@@ -2277,7 +2277,7 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 1.0,
-    "carry": 1.45,
+    "carry": 1.34,
     "z": null,
     "score": null,
     "available": false
@@ -2296,84 +2296,118 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 2.33,
-    "carry": 2.66,
+    "value": 3.33,
+    "carry": 2.82,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 3,
+  "history_days": 4,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 4,
-   "last_seen": "2026-11-05",
+   "active_days": 5,
+   "last_seen": "2026-11-06",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "Fiji region",
+     "t": "144 km SE of Hasaki, Japan",
      "v": 6.1,
-     "ts": "2026-11-05T17:21+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8r"
+     "ts": "2026-11-06T10:39+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9"
     },
     {
-     "t": "19 km NNW of Masumbwe, Tanzania",
-     "v": 5.1,
-     "ts": "2026-11-05T09:22+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw76"
+     "t": "41 km SW of Balangonan, Philippines",
+     "v": 4.9,
+     "ts": "2026-11-06T06:28+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfk"
     },
     {
-     "t": "130 km NE of Thang, India",
-     "v": 5.0,
-     "ts": "2026-11-05T16:56+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8p"
-    },
-    {
-     "t": "111 km W of Petrolia, CA",
-     "v": 5.0,
-     "ts": "2026-11-05T04:56+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75462637"
-    },
-    {
-     "t": "Sea of Okhotsk",
+     "t": "36 km WNW of Poso, Indonesia",
      "v": 4.8,
-     "ts": "2026-11-05T10:09+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw7b"
+     "ts": "2026-11-06T19:07+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr"
     },
     {
-     "t": "147 km SSE of False Pass, Alaska",
+     "t": "139 km SSE of False Pass, Alaska",
+     "v": 4.7,
+     "ts": "2026-11-06T02:35+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tweq"
+    },
+    {
+     "t": "58 km WNW of Isangel, Vanuatu",
      "v": 4.6,
-     "ts": "2026-11-05T23:04+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twd4"
+     "ts": "2026-11-06T01:37+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tweb"
     },
     {
-     "t": "south of the Fiji Islands",
+     "t": "96 km NNW of Lae, Papua New Guinea",
      "v": 4.6,
-     "ts": "2026-11-05T22:34+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twcy"
+     "ts": "2026-11-06T00:02+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twdd"
     },
     {
-     "t": "36 km E of Watari, Japan",
-     "v": 4.6,
-     "ts": "2026-11-05T18:05+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twaq"
-    },
-    {
-     "t": "West Chile Rise",
+     "t": "101 km SSE of Palekastro, Greece",
      "v": 4.5,
-     "ts": "2026-11-05T01:35+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twh9"
+     "ts": "2026-11-06T15:26+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twhq"
+    },
+    {
+     "t": "87 km N of Isangel, Vanuatu",
+     "v": 4.5,
+     "ts": "2026-11-06T08:14+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfu"
+    }
+   ],
+   "eonet": [
+    {
+     "t": "Super Typhoon In-fa",
+     "v": "severe storms",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728"
+    }
+   ],
+   "gdacs": [
+    {
+     "t": "Green notification for tropical cyclone PENA-26. Population affected by Category",
+     "v": "green",
+     "ts": "2026-11-06 21:20",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348"
+    },
+    {
+     "t": "Green earthquake (Magnitude 6.1M, Depth:29km) in Off East Coast Of Honshu, Japan",
+     "v": "green",
+     "ts": "2026-11-06 10:56",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1575911"
+    },
+    {
+     "t": "Green notification for tropical cyclone THIRTYONE-26. Population affected by Cat",
+     "v": "green",
+     "ts": "2026-11-06 07:50",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347"
+    },
+    {
+     "t": "Green flood alert in France",
+     "v": "green",
+     "ts": "2026-11-06 11:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270"
+    },
+    {
+     "t": "Green forest fire notification in Zambia, Zimbabwe",
+     "v": "green",
+     "ts": "2026-11-06 04:03",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033530"
     }
    ],
    "kp": [
     {
-     "t": "Kp 2.33 峰值（当日 8 个时段）",
-     "v": 2.33,
-     "ts": "2026-11-05",
+     "t": "Kp 3.33 峰值（当日 8 个时段）",
+     "v": 3.33,
+     "ts": "2026-11-06",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -2388,7 +2422,7 @@
     "label": "官方通报",
     "weight": 0.4,
     "value": 0.0,
-    "carry": 0.21,
+    "carry": 0.16,
     "z": null,
     "score": null,
     "available": false
@@ -2407,20 +2441,20 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.0,
-    "carry": 0.73,
+    "value": 0.39,
+    "carry": 0.65,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 3,
+  "history_days": 4,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 3,
-   "last_seen": "2026-11-04",
+   "active_days": 4,
+   "last_seen": "2026-11-06",
    "ongoing": true
   },
   "evidence": {
@@ -2428,10 +2462,10 @@
   }
  },
  "doom": {
-  "index": 65.2,
-  "z": 0.38,
+  "index": 68.6,
+  "z": 0.47,
   "parts": {
-   "military": 0.38,
+   "military": 0.47,
    "hazard": null,
    "epidemic": null
   },
@@ -2468,14 +2502,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 42824,
+   "files": 140,
+   "items": 42048,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 25,
+   "items": 26,
    "error": "",
    "undated": 0
   },
@@ -2489,14 +2523,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 35,
+   "items": 34,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2545,32 +2579,32 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 16,
+   "items": 14,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 108,
+   "items": 107,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 103,
+   "items": 102,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 108,
+   "items": 107,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 100,
+   "items": 99,
    "error": ""
   },
   {
@@ -2612,20 +2646,20 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 9,
+   "items": 8,
    "error": ""
   },
   {
    "source": "nasa:eonet",
-   "ok": false,
-   "items": 0,
-   "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
+   "ok": true,
+   "items": 1,
+   "error": ""
   },
   {
    "source": "gdacs:rss",
-   "ok": false,
-   "items": 0,
-   "error": "URLError: <urlopen error timed out>"
+   "ok": true,
+   "items": 5,
+   "error": ""
   },
   {
    "source": "noaa:swpc",
@@ -2642,7 +2676,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 12462,
+   "items": 8507,
    "error": ""
   },
   {
