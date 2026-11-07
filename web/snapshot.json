@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-07T10:03:57+00:00",
+ "generated_at": "2026-11-07T17:44:30+00:00",
  "date": "2026-11-06",
  "geti": 68.6,
  "delta_z": 0.65,
@@ -245,69 +245,87 @@
  ],
  "events": [
   {
-   "id": "2aee74746189",
-   "title": "Yemen: 30 dead in strikes on Taiz market",
-   "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
-   "component": "military",
+   "id": "b238a369cdc6",
+   "title": "Guatemalan lawmaker and three police officers killed in armed attack",
+   "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
+   "confidence": 0.82,
+   "origins": 2,
    "sources": [
-    "france24"
+    "aljazeera",
+    "scmp"
    ],
-   "published": "2026-11-07T09:37:16+00:00",
-   "note": "At least 30 people have reportedly been killed in an attack on a market in Yemen’s Taiz province, with Houthi rebels blaming Saudi airstrikes. Government forces and local authoriti",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-07T16:15:18+00:00",
+   "note": "It happened in a region of the country known to have drug trafficking activity.",
+   "region": "OTHER"
   },
   {
-   "id": "a6f33908533b",
-   "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
-   "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
-   "component": "military",
+   "id": "ed6ef5008517",
+   "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
+   "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
+   "confidence": 0.82,
+   "origins": 2,
    "sources": [
-    "dw"
+    "france24",
+    "france24",
+    "aljazeera"
    ],
-   "published": "2026-11-07T09:21:00+00:00",
-   "note": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks i",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-07T15:26:49+00:00",
+   "note": "",
+   "region": "OTHER"
   },
   {
-   "id": "eaf628540735",
-   "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
-   "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-07T08:08:44+00:00",
-   "note": "Moscow ⁠carried out missile ​and drone attacks on Kyiv and the surrounding region overnight Friday to Saturday, targeting energy infrastructure and killing at least one person whil",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "bc5a054b2ac4",
-   "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
-   "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
-   "component": "military",
+   "id": "9a50821cc62e",
+   "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
+   "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+   "component": "diplomacy",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-07T07:00:04+00:00",
-   "note": "Trump still considering new assault on Iran nuclear sites – though threats less credible after Vance remarks Qatar, the lead mediator in the US-Iran conflict, is seeking to persuad",
+   "published": "2026-11-07T17:25:50+00:00",
+   "note": "Polish Prime Minister Donald Tusk, in a post on X, said police are investigating the attack Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the h",
+   "region": "OTHER"
+  },
+  {
+   "id": "1bdb4b680f56",
+   "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
+   "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-07T17:17:23+00:00",
+   "note": "Reports say man fired shots from from his car in Poland’s second city before being wounded by police while trying to flee Kraków shooting – latest updates Six people have been kill",
+   "region": "EUROPE"
+  },
+  {
+   "id": "f224caaac7ab",
+   "title": "Lebanese footballer refuses to give up after injuries from Israeli strike",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-07T17:16:50+00:00",
+   "note": "After surviving an Israeli airstrike that left her in a coma, Celine Haidar is back on the pitch, coaching footballers.",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "84a6b206c895",
-   "title": "Chinese consulate in Melbourne demands justice after fatal stabbing of delivery worker",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3373640/chinese-consulate-melbourne-demands-justice-after-fatal-stabbing-delivery-worker",
+   "id": "21ea7f411c13",
+   "title": "5 killed in shooting in tourist heart of Krakow, Poland",
+   "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -315,14 +333,14 @@
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-07T06:44:42+00:00",
-   "note": "The Chinese consulate in Melbourne has urged local authorities to “severely punish” the person responsible for killing a Chinese delivery rider on Friday evening – a tragedy that h",
-   "region": "OTHER"
+   "published": "2026-11-07T16:33:05+00:00",
+   "note": "A shooting in the tourist heart of Poland’s second city of Krakow on Saturday left five people dead and around a dozen wounded, police said. “A man drove a car onto Krakow’s main s",
+   "region": "EUROPE"
   },
   {
-   "id": "da723f087123",
-   "title": "‘One less gang leader’: Haiti’s prime minister celebrates police operation",
-   "url": "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation?traffic_source=rss",
+   "id": "f3f70a06222f",
+   "title": "Five killed and at least 10 injured in Krakow shooting",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -330,23 +348,68 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-07T05:02:49+00:00",
-   "note": "Haiti's National Police announced that alleged gang leader Mathias Saintil was killed in an exchange of gunfire.",
-   "region": "LATAM"
+   "published": "2026-11-07T16:06:58+00:00",
+   "note": "Five people have been killed and at least 10 injured in a shooting near the main market square in Krakow, Poland.",
+   "region": "EUROPE"
   },
   {
-   "id": "6cab0d565f9e",
-   "title": "Trump confirms fresh Iran strikes days after voters punish war at polls",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3373633/trump-confirms-fresh-iran-strikes-days-after-voters-punish-war-polls",
+   "id": "5cb2aa0184f1",
+   "title": "Iran’s IRGC says building underground sites for weapons production, storage",
+   "url": "https://www.aljazeera.com/news/2026/11/7/irans-irgc-says-building-underground-sites-for-weapons-production-storage?traffic_source=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "scmp"
+    "aljazeera"
    ],
-   "published": "2026-11-07T04:25:50+00:00",
-   "note": "US President Donald Trump said the American military on Friday carried out new limited strikes on Iran, targeting an Iranian air defence system. Iranian state media reported the so",
+   "published": "2026-11-07T15:34:58+00:00",
+   "note": "IRGC says underground military complexes allow missile production to continue even under heavy bombardment.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "5a35f82bb1a9",
+   "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia",
+   "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-07T13:24:41+00:00",
+   "note": "A region once offering refuge becomes increasingly dangerous, as 50 people are killed in a single attack.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "b40f83d74eb4",
+   "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
+   "url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-07T13:07:23+00:00",
+   "note": "Floods have swept through Gaza after heavy rain, endangering families and putting war-damaged buildings at risk.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "315ed64c426c",
+   "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
+   "url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-07T11:59:26+00:00",
+   "note": "Government forces reclaim key territories in Taiz and Lahij but face setbacks under Houthi resistance in certain areas.",
    "region": "MIDDLE_EAST"
   },
   {
@@ -362,6 +425,96 @@
    ],
    "published": "2026-11-07T01:07:17+00:00",
    "note": "中新网11月7日电 据伊朗塔斯尼姆通讯社当地时间7日报道，初步报告结果显示，当日凌晨两枚导弹击中了格什姆岛。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "2aee74746189",
+   "title": "Yemen: 30 dead in strikes on Taiz market",
+   "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-07T09:37:16+00:00",
+   "note": "At least 30 people have reportedly been killed in an attack on a market in Yemen’s Taiz province, with Houthi rebels blaming Saudi airstrikes. Government forces and local authoriti",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "a6f33908533b",
+   "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
+   "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-07T09:21:00+00:00",
+   "note": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks i",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "eaf628540735",
+   "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+   "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-07T08:08:44+00:00",
+   "note": "Moscow ⁠carried out missile ​and drone attacks on Kyiv and the surrounding region overnight Friday to Saturday, targeting energy infrastructure and killing at least one person whil",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "bc5a054b2ac4",
+   "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+   "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-07T07:00:04+00:00",
+   "note": "Trump still considering new assault on Iran nuclear sites – though threats less credible after Vance remarks Qatar, the lead mediator in the US-Iran conflict, is seeking to persuad",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "84a6b206c895",
+   "title": "Chinese consulate in Melbourne demands justice after fatal stabbing of delivery worker",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3373640/chinese-consulate-melbourne-demands-justice-after-fatal-stabbing-delivery-worker",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-07T06:44:42+00:00",
+   "note": "The Chinese consulate in Melbourne has urged local authorities to “severely punish” the person responsible for killing a Chinese delivery rider on Friday – a tragedy that has spark",
+   "region": "OTHER"
+  },
+  {
+   "id": "6cab0d565f9e",
+   "title": "Trump confirms fresh Iran strikes days after voters punish war at polls",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3373633/trump-confirms-fresh-iran-strikes-days-after-voters-punish-war-polls",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-07T04:25:50+00:00",
+   "note": "US President Donald Trump said the American military on Friday carried out new limited strikes on Iran, targeting an Iranian air defence system. Iranian state media reported the so",
    "region": "MIDDLE_EAST"
   },
   {
@@ -400,7 +553,7 @@
    "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -410,94 +563,19 @@
    "region": "EUROPE"
   },
   {
-   "id": "678d437da500",
-   "title": "Further bomb threats disrupt at least another 18 flights across Europe",
-   "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
+   "id": "d3ad46cf7f99",
+   "title": "Spate of bomb threats poses serious challenge to airline industry",
+   "url": "https://www.bbc.co.uk/news/articles/cv8ezz9yn6pyo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-06T17:14:31+00:00",
-   "note": "Media organisations in Ireland and UK also affected as apparently coordinated effort to cause chaos continues A fresh wave of bomb threats disrupted air traffic across Europe on Fr",
-   "region": "EUROPE"
-  },
-  {
-   "id": "acaf2c636e0a",
-   "title": "Europe: What we know about the hoax bomb threats disrupting flights",
-   "url": "https://www.france24.com/en/europe-what-we-know-about-the-hoax-bomb-threats-disrupting-flights",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-06T16:59:02+00:00",
-   "note": "Dozens of European flights have been disrupted this week after bomb threats were sent in to various airports, with fighter planes escorting many civilian aircraft after threats wer",
-   "region": "EUROPE"
-  },
-  {
-   "id": "877627832d10",
-   "title": "'Chaos within aviation industry' as European air traffic hit by bomb threats",
-   "url": "https://www.france24.com/en/video/20261106-chaos-within-aviation-industry-as-european-air-traffic-hit-by-bomb-threats",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-06T16:33:20+00:00",
-   "note": "Officials across Europe reported a fresh slew of bomb threats against multiple flights on Friday, November 6, following a string of hoaxes that have caused flight diversions this w",
-   "region": "EUROPE"
-  },
-  {
-   "id": "f02968d4963a",
-   "title": "Bomb threats against European flights ‘likely a coordinated campaign of disruption’, Ireland says – as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-06T16:26:17+00:00",
-   "note": "This blog is now closed, you can read more on this story here A Romanian airline Tarom flight from Prague to Bucharest is the latest believed to be affected by today’s bomb threats",
-   "region": "EUROPE"
-  },
-  {
-   "id": "b5d297655711",
-   "title": "Two dead after bus crashes in France, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-06T15:33:52+00:00",
-   "note": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "42a58d94a529",
-   "title": "‘Clock is ticking’: European TV channels targeted in wave of hoax bomb threats",
-   "url": "https://www.scmp.com/news/world/europe/article/3373611/clock-ticking-european-tv-channels-targeted-wave-hoax-bomb-threats",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-06T15:31:04+00:00",
-   "note": "Bomb threats warning “the clock ⁠is ticking” were sent to TV stations across Europe on Friday, prompting evacuations and programming to be suspended. Warnings were sent to Irish br",
-   "region": "EUROPE"
+   "published": "2026-11-06T16:18:44+00:00",
+   "note": "After a week of disruption, airlines are facing both safety and financial concerns.",
+   "region": "OTHER"
   },
   {
    "id": "12168a9514cf",
@@ -505,28 +583,13 @@
    "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
    ],
    "published": "2026-11-06T15:25:35+00:00",
    "note": "No link has been established between the threats against the airlines and those against the media outlets.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "dbece828400e",
-   "title": "Russian extremist group denies sending hoax bomb threats",
-   "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-06T12:51:38+00:00",
-   "note": "Scores of flights across Europe have received bomb threats this week, but no explosives have been found so far.",
    "region": "EUROPE"
   },
   {
@@ -543,139 +606,79 @@
    "published": "2026-11-05T18:22:46+00:00",
    "note": "BBC Verify has been analysing messages after flights across Europe were targeted by fake bomb threats - the second such incident this week.",
    "region": "EUROPE"
-  },
-  {
-   "id": "e9b7ce982841",
-   "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
-   "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-05T13:47:00+00:00",
-   "note": "Dismissals follow Houthi victories and pressure from southern Yemenis for more power The UN-recognised government of Yemen has shaken up its political and military leadership in an",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "906dbea1d6f6",
-   "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
-   "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-05T10:33:21+00:00",
-   "note": "The chef had stated that putting pineapple on pizza was \"offensive to his culture\".",
-   "region": "OTHER"
-  },
-  {
-   "id": "c52b8ae18642",
-   "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
-   "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T08:45:36+00:00",
-   "note": "The US president has been sending mixed messages after his party suffered a defeat at the midterm elections.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "93925a0059c0",
-   "title": "Live: France braces for more nationwide protests as Yellow Vests urge 'mass disobedience'",
-   "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-07T08:17:22+00:00",
-   "note": "French unions and student groups are set to take to the streets for another day of protests on Saturday, while the Yellow Vests movement plans a separate rally in central Paris des",
-   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "2aee74746189",
-   "title": "Yemen: 30 dead in strikes on Taiz market",
-   "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
-   "component": "military",
+   "id": "9a50821cc62e",
+   "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
+   "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+   "component": "diplomacy",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "guardian"
    ],
-   "published": "2026-11-07T09:37:16+00:00",
-   "note": "At least 30 people have reportedly been killed in an attack on a market in Yemen’s Taiz province, with Houthi rebels blaming Saudi airstrikes. Government forces and local authoriti",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-07T17:25:50+00:00",
+   "note": "Polish Prime Minister Donald Tusk, in a post on X, said police are investigating the attack Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the h",
+   "region": "OTHER"
   },
   {
-   "id": "a6f33908533b",
-   "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
-   "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
-   "component": "military",
+   "id": "1bdb4b680f56",
+   "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
+   "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "dw"
+    "guardian"
    ],
-   "published": "2026-11-07T09:21:00+00:00",
-   "note": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks i",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-07T17:17:23+00:00",
+   "note": "Reports say man fired shots from from his car in Poland’s second city before being wounded by police while trying to flee Kraków shooting – latest updates Six people have been kill",
+   "region": "EUROPE"
   },
   {
-   "id": "c52b8ae18642",
-   "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
-   "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
+   "id": "f224caaac7ab",
+   "title": "Lebanese footballer refuses to give up after injuries from Israeli strike",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
    "component": "military",
-   "severity": 4,
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-07T08:45:36+00:00",
-   "note": "The US president has been sending mixed messages after his party suffered a defeat at the midterm elections.",
+   "published": "2026-11-07T17:16:50+00:00",
+   "note": "After surviving an Israeli airstrike that left her in a coma, Celine Haidar is back on the pitch, coaching footballers.",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "93925a0059c0",
-   "title": "Live: France braces for more nationwide protests as Yellow Vests urge 'mass disobedience'",
-   "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
-   "component": "military",
-   "severity": 4,
+   "id": "21ea7f411c13",
+   "title": "5 killed in shooting in tourist heart of Krakow, Poland",
+   "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
+   "component": "narrative",
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "scmp"
    ],
-   "published": "2026-11-07T08:17:22+00:00",
-   "note": "French unions and student groups are set to take to the streets for another day of protests on Saturday, while the Yellow Vests movement plans a separate rally in central Paris des",
+   "published": "2026-11-07T16:33:05+00:00",
+   "note": "A shooting in the tourist heart of Poland’s second city of Krakow on Saturday left five people dead and around a dozen wounded, police said. “A man drove a car onto Krakow’s main s",
    "region": "EUROPE"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 38255,
-  "gdelt_events": 37991,
+  "items": 34947,
+  "gdelt_events": 34701,
   "mode": "live",
   "data_through": "2026-11-06",
-  "clusters": 261,
-  "origins": 262,
+  "clusters": 240,
+  "origins": 243,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1103,7 +1106,7 @@
   },
   {
    "date": "2026-10-09",
-   "geti": 46.9
+   "geti": 46.8
   },
   {
    "date": "2026-10-10",
@@ -1123,7 +1126,7 @@
   },
   {
    "date": "2026-10-14",
-   "geti": 52.8
+   "geti": 52.7
   },
   {
    "date": "2026-10-15",
@@ -1219,20 +1222,40 @@
   }
  ],
  "policy": {
-  "items": [
+  "items": [],
+  "notable": [
    {
-    "type": "redistributive",
+    "kind": "judicial",
+    "title": "China vows ‘zero tolerance’ for election meddling ahead of 21st party congress",
+    "url": "https://www.scmp.com/news/china/politics/article/3373658/chinas-communist-party-vows-zero-tolerance-election-meddling-ahead-key-congress",
+    "country": "CN",
+    "source": "scmp",
+    "when": "2026-11-07"
+   },
+   {
+    "kind": "judicial",
+    "title": "柬埔寨官方：过去16个月起诉并羁押电诈犯罪嫌疑人逾五千名",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-07/10728150.shtml",
+    "country": "",
+    "source": "chinanews",
+    "when": "2026-11-07"
+   },
+   {
+    "kind": "judicial",
+    "title": "Kenyan cult leader sentenced to 200 years in prison",
+    "url": "https://www.france24.com/en/kenyan-cult-leader-sentenced-to-200-years-in-prison-1",
+    "country": "KE",
+    "source": "france24",
+    "when": "2026-11-07"
+   },
+   {
+    "kind": "judicial",
+    "title": "驻冲绳美军决定将宵禁措施延长一个月",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-07/10728010.shtml",
     "country": "JP",
     "source": "chinanews",
-    "score": 0.2,
-    "signed": -0.2,
-    "title": "高市政府强推消费税减税相关法案遭质疑",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-06/10727537.shtml",
-    "origins": 1,
-    "when": "2026-11-06"
-   }
-  ],
-  "notable": [
+    "when": "2026-11-07"
+   },
    {
     "kind": "judicial",
     "title": "USA: Democrats vow to investigate Donald Trump",
@@ -1248,30 +1271,6 @@
     "country": "MY",
     "source": "scmp",
     "when": "2026-11-07"
-   },
-   {
-    "kind": "judicial",
-    "title": "Do not investigate Trump’s corporate allies until he leaves office",
-    "url": "https://www.aljazeera.com/opinions/2026/11/7/do-not-investigate-trumps-corporate-allies-until-he-leaves-office?traffic_source=rss",
-    "country": "",
-    "source": "aljazeera",
-    "when": "2026-11-07"
-   },
-   {
-    "kind": "judicial",
-    "title": "原青海省旅游发展委员会党组书记徐浩接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-07/10727821.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-07"
-   },
-   {
-    "kind": "judicial",
-    "title": "Kenyan cult leader sentenced to 200 years in prison",
-    "url": "https://www.france24.com/en/kenyan-cult-leader-sentenced-to-200-years-in-prison",
-    "country": "ZA",
-    "source": "france24",
-    "when": "2026-11-06"
    },
    {
     "kind": "judicial",
@@ -1320,26 +1319,16 @@
     "country": "",
     "source": "dw",
     "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "Kenya cult leader Paul Mackenzie sentenced to 200 years",
-    "url": "https://www.dw.com/en/kenya-cult-leader-paul-mackenzie-sentenced-to-200-years/a-79875112?maca=en-rss-en-world-4025-rdf",
-    "country": "KE",
-    "source": "dw",
-    "when": "2026-11-06"
    }
   ],
-  "notable_total": 14,
+  "notable_total": 12,
   "counts": {
    "extractive": 0,
    "control": 0,
-   "redistributive": 1,
-   "notable": 14
+   "redistributive": 0,
+   "notable": 12
   },
-  "pressure": {
-   "JP": -0.2
-  },
+  "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
@@ -2276,8 +2265,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 1.0,
-    "carry": 1.34,
+    "value": 5.0,
+    "carry": 2.31,
     "z": null,
     "score": null,
     "available": false
@@ -2371,10 +2360,34 @@
    ],
    "eonet": [
     {
-     "t": "Super Typhoon In-fa",
-     "v": "severe storms",
+     "t": "Iceberg B22A",
+     "v": "sea and lake ice",
      "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728"
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_2736"
+    },
+    {
+     "t": "Iceberg A81",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6320"
+    },
+    {
+     "t": "Iceberg D35",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6474"
+    },
+    {
+     "t": "Iceberg A84",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12618"
+    },
+    {
+     "t": "Iceberg A85",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12716"
     }
    ],
    "gdacs": [
@@ -2437,8 +2450,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 0.0,
-    "carry": 0.0,
+    "value": 1.0,
+    "carry": 0.24,
     "z": null,
     "score": null,
     "available": false
@@ -2447,8 +2460,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.38,
-    "carry": 0.65,
+    "value": 0.0,
+    "carry": 0.56,
     "z": null,
     "score": null,
     "available": false
@@ -2464,7 +2477,14 @@
    "ongoing": true
   },
   "evidence": {
-   "who": []
+   "who": [
+    {
+     "t": "驻冲绳美军决定将宵禁措施延长一个月",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    }
+   ]
   }
  },
  "doom": {
@@ -2509,13 +2529,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 37991,
+   "items": 34701,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 28,
+   "items": 20,
    "error": "",
    "undated": 0
   },
@@ -2529,14 +2549,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 36,
+   "items": 34,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 12,
+   "items": 13,
    "error": "",
    "undated": 0
   },
@@ -2564,7 +2584,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 18,
+   "items": 10,
    "error": "",
    "undated": 0
   },
@@ -2585,7 +2605,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 11,
+   "items": 10,
    "error": "",
    "undated": 0
   },
@@ -2658,7 +2678,7 @@
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 1,
+   "items": 5,
    "error": ""
   },
   {
@@ -2682,7 +2702,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 6018,
+   "items": 11410,
    "error": ""
   },
   {
