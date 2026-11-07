@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-07T00:55:46+00:00",
+ "generated_at": "2026-11-07T10:03:57+00:00",
  "date": "2026-11-06",
  "geti": 68.6,
  "delta_z": 0.65,
@@ -245,9 +245,9 @@
  ],
  "events": [
   {
-   "id": "a4661ac1e153",
-   "title": "Europe bomb hoaxes widen",
-   "url": "https://www.france24.com/en/europe-bomb-hoaxes-widen",
+   "id": "2aee74746189",
+   "title": "Yemen: 30 dead in strikes on Taiz market",
+   "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -255,23 +255,143 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-06T21:22:24+00:00",
-   "note": "The series of hoax bomb scares sent to several Irish media outlets and European airlines are likely part of a coordinated campaign of disruption, according to the Irish government.",
-   "region": "EUROPE"
+   "published": "2026-11-07T09:37:16+00:00",
+   "note": "At least 30 people have reportedly been killed in an attack on a market in Yemen’s Taiz province, with Houthi rebels blaming Saudi airstrikes. Government forces and local authoriti",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "6eca3e78c27a",
-   "title": "‘Message to the West’ bomb threats target European newsrooms, travel",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/message-to-the-west-bomb-threats-target-european-newsrooms-travel?traffic_source=rss",
+   "id": "a6f33908533b",
+   "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
+   "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-07T09:21:00+00:00",
+   "note": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks i",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "eaf628540735",
+   "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+   "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-07T08:08:44+00:00",
+   "note": "Moscow ⁠carried out missile ​and drone attacks on Kyiv and the surrounding region overnight Friday to Saturday, targeting energy infrastructure and killing at least one person whil",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "bc5a054b2ac4",
+   "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+   "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-07T07:00:04+00:00",
+   "note": "Trump still considering new assault on Iran nuclear sites – though threats less credible after Vance remarks Qatar, the lead mediator in the US-Iran conflict, is seeking to persuad",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "84a6b206c895",
+   "title": "Chinese consulate in Melbourne demands justice after fatal stabbing of delivery worker",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3373640/chinese-consulate-melbourne-demands-justice-after-fatal-stabbing-delivery-worker",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-07T06:44:42+00:00",
+   "note": "The Chinese consulate in Melbourne has urged local authorities to “severely punish” the person responsible for killing a Chinese delivery rider on Friday evening – a tragedy that h",
+   "region": "OTHER"
+  },
+  {
+   "id": "da723f087123",
+   "title": "‘One less gang leader’: Haiti’s prime minister celebrates police operation",
+   "url": "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-07T05:02:49+00:00",
+   "note": "Haiti's National Police announced that alleged gang leader Mathias Saintil was killed in an exchange of gunfire.",
+   "region": "LATAM"
+  },
+  {
+   "id": "6cab0d565f9e",
+   "title": "Trump confirms fresh Iran strikes days after voters punish war at polls",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3373633/trump-confirms-fresh-iran-strikes-days-after-voters-punish-war-polls",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-07T04:25:50+00:00",
+   "note": "US President Donald Trump said the American military on Friday carried out new limited strikes on Iran, targeting an Iranian air defence system. Iranian state media reported the so",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "b091cd20c608",
+   "title": "伊朗称两枚导弹击中格什姆岛，宣布击落一架美国MQ-9无人机",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727758.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-07T01:07:17+00:00",
+   "note": "中新网11月7日电 据伊朗塔斯尼姆通讯社当地时间7日报道，初步报告结果显示，当日凌晨两枚导弹击中了格什姆岛。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "530e6e1ab0a0",
+   "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
+   "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
    "component": "military",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "guardian"
    ],
-   "published": "2026-11-06T18:38:44+00:00",
-   "note": "Newsrooms in Ireland and Bulgaria received bomb threats from someone identifying themself as ‘Mikhail Andropov’.",
+   "published": "2026-11-07T03:07:01+00:00",
+   "note": "The president’s announcement comes days after an earlier attack on Iran was made public, and as diplomatic efforts to end the conflict have accelerated Donald Trump has said the US",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "a4661ac1e153",
+   "title": "Europe bomb hoaxes widen",
+   "url": "https://www.france24.com/en/europe-bomb-hoaxes-widen",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-06T21:22:24+00:00",
+   "note": "The series of hoax bomb scares sent to several Irish media outlets and European airlines are likely part of a coordinated campaign of disruption, according to the Irish government.",
    "region": "EUROPE"
   },
   {
@@ -395,21 +515,6 @@
    "region": "EUROPE"
   },
   {
-   "id": "c9ac9a6df2fb",
-   "title": "'Too early to draw conclusions' as bomb threat hoaxes target European countries",
-   "url": "https://www.france24.com/en/video/20261106-too-early-to-draw-conclusions-as-bomb-threat-hoaxes-target-european-countries",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-06T13:48:11+00:00",
-   "note": "Several Irish media outlets reported receiving bomb threats on Friday as a wave of hoax alerts that had so far mainly targeted airlines continued across Europe, with more than a do",
-   "region": "EUROPE"
-  },
-  {
    "id": "dbece828400e",
    "title": "Russian extremist group denies sending hoax bomb threats",
    "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss",
@@ -423,51 +528,6 @@
    "published": "2026-11-06T12:51:38+00:00",
    "note": "Scores of flights across Europe have received bomb threats this week, but no explosives have been found so far.",
    "region": "EUROPE"
-  },
-  {
-   "id": "eed75987d191",
-   "title": "EU investigates fraud in Spain rail funds after fatal Madrid crash",
-   "url": "https://www.scmp.com/news/world/europe/article/3373589/eu-investigates-fraud-spain-rail-funds-after-fatal-madrid-crash",
-   "component": "internal",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-06T12:16:52+00:00",
-   "note": "The European Union is investigating the possible misuse of EU funds earmarked for the renovation of a Spanish railway line where a train crash killed 69 people, prosecutors said on",
-   "region": "EUROPE"
-  },
-  {
-   "id": "1daee07c9efe",
-   "title": "Japan deploys AI, specialist teams to counter cyberattack wave",
-   "url": "https://www.scmp.com/news/asia/east-asia/article/3373555/japan-deploys-ai-specialist-teams-counter-cyberattack-wave",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-06T09:37:42+00:00",
-   "note": "Japan’s government on Friday compiled a package of emergency measures to address a spate of recent personal data breaches caused by unauthorised access, amid growing public concern",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "c954b34d78dc",
-   "title": "A wildfire killed their loved ones in Spain. These British families demand to know why",
-   "url": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-06T06:00:46+00:00",
-   "note": "Nine British nationals were among the 15 people who died when fire ripped through the village of Bédar this summer.",
-   "region": "OTHER"
   },
   {
    "id": "799293bfaa1b",
@@ -515,146 +575,41 @@
    "region": "OTHER"
   },
   {
-   "id": "ee471c36c5ba",
-   "title": "客机媒体频遭炸弹威胁 多方溯源无果 欧洲安全神经紧绷",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727729.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-06T22:17:47+00:00",
-   "note": "近日，法国、保加利亚、捷克、奥地利、丹麦等国多架航班陆续收到炸弹威胁，相关机场相继启动排查。当地时间6日，爱尔兰、英国多家媒体机构也报告收到炸弹或安全威胁。此外，瑞士一处火车站当天因发现可疑行李被封锁。欧洲多地接连出现安全警报，相关部门正调查威胁来源，多起事件是否存在关联目前尚无定论。专家分析称，尽管多起威胁事件未造成实质性破坏，但其引发的地缘安全和政治影响",
-   "region": "EUROPE"
-  },
-  {
-   "id": "06112407998b",
-   "title": "Russell Brand suspected to have attacked at least 10 other women",
-   "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-07T00:00:47+00:00",
-   "note": "Met police chief says ‘many more’ victims could come forward, as actor and comedian awaits sentencing Police are bracing themselves for more victims of Russell Brand to come forwar",
-   "region": "OTHER"
-  },
-  {
-   "id": "9600c82680f1",
-   "title": "Cornell faculty vote no-confidence in leadership after gang rape case",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373621/cornell-faculty-vote-no-confidence-leadership-after-gang-rape-case",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-06T23:06:09+00:00",
-   "note": "Faculty members at Cornell University on Friday passed a no-confidence resolution against the elite college’s leadership over its handling of an alleged gang rape that has sparked ",
-   "region": "OTHER"
-  },
-  {
-   "id": "d5a93c85a4b0",
-   "title": "Want to have a better chat? Scientists say the secret is ‘pink noise’",
-   "url": "https://www.theguardian.com/science/2026/nov/06/better-conversation-study-pink-noise",
+   "id": "c52b8ae18642",
+   "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
+   "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-06T19:00:49+00:00",
-   "note": "The most enjoyable conversations strike a balance between exploring a topic and pulling in fresh ideas, study finds As an early stab at rules for conversation, Cicero did a fine jo",
-   "region": "OTHER"
-  },
-  {
-   "id": "c1990510f342",
-   "title": "Goats on weed-clearing duty become unlikely Tokyo celebrities",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/6-11-sv-tokyo-goats-weed-clearing?traffic_source=rss",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-06T18:45:00+00:00",
-   "note": "Two goats deployed to clear overgrown grass near a Tokyo railway station have become social media stars.",
-   "region": "EAST_ASIA"
+   "published": "2026-11-07T08:45:36+00:00",
+   "note": "The US president has been sending mixed messages after his party suffered a defeat at the midterm elections.",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "3c9c9c4f810d",
-   "title": "British comedian Russell Brand found guilty of rape and three sexual assaults",
-   "url": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
-   "component": "narrative",
+   "id": "93925a0059c0",
+   "title": "Live: France braces for more nationwide protests as Yellow Vests urge 'mass disobedience'",
+   "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
+   "component": "military",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-06T16:45:41+00:00",
-   "note": "British comedian Russell Brand was on Thursday, November 5, found guilty of rape and three sexual assaults by a London jury, including a 16-year-old girl. He now faces \"significant",
-   "region": "OTHER"
+   "published": "2026-11-07T08:17:22+00:00",
+   "note": "French unions and student groups are set to take to the streets for another day of protests on Saturday, while the Yellow Vests movement plans a separate rally in central Paris des",
+   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "06112407998b",
-   "title": "Russell Brand suspected to have attacked at least 10 other women",
-   "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-07T00:00:47+00:00",
-   "note": "Met police chief says ‘many more’ victims could come forward, as actor and comedian awaits sentencing Police are bracing themselves for more victims of Russell Brand to come forwar",
-   "region": "OTHER"
-  },
-  {
-   "id": "9600c82680f1",
-   "title": "Cornell faculty vote no-confidence in leadership after gang rape case",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373621/cornell-faculty-vote-no-confidence-leadership-after-gang-rape-case",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-06T23:06:09+00:00",
-   "note": "Faculty members at Cornell University on Friday passed a no-confidence resolution against the elite college’s leadership over its handling of an alleged gang rape that has sparked ",
-   "region": "OTHER"
-  },
-  {
-   "id": "ee471c36c5ba",
-   "title": "客机媒体频遭炸弹威胁 多方溯源无果 欧洲安全神经紧绷",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727729.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-06T22:17:47+00:00",
-   "note": "近日，法国、保加利亚、捷克、奥地利、丹麦等国多架航班陆续收到炸弹威胁，相关机场相继启动排查。当地时间6日，爱尔兰、英国多家媒体机构也报告收到炸弹或安全威胁。此外，瑞士一处火车站当天因发现可疑行李被封锁。欧洲多地接连出现安全警报，相关部门正调查威胁来源，多起事件是否存在关联目前尚无定论。专家分析称，尽管多起威胁事件未造成实质性破坏，但其引发的地缘安全和政治影响",
-   "region": "EUROPE"
-  },
-  {
-   "id": "a4661ac1e153",
-   "title": "Europe bomb hoaxes widen",
-   "url": "https://www.france24.com/en/europe-bomb-hoaxes-widen",
+   "id": "2aee74746189",
+   "title": "Yemen: 30 dead in strikes on Taiz market",
+   "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -662,20 +617,65 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-06T21:22:24+00:00",
-   "note": "The series of hoax bomb scares sent to several Irish media outlets and European airlines are likely part of a coordinated campaign of disruption, according to the Irish government.",
+   "published": "2026-11-07T09:37:16+00:00",
+   "note": "At least 30 people have reportedly been killed in an attack on a market in Yemen’s Taiz province, with Houthi rebels blaming Saudi airstrikes. Government forces and local authoriti",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "a6f33908533b",
+   "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
+   "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-07T09:21:00+00:00",
+   "note": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks i",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "c52b8ae18642",
+   "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
+   "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-07T08:45:36+00:00",
+   "note": "The US president has been sending mixed messages after his party suffered a defeat at the midterm elections.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "93925a0059c0",
+   "title": "Live: France braces for more nationwide protests as Yellow Vests urge 'mass disobedience'",
+   "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-07T08:17:22+00:00",
+   "note": "French unions and student groups are set to take to the streets for another day of protests on Saturday, while the Yellow Vests movement plans a separate rally in central Paris des",
    "region": "EUROPE"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 42304,
-  "gdelt_events": 42048,
+  "items": 38255,
+  "gdelt_events": 37991,
   "mode": "live",
   "data_through": "2026-11-06",
-  "clusters": 250,
-  "origins": 252,
+  "clusters": 261,
+  "origins": 262,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1235,10 +1235,34 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Russell Brand suspected to have attacked at least 10 other women",
-    "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+    "title": "USA: Democrats vow to investigate Donald Trump",
+    "url": "https://www.france24.com/en/usa-democrats-vow-to-investigate-donald-trump",
     "country": "",
-    "source": "guardian",
+    "source": "france24",
+    "when": "2026-11-07"
+   },
+   {
+    "kind": "judicial",
+    "title": "Malaysia’s king warns against challenging Najib’s house arrest",
+    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373642/malaysias-king-warns-against-challenging-najibs-house-arrest",
+    "country": "MY",
+    "source": "scmp",
+    "when": "2026-11-07"
+   },
+   {
+    "kind": "judicial",
+    "title": "Do not investigate Trump’s corporate allies until he leaves office",
+    "url": "https://www.aljazeera.com/opinions/2026/11/7/do-not-investigate-trumps-corporate-allies-until-he-leaves-office?traffic_source=rss",
+    "country": "",
+    "source": "aljazeera",
+    "when": "2026-11-07"
+   },
+   {
+    "kind": "judicial",
+    "title": "原青海省旅游发展委员会党组书记徐浩接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-07/10727821.shtml",
+    "country": "",
+    "source": "chinanews_cn",
     "when": "2026-11-07"
    },
    {
@@ -1267,14 +1291,6 @@
    },
    {
     "kind": "judicial",
-    "title": "四川省广元市投资发展集团有限公司原董事覃敏严重违纪违法被开除党籍",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727652.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
     "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
     "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
     "country": "KE",
@@ -1283,26 +1299,10 @@
    },
    {
     "kind": "judicial",
-    "title": "原四川省绵阳市教育投资发展（集团）有限公司副总经理王云航严重违纪违法被开除党籍",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-06/10727621.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
     "title": "Anti-fire ant eradication activist convicted after using legal arguments ‘similar to sovereign citizens’",
     "url": "https://www.theguardian.com/australia-news/2026/nov/07/trevor-hold-activist-convicted-qld-fire-ant-eradication-program-queensland-ntwnfb",
     "country": "AU",
     "source": "guardian",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "Kenyan doomsday cult leader jailed for 200 years for murdering 191 followers",
-    "url": "https://www.scmp.com/news/world/africa/article/3373594/kenyan-doomsday-cult-leader-jailed-200-years-murdering-191-followers",
-    "country": "KE",
-    "source": "scmp",
     "when": "2026-11-06"
    },
    {
@@ -1330,12 +1330,12 @@
     "when": "2026-11-06"
    }
   ],
-  "notable_total": 17,
+  "notable_total": 14,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 1,
-   "notable": 17
+   "notable": 14
   },
   "pressure": {
    "JP": -0.2
@@ -2256,7 +2256,7 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 9.17,
+    "value": 9.18,
     "carry": 9.75,
     "z": null,
     "score": null,
@@ -2266,8 +2266,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 8.0,
-    "carry": 10.29,
+    "value": 9.0,
+    "carry": 10.53,
     "z": null,
     "score": null,
     "available": false
@@ -2339,6 +2339,12 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tweq"
     },
     {
+     "t": "11 km ENE of Yigo Village, Guam",
+     "v": 4.6,
+     "ts": "2026-11-06T22:37+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twqm"
+    },
+    {
      "t": "58 km WNW of Isangel, Vanuatu",
      "v": 4.6,
      "ts": "2026-11-06T01:37+00:00",
@@ -2385,7 +2391,7 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1575911"
     },
     {
-     "t": "Green notification for tropical cyclone THIRTYONE-26. Population affected by Cat",
+     "t": "Green notification for tropical cyclone CEMPAKA-26. Population affected by Categ",
      "v": "green",
      "ts": "2026-11-06 07:50",
      "u": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347"
@@ -2441,7 +2447,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.39,
+    "value": 0.38,
     "carry": 0.65,
     "z": null,
     "score": null,
@@ -2502,14 +2508,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 140,
-   "items": 42048,
+   "files": 144,
+   "items": 37991,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 26,
+   "items": 28,
    "error": "",
    "undated": 0
   },
@@ -2523,7 +2529,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 34,
+   "items": 36,
    "error": "",
    "undated": 0
   },
@@ -2558,7 +2564,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 11,
+   "items": 18,
    "error": "",
    "undated": 0
   },
@@ -2579,7 +2585,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 14,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2646,7 +2652,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 8,
+   "items": 9,
    "error": ""
   },
   {
@@ -2676,7 +2682,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 8507,
+   "items": 6018,
    "error": ""
   },
   {
