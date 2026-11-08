@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-08T05:58:05+00:00",
+ "generated_at": "2026-11-08T13:21:58+00:00",
  "date": "2026-11-07",
  "geti": 66.9,
  "delta_z": 0.34,
@@ -245,34 +245,49 @@
  ],
  "events": [
   {
-   "id": "32ed074ba531",
-   "title": "哥伦比亚一军事基地遇袭 致3死8伤",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728275.shtml",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-08T03:10:24+00:00",
-   "note": "中新社北京11月8日电 波哥大消息：据哥伦比亚军方通报，该国北部玻利瓦尔省一处军事基地当地时间7日遭携带爆炸装置的无人机袭击，造成3名军人死亡、8名军人重伤，另有多人受不同程度伤害。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "4afb091d9c9d",
-   "title": "Houthis say at least 33 killed in Saudi air strike",
-   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
+   "id": "6c66b6aab4f0",
+   "title": "Poland mourns six killed in attack as authorities launch ‘terrorism’ probe",
+   "url": "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "aljazeera"
    ],
-   "published": "2026-11-08T04:03:12+00:00",
-   "note": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-08T12:40:12+00:00",
+   "note": "'Terrorism' investigation launched after government officials say suspect likely influenced by far-right ideology.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "779b9da88d0a",
+   "title": "Chinese engineers reduce cargo ship fuel use by 5% with high-speed torpedo tech",
+   "url": "https://www.scmp.com/news/china/science/article/3373333/chinese-engineers-reduce-cargo-ship-fuel-use-5-high-speed-torpedo-tech",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T12:00:25+00:00",
+   "note": "Supercavitating torpedoes can reach extreme underwater speeds by travelling inside a gas-filled cavity that sharply reduces their contact with water. Beyond torpedoes, supercavitat",
+   "region": "OTHER"
+  },
+  {
+   "id": "dcc9f74a6ef4",
+   "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
+   "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-08T11:50:15+00:00",
+   "note": "Officials say suspect holds far-right views and three people found dead at his home were his parents and sister Polish prosecutors have opened a terrorism investigation after a 24-",
+   "region": "OTHER"
   },
   {
    "id": "c9d7ce0b7c2d",
@@ -285,29 +300,14 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-08T01:47:41+00:00",
-   "note": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
+   "published": "2026-11-08T11:22:17+00:00",
+   "note": "Six people were killed in a random shooting in Krakow's main square, and three bodies were later found at the home of the attacker.",
    "region": "OTHER"
   },
   {
-   "id": "c317875c66fe",
-   "title": "Japan rethinks its stalking laws after Pokemon store murder",
-   "url": "https://www.scmp.com/week-asia/health-environment/article/3373571/japan-rethinks-its-stalking-laws-after-pokemon-store-murder",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-08T01:00:27+00:00",
-   "note": "Long before Moe Harukawa was killed, she lived in fear. The 21-year-old shop assistant had reported her ex-boyfriend to police and a court had ordered him to stay away from her. Ye",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "3e167029cfa0",
-   "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss",
+   "id": "a591e18806df",
+   "title": "After rebel offensive, efforts to push them back appear to have stalled",
+   "url": "https://www.aljazeera.com/video/project-force-2/2026/11/8/after-rebel-offensive-efforts-to-push-them-back-appear-to-have-stalled?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -315,9 +315,99 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-08T00:50:28+00:00",
-   "note": "Polish Prime Minister Donald Tusk describes a deadly shooting in Krakow that killed six people as an act of ‘terrorism’.",
+   "published": "2026-11-08T10:28:08+00:00",
+   "note": "Saudi air power so far hasn't been enough for Yemen's government, and civilians are increasingly stuck in the middle",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "12347fdb7f0b",
+   "title": "Chinese dad whose daughter died in crash visits junction daily to catch traffic violators",
+   "url": "https://www.scmp.com/news/people-culture/trending-china/article/3373688/chinese-dad-whose-daughter-died-crash-visits-junction-daily-catch-traffic-violators",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T10:00:37+00:00",
+   "note": "A grieving father in southeastern China became a citizen watchdog after a collision killed his nine-year-old daughter. On August 1, Wu Zhisheng’s wife was riding an electric bike w",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "1e7b0f8f6e57",
+   "title": "Middle East live: Riyadh's financial district targeted following deadly Saudi strikes in Yemen",
+   "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T09:47:36+00:00",
+   "note": "Riyadh’s Aramco Tower was damaged by falling debris on Sunday after the Saudi-led coalition fighting Yemen’s Houthi rebels intercepted two ballistic missiles headed for the capital",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "bfb0c7f5bad1",
+   "title": "Donald Trump wants UFC fighters as assistants",
+   "url": "https://www.france24.com/en/donald-trump-wants-ufc-fighters-as-assistants",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T09:44:28+00:00",
+   "note": "After a series of combative press briefings between the Trump administration and journalists, the US president surprised many by reportedly offering Dana White, the head of the Ult",
    "region": "OTHER"
+  },
+  {
+   "id": "1bdb4b680f56",
+   "title": "Briton among six dead after gunman opens fire in Kraków market square",
+   "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-08T09:30:22+00:00",
+   "note": "Three more people found dead at home of suspect, who minister says held ‘ultra-nationalistic’ views Six people were killed and 16 wounded after a gunman opened fire in a busy marke",
+   "region": "OTHER"
+  },
+  {
+   "id": "e755190db607",
+   "title": "Poland launches terrorism probe into mass shooting in Krakow",
+   "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T08:59:56+00:00",
+   "note": "Poland on Sunday launched a terror probe into the mass shooting in Krakow the day before, in which six people were killed and many more were injured. Authorities have said that the",
+   "region": "EUROPE"
+  },
+  {
+   "id": "32ed074ba531",
+   "title": "哥伦比亚一军事基地遇袭 致3死8伤",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728275.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-08T03:10:24+00:00",
+   "note": "中新社北京11月8日电 波哥大消息：据哥伦比亚军方通报，该国北部玻利瓦尔省一处军事基地当地时间7日遭携带爆炸装置的无人机袭击，造成3名军人死亡、8名军人重伤，另有多人受不同程度伤害。",
+   "region": "EAST_ASIA"
   },
   {
    "id": "c0c4bc7df858",
@@ -350,8 +440,53 @@
    "region": "MIDDLE_EAST"
   },
   {
+   "id": "d255e558267e",
+   "title": "Will Democrats sway ‘unshackled’ Trump’s Russia-Ukraine stance after midterm rout?",
+   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373681/will-democrats-sway-unshackled-trumps-russia-ukraine-stance-after-midterm-rout",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T07:00:34+00:00",
+   "note": "The Republicans’ defeat in the US midterm elections was watched closely in Russia, where some observers are predicting it could herald more support for Ukraine when the Democrats t",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "4afb091d9c9d",
+   "title": "Houthis say at least 33 killed in Saudi air strike",
+   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-08T04:03:12+00:00",
+   "note": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "c317875c66fe",
+   "title": "Japan rethinks its stalking laws after Pokemon store murder",
+   "url": "https://www.scmp.com/week-asia/health-environment/article/3373571/japan-rethinks-its-stalking-laws-after-pokemon-store-murder",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T01:00:27+00:00",
+   "note": "Long before Moe Harukawa was killed, she lived in fear. The 21-year-old shop assistant had reported her ex-boyfriend to police and a court had ordered him to stay away from her. Ye",
+   "region": "EAST_ASIA"
+  },
+  {
    "id": "11a7a11514e4",
-   "title": "Gunmen kills six in Krakow, three more bodies found at his house",
+   "title": "Gunman kills six in Krakow, three more bodies found at his house",
    "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
    "component": "narrative",
    "severity": 5,
@@ -365,49 +500,19 @@
    "region": "EUROPE"
   },
   {
-   "id": "9a50821cc62e",
-   "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
-   "component": "diplomacy",
+   "id": "8e8f119c9854",
+   "title": "Trump asks UFC chief Dana White to be his new press secretary: ‘please take the job’",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373670/trump-asks-ufc-chief-dana-white-be-his-new-press-secretary-please-take-job",
+   "component": "internal",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "guardian"
+    "scmp"
    ],
-   "published": "2026-11-07T22:32:41+00:00",
-   "note": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: ",
+   "published": "2026-11-07T19:44:09+00:00",
+   "note": "Facing an incoming Democratic Congress, US President Donald Trump struck a combative tone on Saturday, offering friend and “violent fighter” Dana White the White House press secret",
    "region": "OTHER"
-  },
-  {
-   "id": "1bdb4b680f56",
-   "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
-   "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-07T21:19:01+00:00",
-   "note": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Six people have been killed and 16 wounded after a gunman opened fi",
-   "region": "OTHER"
-  },
-  {
-   "id": "3abe0c6c6042",
-   "title": "Who is behind Europe’s suspected hybrid attacks?",
-   "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T20:48:58+00:00",
-   "note": "Bomb hoaxes and supermarket cyberattacks are heightening security fears.",
-   "region": "EUROPE"
   },
   {
    "id": "0e5ef6677440",
@@ -471,27 +576,12 @@
    "region": "OTHER"
   },
   {
-   "id": "2aee74746189",
-   "title": "Yemen: 30 dead in strikes on Taiz market",
-   "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-07T09:37:16+00:00",
-   "note": "At least 30 people have reportedly been killed in an attack on a market in Yemen’s Taiz province, with Houthi rebels blaming Saudi airstrikes. Government forces and local authoriti",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "a6f33908533b",
    "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
    "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "dw"
@@ -506,7 +596,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -514,128 +604,53 @@
    "published": "2026-11-07T07:00:04+00:00",
    "note": "Trump still considering new assault on Iran nuclear sites – though threats less credible after Vance remarks Qatar, the lead mediator in the US-Iran conflict, is seeking to persuad",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "84a6b206c895",
-   "title": "Chinese consulate in Melbourne demands justice after fatal stabbing of delivery worker",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3373640/chinese-consulate-melbourne-demands-justice-after-fatal-stabbing-delivery-worker",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-07T06:44:42+00:00",
-   "note": "The Chinese consulate in Melbourne has urged local authorities to “severely punish” the person responsible for killing a Chinese delivery rider on Friday – a tragedy that has spark",
-   "region": "OTHER"
-  },
-  {
-   "id": "6cab0d565f9e",
-   "title": "Trump confirms fresh Iran strikes days after voters punish war at polls",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3373633/trump-confirms-fresh-iran-strikes-days-after-voters-punish-war-polls",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-07T04:25:50+00:00",
-   "note": "US President Donald Trump said the American military on Friday carried out new limited strikes on Iran, targeting an Iranian air defence system. Iranian state media reported the so",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "530e6e1ab0a0",
-   "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
-   "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-07T03:07:01+00:00",
-   "note": "The president’s announcement comes days after an earlier attack on Iran was made public, and as diplomatic efforts to end the conflict have accelerated Donald Trump has said the US",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "15e3ad4f55d9",
-   "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
-   "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-06T17:44:02+00:00",
-   "note": "Prosecutors begin investigating EU funds meant for upgrading the Spanish railway line where a train crash killed 69 people.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "d3ad46cf7f99",
-   "title": "Spate of bomb threats poses serious challenge to airline industry",
-   "url": "https://www.bbc.co.uk/news/articles/cv8ezz9yn6pyo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-06T16:18:44+00:00",
-   "note": "After a week of disruption, airlines are facing both safety and financial concerns.",
-   "region": "OTHER"
-  },
-  {
-   "id": "12168a9514cf",
-   "title": "New wave of bomb threats hit European airlines",
-   "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-06T15:25:35+00:00",
-   "note": "No link has been established between the threats against the airlines and those against the media outlets.",
-   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "4afb091d9c9d",
-   "title": "Houthis say at least 33 killed in Saudi air strike",
-   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
+   "id": "6c66b6aab4f0",
+   "title": "Poland mourns six killed in attack as authorities launch ‘terrorism’ probe",
+   "url": "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "aljazeera"
    ],
-   "published": "2026-11-08T04:03:12+00:00",
-   "note": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-08T12:40:12+00:00",
+   "note": "'Terrorism' investigation launched after government officials say suspect likely influenced by far-right ideology.",
+   "region": "EUROPE"
   },
   {
-   "id": "32ed074ba531",
-   "title": "哥伦比亚一军事基地遇袭 致3死8伤",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728275.shtml",
-   "component": "military",
+   "id": "779b9da88d0a",
+   "title": "Chinese engineers reduce cargo ship fuel use by 5% with high-speed torpedo tech",
+   "url": "https://www.scmp.com/news/china/science/article/3373333/chinese-engineers-reduce-cargo-ship-fuel-use-5-high-speed-torpedo-tech",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.64,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "scmp"
    ],
-   "published": "2026-11-08T03:10:24+00:00",
-   "note": "中新社北京11月8日电 波哥大消息：据哥伦比亚军方通报，该国北部玻利瓦尔省一处军事基地当地时间7日遭携带爆炸装置的无人机袭击，造成3名军人死亡、8名军人重伤，另有多人受不同程度伤害。",
-   "region": "EAST_ASIA"
+   "published": "2026-11-08T12:00:25+00:00",
+   "note": "Supercavitating torpedoes can reach extreme underwater speeds by travelling inside a gas-filled cavity that sharply reduces their contact with water. Beyond torpedoes, supercavitat",
+   "region": "OTHER"
+  },
+  {
+   "id": "dcc9f74a6ef4",
+   "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
+   "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-08T11:50:15+00:00",
+   "note": "Officials say suspect holds far-right views and three people found dead at his home were his parents and sister Polish prosecutors have opened a terrorism investigation after a 24-",
+   "region": "OTHER"
   },
   {
    "id": "c9d7ce0b7c2d",
@@ -648,35 +663,20 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-08T01:47:41+00:00",
-   "note": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
+   "published": "2026-11-08T11:22:17+00:00",
+   "note": "Six people were killed in a random shooting in Krakow's main square, and three bodies were later found at the home of the attacker.",
    "region": "OTHER"
-  },
-  {
-   "id": "c317875c66fe",
-   "title": "Japan rethinks its stalking laws after Pokemon store murder",
-   "url": "https://www.scmp.com/week-asia/health-environment/article/3373571/japan-rethinks-its-stalking-laws-after-pokemon-store-murder",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-08T01:00:27+00:00",
-   "note": "Long before Moe Harukawa was killed, she lived in fear. The 21-year-old shop assistant had reported her ex-boyfriend to police and a court had ordered him to stay away from her. Ye",
-   "region": "EAST_ASIA"
   }
  ],
  "coverage": {
-  "sources_ok": 20,
-  "sources_failed": 2,
-  "items": 27940,
-  "gdelt_events": 27702,
+  "sources_ok": 21,
+  "sources_failed": 1,
+  "items": 22596,
+  "gdelt_events": 22357,
   "mode": "live",
   "data_through": "2026-11-07",
   "clusters": 233,
-  "origins": 234,
+  "origins": 235,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1224,6 +1224,38 @@
   "notable": [
    {
     "kind": "judicial",
+    "title": "China’s focus on getting its house in order offers lessons in governance",
+    "url": "https://www.scmp.com/opinion/china-opinion/article/3373416/chinas-focus-getting-its-house-order-offers-lessons-governance",
+    "country": "CN",
+    "source": "scmp",
+    "when": "2026-11-08"
+   },
+   {
+    "kind": "judicial",
+    "title": "Healthcare, tariffs – but not Trump impeachment: Democrats chart next two years of power",
+    "url": "https://www.theguardian.com/us-news/2026/nov/08/democrats-congress-trump-midterms",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-08"
+   },
+   {
+    "kind": "judicial",
+    "title": "Mother of Royal Navy sailor missing for 40 years calls for suspected killer to confess",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/08/simon-parkes-navy-sailor-mother-allan-grimson-suspected-killer",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-08"
+   },
+   {
+    "kind": "judicial",
+    "title": "日本大阪发生持刀伤人事件致1人受伤 嫌犯被捕",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728417.shtml",
+    "country": "JP",
+    "source": "chinanews",
+    "when": "2026-11-08"
+   },
+   {
+    "kind": "judicial",
     "title": "China vows ‘zero tolerance’ for election meddling ahead of 21st party congress",
     "url": "https://www.scmp.com/news/china/politics/article/3373658/chinas-communist-party-vows-zero-tolerance-election-meddling-ahead-key-congress",
     "country": "CN",
@@ -1240,40 +1272,8 @@
    },
    {
     "kind": "judicial",
-    "title": "Kenyan cult leader sentenced to 200 years in prison",
-    "url": "https://www.france24.com/en/kenyan-cult-leader-sentenced-to-200-years-in-prison-1",
-    "country": "KE",
-    "source": "france24",
-    "when": "2026-11-07"
-   },
-   {
-    "kind": "judicial",
-    "title": "驻冲绳美军决定将宵禁措施延长一个月",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-07/10728010.shtml",
-    "country": "JP",
-    "source": "chinanews",
-    "when": "2026-11-07"
-   },
-   {
-    "kind": "judicial",
-    "title": "USA: Democrats vow to investigate Donald Trump",
-    "url": "https://www.france24.com/en/usa-democrats-vow-to-investigate-donald-trump",
-    "country": "",
-    "source": "france24",
-    "when": "2026-11-07"
-   },
-   {
-    "kind": "judicial",
-    "title": "Malaysia’s king warns against challenging Najib’s house arrest",
-    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373642/malaysias-king-warns-against-challenging-najibs-house-arrest",
-    "country": "MY",
-    "source": "scmp",
-    "when": "2026-11-07"
-   },
-   {
-    "kind": "judicial",
-    "title": "Critics say Democrats should look into Trump's Middle East deals in future corruption investigations",
-    "url": "https://www.dw.com/en/critics-say-democrats-should-look-into-trump-s-middle-east-deals-in-future-corruption-investigations/a-79877104?maca=en-rss-en-world-4025-rdf",
+    "title": "Middle East could have big role in Democrats' Trump corruption inquiry",
+    "url": "https://www.dw.com/en/middle-east-could-have-big-role-in-democrats-trump-corruption-inquiry/a-79877104?maca=en-rss-en-world-4025-rdf",
     "country": "",
     "source": "dw",
     "when": "2026-11-06"
@@ -1285,22 +1285,14 @@
     "country": "KE",
     "source": "guardian",
     "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
-    "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
-    "country": "ZA",
-    "source": "guardian",
-    "when": "2026-11-06"
    }
   ],
-  "notable_total": 9,
+  "notable_total": 8,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 9
+   "notable": 8
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2219,8 +2211,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 9.1,
-    "carry": 9.61,
+    "value": 9.02,
+    "carry": 9.6,
     "z": null,
     "score": null,
     "available": false
@@ -2229,8 +2221,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 16.0,
-    "carry": 11.68,
+    "value": 17.0,
+    "carry": 11.89,
     "z": null,
     "score": null,
     "available": false
@@ -2239,8 +2231,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 5.0,
-    "carry": 2.87,
+    "value": 0.0,
+    "carry": 1.82,
     "z": null,
     "score": null,
     "available": false
@@ -2279,7 +2271,7 @@
    "quake": [
     {
      "t": "central Mid-Atlantic Ridge",
-     "v": 5.9,
+     "v": 5.8,
      "ts": "2026-11-07T23:17+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twun"
     },
@@ -2338,41 +2330,10 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh"
     }
    ],
-   "eonet": [
-    {
-     "t": "Iceberg B22A",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_2736"
-    },
-    {
-     "t": "Iceberg A81",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6320"
-    },
-    {
-     "t": "Iceberg D35",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6474"
-    },
-    {
-     "t": "Iceberg A84",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12618"
-    },
-    {
-     "t": "Iceberg A85",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12716"
-    }
-   ],
+   "eonet": [],
    "gdacs": [
     {
-     "t": "Green earthquake (Magnitude 5.9M, Depth:10km) in Central Mid-Atlantic Ridge 07/1",
+     "t": "Green earthquake (Magnitude 5.8M, Depth:10km) in Central Mid-Atlantic Ridge 07/1",
      "v": "green",
      "ts": "2026-11-07 23:36",
      "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576162"
@@ -2430,8 +2391,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 1.0,
-    "carry": 0.4,
+    "value": 0.0,
+    "carry": 0.19,
     "z": null,
     "score": null,
     "available": false
@@ -2457,14 +2418,7 @@
    "ongoing": true
   },
   "evidence": {
-   "who": [
-    {
-     "t": "驻冲绳美军决定将宵禁措施延长一个月",
-     "v": "政策",
-     "ts": "",
-     "u": ""
-    }
-   ]
+   "who": []
   }
  },
  "doom": {
@@ -2508,8 +2462,8 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 27702,
+   "files": 140,
+   "items": 22357,
    "error": ""
   },
   {
@@ -2529,7 +2483,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 35,
+   "items": 36,
    "error": "",
    "undated": 0
   },
@@ -2563,9 +2517,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）",
+   "ok": true,
+   "items": 1,
+   "error": "",
    "undated": 0
   },
   {
@@ -2585,7 +2539,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 7,
+   "items": 6,
    "error": "",
    "undated": 0
   },
@@ -2652,13 +2606,13 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 16,
+   "items": 17,
    "error": ""
   },
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 5,
+   "items": 0,
    "error": ""
   },
   {
@@ -2682,7 +2636,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 4999,
+   "items": 9068,
    "error": ""
   },
   {
