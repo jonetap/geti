@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-08T13:21:58+00:00",
+ "generated_at": "2026-11-08T19:40:15+00:00",
  "date": "2026-11-07",
  "geti": 66.9,
  "delta_z": 0.34,
@@ -14,7 +14,7 @@
    "code": "NORTH_AMERICA",
    "label": "北美",
    "score": 72.5,
-   "delta": -7.0,
+   "delta": -7.1,
    "excluded": false,
    "drivers": [
     [
@@ -190,7 +190,7 @@
    "available": true,
    "z": 1.35,
    "score": 84.3,
-   "contrib": 0.451
+   "contrib": 0.452
   },
   {
    "key": "physical",
@@ -210,7 +210,7 @@
    "available": true,
    "z": 0.99,
    "score": 77.6,
-   "contrib": 0.23
+   "contrib": 0.231
   },
   {
    "key": "economy",
@@ -238,61 +238,16 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": 0.18,
-   "score": 55.7,
-   "contrib": 0.019
+   "z": 0.16,
+   "score": 55.0,
+   "contrib": 0.017
   }
  ],
  "events": [
   {
-   "id": "6c66b6aab4f0",
-   "title": "Poland mourns six killed in attack as authorities launch ‘terrorism’ probe",
-   "url": "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-08T12:40:12+00:00",
-   "note": "'Terrorism' investigation launched after government officials say suspect likely influenced by far-right ideology.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "779b9da88d0a",
-   "title": "Chinese engineers reduce cargo ship fuel use by 5% with high-speed torpedo tech",
-   "url": "https://www.scmp.com/news/china/science/article/3373333/chinese-engineers-reduce-cargo-ship-fuel-use-5-high-speed-torpedo-tech",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-08T12:00:25+00:00",
-   "note": "Supercavitating torpedoes can reach extreme underwater speeds by travelling inside a gas-filled cavity that sharply reduces their contact with water. Beyond torpedoes, supercavitat",
-   "region": "OTHER"
-  },
-  {
-   "id": "dcc9f74a6ef4",
-   "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
-   "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-08T11:50:15+00:00",
-   "note": "Officials say suspect holds far-right views and three people found dead at his home were his parents and sister Polish prosecutors have opened a terrorism investigation after a 24-",
-   "region": "OTHER"
-  },
-  {
-   "id": "c9d7ce0b7c2d",
-   "title": "What we know so far after Krakow gun attack",
-   "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+   "id": "4d1db54c6336",
+   "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
+   "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -300,74 +255,14 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-08T11:22:17+00:00",
-   "note": "Six people were killed in a random shooting in Krakow's main square, and three bodies were later found at the home of the attacker.",
+   "published": "2026-11-08T18:22:53+00:00",
+   "note": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
    "region": "OTHER"
   },
   {
-   "id": "a591e18806df",
-   "title": "After rebel offensive, efforts to push them back appear to have stalled",
-   "url": "https://www.aljazeera.com/video/project-force-2/2026/11/8/after-rebel-offensive-efforts-to-push-them-back-appear-to-have-stalled?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-08T10:28:08+00:00",
-   "note": "Saudi air power so far hasn't been enough for Yemen's government, and civilians are increasingly stuck in the middle",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "12347fdb7f0b",
-   "title": "Chinese dad whose daughter died in crash visits junction daily to catch traffic violators",
-   "url": "https://www.scmp.com/news/people-culture/trending-china/article/3373688/chinese-dad-whose-daughter-died-crash-visits-junction-daily-catch-traffic-violators",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-08T10:00:37+00:00",
-   "note": "A grieving father in southeastern China became a citizen watchdog after a collision killed his nine-year-old daughter. On August 1, Wu Zhisheng’s wife was riding an electric bike w",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "1e7b0f8f6e57",
-   "title": "Middle East live: Riyadh's financial district targeted following deadly Saudi strikes in Yemen",
-   "url": "https://www.france24.com/en/middle-east/20261108-middle-east-live-riyadh-financial-district-targeted-deadly-strikes-yemen-israel-eisenkot-netanyahu-coalition-government-elections",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-08T09:47:36+00:00",
-   "note": "Riyadh’s Aramco Tower was damaged by falling debris on Sunday after the Saudi-led coalition fighting Yemen’s Houthi rebels intercepted two ballistic missiles headed for the capital",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "bfb0c7f5bad1",
-   "title": "Donald Trump wants UFC fighters as assistants",
-   "url": "https://www.france24.com/en/donald-trump-wants-ufc-fighters-as-assistants",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-08T09:44:28+00:00",
-   "note": "After a series of combative press briefings between the Trump administration and journalists, the US president surprised many by reportedly offering Dana White, the head of the Ult",
-   "region": "OTHER"
-  },
-  {
-   "id": "1bdb4b680f56",
-   "title": "Briton among six dead after gunman opens fire in Kraków market square",
-   "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+   "id": "1a503f27dcd7",
+   "title": "Collision of two trains in Egypt kills at least seven",
+   "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -375,14 +270,89 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-08T09:30:22+00:00",
-   "note": "Three more people found dead at home of suspect, who minister says held ‘ultra-nationalistic’ views Six people were killed and 16 wounded after a gunman opened fire in a busy marke",
+   "published": "2026-11-08T17:51:17+00:00",
+   "note": "President orders prompt investigation after one train derails in collision in al-Ayyat about 30 miles from Cairo Seven people were killed and more than 100 injured when two trains ",
    "region": "OTHER"
   },
   {
-   "id": "e755190db607",
-   "title": "Poland launches terrorism probe into mass shooting in Krakow",
-   "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting",
+   "id": "4e35b757b115",
+   "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
+   "url": "https://www.france24.com/en/ukraine-russian-strikes-leave-hundreds-of-thousands-without-power",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T16:59:42+00:00",
+   "note": "Hundreds of thousands of Ukrainians were left without electricity on Sunday following Russian airstrikes targeting the country's energy infrastructure. Moscow has intensified its a",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "314cd2a2761e",
+   "title": "Seven killed, 112 injured in train collision in Egypt",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-08T16:31:54+00:00",
+   "note": "Seven killed, 112 injured in train collision in Egypt",
+   "region": "OTHER"
+  },
+  {
+   "id": "4342c7cb10d2",
+   "title": "Train collision in Egypt kills 7, injures 112",
+   "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T14:56:42+00:00",
+   "note": "Two trains collided south of the Egyptian capital on Sunday, derailing several carriages, killing seven people and injuring more than 100 others, according to the authorities. Egyp",
+   "region": "OTHER"
+  },
+  {
+   "id": "0baac5f3211f",
+   "title": "Two police officers hailed as heroes for confronting Kraków gunman",
+   "url": "https://www.theguardian.com/world/2026/nov/08/two-police-officers-heroes-confronting-krakow-gunman-poland",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-08T14:49:16+00:00",
+   "note": "Jakub Kulik critically injured and Artur Morański also wounded after actions that ‘prevented further casualties’ Two Polish police officers who were injured as they pursued and det",
+   "region": "OTHER"
+  },
+  {
+   "id": "6be2f863b30e",
+   "title": "Indonesian firefighting helicopter crash in Borneo kills 1",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373712/indonesian-firefighting-helicopter-crash-borneo-kills-1",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T14:37:11+00:00",
+   "note": "A crew member of a helicopter battling Indonesian wildfires was killed on Sunday when the aircraft crashed into a river as it scooped up water for an airborne drop, a local disaste",
+   "region": "OTHER"
+  },
+  {
+   "id": "8adfd1f7209e",
+   "title": "Yemen's humanitarian crisis worsens",
+   "url": "https://www.france24.com/en/yemen-s-humanitarian-crisis-worsens",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -390,9 +360,39 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-08T08:59:56+00:00",
+   "published": "2026-11-08T14:22:14+00:00",
+   "note": "One month into the Yemeni government's offensive against the Iran-aligned Houthis, fighting continues to escalate along the Red Sea coast. Meanwhile, the humanitarian crisis is wor",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "238f34835a86",
+   "title": "Poland in shock after 6 killed in Krakow far-right shooting",
+   "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T14:21:18+00:00",
    "note": "Poland on Sunday launched a terror probe into the mass shooting in Krakow the day before, in which six people were killed and many more were injured. Authorities have said that the",
    "region": "EUROPE"
+  },
+  {
+   "id": "1e8dbdc8c453",
+   "title": "Pope Leo urges men to respect wives amid Latin American femicide crisis",
+   "url": "https://www.france24.com/en/americas/20261108-pope-leo-urges-husbands-to-respect-wives-amid-femicide-crisis-across-latin-america",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T14:15:54+00:00",
+   "note": "Pope Leo XIV urged men to respect their wives as he wrapped up the first leg of his 12-day tour of Latin America. The region recorded nearly 20,000 instances of women being killed ",
+   "region": "OTHER"
   },
   {
    "id": "32ed074ba531",
@@ -437,6 +437,96 @@
    ],
    "published": "2026-11-07T22:34:31+00:00",
    "note": "总台记者自伊朗方面获悉，当地时间7日晚，该国格什姆岛、锡里克、贾斯克和阿巴斯港等地均听到类似爆炸的巨响。巨响的原因尚不清楚。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "779b9da88d0a",
+   "title": "Chinese engineers reduce cargo ship fuel use by 5% with high-speed torpedo tech",
+   "url": "https://www.scmp.com/news/china/science/article/3373333/chinese-engineers-reduce-cargo-ship-fuel-use-5-high-speed-torpedo-tech",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T12:00:25+00:00",
+   "note": "Supercavitating torpedoes can reach extreme underwater speeds by travelling inside a gas-filled cavity that sharply reduces their contact with water. Beyond torpedoes, supercavitat",
+   "region": "OTHER"
+  },
+  {
+   "id": "dcc9f74a6ef4",
+   "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
+   "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-08T11:50:15+00:00",
+   "note": "Six people killed in attack probably inspired by far right, according to officials, as police say suspect’s parents and sister found dead at his home Polish prosecutors have opened",
+   "region": "OTHER"
+  },
+  {
+   "id": "12347fdb7f0b",
+   "title": "Chinese dad whose daughter died in crash visits junction daily to catch traffic violators",
+   "url": "https://www.scmp.com/news/people-culture/trending-china/article/3373688/chinese-dad-whose-daughter-died-crash-visits-junction-daily-catch-traffic-violators",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T10:00:37+00:00",
+   "note": "A grieving father in southeastern China became a citizen watchdog after a collision killed his nine-year-old daughter. On August 1, Wu Zhisheng’s wife was riding an electric bike w",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "bfb0c7f5bad1",
+   "title": "Donald Trump wants UFC fighters as assistants",
+   "url": "https://www.france24.com/en/donald-trump-wants-ufc-fighters-as-assistants",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T09:44:28+00:00",
+   "note": "After a series of combative press briefings between the Trump administration and journalists, the US president surprised many by reportedly offering Dana White, the head of the Ult",
+   "region": "OTHER"
+  },
+  {
+   "id": "e755190db607",
+   "title": "Poland launches terrorism probe into mass shooting in Krakow",
+   "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T08:59:56+00:00",
+   "note": "Poland on Sunday launched a terror probe into the mass shooting in Krakow the day before, in which six people were killed and many more were injured. Authorities have said that the",
+   "region": "EUROPE"
+  },
+  {
+   "id": "9c9ea62edfa6",
+   "title": "Yemen's Houthis claim attack on Aramco skyscraper in Riyadh",
+   "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T08:11:54+00:00",
+   "note": "A skyscraper belonging to Saudi oil giant Aramco was hit by a Houthi-claimed attack on Sunday, blowing out windows across several floors but causing no casualties. The Iran-aligned",
    "region": "MIDDLE_EAST"
   },
   {
@@ -513,149 +603,13 @@
    "published": "2026-11-07T19:44:09+00:00",
    "note": "Facing an incoming Democratic Congress, US President Donald Trump struck a combative tone on Saturday, offering friend and “violent fighter” Dana White the White House press secret",
    "region": "OTHER"
-  },
-  {
-   "id": "0e5ef6677440",
-   "title": "France investigating if bogus bomb threats against airlines linked to 'foreign powers'",
-   "url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-07T16:33:53+00:00",
-   "note": "French prosecutors are investigating a series of fake bomb threats that targeted commercial flights in Europe this week, including trying to establish whether foreign powers may be",
-   "region": "EUROPE"
-  },
-  {
-   "id": "21ea7f411c13",
-   "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
-   "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-07T16:33:05+00:00",
-   "note": "Six people were killed and at least 15 wounded on Saturday when a gunman opened fire in the landmark historic centre of Poland’s second city of Krakow, in the country’s deadliest s",
-   "region": "EUROPE"
-  },
-  {
-   "id": "ed6ef5008517",
-   "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-   "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24",
-    "france24"
-   ],
-   "published": "2026-11-07T15:26:49+00:00",
-   "note": "",
-   "region": "OTHER"
-  },
-  {
-   "id": "46672bf0dc5d",
-   "title": "Guatemalan lawmaker, 3 police officers killed in armed attack",
-   "url": "https://www.scmp.com/news/world/americas/article/3373663/guatemalan-lawmaker-3-police-officers-killed-armed-attack",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-07T15:01:41+00:00",
-   "note": "A Guatemalan ⁠lawmaker and three ⁠police officers were ⁠killed in an armed attack in the eastern department of Zacapa, President Bernardo Arevalo said, condemning the violence and ",
-   "region": "OTHER"
-  },
-  {
-   "id": "a6f33908533b",
-   "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
-   "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-07T09:21:00+00:00",
-   "note": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks i",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "bc5a054b2ac4",
-   "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
-   "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-07T07:00:04+00:00",
-   "note": "Trump still considering new assault on Iran nuclear sites – though threats less credible after Vance remarks Qatar, the lead mediator in the US-Iran conflict, is seeking to persuad",
-   "region": "MIDDLE_EAST"
   }
  ],
  "breaking": [
   {
-   "id": "6c66b6aab4f0",
-   "title": "Poland mourns six killed in attack as authorities launch ‘terrorism’ probe",
-   "url": "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-08T12:40:12+00:00",
-   "note": "'Terrorism' investigation launched after government officials say suspect likely influenced by far-right ideology.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "779b9da88d0a",
-   "title": "Chinese engineers reduce cargo ship fuel use by 5% with high-speed torpedo tech",
-   "url": "https://www.scmp.com/news/china/science/article/3373333/chinese-engineers-reduce-cargo-ship-fuel-use-5-high-speed-torpedo-tech",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-08T12:00:25+00:00",
-   "note": "Supercavitating torpedoes can reach extreme underwater speeds by travelling inside a gas-filled cavity that sharply reduces their contact with water. Beyond torpedoes, supercavitat",
-   "region": "OTHER"
-  },
-  {
-   "id": "dcc9f74a6ef4",
-   "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
-   "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-08T11:50:15+00:00",
-   "note": "Officials say suspect holds far-right views and three people found dead at his home were his parents and sister Polish prosecutors have opened a terrorism investigation after a 24-",
-   "region": "OTHER"
-  },
-  {
-   "id": "c9d7ce0b7c2d",
-   "title": "What we know so far after Krakow gun attack",
-   "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+   "id": "4d1db54c6336",
+   "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
+   "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -663,20 +617,65 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-08T11:22:17+00:00",
-   "note": "Six people were killed in a random shooting in Krakow's main square, and three bodies were later found at the home of the attacker.",
+   "published": "2026-11-08T18:22:53+00:00",
+   "note": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
+   "region": "OTHER"
+  },
+  {
+   "id": "1a503f27dcd7",
+   "title": "Collision of two trains in Egypt kills at least seven",
+   "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-08T17:51:17+00:00",
+   "note": "President orders prompt investigation after one train derails in collision in al-Ayyat about 30 miles from Cairo Seven people were killed and more than 100 injured when two trains ",
+   "region": "OTHER"
+  },
+  {
+   "id": "4e35b757b115",
+   "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
+   "url": "https://www.france24.com/en/ukraine-russian-strikes-leave-hundreds-of-thousands-without-power",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T16:59:42+00:00",
+   "note": "Hundreds of thousands of Ukrainians were left without electricity on Sunday following Russian airstrikes targeting the country's energy infrastructure. Moscow has intensified its a",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "314cd2a2761e",
+   "title": "Seven killed, 112 injured in train collision in Egypt",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-08T16:31:54+00:00",
+   "note": "Seven killed, 112 injured in train collision in Egypt",
    "region": "OTHER"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 22596,
-  "gdelt_events": 22357,
+  "items": 22420,
+  "gdelt_events": 22185,
   "mode": "live",
   "data_through": "2026-11-07",
-  "clusters": 233,
-  "origins": 235,
+  "clusters": 231,
+  "origins": 233,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -730,10 +729,10 @@
    },
    "narrative": {
     "now": 0.1,
-    "p50": 0.0,
+    "p50": 0.01,
     "p90": 0.11,
     "ratio": null,
-    "z": 0.18
+    "z": 0.16
    }
   }
  },
@@ -1116,7 +1115,7 @@
   },
   {
    "date": "2026-10-13",
-   "geti": 52.2
+   "geti": 52.1
   },
   {
    "date": "2026-10-14",
@@ -1224,26 +1223,26 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "China’s focus on getting its house in order offers lessons in governance",
-    "url": "https://www.scmp.com/opinion/china-opinion/article/3373416/chinas-focus-getting-its-house-order-offers-lessons-governance",
-    "country": "CN",
+    "title": "Media industry still has a problem with sexual abuse, UK culture minister says",
+    "url": "https://www.scmp.com/news/world/europe/article/3373718/media-industry-still-has-problem-sexual-abuse-uk-culture-minister-says",
+    "country": "GB",
     "source": "scmp",
     "when": "2026-11-08"
    },
    {
     "kind": "judicial",
-    "title": "Healthcare, tariffs – but not Trump impeachment: Democrats chart next two years of power",
-    "url": "https://www.theguardian.com/us-news/2026/nov/08/democrats-congress-trump-midterms",
-    "country": "",
-    "source": "guardian",
+    "title": "Iran executes 3 more men over January protests, judiciary says",
+    "url": "https://www.scmp.com/news/world/middle-east/article/3373716/iran-executes-3-more-men-over-january-protests-judiciary-says",
+    "country": "IR",
+    "source": "scmp",
     "when": "2026-11-08"
    },
    {
     "kind": "judicial",
-    "title": "Mother of Royal Navy sailor missing for 40 years calls for suspected killer to confess",
-    "url": "https://www.theguardian.com/uk-news/2026/nov/08/simon-parkes-navy-sailor-mother-allan-grimson-suspected-killer",
-    "country": "",
-    "source": "guardian",
+    "title": "China’s focus on getting its house in order offers lessons in governance",
+    "url": "https://www.scmp.com/opinion/china-opinion/article/3373416/chinas-focus-getting-its-house-order-offers-lessons-governance",
+    "country": "CN",
+    "source": "scmp",
     "when": "2026-11-08"
    },
    {
@@ -1256,43 +1255,19 @@
    },
    {
     "kind": "judicial",
-    "title": "China vows ‘zero tolerance’ for election meddling ahead of 21st party congress",
-    "url": "https://www.scmp.com/news/china/politics/article/3373658/chinas-communist-party-vows-zero-tolerance-election-meddling-ahead-key-congress",
-    "country": "CN",
-    "source": "scmp",
-    "when": "2026-11-07"
-   },
-   {
-    "kind": "judicial",
     "title": "柬埔寨官方：过去16个月起诉并羁押电诈犯罪嫌疑人逾五千名",
     "url": "https://www.chinanews.com.cn/gj/2026/11-07/10728150.shtml",
     "country": "",
     "source": "chinanews",
     "when": "2026-11-07"
-   },
-   {
-    "kind": "judicial",
-    "title": "Middle East could have big role in Democrats' Trump corruption inquiry",
-    "url": "https://www.dw.com/en/middle-east-could-have-big-role-in-democrats-trump-corruption-inquiry/a-79877104?maca=en-rss-en-world-4025-rdf",
-    "country": "",
-    "source": "dw",
-    "when": "2026-11-06"
-   },
-   {
-    "kind": "judicial",
-    "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
-    "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
-    "country": "KE",
-    "source": "guardian",
-    "when": "2026-11-06"
    }
   ],
-  "notable_total": 8,
+  "notable_total": 5,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 8
+   "notable": 5
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2401,7 +2376,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.42,
+    "value": 0.43,
     "carry": 0.61,
     "z": null,
     "score": null,
@@ -2462,14 +2437,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 140,
-   "items": 22357,
+   "files": 144,
+   "items": 22185,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 24,
+   "items": 23,
    "error": "",
    "undated": 0
   },
@@ -2483,14 +2458,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 36,
+   "items": 35,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 13,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2636,7 +2611,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 9068,
+   "items": 12353,
    "error": ""
   },
   {
