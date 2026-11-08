@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-07T21:48:31+00:00",
- "date": "2026-11-06",
- "geti": 68.6,
- "delta_z": 0.65,
- "delta_pts": 3.3,
+ "generated_at": "2026-11-08T05:58:05+00:00",
+ "date": "2026-11-07",
+ "geti": 66.9,
+ "delta_z": 0.34,
+ "delta_pts": -1.7,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,170 +13,170 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 79.6,
-   "delta": 0.6,
+   "score": 72.5,
+   "delta": -7.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.72
+     1.35
     ],
     [
-     "diplomacy",
-     1.54
-    ]
-   ]
-  },
-  {
-   "code": "OTHER",
-   "label": "其他",
-   "score": 69.0,
-   "delta": -1.7,
-   "excluded": true,
-   "drivers": [
-    [
-     "military",
-     1.15
-    ],
-    [
-     "diplomacy",
-     0.92
+     "economy",
+     1.21
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 67.9,
-   "delta": 3.1,
+   "score": 64.7,
+   "delta": -3.2,
    "excluded": false,
    "drivers": [
-    [
-     "military",
-     1.08
-    ],
-    [
-     "diplomacy",
-     0.75
-    ]
-   ]
-  },
-  {
-   "code": "MIDDLE_EAST",
-   "label": "中东",
-   "score": 64.6,
-   "delta": -0.5,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.93
-    ],
     [
      "military",
      0.82
-    ]
-   ]
-  },
-  {
-   "code": "SOUTH_ASIA",
-   "label": "南亚",
-   "score": 63.0,
-   "delta": 6.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.82
     ],
     [
-     "military",
-     0.71
-    ]
-   ]
-  },
-  {
-   "code": "OCEANIA",
-   "label": "大洋洲",
-   "score": 60.0,
-   "delta": -0.3,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     0.64
-    ],
-    [
-     "diplomacy",
-     0.61
-    ]
-   ]
-  },
-  {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 57.2,
-   "delta": -4.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.56
-    ],
-    [
-     "military",
-     0.31
+     "economy",
+     0.81
     ]
    ]
   },
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 56.9,
-   "delta": -2.3,
+   "score": 63.9,
+   "delta": 7.0,
    "excluded": false,
    "drivers": [
     [
+     "military",
+     1.52
+    ],
+    [
+     "internal",
+     0.73
+    ]
+   ]
+  },
+  {
+   "code": "OTHER",
+   "label": "其他",
+   "score": 61.9,
+   "delta": -7.2,
+   "excluded": true,
+   "drivers": [
+    [
+     "military",
+     0.65
+    ],
+    [
      "diplomacy",
-     0.47
+     0.53
+    ]
+   ]
+  },
+  {
+   "code": "MIDDLE_EAST",
+   "label": "中东",
+   "score": 60.5,
+   "delta": -4.0,
+   "excluded": false,
+   "drivers": [
+    [
+     "economy",
+     1.04
     ],
     [
      "military",
-     0.37
+     0.45
+    ]
+   ]
+  },
+  {
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 60.2,
+   "delta": 3.0,
+   "excluded": false,
+   "drivers": [
+    [
+     "economy",
+     1.19
+    ],
+    [
+     "internal",
+     0.81
+    ]
+   ]
+  },
+  {
+   "code": "OCEANIA",
+   "label": "大洋洲",
+   "score": 59.4,
+   "delta": -0.5,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     1.26
+    ],
+    [
+     "internal",
+     -0.29
+    ]
+   ]
+  },
+  {
+   "code": "SOUTH_ASIA",
+   "label": "南亚",
+   "score": 56.6,
+   "delta": -6.4,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.61
+    ],
+    [
+     "diplomacy",
+     0.32
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 52.9,
-   "delta": 0.7,
+   "score": 52.7,
+   "delta": -0.2,
    "excluded": false,
    "drivers": [
     [
      "internal",
-     -0.78
+     -0.94
     ],
     [
-     "diplomacy",
-     0.69
+     "economy",
+     0.56
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 45.6,
-   "delta": 1.7,
+   "score": 49.9,
+   "delta": 4.3,
    "excluded": false,
    "drivers": [
     [
-     "internal",
-     -0.84
+     "diplomacy",
+     1.2
     ],
     [
      "economy",
-     -0.48
+     -0.96
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.72,
-   "score": 89.6,
-   "contrib": 0.411
+   "z": 1.35,
+   "score": 84.3,
+   "contrib": 0.451
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.54,
-   "score": 87.3,
-   "contrib": 0.255
+   "z": 0.99,
+   "score": 77.6,
+   "contrib": 0.23
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.52,
-   "score": 86.9,
-   "contrib": 0.209
+   "z": 1.21,
+   "score": 81.9,
+   "contrib": 0.233
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 1.13,
-   "score": 80.5,
-   "contrib": 0.115
+   "z": 0.47,
+   "score": 64.4,
+   "contrib": 0.067
   },
   {
    "key": "narrative",
@@ -238,57 +238,41 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": 0.13,
-   "score": 53.9,
-   "contrib": 0.009
+   "z": 0.18,
+   "score": 55.7,
+   "contrib": 0.019
   }
  ],
  "events": [
   {
-   "id": "b238a369cdc6",
-   "title": "Guatemalan lawmaker and three police officers killed in armed attack",
-   "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
-   "component": "narrative",
+   "id": "32ed074ba531",
+   "title": "哥伦比亚一军事基地遇袭 致3死8伤",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728275.shtml",
+   "component": "military",
    "severity": 5,
-   "confidence": 0.74,
-   "origins": 2,
+   "confidence": 0.64,
+   "origins": 1,
    "sources": [
-    "aljazeera",
-    "scmp"
+    "chinanews"
    ],
-   "published": "2026-11-07T16:15:18+00:00",
-   "note": "It happened in a region of the country known to have drug trafficking activity.",
-   "region": "OTHER"
+   "published": "2026-11-08T03:10:24+00:00",
+   "note": "中新社北京11月8日电 波哥大消息：据哥伦比亚军方通报，该国北部玻利瓦尔省一处军事基地当地时间7日遭携带爆炸装置的无人机袭击，造成3名军人死亡、8名军人重伤，另有多人受不同程度伤害。",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "9a50821cc62e",
-   "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
-   "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
-   "component": "diplomacy",
+   "id": "4afb091d9c9d",
+   "title": "Houthis say at least 33 killed in Saudi air strike",
+   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "bbc"
    ],
-   "published": "2026-11-07T21:39:50+00:00",
-   "note": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: ",
-   "region": "OTHER"
-  },
-  {
-   "id": "1bdb4b680f56",
-   "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
-   "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-07T21:19:01+00:00",
-   "note": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Kraków shooting – latest updates Six people have been killed and 16",
-   "region": "OTHER"
+   "published": "2026-11-08T04:03:12+00:00",
+   "note": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "c9d7ce0b7c2d",
@@ -301,8 +285,113 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-07T21:13:24+00:00",
-   "note": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at his home.",
+   "published": "2026-11-08T01:47:41+00:00",
+   "note": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
+   "region": "OTHER"
+  },
+  {
+   "id": "c317875c66fe",
+   "title": "Japan rethinks its stalking laws after Pokemon store murder",
+   "url": "https://www.scmp.com/week-asia/health-environment/article/3373571/japan-rethinks-its-stalking-laws-after-pokemon-store-murder",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T01:00:27+00:00",
+   "note": "Long before Moe Harukawa was killed, she lived in fear. The 21-year-old shop assistant had reported her ex-boyfriend to police and a court had ordered him to stay away from her. Ye",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "3e167029cfa0",
+   "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-08T00:50:28+00:00",
+   "note": "Polish Prime Minister Donald Tusk describes a deadly shooting in Krakow that killed six people as an act of ‘terrorism’.",
+   "region": "OTHER"
+  },
+  {
+   "id": "c0c4bc7df858",
+   "title": "胡塞武装称沙特空袭萨那周边 已致27人死亡",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728199.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-07T22:53:16+00:00",
+   "note": "也门胡塞武装卫生部门7日晚间发布消息称，沙特主导的联军当天针对也门萨那省巴尼哈希什地区的空袭已造成27人死亡、36人受伤。伤亡者中包括妇女儿童和民防救援人员。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "a6f045bd5bdf",
+   "title": "伊朗南部多地接连传出类似爆炸巨响",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728194.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-07T22:34:31+00:00",
+   "note": "总台记者自伊朗方面获悉，当地时间7日晚，该国格什姆岛、锡里克、贾斯克和阿巴斯港等地均听到类似爆炸的巨响。巨响的原因尚不清楚。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "11a7a11514e4",
+   "title": "Gunmen kills six in Krakow, three more bodies found at his house",
+   "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-07T22:47:06+00:00",
+   "note": "A chilling new discovery in Poland, where three bodies have reportedly been found inside the Krakow gunman's home. That's in addition to six people killed and sixteen wounded when ",
+   "region": "EUROPE"
+  },
+  {
+   "id": "9a50821cc62e",
+   "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+   "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-07T22:32:41+00:00",
+   "note": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: ",
+   "region": "OTHER"
+  },
+  {
+   "id": "1bdb4b680f56",
+   "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+   "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-07T21:19:01+00:00",
+   "note": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Six people have been killed and 16 wounded after a gunman opened fi",
    "region": "OTHER"
   },
   {
@@ -311,7 +400,7 @@
    "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
@@ -321,72 +410,12 @@
    "region": "EUROPE"
   },
   {
-   "id": "187c5d14a9be",
-   "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa",
-   "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T19:06:31+00:00",
-   "note": "Civilians bear the brunt of fighting as 27 people reported killed in strikes on a village in Sanaa province.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "989e47435eb3",
-   "title": "Houthis report 25 killed in Yemen strikes",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T17:39:23+00:00",
-   "note": "Yemen’s Houthis say at least 25 people have been killed and 30 injured in air strikes.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "f224caaac7ab",
-   "title": "Lebanese footballer refuses to give up after injuries from Israeli strike",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T17:16:50+00:00",
-   "note": "After surviving an Israeli airstrike that left her in a coma, Celine Haidar is back on the pitch, coaching footballers.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "4afb091d9c9d",
-   "title": "Houthis say at least 25 killed in Saudi air strike",
-   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-07T17:09:24+00:00",
-   "note": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "0e5ef6677440",
    "title": "France investigating if bogus bomb threats against airlines linked to 'foreign powers'",
    "url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -401,44 +430,14 @@
    "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
    "published": "2026-11-07T16:33:05+00:00",
-   "note": "Six people were killed and at least 15 wounded Saturday when a gunman opened fire in the landmark historic centre of Poland’s city of Krakow, the country’s deadliest shooting in de",
+   "note": "Six people were killed and at least 15 wounded on Saturday when a gunman opened fire in the landmark historic centre of Poland’s second city of Krakow, in the country’s deadliest s",
    "region": "EUROPE"
-  },
-  {
-   "id": "f3f70a06222f",
-   "title": "Five killed and at least 10 injured in Krakow shooting",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-07T16:06:58+00:00",
-   "note": "Five people have been killed and at least 10 injured in a shooting near the main market square in Krakow, Poland.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "b091cd20c608",
-   "title": "伊朗称两枚导弹击中格什姆岛，宣布击落一架美国MQ-9无人机",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727758.shtml",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-07T01:07:17+00:00",
-   "note": "中新网11月7日电 据伊朗塔斯尼姆通讯社当地时间7日报道，初步报告结果显示，当日凌晨两枚导弹击中了格什姆岛。",
-   "region": "MIDDLE_EAST"
   },
   {
    "id": "ed6ef5008517",
@@ -454,6 +453,21 @@
    ],
    "published": "2026-11-07T15:26:49+00:00",
    "note": "",
+   "region": "OTHER"
+  },
+  {
+   "id": "46672bf0dc5d",
+   "title": "Guatemalan lawmaker, 3 police officers killed in armed attack",
+   "url": "https://www.scmp.com/news/world/americas/article/3373663/guatemalan-lawmaker-3-police-officers-killed-armed-attack",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-07T15:01:41+00:00",
+   "note": "A Guatemalan ⁠lawmaker and three ⁠police officers were ⁠killed in an armed attack in the eastern department of Zacapa, President Bernardo Arevalo said, condemning the violence and ",
    "region": "OTHER"
   },
   {
@@ -522,7 +536,7 @@
    "url": "https://www.scmp.com/news/world/middle-east/article/3373633/trump-confirms-fresh-iran-strikes-days-after-voters-punish-war-polls",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "scmp"
@@ -537,7 +551,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -590,54 +604,38 @@
    "published": "2026-11-06T15:25:35+00:00",
    "note": "No link has been established between the threats against the airlines and those against the media outlets.",
    "region": "EUROPE"
-  },
-  {
-   "id": "92ce9f17b10e",
-   "title": "US offers $20m reward for information about Iran's nuclear programme",
-   "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.74,
-   "origins": 2,
-   "sources": [
-    "bbc",
-    "scmp"
-   ],
-   "published": "2026-11-07T18:14:38+00:00",
-   "note": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
-   "region": "MIDDLE_EAST"
   }
  ],
  "breaking": [
   {
-   "id": "9a50821cc62e",
-   "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
-   "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
-   "component": "diplomacy",
+   "id": "4afb091d9c9d",
+   "title": "Houthis say at least 33 killed in Saudi air strike",
+   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "bbc"
    ],
-   "published": "2026-11-07T21:39:50+00:00",
-   "note": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: ",
-   "region": "OTHER"
+   "published": "2026-11-08T04:03:12+00:00",
+   "note": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "1bdb4b680f56",
-   "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
-   "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-   "component": "narrative",
+   "id": "32ed074ba531",
+   "title": "哥伦比亚一军事基地遇袭 致3死8伤",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728275.shtml",
+   "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "guardian"
+    "chinanews"
    ],
-   "published": "2026-11-07T21:19:01+00:00",
-   "note": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Kraków shooting – latest updates Six people have been killed and 16",
-   "region": "OTHER"
+   "published": "2026-11-08T03:10:24+00:00",
+   "note": "中新社北京11月8日电 波哥大消息：据哥伦比亚军方通报，该国北部玻利瓦尔省一处军事基地当地时间7日遭携带爆炸装置的无人机袭击，造成3名军人死亡、8名军人重伤，另有多人受不同程度伤害。",
+   "region": "EAST_ASIA"
   },
   {
    "id": "c9d7ce0b7c2d",
@@ -650,35 +648,35 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-07T21:13:24+00:00",
-   "note": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at his home.",
+   "published": "2026-11-08T01:47:41+00:00",
+   "note": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
    "region": "OTHER"
   },
   {
-   "id": "3abe0c6c6042",
-   "title": "Who is behind Europe’s suspected hybrid attacks?",
-   "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
-   "component": "military",
+   "id": "c317875c66fe",
+   "title": "Japan rethinks its stalking laws after Pokemon store murder",
+   "url": "https://www.scmp.com/week-asia/health-environment/article/3373571/japan-rethinks-its-stalking-laws-after-pokemon-store-murder",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "scmp"
    ],
-   "published": "2026-11-07T20:48:58+00:00",
-   "note": "Bomb hoaxes and supermarket cyberattacks are heightening security fears.",
-   "region": "EUROPE"
+   "published": "2026-11-08T01:00:27+00:00",
+   "note": "Long before Moe Harukawa was killed, she lived in fear. The 21-year-old shop assistant had reported her ex-boyfriend to police and a court had ordered him to stay away from her. Ye",
+   "region": "EAST_ASIA"
   }
  ],
  "coverage": {
   "sources_ok": 20,
   "sources_failed": 2,
-  "items": 33398,
-  "gdelt_events": 33159,
+  "items": 27940,
+  "gdelt_events": 27702,
   "mode": "live",
-  "data_through": "2026-11-06",
-  "clusters": 232,
-  "origins": 236,
+  "data_through": "2026-11-07",
+  "clusters": 233,
+  "origins": 234,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -696,11 +694,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.58,
-    "p50": 0.44,
-    "p90": 0.9,
-    "ratio": 8.13,
-    "z": 1.72
+    "now": 2.19,
+    "p50": 0.46,
+    "p90": 0.95,
+    "ratio": 4.79,
+    "z": 1.35
    },
    "physical": {
     "now": 0.0,
@@ -710,40 +708,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.61,
-    "p50": 0.38,
-    "p90": 0.76,
-    "ratio": 6.78,
-    "z": 1.54
+    "now": 1.37,
+    "p50": 0.39,
+    "p90": 0.77,
+    "ratio": 3.52,
+    "z": 0.99
    },
    "economy": {
-    "now": 2.53,
+    "now": 1.74,
     "p50": 0.39,
-    "p90": 0.8,
-    "ratio": 6.49,
-    "z": 1.52
+    "p90": 0.82,
+    "ratio": 4.44,
+    "z": 1.21
    },
    "internal": {
-    "now": 1.15,
+    "now": 0.46,
     "p50": 0.15,
-    "p90": 0.4,
-    "ratio": 7.85,
-    "z": 1.13
+    "p90": 0.41,
+    "ratio": 3.11,
+    "z": 0.47
    },
    "narrative": {
-    "now": 0.06,
+    "now": 0.1,
     "p50": 0.0,
     "p90": 0.11,
     "ratio": null,
-    "z": 0.13
+    "z": 0.18
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-10",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-11",
    "geti": 50.0
@@ -798,127 +792,127 @@
   },
   {
    "date": "2026-07-24",
-   "geti": 54.9
+   "geti": 50.0
   },
   {
    "date": "2026-07-25",
-   "geti": 57.6
+   "geti": 54.0
   },
   {
    "date": "2026-07-26",
-   "geti": 61.9
+   "geti": 59.3
   },
   {
    "date": "2026-07-27",
-   "geti": 56.9
+   "geti": 54.8
   },
   {
    "date": "2026-07-28",
-   "geti": 52.9
+   "geti": 51.2
   },
   {
    "date": "2026-07-29",
-   "geti": 49.6
-  },
-  {
-   "date": "2026-07-30",
-   "geti": 50.5
-  },
-  {
-   "date": "2026-07-31",
-   "geti": 53.8
-  },
-  {
-   "date": "2026-08-01",
-   "geti": 54.5
-  },
-  {
-   "date": "2026-08-02",
-   "geti": 54.5
-  },
-  {
-   "date": "2026-08-03",
-   "geti": 51.8
-  },
-  {
-   "date": "2026-08-04",
-   "geti": 51.7
-  },
-  {
-   "date": "2026-08-05",
-   "geti": 45.4
-  },
-  {
-   "date": "2026-08-06",
    "geti": 48.1
   },
   {
+   "date": "2026-07-30",
+   "geti": 49.6
+  },
+  {
+   "date": "2026-07-31",
+   "geti": 52.8
+  },
+  {
+   "date": "2026-08-01",
+   "geti": 53.6
+  },
+  {
+   "date": "2026-08-02",
+   "geti": 53.8
+  },
+  {
+   "date": "2026-08-03",
+   "geti": 51.3
+  },
+  {
+   "date": "2026-08-04",
+   "geti": 51.3
+  },
+  {
+   "date": "2026-08-05",
+   "geti": 45.1
+  },
+  {
+   "date": "2026-08-06",
+   "geti": 47.8
+  },
+  {
    "date": "2026-08-07",
-   "geti": 46.6
+   "geti": 46.3
   },
   {
    "date": "2026-08-08",
-   "geti": 45.0
+   "geti": 44.8
   },
   {
    "date": "2026-08-09",
-   "geti": 41.3
+   "geti": 40.9
   },
   {
    "date": "2026-08-10",
-   "geti": 46.4
+   "geti": 45.8
   },
   {
    "date": "2026-08-11",
-   "geti": 48.4
+   "geti": 47.7
   },
   {
    "date": "2026-08-12",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-13",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-14",
    "geti": 49.2
   },
   {
+   "date": "2026-08-13",
+   "geti": 49.4
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 48.8
+  },
+  {
    "date": "2026-08-15",
-   "geti": 52.5
+   "geti": 52.2
   },
   {
    "date": "2026-08-16",
-   "geti": 53.5
+   "geti": 53.3
   },
   {
    "date": "2026-08-17",
-   "geti": 46.9
+   "geti": 46.7
   },
   {
    "date": "2026-08-18",
-   "geti": 43.0
+   "geti": 42.8
   },
   {
    "date": "2026-08-19",
-   "geti": 40.6
+   "geti": 40.5
   },
   {
    "date": "2026-08-20",
-   "geti": 45.5
+   "geti": 45.4
   },
   {
    "date": "2026-08-21",
-   "geti": 48.4
+   "geti": 48.3
   },
   {
    "date": "2026-08-22",
-   "geti": 46.0
+   "geti": 45.9
   },
   {
    "date": "2026-08-23",
-   "geti": 41.2
+   "geti": 41.1
   },
   {
    "date": "2026-08-24",
@@ -926,7 +920,7 @@
   },
   {
    "date": "2026-08-25",
-   "geti": 43.4
+   "geti": 43.3
   },
   {
    "date": "2026-08-26",
@@ -934,91 +928,91 @@
   },
   {
    "date": "2026-08-27",
-   "geti": 48.6
+   "geti": 48.3
   },
   {
    "date": "2026-08-28",
-   "geti": 51.0
+   "geti": 50.8
   },
   {
    "date": "2026-08-29",
-   "geti": 51.2
+   "geti": 51.1
   },
   {
    "date": "2026-08-30",
-   "geti": 57.2
+   "geti": 57.0
   },
   {
    "date": "2026-08-31",
-   "geti": 58.5
+   "geti": 58.4
   },
   {
    "date": "2026-09-01",
-   "geti": 52.0
+   "geti": 51.8
   },
   {
    "date": "2026-09-02",
-   "geti": 51.1
+   "geti": 50.9
   },
   {
    "date": "2026-09-03",
-   "geti": 49.0
+   "geti": 48.8
   },
   {
    "date": "2026-09-04",
-   "geti": 49.0
+   "geti": 48.8
   },
   {
    "date": "2026-09-05",
-   "geti": 51.1
+   "geti": 50.9
   },
   {
    "date": "2026-09-06",
-   "geti": 48.9
+   "geti": 48.8
   },
   {
    "date": "2026-09-07",
-   "geti": 44.3
+   "geti": 44.2
   },
   {
    "date": "2026-09-08",
-   "geti": 43.5
+   "geti": 43.4
   },
   {
    "date": "2026-09-09",
-   "geti": 41.2
+   "geti": 41.1
   },
   {
    "date": "2026-09-10",
-   "geti": 39.2
+   "geti": 39.1
   },
   {
    "date": "2026-09-11",
-   "geti": 38.8
+   "geti": 38.6
   },
   {
    "date": "2026-09-12",
-   "geti": 41.9
+   "geti": 41.6
   },
   {
    "date": "2026-09-13",
-   "geti": 43.9
+   "geti": 43.6
   },
   {
    "date": "2026-09-14",
-   "geti": 42.9
+   "geti": 42.7
   },
   {
    "date": "2026-09-15",
-   "geti": 44.1
+   "geti": 44.0
   },
   {
    "date": "2026-09-16",
-   "geti": 45.3
+   "geti": 45.2
   },
   {
    "date": "2026-09-17",
-   "geti": 45.1
+   "geti": 45.0
   },
   {
    "date": "2026-09-18",
@@ -1026,87 +1020,87 @@
   },
   {
    "date": "2026-09-19",
-   "geti": 45.8
+   "geti": 46.0
   },
   {
    "date": "2026-09-20",
-   "geti": 51.4
+   "geti": 51.5
   },
   {
    "date": "2026-09-21",
-   "geti": 47.9
+   "geti": 48.1
   },
   {
    "date": "2026-09-22",
-   "geti": 46.1
+   "geti": 46.3
   },
   {
    "date": "2026-09-23",
-   "geti": 48.2
+   "geti": 48.4
   },
   {
    "date": "2026-09-24",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 42.6
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 47.6
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 47.1
-  },
-  {
-   "date": "2026-09-28",
    "geti": 45.2
   },
   {
+   "date": "2026-09-25",
+   "geti": 42.8
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 47.8
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 47.4
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 45.4
+  },
+  {
    "date": "2026-09-29",
-   "geti": 42.4
+   "geti": 42.6
   },
   {
    "date": "2026-09-30",
-   "geti": 38.7
+   "geti": 38.9
   },
   {
    "date": "2026-10-01",
-   "geti": 35.2
+   "geti": 35.4
   },
   {
    "date": "2026-10-02",
-   "geti": 39.3
+   "geti": 39.6
   },
   {
    "date": "2026-10-03",
-   "geti": 40.7
+   "geti": 40.9
   },
   {
    "date": "2026-10-04",
-   "geti": 39.5
+   "geti": 39.7
   },
   {
    "date": "2026-10-05",
-   "geti": 43.7
+   "geti": 43.9
   },
   {
    "date": "2026-10-06",
-   "geti": 45.9
+   "geti": 46.1
   },
   {
    "date": "2026-10-07",
-   "geti": 44.7
+   "geti": 44.9
   },
   {
    "date": "2026-10-08",
-   "geti": 43.7
+   "geti": 43.8
   },
   {
    "date": "2026-10-09",
-   "geti": 46.8
+   "geti": 46.9
   },
   {
    "date": "2026-10-10",
@@ -1122,11 +1116,11 @@
   },
   {
    "date": "2026-10-13",
-   "geti": 52.1
+   "geti": 52.2
   },
   {
    "date": "2026-10-14",
-   "geti": 52.7
+   "geti": 52.8
   },
   {
    "date": "2026-10-15",
@@ -1138,7 +1132,7 @@
   },
   {
    "date": "2026-10-17",
-   "geti": 56.4
+   "geti": 56.5
   },
   {
    "date": "2026-10-18",
@@ -1219,6 +1213,10 @@
   {
    "date": "2026-11-06",
    "geti": 68.6
+  },
+  {
+   "date": "2026-11-07",
+   "geti": 66.9
   }
  ],
  "policy": {
@@ -1364,31 +1362,31 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 107,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 102,
+    "items": 101,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 107,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 99,
+    "items": 98,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 103,
+    "items": 102,
     "error": ""
    }
   ],
@@ -2221,8 +2219,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 9.18,
-    "carry": 9.75,
+    "value": 9.1,
+    "carry": 9.61,
     "z": null,
     "score": null,
     "available": false
@@ -2231,8 +2229,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 9.0,
-    "carry": 10.53,
+    "value": 16.0,
+    "carry": 11.68,
     "z": null,
     "score": null,
     "available": false
@@ -2242,7 +2240,7 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 5.0,
-    "carry": 2.31,
+    "carry": 2.87,
     "z": null,
     "score": null,
     "available": false
@@ -2261,77 +2259,83 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 3.33,
-    "carry": 2.82,
+    "value": 5.33,
+    "carry": 3.35,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 4,
+  "history_days": 5,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 5,
-   "last_seen": "2026-11-06",
+   "active_days": 6,
+   "last_seen": "2026-11-07",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "144 km SE of Hasaki, Japan",
-     "v": 6.1,
-     "ts": "2026-11-06T10:39+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9"
+     "t": "central Mid-Atlantic Ridge",
+     "v": 5.9,
+     "ts": "2026-11-07T23:17+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twun"
     },
     {
-     "t": "41 km SW of Balangonan, Philippines",
+     "t": "10 km NW of Hamakita, Japan",
+     "v": 5.5,
+     "ts": "2026-11-07T16:04+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0"
+    },
+    {
+     "t": "74 km NE of Hasaki, Japan",
+     "v": 5.5,
+     "ts": "2026-11-07T11:07+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq"
+    },
+    {
+     "t": "91 km ENE of Hihifo, Tonga",
+     "v": 5.1,
+     "ts": "2026-11-07T23:27+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twus"
+    },
+    {
+     "t": "41 km WSW of Gadung, Philippines",
      "v": 4.9,
-     "ts": "2026-11-06T06:28+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfk"
+     "ts": "2026-11-07T23:25+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twur"
     },
     {
-     "t": "36 km WNW of Poso, Indonesia",
-     "v": 4.8,
-     "ts": "2026-11-06T19:07+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twmr"
+     "t": "77 km NNW of Khorixas, Namibia",
+     "v": 4.9,
+     "ts": "2026-11-07T15:22+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss"
     },
     {
-     "t": "139 km SSE of False Pass, Alaska",
+     "t": "southern Mid-Atlantic Ridge",
+     "v": 4.9,
+     "ts": "2026-11-07T11:35+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrt"
+    },
+    {
+     "t": "43 km ESE of Ambon, Indonesia",
      "v": 4.7,
-     "ts": "2026-11-06T02:35+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tweq"
+     "ts": "2026-11-07T20:55+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1"
     },
     {
-     "t": "11 km ENE of Yigo Village, Guam",
-     "v": 4.6,
-     "ts": "2026-11-06T22:37+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twqm"
+     "t": "45 km NNW of Salinas, Ecuador",
+     "v": 4.7,
+     "ts": "2026-11-07T17:17+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8"
     },
     {
-     "t": "58 km WNW of Isangel, Vanuatu",
-     "v": 4.6,
-     "ts": "2026-11-06T01:37+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tweb"
-    },
-    {
-     "t": "96 km NNW of Lae, Papua New Guinea",
-     "v": 4.6,
-     "ts": "2026-11-06T00:02+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twdd"
-    },
-    {
-     "t": "101 km SSE of Palekastro, Greece",
-     "v": 4.5,
-     "ts": "2026-11-06T15:26+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twhq"
-    },
-    {
-     "t": "87 km N of Isangel, Vanuatu",
-     "v": 4.5,
-     "ts": "2026-11-06T08:14+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfu"
+     "t": "156 km ESE of Modisi, Indonesia",
+     "v": 4.7,
+     "ts": "2026-11-07T09:47+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh"
     }
    ],
    "eonet": [
@@ -2368,41 +2372,41 @@
    ],
    "gdacs": [
     {
-     "t": "Green notification for tropical cyclone PENA-26. Population affected by Category",
+     "t": "Green earthquake (Magnitude 5.9M, Depth:10km) in Central Mid-Atlantic Ridge 07/1",
      "v": "green",
-     "ts": "2026-11-06 21:20",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348"
+     "ts": "2026-11-07 23:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576162"
     },
     {
-     "t": "Green earthquake (Magnitude 6.1M, Depth:29km) in Off East Coast Of Honshu, Japan",
+     "t": "Green earthquake (Magnitude 5.5M, Depth:38.081km) in Japan 07/11/2026 16:04 UTC,",
      "v": "green",
-     "ts": "2026-11-06 10:56",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1575911"
+     "ts": "2026-11-07 16:22",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576118"
     },
     {
-     "t": "Green notification for tropical cyclone CEMPAKA-26. Population affected by Categ",
+     "t": "Green earthquake (Magnitude 5.5M, Depth:31.748km) in Japan 07/11/2026 11:07 UTC,",
      "v": "green",
-     "ts": "2026-11-06 07:50",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347"
+     "ts": "2026-11-07 11:24",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576071"
     },
     {
-     "t": "Green flood alert in France",
+     "t": "Green notification for tropical cyclone 02-20262027-27. Population affected by C",
      "v": "green",
-     "ts": "2026-11-06 11:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270"
+     "ts": "2026-11-07 07:05",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001349"
     },
     {
-     "t": "Green forest fire notification in Zambia, Zimbabwe",
+     "t": "Green forest fire notification in Madagascar",
      "v": "green",
-     "ts": "2026-11-06 04:03",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033530"
+     "ts": "2026-11-07 16:08",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033581"
     }
    ],
    "kp": [
     {
-     "t": "Kp 3.33 峰值（当日 8 个时段）",
-     "v": 3.33,
-     "ts": "2026-11-06",
+     "t": "Kp 5.33 峰值（当日 8 个时段）",
+     "v": 5.33,
+     "ts": "2026-11-07",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -2417,7 +2421,7 @@
     "label": "官方通报",
     "weight": 0.4,
     "value": 0.0,
-    "carry": 0.16,
+    "carry": 0.13,
     "z": null,
     "score": null,
     "available": false
@@ -2427,7 +2431,7 @@
     "label": "政策信号",
     "weight": 0.3,
     "value": 1.0,
-    "carry": 0.24,
+    "carry": 0.4,
     "z": null,
     "score": null,
     "available": false
@@ -2437,19 +2441,19 @@
     "label": "报道密度",
     "weight": 0.3,
     "value": 0.42,
-    "carry": 0.66,
+    "carry": 0.61,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 4,
+  "history_days": 5,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 4,
-   "last_seen": "2026-11-06",
+   "active_days": 5,
+   "last_seen": "2026-11-07",
    "ongoing": true
   },
   "evidence": {
@@ -2464,10 +2468,10 @@
   }
  },
  "doom": {
-  "index": 68.6,
-  "z": 0.47,
+  "index": 66.9,
+  "z": 0.42,
   "parts": {
-   "military": 0.47,
+   "military": 0.42,
    "hazard": null,
    "epidemic": null
   },
@@ -2505,13 +2509,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 33159,
+   "items": 27702,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 23,
+   "items": 24,
    "error": "",
    "undated": 0
   },
@@ -2525,7 +2529,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 34,
+   "items": 35,
    "error": "",
    "undated": 0
   },
@@ -2581,38 +2585,38 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 10,
+   "items": 7,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 107,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 102,
+   "items": 101,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 107,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 99,
+   "items": 98,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 103,
+   "items": 102,
    "error": ""
   },
   {
@@ -2648,7 +2652,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 9,
+   "items": 16,
    "error": ""
   },
   {
@@ -2678,7 +2682,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 10059,
+   "items": 4999,
    "error": ""
   },
   {
