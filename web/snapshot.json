@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-08T19:40:15+00:00",
- "date": "2026-11-07",
- "geti": 66.9,
- "delta_z": 0.34,
- "delta_pts": -1.7,
+ "generated_at": "2026-11-09T00:53:06+00:00",
+ "date": "2026-11-08",
+ "geti": 69.3,
+ "delta_z": 0.62,
+ "delta_pts": 2.4,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,170 +13,170 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 72.5,
-   "delta": -7.1,
+   "score": 75.9,
+   "delta": 3.4,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.35
+     1.59
     ],
     [
-     "economy",
-     1.21
-    ]
-   ]
-  },
-  {
-   "code": "EUROPE",
-   "label": "欧洲",
-   "score": 64.7,
-   "delta": -3.2,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     0.82
-    ],
-    [
-     "economy",
-     0.81
-    ]
-   ]
-  },
-  {
-   "code": "AFRICA",
-   "label": "非洲",
-   "score": 63.9,
-   "delta": 7.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.52
-    ],
-    [
-     "internal",
-     0.73
+     "diplomacy",
+     1.22
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 61.9,
-   "delta": -7.2,
+   "score": 72.5,
+   "delta": 10.6,
    "excluded": true,
    "drivers": [
     [
      "military",
-     0.65
+     1.34
     ],
     [
      "diplomacy",
-     0.53
+     1.08
+    ]
+   ]
+  },
+  {
+   "code": "EUROPE",
+   "label": "欧洲",
+   "score": 70.8,
+   "delta": 6.1,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     1.51
+    ],
+    [
+     "diplomacy",
+     0.75
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 60.5,
-   "delta": -4.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "economy",
-     1.04
-    ],
-    [
-     "military",
-     0.45
-    ]
-   ]
-  },
-  {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 60.2,
-   "delta": 3.0,
-   "excluded": false,
-   "drivers": [
-    [
-     "economy",
-     1.19
-    ],
-    [
-     "internal",
-     0.81
-    ]
-   ]
-  },
-  {
-   "code": "OCEANIA",
-   "label": "大洋洲",
-   "score": 59.4,
-   "delta": -0.5,
+   "score": 69.2,
+   "delta": 8.7,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.26
+     1.34
     ],
     [
-     "internal",
-     -0.29
+     "diplomacy",
+     1.06
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 56.6,
-   "delta": -6.4,
+   "score": 67.2,
+   "delta": 10.7,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.61
+     0.99
     ],
     [
      "diplomacy",
-     0.32
+     0.94
+    ]
+   ]
+  },
+  {
+   "code": "AFRICA",
+   "label": "非洲",
+   "score": 66.0,
+   "delta": 2.1,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     1.05
+    ],
+    [
+     "military",
+     0.99
+    ]
+   ]
+  },
+  {
+   "code": "OCEANIA",
+   "label": "大洋洲",
+   "score": 61.9,
+   "delta": 2.5,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.89
+    ],
+    [
+     "diplomacy",
+     0.62
+    ]
+   ]
+  },
+  {
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 61.1,
+   "delta": 0.9,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.66
+    ],
+    [
+     "military",
+     0.56
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 52.7,
-   "delta": -0.2,
+   "score": 57.1,
+   "delta": 4.5,
    "excluded": false,
    "drivers": [
     [
-     "internal",
-     -0.94
+     "military",
+     0.83
     ],
     [
-     "economy",
-     0.56
+     "internal",
+     -0.7
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 49.9,
-   "delta": 4.3,
+   "score": 46.2,
+   "delta": -3.7,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     1.2
+     "internal",
+     -0.69
     ],
     [
      "economy",
-     -0.96
+     -0.57
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.35,
-   "score": 84.3,
-   "contrib": 0.452
+   "z": 1.59,
+   "score": 87.9,
+   "contrib": 0.45
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 0.99,
-   "score": 77.6,
-   "contrib": 0.231
+   "z": 1.22,
+   "score": 82.1,
+   "contrib": 0.24
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.21,
-   "score": 81.9,
-   "contrib": 0.233
+   "z": 1.13,
+   "score": 80.4,
+   "contrib": 0.185
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 0.47,
-   "score": 64.4,
-   "contrib": 0.067
+   "z": 0.99,
+   "score": 77.5,
+   "contrib": 0.119
   },
   {
    "key": "narrative",
@@ -238,12 +238,27 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": 0.16,
-   "score": 55.0,
-   "contrib": 0.017
+   "z": 0.07,
+   "score": 52.2,
+   "contrib": 0.006
   }
  ],
  "events": [
+  {
+   "id": "2fcaebacfed2",
+   "title": "Trump says ‘only kidding’ about naming UFC’s Dana White as press secretary",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373723/trump-says-only-kidding-about-naming-ufcs-dana-white-press-secretary",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-09T00:38:23+00:00",
+   "note": "US President Donald Trump on Sunday said he was “only kidding” when he suggested UFC CEO Dana White could become his next White House press secretary, ‌after a social media post a ",
+   "region": "OTHER"
+  },
   {
    "id": "4d1db54c6336",
    "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
@@ -255,68 +270,8 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-08T18:22:53+00:00",
+   "published": "2026-11-08T23:34:18+00:00",
    "note": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
-   "region": "OTHER"
-  },
-  {
-   "id": "1a503f27dcd7",
-   "title": "Collision of two trains in Egypt kills at least seven",
-   "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-08T17:51:17+00:00",
-   "note": "President orders prompt investigation after one train derails in collision in al-Ayyat about 30 miles from Cairo Seven people were killed and more than 100 injured when two trains ",
-   "region": "OTHER"
-  },
-  {
-   "id": "4e35b757b115",
-   "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
-   "url": "https://www.france24.com/en/ukraine-russian-strikes-leave-hundreds-of-thousands-without-power",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-08T16:59:42+00:00",
-   "note": "Hundreds of thousands of Ukrainians were left without electricity on Sunday following Russian airstrikes targeting the country's energy infrastructure. Moscow has intensified its a",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "314cd2a2761e",
-   "title": "Seven killed, 112 injured in train collision in Egypt",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-08T16:31:54+00:00",
-   "note": "Seven killed, 112 injured in train collision in Egypt",
-   "region": "OTHER"
-  },
-  {
-   "id": "4342c7cb10d2",
-   "title": "Train collision in Egypt kills 7, injures 112",
-   "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-08T14:56:42+00:00",
-   "note": "Two trains collided south of the Egyptian capital on Sunday, derailing several carriages, killing seven people and injuring more than 100 others, according to the authorities. Egyp",
    "region": "OTHER"
   },
   {
@@ -330,29 +285,14 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-08T14:49:16+00:00",
+   "published": "2026-11-08T21:11:40+00:00",
    "note": "Jakub Kulik critically injured and Artur Morański also wounded after actions that ‘prevented further casualties’ Two Polish police officers who were injured as they pursued and det",
    "region": "OTHER"
   },
   {
-   "id": "6be2f863b30e",
-   "title": "Indonesian firefighting helicopter crash in Borneo kills 1",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373712/indonesian-firefighting-helicopter-crash-borneo-kills-1",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-08T14:37:11+00:00",
-   "note": "A crew member of a helicopter battling Indonesian wildfires was killed on Sunday when the aircraft crashed into a river as it scooped up water for an airborne drop, a local disaste",
-   "region": "OTHER"
-  },
-  {
-   "id": "8adfd1f7209e",
-   "title": "Yemen's humanitarian crisis worsens",
-   "url": "https://www.france24.com/en/yemen-s-humanitarian-crisis-worsens",
+   "id": "8a325e0c4f4c",
+   "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+   "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -360,39 +300,9 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-08T14:22:14+00:00",
-   "note": "One month into the Yemeni government's offensive against the Iran-aligned Houthis, fighting continues to escalate along the Red Sea coast. Meanwhile, the humanitarian crisis is wor",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "238f34835a86",
-   "title": "Poland in shock after 6 killed in Krakow far-right shooting",
-   "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-08T14:21:18+00:00",
-   "note": "Poland on Sunday launched a terror probe into the mass shooting in Krakow the day before, in which six people were killed and many more were injured. Authorities have said that the",
+   "published": "2026-11-08T20:40:33+00:00",
+   "note": "A boat carrying migrants along the hazardous Atlantic Ocean route from West Africa to Europe sank off the coast of Senegal, killed at least 34 people, authorities said Sunday. Only",
    "region": "EUROPE"
-  },
-  {
-   "id": "1e8dbdc8c453",
-   "title": "Pope Leo urges men to respect wives amid Latin American femicide crisis",
-   "url": "https://www.france24.com/en/americas/20261108-pope-leo-urges-husbands-to-respect-wives-amid-femicide-crisis-across-latin-america",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-08T14:15:54+00:00",
-   "note": "Pope Leo XIV urged men to respect their wives as he wrapped up the first leg of his 12-day tour of Latin America. The region recorded nearly 20,000 instances of women being killed ",
-   "region": "OTHER"
   },
   {
    "id": "32ed074ba531",
@@ -410,34 +320,109 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "c0c4bc7df858",
-   "title": "胡塞武装称沙特空袭萨那周边 已致27人死亡",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728199.shtml",
-   "component": "military",
+   "id": "1a503f27dcd7",
+   "title": "Collision of two trains in Egypt kills at least seven",
+   "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.38,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "guardian"
    ],
-   "published": "2026-11-07T22:53:16+00:00",
-   "note": "也门胡塞武装卫生部门7日晚间发布消息称，沙特主导的联军当天针对也门萨那省巴尼哈希什地区的空袭已造成27人死亡、36人受伤。伤亡者中包括妇女儿童和民防救援人员。",
+   "published": "2026-11-08T17:51:17+00:00",
+   "note": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains colli",
+   "region": "OTHER"
+  },
+  {
+   "id": "4e35b757b115",
+   "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
+   "url": "https://www.france24.com/en/ukraine-russian-strikes-leave-hundreds-of-thousands-without-power",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T16:59:42+00:00",
+   "note": "Hundreds of thousands of Ukrainians were left without electricity on Sunday following Russian airstrikes targeting the country's energy infrastructure. Moscow has intensified its a",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "4342c7cb10d2",
+   "title": "Train collision in Egypt kills 7, injures 112",
+   "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T14:56:42+00:00",
+   "note": "Two trains collided south of the Egyptian capital on Sunday, derailing several carriages, killing seven people and injuring more than 100 others, according to the authorities. Egyp",
+   "region": "OTHER"
+  },
+  {
+   "id": "6be2f863b30e",
+   "title": "Indonesian firefighting helicopter crash in Borneo kills 1",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373712/indonesian-firefighting-helicopter-crash-borneo-kills-1",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-08T14:37:11+00:00",
+   "note": "A crew member of a helicopter battling Indonesian wildfires was killed on Sunday when the aircraft crashed into a river as it scooped up water for an airborne drop, a local disaste",
+   "region": "OTHER"
+  },
+  {
+   "id": "8adfd1f7209e",
+   "title": "Yemen's humanitarian crisis worsens",
+   "url": "https://www.france24.com/en/yemen-s-humanitarian-crisis-worsens",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T14:22:14+00:00",
+   "note": "One month into the Yemeni government's offensive against the Iran-aligned Houthis, fighting continues to escalate along the Red Sea coast. Meanwhile, the humanitarian crisis is wor",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "a6f045bd5bdf",
-   "title": "伊朗南部多地接连传出类似爆炸巨响",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-08/10728194.shtml",
+   "id": "238f34835a86",
+   "title": "Poland in shock after 6 killed in Krakow far-right shooting",
+   "url": "https://www.france24.com/en/poland-in-shock-after-6-killed-in-krakow-far-right-shooting",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.38,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "france24"
    ],
-   "published": "2026-11-07T22:34:31+00:00",
-   "note": "总台记者自伊朗方面获悉，当地时间7日晚，该国格什姆岛、锡里克、贾斯克和阿巴斯港等地均听到类似爆炸的巨响。巨响的原因尚不清楚。",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-08T14:21:18+00:00",
+   "note": "Poland on Sunday launched a terror probe into the mass shooting in Krakow the day before, in which six people were killed and many more were injured. Authorities have said that the",
+   "region": "EUROPE"
+  },
+  {
+   "id": "1e8dbdc8c453",
+   "title": "Pope Leo urges men to respect wives amid Latin American femicide crisis",
+   "url": "https://www.france24.com/en/americas/20261108-pope-leo-urges-husbands-to-respect-wives-amid-femicide-crisis-across-latin-america",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-08T14:15:54+00:00",
+   "note": "Pope Leo XIV urged men to respect their wives as he wrapped up the first leg of his 12-day tour of Latin America. The region recorded nearly 20,000 instances of women being killed ",
+   "region": "OTHER"
   },
   {
    "id": "779b9da88d0a",
@@ -500,36 +485,6 @@
    "region": "OTHER"
   },
   {
-   "id": "e755190db607",
-   "title": "Poland launches terrorism probe into mass shooting in Krakow",
-   "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-08T08:59:56+00:00",
-   "note": "Poland on Sunday launched a terror probe into the mass shooting in Krakow the day before, in which six people were killed and many more were injured. Authorities have said that the",
-   "region": "EUROPE"
-  },
-  {
-   "id": "9c9ea62edfa6",
-   "title": "Yemen's Houthis claim attack on Aramco skyscraper in Riyadh",
-   "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-08T08:11:54+00:00",
-   "note": "A skyscraper belonging to Saudi oil giant Aramco was hit by a Houthi-claimed attack on Sunday, blowing out windows across several floors but causing no casualties. The Iran-aligned",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "d255e558267e",
    "title": "Will Democrats sway ‘unshackled’ Trump’s Russia-Ukraine stance after midterm rout?",
    "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373681/will-democrats-sway-unshackled-trumps-russia-ukraine-stance-after-midterm-rout",
@@ -543,21 +498,6 @@
    "published": "2026-11-08T07:00:34+00:00",
    "note": "The Republicans’ defeat in the US midterm elections was watched closely in Russia, where some observers are predicting it could herald more support for Ukraine when the Democrats t",
    "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "4afb091d9c9d",
-   "title": "Houthis say at least 33 killed in Saudi air strike",
-   "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-08T04:03:12+00:00",
-   "note": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-   "region": "MIDDLE_EAST"
   },
   {
    "id": "c317875c66fe",
@@ -575,37 +515,129 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "11a7a11514e4",
-   "title": "Gunman kills six in Krakow, three more bodies found at his house",
-   "url": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house",
-   "component": "narrative",
+   "id": "a6f33908533b",
+   "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
+   "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
+   "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
-    "france24"
+    "dw"
    ],
-   "published": "2026-11-07T22:47:06+00:00",
-   "note": "A chilling new discovery in Poland, where three bodies have reportedly been found inside the Krakow gunman's home. That's in addition to six people killed and sixteen wounded when ",
-   "region": "EUROPE"
+   "published": "2026-11-07T09:21:00+00:00",
+   "note": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks i",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "8e8f119c9854",
-   "title": "Trump asks UFC chief Dana White to be his new press secretary: ‘please take the job’",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373670/trump-asks-ufc-chief-dana-white-be-his-new-press-secretary-please-take-job",
-   "component": "internal",
+   "id": "bc5a054b2ac4",
+   "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+   "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
+   "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-07T07:00:04+00:00",
+   "note": "Trump still considering new assault on Iran nuclear sites – though threats less credible after Vance remarks Qatar, the lead mediator in the US-Iran conflict, is seeking to persuad",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8e9f6c282940",
+   "title": "外媒：伊拉克库区天然气田遭不明来源无人机袭击",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728597.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews",
+    "chinanews"
+   ],
+   "published": "2026-11-09T00:02:06+00:00",
+   "note": "中新网11月9日电 据卡塔尔半岛电视台等外媒报道，伊拉克库尔德自治区(库区)安全部门消息人士称，位于伊库区苏莱曼尼亚省的豪尔穆尔天然气田遭不明来源的无人机袭击，受袭击影响，气田8日已停止生产。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "f669c8d27dfc",
+   "title": "特朗普称“铁门”特遣行动正全面展开 几乎没有物资能进出伊朗",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728573.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-08T21:47:12+00:00",
+   "note": "当地时间11月8日，美国总统特朗普在社交媒体“真实社交”上发文表示，针对伊朗的“铁门”特遣行动正在全面展开。再加上他所称的“历史上规模最大的海上封锁”，目前几乎没有物资能够进出伊朗。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8da00ca54227",
+   "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+   "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-08T21:37:36+00:00",
+   "note": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "46900fd70aff",
+   "title": "Iran threatens to ‘rain down hell’ if US escalates war",
+   "url": "https://www.aljazeera.com/news/2026/11/8/iran-threatens-to-rain-down-hell-if-us-escalates-war?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-08T20:13:39+00:00",
+   "note": "President Trump warns that US forces are 'locked and loaded' and ready to strike, if necessary.",
+   "region": "MIDDLE_EAST"
+  }
+ ],
+ "breaking": [
+  {
+   "id": "2fcaebacfed2",
+   "title": "Trump says ‘only kidding’ about naming UFC’s Dana White as press secretary",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373723/trump-says-only-kidding-about-naming-ufcs-dana-white-press-secretary",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-07T19:44:09+00:00",
-   "note": "Facing an incoming Democratic Congress, US President Donald Trump struck a combative tone on Saturday, offering friend and “violent fighter” Dana White the White House press secret",
+   "published": "2026-11-09T00:38:23+00:00",
+   "note": "US President Donald Trump on Sunday said he was “only kidding” when he suggested UFC CEO Dana White could become his next White House press secretary, ‌after a social media post a ",
    "region": "OTHER"
-  }
- ],
- "breaking": [
+  },
+  {
+   "id": "8e9f6c282940",
+   "title": "外媒：伊拉克库区天然气田遭不明来源无人机袭击",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728597.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews",
+    "chinanews"
+   ],
+   "published": "2026-11-09T00:02:06+00:00",
+   "note": "中新网11月9日电 据卡塔尔半岛电视台等外媒报道，伊拉克库尔德自治区(库区)安全部门消息人士称，位于伊库区苏莱曼尼亚省的豪尔穆尔天然气田遭不明来源的无人机袭击，受袭击影响，气田8日已停止生产。",
+   "region": "MIDDLE_EAST"
+  },
   {
    "id": "4d1db54c6336",
    "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
@@ -617,65 +649,35 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-08T18:22:53+00:00",
+   "published": "2026-11-08T23:34:18+00:00",
    "note": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
    "region": "OTHER"
   },
   {
-   "id": "1a503f27dcd7",
-   "title": "Collision of two trains in Egypt kills at least seven",
-   "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+   "id": "f669c8d27dfc",
+   "title": "特朗普称“铁门”特遣行动正全面展开 几乎没有物资能进出伊朗",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728573.shtml",
    "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
+   "severity": 4,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "guardian"
+    "chinanews"
    ],
-   "published": "2026-11-08T17:51:17+00:00",
-   "note": "President orders prompt investigation after one train derails in collision in al-Ayyat about 30 miles from Cairo Seven people were killed and more than 100 injured when two trains ",
-   "region": "OTHER"
-  },
-  {
-   "id": "4e35b757b115",
-   "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
-   "url": "https://www.france24.com/en/ukraine-russian-strikes-leave-hundreds-of-thousands-without-power",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-08T16:59:42+00:00",
-   "note": "Hundreds of thousands of Ukrainians were left without electricity on Sunday following Russian airstrikes targeting the country's energy infrastructure. Moscow has intensified its a",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "314cd2a2761e",
-   "title": "Seven killed, 112 injured in train collision in Egypt",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-08T16:31:54+00:00",
-   "note": "Seven killed, 112 injured in train collision in Egypt",
-   "region": "OTHER"
+   "published": "2026-11-08T21:47:12+00:00",
+   "note": "当地时间11月8日，美国总统特朗普在社交媒体“真实社交”上发文表示，针对伊朗的“铁门”特遣行动正在全面展开。再加上他所称的“历史上规模最大的海上封锁”，目前几乎没有物资能够进出伊朗。",
+   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 22420,
-  "gdelt_events": 22185,
+  "items": 22163,
+  "gdelt_events": 21928,
   "mode": "live",
-  "data_through": "2026-11-07",
-  "clusters": 231,
-  "origins": 233,
+  "data_through": "2026-11-08",
+  "clusters": 229,
+  "origins": 230,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -693,11 +695,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 2.19,
+    "now": 2.97,
     "p50": 0.46,
     "p90": 0.95,
-    "ratio": 4.79,
-    "z": 1.35
+    "ratio": 6.48,
+    "z": 1.59
    },
    "physical": {
     "now": 0.0,
@@ -707,40 +709,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 1.37,
+    "now": 1.77,
     "p50": 0.39,
     "p90": 0.77,
-    "ratio": 3.52,
-    "z": 0.99
+    "ratio": 4.52,
+    "z": 1.22
    },
    "economy": {
-    "now": 1.74,
+    "now": 1.6,
     "p50": 0.39,
-    "p90": 0.82,
-    "ratio": 4.44,
-    "z": 1.21
+    "p90": 0.95,
+    "ratio": 4.09,
+    "z": 1.13
    },
    "internal": {
-    "now": 0.46,
+    "now": 0.96,
     "p50": 0.15,
-    "p90": 0.41,
-    "ratio": 3.11,
-    "z": 0.47
+    "p90": 0.44,
+    "ratio": 6.47,
+    "z": 0.99
    },
    "narrative": {
-    "now": 0.1,
-    "p50": 0.01,
+    "now": 0.06,
+    "p50": 0.02,
     "p90": 0.11,
     "ratio": null,
-    "z": 0.16
+    "z": 0.07
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-11",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-12",
    "geti": 50.0
@@ -795,123 +793,123 @@
   },
   {
    "date": "2026-07-25",
-   "geti": 54.0
+   "geti": 50.0
   },
   {
    "date": "2026-07-26",
-   "geti": 59.3
+   "geti": 57.0
   },
   {
    "date": "2026-07-27",
-   "geti": 54.8
+   "geti": 53.7
   },
   {
    "date": "2026-07-28",
-   "geti": 51.2
+   "geti": 50.9
   },
   {
    "date": "2026-07-29",
-   "geti": 48.1
+   "geti": 48.2
   },
   {
    "date": "2026-07-30",
-   "geti": 49.6
+   "geti": 49.7
   },
   {
    "date": "2026-07-31",
-   "geti": 52.8
-  },
-  {
-   "date": "2026-08-01",
-   "geti": 53.6
-  },
-  {
-   "date": "2026-08-02",
-   "geti": 53.8
-  },
-  {
-   "date": "2026-08-03",
-   "geti": 51.3
-  },
-  {
-   "date": "2026-08-04",
-   "geti": 51.3
-  },
-  {
-   "date": "2026-08-05",
-   "geti": 45.1
-  },
-  {
-   "date": "2026-08-06",
-   "geti": 47.8
-  },
-  {
-   "date": "2026-08-07",
-   "geti": 46.3
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 44.8
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 40.9
-  },
-  {
-   "date": "2026-08-10",
-   "geti": 45.8
-  },
-  {
-   "date": "2026-08-11",
-   "geti": 47.7
-  },
-  {
-   "date": "2026-08-12",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-08-13",
-   "geti": 49.4
-  },
-  {
-   "date": "2026-08-14",
-   "geti": 48.8
-  },
-  {
-   "date": "2026-08-15",
-   "geti": 52.2
-  },
-  {
-   "date": "2026-08-16",
    "geti": 53.3
   },
   {
+   "date": "2026-08-01",
+   "geti": 54.2
+  },
+  {
+   "date": "2026-08-02",
+   "geti": 54.3
+  },
+  {
+   "date": "2026-08-03",
+   "geti": 51.7
+  },
+  {
+   "date": "2026-08-04",
+   "geti": 51.6
+  },
+  {
+   "date": "2026-08-05",
+   "geti": 45.3
+  },
+  {
+   "date": "2026-08-06",
+   "geti": 48.1
+  },
+  {
+   "date": "2026-08-07",
+   "geti": 46.5
+  },
+  {
+   "date": "2026-08-08",
+   "geti": 44.9
+  },
+  {
+   "date": "2026-08-09",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-08-10",
+   "geti": 46.4
+  },
+  {
+   "date": "2026-08-11",
+   "geti": 48.4
+  },
+  {
+   "date": "2026-08-12",
+   "geti": 49.8
+  },
+  {
+   "date": "2026-08-13",
+   "geti": 49.8
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 49.2
+  },
+  {
+   "date": "2026-08-15",
+   "geti": 52.5
+  },
+  {
+   "date": "2026-08-16",
+   "geti": 53.5
+  },
+  {
    "date": "2026-08-17",
-   "geti": 46.7
+   "geti": 46.9
   },
   {
    "date": "2026-08-18",
-   "geti": 42.8
+   "geti": 43.0
   },
   {
    "date": "2026-08-19",
-   "geti": 40.5
+   "geti": 40.6
   },
   {
    "date": "2026-08-20",
-   "geti": 45.4
+   "geti": 45.5
   },
   {
    "date": "2026-08-21",
-   "geti": 48.3
+   "geti": 48.4
   },
   {
    "date": "2026-08-22",
-   "geti": 45.9
+   "geti": 46.0
   },
   {
    "date": "2026-08-23",
-   "geti": 41.1
+   "geti": 41.2
   },
   {
    "date": "2026-08-24",
@@ -919,7 +917,7 @@
   },
   {
    "date": "2026-08-25",
-   "geti": 43.3
+   "geti": 43.4
   },
   {
    "date": "2026-08-26",
@@ -927,179 +925,179 @@
   },
   {
    "date": "2026-08-27",
-   "geti": 48.3
+   "geti": 48.6
   },
   {
    "date": "2026-08-28",
-   "geti": 50.8
+   "geti": 51.0
   },
   {
    "date": "2026-08-29",
-   "geti": 51.1
+   "geti": 51.2
   },
   {
    "date": "2026-08-30",
-   "geti": 57.0
+   "geti": 57.2
   },
   {
    "date": "2026-08-31",
-   "geti": 58.4
+   "geti": 58.5
   },
   {
    "date": "2026-09-01",
-   "geti": 51.8
+   "geti": 52.0
   },
   {
    "date": "2026-09-02",
-   "geti": 50.9
+   "geti": 51.1
   },
   {
    "date": "2026-09-03",
-   "geti": 48.8
+   "geti": 49.0
   },
   {
    "date": "2026-09-04",
-   "geti": 48.8
+   "geti": 49.0
   },
   {
    "date": "2026-09-05",
-   "geti": 50.9
+   "geti": 51.1
   },
   {
    "date": "2026-09-06",
-   "geti": 48.8
+   "geti": 48.9
   },
   {
    "date": "2026-09-07",
-   "geti": 44.2
+   "geti": 44.3
   },
   {
    "date": "2026-09-08",
-   "geti": 43.4
+   "geti": 43.5
   },
   {
    "date": "2026-09-09",
-   "geti": 41.1
+   "geti": 41.2
   },
   {
    "date": "2026-09-10",
-   "geti": 39.1
+   "geti": 39.2
   },
   {
    "date": "2026-09-11",
-   "geti": 38.6
+   "geti": 38.8
   },
   {
    "date": "2026-09-12",
-   "geti": 41.6
+   "geti": 41.9
   },
   {
    "date": "2026-09-13",
-   "geti": 43.6
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 42.7
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 44.0
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.4
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 46.0
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 51.5
-  },
-  {
-   "date": "2026-09-21",
-   "geti": 48.1
-  },
-  {
-   "date": "2026-09-22",
-   "geti": 46.3
-  },
-  {
-   "date": "2026-09-23",
-   "geti": 48.4
-  },
-  {
-   "date": "2026-09-24",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 42.8
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 47.8
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 47.4
-  },
-  {
-   "date": "2026-09-28",
-   "geti": 45.4
-  },
-  {
-   "date": "2026-09-29",
-   "geti": 42.6
-  },
-  {
-   "date": "2026-09-30",
-   "geti": 38.9
-  },
-  {
-   "date": "2026-10-01",
-   "geti": 35.4
-  },
-  {
-   "date": "2026-10-02",
-   "geti": 39.6
-  },
-  {
-   "date": "2026-10-03",
-   "geti": 40.9
-  },
-  {
-   "date": "2026-10-04",
-   "geti": 39.7
-  },
-  {
-   "date": "2026-10-05",
    "geti": 43.9
   },
   {
+   "date": "2026-09-14",
+   "geti": 42.9
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 44.1
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 42.6
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 46.2
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 51.8
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 48.3
+  },
+  {
+   "date": "2026-09-22",
+   "geti": 46.5
+  },
+  {
+   "date": "2026-09-23",
+   "geti": 48.7
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 43.1
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 48.0
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 47.6
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 45.6
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 42.7
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 39.1
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 35.6
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 39.9
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 41.1
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 39.8
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 44.0
+  },
+  {
    "date": "2026-10-06",
-   "geti": 46.1
+   "geti": 46.2
   },
   {
    "date": "2026-10-07",
-   "geti": 44.9
+   "geti": 45.0
   },
   {
    "date": "2026-10-08",
-   "geti": 43.8
+   "geti": 43.9
   },
   {
    "date": "2026-10-09",
-   "geti": 46.9
+   "geti": 47.0
   },
   {
    "date": "2026-10-10",
@@ -1107,7 +1105,7 @@
   },
   {
    "date": "2026-10-11",
-   "geti": 57.2
+   "geti": 57.3
   },
   {
    "date": "2026-10-12",
@@ -1115,7 +1113,7 @@
   },
   {
    "date": "2026-10-13",
-   "geti": 52.1
+   "geti": 52.2
   },
   {
    "date": "2026-10-14",
@@ -1127,23 +1125,23 @@
   },
   {
    "date": "2026-10-16",
-   "geti": 56.8
+   "geti": 56.9
   },
   {
    "date": "2026-10-17",
-   "geti": 56.5
+   "geti": 56.4
   },
   {
    "date": "2026-10-18",
-   "geti": 57.8
+   "geti": 57.7
   },
   {
    "date": "2026-10-19",
-   "geti": 58.6
+   "geti": 58.5
   },
   {
    "date": "2026-10-20",
-   "geti": 54.9
+   "geti": 54.8
   },
   {
    "date": "2026-10-21",
@@ -1216,6 +1214,10 @@
   {
    "date": "2026-11-07",
    "geti": 66.9
+  },
+  {
+   "date": "2026-11-08",
+   "geti": 69.3
   }
  ],
  "policy": {
@@ -1252,22 +1254,14 @@
     "country": "JP",
     "source": "chinanews",
     "when": "2026-11-08"
-   },
-   {
-    "kind": "judicial",
-    "title": "柬埔寨官方：过去16个月起诉并羁押电诈犯罪嫌疑人逾五千名",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-07/10728150.shtml",
-    "country": "",
-    "source": "chinanews",
-    "when": "2026-11-07"
    }
   ],
-  "notable_total": 5,
+  "notable_total": 4,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 5
+   "notable": 4
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1329,31 +1323,31 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 106,
+    "items": 105,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 101,
+    "items": 100,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 106,
+    "items": 105,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 98,
+    "items": 97,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 102,
+    "items": 101,
     "error": ""
    }
   ],
@@ -2186,8 +2180,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 9.02,
-    "carry": 9.6,
+    "value": 7.84,
+    "carry": 9.27,
     "z": null,
     "score": null,
     "available": false
@@ -2196,8 +2190,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 17.0,
-    "carry": 11.89,
+    "value": 7.0,
+    "carry": 10.97,
     "z": null,
     "score": null,
     "available": false
@@ -2207,7 +2201,7 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 0.0,
-    "carry": 1.82,
+    "carry": 1.48,
     "z": null,
     "score": null,
     "available": false
@@ -2226,123 +2220,74 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 5.33,
-    "carry": 3.35,
+    "value": 5.0,
+    "carry": 3.66,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 5,
+  "history_days": 6,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 6,
-   "last_seen": "2026-11-07",
+   "active_days": 7,
+   "last_seen": "2026-11-08",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
      "t": "central Mid-Atlantic Ridge",
-     "v": 5.8,
-     "ts": "2026-11-07T23:17+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twun"
+     "v": 4.8,
+     "ts": "2026-11-08T16:33+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc"
     },
     {
-     "t": "10 km NW of Hamakita, Japan",
-     "v": 5.5,
-     "ts": "2026-11-07T16:04+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0"
-    },
-    {
-     "t": "74 km NE of Hasaki, Japan",
-     "v": 5.5,
-     "ts": "2026-11-07T11:07+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq"
-    },
-    {
-     "t": "91 km ENE of Hihifo, Tonga",
-     "v": 5.1,
-     "ts": "2026-11-07T23:27+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twus"
-    },
-    {
-     "t": "41 km WSW of Gadung, Philippines",
-     "v": 4.9,
-     "ts": "2026-11-07T23:25+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twur"
-    },
-    {
-     "t": "77 km NNW of Khorixas, Namibia",
-     "v": 4.9,
-     "ts": "2026-11-07T15:22+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twss"
-    },
-    {
-     "t": "southern Mid-Atlantic Ridge",
-     "v": 4.9,
-     "ts": "2026-11-07T11:35+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrt"
-    },
-    {
-     "t": "43 km ESE of Ambon, Indonesia",
+     "t": "Southwest Indian Ridge",
      "v": 4.7,
-     "ts": "2026-11-07T20:55+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1"
+     "ts": "2026-11-08T12:29+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn"
     },
     {
-     "t": "45 km NNW of Salinas, Ecuador",
+     "t": "46 km NW of Huara, Chile",
      "v": 4.7,
-     "ts": "2026-11-07T17:17+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt8"
+     "ts": "2026-11-08T11:58+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxf"
     },
     {
-     "t": "156 km ESE of Modisi, Indonesia",
+     "t": "137 km E of Miyako, Japan",
      "v": 4.7,
-     "ts": "2026-11-07T09:47+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrh"
+     "ts": "2026-11-08T09:23+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twx1"
+    },
+    {
+     "t": "117 km NE of Tobelo, Indonesia",
+     "v": 4.6,
+     "ts": "2026-11-08T16:45+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd"
+    },
+    {
+     "t": "43 km E of Onagawa Chō, Japan",
+     "v": 4.5,
+     "ts": "2026-11-08T20:16+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twz2"
+    },
+    {
+     "t": "11 km W of Honmachi, Japan",
+     "v": 4.5,
+     "ts": "2026-11-08T01:53+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twvb"
     }
    ],
    "eonet": [],
-   "gdacs": [
-    {
-     "t": "Green earthquake (Magnitude 5.8M, Depth:10km) in Central Mid-Atlantic Ridge 07/1",
-     "v": "green",
-     "ts": "2026-11-07 23:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576162"
-    },
-    {
-     "t": "Green earthquake (Magnitude 5.5M, Depth:38.081km) in Japan 07/11/2026 16:04 UTC,",
-     "v": "green",
-     "ts": "2026-11-07 16:22",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576118"
-    },
-    {
-     "t": "Green earthquake (Magnitude 5.5M, Depth:31.748km) in Japan 07/11/2026 11:07 UTC,",
-     "v": "green",
-     "ts": "2026-11-07 11:24",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576071"
-    },
-    {
-     "t": "Green notification for tropical cyclone 02-20262027-27. Population affected by C",
-     "v": "green",
-     "ts": "2026-11-07 07:05",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001349"
-    },
-    {
-     "t": "Green forest fire notification in Madagascar",
-     "v": "green",
-     "ts": "2026-11-07 16:08",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033581"
-    }
-   ],
+   "gdacs": [],
    "kp": [
     {
-     "t": "Kp 5.33 峰值（当日 8 个时段）",
-     "v": 5.33,
-     "ts": "2026-11-07",
+     "t": "Kp 5.0 峰值（当日 8 个时段）",
+     "v": 5.0,
+     "ts": "2026-11-08",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -2357,7 +2302,7 @@
     "label": "官方通报",
     "weight": 0.4,
     "value": 0.0,
-    "carry": 0.13,
+    "carry": 0.1,
     "z": null,
     "score": null,
     "available": false
@@ -2367,7 +2312,7 @@
     "label": "政策信号",
     "weight": 0.3,
     "value": 0.0,
-    "carry": 0.19,
+    "carry": 0.15,
     "z": null,
     "score": null,
     "available": false
@@ -2377,19 +2322,19 @@
     "label": "报道密度",
     "weight": 0.3,
     "value": 0.43,
-    "carry": 0.61,
+    "carry": 0.58,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 5,
+  "history_days": 6,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 5,
-   "last_seen": "2026-11-07",
+   "active_days": 6,
+   "last_seen": "2026-11-08",
    "ongoing": true
   },
   "evidence": {
@@ -2397,10 +2342,10 @@
   }
  },
  "doom": {
-  "index": 66.9,
-  "z": 0.42,
+  "index": 69.3,
+  "z": 0.49,
   "parts": {
-   "military": 0.42,
+   "military": 0.49,
    "hazard": null,
    "epidemic": null
   },
@@ -2438,13 +2383,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 22185,
+   "items": 21928,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 23,
+   "items": 22,
    "error": "",
    "undated": 0
   },
@@ -2514,38 +2459,38 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 106,
+   "items": 105,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 101,
+   "items": 100,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 106,
+   "items": 105,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 98,
+   "items": 97,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 102,
+   "items": 101,
    "error": ""
   },
   {
@@ -2581,7 +2526,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 17,
+   "items": 7,
    "error": ""
   },
   {
@@ -2593,7 +2538,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 5,
+   "items": 0,
    "error": ""
   },
   {
@@ -2611,7 +2556,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 12353,
+   "items": 8687,
    "error": ""
   },
   {
