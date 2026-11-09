@@ -1816,6 +1816,7 @@
 {"r":"EUROPE","c":"narrative","d":"2026-10-07","v":1.0145}
 {"r":"EUROPE","c":"narrative","d":"2026-10-08","v":1.2986}
 {"r":"EUROPE","c":"narrative","d":"2026-10-09","v":1.0463}
+{"r":"EUROPE","c":"narrative","d":"2026-10-10","v":1.1053}
 {"r":"EUROPE","c":"narrative","d":"2026-10-25","v":1.3107}
 {"r":"EUROPE","c":"narrative","d":"2026-10-26","v":1.283}
 {"r":"EUROPE","c":"narrative","d":"2026-10-27","v":1.5022}
@@ -2998,6 +2999,7 @@
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-07","v":1.5214}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-08","v":1.9098}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-09","v":1.199}
+{"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-10","v":1.118}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-25","v":3.9128}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-26","v":1.4599}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-27","v":1.0543}
@@ -4851,6 +4853,7 @@
 {"r":"OTHER","c":"narrative","d":"2026-10-07","v":1.3183}
 {"r":"OTHER","c":"narrative","d":"2026-10-08","v":1.3321}
 {"r":"OTHER","c":"narrative","d":"2026-10-09","v":1.5633}
+{"r":"OTHER","c":"narrative","d":"2026-10-10","v":2.0113}
 {"r":"OTHER","c":"narrative","d":"2026-10-26","v":1.5259}
 {"r":"OTHER","c":"narrative","d":"2026-10-27","v":1.8149}
 {"r":"OTHER","c":"narrative","d":"2026-10-28","v":0.1394}
@@ -6059,6 +6062,7 @@
 {"r":"SOUTH_ASIA","c":"military","d":"2026-11-08","v":71.0204}
 {"r":"SOUTH_ASIA","c":"military","d":"2026-11-09","v":5.2137}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-04","v":1.418}
+{"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-10","v":0.8968}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-23","v":0.0697}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-27","v":1.8887}
 {"r":"SOUTH_ASIA","c":"narrative","d":"2026-10-28","v":0.0536}

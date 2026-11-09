@@ -1,8 +1,8 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-09T11:28:06+00:00",
+ "generated_at": "2026-11-09T22:19:35+00:00",
  "date": "2026-11-08",
- "geti": 69.3,
+ "geti": 69.2,
  "delta_z": 0.62,
  "delta_pts": 2.4,
  "confidence": 0.95,
@@ -47,7 +47,7 @@
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 70.8,
+   "score": 70.7,
    "delta": 6.1,
    "excluded": false,
    "drivers": [
@@ -245,20 +245,200 @@
  ],
  "events": [
   {
+   "id": "4cc0157b5a62",
+   "title": "土耳其西部一钢铁厂发生爆炸 死亡人数升至16人",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729169.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-09T21:57:25+00:00",
+   "note": "土耳其总统埃尔多安9日晚表示，当天伊兹密尔省阿利亚阿区一家钢铁厂发生的爆炸事故已造成16人死亡，13人受伤，其中2人伤势严重。",
+   "region": "MIDDLE_EAST"
+  },
+  {
    "id": "e6a0c9ae519a",
    "title": "Krakow shooting suspect has died in hospital, police say",
    "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.82,
+   "confidence": 0.6,
    "origins": 2,
    "sources": [
     "bbc",
     "dw"
    ],
-   "published": "2026-11-09T07:26:09+00:00",
-   "note": "At least six people were killed in the shooting, and three bodies of the suspect's family members were found at their home.",
+   "published": "2026-11-09T11:56:25+00:00",
+   "note": "Six people were killed in the shooting, and three bodies of the suspect's family members were found at their home.",
    "region": "OTHER"
+  },
+  {
+   "id": "cdb756bdb9df",
+   "title": "What to expect as Russia, Ukraine and the US hold trilateral talks in Abu Dhabi",
+   "url": "https://www.france24.com/en/europe/20261109-what-to-expect-as-russia-ukraine-and-us-hold-trilateral-talks-in-abu-dhabi",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-09T21:46:23+00:00",
+   "note": "Negotiators from Ukraine, Russia and the United States are set to meet in the capital of the United Arab Emirates (UAE) on Tuesday for a new round of talks aimed at ending nearly f",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "c51e6fddf55f",
+   "title": "Suspect in Charlie Kirk killing to stand trial for murder in July 2028",
+   "url": "https://www.theguardian.com/us-news/2026/nov/09/charlie-kirk-murder-trial",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-09T20:55:57+00:00",
+   "note": "Utah judge sets timeline for trial of Tyler Robinson, accused of fatally shooting the far-right activist in September 2025 Tyler Robinson, the 23-year-old man accused of killing th",
+   "region": "OTHER"
+  },
+  {
+   "id": "2b96ff6a5439",
+   "title": "At least 44 people killed in air strike near Yemeni capital, Houthi rebels say",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3373850/houthi-rebels-say-least-44-people-killed-air-strike-near-yemeni-capital",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-09T20:49:03+00:00",
+   "note": "The death toll from air strikes near Yemen’s capital has increased to 44, most of them women and children, health authorities from the Iran-backed Houthi rebels said overnight. The",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "5e502df3a904",
+   "title": "Judge clears way for Lindsay Clancy to be retried on murder charges",
+   "url": "https://www.theguardian.com/us-news/2026/nov/09/lindsay-clancy-judge-retrial",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-09T20:42:22+00:00",
+   "note": "Massachusetts judge rejects bid by Clancy’s attorneys to have the case against her dismissed A Massachusetts judge cleared the way on Monday for Lindsay Clancy to be tried again on",
+   "region": "OTHER"
+  },
+  {
+   "id": "8490d0a4e751",
+   "title": "Turkey steel factory blast kills at least 17 people",
+   "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-09T20:42:04+00:00",
+   "note": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "6048a00ebd3d",
+   "title": "Deadly explosion at Iron and steel plant in Turkiye",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-09T20:19:18+00:00",
+   "note": "Deadly explosion at Iron and steel plant in Turkiye",
+   "region": "OTHER"
+  },
+  {
+   "id": "5f8bb7aa3aea",
+   "title": "Explosion at Turkish steel plant kills at least 16 people",
+   "url": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-09T19:58:40+00:00",
+   "note": "President Erdogan announces an investigation after a crane collapsed into a furnace, triggering the blast near Izmir.",
+   "region": "OTHER"
+  },
+  {
+   "id": "323a226751b4",
+   "title": "US agencies unite to combat rogue drone threats nationwide",
+   "url": "https://www.aljazeera.com/news/2026/11/9/us-agencies-unite-to-combat-rogue-drone-threats-nationwide?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-09T19:07:56+00:00",
+   "note": "More than $40bn allocated by NATO for counter-drone technologies as US agencies ramp up measures against aerial threats.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "05ab38f89907",
+   "title": "Witnesses recount struggle to save people buried in ‘horrifying’ Gaza landslide",
+   "url": "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-09T18:27:51+00:00",
+   "note": "High winds and heavy train triggered collapse of sand bank overlooking camp for displaced families Witnesses have described the frantic struggle to save three members of a family b",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "0426e9fee6a9",
+   "title": "Krakow shooting suspect dies as Poland mourns six victims",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/krakow-shooting-suspect-dies-as-poland-mourns-six-victims?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-09T18:12:46+00:00",
+   "note": "A 24-year-old man who killed six people and wounded 15 in a shooting in Krakow, has died in hospital.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "9654b499ffaa",
+   "title": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/jerusalem-daily-deadly-aftermath-of-gaza-rainstorm-continues?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-09T17:55:47+00:00",
+   "note": "Five Palestinians were killed in Gaza when heavy rain collapsed a sand embankment on a displacement camp.",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "cb949c907fcf",
@@ -266,7 +446,7 @@
    "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728990.shtml",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -276,79 +456,94 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "a2bbad4e47bd",
-   "title": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
-   "url": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people?traffic_source=rss",
+   "id": "c35a380d57c9",
+   "title": "Fake news in Africa: In an age of disinformation, who decides what's true?",
+   "url": "https://www.dw.com/en/fake-news-in-africa-in-an-age-of-disinformation-who-decides-what-s-true/a-79874039?maca=en-rss-en-world-4025-rdf",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "dw"
    ],
-   "published": "2026-11-09T10:50:49+00:00",
-   "note": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "6411cc5f7d57",
-   "title": "Poland begins 2 days of national mourning after gunman kills 6",
-   "url": "https://www.france24.com/en/video/20261109-poland-begins-2-days-of-national-mourning-after-gunman-kills-6",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-09T10:37:02+00:00",
-   "note": "Poland has begun two days of national mourning after a gunman opened fire in Krakow's main square Saturday afternoon, November 7. Six people were killed and at least 15 were injure",
-   "region": "EUROPE"
+   "published": "2026-11-09T15:56:00+00:00",
+   "note": "From Ghana to Mozambique, the fight against fake news keeps gaining momentum. But combating disinformation also requires safeguards for free speech, leaving some governments in an ",
+   "region": "AFRICA"
   },
   {
    "id": "4e50c83e7908",
-   "title": "Kraków shooting suspect who killed six has died, Polish police say",
+   "title": "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
    "url": "https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-09T10:22:54+00:00",
-   "note": "Terrorism investigation continues after 24-year-old opened fire in market square, leaving 16 injured A gunman who killed six people, including a British man, and injured 16 in a ra",
+   "published": "2026-11-09T15:52:26+00:00",
+   "note": "Terrorism investigation will continue after suspect who killed six after opening fire in market square died Polish prosecutors have said they do not currently have any evidence tyi",
    "region": "OTHER"
   },
   {
-   "id": "9895213cea29",
-   "title": "At least four killed as Russia and Ukraine trade strikes overnight",
-   "url": "https://www.aljazeera.com/news/2026/11/9/at-least-one-person-killed-as-russia-and-ukraine-trade-strikes-overnight?traffic_source=rss",
+   "id": "2cbd88663cea",
+   "title": "Nvidia faces defining test as Jensen Huang probe adds to chip stock turbulence",
+   "url": "https://www.scmp.com/tech/big-tech/article/3373825/nvidia-faces-defining-test-jensen-huang-probe-adds-chip-stock-turbulence",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "scmp"
    ],
-   "published": "2026-11-09T10:08:45+00:00",
-   "note": "Russia's second-largest oil refinery was set on fire by drones, while Russian strikes targeted Ukrainian energy sites.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-09T14:30:07+00:00",
+   "note": "Nvidia is facing an unprecedented valuation test as a board inquiry into CEO Jensen Huang exposes the US chipmaker to a rare key-person risk, while investors also weigh the midterm",
+   "region": "OTHER"
   },
   {
-   "id": "7ce4703f6091",
-   "title": "'We call it war-life balance': Daryna's daily struggle to live, survive in wartime Ukraine",
-   "url": "https://www.france24.com/en/europe/20261109-we-call-it-war-life-balance-daryna-s-daily-struggle-to-live-survive-in-wartime-ukraine",
+   "id": "4a5ec71e3841",
+   "title": "Fresh GJ-11 footage gives a glimpse of weapon bay on China’s next-gen drone",
+   "url": "https://www.scmp.com/news/china/military/article/3373839/fresh-gj-11-footage-gives-glimpse-weapon-bay-chinas-next-gen-drone",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "france24"
+    "scmp"
    ],
-   "published": "2026-11-09T09:10:50+00:00",
-   "note": "Daryna, 25, entered adulthood in a country at war. Since Russia’s full-scale invasion, her days have been shaped by air raid alerts, power outages and nights spent sheltering in th",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-09T14:20:46+00:00",
+   "note": "China has released new images of its GJ-11 stealth combat drone, offering a closer look at the advanced design and high-performance features of the next-generation uncrewed aircraf",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "88f6474daaad",
+   "title": "Anger as 17 killed in Turkey steel factory blast",
+   "url": "https://www.scmp.com/news/world/europe/article/3373832/turkey-steel-factory-blast-kills-6",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-09T13:12:03+00:00",
+   "note": "An explosion ripped through an iron and steel factory in western Turkey on Monday, killing 17 people and injuring 13, with President Recep Tayyip Erdogan vowing to find out who was",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "94832ea83191",
+   "title": "Four killed in Gaza after sand embankment collapses onto tents, health ministry says",
+   "url": "https://www.bbc.co.uk/news/articles/cqd090ee8px5o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-09T10:41:57+00:00",
+   "note": "Three children are among those killed in the incident that came a day after heavy rain reportedly flooded tens of thousands of tents across Gaza.",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "44bc04e06d6f",
@@ -356,7 +551,7 @@
    "url": "https://www.scmp.com/news/world/europe/article/3373776/gunman-who-killed-6-polish-city-square-dies-hospital",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -381,27 +576,12 @@
    "region": "OTHER"
   },
   {
-   "id": "4d1db54c6336",
-   "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
-   "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-08T23:34:18+00:00",
-   "note": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
-   "region": "OTHER"
-  },
-  {
    "id": "1a503f27dcd7",
    "title": "Collision of two trains in Egypt kills at least seven",
    "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -411,272 +591,93 @@
    "region": "OTHER"
   },
   {
-   "id": "4342c7cb10d2",
-   "title": "Train collision in Egypt kills 7 and injures dozens",
-   "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
+   "id": "74ce43f35a60",
+   "title": "Russell Brand sentenced to 10-and-a-half years in jail for rape, sexual assault",
+   "url": "https://www.france24.com/en/video/20261109-russell-brand-sentenced-to-10-and-a-half-years-in-jail-for-rape-sexual-assault",
    "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
+   "severity": 4,
+   "confidence": 0.74,
+   "origins": 2,
    "sources": [
+    "france24",
     "scmp"
    ],
-   "published": "2026-11-08T14:56:42+00:00",
-   "note": "Two trains collided south of the Egyptian capital on Sunday, derailing several carriages, killing seven people and injuring more than 100 others, according to the authorities. Egyp",
+   "published": "2026-11-09T16:43:39+00:00",
+   "note": "British comedian Russell Brand, once one of the country's most high-profile broadcasters and a Hollywood star, was jailed for 10-and-a-half years on Monday after he was convicted o",
    "region": "OTHER"
-  },
-  {
-   "id": "6be2f863b30e",
-   "title": "Indonesian firefighting helicopter crash in Borneo kills 1",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373712/indonesian-firefighting-helicopter-crash-borneo-kills-1",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-08T14:37:11+00:00",
-   "note": "A crew member of a helicopter battling Indonesian wildfires was killed on Sunday when the aircraft crashed into a river as it scooped up water for an airborne drop, a local disaste",
-   "region": "OTHER"
-  },
-  {
-   "id": "2edfb7419ad8",
-   "title": "Russell Brand to be sentenced for rape and sexual assault today – latest updates",
-   "url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-09T11:24:54+00:00",
-   "note": "Disgraced comedian was convicted last week and was warned he faces a ‘signficant’ prison term Proceedings are beginning now. Chief prosecutor Riel Karmy-Jones KC is up on her feet.",
-   "region": "OTHER"
-  },
-  {
-   "id": "c198982150bb",
-   "title": "Why Manila’s call for softer tone will not ease South China Sea tensions with Beijing",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3373818/why-manilas-call-softer-tone-will-not-ease-south-china-sea-tensions-beijing",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-09T11:15:11+00:00",
-   "note": "Manila’s efforts to strike a more conciliatory tone towards Beijing are unlikely to ease tensions in the contested South China Sea, a Chinese analyst has cautioned. This was becaus",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "26444e07bc04",
-   "title": "French police officers face trial over beating of black man they accused of not wearing Covid face mask",
-   "url": "https://www.theguardian.com/world/2026/nov/09/french-police-officers-face-trial-over-beating-of-black-man-not-wearing-mask-during-covid",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-09T10:24:40+00:00",
-   "note": "Assault on Michel Zecler in 2020 is rare case of police brutality reaching court, at time of heightened tensions Three French police officers are to go on trial over the beating of",
-   "region": "OTHER"
-  },
-  {
-   "id": "4a6a8b4657d9",
-   "title": "Paris police officers go on trial over 2020 beating of Black man",
-   "url": "https://www.france24.com/en/france/20261109-paris-police-officers-go-on-trial-over-2020-beating-of-black-man",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-09T10:08:03+00:00",
-   "note": "Three French police officers will go on trial Monday over the 2020 beating of Black music producer Michel Zecler in Paris. The assault, which was captured on camera, sparked nation",
-   "region": "OTHER"
-  },
-  {
-   "id": "ae39ad909f13",
-   "title": "Iran’s authorities harden domestic security controls amid US strike threats",
-   "url": "https://www.aljazeera.com/news/2026/11/9/irans-authorities-harden-domestic-security-controls-amid-us-strike-threats?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-09T09:56:13+00:00",
-   "note": "Iran is cracking down on perceived security threats from alleged spies to crowds of youngsters.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "ca65ec720fc2",
-   "title": "European troops in Poland: 'Coalition of the Willing' holds military exercises",
-   "url": "https://www.france24.com/en/video/20261109-european-troops-in-poland-coalition-of-the-willing-holds-military-exercises",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-09T09:53:53+00:00",
-   "note": "Some 2,800 troops from 10 different European countries are taking part in a multinational military exercise in Poland. The aim is to prepare European forces for a possible deployme",
-   "region": "EUROPE"
-  },
-  {
-   "id": "fbc8473349ba",
-   "title": "French PM holds 'social conference': just 'an exercise in PR'?",
-   "url": "https://www.france24.com/en/video/20261109-french-pm-holds-social-conference-just-an-exercise-in-pr",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-09T09:47:21+00:00",
-   "note": "French Prime Minister Sébastien Lecornu is to meet unions and employer federation representatives on Monday to discuss salaries and purchasing power, with a possible raise to the m",
-   "region": "OTHER"
-  },
-  {
-   "id": "7cb25d5a9d93",
-   "title": "Trump admits deportation policy was ‘too tough’ despite promotion of Stephen Miller",
-   "url": "https://www.theguardian.com/us-news/2026/nov/09/trump-tells-60-minutes-deportation-policy-too-tough-ice-immigration",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-09T08:32:32+00:00",
-   "note": "President makes unusual acknowledgment that one of defining policies of his second administration had become a political liability Donald Trump has admitted that his deportation po",
-   "region": "OTHER"
-  },
-  {
-   "id": "89a2ae659608",
-   "title": "A doctor was murdered in South Korea. 8 years on, ‘nothing has changed’",
-   "url": "https://www.scmp.com/week-asia/health-environment/article/3373762/doctor-was-murdered-south-korea-8-years-nothing-has-changed",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-09T06:35:35+00:00",
-   "note": "Nearly eight years after a psychiatrist’s murder prompted South Korea to pass a new law that increased penalties for assaulting medical staff, another attack this month has doctors",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "bff62c95d74a",
-   "title": "伊拉克北部库区天然气田遭袭暂停生产",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728710.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-09T04:54:22+00:00",
-   "note": "中新社北京11月9日电 巴格达消息：位于伊拉克北部库尔德自治区(库区)苏莱曼尼亚省的豪尔穆尔天然气田当地时间8日遭遇袭击。多家外媒报道称，受袭击影响，该气田已暂停生产。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "8e9f6c282940",
-   "title": "外媒：伊拉克库区天然气田遭不明来源无人机袭击",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728597.shtml",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-09T00:02:06+00:00",
-   "note": "中新网11月9日电 据卡塔尔半岛电视台等外媒报道，伊拉克库尔德自治区(库区)安全部门消息人士称，位于伊库区苏莱曼尼亚省的豪尔穆尔天然气田遭不明来源的无人机袭击，受袭击影响，气田8日已停止生产。",
-   "region": "MIDDLE_EAST"
   }
  ],
  "breaking": [
   {
-   "id": "2edfb7419ad8",
-   "title": "Russell Brand to be sentenced for rape and sexual assault today – latest updates",
-   "url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-09T11:24:54+00:00",
-   "note": "Disgraced comedian was convicted last week and was warned he faces a ‘signficant’ prison term Proceedings are beginning now. Chief prosecutor Riel Karmy-Jones KC is up on her feet.",
-   "region": "OTHER"
-  },
-  {
-   "id": "c198982150bb",
-   "title": "Why Manila’s call for softer tone will not ease South China Sea tensions with Beijing",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3373818/why-manilas-call-softer-tone-will-not-ease-south-china-sea-tensions-beijing",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-09T11:15:11+00:00",
-   "note": "Manila’s efforts to strike a more conciliatory tone towards Beijing are unlikely to ease tensions in the contested South China Sea, a Chinese analyst has cautioned. This was becaus",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "a2bbad4e47bd",
-   "title": "Gaza authorities slam global ‘inaction’ after mudslide kills five people",
-   "url": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people?traffic_source=rss",
+   "id": "4cc0157b5a62",
+   "title": "土耳其西部一钢铁厂发生爆炸 死亡人数升至16人",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729169.shtml",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "chinanews"
    ],
-   "published": "2026-11-09T10:50:49+00:00",
-   "note": "Four children and a woman were killed after heavy rain caused a sandbank to collapse on their tent.",
+   "published": "2026-11-09T21:57:25+00:00",
+   "note": "土耳其总统埃尔多安9日晚表示，当天伊兹密尔省阿利亚阿区一家钢铁厂发生的爆炸事故已造成16人死亡，13人受伤，其中2人伤势严重。",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "6411cc5f7d57",
-   "title": "Poland begins 2 days of national mourning after gunman kills 6",
-   "url": "https://www.france24.com/en/video/20261109-poland-begins-2-days-of-national-mourning-after-gunman-kills-6",
-   "component": "narrative",
+   "id": "cdb756bdb9df",
+   "title": "What to expect as Russia, Ukraine and the US hold trilateral talks in Abu Dhabi",
+   "url": "https://www.france24.com/en/europe/20261109-what-to-expect-as-russia-ukraine-and-us-hold-trilateral-talks-in-abu-dhabi",
+   "component": "diplomacy",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-09T10:37:02+00:00",
-   "note": "Poland has begun two days of national mourning after a gunman opened fire in Krakow's main square Saturday afternoon, November 7. Six people were killed and at least 15 were injure",
-   "region": "EUROPE"
+   "published": "2026-11-09T21:46:23+00:00",
+   "note": "Negotiators from Ukraine, Russia and the United States are set to meet in the capital of the United Arab Emirates (UAE) on Tuesday for a new round of talks aimed at ending nearly f",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "c51e6fddf55f",
+   "title": "Suspect in Charlie Kirk killing to stand trial for murder in July 2028",
+   "url": "https://www.theguardian.com/us-news/2026/nov/09/charlie-kirk-murder-trial",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-09T20:55:57+00:00",
+   "note": "Utah judge sets timeline for trial of Tyler Robinson, accused of fatally shooting the far-right activist in September 2025 Tyler Robinson, the 23-year-old man accused of killing th",
+   "region": "OTHER"
+  },
+  {
+   "id": "2b96ff6a5439",
+   "title": "At least 44 people killed in air strike near Yemeni capital, Houthi rebels say",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3373850/houthi-rebels-say-least-44-people-killed-air-strike-near-yemeni-capital",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-09T20:49:03+00:00",
+   "note": "The death toll from air strikes near Yemen’s capital has increased to 44, most of them women and children, health authorities from the Iran-backed Houthi rebels said overnight. The",
+   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
-  "sources_ok": 20,
-  "sources_failed": 2,
-  "items": 22689,
-  "gdelt_events": 22451,
+  "sources_ok": 21,
+  "sources_failed": 1,
+  "items": 31437,
+  "gdelt_events": 31195,
   "mode": "live",
   "data_through": "2026-11-08",
-  "clusters": 226,
-  "origins": 232,
+  "clusters": 229,
+  "origins": 236,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1212,15 +1213,37 @@
   },
   {
    "date": "2026-11-07",
-   "geti": 66.9
+   "geti": 66.8
   },
   {
    "date": "2026-11-08",
-   "geti": 69.3
+   "geti": 69.2
   }
  ],
  "policy": {
   "items": [
+   {
+    "type": "control",
+    "country": "",
+    "source": "aljazeera",
+    "score": 0.3,
+    "signed": 0.3,
+    "title": "Two security breaches near White House prompt brief lockdown",
+    "url": "https://www.aljazeera.com/news/2026/11/9/two-security-breaches-near-white-house-prompt-brief-lockdown?traffic_source=rss",
+    "origins": 1,
+    "when": "2026-11-09"
+   },
+   {
+    "type": "redistributive",
+    "country": "JP",
+    "source": "chinanews",
+    "score": 0.2,
+    "signed": -0.2,
+    "title": "日本前首相石破茂受到党内警告处分",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-09/10729097.shtml",
+    "origins": 1,
+    "when": "2026-11-09"
+   },
    {
     "type": "redistributive",
     "country": "JP",
@@ -1236,70 +1259,86 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Russell Brand to be sentenced for rape and sexual assault today – latest updates",
-    "url": "https://www.theguardian.com/uk-news/live/2026/nov/09/russell-brand-sentencing-rape-sexual-assault-live-news-updates",
+    "title": "Russell Brand sentenced to 10.5 years over sexual assault charges",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/russell-brand-sentenced-to-10-5-years-over-sexual-assault-charges?traffic_source=rss",
+    "country": "",
+    "source": "aljazeera",
+    "when": "2026-11-09"
+   },
+   {
+    "kind": "judicial",
+    "title": "Suspect in 1994 Rwandan genocide deported from US",
+    "url": "https://www.scmp.com/news/world/united-states-canada/article/3373849/suspect-1994-rwandan-genocide-deported-us",
+    "country": "US",
+    "source": "scmp",
+    "when": "2026-11-09"
+   },
+   {
+    "kind": "judicial",
+    "title": "Jemima Goldsmith says ex-partner Russell Brand physically assaulted her",
+    "url": "https://www.theguardian.com/news/2026/nov/09/jemima-goldsmith-says-ex-partner-russell-brand-physically-assaulted-her",
     "country": "",
     "source": "guardian",
     "when": "2026-11-09"
    },
    {
     "kind": "judicial",
-    "title": "中国农业银行河北省分行原副巡视员郑学峰接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-09/10728825.shtml",
-    "country": "CN",
+    "title": "Russell Brand sentenced to more than 10 years in prison for rape and sexual assault",
+    "url": "https://www.theguardian.com/news/2026/nov/09/russell-brand-sentenced-rape-sexual-assault",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-09"
+   },
+   {
+    "kind": "judicial",
+    "title": "Russell Brand sentenced to 10-and-a-half years in jail for rape, sexual assault",
+    "url": "https://www.france24.com/en/video/20261109-russell-brand-sentenced-to-10-and-a-half-years-in-jail-for-rape-sexual-assault",
+    "country": "",
+    "source": "france24",
+    "when": "2026-11-09"
+   },
+   {
+    "kind": "judicial",
+    "title": "淮北矿业（集团）有限责任公司原副总经理谢道成接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-09/10729058.shtml",
+    "country": "",
     "source": "chinanews_cn",
     "when": "2026-11-09"
    },
    {
     "kind": "judicial",
-    "title": "CFMEU ‘enjoy a significant level of influence’ over Victorian government, Big Build royal commission hears",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/09/big-build-royal-commission-hears-cfmeu-enjoy-a-significant-level-of-influence-over-victorian-government-ntwnfb",
-    "country": "",
-    "source": "guardian",
+    "title": "Police detain brother of Hungary’s ex-PM Orban",
+    "url": "https://www.scmp.com/news/world/europe/article/3373823/police-detain-brother-hungarys-ex-pm-orban",
+    "country": "HU",
+    "source": "scmp",
     "when": "2026-11-09"
-   },
-   {
-    "kind": "judicial",
-    "title": "Media industry still plagued by sexual abuse, UK minister warns",
-    "url": "https://www.scmp.com/news/world/europe/article/3373718/media-industry-still-has-problem-sexual-abuse-uk-culture-minister-says",
-    "country": "GB",
-    "source": "scmp",
-    "when": "2026-11-08"
-   },
-   {
-    "kind": "judicial",
-    "title": "Iran executes 3 more men over January protests",
-    "url": "https://www.scmp.com/news/world/middle-east/article/3373716/iran-executes-3-more-men-over-january-protests-judiciary-says",
-    "country": "IR",
-    "source": "scmp",
-    "when": "2026-11-08"
    }
   ],
-  "notable_total": 5,
+  "notable_total": 7,
   "counts": {
    "extractive": 0,
-   "control": 0,
-   "redistributive": 1,
-   "notable": 5
+   "control": 1,
+   "redistributive": 2,
+   "notable": 7
   },
   "pressure": {
-   "JP": -0.2
+   "JP": -0.4
   },
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 86.3,
-  "z": 1.104,
+  "index": 84.5,
+  "z": 1.017,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 28.18,
-    "chg5": 63.84,
-    "z": 1.947,
+    "last": 25.64,
+    "chg5": 32.03,
+    "z": 1.757,
     "ok": true,
-    "asof": "2026-11-05"
+    "asof": "2026-11-06"
    },
    {
     "id": "oil",
@@ -1313,38 +1352,38 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.48,
-    "chg5": 6.75,
-    "z": 1.016,
+    "last": 3.42,
+    "chg5": -0.58,
+    "z": 0.945,
     "ok": true,
-    "asof": "2026-11-05"
+    "asof": "2026-11-06"
    },
    {
     "id": "usd",
     "label": "广义美元",
-    "last": 121.666,
-    "chg5": 0.28,
-    "z": -0.037,
+    "last": 121.88,
+    "chg5": 0.18,
+    "z": -0.045,
     "ok": true,
-    "asof": "2026-10-30"
+    "asof": "2026-11-06"
    },
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 4.84,
-    "chg5": -2.81,
-    "z": -0.054,
+    "last": 4.86,
+    "chg5": -1.62,
+    "z": -0.063,
     "ok": true,
-    "asof": "2026-11-05"
+    "asof": "2026-11-06"
    }
   ],
-  "asof": "2026-11-05",
+  "asof": "2026-11-06",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 105,
+    "items": 106,
     "error": ""
    },
    {
@@ -1356,19 +1395,19 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 105,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 97,
+    "items": 102,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 101,
+    "items": 102,
     "error": ""
    }
   ],
@@ -2221,8 +2260,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 0.0,
-    "carry": 1.48,
+    "value": 3.0,
+    "carry": 2.04,
     "z": null,
     "score": null,
     "available": false
@@ -2308,7 +2347,26 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twvb"
     }
    ],
-   "eonet": [],
+   "eonet": [
+    {
+     "t": "Typhoon Cempaka",
+     "v": "severe storms",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26157"
+    },
+    {
+     "t": "Tropical Storm Pena",
+     "v": "severe storms",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26158"
+    },
+    {
+     "t": "Tropical Cyclone 03S",
+     "v": "severe storms",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26159"
+    }
+   ],
    "gdacs": [],
    "kp": [
     {
@@ -2338,8 +2396,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 0.0,
-    "carry": 0.15,
+    "value": 1.0,
+    "carry": 0.34,
     "z": null,
     "score": null,
     "available": false
@@ -2348,8 +2406,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.26,
-    "carry": 0.73,
+    "value": 0.0,
+    "carry": 0.49,
     "z": null,
     "score": null,
     "available": false
@@ -2365,11 +2423,18 @@
    "ongoing": true
   },
   "evidence": {
-   "who": []
+   "who": [
+    {
+     "t": "Two security breaches near White House prompt brief lockdown",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    }
+   ]
   }
  },
  "doom": {
-  "index": 69.3,
+  "index": 69.2,
   "z": 0.49,
   "parts": {
    "military": 0.49,
@@ -2409,8 +2474,8 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 140,
-   "items": 22451,
+   "files": 144,
+   "items": 31195,
    "error": ""
   },
   {
@@ -2430,14 +2495,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 34,
+   "items": 33,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 9,
+   "items": 7,
    "error": "",
    "undated": 0
   },
@@ -2464,9 +2529,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）",
+   "ok": true,
+   "items": 5,
+   "error": "",
    "undated": 0
   },
   {
@@ -2486,14 +2551,14 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 10,
+   "items": 12,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 105,
+   "items": 106,
    "error": ""
   },
   {
@@ -2505,19 +2570,19 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 105,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 97,
+   "items": 102,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 101,
+   "items": 102,
    "error": ""
   },
   {
@@ -2559,7 +2624,7 @@
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 0,
+   "items": 3,
    "error": ""
   },
   {
@@ -2583,7 +2648,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 7258,
+   "items": 11024,
    "error": ""
   },
   {
