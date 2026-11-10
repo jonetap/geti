@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-10T17:01:52+00:00",
+ "generated_at": "2026-11-10T23:17:29+00:00",
  "date": "2026-11-09",
  "geti": 69.2,
  "delta_z": 0.49,
@@ -245,85 +245,39 @@
  ],
  "events": [
   {
-   "id": "f67670d7ab6e",
-   "title": "Texas man charged with murder of woman aboard MSC cruise ship",
-   "url": "https://www.theguardian.com/us-news/2026/nov/10/msc-seascape-homicide-cruise-ship",
-   "component": "narrative",
+   "id": "ba337ab9992d",
+   "title": "Russia expels Moldovan diplomat in tit-for-tat move",
+   "url": "https://www.aljazeera.com/news/2026/11/10/russia-expels-moldovan-diplomat-in-tit-for-tat-move?traffic_source=rss",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-10T22:41:07+00:00",
+   "note": "Relations between Moscow and Chisinau have worsened since Russia's full-scale invasion of Ukraine in 2022.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "03f982509803",
+   "title": "US prosecutors charge Iranian operative allegedly responsible for UK air force base attack",
+   "url": "https://www.theguardian.com/us-news/2026/nov/10/prosecutors-charge-iranian-operative-uk-air-force-attack",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-10T16:53:05+00:00",
-   "note": "Jason Leon Watford said he ‘snapped’ after verbal dispute with the woman, before allegedly killing her in a cabin A passenger of a Texas -based cruise ship has been charged with mu",
-   "region": "OTHER"
-  },
-  {
-   "id": "b6b7bbac7ea1",
-   "title": "REPLAY: US Secretary of State Rubio holds press conference after G7 meeting",
-   "url": "https://www.france24.com/en/video/20261110-replay-us-secretary-of-state-rubio-holds-press-conference-after-g7-meeting",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-10T16:30:50+00:00",
-   "note": "US Secretary of State Marco Rubio talked to the press Tuesday as the G7 meets in Paris. He said he saw no need to resume major combat operations against Iran because economic restr",
-   "region": "OTHER"
-  },
-  {
-   "id": "1f36d240d38f",
-   "title": "At least 12 people killed in Bulgaria motorway pile-up",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/at-least-12-people-killed-in-bulgaria-motorway-pile-up?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera",
-    "aljazeera"
-   ],
-   "published": "2026-11-10T16:20:12+00:00",
-   "note": "At least 12 people have been killed and dozens injured in multiple crashes involving around 50 vehicles on a motorway",
-   "region": "OTHER"
-  },
-  {
-   "id": "cf4c5c42642c",
-   "title": "Father, child among six Palestinians killed in Israeli attacks on Gaza",
-   "url": "https://www.aljazeera.com/news/2026/11/10/israeli-attacks-kill-at-least-six-in-gaza-including-father-and-son?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-10T15:49:36+00:00",
-   "note": "Israel has killed more than 1,600 people in Gaza since last year's 'ceasefire', the enclave's Health Ministry says.",
+   "published": "2026-11-10T21:57:57+00:00",
+   "note": "New indictment claims Mohammad Dawood al-Saadi, a dual Iranian and Iraqi national, plotted while in US custody US federal prosecutors have said that an Iranian operative jailed in ",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "f03d561168c8",
-   "title": "Over 3,000 already dead from cholera this year, says WHO",
-   "url": "https://www.scmp.com/news/world/africa/article/3373991/over-3000-already-dead-cholera-year-says-who",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-10T15:43:18+00:00",
-   "note": "Cholera has killed more than 3,000 people worldwide since the start of the year, the World Health Organization said on Tuesday, insisting its goal of cutting global cases by 90 per",
-   "region": "OTHER"
-  },
-  {
-   "id": "5baf13edc62e",
-   "title": "Poland gunman fascinated by Norway’s neo-Nazi mass killer Breivik",
-   "url": "https://www.aljazeera.com/news/2026/11/10/polish-gunman-visited-websites-about-norwegian-neo-nazi-serial-killer?traffic_source=rss",
+   "id": "82ea4bc144fe",
+   "title": "IBM’s biggest division ends most US foreign worker sponsorships",
+   "url": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -331,84 +285,54 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-10T15:36:49+00:00",
-   "note": "Suspect in deadly November 7 Krakow shooting looked up the white supremacist who killed dozens in 2011, a minister says.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "4b3c80656f26",
-   "title": "Will Nvidia CEO Jensen Huang’s affair become another ‘spy balloon’ saga for US-China ties?",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3373986/will-nvidia-ceo-jensen-huangs-affair-become-another-spy-balloon-saga-us-china-ties",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-10T15:00:11+00:00",
-   "note": "China hawks in Washington could weaponise allegations that Nvidia CEO Jensen Huang was targeted by Chinese intelligence, despite denials from Beijing, Chinese experts warn. They sa",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "9ae683e251ff",
-   "title": "China hands over remains of US airmen killed during World War II supply missions",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3373945/china-hands-over-remains-us-airmen-killed-during-world-war-ii-supply-missions",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-10T12:00:28+00:00",
-   "note": "China has handed over the remains of American airmen who were killed during World War II while carrying supplies over the Himalayas. The Chinese and US militaries held a handover c",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "f965e6a68b95",
-   "title": "Bulgaria highway pileup kills 12, dozens injured: PM",
-   "url": "https://www.dw.com/en/bulgaria-highway-pileup-kills-12-dozens-injured-pm/a-79907978?maca=en-rss-en-world-4025-rdf",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-10T11:57:00+00:00",
-   "note": "At least 12 people were killed and dozens injured in a series of crashes caused by thick fog in Bulgaria. Police, firefighters and paramedics were dispatched to the scene for the r",
+   "published": "2026-11-10T21:55:49+00:00",
+   "note": "Announcement follows Trump administration crackdown on visa programmes for skilled foreign workers.",
    "region": "OTHER"
   },
   {
-   "id": "089bcead3058",
-   "title": "Ukraine peace talks: Who is sitting at the negotiating table – and why it matters",
-   "url": "https://www.france24.com/en/video/20261110-ukraine-peace-talks-who-is-sitting-at-the-negotiating-table-%E2%80%93-and-why-it-matters",
-   "component": "diplomacy",
+   "id": "08fb55258f7d",
+   "title": "Rubio says no need for major combat operations against Iran",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/rubio-says-no-need-for-major-combat-operations-against-iran?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "aljazeera"
    ],
-   "published": "2026-11-10T11:45:29+00:00",
-   "note": "Three-way talks between Russia, Ukraine and the United States opened Tuesday in the United Arab Emirates, as Washington made a renewed push to end the war that followed Moscow's in",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-10T19:34:13+00:00",
+   "note": "US Secretary of State Marco Rubio says there is “no need” for further major combat operations against Iran",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "ded50b29914b",
-   "title": "Police officer dies and another injured after backpack explosion in northern Spain",
-   "url": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
+   "id": "df17a4c058e4",
+   "title": "Jerusalem Daily: 14-year-old killed in West Bank raid",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/jerusalem-daily-14-year-old-killed-in-west-bank-raid?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-10T18:58:05+00:00",
+   "note": "Israeli forces kill a 14-year-old Palestinian boy in Burqa, as settlers assault a woman near Hebron.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "61f92dafd385",
+   "title": "Meet the Peaky Blinders, Ukraine's drone unit protecting a devastated front-line city",
+   "url": "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-10T11:25:46+00:00",
-   "note": "Officers attended the scene in connection with a separate incident at a residential building in the Spanish city.",
-   "region": "OTHER"
+   "published": "2026-11-10T18:35:35+00:00",
+   "note": "Slovyansk continues to be bombarded by Russian forces, making it almost uninhabitable with less than 10% of it's pre-war population remaining.",
+   "region": "RUSSIA_CIS"
   },
   {
    "id": "ec7efab1dffc",
@@ -426,9 +350,9 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "41ac0d1a8499",
-   "title": "China's charm offensive pays off as foreign tourism rebounds",
-   "url": "https://www.france24.com/en/video/20261110-china-s-charm-offensive-pays-off-as-foreign-tourism-rebounds",
+   "id": "b6b7bbac7ea1",
+   "title": "REPLAY: US Secretary of State Rubio holds press conference after G7 meeting",
+   "url": "https://www.france24.com/en/video/20261110-replay-us-secretary-of-state-rubio-holds-press-conference-after-g7-meeting",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.34,
@@ -436,9 +360,84 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-10T10:58:28+00:00",
-   "note": "How is tourism faring in China seven years after the Covid-19 pandemic? The country reopened its borders in 2023 and is playing the charm card to restore its image. A strategy that",
+   "published": "2026-11-10T16:30:50+00:00",
+   "note": "US Secretary of State Marco Rubio talked to the press Tuesday as the G7 meets in Paris. He said he saw no need to resume major combat operations against Iran because economic restr",
+   "region": "OTHER"
+  },
+  {
+   "id": "f03d561168c8",
+   "title": "Over 3,000 already dead from cholera this year, says WHO",
+   "url": "https://www.scmp.com/news/world/africa/article/3373991/over-3000-already-dead-cholera-year-says-who",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-10T15:43:18+00:00",
+   "note": "Cholera has killed more than 3,000 people worldwide since the start of the year, the World Health Organization said on Tuesday, insisting its goal of cutting global cases by 90 per",
+   "region": "OTHER"
+  },
+  {
+   "id": "4b3c80656f26",
+   "title": "Will Nvidia CEO Jensen Huang’s affair become another ‘spy balloon’ saga for US-China ties?",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3373986/will-nvidia-ceo-jensen-huangs-affair-become-another-spy-balloon-saga-us-china-ties",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-10T15:00:11+00:00",
+   "note": "China hawks in Washington could weaponise allegations that Nvidia CEO Jensen Huang was targeted by Chinese intelligence, despite denials from Beijing, Chinese experts warn. They sa",
    "region": "EAST_ASIA"
+  },
+  {
+   "id": "9ae683e251ff",
+   "title": "China hands over remains of US airmen killed during World War II supply missions",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3373945/china-hands-over-remains-us-airmen-killed-during-world-war-ii-supply-missions",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-10T12:00:28+00:00",
+   "note": "China has handed over the remains of American airmen who were killed during World War II while carrying supplies over the Himalayas. The Chinese and US militaries held a handover c",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "f965e6a68b95",
+   "title": "Bulgaria highway pileup kills 12, dozens injured: PM",
+   "url": "https://www.dw.com/en/bulgaria-highway-pileup-kills-12-dozens-injured-pm/a-79907978?maca=en-rss-en-world-4025-rdf",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-10T11:57:00+00:00",
+   "note": "At least 12 people were killed and dozens injured in a series of crashes caused by thick fog in Bulgaria. Police, firefighters and paramedics were dispatched to the scene for the r",
+   "region": "OTHER"
+  },
+  {
+   "id": "ded50b29914b",
+   "title": "Police officer dies and another injured after backpack explosion in northern Spain",
+   "url": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-10T11:25:46+00:00",
+   "note": "Officers attended the scene in connection with a separate incident at a residential building in the Spanish city.",
+   "region": "OTHER"
   },
   {
    "id": "b8f8a15162c4",
@@ -486,57 +485,12 @@
    "region": "OCEANIA"
   },
   {
-   "id": "da1f31ed91e0",
-   "title": "Deepavali picnic in Malaysia turns tragic as flash floods hit Selangor",
-   "url": "https://www.scmp.com/week-asia/health-environment/article/3373891/deepavali-picnic-malaysia-turns-tragic-flash-floods-hit-selangor",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-10T05:08:20+00:00",
-   "note": "Flash floods during a Deepavali picnic in Malaysia have killed a man and left seven others missing, as authorities evacuated hundreds from flood-prone areas in Selangor and Perak s",
-   "region": "OTHER"
-  },
-  {
-   "id": "5bc736a6ab0d",
-   "title": "Trial date of alleged Charlie Kirk killer set for June 2028",
-   "url": "https://www.bbc.co.uk/news/articles/cq0mem8d2p3xo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-09T21:48:38+00:00",
-   "note": "Tyler Robinson has pleaded not guilty to aggravated murder and six other charges in connection with the 2025 killing of the conservative activist.",
-   "region": "OTHER"
-  },
-  {
-   "id": "8490d0a4e751",
-   "title": "Turkey steel factory blast kills at least 17 people",
-   "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-09T20:42:04+00:00",
-   "note": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga.",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "05ab38f89907",
    "title": "Witnesses recount struggle to save people buried in ‘horrifying’ Gaza landslide",
    "url": "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -561,18 +515,63 @@
    "region": "AFRICA"
   },
   {
-   "id": "1a503f27dcd7",
-   "title": "Collision of two trains in Egypt kills at least seven",
-   "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
+   "id": "b308e517692f",
+   "title": "Iraq blocks Iranian football team’s plane from landing over US sanctions",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/iraq-blocks-iranian-football-teams-plane-from-landing-over-us-sanctions?traffic_source=rss",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-10T20:23:03+00:00",
+   "note": "Iraq has barred Iran’s national football team from landing in Basra due to US sanctions on Iranian airlines.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "18c82c00e07f",
+   "title": "Israeli opposition hurries to seize control as new Knesset is sworn in",
+   "url": "https://www.theguardian.com/world/2026/nov/10/israeli-opposition-hurries-to-seize-control-as-new-knesset-is-sworn-in",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-08T17:51:17+00:00",
-   "note": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains colli",
+   "published": "2026-11-10T19:59:33+00:00",
+   "note": "Former military chief Gadi Eisenkot has mandate to try to form a government – with Netanyahu waiting if he fails Opposition lawmakers have wasted no time after Israel’s new Knesset",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8a43ad1a08e2",
+   "title": "Woman jailed for posing as man to dupe partner into sex found guilty of similar deception",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/10/woman-jailed-for-posing-as-man-dupe-partner-sex-guilty-of-similar-deception",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-10T18:08:29+00:00",
+   "note": "Jury finds Blade Silvano, who presented herself as a male army veteran, guilty of six counts of sexual assault A woman serving a prison sentence for sexual assault after pretending",
+   "region": "OTHER"
+  },
+  {
+   "id": "b94af65d62c3",
+   "title": "Spain braces for nationwide strike as anger over housing, costs boils over",
+   "url": "https://www.aljazeera.com/news/2026/11/10/spain-braces-for-nationwide-walkout-as-anger-over-housing-costs-boils-over?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-10T18:07:23+00:00",
+   "note": "The 24-hour walkout, called by Spain’s two biggest unions, is due to start on Wednesday.",
    "region": "OTHER"
   },
   {
@@ -581,7 +580,7 @@
    "url": "https://www.france24.com/en/tv-shows/business/20261110-the-robot-boom-are-businesses-ready-for-an-ai-powered-workforce",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -596,7 +595,7 @@
    "url": "https://www.scmp.com/news/us/politics/article/3373990/hegseth-calls-impeachment-bid-farce-he-defends-iran-war",
    "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -608,76 +607,75 @@
  ],
  "breaking": [
   {
-   "id": "f67670d7ab6e",
-   "title": "Texas man charged with murder of woman aboard MSC cruise ship",
-   "url": "https://www.theguardian.com/us-news/2026/nov/10/msc-seascape-homicide-cruise-ship",
-   "component": "narrative",
+   "id": "ba337ab9992d",
+   "title": "Russia expels Moldovan diplomat in tit-for-tat move",
+   "url": "https://www.aljazeera.com/news/2026/11/10/russia-expels-moldovan-diplomat-in-tit-for-tat-move?traffic_source=rss",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-10T22:41:07+00:00",
+   "note": "Relations between Moscow and Chisinau have worsened since Russia's full-scale invasion of Ukraine in 2022.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "03f982509803",
+   "title": "US prosecutors charge Iranian operative allegedly responsible for UK air force base attack",
+   "url": "https://www.theguardian.com/us-news/2026/nov/10/prosecutors-charge-iranian-operative-uk-air-force-attack",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-10T16:53:05+00:00",
-   "note": "Jason Leon Watford said he ‘snapped’ after verbal dispute with the woman, before allegedly killing her in a cabin A passenger of a Texas -based cruise ship has been charged with mu",
-   "region": "OTHER"
+   "published": "2026-11-10T21:57:57+00:00",
+   "note": "New indictment claims Mohammad Dawood al-Saadi, a dual Iranian and Iraqi national, plotted while in US custody US federal prosecutors have said that an Iranian operative jailed in ",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "b6b7bbac7ea1",
-   "title": "REPLAY: US Secretary of State Rubio holds press conference after G7 meeting",
-   "url": "https://www.france24.com/en/video/20261110-replay-us-secretary-of-state-rubio-holds-press-conference-after-g7-meeting",
+   "id": "82ea4bc144fe",
+   "title": "IBM’s biggest division ends most US foreign worker sponsorships",
+   "url": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
-   ],
-   "published": "2026-11-10T16:30:50+00:00",
-   "note": "US Secretary of State Marco Rubio talked to the press Tuesday as the G7 meets in Paris. He said he saw no need to resume major combat operations against Iran because economic restr",
-   "region": "OTHER"
-  },
-  {
-   "id": "1f36d240d38f",
-   "title": "At least 12 people killed in Bulgaria motorway pile-up",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/at-least-12-people-killed-in-bulgaria-motorway-pile-up?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera",
     "aljazeera"
    ],
-   "published": "2026-11-10T16:20:12+00:00",
-   "note": "At least 12 people have been killed and dozens injured in multiple crashes involving around 50 vehicles on a motorway",
+   "published": "2026-11-10T21:55:49+00:00",
+   "note": "Announcement follows Trump administration crackdown on visa programmes for skilled foreign workers.",
    "region": "OTHER"
   },
   {
-   "id": "fc80b4f4a902",
-   "title": "The robot boom: Are businesses ready for an AI-powered workforce?",
-   "url": "https://www.france24.com/en/tv-shows/business/20261110-the-robot-boom-are-businesses-ready-for-an-ai-powered-workforce",
-   "component": "narrative",
+   "id": "b308e517692f",
+   "title": "Iraq blocks Iranian football team’s plane from landing over US sanctions",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/iraq-blocks-iranian-football-teams-plane-from-landing-over-us-sanctions?traffic_source=rss",
+   "component": "diplomacy",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "aljazeera"
    ],
-   "published": "2026-11-10T16:01:40+00:00",
-   "note": "As artificial intelligence makes machines more capable and autonomous, businesses are racing to embrace robotics. But while many executives expect to deploy robot fleets in the com",
-   "region": "OTHER"
+   "published": "2026-11-10T20:23:03+00:00",
+   "note": "Iraq has barred Iran’s national football team from landing in Basra due to US sanctions on Iranian airlines.",
+   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
-  "sources_ok": 21,
-  "sources_failed": 1,
-  "items": 41194,
-  "gdelt_events": 40945,
+  "sources_ok": 20,
+  "sources_failed": 2,
+  "items": 43841,
+  "gdelt_events": 43589,
   "mode": "live",
   "data_through": "2026-11-09",
-  "clusters": 242,
-  "origins": 243,
+  "clusters": 247,
+  "origins": 248,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1225,8 +1223,24 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Police receive further criminal allegations against Russell Brand",
-    "url": "https://www.theguardian.com/news/2026/nov/10/lucy-powell-russell-brand-cross-examination-victims",
+    "title": "英国警方：一美军士兵因涉嫌从事与俄相关间谍活动在英被捕",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-11/10729877.shtml",
+    "country": "GB",
+    "source": "chinanews",
+    "when": "2026-11-10"
+   },
+   {
+    "kind": "judicial",
+    "title": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
+    "url": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss",
+    "country": "MY",
+    "source": "bbc",
+    "when": "2026-11-10"
+   },
+   {
+    "kind": "judicial",
+    "title": "Judge who sentenced Russell Brand praised for dispelling rape myths",
+    "url": "https://www.theguardian.com/news/2026/nov/10/judge-sentenced-russell-brand-praised-rape-myths-justice-bennathan",
     "country": "",
     "source": "guardian",
     "when": "2026-11-10"
@@ -1265,14 +1279,6 @@
    },
    {
     "kind": "judicial",
-    "title": "Viktor Orbán’s brother detained in people-smuggling investigation, Hungarian PM says",
-    "url": "https://www.theguardian.com/world/2026/nov/10/viktor-orban-brother-aron-detained-people-smuggling-investigation-hungarian-pm-says",
-    "country": "",
-    "source": "guardian",
-    "when": "2026-11-10"
-   },
-   {
-    "kind": "judicial",
     "title": "四川省内江市东兴区人大常委会原副主任吴大有主动投案 接受纪律审查和监察调查",
     "url": "https://www.chinanews.com.cn/gn/2026/11-10/10729684.shtml",
     "country": "",
@@ -1285,14 +1291,6 @@
     "url": "https://www.chinanews.com.cn/gn/2026/11-10/10729672.shtml",
     "country": "",
     "source": "chinanews_cn",
-    "when": "2026-11-10"
-   },
-   {
-    "kind": "judicial",
-    "title": "Teddy Riner: From French Olympic judo champion to presidential candidate",
-    "url": "https://www.france24.com/en/tv-shows/press-review/20261110-teddy-riner-from-french-olympic-judo-champion-to-presidential-candidate",
-    "country": "FR",
-    "source": "france24",
     "when": "2026-11-10"
    },
    {
@@ -1310,22 +1308,14 @@
     "country": "CN",
     "source": "scmp",
     "when": "2026-11-10"
-   },
-   {
-    "kind": "judicial",
-    "title": "日本检方要求判处持刀强闯我驻日使馆人员村田晃大1年6个月刑期",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729415.shtml",
-    "country": "CN",
-    "source": "chinanews",
-    "when": "2026-11-10"
    }
   ],
-  "notable_total": 13,
+  "notable_total": 11,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 13
+   "notable": 11
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1374,11 +1364,11 @@
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 4.86,
-    "chg5": -1.62,
-    "z": -0.063,
+    "last": 4.88,
+    "chg5": -0.61,
+    "z": -0.075,
     "ok": true,
-    "asof": "2026-11-06"
+    "asof": "2026-11-09"
    }
   ],
   "asof": "2026-11-09",
@@ -1411,7 +1401,7 @@
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 101,
+    "items": 102,
     "error": ""
    }
   ],
@@ -2254,8 +2244,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 18.0,
-    "carry": 12.34,
+    "value": 19.0,
+    "carry": 12.51,
     "z": null,
     "score": null,
     "available": false
@@ -2339,6 +2329,12 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v"
     },
     {
+     "t": "South Sandwich Islands region",
+     "v": 4.9,
+     "ts": "2026-11-09T23:40+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx9y"
+    },
+    {
      "t": "Mid-Indian Ridge",
      "v": 4.9,
      "ts": "2026-11-09T15:04+00:00",
@@ -2355,12 +2351,6 @@
      "v": 4.8,
      "ts": "2026-11-09T19:27+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m"
-    },
-    {
-     "t": "183 km E of Masohi, Indonesia",
-     "v": 4.8,
-     "ts": "2026-11-09T09:53+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx34"
     }
    ],
    "eonet": [
@@ -2556,14 +2546,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 40945,
+   "files": 143,
+   "items": 43589,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 27,
+   "items": 35,
    "error": "",
    "undated": 0
   },
@@ -2577,14 +2567,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 32,
+   "items": 33,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2611,9 +2601,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": true,
-   "items": 7,
-   "error": "",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）",
    "undated": 0
   },
   {
@@ -2664,7 +2654,7 @@
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 101,
+   "items": 102,
    "error": ""
   },
   {
@@ -2700,7 +2690,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 18,
+   "items": 19,
    "error": ""
   },
   {
@@ -2712,7 +2702,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 20,
+   "items": 18,
    "error": ""
   },
   {
@@ -2730,7 +2720,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 12036,
+   "items": 9975,
    "error": ""
   },
   {
