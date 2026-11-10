@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-09T22:19:35+00:00",
- "date": "2026-11-08",
- "geti": 69.2,
- "delta_z": 0.62,
- "delta_pts": 2.4,
+ "generated_at": "2026-11-10T07:15:35+00:00",
+ "date": "2026-11-09",
+ "geti": 69.3,
+ "delta_z": 0.49,
+ "delta_pts": 0.0,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,51 +13,17 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 75.9,
-   "delta": 3.4,
+   "score": 73.0,
+   "delta": -2.8,
    "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.59
-    ],
-    [
-     "diplomacy",
-     1.22
-    ]
-   ]
-  },
-  {
-   "code": "OTHER",
-   "label": "其他",
-   "score": 72.5,
-   "delta": 10.6,
-   "excluded": true,
    "drivers": [
     [
      "military",
      1.34
     ],
     [
-     "diplomacy",
-     1.08
-    ]
-   ]
-  },
-  {
-   "code": "EUROPE",
-   "label": "欧洲",
-   "score": 70.7,
-   "delta": 6.1,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.51
-    ],
-    [
-     "diplomacy",
-     0.75
+     "economy",
+     1.05
     ]
    ]
   },
@@ -65,118 +31,152 @@
    "code": "MIDDLE_EAST",
    "label": "中东",
    "score": 69.2,
-   "delta": 8.7,
+   "delta": 0.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.34
+     1.28
     ],
     [
      "diplomacy",
-     1.06
+     0.99
     ]
    ]
   },
   {
-   "code": "SOUTH_ASIA",
-   "label": "南亚",
-   "score": 67.2,
-   "delta": 10.7,
+   "code": "OTHER",
+   "label": "其他",
+   "score": 67.5,
+   "delta": -5.0,
+   "excluded": true,
+   "drivers": [
+    [
+     "military",
+     1.08
+    ],
+    [
+     "diplomacy",
+     0.7
+    ]
+   ]
+  },
+  {
+   "code": "EUROPE",
+   "label": "欧洲",
+   "score": 63.0,
+   "delta": -7.7,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.99
+     0.95
     ],
     [
      "diplomacy",
-     0.94
+     0.55
     ]
    ]
   },
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 66.0,
-   "delta": 2.1,
+   "score": 62.2,
+   "delta": -3.8,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     1.05
+     0.94
     ],
     [
      "military",
-     0.99
-    ]
-   ]
-  },
-  {
-   "code": "OCEANIA",
-   "label": "大洋洲",
-   "score": 61.9,
-   "delta": 2.5,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     0.89
-    ],
-    [
-     "diplomacy",
-     0.62
+     0.86
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 61.1,
-   "delta": 0.9,
+   "score": 59.3,
+   "delta": -1.9,
    "excluded": false,
    "drivers": [
     [
+     "internal",
+     0.64
+    ],
+    [
      "diplomacy",
-     0.66
+     0.54
+    ]
+   ]
+  },
+  {
+   "code": "OCEANIA",
+   "label": "大洋洲",
+   "score": 58.7,
+   "delta": -3.1,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.7
+    ],
+    [
+     "diplomacy",
+     0.57
+    ]
+   ]
+  },
+  {
+   "code": "SOUTH_ASIA",
+   "label": "南亚",
+   "score": 55.7,
+   "delta": -11.5,
+   "excluded": false,
+   "drivers": [
+    [
+     "internal",
+     1.02
     ],
     [
      "military",
-     0.56
+     0.24
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 57.1,
-   "delta": 4.5,
+   "score": 53.5,
+   "delta": -3.6,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     0.83
+     "internal",
+     -0.83
     ],
     [
-     "internal",
-     -0.7
+     "military",
+     0.48
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 46.2,
-   "delta": -3.7,
+   "score": 44.2,
+   "delta": -2.1,
    "excluded": false,
    "drivers": [
     [
-     "internal",
-     -0.69
+     "economy",
+     -0.65
     ],
     [
-     "economy",
-     -0.57
+     "internal",
+     -0.47
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.59,
-   "score": 87.9,
-   "contrib": 0.45
+   "z": 1.34,
+   "score": 84.3,
+   "contrib": 0.439
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.22,
-   "score": 82.1,
-   "contrib": 0.24
+   "z": 0.99,
+   "score": 77.6,
+   "contrib": 0.224
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.13,
-   "score": 80.4,
-   "contrib": 0.185
+   "z": 1.05,
+   "score": 78.7,
+   "contrib": 0.197
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 0.99,
-   "score": 77.5,
-   "contrib": 0.119
+   "z": 0.91,
+   "score": 75.8,
+   "contrib": 0.126
   },
   {
    "key": "narrative",
@@ -238,16 +238,16 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": 0.06,
-   "score": 52.0,
-   "contrib": 0.006
+   "z": 0.13,
+   "score": 54.2,
+   "contrib": 0.013
   }
  ],
  "events": [
   {
-   "id": "4cc0157b5a62",
-   "title": "土耳其西部一钢铁厂发生爆炸 死亡人数升至16人",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729169.shtml",
+   "id": "ad9e679810aa",
+   "title": "土耳其钢铁厂爆炸已致16人死亡",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729221.shtml",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.64,
@@ -255,9 +255,54 @@
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-09T21:57:25+00:00",
-   "note": "土耳其总统埃尔多安9日晚表示，当天伊兹密尔省阿利亚阿区一家钢铁厂发生的爆炸事故已造成16人死亡，13人受伤，其中2人伤势严重。",
+   "published": "2026-11-10T01:56:54+00:00",
+   "note": "中新社北京11月10日电 安卡拉消息：土耳其西部伊兹密尔省一家钢铁厂当地时间9日发生爆炸，已造成16人死亡、13人受伤。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "041f43fe27a0",
+   "title": "US reportedly evacuated aircraft from RAF Mildenhall over Iran threat",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-10T06:46:53+00:00",
+   "note": "The reported evacuation comes weeks after the US withdrew bombers from RAF Fairford over a suspected Iran-linked security incident The US military evacuated aircraft from a second ",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "bccac86d94ec",
+   "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+   "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-10T06:00:52+00:00",
+   "note": "Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email , free app or daily",
+   "region": "OCEANIA"
+  },
+  {
+   "id": "da1f31ed91e0",
+   "title": "Deepavali picnic in Malaysia turns tragic as flash floods hit Selangor",
+   "url": "https://www.scmp.com/week-asia/health-environment/article/3373891/deepavali-picnic-malaysia-turns-tragic-flash-floods-hit-selangor",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-10T05:08:20+00:00",
+   "note": "Flash floods during a Deepavali picnic in Malaysia have killed a man and left seven others missing, as authorities evacuated hundreds from flood-prone areas in Selangor and Perak s",
+   "region": "OTHER"
   },
   {
    "id": "e6a0c9ae519a",
@@ -265,7 +310,7 @@
    "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.6,
+   "confidence": 0.49,
    "origins": 2,
    "sources": [
     "bbc",
@@ -276,12 +321,57 @@
    "region": "OTHER"
   },
   {
+   "id": "af67256af57d",
+   "title": "土耳其一钢铁厂爆炸已致17死 亲历者：一度以为发生地震",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729186.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-10T00:05:44+00:00",
+   "note": "中新网11月10日电 据英国广播公司(BBC)报道，土耳其西部伊兹密尔省一家钢铁厂当地时间9日发生爆炸，事件已致17人死亡，12人受伤。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "4cc0157b5a62",
+   "title": "土耳其西部一钢铁厂发生爆炸 死亡人数升至16人",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729169.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-09T21:57:25+00:00",
+   "note": "土耳其总统埃尔多安9日晚表示，当天伊兹密尔省阿利亚阿区一家钢铁厂发生的爆炸事故已造成16人死亡，13人受伤，其中2人伤势严重。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "5bc736a6ab0d",
+   "title": "Trial date of alleged Charlie Kirk killer set for June 2028",
+   "url": "https://www.bbc.co.uk/news/articles/cq0mem8d2p3xo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-09T21:48:38+00:00",
+   "note": "Tyler Robinson has pleaded not guilty to aggravated murder and six other charges in connection with the 2025 killing of the conservative activist.",
+   "region": "OTHER"
+  },
+  {
    "id": "cdb756bdb9df",
    "title": "What to expect as Russia, Ukraine and the US hold trilateral talks in Abu Dhabi",
    "url": "https://www.france24.com/en/europe/20261109-what-to-expect-as-russia-ukraine-and-us-hold-trilateral-talks-in-abu-dhabi",
    "component": "diplomacy",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -291,18 +381,18 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "c51e6fddf55f",
-   "title": "Suspect in Charlie Kirk killing to stand trial for murder in July 2028",
-   "url": "https://www.theguardian.com/us-news/2026/nov/09/charlie-kirk-murder-trial",
-   "component": "internal",
+   "id": "81f3893c26de",
+   "title": "US mother Lindsay Clancy faces retrial after bid to dismiss murder case fails",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3373851/judge-denies-lindsay-clancys-motion-dismiss-charges-deaths-her-3-children",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "guardian"
+    "scmp"
    ],
-   "published": "2026-11-09T20:55:57+00:00",
-   "note": "Utah judge sets timeline for trial of Tyler Robinson, accused of fatally shooting the far-right activist in September 2025 Tyler Robinson, the 23-year-old man accused of killing th",
+   "published": "2026-11-09T21:42:15+00:00",
+   "note": "A Massachusetts judge cleared the way on Monday for ⁠Lindsay Clancy to be tried ⁠again on murder charges for killing her three young ⁠children at her home in 2023, saying a retrial",
    "region": "OTHER"
   },
   {
@@ -311,7 +401,7 @@
    "url": "https://www.scmp.com/news/world/middle-east/article/3373850/houthi-rebels-say-least-44-people-killed-air-strike-near-yemeni-capital",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -321,27 +411,12 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "5e502df3a904",
-   "title": "Judge clears way for Lindsay Clancy to be retried on murder charges",
-   "url": "https://www.theguardian.com/us-news/2026/nov/09/lindsay-clancy-judge-retrial",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-09T20:42:22+00:00",
-   "note": "Massachusetts judge rejects bid by Clancy’s attorneys to have the case against her dismissed A Massachusetts judge cleared the way on Monday for Lindsay Clancy to be tried again on",
-   "region": "OTHER"
-  },
-  {
    "id": "8490d0a4e751",
    "title": "Turkey steel factory blast kills at least 17 people",
    "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -351,108 +426,18 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "6048a00ebd3d",
-   "title": "Deadly explosion at Iron and steel plant in Turkiye",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-09T20:19:18+00:00",
-   "note": "Deadly explosion at Iron and steel plant in Turkiye",
-   "region": "OTHER"
-  },
-  {
-   "id": "5f8bb7aa3aea",
-   "title": "Explosion at Turkish steel plant kills at least 16 people",
-   "url": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-09T19:58:40+00:00",
-   "note": "President Erdogan announces an investigation after a crane collapsed into a furnace, triggering the blast near Izmir.",
-   "region": "OTHER"
-  },
-  {
-   "id": "323a226751b4",
-   "title": "US agencies unite to combat rogue drone threats nationwide",
-   "url": "https://www.aljazeera.com/news/2026/11/9/us-agencies-unite-to-combat-rogue-drone-threats-nationwide?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-09T19:07:56+00:00",
-   "note": "More than $40bn allocated by NATO for counter-drone technologies as US agencies ramp up measures against aerial threats.",
-   "region": "EUROPE"
-  },
-  {
    "id": "05ab38f89907",
    "title": "Witnesses recount struggle to save people buried in ‘horrifying’ Gaza landslide",
    "url": "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
    ],
    "published": "2026-11-09T18:27:51+00:00",
    "note": "High winds and heavy train triggered collapse of sand bank overlooking camp for displaced families Witnesses have described the frantic struggle to save three members of a family b",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "0426e9fee6a9",
-   "title": "Krakow shooting suspect dies as Poland mourns six victims",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/krakow-shooting-suspect-dies-as-poland-mourns-six-victims?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-09T18:12:46+00:00",
-   "note": "A 24-year-old man who killed six people and wounded 15 in a shooting in Krakow, has died in hospital.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "9654b499ffaa",
-   "title": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/jerusalem-daily-deadly-aftermath-of-gaza-rainstorm-continues?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-09T17:55:47+00:00",
-   "note": "Five Palestinians were killed in Gaza when heavy rain collapsed a sand embankment on a displacement camp.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "cb949c907fcf",
-   "title": "突发：土耳其一钢铁厂发生爆炸 已致多名工人受伤",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728990.shtml",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-09T10:14:51+00:00",
-   "note": "中新网11月9日电 据外媒报道，当地时间9日，土耳其西部伊兹密尔一座钢铁厂发生爆炸并引发火灾，已致多名工人受伤。",
    "region": "MIDDLE_EAST"
   },
   {
@@ -469,21 +454,6 @@
    "published": "2026-11-09T15:56:00+00:00",
    "note": "From Ghana to Mozambique, the fight against fake news keeps gaining momentum. But combating disinformation also requires safeguards for free speech, leaving some governments in an ",
    "region": "AFRICA"
-  },
-  {
-   "id": "4e50c83e7908",
-   "title": "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
-   "url": "https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-09T15:52:26+00:00",
-   "note": "Terrorism investigation will continue after suspect who killed six after opening fire in market square died Polish prosecutors have said they do not currently have any evidence tyi",
-   "region": "OTHER"
   },
   {
    "id": "2cbd88663cea",
@@ -517,7 +487,7 @@
   },
   {
    "id": "88f6474daaad",
-   "title": "Anger as 17 killed in Turkey steel factory blast",
+   "title": "Explosion rips through steel plant in Turkey, killing at least 17",
    "url": "https://www.scmp.com/news/world/europe/article/3373832/turkey-steel-factory-blast-kills-6",
    "component": "narrative",
    "severity": 5,
@@ -527,53 +497,8 @@
     "scmp"
    ],
    "published": "2026-11-09T13:12:03+00:00",
-   "note": "An explosion ripped through an iron and steel factory in western Turkey on Monday, killing 17 people and injuring 13, with President Recep Tayyip Erdogan vowing to find out who was",
+   "note": "An explosion ripped through a steel plant in western Turkey on Monday, killing 17 people, with President Recep Tayyip Erdogan vowing to find out who was responsible. The blast occu",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "94832ea83191",
-   "title": "Four killed in Gaza after sand embankment collapses onto tents, health ministry says",
-   "url": "https://www.bbc.co.uk/news/articles/cqd090ee8px5o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-09T10:41:57+00:00",
-   "note": "Three children are among those killed in the incident that came a day after heavy rain reportedly flooded tens of thousands of tents across Gaza.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "44bc04e06d6f",
-   "title": "Gunman who killed 6 in Polish city square dies in hospital",
-   "url": "https://www.scmp.com/news/world/europe/article/3373776/gunman-who-killed-6-polish-city-square-dies-hospital",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-09T07:46:19+00:00",
-   "note": "The 24-year-old with far-right views who killed six people and wounded 15 others in a shooting in a Polish city square died in hospital on Monday, police said. The attacker, wearin",
-   "region": "OTHER"
-  },
-  {
-   "id": "8c10c6d8fa24",
-   "title": "Citybus driver arrested after fatally knocking down pedestrian in North Point",
-   "url": "https://www.scmp.com/news/hong-kong/transport/article/3373744/man-dies-after-being-hit-bus-hong-kongs-north-point",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-09T04:15:47+00:00",
-   "note": "Hong Kong police have arrested a Citybus driver after he struck and killed an elderly man in North Point. The fatal incident happened at the junction of King’s Road and Tin Chong S",
-   "region": "OTHER"
   },
   {
    "id": "1a503f27dcd7",
@@ -591,93 +516,168 @@
    "region": "OTHER"
   },
   {
-   "id": "74ce43f35a60",
-   "title": "Russell Brand sentenced to 10-and-a-half years in jail for rape, sexual assault",
-   "url": "https://www.france24.com/en/video/20261109-russell-brand-sentenced-to-10-and-a-half-years-in-jail-for-rape-sexual-assault",
+   "id": "1c058518dbad",
+   "title": "'Sexual predator' Russell Brand jailed for 10 years for rape, assault",
+   "url": "https://www.france24.com/en/sexual-predator-russell-brand-jailed-for-10-years-for-rape-assault",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.74,
+   "confidence": 0.6,
    "origins": 2,
    "sources": [
     "france24",
     "scmp"
    ],
-   "published": "2026-11-09T16:43:39+00:00",
-   "note": "British comedian Russell Brand, once one of the country's most high-profile broadcasters and a Hollywood star, was jailed for 10-and-a-half years on Monday after he was convicted o",
+   "published": "2026-11-09T20:03:55+00:00",
+   "note": "British comedian and TV star Russell Brand was Monday jailed for more than 10 years for a string of sex offences including rape, as the judge told him he had been a \"sexual predato",
    "region": "OTHER"
-  }
- ],
- "breaking": [
+  },
   {
-   "id": "4cc0157b5a62",
-   "title": "土耳其西部一钢铁厂发生爆炸 死亡人数升至16人",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729169.shtml",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
+   "id": "b316b502fb22",
+   "title": "Khor Mor drone attack raises fears over Iraq’s energy security",
+   "url": "https://www.aljazeera.com/news-analysis/2026/11/10/khor-mor-drone-attack-raises-fears-over-iraqs-energy-security?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "aljazeera"
    ],
-   "published": "2026-11-09T21:57:25+00:00",
-   "note": "土耳其总统埃尔多安9日晚表示，当天伊兹密尔省阿利亚阿区一家钢铁厂发生的爆炸事故已造成16人死亡，13人受伤，其中2人伤势严重。",
+   "published": "2026-11-10T06:22:00+00:00",
+   "note": "Drone strike disrupts electricity supply in Iraq's semi-autonomous Kurdish region, renewing concerns about armed groups.",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "cdb756bdb9df",
-   "title": "What to expect as Russia, Ukraine and the US hold trilateral talks in Abu Dhabi",
-   "url": "https://www.france24.com/en/europe/20261109-what-to-expect-as-russia-ukraine-and-us-hold-trilateral-talks-in-abu-dhabi",
+   "id": "6a065b7b1a89",
+   "title": "Firms tied to West Bank settlements win $15m UK deals despite sanctions",
+   "url": "https://www.aljazeera.com/news/2026/11/10/firms-tied-to-west-bank-settlements-win-15m-uk-deals-despite-sanctions?traffic_source=rss",
    "component": "diplomacy",
-   "severity": 5,
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-10T05:39:50+00:00",
+   "note": "Former Labour leader Jeremy Corbyn called the findings ‘outrageous and frankly insulting to the public’.",
+   "region": "OTHER"
+  },
+  {
+   "id": "14df9c84e99a",
+   "title": "Sydney private school accused of sexual abuse should be banned from enrolling new students, inquiry says",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/10/redeemer-baptist-school-sexual-abuse-inquiry-ntwnfb",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-10T04:51:39+00:00",
+   "note": "Inquiry recommends police investigate allegations of sexual assault and other abuse at Redeemer Baptist school Get our breaking news email , free app or daily news podcast An inves",
+   "region": "OTHER"
+  },
+  {
+   "id": "6efac50ba788",
+   "title": "Amnesty urges El Salvador to disclose terms of Haiti troop deployment",
+   "url": "https://www.france24.com/en/americas/20261110-amnesty-urges-el-salvador-to-disclose-terms-of-haiti-troop-deployment",
+   "component": "military",
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-09T21:46:23+00:00",
-   "note": "Negotiators from Ukraine, Russia and the United States are set to meet in the capital of the United Arab Emirates (UAE) on Tuesday for a new round of talks aimed at ending nearly f",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-10T02:24:22+00:00",
+   "note": "Amnesty International has called on El Salvador and Haiti to make public the agreement governing the deployment of around 2,000 Salvadoran troops to the gang-plagued Caribbean nati",
+   "region": "LATAM"
   },
   {
-   "id": "c51e6fddf55f",
-   "title": "Suspect in Charlie Kirk killing to stand trial for murder in July 2028",
-   "url": "https://www.theguardian.com/us-news/2026/nov/09/charlie-kirk-murder-trial",
-   "component": "internal",
+   "id": "b117e3d8c0d5",
+   "title": "联合国：乌克兰平民伤亡持续增加 冬季人道主义风险加剧",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143163",
+   "component": "economy",
+   "severity": 4,
+   "confidence": 0.43,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-09T12:00:00+00:00",
+   "note": "联合国两位高级官员周一在安理会通报乌克兰局势时表示，随着俄罗斯持续加大对乌克兰人口密集区、民用基础设施和能源设施的袭击，乌克兰平民伤亡不断增加，人道主义局势持续恶化。随着冬季临近，电力、供暖和供水中断将使更多平民面临危险。他们呼吁各方立即停止袭击，保护平民，并确保人道主义援助安全、畅通无阻地送达。",
+   "region": "RUSSIA_CIS"
+  }
+ ],
+ "breaking": [
+  {
+   "id": "041f43fe27a0",
+   "title": "US reportedly evacuated aircraft from RAF Mildenhall over Iran threat",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-09T20:55:57+00:00",
-   "note": "Utah judge sets timeline for trial of Tyler Robinson, accused of fatally shooting the far-right activist in September 2025 Tyler Robinson, the 23-year-old man accused of killing th",
-   "region": "OTHER"
+   "published": "2026-11-10T06:46:53+00:00",
+   "note": "The reported evacuation comes weeks after the US withdrew bombers from RAF Fairford over a suspected Iran-linked security incident The US military evacuated aircraft from a second ",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "2b96ff6a5439",
-   "title": "At least 44 people killed in air strike near Yemeni capital, Houthi rebels say",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3373850/houthi-rebels-say-least-44-people-killed-air-strike-near-yemeni-capital",
+   "id": "b316b502fb22",
+   "title": "Khor Mor drone attack raises fears over Iraq’s energy security",
+   "url": "https://www.aljazeera.com/news-analysis/2026/11/10/khor-mor-drone-attack-raises-fears-over-iraqs-energy-security?traffic_source=rss",
    "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-10T06:22:00+00:00",
+   "note": "Drone strike disrupts electricity supply in Iraq's semi-autonomous Kurdish region, renewing concerns about armed groups.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "bccac86d94ec",
+   "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+   "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "scmp"
+    "guardian"
    ],
-   "published": "2026-11-09T20:49:03+00:00",
-   "note": "The death toll from air strikes near Yemen’s capital has increased to 44, most of them women and children, health authorities from the Iran-backed Houthi rebels said overnight. The",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-10T06:00:52+00:00",
+   "note": "Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email , free app or daily",
+   "region": "OCEANIA"
+  },
+  {
+   "id": "6a065b7b1a89",
+   "title": "Firms tied to West Bank settlements win $15m UK deals despite sanctions",
+   "url": "https://www.aljazeera.com/news/2026/11/10/firms-tied-to-west-bank-settlements-win-15m-uk-deals-despite-sanctions?traffic_source=rss",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-10T05:39:50+00:00",
+   "note": "Former Labour leader Jeremy Corbyn called the findings ‘outrageous and frankly insulting to the public’.",
+   "region": "OTHER"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 31437,
-  "gdelt_events": 31195,
+  "items": 35777,
+  "gdelt_events": 35529,
   "mode": "live",
-  "data_through": "2026-11-08",
-  "clusters": 229,
-  "origins": 236,
+  "data_through": "2026-11-09",
+  "clusters": 240,
+  "origins": 245,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -695,11 +695,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 2.97,
+    "now": 2.18,
     "p50": 0.46,
-    "p90": 0.95,
-    "ratio": 6.48,
-    "z": 1.59
+    "p90": 1.09,
+    "ratio": 4.77,
+    "z": 1.34
    },
    "physical": {
     "now": 0.0,
@@ -709,40 +709,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 1.77,
+    "now": 1.37,
     "p50": 0.39,
-    "p90": 0.77,
-    "ratio": 4.52,
-    "z": 1.22
-   },
-   "economy": {
-    "now": 1.6,
-    "p50": 0.39,
-    "p90": 0.95,
-    "ratio": 4.09,
-    "z": 1.13
-   },
-   "internal": {
-    "now": 0.96,
-    "p50": 0.15,
-    "p90": 0.44,
-    "ratio": 6.47,
+    "p90": 0.8,
+    "ratio": 3.52,
     "z": 0.99
    },
+   "economy": {
+    "now": 1.46,
+    "p50": 0.39,
+    "p90": 1.06,
+    "ratio": 3.73,
+    "z": 1.05
+   },
+   "internal": {
+    "now": 0.87,
+    "p50": 0.15,
+    "p90": 0.46,
+    "ratio": 5.85,
+    "z": 0.91
+   },
    "narrative": {
-    "now": 0.06,
-    "p50": 0.03,
+    "now": 0.11,
+    "p50": 0.04,
     "p90": 0.11,
     "ratio": null,
-    "z": 0.06
+    "z": 0.13
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-12",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-13",
    "geti": 50.0
@@ -797,27 +793,27 @@
   },
   {
    "date": "2026-07-26",
-   "geti": 57.0
+   "geti": 50.0
   },
   {
    "date": "2026-07-27",
-   "geti": 53.7
+   "geti": 49.5
   },
   {
    "date": "2026-07-28",
-   "geti": 50.9
+   "geti": 48.5
   },
   {
    "date": "2026-07-29",
-   "geti": 48.2
+   "geti": 46.7
   },
   {
    "date": "2026-07-30",
-   "geti": 49.7
+   "geti": 48.8
   },
   {
    "date": "2026-07-31",
-   "geti": 53.3
+   "geti": 52.7
   },
   {
    "date": "2026-08-01",
@@ -825,231 +821,231 @@
   },
   {
    "date": "2026-08-02",
-   "geti": 54.3
+   "geti": 54.6
   },
   {
    "date": "2026-08-03",
-   "geti": 51.7
-  },
-  {
-   "date": "2026-08-04",
-   "geti": 51.6
-  },
-  {
-   "date": "2026-08-05",
-   "geti": 45.3
-  },
-  {
-   "date": "2026-08-06",
-   "geti": 48.1
-  },
-  {
-   "date": "2026-08-07",
-   "geti": 46.5
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 44.9
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 41.3
-  },
-  {
-   "date": "2026-08-10",
-   "geti": 46.4
-  },
-  {
-   "date": "2026-08-11",
-   "geti": 48.4
-  },
-  {
-   "date": "2026-08-12",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-13",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-14",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-08-15",
-   "geti": 52.5
-  },
-  {
-   "date": "2026-08-16",
-   "geti": 53.5
-  },
-  {
-   "date": "2026-08-17",
-   "geti": 46.9
-  },
-  {
-   "date": "2026-08-18",
-   "geti": 43.0
-  },
-  {
-   "date": "2026-08-19",
-   "geti": 40.6
-  },
-  {
-   "date": "2026-08-20",
-   "geti": 45.5
-  },
-  {
-   "date": "2026-08-21",
-   "geti": 48.4
-  },
-  {
-   "date": "2026-08-22",
-   "geti": 46.0
-  },
-  {
-   "date": "2026-08-23",
-   "geti": 41.2
-  },
-  {
-   "date": "2026-08-24",
-   "geti": 45.3
-  },
-  {
-   "date": "2026-08-25",
-   "geti": 43.4
-  },
-  {
-   "date": "2026-08-26",
-   "geti": 38.1
-  },
-  {
-   "date": "2026-08-27",
-   "geti": 48.6
-  },
-  {
-   "date": "2026-08-28",
-   "geti": 51.0
-  },
-  {
-   "date": "2026-08-29",
-   "geti": 51.2
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 57.2
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 58.5
-  },
-  {
-   "date": "2026-09-01",
    "geti": 52.0
   },
   {
-   "date": "2026-09-02",
-   "geti": 51.1
+   "date": "2026-08-04",
+   "geti": 52.1
   },
   {
-   "date": "2026-09-03",
-   "geti": 49.0
+   "date": "2026-08-05",
+   "geti": 45.7
   },
   {
-   "date": "2026-09-04",
-   "geti": 49.0
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 51.1
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 48.9
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 44.3
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 43.5
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 41.2
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 39.2
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 38.8
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 41.9
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 43.9
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 42.9
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 44.1
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 45.4
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.6
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 46.2
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 51.8
-  },
-  {
-   "date": "2026-09-21",
-   "geti": 48.3
-  },
-  {
-   "date": "2026-09-22",
-   "geti": 46.5
-  },
-  {
-   "date": "2026-09-23",
+   "date": "2026-08-06",
    "geti": 48.7
   },
   {
-   "date": "2026-09-24",
-   "geti": 45.4
+   "date": "2026-08-07",
+   "geti": 47.0
   },
   {
-   "date": "2026-09-25",
+   "date": "2026-08-08",
+   "geti": 45.6
+  },
+  {
+   "date": "2026-08-09",
+   "geti": 42.0
+  },
+  {
+   "date": "2026-08-10",
+   "geti": 46.9
+  },
+  {
+   "date": "2026-08-11",
+   "geti": 49.1
+  },
+  {
+   "date": "2026-08-12",
+   "geti": 50.6
+  },
+  {
+   "date": "2026-08-13",
+   "geti": 50.3
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 49.5
+  },
+  {
+   "date": "2026-08-15",
+   "geti": 52.7
+  },
+  {
+   "date": "2026-08-16",
+   "geti": 53.7
+  },
+  {
+   "date": "2026-08-17",
+   "geti": 47.1
+  },
+  {
+   "date": "2026-08-18",
    "geti": 43.1
   },
   {
+   "date": "2026-08-19",
+   "geti": 40.7
+  },
+  {
+   "date": "2026-08-20",
+   "geti": 45.9
+  },
+  {
+   "date": "2026-08-21",
+   "geti": 48.6
+  },
+  {
+   "date": "2026-08-22",
+   "geti": 46.2
+  },
+  {
+   "date": "2026-08-23",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-08-24",
+   "geti": 45.7
+  },
+  {
+   "date": "2026-08-25",
+   "geti": 43.6
+  },
+  {
+   "date": "2026-08-26",
+   "geti": 38.5
+  },
+  {
+   "date": "2026-08-27",
+   "geti": 49.2
+  },
+  {
+   "date": "2026-08-28",
+   "geti": 51.7
+  },
+  {
+   "date": "2026-08-29",
+   "geti": 51.7
+  },
+  {
+   "date": "2026-08-30",
+   "geti": 57.5
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 58.8
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 52.2
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 51.3
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 49.2
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 49.1
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 51.2
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 49.0
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 44.4
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 43.6
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 41.4
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 39.4
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 39.1
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 42.2
+  },
+  {
+   "date": "2026-09-13",
+   "geti": 44.1
+  },
+  {
+   "date": "2026-09-14",
+   "geti": 43.1
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 44.3
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 45.5
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 42.9
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 46.4
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 52.0
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 48.5
+  },
+  {
+   "date": "2026-09-22",
+   "geti": 46.8
+  },
+  {
+   "date": "2026-09-23",
+   "geti": 48.8
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 45.7
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 43.2
+  },
+  {
    "date": "2026-09-26",
-   "geti": 48.0
+   "geti": 48.1
   },
   {
    "date": "2026-09-27",
-   "geti": 47.6
+   "geti": 47.7
   },
   {
    "date": "2026-09-28",
@@ -1057,63 +1053,63 @@
   },
   {
    "date": "2026-09-29",
-   "geti": 42.7
+   "geti": 42.9
   },
   {
    "date": "2026-09-30",
-   "geti": 39.1
+   "geti": 39.3
   },
   {
    "date": "2026-10-01",
-   "geti": 35.6
+   "geti": 35.8
   },
   {
    "date": "2026-10-02",
-   "geti": 39.9
+   "geti": 40.0
   },
   {
    "date": "2026-10-03",
-   "geti": 41.1
+   "geti": 41.2
   },
   {
    "date": "2026-10-04",
-   "geti": 39.8
+   "geti": 39.9
   },
   {
    "date": "2026-10-05",
-   "geti": 44.0
+   "geti": 44.2
   },
   {
    "date": "2026-10-06",
-   "geti": 46.2
+   "geti": 46.3
   },
   {
    "date": "2026-10-07",
-   "geti": 45.0
+   "geti": 45.1
   },
   {
    "date": "2026-10-08",
-   "geti": 43.9
+   "geti": 44.0
   },
   {
    "date": "2026-10-09",
-   "geti": 47.0
+   "geti": 47.1
   },
   {
    "date": "2026-10-10",
-   "geti": 52.7
+   "geti": 52.8
   },
   {
    "date": "2026-10-11",
-   "geti": 57.3
+   "geti": 57.5
   },
   {
    "date": "2026-10-12",
-   "geti": 52.7
+   "geti": 52.8
   },
   {
    "date": "2026-10-13",
-   "geti": 52.2
+   "geti": 52.3
   },
   {
    "date": "2026-10-14",
@@ -1145,19 +1141,19 @@
   },
   {
    "date": "2026-10-21",
-   "geti": 50.6
+   "geti": 50.5
   },
   {
    "date": "2026-10-22",
-   "geti": 49.9
+   "geti": 49.8
   },
   {
    "date": "2026-10-23",
-   "geti": 54.0
+   "geti": 53.9
   },
   {
    "date": "2026-10-24",
-   "geti": 57.2
+   "geti": 57.1
   },
   {
    "date": "2026-10-25",
@@ -1197,7 +1193,7 @@
   },
   {
    "date": "2026-11-03",
-   "geti": 52.9
+   "geti": 52.8
   },
   {
    "date": "2026-11-04",
@@ -1209,7 +1205,7 @@
   },
   {
    "date": "2026-11-06",
-   "geti": 68.6
+   "geti": 68.5
   },
   {
    "date": "2026-11-07",
@@ -1218,52 +1214,78 @@
   {
    "date": "2026-11-08",
    "geti": 69.2
+  },
+  {
+   "date": "2026-11-09",
+   "geti": 69.3
   }
  ],
  "policy": {
-  "items": [
-   {
-    "type": "control",
-    "country": "",
-    "source": "aljazeera",
-    "score": 0.3,
-    "signed": 0.3,
-    "title": "Two security breaches near White House prompt brief lockdown",
-    "url": "https://www.aljazeera.com/news/2026/11/9/two-security-breaches-near-white-house-prompt-brief-lockdown?traffic_source=rss",
-    "origins": 1,
-    "when": "2026-11-09"
-   },
-   {
-    "type": "redistributive",
-    "country": "JP",
-    "source": "chinanews",
-    "score": 0.2,
-    "signed": -0.2,
-    "title": "日本前首相石破茂受到党内警告处分",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-09/10729097.shtml",
-    "origins": 1,
-    "when": "2026-11-09"
-   },
-   {
-    "type": "redistributive",
-    "country": "JP",
-    "source": "chinanews",
-    "score": 0.2,
-    "signed": -0.2,
-    "title": "日媒：石破茂等4人受到自民党党内警告处分",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-09/10728907.shtml",
-    "origins": 1,
-    "when": "2026-11-09"
-   }
-  ],
+  "items": [],
   "notable": [
    {
     "kind": "judicial",
-    "title": "Russell Brand sentenced to 10.5 years over sexual assault charges",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/russell-brand-sentenced-to-10-5-years-over-sexual-assault-charges?traffic_source=rss",
+    "title": "江苏省南通市政协党组成员、副主席顾国标接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-10/10729421.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-10"
+   },
+   {
+    "kind": "judicial",
+    "title": "日本检方要求判处持刀强闯我驻日使馆人员村田晃大1年6个月刑期",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729415.shtml",
+    "country": "CN",
+    "source": "chinanews",
+    "when": "2026-11-10"
+   },
+   {
+    "kind": "judicial",
+    "title": "日本男子强闯中国驻日使馆案开审 检方求刑18个月拘禁刑",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-10/10729390.shtml",
+    "country": "CN",
+    "source": "chinanews",
+    "when": "2026-11-10"
+   },
+   {
+    "kind": "judicial",
+    "title": "广东省深圳市政协原主席戴北方被公诉",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-10/10729297.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-10"
+   },
+   {
+    "kind": "judicial",
+    "title": "青海省原国土资源厅党委委员、副厅长李志勇接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-10/10729294.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-10"
+   },
+   {
+    "kind": "judicial",
+    "title": "海南检察机关依法对戴北方涉嫌受贿案提起公诉",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-10/10729239.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-10"
+   },
+   {
+    "kind": "judicial",
+    "title": "湖南省体育局党组成员、副局长陈彬接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-10/10729209.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-10"
+   },
+   {
+    "kind": "judicial",
+    "title": "Verdict delayed in Honduras sex-trafficking case linked to disappearance",
+    "url": "https://www.aljazeera.com/news/2026/11/10/verdict-delayed-in-honduras-sex-trafficking-case-linked-to-disappearance?traffic_source=rss",
     "country": "",
     "source": "aljazeera",
-    "when": "2026-11-09"
+    "when": "2026-11-10"
    },
    {
     "kind": "judicial",
@@ -1283,47 +1305,21 @@
    },
    {
     "kind": "judicial",
-    "title": "Russell Brand sentenced to more than 10 years in prison for rape and sexual assault",
-    "url": "https://www.theguardian.com/news/2026/nov/09/russell-brand-sentenced-rape-sexual-assault",
-    "country": "",
-    "source": "guardian",
-    "when": "2026-11-09"
-   },
-   {
-    "kind": "judicial",
-    "title": "Russell Brand sentenced to 10-and-a-half years in jail for rape, sexual assault",
-    "url": "https://www.france24.com/en/video/20261109-russell-brand-sentenced-to-10-and-a-half-years-in-jail-for-rape-sexual-assault",
-    "country": "",
-    "source": "france24",
-    "when": "2026-11-09"
-   },
-   {
-    "kind": "judicial",
     "title": "淮北矿业（集团）有限责任公司原副总经理谢道成接受审查调查",
     "url": "https://www.chinanews.com.cn/gn/2026/11-09/10729058.shtml",
     "country": "",
     "source": "chinanews_cn",
     "when": "2026-11-09"
-   },
-   {
-    "kind": "judicial",
-    "title": "Police detain brother of Hungary’s ex-PM Orban",
-    "url": "https://www.scmp.com/news/world/europe/article/3373823/police-detain-brother-hungarys-ex-pm-orban",
-    "country": "HU",
-    "source": "scmp",
-    "when": "2026-11-09"
    }
   ],
-  "notable_total": 7,
+  "notable_total": 11,
   "counts": {
    "extractive": 0,
-   "control": 1,
-   "redistributive": 2,
-   "notable": 7
+   "control": 0,
+   "redistributive": 0,
+   "notable": 11
   },
-  "pressure": {
-   "JP": -0.4
-  },
+  "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
@@ -1383,31 +1379,31 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 106,
+    "items": 105,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 100,
+    "items": 99,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 106,
+    "items": 105,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 102,
+    "items": 101,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 102,
+    "items": 101,
     "error": ""
    }
   ],
@@ -2240,8 +2236,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 7.9,
-    "carry": 9.28,
+    "value": 9.68,
+    "carry": 9.35,
     "z": null,
     "score": null,
     "available": false
@@ -2250,8 +2246,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 8.0,
-    "carry": 11.16,
+    "value": 18.0,
+    "carry": 12.34,
     "z": null,
     "score": null,
     "available": false
@@ -2261,7 +2257,7 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 3.0,
-    "carry": 2.04,
+    "carry": 2.21,
     "z": null,
     "score": null,
     "available": false
@@ -2280,71 +2276,83 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 5.0,
-    "carry": 3.66,
+    "value": 3.33,
+    "carry": 3.6,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 6,
+  "history_days": 7,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 7,
-   "last_seen": "2026-11-08",
+   "active_days": 8,
+   "last_seen": "2026-11-09",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "central Mid-Atlantic Ridge",
+     "t": "30 km WSW of Lata, Solomon Islands",
+     "v": 6.4,
+     "ts": "2026-11-09T03:34+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16"
+    },
+    {
+     "t": "106 km ENE of Hasaki, Japan",
+     "v": 5.7,
+     "ts": "2026-11-09T04:52+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1f"
+    },
+    {
+     "t": "160 km E of Masohi, Indonesia",
+     "v": 5.4,
+     "ts": "2026-11-09T09:48+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx32"
+    },
+    {
+     "t": "80 km ENE of Lagunas, Peru",
+     "v": 5.3,
+     "ts": "2026-11-09T10:23+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx38"
+    },
+    {
+     "t": "south of the Fiji Islands",
+     "v": 5.1,
+     "ts": "2026-11-09T00:46+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx0f"
+    },
+    {
+     "t": "south of the Fiji Islands",
+     "v": 4.9,
+     "ts": "2026-11-09T23:45+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v"
+    },
+    {
+     "t": "Mid-Indian Ridge",
+     "v": 4.9,
+     "ts": "2026-11-09T15:04+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx47"
+    },
+    {
+     "t": "south of the Fiji Islands",
+     "v": 4.9,
+     "ts": "2026-11-09T02:21+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx0x"
+    },
+    {
+     "t": "149 km NW of Port-Olry, Vanuatu",
      "v": 4.8,
-     "ts": "2026-11-08T16:33+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyc"
+     "ts": "2026-11-09T19:27+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6m"
     },
     {
-     "t": "119 km SW of Kokopo, Papua New Guinea",
-     "v": 4.7,
-     "ts": "2026-11-08T22:30+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twzn"
-    },
-    {
-     "t": "Southwest Indian Ridge",
-     "v": 4.7,
-     "ts": "2026-11-08T12:29+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxn"
-    },
-    {
-     "t": "46 km NW of Huara, Chile",
-     "v": 4.7,
-     "ts": "2026-11-08T11:58+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twxf"
-    },
-    {
-     "t": "137 km E of Miyako, Japan",
-     "v": 4.7,
-     "ts": "2026-11-08T09:23+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twx1"
-    },
-    {
-     "t": "117 km NE of Tobelo, Indonesia",
-     "v": 4.6,
-     "ts": "2026-11-08T16:45+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd"
-    },
-    {
-     "t": "43 km E of Onagawa Chō, Japan",
-     "v": 4.5,
-     "ts": "2026-11-08T20:16+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twz2"
-    },
-    {
-     "t": "11 km W of Honmachi, Japan",
-     "v": 4.5,
-     "ts": "2026-11-08T01:53+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twvb"
+     "t": "183 km E of Masohi, Indonesia",
+     "v": 4.8,
+     "ts": "2026-11-09T09:53+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx34"
     }
    ],
    "eonet": [
@@ -2367,12 +2375,85 @@
      "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26159"
     }
    ],
-   "gdacs": [],
+   "gdacs": [
+    {
+     "t": "Green earthquake (Magnitude 5.7M, Depth:24.173km) in Japan 09/11/2026 04:52 UTC,",
+     "v": "green",
+     "ts": "2026-11-09 05:03",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576372"
+    },
+    {
+     "t": "Green earthquake (Magnitude 6.4M, Depth:17km) in Solomon Is. 09/11/2026 03:34 UT",
+     "v": "green",
+     "ts": "2026-11-09 03:45",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576364"
+    },
+    {
+     "t": "Green flood alert in Iraq",
+     "v": "green",
+     "ts": "2026-11-09 07:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104272"
+    },
+    {
+     "t": "Green flood alert in Israel",
+     "v": "green",
+     "ts": "2026-11-09 07:37",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104273"
+    },
+    {
+     "t": "Green flood alert in Syria",
+     "v": "green",
+     "ts": "2026-11-09 07:37",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104274"
+    },
+    {
+     "t": "Green flood alert in Venezuela",
+     "v": "green",
+     "ts": "2026-11-09 09:58",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104275"
+    },
+    {
+     "t": "Green flood alert in Portugal",
+     "v": "green",
+     "ts": "2026-11-09 11:16",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104276"
+    },
+    {
+     "t": "Green flood alert in Vietnam",
+     "v": "green",
+     "ts": "2026-11-09 07:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104271"
+    },
+    {
+     "t": "Green forest fire notification in Mali",
+     "v": "green",
+     "ts": "2026-11-09 04:10",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033656"
+    },
+    {
+     "t": "Green forest fire notification in Mali",
+     "v": "green",
+     "ts": "2026-11-09 04:10",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033657"
+    },
+    {
+     "t": "Green forest fire notification in Mali",
+     "v": "green",
+     "ts": "2026-11-09 04:10",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033588"
+    },
+    {
+     "t": "Green forest fire notification in Mali",
+     "v": "green",
+     "ts": "2026-11-09 04:10",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033633"
+    }
+   ],
    "kp": [
     {
-     "t": "Kp 5.0 峰值（当日 8 个时段）",
-     "v": 5.0,
-     "ts": "2026-11-08",
+     "t": "Kp 3.33 峰值（当日 8 个时段）",
+     "v": 3.33,
+     "ts": "2026-11-09",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -2387,7 +2468,7 @@
     "label": "官方通报",
     "weight": 0.4,
     "value": 0.0,
-    "carry": 0.1,
+    "carry": 0.09,
     "z": null,
     "score": null,
     "available": false
@@ -2397,7 +2478,7 @@
     "label": "政策信号",
     "weight": 0.3,
     "value": 1.0,
-    "carry": 0.34,
+    "carry": 0.46,
     "z": null,
     "score": null,
     "available": false
@@ -2407,25 +2488,25 @@
     "label": "报道密度",
     "weight": 0.3,
     "value": 0.0,
-    "carry": 0.49,
+    "carry": 0.41,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 6,
+  "history_days": 7,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 6,
-   "last_seen": "2026-11-08",
+   "active_days": 7,
+   "last_seen": "2026-11-09",
    "ongoing": true
   },
   "evidence": {
    "who": [
     {
-     "t": "Two security breaches near White House prompt brief lockdown",
+     "t": "美国白宫附近发生两起安全事件 白宫一度短暂封锁",
      "v": "政策",
      "ts": "",
      "u": ""
@@ -2434,7 +2515,7 @@
   }
  },
  "doom": {
-  "index": 69.2,
+  "index": 69.3,
   "z": 0.49,
   "parts": {
    "military": 0.49,
@@ -2475,13 +2556,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 31195,
+   "items": 35529,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 26,
+   "items": 31,
    "error": "",
    "undated": 0
   },
@@ -2495,14 +2576,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 33,
+   "items": 30,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "error": "",
    "undated": 0
   },
@@ -2530,7 +2611,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 5,
+   "items": 8,
    "error": "",
    "undated": 0
   },
@@ -2558,31 +2639,31 @@
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 106,
+   "items": 105,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 100,
+   "items": 99,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 106,
+   "items": 105,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 102,
+   "items": 101,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 102,
+   "items": 101,
    "error": ""
   },
   {
@@ -2618,7 +2699,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 8,
+   "items": 18,
    "error": ""
   },
   {
@@ -2630,7 +2711,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 0,
+   "items": 20,
    "error": ""
   },
   {
@@ -2648,7 +2729,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 11024,
+   "items": 5442,
    "error": ""
   },
   {
