@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-11T14:22:45+00:00",
+ "generated_at": "2026-11-11T21:56:03+00:00",
  "date": "2026-11-10",
  "geti": 71.6,
  "delta_z": 0.7,
@@ -245,86 +245,69 @@
  ],
  "events": [
   {
-   "id": "6aaf184e854d",
-   "title": "At least 300 schools evacuated in Italy after email bomb alerts",
-   "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.82,
-   "origins": 2,
-   "sources": [
-    "aljazeera",
-    "france24",
-    "france24"
-   ],
-   "published": "2026-11-11T13:18:36+00:00",
-   "note": "Italian PM Meloni says there is no danger as UK and Northern Ireland authorities also report 'bogus' alerts.",
-   "region": "OTHER"
-  },
-  {
-   "id": "8a306cafd793",
-   "title": "British man who died in Kraków shooting named as James Campbell",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/11/british-man-died-krakow-shooting-named-james-campbell",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-11T14:13:54+00:00",
-   "note": "Campbell, 32, from Prestwick, South Ayrshire, was one of six people killed in the 7 November attack in Polish city The British man who died in a shooting in Kraków has been named a",
-   "region": "OTHER"
-  },
-  {
-   "id": "fc0a1a020342",
-   "title": "US envoys to meet Putin and Zelenskyy separately after peace talks see some progress - Europe Live",
-   "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+   "id": "6372c91d903d",
+   "title": "Hoax bomb threats target schools across Italy, UK and Ireland",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "aljazeera"
    ],
-   "published": "2026-11-11T14:13:25+00:00",
-   "note": "US negotiators to meet Putin in Moscow, Zelenskyy in Dublin next Separately, I am also keeping an eye on Italy, with reports that several schools are being evacuated after receivin",
-   "region": "EUROPE"
-  },
-  {
-   "id": "cab2da8a9fca",
-   "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
-   "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-11T14:00:52+00:00",
-   "note": "Tomás Beltrán was shot dead amid gang warfare that has turned Latin American country into one of its most violent Tomás Beltrán was manoeuvring his car into his garage on Sunday ni",
+   "published": "2026-11-11T21:01:42+00:00",
+   "note": "Thousands of schools across Italy, the UK and Ireland received hoax bomb threat emails.",
    "region": "OTHER"
   },
   {
-   "id": "71f9f5fb1d1b",
-   "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
-   "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
+   "id": "4bc3e3262d64",
+   "title": "Gaza goalkeeper killed in Israeli attack",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-11T20:44:34+00:00",
+   "note": "Palestinian footballer Mahmoud Abdel-Malek was killed in an Israeli strike days after the Thousand Martyrs Cup.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "875e39a8253a",
+   "title": "Scenes show aftermath of horrific Israeli strike on Gaza tents",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/scenes-show-aftermath-of-horrific-israeli-strike-on-gaza-tents?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-11T20:33:35+00:00",
+   "note": "Palestinian families have returned to the Sabra neighbourhood of Gaza City after an Israeli strike killed three people.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "d8bed8aff644",
+   "title": "Driver faces DUI and murder charges after three killed in LA crash, officials say",
+   "url": "https://www.theguardian.com/us-news/2026/nov/10/los-angeles-vehicle-crash",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "guardian"
    ],
-   "published": "2026-11-11T13:24:29+00:00",
-   "note": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month.",
-   "region": "NORTH_AMERICA"
+   "published": "2026-11-11T20:30:56+00:00",
+   "note": "Driver, 61, faces DUI and murder charges after Tuesday crash critically injuring two others in North Hollywood A driver who reportedly crashed into pedestrians on a Los Angeles cor",
+   "region": "OTHER"
   },
   {
-   "id": "34858c081eb8",
-   "title": "US man convicted after admitting he dismembered wife but denies killing her",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-man-convicted-after-admitting-he-dismembered-wife-but-denies-killing-her?traffic_source=rss",
+   "id": "1185565588bb",
+   "title": "Three women killed in LA crash as driver arrested",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/three-women-killed-in-la-crash-as-driver-arrested?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -332,13 +315,28 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-11T13:09:39+00:00",
-   "note": "A Virginia man has been convicted of murdering his wife, more than two years after she went missing.",
+   "published": "2026-11-11T20:03:45+00:00",
+   "note": "Three women killed in LA crash as driver arrested",
+   "region": "OTHER"
+  },
+  {
+   "id": "2cda798de94b",
+   "title": "Schools evacuated across Italy after bomb threats",
+   "url": "https://www.france24.com/en/schools-evacuated-across-italy-after-bomb-threats",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-11T19:29:19+00:00",
+   "note": "Schools were evacuated across Italy on Wednesday following a series of hoax bomb threats, but Italian Prime Minister Giorgia Meloni said there was no \"concrete danger\". Similar hoa",
    "region": "OTHER"
   },
   {
    "id": "33b7888d3ed7",
-   "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+   "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
    "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
@@ -347,84 +345,39 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-11T12:30:29+00:00",
-   "note": "Emails containing the false warnings were sent to schools in Rome, Naples, Vicenza, Florence, Pisa, Trieste and other Italian cities, officials say.",
+   "published": "2026-11-11T18:38:45+00:00",
+   "note": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public. It is not known if the incidents are linked.",
    "region": "OTHER"
   },
   {
-   "id": "234a1721c405",
-   "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
-   "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
+   "id": "c922d77030e7",
+   "title": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
+   "url": "https://www.france24.com/en/france/20261111-tehran-will-strike-us-bases-in-europe-if-used-to-attack-iran-security-chief-says",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "france24"
    ],
-   "published": "2026-11-11T12:14:12+00:00",
-   "note": "The 400 Mawozo gang was targeted by El Salvador's military, which has deployed thousands of troops to combat Haiti's gang violence crisis.",
-   "region": "LATAM"
-  },
-  {
-   "id": "37dbf65f133e",
-   "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland",
-   "url": "https://www.scmp.com/news/world/europe/article/3374103/over-300-italian-schools-evacuated-after-receiving-same-emailed-bomb-alert",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-11T11:47:16+00:00",
-   "note": "Schools across Italy were evacuated on Wednesday after around 6,300 of them received bomb warnings, the latest in a series of threats and cyberattacks around Europe against superma",
-   "region": "OTHER"
-  },
-  {
-   "id": "f8f3877b14ed",
-   "title": "Israel kills Gaza goalkeeper days after playing in cup for slain athletes",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/israel-kills-gaza-goalkeeper-days-after-playing-in-cup-for-slain-athletes?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-11T10:57:39+00:00",
-   "note": "Mahmoud Abdel-Malek, a 20-year-old goalkeeper for Gaza Sports Club, was killed in an Israeli airstrike on Gaza City.",
+   "published": "2026-11-11T16:45:46+00:00",
+   "note": "Iranian security chief Mohsen Rezaei said Wednesday that Tehran would attack US bases located in Europe if they were used to carry out bombing raids against the Islamic republic. T",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "f8c77abfced6",
-   "title": "One Nation Victoria candidate apologises for slew of offensive comments about lesbians, Indians and Julia Gillard",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/11/one-nation-candidate-apologises-offensive-comments-ntwnfb",
-   "component": "narrative",
+   "id": "fc0a1a020342",
+   "title": "US envoys to meet Putin and Zelenskyy separately - as it happened",
+   "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-11T10:12:42+00:00",
-   "note": "Exclusive: Chris Moore, running for the party in Greenvale, made derogatory social media comments between 2010 and 2012 Get our daily political email , free app or daily news podca",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "fea9e2c357de",
-   "title": "First Indonesian POW fighting for Russia in Ukraine sparks Jakarta crackdown",
-   "url": "https://www.scmp.com/week-asia/people/article/3374066/first-indonesian-pow-fighting-russia-ukraine-sparks-jakarta-crackdown",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-11T09:13:47+00:00",
-   "note": "Ukraine has captured its first Indonesian prisoner of war, exposing Jakarta’s uphill battle to stop its citizens from being recruited to fight for Russia in the war sparked by Mosc",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-11T16:08:20+00:00",
+   "note": "This blog is now closed Separately, I am also keeping an eye on Italy, with reports that several schools are being evacuated after receiving bomb threats by emails. According to Ra",
+   "region": "OTHER"
   },
   {
    "id": "2bdb5a6d27a0",
@@ -440,6 +393,96 @@
    "published": "2026-11-11T07:50:44+00:00",
    "note": "中新网11月11日电 据法新社报道，据加沙地带救援部门称，以色列军队当地时间10日在该地区发动袭击，造成7人死亡，而以色列军方则表示，其打击目标是“军事人员”。",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "151781027135",
+   "title": "Russia, Ukraine agree on prisoner exchange as talks end without major breakthrough",
+   "url": "https://www.scmp.com/news/world/europe/article/3374117/russia-ukraine-agree-prisoner-exchange-talks-end-without-major-breakthrough",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-11T14:54:11+00:00",
+   "note": "Russia and Ukraine agreed to a large exchange of prisoners of war, both sides said Wednesday as two days of US mediated talks concluded, but they announced no major breakthrough on",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "cab2da8a9fca",
+   "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
+   "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-11T14:00:52+00:00",
+   "note": "Tomás Beltrán was shot dead amid gang warfare that has turned Latin American country into one of its most violent Tomás Beltrán was manoeuvring his car into his garage on Sunday ni",
+   "region": "OTHER"
+  },
+  {
+   "id": "71f9f5fb1d1b",
+   "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+   "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-11T13:24:29+00:00",
+   "note": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month.",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "234a1721c405",
+   "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
+   "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-11T12:14:12+00:00",
+   "note": "The 400 Mawozo gang was targeted by El Salvador's military, which has deployed thousands of troops to combat Haiti's gang violence crisis.",
+   "region": "LATAM"
+  },
+  {
+   "id": "37dbf65f133e",
+   "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland",
+   "url": "https://www.scmp.com/news/world/europe/article/3374103/over-300-italian-schools-evacuated-after-receiving-same-emailed-bomb-alert",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-11T11:47:16+00:00",
+   "note": "Schools across Italy were evacuated on Wednesday after around 6,300 of them received bomb warnings, the latest in a series of threats and cyberattacks around Europe against superma",
+   "region": "OTHER"
+  },
+  {
+   "id": "fea9e2c357de",
+   "title": "First Indonesian POW fighting for Russia in Ukraine sparks Jakarta crackdown",
+   "url": "https://www.scmp.com/week-asia/people/article/3374066/first-indonesian-pow-fighting-russia-ukraine-sparks-jakarta-crackdown",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-11T09:13:47+00:00",
+   "note": "Ukraine has captured its first Indonesian prisoner of war, exposing Jakarta’s uphill battle to stop its citizens from being recruited to fight for Russia in the war sparked by Mosc",
+   "region": "RUSSIA_CIS"
   },
   {
    "id": "8485851b8953",
@@ -462,7 +505,7 @@
    "url": "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -472,19 +515,65 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "f965e6a68b95",
-   "title": "Bulgaria highway pileup kills 12, dozens injured: PM",
-   "url": "https://www.dw.com/en/bulgaria-highway-pileup-kills-12-dozens-injured-pm/a-79907978?maca=en-rss-en-world-4025-rdf",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
+   "id": "4937fe6a5cd5",
+   "title": "General strike over housing brings out hundreds of thousands in Spain",
+   "url": "https://www.france24.com/en/general-strike-over-housing-brings-out-hundreds-of-thousands-in-spain",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "dw"
+    "france24",
+    "france24"
    ],
-   "published": "2026-11-10T11:57:00+00:00",
-   "note": "At least 12 people were killed and dozens injured in a series of crashes caused by thick fog in Bulgaria. Police, firefighters and paramedics were dispatched to the scene for the r",
+   "published": "2026-11-11T21:31:10+00:00",
+   "note": "Millions of workers in Spain shut down businesses and public transport on Wednesday, as part of the country's first general strike in 14 years. Following a peaceful march in Barcel",
    "region": "OTHER"
+  },
+  {
+   "id": "9d898a3b2246",
+   "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+   "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-11T20:52:52+00:00",
+   "note": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+   "region": "OTHER"
+  },
+  {
+   "id": "2567c00f55a3",
+   "title": "Millions join Spain’s first general strike in 14 years in protest at housing costs",
+   "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-11T18:51:02+00:00",
+   "note": "Twenty-four-hour stoppage draws high participation weeks before election in which far right could gain power Millions of people across Spain have joined the country’s first general",
+   "region": "OTHER"
+  },
+  {
+   "id": "5dd9562b1a1d",
+   "title": "Trump planning new military assault or tighter sanctions, say Iranian officials",
+   "url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-11T18:47:57+00:00",
+   "note": "Regime adviser says Tehran could be forced into pre-emptive strikes if stalemate continues Senior Iranian officials believe the US is planning either further military strikes or an",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "79876885b8d5",
@@ -492,7 +581,7 @@
    "url": "https://www.chinanews.com.cn/gj/2026/11-11/10730275.shtml",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -502,182 +591,93 @@
    "region": "SOUTH_ASIA"
   },
   {
-   "id": "e74bd0db0de5",
-   "title": "Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?",
-   "url": "https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran?traffic_source=rss",
-   "component": "military",
+   "id": "ea1f09c7fab1",
+   "title": "伊拉克因担忧美国制裁 拒绝伊朗国足飞机降落",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-11/10730096.shtml",
+   "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "chinanews"
    ],
-   "published": "2026-11-11T14:10:47+00:00",
-   "note": "Torn between military action and diplomacy, US appears to settle for drawn-out economic pressure campaign, blockade.",
+   "published": "2026-11-11T06:43:48+00:00",
+   "note": "中新社北京11月11日电 综合消息：伊拉克民航局当地时间10日拒绝一架载有伊朗国家足球队一行人员的飞机在巴士拉机场降落。球队被迫返回伊朗，改由陆路进入伊拉克。",
    "region": "MIDDLE_EAST"
-  },
+  }
+ ],
+ "breaking": [
   {
-   "id": "2567c00f55a3",
-   "title": "Millions join Spain’s first general strike in 14 years in protest at rising housing costs",
-   "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+   "id": "4937fe6a5cd5",
+   "title": "General strike over housing brings out hundreds of thousands in Spain",
+   "url": "https://www.france24.com/en/general-strike-over-housing-brings-out-hundreds-of-thousands-in-spain",
    "component": "internal",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "france24",
+    "france24"
    ],
-   "published": "2026-11-11T13:54:36+00:00",
-   "note": "The 24-hour stoppage has drawn high participation across sectors and comes weeks before election in which far right could gain power Millions of people across Spain have joined the",
+   "published": "2026-11-11T21:31:10+00:00",
+   "note": "Millions of workers in Spain shut down businesses and public transport on Wednesday, as part of the country's first general strike in 14 years. Following a peaceful march in Barcel",
    "region": "OTHER"
   },
   {
-   "id": "817928a734d5",
-   "title": "Egyptian journalist's retrial adjourned as UN warns of 'assaults on press freedom'",
-   "url": "https://www.bbc.co.uk/news/articles/cmkg5jr59835o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
+   "id": "6372c91d903d",
+   "title": "Hoax bomb threats target schools across Italy, UK and Ireland",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-11T21:01:42+00:00",
+   "note": "Thousands of schools across Italy, the UK and Ireland received hoax bomb threat emails.",
+   "region": "OTHER"
+  },
+  {
+   "id": "9d898a3b2246",
+   "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+   "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-11T13:25:47+00:00",
-   "note": "Mada Masr editor-in-chief Lina Attalah is being tried on the charge of \"publishing false news\" and potentially faces imprisonment.",
+   "published": "2026-11-11T20:52:52+00:00",
+   "note": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
    "region": "OTHER"
   },
   {
-   "id": "82822dfaa8be",
-   "title": "Can China help end ‘neither war nor peace’ Iran deadlock before Xi-Trump summit?",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3374110/can-china-help-break-deadlock-irans-neither-war-nor-peace-xi-trump-summit",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-11T12:46:55+00:00",
-   "note": "Iran has again pointed out the potential role of China in ending its “neither war nor peace” impasse with the United States and pledged concrete steps to deepen ties with Beijing a",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "e38af5242206",
-   "title": "Rights group raises concerns about jailed Dr Abu Safia amid strikes on Gaza",
-   "url": "https://www.aljazeera.com/news/2026/11/11/rights-group-raises-concerns-about-jailed-dr-abu-safia-amid-strikes-on-gaza?traffic_source=rss",
+   "id": "4bc3e3262d64",
+   "title": "Gaza goalkeeper killed in Israeli attack",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack?traffic_source=rss",
    "component": "military",
-   "severity": 4,
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-11T12:05:51+00:00",
-   "note": "PHRI says the arbitrary detention of Gaza doctors violates individual rights and undermines healthcare system.",
+   "published": "2026-11-11T20:44:34+00:00",
+   "note": "Palestinian footballer Mahmoud Abdel-Malek was killed in an Israeli strike days after the Thousand Martyrs Cup.",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "a292664e6805",
-   "title": "Spain's first general strike in 14 years, 3 weeks before national polls",
-   "url": "https://www.france24.com/en/spain-s-first-general-strike-in-14-years-3-weeks-before-national-polls",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-11T10:30:07+00:00",
-   "note": "Sarah Morris is live from Madrid.",
-   "region": "OTHER"
-  },
-  {
-   "id": "7e0b566d5463",
-   "title": "Workers across Spain stage first general strike in 14 years",
-   "url": "https://www.aljazeera.com/news/2026/11/11/spains-first-general-strike-in-14-years-begins?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-11T10:18:28+00:00",
-   "note": "Strike disrupts public transport and industries amid demands for housing reform ahead of November 29 elections.",
-   "region": "OTHER"
-  }
- ],
- "breaking": [
-  {
-   "id": "8a306cafd793",
-   "title": "British man who died in Kraków shooting named as James Campbell",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/11/british-man-died-krakow-shooting-named-james-campbell",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-11T14:13:54+00:00",
-   "note": "Campbell, 32, from Prestwick, South Ayrshire, was one of six people killed in the 7 November attack in Polish city The British man who died in a shooting in Kraków has been named a",
-   "region": "OTHER"
-  },
-  {
-   "id": "fc0a1a020342",
-   "title": "US envoys to meet Putin and Zelenskyy separately after peace talks see some progress - Europe Live",
-   "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-11T14:13:25+00:00",
-   "note": "US negotiators to meet Putin in Moscow, Zelenskyy in Dublin next Separately, I am also keeping an eye on Italy, with reports that several schools are being evacuated after receivin",
-   "region": "EUROPE"
-  },
-  {
-   "id": "e74bd0db0de5",
-   "title": "Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?",
-   "url": "https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-11T14:10:47+00:00",
-   "note": "Torn between military action and diplomacy, US appears to settle for drawn-out economic pressure campaign, blockade.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "cab2da8a9fca",
-   "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
-   "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-11T14:00:52+00:00",
-   "note": "Tomás Beltrán was shot dead amid gang warfare that has turned Latin American country into one of its most violent Tomás Beltrán was manoeuvring his car into his garage on Sunday ni",
-   "region": "OTHER"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 42097,
-  "gdelt_events": 41851,
+  "items": 43804,
+  "gdelt_events": 43551,
   "mode": "live",
   "data_through": "2026-11-10",
-  "clusters": 240,
-  "origins": 242,
+  "clusters": 244,
+  "origins": 247,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1101,7 +1101,7 @@
   },
   {
    "date": "2026-10-12",
-   "geti": 52.9
+   "geti": 52.8
   },
   {
    "date": "2026-10-13",
@@ -1109,7 +1109,7 @@
   },
   {
    "date": "2026-10-14",
-   "geti": 52.9
+   "geti": 52.8
   },
   {
    "date": "2026-10-15",
@@ -1245,10 +1245,10 @@
    },
    {
     "kind": "judicial",
-    "title": "US man convicted after admitting he dismembered wife but denies killing her",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-man-convicted-after-admitting-he-dismembered-wife-but-denies-killing-her?traffic_source=rss",
+    "title": "人权高专欢迎特立尼达和多巴哥同性关系非刑事化判决",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143177",
     "country": "",
-    "source": "aljazeera",
+    "source": "un_news_zh",
     "when": "2026-11-11"
    },
    {
@@ -1298,39 +1298,31 @@
     "country": "",
     "source": "bbc_zh",
     "when": "2026-11-11"
-   },
-   {
-    "kind": "judicial",
-    "title": "Disgraced former leader Sheikh Hasina plans return to Bangladesh from exile",
-    "url": "https://www.theguardian.com/world/2026/nov/10/disgraced-former-leader-sheikh-hasina-plans-return-to-bangladesh-after-two-years-in-exile",
-    "country": "IN",
-    "source": "guardian",
-    "when": "2026-11-10"
    }
   ],
-  "notable_total": 9,
+  "notable_total": 8,
   "counts": {
    "extractive": 0,
    "control": 1,
    "redistributive": 0,
-   "notable": 9
+   "notable": 8
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 76.2,
-  "z": 0.698,
+  "index": 75.2,
+  "z": 0.666,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 19.92,
-    "chg5": -5.82,
-    "z": 0.914,
+    "last": 19.46,
+    "chg5": -6.58,
+    "z": 0.816,
     "ok": true,
-    "asof": "2026-11-09"
+    "asof": "2026-11-10"
    },
    {
     "id": "oil",
@@ -1369,13 +1361,13 @@
     "asof": "2026-11-09"
    }
   ],
-  "asof": "2026-11-09",
+  "asof": "2026-11-10",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 106,
+    "items": 107,
     "error": ""
    },
    {
@@ -2232,8 +2224,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.91,
-    "carry": 9.28,
+    "value": 8.86,
+    "carry": 9.27,
     "z": null,
     "score": null,
     "available": false
@@ -2291,8 +2283,8 @@
   "evidence": {
    "quake": [
     {
-     "t": "43 km S of Puerto San José, Guatemala",
-     "v": 5.6,
+     "t": "40 km S of Puerto San José, Guatemala",
+     "v": 5.5,
      "ts": "2026-11-10T14:54+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txb8"
     },
@@ -2315,16 +2307,16 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txc3"
     },
     {
-     "t": "140 km ESE of Labuha, Indonesia",
-     "v": 5.2,
-     "ts": "2026-11-10T15:51+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi"
-    },
-    {
      "t": "19 km WSW of Lata, Solomon Islands",
      "v": 5.2,
      "ts": "2026-11-10T03:37+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8s"
+    },
+    {
+     "t": "139 km ESE of Labuha, Indonesia",
+     "v": 5.1,
+     "ts": "2026-11-10T15:51+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txbi"
     },
     {
      "t": "58 km NE of Fef, Indonesia",
@@ -2441,8 +2433,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.22,
-    "carry": 0.6,
+    "value": 1.19,
+    "carry": 0.59,
     "z": null,
     "score": null,
     "available": false
@@ -2510,13 +2502,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 41851,
+   "items": 43551,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 23,
+   "items": 25,
    "error": "",
    "undated": 0
   },
@@ -2530,7 +2522,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 32,
+   "items": 35,
    "error": "",
    "undated": 0
   },
@@ -2565,7 +2557,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 7,
+   "items": 10,
    "error": "",
    "undated": 0
   },
@@ -2586,14 +2578,14 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 14,
+   "items": 13,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 106,
+   "items": 107,
    "error": ""
   },
   {
@@ -2683,7 +2675,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 10798,
+   "items": 11444,
    "error": ""
   },
   {
