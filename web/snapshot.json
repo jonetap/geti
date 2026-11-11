@@ -1,8 +1,8 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-11T06:13:10+00:00",
+ "generated_at": "2026-11-11T14:22:45+00:00",
  "date": "2026-11-10",
- "geti": 71.7,
+ "geti": 71.6,
  "delta_z": 0.7,
  "delta_pts": 2.5,
  "confidence": 0.95,
@@ -81,7 +81,7 @@
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 68.5,
+   "score": 68.4,
    "delta": -0.7,
    "excluded": false,
    "drivers": [
@@ -245,9 +245,86 @@
  ],
  "events": [
   {
-   "id": "c86befb34ff1",
-   "title": "Yemeni forces, Houthis exchange attacks, claim to inflict heavy losses",
-   "url": "https://www.aljazeera.com/news/2026/11/11/yemeni-forces-houthis-exchange-attacks-claim-to-inflict-heavy-losses?traffic_source=rss",
+   "id": "6aaf184e854d",
+   "title": "At least 300 schools evacuated in Italy after email bomb alerts",
+   "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "aljazeera",
+    "france24",
+    "france24"
+   ],
+   "published": "2026-11-11T13:18:36+00:00",
+   "note": "Italian PM Meloni says there is no danger as UK and Northern Ireland authorities also report 'bogus' alerts.",
+   "region": "OTHER"
+  },
+  {
+   "id": "8a306cafd793",
+   "title": "British man who died in Kraków shooting named as James Campbell",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/11/british-man-died-krakow-shooting-named-james-campbell",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-11T14:13:54+00:00",
+   "note": "Campbell, 32, from Prestwick, South Ayrshire, was one of six people killed in the 7 November attack in Polish city The British man who died in a shooting in Kraków has been named a",
+   "region": "OTHER"
+  },
+  {
+   "id": "fc0a1a020342",
+   "title": "US envoys to meet Putin and Zelenskyy separately after peace talks see some progress - Europe Live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-11T14:13:25+00:00",
+   "note": "US negotiators to meet Putin in Moscow, Zelenskyy in Dublin next Separately, I am also keeping an eye on Italy, with reports that several schools are being evacuated after receivin",
+   "region": "EUROPE"
+  },
+  {
+   "id": "cab2da8a9fca",
+   "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
+   "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-11T14:00:52+00:00",
+   "note": "Tomás Beltrán was shot dead amid gang warfare that has turned Latin American country into one of its most violent Tomás Beltrán was manoeuvring his car into his garage on Sunday ni",
+   "region": "OTHER"
+  },
+  {
+   "id": "71f9f5fb1d1b",
+   "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+   "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-11T13:24:29+00:00",
+   "note": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month.",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "34858c081eb8",
+   "title": "US man convicted after admitting he dismembered wife but denies killing her",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-man-convicted-after-admitting-he-dismembered-wife-but-denies-killing-her?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -255,13 +332,28 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-11T05:39:26+00:00",
-   "note": "Yemen's government says 190 rebel fighters killed and wounded, as Houthis also claim inflicting heavy losses.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-11T13:09:39+00:00",
+   "note": "A Virginia man has been convicted of murdering his wife, more than two years after she went missing.",
+   "region": "OTHER"
+  },
+  {
+   "id": "33b7888d3ed7",
+   "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+   "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-11T12:30:29+00:00",
+   "note": "Emails containing the false warnings were sent to schools in Rome, Naples, Vicenza, Florence, Pisa, Trieste and other Italian cities, officials say.",
+   "region": "OTHER"
   },
   {
    "id": "234a1721c405",
-   "title": "Headquarters of Haitian gang destroyed, El Salvador's president says",
+   "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
    "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
@@ -270,14 +362,44 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-11T02:47:59+00:00",
-   "note": "The infamous 400 Mawozo gang was targeted by the El Salvador military which has deployed thousands of troops to combat Haiti's gang violence crisis.",
+   "published": "2026-11-11T12:14:12+00:00",
+   "note": "The 400 Mawozo gang was targeted by El Salvador's military, which has deployed thousands of troops to combat Haiti's gang violence crisis.",
    "region": "LATAM"
   },
   {
-   "id": "e86634d3fa64",
-   "title": "Two white students at University of Mississippi make monkey gestures in Ring video",
-   "url": "https://www.theguardian.com/us-news/2026/nov/10/university-of-mississippi-white-students-monkey-gestures",
+   "id": "37dbf65f133e",
+   "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland",
+   "url": "https://www.scmp.com/news/world/europe/article/3374103/over-300-italian-schools-evacuated-after-receiving-same-emailed-bomb-alert",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-11T11:47:16+00:00",
+   "note": "Schools across Italy were evacuated on Wednesday after around 6,300 of them received bomb warnings, the latest in a series of threats and cyberattacks around Europe against superma",
+   "region": "OTHER"
+  },
+  {
+   "id": "f8f3877b14ed",
+   "title": "Israel kills Gaza goalkeeper days after playing in cup for slain athletes",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/israel-kills-gaza-goalkeeper-days-after-playing-in-cup-for-slain-athletes?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-11T10:57:39+00:00",
+   "note": "Mahmoud Abdel-Malek, a 20-year-old goalkeeper for Gaza Sports Club, was killed in an Israeli airstrike on Gaza City.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "f8c77abfced6",
+   "title": "One Nation Victoria candidate apologises for slew of offensive comments about lesbians, Indians and Julia Gillard",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/11/one-nation-candidate-apologises-offensive-comments-ntwnfb",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -285,58 +407,58 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-11T02:26:10+00:00",
-   "note": "Women are reportedly upstairs neighbors of three Black students, including one who uploaded video to TikTok Two white students at the University of Mississippi were captured making",
-   "region": "OTHER"
+   "published": "2026-11-11T10:12:42+00:00",
+   "note": "Exclusive: Chris Moore, running for the party in Greenvale, made derogatory social media comments between 2010 and 2012 Get our daily political email , free app or daily news podca",
+   "region": "SOUTH_ASIA"
   },
   {
-   "id": "c9ea1f062745",
-   "title": "Former Iraqi lawmaker Ahmed al-Alwani found dead in Beirut",
-   "url": "https://www.aljazeera.com/news/2026/11/11/former-iraqi-awmaker-ahmed-al-alwani-found-dead-in-beirut?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-11T02:07:15+00:00",
-   "note": "Lebanese authorities investigate the killing after al-Alwani's body is found in an apartment in Beirut.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "496bd3473453",
-   "title": "Haiti PM praises Bukele after Salvadoran troops help destroy gang headquarters",
-   "url": "https://www.france24.com/en/americas/20261111-haiti-pm-bukele-salvadoran-troops-gang-headquarters",
+   "id": "fea9e2c357de",
+   "title": "First Indonesian POW fighting for Russia in Ukraine sparks Jakarta crackdown",
+   "url": "https://www.scmp.com/week-asia/people/article/3374066/first-indonesian-pow-fighting-russia-ukraine-sparks-jakarta-crackdown",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "scmp"
    ],
-   "published": "2026-11-11T01:41:43+00:00",
-   "note": "Haitian Prime Minister Alix Didier Fils-Aime praised Salvadoran President Nayib Bukele on Tuesday after Salvadoran troops destroyed a suspected gang leader’s home. Bukele’s deploym",
-   "region": "LATAM"
+   "published": "2026-11-11T09:13:47+00:00",
+   "note": "Ukraine has captured its first Indonesian prisoner of war, exposing Jakarta’s uphill battle to stop its citizens from being recruited to fight for Russia in the war sparked by Mosc",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "ba337ab9992d",
-   "title": "Russia expels Moldovan diplomat in tit-for-tat move",
-   "url": "https://www.aljazeera.com/news/2026/11/10/russia-expels-moldovan-diplomat-in-tit-for-tat-move?traffic_source=rss",
-   "component": "diplomacy",
+   "id": "2bdb5a6d27a0",
+   "title": "以色列空袭加沙地带 致7人死亡",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-11/10730195.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-11T07:50:44+00:00",
+   "note": "中新网11月11日电 据法新社报道，据加沙地带救援部门称，以色列军队当地时间10日在该地区发动袭击，造成7人死亡，而以色列军方则表示，其打击目标是“军事人员”。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8485851b8953",
+   "title": "My brother killed his ex-wife Abby Choi in a fit of rage, tearful Kwong tells court",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374040/abby-choi-killed-ex-husband-brother-tells-hong-kong-court",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "scmp"
    ],
-   "published": "2026-11-10T22:41:07+00:00",
-   "note": "Relations between Moscow and Chisinau have worsened since Russia's full-scale invasion of Ukraine in 2022.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-11T07:11:52+00:00",
+   "note": "Slain Hong Kong socialite Abby Choi Tin-fung was killed by her ex-husband in a fit of rage after she hurled insults at him during a car ride, his elder brother has told a court. In",
+   "region": "OTHER"
   },
   {
    "id": "61f92dafd385",
-   "title": "Meet the Peaky Blinders, Ukraine's drone unit protecting a devastated front-line city",
+   "title": "'If I tell you to run, run': BBC joins a Ukrainian drone unit as it protects a front-line city",
    "url": "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
@@ -350,72 +472,12 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "b6b7bbac7ea1",
-   "title": "REPLAY: US Secretary of State Rubio holds press conference after G7 meeting",
-   "url": "https://www.france24.com/en/video/20261110-replay-us-secretary-of-state-rubio-holds-press-conference-after-g7-meeting",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-10T16:30:50+00:00",
-   "note": "US Secretary of State Marco Rubio talked to the press Tuesday as the G7 meets in Paris. He said he saw no need to resume major combat operations against Iran because economic restr",
-   "region": "OTHER"
-  },
-  {
-   "id": "f03d561168c8",
-   "title": "Over 3,000 already dead from cholera this year, says WHO",
-   "url": "https://www.scmp.com/news/world/africa/article/3373991/over-3000-already-dead-cholera-year-says-who",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-10T15:43:18+00:00",
-   "note": "Cholera has killed more than 3,000 people worldwide since the start of the year, the World Health Organization said on Tuesday, insisting its goal of cutting global cases by 90 per",
-   "region": "OTHER"
-  },
-  {
-   "id": "4b3c80656f26",
-   "title": "Will Nvidia CEO Jensen Huang’s affair become another ‘spy balloon’ saga for US-China ties?",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3373986/will-nvidia-ceo-jensen-huangs-affair-become-another-spy-balloon-saga-us-china-ties",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-10T15:00:11+00:00",
-   "note": "China hawks in Washington could weaponise allegations that Nvidia CEO Jensen Huang was targeted by Chinese intelligence, despite denials from Beijing, Chinese experts warn. They sa",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "9ae683e251ff",
-   "title": "China hands over remains of US airmen killed during World War II supply missions",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3373945/china-hands-over-remains-us-airmen-killed-during-world-war-ii-supply-missions",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-10T12:00:28+00:00",
-   "note": "China has handed over the remains of American airmen who were killed during World War II while carrying supplies over the Himalayas. The Chinese and US militaries held a handover c",
-   "region": "EAST_ASIA"
-  },
-  {
    "id": "f965e6a68b95",
    "title": "Bulgaria highway pileup kills 12, dozens injured: PM",
    "url": "https://www.dw.com/en/bulgaria-highway-pileup-kills-12-dozens-injured-pm/a-79907978?maca=en-rss-en-world-4025-rdf",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "dw"
@@ -425,236 +487,176 @@
    "region": "OTHER"
   },
   {
-   "id": "ded50b29914b",
-   "title": "Police officer dies and another injured after backpack explosion in northern Spain",
-   "url": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
+   "id": "79876885b8d5",
+   "title": "印度航空客机上发现劫机威胁纸条 乘客已全部撤离",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-11/10730275.shtml",
    "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
+   "severity": 4,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "bbc"
+    "chinanews"
    ],
-   "published": "2026-11-10T11:25:46+00:00",
-   "note": "Officers attended the scene in connection with a separate incident at a residential building in the Spanish city.",
-   "region": "OTHER"
+   "published": "2026-11-11T08:51:53+00:00",
+   "note": "中新网11月11日电 据印度报业托拉斯报道，印度航空公司一架飞往孟买的客机11日上午起飞前，在机上洗手间发现一张劫机威胁纸条。机场随即启动安保预案，机上乘客全部撤离，飞机被转移至机场隔离区。",
+   "region": "SOUTH_ASIA"
   },
   {
-   "id": "f57262e640f7",
-   "title": "Africa's fight against fake news: Who decides what's true?",
-   "url": "https://www.dw.com/en/africa-s-fight-against-fake-news-who-decides-what-s-true/a-79874039?maca=en-rss-en-world-4025-rdf",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
+   "id": "e74bd0db0de5",
+   "title": "Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?",
+   "url": "https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "dw"
+    "aljazeera"
    ],
-   "published": "2026-11-09T15:56:00+00:00",
-   "note": "From Ghana to Mozambique, the fight against fake news keeps gaining momentum. But combating disinformation also requires safeguards for free speech, leaving some governments in an ",
-   "region": "AFRICA"
+   "published": "2026-11-11T14:10:47+00:00",
+   "note": "Torn between military action and diplomacy, US appears to settle for drawn-out economic pressure campaign, blockade.",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "c7a265177af4",
-   "title": "Underworld figure Mick Gatto gave CFMEU official gold bracelet after construction site assault, Big Build royal commission told",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/11/mick-gatto-cfmeu-big-build-royal-commission-ntwnfb",
-   "component": "narrative",
+   "id": "2567c00f55a3",
+   "title": "Millions join Spain’s first general strike in 14 years in protest at rising housing costs",
+   "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+   "component": "internal",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-11T03:07:14+00:00",
-   "note": "Former CFMEU official Paul Tzimas tells inquiry he suffered fractured ankle and a colleague was left with major injuries and severe PTSD Get our breaking news email , free app or d",
-   "region": "EUROPE"
+   "published": "2026-11-11T13:54:36+00:00",
+   "note": "The 24-hour stoppage has drawn high participation across sectors and comes weeks before election in which far right could gain power Millions of people across Spain have joined the",
+   "region": "OTHER"
   },
   {
-   "id": "522400698f9c",
-   "title": "Egyptian journalist Lina Attalah faces prison as trial sparks international outcry",
-   "url": "https://www.france24.com/en/middle-east/20261111-lina-attalah-egypt-trial-prison",
+   "id": "817928a734d5",
+   "title": "Egyptian journalist's retrial adjourned as UN warns of 'assaults on press freedom'",
+   "url": "https://www.bbc.co.uk/news/articles/cmkg5jr59835o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-11T13:25:47+00:00",
+   "note": "Mada Masr editor-in-chief Lina Attalah is being tried on the charge of \"publishing false news\" and potentially faces imprisonment.",
+   "region": "OTHER"
+  },
+  {
+   "id": "82822dfaa8be",
+   "title": "Can China help end ‘neither war nor peace’ Iran deadlock before Xi-Trump summit?",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3374110/can-china-help-break-deadlock-irans-neither-war-nor-peace-xi-trump-summit",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-11T12:46:55+00:00",
+   "note": "Iran has again pointed out the potential role of China in ending its “neither war nor peace” impasse with the United States and pledged concrete steps to deepen ties with Beijing a",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "e38af5242206",
+   "title": "Rights group raises concerns about jailed Dr Abu Safia amid strikes on Gaza",
+   "url": "https://www.aljazeera.com/news/2026/11/11/rights-group-raises-concerns-about-jailed-dr-abu-safia-amid-strikes-on-gaza?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-11T12:05:51+00:00",
+   "note": "PHRI says the arbitrary detention of Gaza doctors violates individual rights and undermines healthcare system.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "a292664e6805",
+   "title": "Spain's first general strike in 14 years, 3 weeks before national polls",
+   "url": "https://www.france24.com/en/spain-s-first-general-strike-in-14-years-3-weeks-before-national-polls",
+   "component": "internal",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-11T01:53:51+00:00",
-   "note": "Egyptian journalist Lina Attalah, head of independent news outlet Mada Masr, faces a criminal court retrial Wednesday over charges of operating without a licence and publishing fal",
+   "published": "2026-11-11T10:30:07+00:00",
+   "note": "Sarah Morris is live from Madrid.",
    "region": "OTHER"
   },
   {
-   "id": "18c82c00e07f",
-   "title": "Israeli opposition hurries to seize control as new Knesset is sworn in",
-   "url": "https://www.theguardian.com/world/2026/nov/10/israeli-opposition-hurries-to-seize-control-as-new-knesset-is-sworn-in",
+   "id": "7e0b566d5463",
+   "title": "Workers across Spain stage first general strike in 14 years",
+   "url": "https://www.aljazeera.com/news/2026/11/11/spains-first-general-strike-in-14-years-begins?traffic_source=rss",
    "component": "military",
    "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-10T19:59:33+00:00",
-   "note": "Former military chief Gadi Eisenkot has mandate to try to form a government – with Netanyahu waiting if he fails Opposition lawmakers have wasted no time after Israel’s new Knesset",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "ccafa23f6935",
-   "title": "UK children’s author David Walliams accused of sexual misconduct – denies claims",
-   "url": "https://www.scmp.com/news/world/europe/article/3373989/uk-childrens-author-david-walliams-accused-sexual-misconduct",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-10T15:12:41+00:00",
-   "note": "British children’s author and comedian David Walliams used his fame to groom girls and young women for sex, two British news outlets reported on Tuesday. ITV News and the Guardian ",
-   "region": "OTHER"
-  },
-  {
-   "id": "36cff3d099e4",
-   "title": "How Nvidia CEO’s troubles, US midterms may tighten China chip curbs: ‘adding fuel to fire’",
-   "url": "https://www.scmp.com/tech/big-tech/article/3373977/adding-fuel-fire-how-nvidia-ceos-troubles-us-midterms-may-tighten-china-chip-curbs",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-10T14:30:22+00:00",
-   "note": "A political storm sparked by US media reports alleging American intelligence agencies suspect Nvidia CEO Jensen Huang was targeted in an espionage operation – a claim Beijing has d",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "42a5e83b15e9",
-   "title": "‘I pay $500 for 5 square metres’: Spain’s protesters, in their own words",
-   "url": "https://www.aljazeera.com/news/2026/11/11/i-pay-500-for-5-square-metres-spains-protesters-in-their-own-words?traffic_source=rss",
-   "component": "internal",
-   "severity": 3,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-11T05:16:57+00:00",
-   "note": "Young people are stuck in the family home or forced into cramped, overpriced rentals with little security or control.",
-   "region": "OTHER"
-  },
-  {
-   "id": "6a127f379615",
-   "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-   "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-11T03:26:42+00:00",
-   "note": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-   "region": "OTHER"
-  },
-  {
-   "id": "3022281f9d67",
-   "title": "Deal vs deal? US, China trade calls to honour commitments before Xi-Trump summit",
-   "url": "https://www.scmp.com/news/us/diplomacy/article/3374008/deal-vs-deal-us-china-trade-calls-honour-commitments-trump-xi-summit",
-   "component": "diplomacy",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-11T02:34:23+00:00",
-   "note": "During a video call on Friday, US Trade Representative Jamieson Greer and Treasury Secretary Scott Bessent urged Chinese Vice-Premier He Lifeng to uphold China’s previous commitmen",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "98ab45099675",
-   "title": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/protesters-throw-milk-at-joe-biden-during-hunter-event-in-dublin?traffic_source=rss",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-11T02:12:22+00:00",
-   "note": "Pro-Palestinian protesters hurled milk towards Joe Biden in Ireland over his support for Israel.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "9f50b87b6e9d",
-   "title": "French far-right author Zemmour launches second bid for 2027 presidency",
-   "url": "https://www.aljazeera.com/news/2026/11/10/french-far-right-author-zemmour-launches-second-presidential-bid?traffic_source=rss",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-10T23:23:12+00:00",
-   "note": "Zemmour seeks to expel 'foreign unemployed people' after last month's violent protests.",
+   "published": "2026-11-11T10:18:28+00:00",
+   "note": "Strike disrupts public transport and industries amid demands for housing reform ahead of November 29 elections.",
    "region": "OTHER"
   }
  ],
  "breaking": [
   {
-   "id": "c86befb34ff1",
-   "title": "Yemeni forces, Houthis exchange attacks, claim to inflict heavy losses",
-   "url": "https://www.aljazeera.com/news/2026/11/11/yemeni-forces-houthis-exchange-attacks-claim-to-inflict-heavy-losses?traffic_source=rss",
+   "id": "8a306cafd793",
+   "title": "British man who died in Kraków shooting named as James Campbell",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/11/british-man-died-krakow-shooting-named-james-campbell",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-11T05:39:26+00:00",
-   "note": "Yemen's government says 190 rebel fighters killed and wounded, as Houthis also claim inflicting heavy losses.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "c7a265177af4",
-   "title": "Underworld figure Mick Gatto gave CFMEU official gold bracelet after construction site assault, Big Build royal commission told",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/11/mick-gatto-cfmeu-big-build-royal-commission-ntwnfb",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
     "guardian"
    ],
-   "published": "2026-11-11T03:07:14+00:00",
-   "note": "Former CFMEU official Paul Tzimas tells inquiry he suffered fractured ankle and a colleague was left with major injuries and severe PTSD Get our breaking news email , free app or d",
-   "region": "EUROPE"
+   "published": "2026-11-11T14:13:54+00:00",
+   "note": "Campbell, 32, from Prestwick, South Ayrshire, was one of six people killed in the 7 November attack in Polish city The British man who died in a shooting in Kraków has been named a",
+   "region": "OTHER"
   },
   {
-   "id": "234a1721c405",
-   "title": "Headquarters of Haitian gang destroyed, El Salvador's president says",
-   "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
+   "id": "fc0a1a020342",
+   "title": "US envoys to meet Putin and Zelenskyy separately after peace talks see some progress - Europe Live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "guardian"
    ],
-   "published": "2026-11-11T02:47:59+00:00",
-   "note": "The infamous 400 Mawozo gang was targeted by the El Salvador military which has deployed thousands of troops to combat Haiti's gang violence crisis.",
-   "region": "LATAM"
+   "published": "2026-11-11T14:13:25+00:00",
+   "note": "US negotiators to meet Putin in Moscow, Zelenskyy in Dublin next Separately, I am also keeping an eye on Italy, with reports that several schools are being evacuated after receivin",
+   "region": "EUROPE"
   },
   {
-   "id": "e86634d3fa64",
-   "title": "Two white students at University of Mississippi make monkey gestures in Ring video",
-   "url": "https://www.theguardian.com/us-news/2026/nov/10/university-of-mississippi-white-students-monkey-gestures",
+   "id": "e74bd0db0de5",
+   "title": "Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?",
+   "url": "https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-11T14:10:47+00:00",
+   "note": "Torn between military action and diplomacy, US appears to settle for drawn-out economic pressure campaign, blockade.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "cab2da8a9fca",
+   "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
+   "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -662,20 +664,20 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-11T02:26:10+00:00",
-   "note": "Women are reportedly upstairs neighbors of three Black students, including one who uploaded video to TikTok Two white students at the University of Mississippi were captured making",
+   "published": "2026-11-11T14:00:52+00:00",
+   "note": "Tomás Beltrán was shot dead amid gang warfare that has turned Latin American country into one of its most violent Tomás Beltrán was manoeuvring his car into his garage on Sunday ni",
    "region": "OTHER"
   }
  ],
  "coverage": {
-  "sources_ok": 20,
-  "sources_failed": 2,
-  "items": 43210,
-  "gdelt_events": 42955,
+  "sources_ok": 21,
+  "sources_failed": 1,
+  "items": 42097,
+  "gdelt_events": 41851,
   "mode": "live",
   "data_through": "2026-11-10",
-  "clusters": 252,
-  "origins": 254,
+  "clusters": 240,
+  "origins": 242,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1135,15 +1137,15 @@
   },
   {
    "date": "2026-10-21",
-   "geti": 50.5
+   "geti": 50.4
   },
   {
    "date": "2026-10-22",
-   "geti": 49.8
+   "geti": 49.7
   },
   {
    "date": "2026-10-23",
-   "geti": 53.9
+   "geti": 53.8
   },
   {
    "date": "2026-10-24",
@@ -1151,7 +1153,7 @@
   },
   {
    "date": "2026-10-25",
-   "geti": 62.9
+   "geti": 62.8
   },
   {
    "date": "2026-10-26",
@@ -1199,7 +1201,7 @@
   },
   {
    "date": "2026-11-06",
-   "geti": 68.5
+   "geti": 68.4
   },
   {
    "date": "2026-11-07",
@@ -1215,58 +1217,78 @@
   },
   {
    "date": "2026-11-10",
-   "geti": 71.7
+   "geti": 71.6
   }
  ],
  "policy": {
-  "items": [],
+  "items": [
+   {
+    "type": "control",
+    "country": "",
+    "source": "guardian",
+    "score": 0.3,
+    "signed": 0.3,
+    "title": "First Covid lockdowns, then alcohol to your door: rise in young Victorians with liver diseases prompts fears",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/12/first-covid-lockdowns-then-alcohol-to-your-door-rise-in-young-victorians-with-liver-diseases-prompts-fears",
+    "origins": 1,
+    "when": "2026-11-11"
+   }
+  ],
   "notable": [
+   {
+    "kind": "judicial",
+    "title": "重庆市永川区人大常委会原副主任王寒峰被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730536.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-11"
+   },
+   {
+    "kind": "judicial",
+    "title": "US man convicted after admitting he dismembered wife but denies killing her",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-man-convicted-after-admitting-he-dismembered-wife-but-denies-killing-her?traffic_source=rss",
+    "country": "",
+    "source": "aljazeera",
+    "when": "2026-11-11"
+   },
+   {
+    "kind": "judicial",
+    "title": "山东省司法厅原党委书记、厅长解维俊受贿案一审宣判",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730298.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-11"
+   },
+   {
+    "kind": "judicial",
+    "title": "Woman in Saudi Arabia sentenced to 100 lashes for giving birth outside marriage",
+    "url": "https://www.theguardian.com/global-development/2026/nov/11/woman-in-saudi-arabia-sentenced-to-100-lashes-for-giving-birth-outside-marriage",
+    "country": "SA",
+    "source": "guardian",
+    "when": "2026-11-11"
+   },
+   {
+    "kind": "judicial",
+    "title": "俄罗斯安全部门称在加里宁格勒州破获一个波兰情报网络",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-11/10730157.shtml",
+    "country": "RU",
+    "source": "chinanews",
+    "when": "2026-11-11"
+   },
+   {
+    "kind": "judicial",
+    "title": "Former Hong Kong lawmaker pleads guilty to 4 offences over drink-driving crash",
+    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374033/disgraced-lawmaker-pleads-guilty-4-traffic-offences-over-drink-driving-crash",
+    "country": "HK",
+    "source": "scmp",
+    "when": "2026-11-11"
+   },
    {
     "kind": "judicial",
     "title": "黃仁勳曾告訴我，那些關於中國與國家安全的問題",
     "url": "https://www.bbc.com/zhongwen/articles/cm36gnenlj59o/trad?at_medium=RSS&at_campaign=rss",
     "country": "",
     "source": "bbc_zh",
-    "when": "2026-11-11"
-   },
-   {
-    "kind": "judicial",
-    "title": "贵州省信访局原局长马磊被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-11/10729941.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-11"
-   },
-   {
-    "kind": "judicial",
-    "title": "贵州省黔南州人大常委会原副主任朱奉余被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-11/10729939.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-11"
-   },
-   {
-    "kind": "judicial",
-    "title": "涉嫌为俄罗斯从事间谍活动，一名美军士兵在英国被捕",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-11/10729936.shtml",
-    "country": "GB",
-    "source": "chinanews",
-    "when": "2026-11-11"
-   },
-   {
-    "kind": "judicial",
-    "title": "广东检察机关依法对肖杰涉嫌受贿案提起公诉",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-11/10729935.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-11"
-   },
-   {
-    "kind": "judicial",
-    "title": "Nima Momeni sentenced to 16 years to life in murder of Cash App founder Bob Lee",
-    "url": "https://www.theguardian.com/us-news/2026/nov/10/bob-lee-cash-app-nima-momeni-sentenced",
-    "country": "",
-    "source": "guardian",
     "when": "2026-11-11"
    },
    {
@@ -1279,22 +1301,6 @@
    },
    {
     "kind": "judicial",
-    "title": "英国警方：一美军士兵因涉嫌从事与俄相关间谍活动在英被捕",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-11/10729877.shtml",
-    "country": "GB",
-    "source": "chinanews",
-    "when": "2026-11-10"
-   },
-   {
-    "kind": "judicial",
-    "title": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
-    "url": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss",
-    "country": "MY",
-    "source": "bbc",
-    "when": "2026-11-10"
-   },
-   {
-    "kind": "judicial",
     "title": "Disgraced former leader Sheikh Hasina plans return to Bangladesh from exile",
     "url": "https://www.theguardian.com/world/2026/nov/10/disgraced-former-leader-sheikh-hasina-plans-return-to-bangladesh-after-two-years-in-exile",
     "country": "IN",
@@ -1302,12 +1308,12 @@
     "when": "2026-11-10"
    }
   ],
-  "notable_total": 10,
+  "notable_total": 9,
   "counts": {
    "extractive": 0,
-   "control": 0,
+   "control": 1,
    "redistributive": 0,
-   "notable": 10
+   "notable": 9
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2425,8 +2431,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 0.0,
-    "carry": 0.24,
+    "value": 1.0,
+    "carry": 0.4,
     "z": null,
     "score": null,
     "available": false
@@ -2435,8 +2441,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.78,
-    "carry": 0.53,
+    "value": 1.22,
+    "carry": 0.6,
     "z": null,
     "score": null,
     "available": false
@@ -2452,14 +2458,21 @@
    "ongoing": true
   },
   "evidence": {
-   "who": []
+   "who": [
+    {
+     "t": "First Covid lockdowns, then alcohol to your door: rise in young Victorians with ",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    }
+   ]
   }
  },
  "doom": {
-  "index": 71.7,
-  "z": 0.56,
+  "index": 71.6,
+  "z": 0.55,
   "parts": {
-   "military": 0.56,
+   "military": 0.55,
    "hazard": null,
    "epidemic": null
   },
@@ -2496,14 +2509,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 142,
-   "items": 42955,
+   "files": 144,
+   "items": 41851,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 38,
+   "items": 23,
    "error": "",
    "undated": 0
   },
@@ -2524,7 +2537,7 @@
   {
    "source": "dw",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2551,9 +2564,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）",
+   "ok": true,
+   "items": 7,
+   "error": "",
    "undated": 0
   },
   {
@@ -2670,7 +2683,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 5103,
+   "items": 10798,
    "error": ""
   },
   {
