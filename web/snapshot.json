@@ -1,8 +1,8 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-12T07:08:02+00:00",
+ "generated_at": "2026-11-12T17:34:51+00:00",
  "date": "2026-11-11",
- "geti": 73.4,
+ "geti": 73.3,
  "delta_z": 0.71,
  "delta_pts": 1.7,
  "confidence": 0.95,
@@ -245,12 +245,269 @@
  ],
  "events": [
   {
+   "id": "f5a7565d3344",
+   "title": "The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit",
+   "url": "https://www.theguardian.com/environment/2026/nov/12/greta-thunberg-cop31-climate-summit",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "guardian",
+    "aljazeera"
+   ],
+   "published": "2026-11-12T16:39:47+00:00",
+   "note": "Swedish activist criticised world governments for their failure to prevent environmental breakdown The planet is “not dying, it is being killed and we know by who”, said Greta Thun",
+   "region": "OTHER"
+  },
+  {
+   "id": "cfcd73901a7d",
+   "title": "菲律宾马尼拉街头发生警匪交火 致两死一伤",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10731227.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-12T14:27:58+00:00",
+   "note": "中新社马尼拉11月12日电 (记者 周璟)据菲律宾警方12日通报，首都马尼拉街头当天中午发生一起警匪交火事件，造成两名嫌疑人死亡，另有一名警察受伤。",
+   "region": "OTHER"
+  },
+  {
+   "id": "10d99a313713",
+   "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-12T16:51:36+00:00",
+   "note": "Suspect has died after suffering a gunshot wound; one injured person in critical condition Multiple people shot in Washington DC as police warn people to stay inside The incident i",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "2f4264182f92",
+   "title": "UAE says 14 killed, 30 injured in Fujairah traffic accident",
+   "url": "https://www.aljazeera.com/news/2026/11/12/uae-says-14-killed-30-injured-in-fujairah-traffic-accident?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-12T16:23:29+00:00",
+   "note": "Ministry says a driver lost control of his truck, causing a collision and fire involving 18 vehicles.",
+   "region": "OTHER"
+  },
+  {
+   "id": "72bfa2811187",
+   "title": "Israel kills six in Gaza hospital strike as 9-month-old baby freezes to death",
+   "url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-12T16:18:24+00:00",
+   "note": "An overnight Israeli air strike on Nasser Hospital in southern Gaza killed at least six Palestinians Thursday, including a teenage boy and a surgeon, medics said. Elsewhere in the ",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "855fa6e514b3",
+   "title": "NAZA: how and where to watch the Guardian’s acclaimed Gaza documentary",
+   "url": "https://www.theguardian.com/global/2026/nov/12/naza-how-to-watch-guardian-acclaimed-gaza-documentary",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-12T14:23:50+00:00",
+   "note": "Film features testimony from 24 Israeli officials involved in surveillance and remote killing of Palestinian civilians • NAZA is in cinemas worldwide and will screen for free on th",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "b87dace28cd7",
+   "title": "Suspect shoots himself after killing 1 and wounding 4 in Washington",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374259/5-people-shot-neighbourhood-north-us-white-house",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-12T14:23:48+00:00",
+   "note": "Five people were shot early on Thursday in a trendy Washington neighbourhood within walking distance of the White House, police said, and the suspected gunman later shot himself as",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "cb35e610d338",
+   "title": "‘Horrific crime’: Gaza doctor killed as Israel expands war on healthcare",
+   "url": "https://www.aljazeera.com/news/2026/11/12/horrific-crime-gaza-doctor-killed-as-israel-expands-war-on-healthcare?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-12T14:23:01+00:00",
+   "note": "Israel's military campaign and mass detentions collapse Palestinian healthcare in Gaza and the West Bank.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "a125f2a4286e",
+   "title": "At least five people shot, one killed, in central Washington, DC",
+   "url": "https://www.aljazeera.com/news/2026/11/12/police-say-at-least-five-people-shot-at-busy-thoroughfare-in-washington-dc?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-12T14:19:37+00:00",
+   "note": "Authorities say the suspected shooter has been apprehended, after he shot himself.",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "c9aac7305962",
+   "title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
+   "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-12T13:58:49+00:00",
+   "note": "A suspected gang leader considered a \"priority target\" was among those killed, the Colombian president says.",
+   "region": "LATAM"
+  },
+  {
+   "id": "de9b93dc4a13",
+   "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-12T13:43:09+00:00",
+   "note": "At least eight people died after a three-storey building in Brooklyn collapsed at the edge of a construction site, New York City’s mayor said on Thursday, as firefighters kept digg",
+   "region": "OTHER"
+  },
+  {
+   "id": "7705f18abd46",
+   "title": "Family of killed teen Javits Frimpong calls for justice",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/family-of-killed-teen-javits-frimpong-calls-for-justice?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-12T13:27:32+00:00",
+   "note": "The family of slain Ghanaian teen Javits Frimpong have reiterated demands for justice after police arrested a suspect.",
+   "region": "OTHER"
+  },
+  {
+   "id": "631a9d61de83",
+   "title": "More than 1,800 Italian schools targeted by new hoax bomb alerts",
+   "url": "https://www.aljazeera.com/news/2026/11/12/more-than-1800-italian-schools-targeted-by-new-hoax-bomb-alerts?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-12T13:20:20+00:00",
+   "note": "The latest warnings come amid rising concerns ⁠⁠⁠⁠⁠⁠⁠⁠in Europe about hybrid warfare threats.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "192ccc16d661",
+   "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+   "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc",
+    "bbc"
+   ],
+   "published": "2026-11-12T13:02:46+00:00",
+   "note": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "9e9b2bdd911f",
+   "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+   "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-12T12:39:39+00:00",
+   "note": "Schools across Italy have received bomb threats for the second day in a row, sparking fresh panic and evacuations.",
+   "region": "OTHER"
+  },
+  {
+   "id": "da3905eb98b8",
+   "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
+   "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-12T12:19:01+00:00",
+   "note": "Hospital director says 28 wounded in attack on one of few remaining medical facilities in the strip An Israeli airstrike on Nasser hospital in southern Gaza killed six people, incl",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "2c98f2ba342f",
+   "title": "俄方对圣彼得堡汽车爆炸致军人死亡案展开刑事调查",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730852.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-12T08:12:40+00:00",
+   "note": "中新社莫斯科11月12日电 俄罗斯侦查委员会圣彼得堡市侦查总局12日表示，针对圣彼得堡普希金区汽车爆炸致一名军人死亡事件，侦查机关已进行刑事立案，并展开调查。",
+   "region": "RUSSIA_CIS"
+  },
+  {
    "id": "afc61d5ca1f6",
    "title": "俄媒：一名俄军官在圣彼得堡汽车爆炸事件中丧生",
    "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730799.shtml",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -260,79 +517,49 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "8d737e0caf17",
-   "title": "Amnesty says UN, South Sudan officials failed to prevent village massacre",
-   "url": "https://www.aljazeera.com/news/2026/11/12/amnesty-says-un-south-sudan-officials-failed-to-prevent-village-massacre?traffic_source=rss",
+   "id": "bb0751f714da",
+   "title": "Israel strikes Gaza hospital, says Hamas senior figure inside",
+   "url": "https://www.dw.com/en/israel-strikes-gaza-hospital-says-hamas-senior-figure-inside/a-79927645?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "dw"
    ],
-   "published": "2026-11-12T04:00:24+00:00",
-   "note": "Peacekeepers knew of likely raid on Abiemnom, where more than 200 people were killed, according to rights group report.",
-   "region": "AFRICA"
-  },
-  {
-   "id": "3a588c156a79",
-   "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-   "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-12T01:51:00+00:00",
-   "note": "Four critical in hospital as firefighters dig through rubble in Flatbush after building next to construction site collapses Firefighters dug through the rubble of a three-story bui",
-   "region": "OTHER"
-  },
-  {
-   "id": "173db8862e51",
-   "title": "Israel strikes intensive care at Gaza’s Nasser Hospital",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-12T01:20:55+00:00",
-   "note": "Gaza's Civil Defence says an Israeli strike on Nasser Hospital has killed at least six people.",
+   "published": "2026-11-12T11:27:00+00:00",
+   "note": "Israel says Hamas was using the hospital as a military command center, while Palestinian officials report at least six people killed, including a surgeon. The strike comes amid an ",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "4492a8a4ad5d",
-   "title": "European leaders gather in Dublin under the shadow of hybrid threats",
-   "url": "https://www.france24.com/en/european-leaders-gather-in-dublin-under-the-shadow-of-hybrid-threats",
-   "component": "military",
+   "id": "406e46c1ce10",
+   "title": "Abby Choi’s ex-brother-in-law admits to erasing evidence by wiping down car",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374193/abby-chois-ex-brother-law-admits-erasing-evidence-wiping-down-car",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "france24"
+    "scmp"
    ],
-   "published": "2026-11-11T22:46:57+00:00",
-   "note": "Ireland is mounting the largest security operation in its history as around 50 European leaders gather in Dublin this week amid growing concerns over hybrid attacks. The operation ",
-   "region": "EUROPE"
+   "published": "2026-11-12T08:01:57+00:00",
+   "note": "The former brother-in-law of slain Hong Kong socialite Abby Choi Tin-fung has admitted to erasing evidence of her killing by cleaning the car used to transport her body to a villag",
+   "region": "OTHER"
   },
   {
-   "id": "2cda798de94b",
-   "title": "Schools evacuated across Italy after bomb threats",
-   "url": "https://www.france24.com/en/schools-evacuated-across-italy-after-bomb-threats",
-   "component": "military",
+   "id": "3c3451cab2e3",
+   "title": "South Korean father accused of killing girl linked to son’s rape case",
+   "url": "https://www.scmp.com/news/asia/east-asia/article/3374191/south-korean-father-accused-killing-girl-linked-sons-rape-case",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "france24"
+    "scmp"
    ],
-   "published": "2026-11-11T19:29:19+00:00",
-   "note": "Schools were evacuated across Italy on Wednesday following a series of hoax bomb threats, but Italian Prime Minister Giorgia Meloni said there was no \"concrete danger\". Similar hoa",
-   "region": "OTHER"
+   "published": "2026-11-12T07:59:56+00:00",
+   "note": "South Korean police sought an arrest warrant on Thursday for a 59-year-old man, surnamed Jin, suspected of killing a 15-year-old girl who was the alleged victim in a statutory rape",
+   "region": "EAST_ASIA"
   },
   {
    "id": "33b7888d3ed7",
@@ -350,57 +577,12 @@
    "region": "OTHER"
   },
   {
-   "id": "c922d77030e7",
-   "title": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
-   "url": "https://www.france24.com/en/france/20261111-tehran-will-strike-us-bases-in-europe-if-used-to-attack-iran-security-chief-says",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-11T16:45:46+00:00",
-   "note": "Iranian security chief Mohsen Rezaei said Wednesday that Tehran would attack US bases located in Europe if they were used to carry out bombing raids against the Islamic republic. T",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "fc0a1a020342",
-   "title": "US envoys to meet Putin and Zelenskyy separately - as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-11T16:08:20+00:00",
-   "note": "This blog is now closed Separately, I am also keeping an eye on Italy, with reports that several schools are being evacuated after receiving bomb threats by emails. According to Ra",
-   "region": "OTHER"
-  },
-  {
-   "id": "151781027135",
-   "title": "Russia, Ukraine agree on prisoner exchange as talks end without major breakthrough",
-   "url": "https://www.scmp.com/news/world/europe/article/3374117/russia-ukraine-agree-prisoner-exchange-talks-end-without-major-breakthrough",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-11T14:54:11+00:00",
-   "note": "Russia and Ukraine agreed to a large exchange of prisoners of war, both sides said Wednesday as two days of US mediated talks concluded, but they announced no major breakthrough on",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "cab2da8a9fca",
    "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
    "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -415,7 +597,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -423,260 +605,80 @@
    "published": "2026-11-11T13:24:29+00:00",
    "note": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month.",
    "region": "NORTH_AMERICA"
-  },
+  }
+ ],
+ "breaking": [
   {
-   "id": "234a1721c405",
-   "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
-   "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
+   "id": "10d99a313713",
+   "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-11T12:14:12+00:00",
-   "note": "The 400 Mawozo gang was targeted by El Salvador's military, which has deployed thousands of troops to combat Haiti's gang violence crisis.",
-   "region": "LATAM"
-  },
-  {
-   "id": "37dbf65f133e",
-   "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland",
-   "url": "https://www.scmp.com/news/world/europe/article/3374103/over-300-italian-schools-evacuated-after-receiving-same-emailed-bomb-alert",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-11T11:47:16+00:00",
-   "note": "Schools across Italy were evacuated on Wednesday after around 6,300 of them received bomb warnings, the latest in a series of threats and cyberattacks around Europe against superma",
-   "region": "OTHER"
-  },
-  {
-   "id": "61f92dafd385",
-   "title": "'If I tell you to run, run': BBC joins a Ukrainian drone unit as it protects a front-line city",
-   "url": "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-10T18:35:35+00:00",
-   "note": "Slovyansk continues to be bombarded by Russian forces, making it almost uninhabitable with less than 10% of its pre-war population remaining.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "5d4dd67069b3",
-   "title": "也门胡塞武装称袭击沙特利雅得机场等目标",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730701.shtml",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-12T03:50:58+00:00",
-   "note": "中新社北京11月12日电 综合消息：也门胡塞武装军事发言人叶海亚·萨雷亚当地时间11日通过社交媒体宣布，该组织对多个沙特阿拉伯目标发动袭击，其中包括位于沙特首都利雅得的哈立德国王国际机场。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "fcf609cf6bf3",
-   "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
-   "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-12T06:12:05+00:00",
-   "note": "The strike hit the surgery department of Nasser Hospital, injuring at least 20 people and causing extensive damage, a spokesperson says.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "252a56b38a84",
-   "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
-   "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-12T05:59:18+00:00",
-   "note": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "3fe8140460b7",
-   "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
-   "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
-   "component": "military",
-   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-12T03:00:07+00:00",
-   "note": "Since the US war on Iran began in February, there have been hundreds of oil spills, posing a ‘generational’ threat to wildlife The vast, dark slicks in the strait of Hormuz are vis",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-12T16:51:36+00:00",
+   "note": "Suspect has died after suffering a gunshot wound; one injured person in critical condition Multiple people shot in Washington DC as police warn people to stay inside The incident i",
+   "region": "NORTH_AMERICA"
   },
   {
-   "id": "9d3cac4f95e1",
-   "title": "驻守48年后，联合国维和部队准备撤离黎巴嫩",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143179",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.43,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-11T12:00:00+00:00",
-   "note": "联合国驻黎巴嫩临时部队（联黎部队）周三表示，尽管今年6月美国、黎巴嫩和以色列达成协议后，敌对行动明显减少，但黎巴嫩南部局势仍不稳定，返乡居民重建生活面临重重困难。随着联黎部队任务即将结束，当地对未来安全和生计的担忧也在加深。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "486043715a29",
-   "title": "美国中央司令部发布声明：严格执行对伊朗海上封锁",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730583.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-11T23:24:27+00:00",
-   "note": "中新网11月12日电 当地时间11日，美国中央司令部在社交媒体上发布声明称，美军继续夜以继日地开展行动，以确保霍尔木兹海峡对商业航运保持开放。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "5faec17a5074",
-   "title": "China backs Cuba as Havana raises US fuel pressure in Beijing",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3374127/china-backs-cuba-havana-raises-us-fuel-pressure-beijing",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-11T22:28:30+00:00",
-   "note": "China pledged on Wednesday to stand by Cuba against sanctions and foreign interference, days after Washington penalised two Chinese state-linked firms for allegedly supplying the C",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "9d898a3b2246",
-   "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-   "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-11T22:07:37+00:00",
-   "note": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
-   "region": "OTHER"
-  },
-  {
-   "id": "4937fe6a5cd5",
-   "title": "General strike over housing brings out hundreds of thousands in Spain",
-   "url": "https://www.france24.com/en/general-strike-over-housing-brings-out-hundreds-of-thousands-in-spain",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24",
-    "france24"
-   ],
-   "published": "2026-11-11T21:31:10+00:00",
-   "note": "Millions of workers in Spain shut down businesses and public transport on Wednesday, as part of the country's first general strike in 14 years. Following a peaceful march in Barcel",
-   "region": "OTHER"
-  }
- ],
- "breaking": [
-  {
-   "id": "afc61d5ca1f6",
-   "title": "俄媒：一名俄军官在圣彼得堡汽车爆炸事件中丧生",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730799.shtml",
-   "component": "narrative",
+   "id": "f5a7565d3344",
+   "title": "The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit",
+   "url": "https://www.theguardian.com/environment/2026/nov/12/greta-thunberg-cop31-climate-summit",
+   "component": "diplomacy",
    "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
+   "confidence": 0.82,
+   "origins": 2,
    "sources": [
-    "chinanews"
+    "guardian",
+    "aljazeera"
    ],
-   "published": "2026-11-12T06:49:29+00:00",
-   "note": "中新网11月12日电 据俄罗斯媒体报道，俄罗斯圣彼得堡市12日清晨发生一起汽车爆炸事件，导致一名俄罗斯军官丧生。",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-12T16:39:47+00:00",
+   "note": "Swedish activist criticised world governments for their failure to prevent environmental breakdown The planet is “not dying, it is being killed and we know by who”, said Greta Thun",
+   "region": "OTHER"
   },
   {
-   "id": "fcf609cf6bf3",
-   "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
-   "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-12T06:12:05+00:00",
-   "note": "The strike hit the surgery department of Nasser Hospital, injuring at least 20 people and causing extensive damage, a spokesperson says.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "252a56b38a84",
-   "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
-   "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-12T05:59:18+00:00",
-   "note": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "8d737e0caf17",
-   "title": "Amnesty says UN, South Sudan officials failed to prevent village massacre",
-   "url": "https://www.aljazeera.com/news/2026/11/12/amnesty-says-un-south-sudan-officials-failed-to-prevent-village-massacre?traffic_source=rss",
-   "component": "military",
+   "id": "2f4264182f92",
+   "title": "UAE says 14 killed, 30 injured in Fujairah traffic accident",
+   "url": "https://www.aljazeera.com/news/2026/11/12/uae-says-14-killed-30-injured-in-fujairah-traffic-accident?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-12T04:00:24+00:00",
-   "note": "Peacekeepers knew of likely raid on Abiemnom, where more than 200 people were killed, according to rights group report.",
-   "region": "AFRICA"
+   "published": "2026-11-12T16:23:29+00:00",
+   "note": "Ministry says a driver lost control of his truck, causing a collision and fire involving 18 vehicles.",
+   "region": "OTHER"
+  },
+  {
+   "id": "72bfa2811187",
+   "title": "Israel kills six in Gaza hospital strike as 9-month-old baby freezes to death",
+   "url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-12T16:18:24+00:00",
+   "note": "An overnight Israeli air strike on Nasser Hospital in southern Gaza killed at least six Palestinians Thursday, including a teenage boy and a surgeon, medics said. Elsewhere in the ",
+   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 41879,
-  "gdelt_events": 41613,
+  "items": 40879,
+  "gdelt_events": 40622,
   "mode": "live",
   "data_through": "2026-11-11",
-  "clusters": 253,
-  "origins": 257,
+  "clusters": 250,
+  "origins": 253,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1164,7 +1166,7 @@
   },
   {
    "date": "2026-10-29",
-   "geti": 53.9
+   "geti": 53.8
   },
   {
    "date": "2026-10-30",
@@ -1172,23 +1174,23 @@
   },
   {
    "date": "2026-10-31",
-   "geti": 50.1
+   "geti": 50.0
   },
   {
    "date": "2026-11-01",
-   "geti": 37.9
+   "geti": 37.8
   },
   {
    "date": "2026-11-02",
-   "geti": 37.7
+   "geti": 37.6
   },
   {
    "date": "2026-11-03",
-   "geti": 52.8
+   "geti": 52.7
   },
   {
    "date": "2026-11-04",
-   "geti": 61.7
+   "geti": 61.6
   },
   {
    "date": "2026-11-05",
@@ -1200,11 +1202,11 @@
   },
   {
    "date": "2026-11-07",
-   "geti": 66.7
+   "geti": 66.6
   },
   {
    "date": "2026-11-08",
-   "geti": 69.1
+   "geti": 69.0
   },
   {
    "date": "2026-11-09",
@@ -1216,7 +1218,7 @@
   },
   {
    "date": "2026-11-11",
-   "geti": 73.4
+   "geti": 73.3
   }
  ],
  "policy": {
@@ -1224,8 +1226,48 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "江西省人大常委会原委员郭兵被开除党籍",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730792.shtml",
+    "title": "Farage was guest on Brand podcast after sexual assault investigation began",
+    "url": "https://www.theguardian.com/politics/2026/nov/12/farage-was-guest-on-brand-podcast-after-sexual-assault-investigation-began",
+    "country": "GB",
+    "source": "guardian",
+    "when": "2026-11-12"
+   },
+   {
+    "kind": "judicial",
+    "title": "UK court convicts 2 Iranian men of spying on journalists",
+    "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-world-4025-rdf",
+    "country": "GB",
+    "source": "dw",
+    "when": "2026-11-12"
+   },
+   {
+    "kind": "judicial",
+    "title": "Icac’s drama and dirt files show NSW’s ‘guns for hire’ problem. But neither major party is serious about reform",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/13/icac-chris-minns-nsw-undeclared-lobbying-bill-ntwnfb",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-12"
+   },
+   {
+    "kind": "judicial",
+    "title": "广东省委宣传部原副部长倪谦被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730956.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-12"
+   },
+   {
+    "kind": "judicial",
+    "title": "广西壮族自治区水利厅一级巡视员李建文接受监察调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730954.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-12"
+   },
+   {
+    "kind": "judicial",
+    "title": "山东省聊城经济技术开发区党工委书记任海波接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730861.shtml",
     "country": "",
     "source": "chinanews_cn",
     "when": "2026-11-12"
@@ -1248,58 +1290,10 @@
    },
    {
     "kind": "judicial",
-    "title": "华润集团原副总经理韩嵩被公诉",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730730.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "山东省生态环境厅原一级巡视员霍太英被开除党籍",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730686.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "山东省淄博市政协原副主席刘东军被开除党籍",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730685.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "贵州省农业发展集团原党委书记芦忠于被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730669.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "拜登在爱尔兰遭抗议者扔掷物品 一男子被起诉",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730600.shtml",
-    "country": "US",
-    "source": "chinanews",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
     "title": "人权高专欢迎特立尼达和多巴哥同性关系非刑事化判决",
     "url": "https://news.un.org/feed/view/zh/story/2026/11/1143177",
     "country": "",
     "source": "un_news_zh",
-    "when": "2026-11-11"
-   },
-   {
-    "kind": "judicial",
-    "title": "Woman in Saudi Arabia sentenced to 100 lashes for giving birth outside marriage",
-    "url": "https://www.theguardian.com/global-development/2026/nov/11/woman-in-saudi-arabia-sentenced-to-100-lashes-for-giving-birth-outside-marriage",
-    "country": "SA",
-    "source": "guardian",
     "when": "2026-11-11"
    },
    {
@@ -1319,29 +1313,29 @@
     "when": "2026-11-11"
    }
   ],
-  "notable_total": 13,
+  "notable_total": 11,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 13
+   "notable": 11
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 75.2,
-  "z": 0.666,
+  "index": 69.4,
+  "z": 0.492,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 19.46,
-    "chg5": -6.58,
-    "z": 0.816,
+    "last": 17.49,
+    "chg5": 5.3,
+    "z": 0.362,
     "ok": true,
-    "asof": "2026-11-10"
+    "asof": "2026-11-11"
    },
    {
     "id": "oil",
@@ -1355,11 +1349,11 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.34,
-    "chg5": -2.62,
-    "z": 0.832,
+    "last": 3.3,
+    "chg5": -2.94,
+    "z": 0.767,
     "ok": true,
-    "asof": "2026-11-09"
+    "asof": "2026-11-11"
    },
    {
     "id": "usd",
@@ -1380,13 +1374,13 @@
     "asof": "2026-11-09"
    }
   ],
-  "asof": "2026-11-10",
+  "asof": "2026-11-11",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 107,
+    "items": 108,
     "error": ""
    },
    {
@@ -1398,7 +1392,7 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 106,
+    "items": 107,
     "error": ""
    },
    {
@@ -2243,7 +2237,7 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.58,
+    "value": 8.59,
     "carry": 9.17,
     "z": null,
     "score": null,
@@ -2253,8 +2247,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 17.0,
-    "carry": 13.93,
+    "value": 18.0,
+    "carry": 14.08,
     "z": null,
     "score": null,
     "available": false
@@ -2263,8 +2257,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 2.0,
-    "carry": 2.15,
+    "value": 4.0,
+    "carry": 2.45,
     "z": null,
     "score": null,
     "available": false
@@ -2350,19 +2344,31 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txpa"
     },
     {
+     "t": "168 km W of Fakfak, Indonesia",
+     "v": 4.7,
+     "ts": "2026-11-11T12:17+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txiw"
+    },
+    {
      "t": "152 km WSW of Merizo Village, Guam",
      "v": 4.7,
      "ts": "2026-11-11T08:37+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txi0"
-    },
-    {
-     "t": "130 km W of Tofino, Canada",
-     "v": 4.7,
-     "ts": "2026-11-11T01:45+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txfz"
     }
    ],
    "eonet": [
+    {
+     "t": "Wildfire Red Hill, Perry, Mississippi",
+     "v": "wildfires",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26331"
+    },
+    {
+     "t": "Prescribed Fire Bienville CPT 29 Sub 2 RX, Scott, Mississippi",
+     "v": "wildfires",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26332"
+    },
     {
      "t": "Typhoon Cempaka",
      "v": "severe storms",
@@ -2378,16 +2384,16 @@
    ],
    "gdacs": [
     {
-     "t": "Green forest fire notification in Chad",
-     "v": "green",
-     "ts": "2026-11-11 20:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033743"
-    },
-    {
      "t": "Green forest fire notification in Central African Republic, Chad",
      "v": "green",
      "ts": "2026-11-11 16:01",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033697"
+    },
+    {
+     "t": "Green forest fire notification in Chad",
+     "v": "green",
+     "ts": "2026-11-11 20:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033743"
     },
     {
      "t": "Green forest fire notification in Senegal",
@@ -2402,10 +2408,10 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033706"
     },
     {
-     "t": "Green forest fire notification in Burkina Faso, Mali",
+     "t": "Green forest fire notification in Senegal",
      "v": "green",
-     "ts": "2026-11-11 00:13",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033712"
+     "ts": "2026-11-11 20:13",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033685"
     },
     {
      "t": "Green forest fire notification in Central African Republic, South Sudan, Sudan",
@@ -2414,10 +2420,10 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033756"
     },
     {
-     "t": "Green forest fire notification in Senegal",
+     "t": "Green forest fire notification in Burkina Faso, Mali",
      "v": "green",
-     "ts": "2026-11-11 20:13",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033685"
+     "ts": "2026-11-11 00:13",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033712"
     },
     {
      "t": "Green forest fire notification in Senegal",
@@ -2478,8 +2484,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 1.0,
-    "carry": 0.49,
+    "value": 0.0,
+    "carry": 0.34,
     "z": null,
     "score": null,
     "available": false
@@ -2488,8 +2494,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 2.26,
-    "carry": 0.84,
+    "value": 2.33,
+    "carry": 0.85,
     "z": null,
     "score": null,
     "available": false
@@ -2505,18 +2511,11 @@
    "ongoing": true
   },
   "evidence": {
-   "who": [
-    {
-     "t": "美国中央司令部发布声明：严格执行对伊朗海上封锁",
-     "v": "政策",
-     "ts": "",
-     "u": ""
-    }
-   ]
+   "who": []
   }
  },
  "doom": {
-  "index": 73.4,
+  "index": 73.3,
   "z": 0.61,
   "parts": {
    "military": 0.61,
@@ -2557,7 +2556,7 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 41613,
+   "items": 40622,
    "error": ""
   },
   {
@@ -2577,14 +2576,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 36,
+   "items": 33,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2612,7 +2611,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 14,
+   "items": 7,
    "error": "",
    "undated": 0
   },
@@ -2640,7 +2639,7 @@
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 107,
+   "items": 108,
    "error": ""
   },
   {
@@ -2652,7 +2651,7 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 106,
+   "items": 107,
    "error": ""
   },
   {
@@ -2700,13 +2699,13 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 17,
+   "items": 18,
    "error": ""
   },
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 2,
+   "items": 4,
    "error": ""
   },
   {
@@ -2730,7 +2729,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 5621,
+   "items": 12357,
    "error": ""
   },
   {
