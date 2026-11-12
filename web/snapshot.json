@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-12T17:34:51+00:00",
+ "generated_at": "2026-11-12T23:37:54+00:00",
  "date": "2026-11-11",
  "geti": 73.3,
  "delta_z": 0.71,
@@ -245,70 +245,24 @@
  ],
  "events": [
   {
-   "id": "f5a7565d3344",
-   "title": "The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit",
-   "url": "https://www.theguardian.com/environment/2026/nov/12/greta-thunberg-cop31-climate-summit",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.82,
-   "origins": 2,
-   "sources": [
-    "guardian",
-    "aljazeera"
-   ],
-   "published": "2026-11-12T16:39:47+00:00",
-   "note": "Swedish activist criticised world governments for their failure to prevent environmental breakdown The planet is “not dying, it is being killed and we know by who”, said Greta Thun",
-   "region": "OTHER"
-  },
-  {
-   "id": "cfcd73901a7d",
-   "title": "菲律宾马尼拉街头发生警匪交火 致两死一伤",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10731227.shtml",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-12T14:27:58+00:00",
-   "note": "中新社马尼拉11月12日电 (记者 周璟)据菲律宾警方12日通报，首都马尼拉街头当天中午发生一起警匪交火事件，造成两名嫌疑人死亡，另有一名警察受伤。",
-   "region": "OTHER"
-  },
-  {
-   "id": "10d99a313713",
-   "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+   "id": "3b2ef338c4ab",
+   "title": "Eight killed, including two children, in New York building collapse",
+   "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "france24"
    ],
-   "published": "2026-11-12T16:51:36+00:00",
-   "note": "Suspect has died after suffering a gunshot wound; one injured person in critical condition Multiple people shot in Washington DC as police warn people to stay inside The incident i",
-   "region": "NORTH_AMERICA"
-  },
-  {
-   "id": "2f4264182f92",
-   "title": "UAE says 14 killed, 30 injured in Fujairah traffic accident",
-   "url": "https://www.aljazeera.com/news/2026/11/12/uae-says-14-killed-30-injured-in-fujairah-traffic-accident?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-12T16:23:29+00:00",
-   "note": "Ministry says a driver lost control of his truck, causing a collision and fire involving 18 vehicles.",
+   "published": "2026-11-12T22:58:23+00:00",
+   "note": "Eight people, including two children, were killed when a residential building collapsed into an adjacent construction site in Brooklyn on Wednesday. Firefighters spent hours search",
    "region": "OTHER"
   },
   {
-   "id": "72bfa2811187",
-   "title": "Israel kills six in Gaza hospital strike as 9-month-old baby freezes to death",
-   "url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
+   "id": "c414bc475521",
+   "title": "Ngo criticizes UN's response to massacre in South Sudan",
+   "url": "https://www.france24.com/en/ngo-criticizes-un-s-response-to-massacre-in-south-sudan",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -316,145 +270,40 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-12T16:18:24+00:00",
-   "note": "An overnight Israeli air strike on Nasser Hospital in southern Gaza killed at least six Palestinians Thursday, including a teenage boy and a surgeon, medics said. Elsewhere in the ",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-12T21:20:52+00:00",
+   "note": "In tonight's edition, Amnesty International accuses both the government and UN peacekeepers of failing to protect civilians during a massacre in South Sudan that killed over 200 pe",
+   "region": "AFRICA"
   },
   {
-   "id": "855fa6e514b3",
-   "title": "NAZA: how and where to watch the Guardian’s acclaimed Gaza documentary",
-   "url": "https://www.theguardian.com/global/2026/nov/12/naza-how-to-watch-guardian-acclaimed-gaza-documentary",
+   "id": "d589177ed243",
+   "title": "Deadly shooting in Washington DC",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "aljazeera",
+    "aljazeera"
    ],
-   "published": "2026-11-12T14:23:50+00:00",
-   "note": "Film features testimony from 24 Israeli officials involved in surveillance and remote killing of Palestinian civilians • NAZA is in cinemas worldwide and will screen for free on th",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "b87dace28cd7",
-   "title": "Suspect shoots himself after killing 1 and wounding 4 in Washington",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374259/5-people-shot-neighbourhood-north-us-white-house",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-12T14:23:48+00:00",
-   "note": "Five people were shot early on Thursday in a trendy Washington neighbourhood within walking distance of the White House, police said, and the suspected gunman later shot himself as",
+   "published": "2026-11-12T21:18:24+00:00",
+   "note": "Police in the US capital are investigating a shooting around a mile from the White House that led to one person killed",
    "region": "NORTH_AMERICA"
   },
   {
-   "id": "cb35e610d338",
-   "title": "‘Horrific crime’: Gaza doctor killed as Israel expands war on healthcare",
-   "url": "https://www.aljazeera.com/news/2026/11/12/horrific-crime-gaza-doctor-killed-as-israel-expands-war-on-healthcare?traffic_source=rss",
+   "id": "8496a1cf75cf",
+   "title": "Israeli strike on Gaza hospital kills six, including surgeon, medics say",
+   "url": "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "france24"
    ],
-   "published": "2026-11-12T14:23:01+00:00",
-   "note": "Israel's military campaign and mass detentions collapse Palestinian healthcare in Gaza and the West Bank.",
+   "published": "2026-11-12T20:03:55+00:00",
+   "note": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike ",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "a125f2a4286e",
-   "title": "At least five people shot, one killed, in central Washington, DC",
-   "url": "https://www.aljazeera.com/news/2026/11/12/police-say-at-least-five-people-shot-at-busy-thoroughfare-in-washington-dc?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-12T14:19:37+00:00",
-   "note": "Authorities say the suspected shooter has been apprehended, after he shot himself.",
-   "region": "NORTH_AMERICA"
-  },
-  {
-   "id": "c9aac7305962",
-   "title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
-   "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-12T13:58:49+00:00",
-   "note": "A suspected gang leader considered a \"priority target\" was among those killed, the Colombian president says.",
-   "region": "LATAM"
-  },
-  {
-   "id": "de9b93dc4a13",
-   "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-12T13:43:09+00:00",
-   "note": "At least eight people died after a three-storey building in Brooklyn collapsed at the edge of a construction site, New York City’s mayor said on Thursday, as firefighters kept digg",
-   "region": "OTHER"
-  },
-  {
-   "id": "7705f18abd46",
-   "title": "Family of killed teen Javits Frimpong calls for justice",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/family-of-killed-teen-javits-frimpong-calls-for-justice?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-12T13:27:32+00:00",
-   "note": "The family of slain Ghanaian teen Javits Frimpong have reiterated demands for justice after police arrested a suspect.",
-   "region": "OTHER"
-  },
-  {
-   "id": "631a9d61de83",
-   "title": "More than 1,800 Italian schools targeted by new hoax bomb alerts",
-   "url": "https://www.aljazeera.com/news/2026/11/12/more-than-1800-italian-schools-targeted-by-new-hoax-bomb-alerts?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-12T13:20:20+00:00",
-   "note": "The latest warnings come amid rising concerns ⁠⁠⁠⁠⁠⁠⁠⁠in Europe about hybrid warfare threats.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "192ccc16d661",
-   "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-   "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc",
-    "bbc"
-   ],
-   "published": "2026-11-12T13:02:46+00:00",
-   "note": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "9e9b2bdd911f",
@@ -467,24 +316,54 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-12T12:39:39+00:00",
+   "published": "2026-11-12T19:23:02+00:00",
    "note": "Schools across Italy have received bomb threats for the second day in a row, sparking fresh panic and evacuations.",
    "region": "OTHER"
   },
   {
-   "id": "da3905eb98b8",
-   "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
-   "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
+   "id": "1d91681c12de",
+   "title": "Putin indicates he will not compromise on Ukraine in meeting with US envoys",
+   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374265/putin-indicates-he-will-not-compromise-ukraine-meeting-us-envoys",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "scmp"
    ],
-   "published": "2026-11-12T12:19:01+00:00",
-   "note": "Hospital director says 28 wounded in attack on one of few remaining medical facilities in the strip An Israeli airstrike on Nasser hospital in southern Gaza killed six people, incl",
+   "published": "2026-11-12T19:05:17+00:00",
+   "note": "Vladimir Putin indicated on Thursday that Russia will not compromise on its hardline demands to end the Ukraine offensive but offered a short-term ceasefire in a key frontline city",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "47120109c238",
+   "title": "Israeli strike on Gaza hospital kills 11 in deadliest attack since election",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-12T18:32:12+00:00",
+   "note": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike ",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "cfcd73901a7d",
+   "title": "菲律宾马尼拉街头发生警匪交火 致两死一伤",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10731227.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-12T14:27:58+00:00",
+   "note": "中新社马尼拉11月12日电 (记者 周璟)据菲律宾警方12日通报，首都马尼拉街头当天中午发生一起警匪交火事件，造成两名嫌疑人死亡，另有一名警察受伤。",
+   "region": "OTHER"
   },
   {
    "id": "2c98f2ba342f",
@@ -502,19 +381,124 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "afc61d5ca1f6",
-   "title": "俄媒：一名俄军官在圣彼得堡汽车爆炸事件中丧生",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730799.shtml",
-   "component": "narrative",
+   "id": "f5a7565d3344",
+   "title": "The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit",
+   "url": "https://www.theguardian.com/environment/2026/nov/12/greta-thunberg-cop31-climate-summit",
+   "component": "diplomacy",
    "severity": 5,
-   "confidence": 0.38,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "guardian"
    ],
-   "published": "2026-11-12T06:49:29+00:00",
-   "note": "中新网11月12日电 据俄罗斯媒体报道，俄罗斯圣彼得堡市12日清晨发生一起汽车爆炸事件，导致一名俄罗斯军官丧生。",
+   "published": "2026-11-12T16:39:47+00:00",
+   "note": "Swedish activist criticised world governments for their failure to prevent environmental breakdown The planet is “not dying, it is being killed and we know by who”, said Greta Thun",
+   "region": "OTHER"
+  },
+  {
+   "id": "72bfa2811187",
+   "title": "Israel kills six in Gaza hospital strike as 9-month-old baby freezes to death",
+   "url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-12T16:18:24+00:00",
+   "note": "An overnight Israeli air strike on Nasser Hospital in southern Gaza killed at least six Palestinians Thursday, including a teenage boy and a surgeon, medics said. Elsewhere in the ",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "855fa6e514b3",
+   "title": "NAZA: how and where to watch the Guardian’s acclaimed Gaza documentary",
+   "url": "https://www.theguardian.com/global/2026/nov/12/naza-how-to-watch-guardian-acclaimed-gaza-documentary",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-12T14:23:50+00:00",
+   "note": "Film features testimony from 24 Israeli officials involved in surveillance and remote killing of Palestinian civilians • NAZA is in cinemas worldwide and will screen for free on th",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "b87dace28cd7",
+   "title": "Suspect shoots himself after killing 1 and wounding 4 in Washington",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374259/5-people-shot-neighbourhood-north-us-white-house",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-12T14:23:48+00:00",
+   "note": "A man in a long-running dispute over the conditions of his penthouse flat gunned down the building manager in a busy gym on Thursday before fleeing and shooting four more people fr",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "c9aac7305962",
+   "title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
+   "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-12T13:58:49+00:00",
+   "note": "A suspected gang leader considered a \"priority target\" was among those killed, the Colombian president says.",
+   "region": "LATAM"
+  },
+  {
+   "id": "de9b93dc4a13",
+   "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-12T13:43:09+00:00",
+   "note": "At least eight people died after a three-storey building in Brooklyn collapsed at the edge of a construction site, New York City’s mayor said on Thursday, as firefighters kept digg",
+   "region": "OTHER"
+  },
+  {
+   "id": "192ccc16d661",
+   "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+   "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-12T13:02:46+00:00",
+   "note": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
    "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "da3905eb98b8",
+   "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
+   "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-12T12:19:01+00:00",
+   "note": "Hospital director says 28 wounded in attack on one of few remaining medical facilities in the strip An Israeli airstrike on Nasser hospital in southern Gaza killed six people, incl",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "bb0751f714da",
@@ -567,7 +551,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -605,59 +589,58 @@
    "published": "2026-11-11T13:24:29+00:00",
    "note": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month.",
    "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "97598ba7d50b",
+   "title": "古巴外长批评七国集团涉古声明回避美国对古封锁影响",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731243.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-12T22:02:57+00:00",
+   "note": "针对七国集团外长会议联合声明涉古巴内容，古巴外长罗德里格斯12日表示，该声明回避了美国政府对古巴实施封锁所造成的残酷影响，美国的封锁措施侵犯古巴人民的人权及第三国主权。",
+   "region": "NORTH_AMERICA"
   }
  ],
  "breaking": [
   {
-   "id": "10d99a313713",
-   "title": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
-   "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+   "id": "3b2ef338c4ab",
+   "title": "Eight killed, including two children, in New York building collapse",
+   "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "france24"
    ],
-   "published": "2026-11-12T16:51:36+00:00",
-   "note": "Suspect has died after suffering a gunshot wound; one injured person in critical condition Multiple people shot in Washington DC as police warn people to stay inside The incident i",
+   "published": "2026-11-12T22:58:23+00:00",
+   "note": "Eight people, including two children, were killed when a residential building collapsed into an adjacent construction site in Brooklyn on Wednesday. Firefighters spent hours search",
+   "region": "OTHER"
+  },
+  {
+   "id": "97598ba7d50b",
+   "title": "古巴外长批评七国集团涉古声明回避美国对古封锁影响",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731243.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-12T22:02:57+00:00",
+   "note": "针对七国集团外长会议联合声明涉古巴内容，古巴外长罗德里格斯12日表示，该声明回避了美国政府对古巴实施封锁所造成的残酷影响，美国的封锁措施侵犯古巴人民的人权及第三国主权。",
    "region": "NORTH_AMERICA"
   },
   {
-   "id": "f5a7565d3344",
-   "title": "The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit",
-   "url": "https://www.theguardian.com/environment/2026/nov/12/greta-thunberg-cop31-climate-summit",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.82,
-   "origins": 2,
-   "sources": [
-    "guardian",
-    "aljazeera"
-   ],
-   "published": "2026-11-12T16:39:47+00:00",
-   "note": "Swedish activist criticised world governments for their failure to prevent environmental breakdown The planet is “not dying, it is being killed and we know by who”, said Greta Thun",
-   "region": "OTHER"
-  },
-  {
-   "id": "2f4264182f92",
-   "title": "UAE says 14 killed, 30 injured in Fujairah traffic accident",
-   "url": "https://www.aljazeera.com/news/2026/11/12/uae-says-14-killed-30-injured-in-fujairah-traffic-accident?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-12T16:23:29+00:00",
-   "note": "Ministry says a driver lost control of his truck, causing a collision and fire involving 18 vehicles.",
-   "region": "OTHER"
-  },
-  {
-   "id": "72bfa2811187",
-   "title": "Israel kills six in Gaza hospital strike as 9-month-old baby freezes to death",
-   "url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
+   "id": "c414bc475521",
+   "title": "Ngo criticizes UN's response to massacre in South Sudan",
+   "url": "https://www.france24.com/en/ngo-criticizes-un-s-response-to-massacre-in-south-sudan",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -665,20 +648,36 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-12T16:18:24+00:00",
-   "note": "An overnight Israeli air strike on Nasser Hospital in southern Gaza killed at least six Palestinians Thursday, including a teenage boy and a surgeon, medics said. Elsewhere in the ",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-12T21:20:52+00:00",
+   "note": "In tonight's edition, Amnesty International accuses both the government and UN peacekeepers of failing to protect civilians during a massacre in South Sudan that killed over 200 pe",
+   "region": "AFRICA"
+  },
+  {
+   "id": "d589177ed243",
+   "title": "Deadly shooting in Washington DC",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera",
+    "aljazeera"
+   ],
+   "published": "2026-11-12T21:18:24+00:00",
+   "note": "Police in the US capital are investigating a shooting around a mile from the White House that led to one person killed",
+   "region": "NORTH_AMERICA"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 40879,
-  "gdelt_events": 40622,
+  "items": 41864,
+  "gdelt_events": 41607,
   "mode": "live",
   "data_through": "2026-11-11",
-  "clusters": 250,
-  "origins": 253,
+  "clusters": 253,
+  "origins": 255,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1130,7 +1129,7 @@
   },
   {
    "date": "2026-10-20",
-   "geti": 54.8
+   "geti": 54.7
   },
   {
    "date": "2026-10-21",
@@ -1158,7 +1157,7 @@
   },
   {
    "date": "2026-10-27",
-   "geti": 49.0
+   "geti": 48.9
   },
   {
    "date": "2026-10-28",
@@ -1226,10 +1225,18 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Farage was guest on Brand podcast after sexual assault investigation began",
-    "url": "https://www.theguardian.com/politics/2026/nov/12/farage-was-guest-on-brand-podcast-after-sexual-assault-investigation-began",
-    "country": "GB",
+    "title": "Icac’s dirt files expose NSW’s ‘guns for hire’ problem. But neither major party is serious about lobbying reform",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/13/icac-chris-minns-nsw-undeclared-lobbying-bill-ntwnfb",
+    "country": "",
     "source": "guardian",
+    "when": "2026-11-12"
+   },
+   {
+    "kind": "judicial",
+    "title": "Iranian men guilty of spying on British journalists",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iranian-men-guilty-of-spying-on-british-journalists?traffic_source=rss",
+    "country": "GB",
+    "source": "aljazeera",
     "when": "2026-11-12"
    },
    {
@@ -1238,14 +1245,6 @@
     "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-world-4025-rdf",
     "country": "GB",
     "source": "dw",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "Icac’s drama and dirt files show NSW’s ‘guns for hire’ problem. But neither major party is serious about reform",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/13/icac-chris-minns-nsw-undeclared-lobbying-bill-ntwnfb",
-    "country": "",
-    "source": "guardian",
     "when": "2026-11-12"
    },
    {
@@ -1274,22 +1273,6 @@
    },
    {
     "kind": "judicial",
-    "title": "Hong Kong’s ICAC charges team leader of Kai Tak Hospital subcontractor over extortion",
-    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374166/hong-kongs-icac-charges-team-leader-kai-tak-hospital-subcontractor-over-extortion",
-    "country": "HK",
-    "source": "scmp",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "UK eases BN(O) visa barriers for Hong Kong protesters convicted over 2019 unrest",
-    "url": "https://www.scmp.com/news/hong-kong/society/article/3374161/uk-eases-bno-visa-barriers-hong-kong-protesters-convicted-over-2019-unrest",
-    "country": "GB",
-    "source": "scmp",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
     "title": "人权高专欢迎特立尼达和多巴哥同性关系非刑事化判决",
     "url": "https://news.un.org/feed/view/zh/story/2026/11/1143177",
     "country": "",
@@ -1313,12 +1296,12 @@
     "when": "2026-11-11"
    }
   ],
-  "notable_total": 11,
+  "notable_total": 9,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 11
+   "notable": 9
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1367,11 +1350,11 @@
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 4.88,
-    "chg5": -0.61,
-    "z": -0.075,
+    "last": 4.98,
+    "chg5": 0.61,
+    "z": -0.154,
     "ok": true,
-    "asof": "2026-11-09"
+    "asof": "2026-11-10"
    }
   ],
   "asof": "2026-11-11",
@@ -1404,7 +1387,7 @@
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 102,
+    "items": 103,
     "error": ""
    }
   ],
@@ -2237,7 +2220,7 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.59,
+    "value": 8.6,
     "carry": 9.17,
     "z": null,
     "score": null,
@@ -2247,8 +2230,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 18.0,
-    "carry": 14.08,
+    "value": 19.0,
+    "carry": 14.23,
     "z": null,
     "score": null,
     "available": false
@@ -2396,16 +2379,16 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033743"
     },
     {
-     "t": "Green forest fire notification in Senegal",
-     "v": "green",
-     "ts": "2026-11-11 20:13",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033753"
-    },
-    {
      "t": "Green forest fire notification in Senegal, Mali",
      "v": "green",
      "ts": "2026-11-11 20:07",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033706"
+    },
+    {
+     "t": "Green forest fire notification in Senegal",
+     "v": "green",
+     "ts": "2026-11-11 20:13",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033753"
     },
     {
      "t": "Green forest fire notification in Senegal",
@@ -2438,22 +2421,22 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033715"
     },
     {
-     "t": "Green flood alert in Angola",
+     "t": "Green forest fire notification in Chad",
      "v": "green",
-     "ts": "2026-11-11 12:53",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104278"
-    },
-    {
-     "t": "Green forest fire notification in Benin, Niger, Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-11 20:19",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033639"
+     "ts": "2026-11-11 20:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033548"
     },
     {
      "t": "Green forest fire notification in Chad",
      "v": "green",
      "ts": "2026-11-11 20:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033597"
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033535"
+    },
+    {
+     "t": "Green forest fire notification in Chad",
+     "v": "green",
+     "ts": "2026-11-11 20:36",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033768"
     }
    ],
    "kp": [
@@ -2484,8 +2467,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 0.0,
-    "carry": 0.34,
+    "value": 1.0,
+    "carry": 0.49,
     "z": null,
     "score": null,
     "available": false
@@ -2494,8 +2477,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 2.33,
-    "carry": 0.85,
+    "value": 1.95,
+    "carry": 0.8,
     "z": null,
     "score": null,
     "available": false
@@ -2511,7 +2494,14 @@
    "ongoing": true
   },
   "evidence": {
-   "who": []
+   "who": [
+    {
+     "t": "古巴外长批评七国集团涉古声明回避美国对古封锁影响",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    }
+   ]
   }
  },
  "doom": {
@@ -2529,40 +2519,22 @@
   ]
  },
  "manual": {
-  "items": [
-   {
-    "number": 1,
-    "title": "线索：工伤认定新闻（测试）",
-    "note": "工伤认定问题",
-    "url": "https://github.com/jonetap/geti/issues/1",
-    "author": "jonetap",
-    "created": "2026-11-04T12:36:06Z",
-    "links": [
-     "https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/SuilUDmQOA1-LzmKwmgg7g"
-    ],
-    "images": [
-     "intel/9d8835a9a14b1106.png"
-    ],
-    "kind": "link",
-    "seen": false
-   }
-  ],
-  "unseen": 1,
-  "note": "人工提交 1 条，其中 1 条抓取器没有收录——这类条目也可能是我们的盲区。本层不计分。",
-  "mode": "shadow"
+  "items": [],
+  "note": "读取人工线索失败：HTTPError: HTTP Error 403: rate limit exceeded（不影响指数）",
+  "mode": "failed"
  },
  "adapters": [
   {
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 40622,
+   "items": 41607,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 31,
+   "items": 29,
    "error": "",
    "undated": 0
   },
@@ -2611,7 +2583,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 7,
+   "items": 9,
    "error": "",
    "undated": 0
   },
@@ -2663,7 +2635,7 @@
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 102,
+   "items": 103,
    "error": ""
   },
   {
@@ -2699,7 +2671,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 18,
+   "items": 19,
    "error": ""
   },
   {
@@ -2711,7 +2683,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 15,
+   "items": 12,
    "error": ""
   },
   {
@@ -2729,13 +2701,14 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 12357,
+   "items": 9921,
    "error": ""
   },
   {
    "source": "manual:intel",
-   "ok": true,
-   "items": 1
+   "ok": false,
+   "items": 0,
+   "error": "HTTPError: HTTP Error 403: rate limit exceeded"
   }
  ]
 }
