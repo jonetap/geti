@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-13T06:41:41+00:00",
+ "generated_at": "2026-11-13T17:11:54+00:00",
  "date": "2026-11-12",
  "geti": 73.8,
  "delta_z": 0.65,
@@ -245,9 +245,84 @@
  ],
  "events": [
   {
-   "id": "5fcbdaa6fbeb",
-   "title": "After Iraq ex-MP’s killing, Lebanon asks Syria to extradite suspects",
-   "url": "https://www.aljazeera.com/news/2026/11/13/after-iraq-ex-mps-killing-lebanon-asks-syria-to-extradite-suspects?traffic_source=rss",
+   "id": "97ef3c4f0fc6",
+   "title": "November 13 Paris attacks: Eleven years later, France pays tribute to victims",
+   "url": "https://www.france24.com/en/november-13-paris-attacks-eleven-years-later-france-pays-tribute-to-victims",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T16:47:52+00:00",
+   "note": "Eleven years on, France pays tribute to the victims of the November 13 attacks. French officials, victims’ associations and families gathered this Friday to pay their respects to t",
+   "region": "EUROPE"
+  },
+  {
+   "id": "706e290b2e2c",
+   "title": "Crossing Afghanistan along the 'highway of death'",
+   "url": "https://www.france24.com/en/tv-shows/revisited/20261113-crossing-afghanistan-along-the-highway-of-death",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T16:47:34+00:00",
+   "note": "Highway 1, or the Ring Road, connects Afghanistan's major cities. After September 11, 2001, it became a hotspot for crime and fighting, particularly between the capital Kabul and K",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "6d001d0c283f",
+   "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
+   "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T16:44:56+00:00",
+   "note": "Moscow blames Kyiv for a series of car bombings that have targeted people linked to the war with Ukraine.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "ba3e1a36db44",
+   "title": "Myanmar: Junta carries out double-tap airstrikes targeting civilians",
+   "url": "https://www.france24.com/en/tv-shows/the-observers/20261113-myanmar-junta-airstrikes-civilians",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T16:41:45+00:00",
+   "note": "Numerous civilian casualties have been documented in Rakhine State amid a renewed military offensive by the junta to regain control of the area. Available evidence suggests that mi",
+   "region": "OTHER"
+  },
+  {
+   "id": "bfed20382732",
+   "title": "Condo manager says DC gym shooter confessed in phone call, noting dispute over living conditions",
+   "url": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-13T16:35:02+00:00",
+   "note": "Gunman killed one person and injured at least five others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’",
+   "region": "OTHER"
+  },
+  {
+   "id": "f080a1482d77",
+   "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
+   "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -255,104 +330,89 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-13T01:44:55+00:00",
-   "note": "Longtime Sunni politician and Iran critic was reportedly strangled in Beirut, sparking investigation.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-13T16:01:45+00:00",
+   "note": "Several children and the bus driver were among those killed, officials said, with the death toll expected to rise.",
+   "region": "SOUTH_ASIA"
   },
   {
-   "id": "cfcd73901a7d",
-   "title": "菲律宾马尼拉街头发生警匪交火 致两死一伤",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10731227.shtml",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-12T14:27:58+00:00",
-   "note": "中新社马尼拉11月12日电 (记者 周璟)据菲律宾警方12日通报，首都马尼拉街头当天中午发生一起警匪交火事件，造成两名嫌疑人死亡，另有一名警察受伤。",
-   "region": "OTHER"
-  },
-  {
-   "id": "3b2ef338c4ab",
-   "title": "Eight killed, including two children, in New York building collapse",
-   "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-12T22:58:23+00:00",
-   "note": "Eight people, including two children, were killed when a residential building collapsed into an adjacent construction site in Brooklyn on Wednesday. Firefighters spent hours search",
-   "region": "OTHER"
-  },
-  {
-   "id": "c414bc475521",
-   "title": "Ngo criticizes UN's response to massacre in South Sudan",
-   "url": "https://www.france24.com/en/ngo-criticizes-un-s-response-to-massacre-in-south-sudan",
+   "id": "56fdbfe2ebc0",
+   "title": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
+   "url": "https://www.france24.com/en/video/20261113-russian-airstrikes-continue-ukraine-launches-nearly-1-200-drones",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-12T21:20:52+00:00",
-   "note": "In tonight's edition, Amnesty International accuses both the government and UN peacekeepers of failing to protect civilians during a massacre in South Sudan that killed over 200 pe",
-   "region": "AFRICA"
+   "published": "2026-11-13T15:46:36+00:00",
+   "note": "Russian strikes hit targets across Ukraine on Thursday, with one attack damaging a hospital. Ukraine meanwhile fired almost 1,200 drones at Russian targets overnight in one of its ",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "d589177ed243",
-   "title": "Deadly shooting in Washington DC",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
+   "id": "f998786a6102",
+   "title": "Ukraine claims record 3,000 Russian casualties in one day as war drags on",
+   "url": "https://www.aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-12T21:18:24+00:00",
-   "note": "Police in the US capital are investigating a shooting around a mile from the White House that led to one person killed",
-   "region": "NORTH_AMERICA"
+   "published": "2026-11-13T14:15:52+00:00",
+   "note": "Meanwhile, Russia appears to suggest it has control of half of unoccupied Donbas.",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "8496a1cf75cf",
-   "title": "Israeli strike on Gaza hospital kills six, including surgeon, medics say",
-   "url": "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
-   "component": "military",
+   "id": "1642d4ae4bba",
+   "title": "Most Ukrainians 'think there's no chance of a peace deal' with Russia",
+   "url": "https://www.france24.com/en/video/20261113-most-ukrainians-think-there-s-no-chance-of-a-peace-deal-with-russia",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-12T20:03:55+00:00",
-   "note": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike ",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-13T14:14:14+00:00",
+   "note": "Ukrainian attacks killed at least nine people in Russia overnight, while Moscow struck a hospital in Kyiv and killed at least three in the south of the country, officials on both s",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "9e9b2bdd911f",
-   "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-   "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
+   "id": "f2c404b1f191",
+   "title": "India road crash between bus, container truck kills 23",
+   "url": "https://www.scmp.com/news/asia/south-asia/article/3374386/india-road-crash-between-bus-container-truck-kills-23",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "scmp"
    ],
-   "published": "2026-11-12T19:23:02+00:00",
-   "note": "Schools across Italy have received bomb threats for the second day in a row, sparking fresh panic and evacuations.",
-   "region": "OTHER"
+   "published": "2026-11-13T13:02:08+00:00",
+   "note": "A head-on collision between a container truck and a passenger bus killed at least 23 people, including three children, in eastern India on Friday, a police official said The crash ",
+   "region": "SOUTH_ASIA"
   },
   {
-   "id": "47120109c238",
-   "title": "Israeli strike on Gaza hospital deadliest since election",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
+   "id": "86c7715aaf1d",
+   "title": "Pakistan military reports it killed 74 ‘terrorists’ during raids",
+   "url": "https://www.aljazeera.com/news/2026/11/13/pakistan-military-reports-it-killed-74-terrorists-during-raids?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T11:59:34+00:00",
+   "note": "Increased attacks on the border with Afghanistan have caused tensions between the neighbours.",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "6c4a76b98157",
+   "title": "Malaysia turns to Turkey for warship missiles after Norway’s export freeze",
+   "url": "https://www.scmp.com/week-asia/politics/article/3374373/malaysia-turns-turkey-warship-missiles-after-norways-export-freeze",
    "component": "military",
    "severity": 5,
    "confidence": 0.34,
@@ -360,23 +420,8 @@
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-12T18:32:12+00:00",
-   "note": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike ",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "72bfa2811187",
-   "title": "Israel kills six in Gaza hospital strike as 9-month-old baby freezes to death",
-   "url": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-12T16:18:24+00:00",
-   "note": "An overnight Israeli air strike on Nasser Hospital in southern Gaza killed at least six Palestinians Thursday, including a teenage boy and a surgeon, medics said. Elsewhere in the ",
+   "published": "2026-11-13T11:06:13+00:00",
+   "note": "Malaysia’s decision to pivot to Turkey for anti-ship missiles after Norway cancelled a procurement deal has offered it a way out of a costly setback, though analysts warn the episo",
    "region": "MIDDLE_EAST"
   },
   {
@@ -385,7 +430,7 @@
    "url": "https://www.theguardian.com/global/2026/nov/12/naza-how-to-watch-guardian-acclaimed-gaza-documentary",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -395,57 +440,12 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "b87dace28cd7",
-   "title": "US doctor shoots building manager dead, then wounds 4 in Washington",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374259/5-people-shot-neighbourhood-north-us-white-house",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-12T14:23:48+00:00",
-   "note": "A disgruntled resident shot dead his building manager and wounded four other people in an upscale neighbourhood of Washington on Thursday before killing himself, police said amid a",
-   "region": "NORTH_AMERICA"
-  },
-  {
-   "id": "c9aac7305962",
-   "title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
-   "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-12T13:58:49+00:00",
-   "note": "A suspected gang leader considered a \"priority target\" was among those killed, the Colombian president says.",
-   "region": "LATAM"
-  },
-  {
-   "id": "de9b93dc4a13",
-   "title": "New York hunts for clues in Brooklyn building collapse that killed 8",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-12T13:43:09+00:00",
-   "note": "Investigators began what could be a long search for the cause of a Brooklyn residential building collapse that killed eight people as the fire department ended rescue operations Th",
-   "region": "OTHER"
-  },
-  {
    "id": "192ccc16d661",
    "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
    "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -455,94 +455,64 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "da3905eb98b8",
-   "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
-   "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
+   "id": "984359de1f87",
+   "title": "Can Netanyahu launch a strike on Iran before he leaves?",
+   "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves?traffic_source=rss",
    "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "aljazeera"
    ],
-   "published": "2026-11-12T12:19:01+00:00",
-   "note": "Hospital director says 28 wounded in attack on one of few remaining medical facilities in the strip An Israeli airstrike on Nasser hospital in southern Gaza killed six people, incl",
+   "published": "2026-11-13T14:16:20+00:00",
+   "note": "PM's caretaker government can legally go to war, though it would likely inflame domestic divisions.",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "bb0751f714da",
-   "title": "Israel strikes Gaza hospital, says Hamas senior figure inside",
-   "url": "https://www.dw.com/en/israel-strikes-gaza-hospital-says-hamas-senior-figure-inside/a-79927645?maca=en-rss-en-world-4025-rdf",
+   "id": "f6bc0d5580ad",
+   "title": "UK rocked by comedians' sex scandals",
+   "url": "https://www.france24.com/en/tv-shows/the-51/20261113-uk-rocked-by-comedians-sex-scandals",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T13:47:30+00:00",
+   "note": "The UK is facing a reckoning in the world of entertainment, as two well-known comedy figures find themselves at the centre of serious allegations and headlines. This as Russell Bra",
+   "region": "OTHER"
+  },
+  {
+   "id": "f88992b62104",
+   "title": "El Salvador deploys armed robots to fight gangs in Haiti",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T10:57:20+00:00",
+   "note": "El Salvador’s President Nayib Bukele has released a video showing armed robots during an operation against gangs.",
+   "region": "LATAM"
+  },
+  {
+   "id": "7737afc2aebe",
+   "title": "Czechia braces for massive protest against cuts to public media",
+   "url": "https://www.dw.com/en/czechia-braces-for-massive-protest-against-cuts-to-public-media/a-79933533?maca=en-rss-en-world-4025-rdf",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
     "dw"
    ],
-   "published": "2026-11-12T11:27:00+00:00",
-   "note": "Israel says Hamas was using the hospital as a military command center, while Palestinian officials report at least six people killed, including a surgeon. The strike comes amid an ",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "33b7888d3ed7",
-   "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-   "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-11T18:38:45+00:00",
-   "note": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public.",
+   "published": "2026-11-13T08:35:00+00:00",
+   "note": "A fast-tracked bill to cut public media funding has sparked strikes, rallies and fears for the independence of public broadcasting in Czechia. A massive protest is planned for Prag",
    "region": "OTHER"
-  },
-  {
-   "id": "cab2da8a9fca",
-   "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
-   "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-11T14:00:52+00:00",
-   "note": "Tomás Beltrán was shot dead amid gang warfare that has turned Latin American country into one of its most violent Tomás Beltrán was manoeuvring his car into his garage on Sunday ni",
-   "region": "OTHER"
-  },
-  {
-   "id": "71f9f5fb1d1b",
-   "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
-   "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-11T13:24:29+00:00",
-   "note": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month.",
-   "region": "NORTH_AMERICA"
-  },
-  {
-   "id": "ea9ea3067544",
-   "title": "Gaza surgeon films aftermath of Israeli strike",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/gaza-surgeon-films-aftermath-of-israeli-strike?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-13T03:11:43+00:00",
-   "note": "British volunteer surgeon films the terrifying aftermath of an Israeli strike on Gaza’s Nasser Hospital.",
-   "region": "MIDDLE_EAST"
   },
   {
    "id": "c0f5504480aa",
@@ -550,7 +520,7 @@
    "url": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -560,122 +530,152 @@
    "region": "OCEANIA"
   },
   {
-   "id": "dd57635ab909",
-   "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
-   "url": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
+   "id": "5a78c981fd96",
+   "title": "“达尔富拉姆事件”88周年纪念活动在澳大利亚举行",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731724.shtml",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "chinanews"
    ],
-   "published": "2026-11-13T02:35:21+00:00",
-   "note": "Reports of attack in Baltic came before US envoys met with Russian and Ukrainian presidents.",
-   "region": "EUROPE"
+   "published": "2026-11-13T13:40:06+00:00",
+   "note": "中新社澳大利亚伍伦贡11月13日电(记者 薄雯雯)“达尔富拉姆事件”88周年纪念活动13日在澳大利亚伍伦贡市肯布拉港举行，纪念1938年当地码头工人为反对日本军国主义、声援中国抗战而发起的罢工行动。",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "3dcc3cbafdef",
-   "title": "Haitian police retake national stadium from gangs after two years",
-   "url": "https://www.france24.com/en/americas/20261113-haitian-police-retake-national-stadium-from-gangs-after-two-years",
-   "component": "military",
-   "severity": 4,
+   "id": "223f2abc0d85",
+   "title": "The Nvidia affair: Are markets about to fall out of love with AI?",
+   "url": "https://www.france24.com/en/americas/20261113-the-nvidia-affair-are-markets-about-to-fall-out-of-love-with-ai",
+   "component": "diplomacy",
+   "severity": 3,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-13T02:01:26+00:00",
-   "note": "Haitian security forces regained control of the country's main football stadium on Thursday after two years under gang control, with Salvadoran troops taking over security at the v",
-   "region": "LATAM"
+   "published": "2026-11-13T17:02:40+00:00",
+   "note": "Jensen Huang’s departure from Nvidia exposes the vulnerabilities behind the AI boom. As equities reel in response to his resignation following extramarital affairs, alleged Chinese",
+   "region": "OTHER"
   },
   {
-   "id": "97598ba7d50b",
-   "title": "古巴外长批评七国集团涉古声明回避美国对古封锁影响",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731243.shtml",
-   "component": "narrative",
-   "severity": 4,
+   "id": "274c3265ead1",
+   "title": "China warns against fresh US chip curbs",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
+   "component": "economy",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T13:42:49+00:00",
+   "note": "China has warned the US against imposing additional export controls on AI chips.",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "2f94a807e4e2",
+   "title": "China could tighten rare earths exports if US escalates chip curbs over Nvidia: analysts",
+   "url": "https://www.scmp.com/economy/global-economy/article/3374328/china-could-tighten-rare-earths-exports-if-us-escalates-chip-curbs-over-nvidia-analysts",
+   "component": "economy",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-13T13:00:08+00:00",
+   "note": "China could retaliate with tighter rare earth export controls if Washington further restricts chip sales in the wake of the Nvidia saga, Chinese analysts say, though they expect br",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "35ae3fce2e17",
+   "title": "日本民间团体举行集会 反对高市政权修宪扩军",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731394.shtml",
+   "component": "internal",
+   "severity": 3,
    "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-12T22:02:57+00:00",
-   "note": "针对七国集团外长会议联合声明涉古巴内容，古巴外长罗德里格斯12日表示，该声明回避了美国政府对古巴实施封锁所造成的残酷影响，美国的封锁措施侵犯古巴人民的人权及第三国主权。",
-   "region": "NORTH_AMERICA"
+   "published": "2026-11-13T03:41:12+00:00",
+   "note": "12日，日本多个民间团体在东京众议院第二议员会馆前举行抗议集会，反对高市政权推动修宪扩军等相关动向。集会参加者表示，近期高市政权讨论修改“安保三文件”以及不断推动修改日本宪法等举动令人担忧，日本绝不能再次走上战争道路。",
+   "region": "EAST_ASIA"
   }
  ],
  "breaking": [
   {
-   "id": "ea9ea3067544",
-   "title": "Gaza surgeon films aftermath of Israeli strike",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/gaza-surgeon-films-aftermath-of-israeli-strike?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-13T03:11:43+00:00",
-   "note": "British volunteer surgeon films the terrifying aftermath of an Israeli strike on Gaza’s Nasser Hospital.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "c0f5504480aa",
-   "title": "Australian footballers will not be charged after hotel incident, police say",
-   "url": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
+   "id": "97ef3c4f0fc6",
+   "title": "November 13 Paris attacks: Eleven years later, France pays tribute to victims",
+   "url": "https://www.france24.com/en/november-13-paris-attacks-eleven-years-later-france-pays-tribute-to-victims",
    "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-13T03:02:54+00:00",
-   "note": "Four Sydney Swans players had been under investigation after an alleged sexual assault after a game in Melbourne.",
-   "region": "OCEANIA"
-  },
-  {
-   "id": "dd57635ab909",
-   "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
-   "url": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-13T02:35:21+00:00",
-   "note": "Reports of attack in Baltic came before US envoys met with Russian and Ukrainian presidents.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "3dcc3cbafdef",
-   "title": "Haitian police retake national stadium from gangs after two years",
-   "url": "https://www.france24.com/en/americas/20261113-haitian-police-retake-national-stadium-from-gangs-after-two-years",
-   "component": "military",
-   "severity": 4,
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-13T02:01:26+00:00",
-   "note": "Haitian security forces regained control of the country's main football stadium on Thursday after two years under gang control, with Salvadoran troops taking over security at the v",
-   "region": "LATAM"
+   "published": "2026-11-13T16:47:52+00:00",
+   "note": "Eleven years on, France pays tribute to the victims of the November 13 attacks. French officials, victims’ associations and families gathered this Friday to pay their respects to t",
+   "region": "EUROPE"
+  },
+  {
+   "id": "706e290b2e2c",
+   "title": "Crossing Afghanistan along the 'highway of death'",
+   "url": "https://www.france24.com/en/tv-shows/revisited/20261113-crossing-afghanistan-along-the-highway-of-death",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T16:47:34+00:00",
+   "note": "Highway 1, or the Ring Road, connects Afghanistan's major cities. After September 11, 2001, it became a hotspot for crime and fighting, particularly between the capital Kabul and K",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "6d001d0c283f",
+   "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
+   "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T16:44:56+00:00",
+   "note": "Moscow blames Kyiv for a series of car bombings that have targeted people linked to the war with Ukraine.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "ba3e1a36db44",
+   "title": "Myanmar: Junta carries out double-tap airstrikes targeting civilians",
+   "url": "https://www.france24.com/en/tv-shows/the-observers/20261113-myanmar-junta-airstrikes-civilians",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T16:41:45+00:00",
+   "note": "Numerous civilian casualties have been documented in Rakhine State amid a renewed military offensive by the junta to regain control of the area. Available evidence suggests that mi",
+   "region": "OTHER"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 39167,
-  "gdelt_events": 38905,
+  "items": 39534,
+  "gdelt_events": 39287,
   "mode": "live",
   "data_through": "2026-11-12",
-  "clusters": 256,
-  "origins": 257,
+  "clusters": 241,
+  "origins": 242,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1131,7 +1131,7 @@
   },
   {
    "date": "2026-10-22",
-   "geti": 49.7
+   "geti": 49.6
   },
   {
    "date": "2026-10-23",
@@ -1167,7 +1167,7 @@
   },
   {
    "date": "2026-10-31",
-   "geti": 50.0
+   "geti": 49.9
   },
   {
    "date": "2026-11-01",
@@ -1203,7 +1203,7 @@
   },
   {
    "date": "2026-11-09",
-   "geti": 69.1
+   "geti": 69.0
   },
   {
    "date": "2026-11-10",
@@ -1223,6 +1223,70 @@
   "notable": [
    {
     "kind": "judicial",
+    "title": "Chuck Schumer’s challenger for party control underscores Democrats’ ideological rift",
+    "url": "https://www.theguardian.com/us-news/2026/nov/13/chuck-schumer-democrat-party-control-ideology",
+    "country": "IL",
+    "source": "guardian",
+    "when": "2026-11-13"
+   },
+   {
+    "kind": "judicial",
+    "title": "重庆市农业投资集团有限公司原党委书记何勇被开除党籍",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731825.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-13"
+   },
+   {
+    "kind": "judicial",
+    "title": "辽宁省沈抚改革创新示范区原管委会副主任范静国被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731824.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-13"
+   },
+   {
+    "kind": "judicial",
+    "title": "十四届全国人大环境与资源保护委员会副主任委员王忠林被查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731691.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-13"
+   },
+   {
+    "kind": "judicial",
+    "title": "内蒙古医科大学党委原书记白长明接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731660.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-13"
+   },
+   {
+    "kind": "judicial",
+    "title": "中国交通建设集团有限公司党委常委刘成云接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731659.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-13"
+   },
+   {
+    "kind": "judicial",
+    "title": "Former NSW Liberal MP Rory Amon found guilty of raping 13-year-old boy",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/13/former-nsw-liberal-mp-rory-amon-found-guilty-of-raping-13-year-old-boy",
+    "country": "AU",
+    "source": "guardian",
+    "when": "2026-11-13"
+   },
+   {
+    "kind": "judicial",
+    "title": "How a bad impression put a celebrated 2,000-year-old Han cliff inscription at risk",
+    "url": "https://www.scmp.com/news/china/politics/article/3374339/how-bad-impression-put-celebrated-2000-year-old-han-cliff-inscription-risk",
+    "country": "",
+    "source": "scmp",
+    "when": "2026-11-13"
+   },
+   {
+    "kind": "judicial",
     "title": "Boxer on death row in Iran vows ‘not to bow before oppression’ after winning rights prize",
     "url": "https://www.theguardian.com/global-development/2026/nov/13/mohammad-javad-vafaei-sani-iran-boxer-death-row-magnitsky-award",
     "country": "IR",
@@ -1236,55 +1300,31 @@
     "country": "SG",
     "source": "scmp",
     "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
-    "title": "UK court convicts 2 Iranian men of spying on journalists",
-    "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-world-4025-rdf",
-    "country": "GB",
-    "source": "dw",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "Trump rejects need for Iran deal, directs Vance to focus on US",
-    "url": "https://www.scmp.com/news/world/united-states-canada/article/3374257/trump-says-us-does-not-need-deal-iran",
-    "country": "IR",
-    "source": "scmp",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "人权高专欢迎特立尼达和多巴哥同性关系非刑事化判决",
-    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143177",
-    "country": "",
-    "source": "un_news_zh",
-    "when": "2026-11-11"
    }
   ],
-  "notable_total": 5,
+  "notable_total": 10,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 5
+   "notable": 10
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 63.7,
-  "z": 0.337,
+  "index": 65.5,
+  "z": 0.386,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 17.49,
-    "chg5": 5.3,
-    "z": 0.362,
+    "last": 18.7,
+    "chg5": -33.64,
+    "z": 0.64,
     "ok": true,
-    "asof": "2026-11-11"
+    "asof": "2026-11-12"
    },
    {
     "id": "oil",
@@ -1298,11 +1338,11 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.3,
-    "chg5": -2.94,
-    "z": 0.767,
+    "last": 3.2,
+    "chg5": -3.61,
+    "z": 0.636,
     "ok": true,
-    "asof": "2026-11-11"
+    "asof": "2026-11-12"
    },
    {
     "id": "usd",
@@ -1323,13 +1363,13 @@
     "asof": "2026-11-10"
    }
   ],
-  "asof": "2026-11-11",
+  "asof": "2026-11-12",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 107,
+    "items": 108,
     "error": ""
    },
    {
@@ -1341,7 +1381,7 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 106,
+    "items": 107,
     "error": ""
    },
    {
@@ -2196,8 +2236,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 10.0,
-    "carry": 13.63,
+    "value": 11.0,
+    "carry": 13.77,
     "z": null,
     "score": null,
     "available": false
@@ -2206,8 +2246,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 4.0,
-    "carry": 2.67,
+    "value": 3.0,
+    "carry": 2.53,
     "z": null,
     "score": null,
     "available": false
@@ -2281,6 +2321,12 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqa"
     },
     {
+     "t": "83 km NE of Ruteng, Indonesia",
+     "v": 4.7,
+     "ts": "2026-11-12T11:16+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txs5"
+    },
+    {
      "t": "117 km S of Akureyri, Iceland",
      "v": 4.6,
      "ts": "2026-11-12T21:53+00:00",
@@ -2297,12 +2343,6 @@
      "v": 4.5,
      "ts": "2026-11-12T13:27+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txsr"
-    },
-    {
-     "t": "off the coast of Oregon",
-     "v": 4.5,
-     "ts": "2026-11-12T08:17+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txrk"
     }
    ],
    "eonet": [
@@ -2311,12 +2351,6 @@
      "v": "wildfires",
      "ts": "",
      "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26331"
-    },
-    {
-     "t": "Prescribed Fire Bienville CPT 29 Sub 2 RX, Scott, Mississippi",
-     "v": "wildfires",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26332"
     },
     {
      "t": "Typhoon Cempaka",
@@ -2385,8 +2419,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 1.0,
-    "carry": 0.56,
+    "value": 0.0,
+    "carry": 0.42,
     "z": null,
     "score": null,
     "available": false
@@ -2395,8 +2429,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 2.67,
-    "carry": 1.06,
+    "value": 1.62,
+    "carry": 0.91,
     "z": null,
     "score": null,
     "available": false
@@ -2412,14 +2446,7 @@
    "ongoing": true
   },
   "evidence": {
-   "who": [
-    {
-     "t": "古巴外长批评七国集团涉古声明回避美国对古封锁影响",
-     "v": "政策",
-     "ts": "",
-     "u": ""
-    }
-   ]
+   "who": []
   }
  },
  "doom": {
@@ -2463,14 +2490,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 141,
-   "items": 38905,
+   "files": 144,
+   "items": 39287,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 32,
+   "items": 21,
    "error": "",
    "undated": 0
   },
@@ -2491,7 +2518,7 @@
   {
    "source": "dw",
    "ok": true,
-   "items": 11,
+   "items": 13,
    "error": "",
    "undated": 0
   },
@@ -2519,7 +2546,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 14,
+   "items": 8,
    "error": "",
    "undated": 0
   },
@@ -2547,7 +2574,7 @@
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 107,
+   "items": 108,
    "error": ""
   },
   {
@@ -2559,7 +2586,7 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 106,
+   "items": 107,
    "error": ""
   },
   {
@@ -2607,13 +2634,13 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 10,
+   "items": 11,
    "error": ""
   },
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 4,
+   "items": 3,
    "error": ""
   },
   {
@@ -2637,7 +2664,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 6058,
+   "items": 11911,
    "error": ""
   },
   {
