@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-13T17:11:54+00:00",
+ "generated_at": "2026-11-13T23:31:00+00:00",
  "date": "2026-11-12",
  "geti": 73.8,
  "delta_z": 0.65,
@@ -245,12 +245,42 @@
  ],
  "events": [
   {
+   "id": "22d20d3b9abd",
+   "title": "At least 10 killed in Guinea clashes over gold mining ban",
+   "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T18:44:45+00:00",
+   "note": "Guinea banned artisanal gold mining in Siguiri on November 2 due to environmental degradation, causing mass exodus.",
+   "region": "OTHER"
+  },
+  {
+   "id": "be8d3da46217",
+   "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T18:09:05+00:00",
+   "note": "Thousands gathered in Tehran for a mass funeral honouring 110 unidentified soldiers killed in the Iran-Iraq war.",
+   "region": "MIDDLE_EAST"
+  },
+  {
    "id": "97ef3c4f0fc6",
    "title": "November 13 Paris attacks: Eleven years later, France pays tribute to victims",
    "url": "https://www.france24.com/en/november-13-paris-attacks-eleven-years-later-france-pays-tribute-to-victims",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -265,7 +295,7 @@
    "url": "https://www.france24.com/en/tv-shows/revisited/20261113-crossing-afghanistan-along-the-highway-of-death",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -280,7 +310,7 @@
    "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
@@ -295,7 +325,7 @@
    "url": "https://www.france24.com/en/tv-shows/the-observers/20261113-myanmar-junta-airstrikes-civilians",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -305,27 +335,12 @@
    "region": "OTHER"
   },
   {
-   "id": "bfed20382732",
-   "title": "Condo manager says DC gym shooter confessed in phone call, noting dispute over living conditions",
-   "url": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-13T16:35:02+00:00",
-   "note": "Gunman killed one person and injured at least five others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’",
-   "region": "OTHER"
-  },
-  {
    "id": "f080a1482d77",
    "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
    "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
@@ -340,7 +355,7 @@
    "url": "https://www.france24.com/en/video/20261113-russian-airstrikes-continue-ukraine-launches-nearly-1-200-drones",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -350,33 +365,48 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "f998786a6102",
-   "title": "Ukraine claims record 3,000 Russian casualties in one day as war drags on",
-   "url": "https://www.aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates?traffic_source=rss",
+   "id": "2ac43cf6e71f",
+   "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
+   "url": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "bbc"
    ],
-   "published": "2026-11-13T14:15:52+00:00",
-   "note": "Meanwhile, Russia appears to suggest it has control of half of unoccupied Donbas.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-13T15:42:52+00:00",
+   "note": "German reforms mean foreign and domestic intelligence services will have greater powers to combat espionage, terrorism and sabotage.",
+   "region": "OTHER"
   },
   {
-   "id": "1642d4ae4bba",
-   "title": "Most Ukrainians 'think there's no chance of a peace deal' with Russia",
-   "url": "https://www.france24.com/en/video/20261113-most-ukrainians-think-there-s-no-chance-of-a-peace-deal-with-russia",
+   "id": "419f2d385b4e",
+   "title": "At least 24 killed after bus collides with truck in north-east India",
+   "url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "france24"
+    "bbc"
    ],
-   "published": "2026-11-13T14:14:14+00:00",
-   "note": "Ukrainian attacks killed at least nine people in Russia overnight, while Moscow struck a hospital in Kyiv and killed at least three in the south of the country, officials on both s",
+   "published": "2026-11-13T15:16:50+00:00",
+   "note": "Several of the deceased are college students, according to local official Atul Bora, but they have not yet been publicly identified.",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "0205cff1094a",
+   "title": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
+   "url": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-13T13:11:23+00:00",
+   "note": "Sergei Zavorotny, now a journalist and commentator, was previously an adviser to Ukrainian ex-prime minister Mykola Azarov.",
    "region": "RUSSIA_CIS"
   },
   {
@@ -385,28 +415,13 @@
    "url": "https://www.scmp.com/news/asia/south-asia/article/3374386/india-road-crash-between-bus-container-truck-kills-23",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
    "published": "2026-11-13T13:02:08+00:00",
    "note": "A head-on collision between a container truck and a passenger bus killed at least 23 people, including three children, in eastern India on Friday, a police official said The crash ",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "86c7715aaf1d",
-   "title": "Pakistan military reports it killed 74 ‘terrorists’ during raids",
-   "url": "https://www.aljazeera.com/news/2026/11/13/pakistan-military-reports-it-killed-74-terrorists-during-raids?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-13T11:59:34+00:00",
-   "note": "Increased attacks on the border with Afghanistan have caused tensions between the neighbours.",
    "region": "SOUTH_ASIA"
   },
   {
@@ -425,21 +440,6 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "855fa6e514b3",
-   "title": "NAZA: how and where to watch the Guardian’s acclaimed Gaza documentary",
-   "url": "https://www.theguardian.com/global/2026/nov/12/naza-how-to-watch-guardian-acclaimed-gaza-documentary",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-12T14:23:50+00:00",
-   "note": "Film features testimony from 24 Israeli officials involved in surveillance and remote killing of Palestinian civilians • NAZA is in cinemas worldwide and will screen for free on th",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "192ccc16d661",
    "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
    "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
@@ -455,9 +455,9 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "984359de1f87",
-   "title": "Can Netanyahu launch a strike on Iran before he leaves?",
-   "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves?traffic_source=rss",
+   "id": "995622a52a98",
+   "title": "Rescue efforts under way after tanker strikes river cruise boat in US",
+   "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
@@ -465,44 +465,44 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-13T14:16:20+00:00",
-   "note": "PM's caretaker government can legally go to war, though it would likely inflame domestic divisions.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-13T22:47:16+00:00",
+   "note": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+   "region": "OTHER"
   },
   {
-   "id": "f6bc0d5580ad",
-   "title": "UK rocked by comedians' sex scandals",
-   "url": "https://www.france24.com/en/tv-shows/the-51/20261113-uk-rocked-by-comedians-sex-scandals",
-   "component": "narrative",
+   "id": "0ce484d14fb8",
+   "title": "Probation officers in England and Wales vote to strike over pay and workloads",
+   "url": "https://www.theguardian.com/society/2026/nov/13/probation-officers-in-england-and-wales-vote-for-strike-action-over-pay-and-workloads",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-13T20:51:01+00:00",
+   "note": "Move deals blow to government’s plans to release thousands of prisoners early to tackle prison overcrowding The government’s plans to release thousands of prisoners early were deal",
+   "region": "OTHER"
+  },
+  {
+   "id": "0cf4a9c740a8",
+   "title": "What we know about China's military exercises around Taiwan",
+   "url": "https://www.france24.com/en/asia-pacific/20261113-chinese-army-military-exercises-taiwan",
+   "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-13T13:47:30+00:00",
-   "note": "The UK is facing a reckoning in the world of entertainment, as two well-known comedy figures find themselves at the centre of serious allegations and headlines. This as Russell Bra",
-   "region": "OTHER"
+   "published": "2026-11-13T18:19:19+00:00",
+   "note": "China has been carrying out major military drills around Taiwan since early November. But contrary to some claims on social media, Beijing's armed forces have not actually implemen",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "f88992b62104",
-   "title": "El Salvador deploys armed robots to fight gangs in Haiti",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti?traffic_source=rss",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-13T10:57:20+00:00",
-   "note": "El Salvador’s President Nayib Bukele has released a video showing armed robots during an operation against gangs.",
-   "region": "LATAM"
-  },
-  {
-   "id": "7737afc2aebe",
-   "title": "Czechia braces for massive protest against cuts to public media",
-   "url": "https://www.dw.com/en/czechia-braces-for-massive-protest-against-cuts-to-public-media/a-79933533?maca=en-rss-en-world-4025-rdf",
+   "id": "6d667b29c91b",
+   "title": "Czechia braces for massive protest against public media reform plans",
+   "url": "https://www.dw.com/en/czechia-braces-for-massive-protest-against-public-media-reform-plans/a-79933533?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 4,
    "confidence": 0.34,
@@ -515,19 +515,19 @@
    "region": "OTHER"
   },
   {
-   "id": "c0f5504480aa",
-   "title": "Australian footballers will not be charged after hotel incident, police say",
-   "url": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
+   "id": "0eb5cdb69972",
+   "title": "The Downfall of AI’s ‘Rock Star’ Boss, Ukraine: Who speaks for Europe? Protests & Presidents",
+   "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261113-the-downfall-of-ai-s-rock-star-boss-ukraine-who-speak-for-europe-protests-presidents",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "france24"
    ],
-   "published": "2026-11-13T03:02:54+00:00",
-   "note": "Four Sydney Swans players had been under investigation after an alleged sexual assault after a game in Melbourne.",
-   "region": "OCEANIA"
+   "published": "2026-11-13T19:46:54+00:00",
+   "note": "On The World This Week with Gavin Lee, our panel distills the breaking news and global stories of the past 7 days into 45 minutes. Ukraine: Who will speak for Europe? In a week tha",
+   "region": "EUROPE"
   },
   {
    "id": "5a78c981fd96",
@@ -535,58 +535,13 @@
    "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731724.shtml",
    "component": "internal",
    "severity": 3,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
    ],
    "published": "2026-11-13T13:40:06+00:00",
    "note": "中新社澳大利亚伍伦贡11月13日电(记者 薄雯雯)“达尔富拉姆事件”88周年纪念活动13日在澳大利亚伍伦贡市肯布拉港举行，纪念1938年当地码头工人为反对日本军国主义、声援中国抗战而发起的罢工行动。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "223f2abc0d85",
-   "title": "The Nvidia affair: Are markets about to fall out of love with AI?",
-   "url": "https://www.france24.com/en/americas/20261113-the-nvidia-affair-are-markets-about-to-fall-out-of-love-with-ai",
-   "component": "diplomacy",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T17:02:40+00:00",
-   "note": "Jensen Huang’s departure from Nvidia exposes the vulnerabilities behind the AI boom. As equities reel in response to his resignation following extramarital affairs, alleged Chinese",
-   "region": "OTHER"
-  },
-  {
-   "id": "274c3265ead1",
-   "title": "China warns against fresh US chip curbs",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
-   "component": "economy",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-13T13:42:49+00:00",
-   "note": "China has warned the US against imposing additional export controls on AI chips.",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "2f94a807e4e2",
-   "title": "China could tighten rare earths exports if US escalates chip curbs over Nvidia: analysts",
-   "url": "https://www.scmp.com/economy/global-economy/article/3374328/china-could-tighten-rare-earths-exports-if-us-escalates-chip-curbs-over-nvidia-analysts",
-   "component": "economy",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-13T13:00:08+00:00",
-   "note": "China could retaliate with tighter rare earth export controls if Washington further restricts chip sales in the wake of the Nvidia saga, Chinese analysts say, though they expect br",
    "region": "EAST_ASIA"
   },
   {
@@ -603,78 +558,123 @@
    "published": "2026-11-13T03:41:12+00:00",
    "note": "12日，日本多个民间团体在东京众议院第二议员会馆前举行抗议集会，反对高市政权推动修宪扩军等相关动向。集会参加者表示，近期高市政权讨论修改“安保三文件”以及不断推动修改日本宪法等举动令人担忧，日本绝不能再次走上战争道路。",
    "region": "EAST_ASIA"
+  },
+  {
+   "id": "7c19f8fbda25",
+   "title": "The fight over Canadian steelworker jobs",
+   "url": "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss",
+   "component": "economy",
+   "severity": 3,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T17:10:43+00:00",
+   "note": "Stelco's US owner blames Trump's tariffs for layoffs, but its support for those same tariffs has raised questions.",
+   "region": "OTHER"
+  },
+  {
+   "id": "223f2abc0d85",
+   "title": "The Nvidia affair: Are markets about to fall out of love with AI?",
+   "url": "https://www.france24.com/en/americas/20261113-the-nvidia-affair-are-markets-about-to-fall-out-of-love-with-ai",
+   "component": "diplomacy",
+   "severity": 3,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T17:02:40+00:00",
+   "note": "Jensen Huang’s departure from Nvidia exposes the vulnerabilities behind the AI boom. As equities reel in response to his resignation following extramarital affairs, alleged Chinese",
+   "region": "OTHER"
+  },
+  {
+   "id": "2f94a807e4e2",
+   "title": "China could tighten rare earths exports if US escalates chip curbs over Nvidia: analysts",
+   "url": "https://www.scmp.com/economy/global-economy/article/3374328/china-could-tighten-rare-earths-exports-if-us-escalates-chip-curbs-over-nvidia-analysts",
+   "component": "economy",
+   "severity": 3,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-13T13:00:08+00:00",
+   "note": "China could retaliate with tighter rare earth export controls if Washington further restricts chip sales in the wake of the Nvidia saga, Chinese analysts say, though they expect br",
+   "region": "EAST_ASIA"
   }
  ],
  "breaking": [
   {
-   "id": "97ef3c4f0fc6",
-   "title": "November 13 Paris attacks: Eleven years later, France pays tribute to victims",
-   "url": "https://www.france24.com/en/november-13-paris-attacks-eleven-years-later-france-pays-tribute-to-victims",
+   "id": "995622a52a98",
+   "title": "Rescue efforts under way after tanker strikes river cruise boat in US",
+   "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T22:47:16+00:00",
+   "note": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+   "region": "OTHER"
+  },
+  {
+   "id": "0ce484d14fb8",
+   "title": "Probation officers in England and Wales vote to strike over pay and workloads",
+   "url": "https://www.theguardian.com/society/2026/nov/13/probation-officers-in-england-and-wales-vote-for-strike-action-over-pay-and-workloads",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-13T20:51:01+00:00",
+   "note": "Move deals blow to government’s plans to release thousands of prisoners early to tackle prison overcrowding The government’s plans to release thousands of prisoners early were deal",
+   "region": "OTHER"
+  },
+  {
+   "id": "22d20d3b9abd",
+   "title": "At least 10 killed in Guinea clashes over gold mining ban",
+   "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss",
    "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T16:47:52+00:00",
-   "note": "Eleven years on, France pays tribute to the victims of the November 13 attacks. French officials, victims’ associations and families gathered this Friday to pay their respects to t",
-   "region": "EUROPE"
-  },
-  {
-   "id": "706e290b2e2c",
-   "title": "Crossing Afghanistan along the 'highway of death'",
-   "url": "https://www.france24.com/en/tv-shows/revisited/20261113-crossing-afghanistan-along-the-highway-of-death",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T16:47:34+00:00",
-   "note": "Highway 1, or the Ring Road, connects Afghanistan's major cities. After September 11, 2001, it became a hotspot for crime and fighting, particularly between the capital Kabul and K",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "6d001d0c283f",
-   "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
-   "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
-   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-13T16:44:56+00:00",
-   "note": "Moscow blames Kyiv for a series of car bombings that have targeted people linked to the war with Ukraine.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-13T18:44:45+00:00",
+   "note": "Guinea banned artisanal gold mining in Siguiri on November 2 due to environmental degradation, causing mass exodus.",
+   "region": "OTHER"
   },
   {
-   "id": "ba3e1a36db44",
-   "title": "Myanmar: Junta carries out double-tap airstrikes targeting civilians",
-   "url": "https://www.france24.com/en/tv-shows/the-observers/20261113-myanmar-junta-airstrikes-civilians",
+   "id": "0cf4a9c740a8",
+   "title": "What we know about China's military exercises around Taiwan",
+   "url": "https://www.france24.com/en/asia-pacific/20261113-chinese-army-military-exercises-taiwan",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-13T16:41:45+00:00",
-   "note": "Numerous civilian casualties have been documented in Rakhine State amid a renewed military offensive by the junta to regain control of the area. Available evidence suggests that mi",
-   "region": "OTHER"
+   "published": "2026-11-13T18:19:19+00:00",
+   "note": "China has been carrying out major military drills around Taiwan since early November. But contrary to some claims on social media, Beijing's armed forces have not actually implemen",
+   "region": "EAST_ASIA"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 39534,
-  "gdelt_events": 39287,
+  "items": 39569,
+  "gdelt_events": 39321,
   "mode": "live",
   "data_through": "2026-11-12",
-  "clusters": 241,
+  "clusters": 240,
   "origins": 242,
   "failed_days": 3,
   "failed_days_last": [
@@ -1099,7 +1099,7 @@
   },
   {
    "date": "2026-10-14",
-   "geti": 52.9
+   "geti": 52.8
   },
   {
    "date": "2026-10-15",
@@ -1223,9 +1223,17 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Chuck Schumer’s challenger for party control underscores Democrats’ ideological rift",
-    "url": "https://www.theguardian.com/us-news/2026/nov/13/chuck-schumer-democrat-party-control-ideology",
-    "country": "IL",
+    "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
+    "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
+    "country": "HU",
+    "source": "guardian",
+    "when": "2026-11-13"
+   },
+   {
+    "kind": "judicial",
+    "title": "Former Hamas bodyguard convicted of Birmingham knife crime also wanted in Germany",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/13/former-hamas-bodyguard-convicted-of-birmingham-knife-also-wanted-in-germany",
+    "country": "GB",
     "source": "guardian",
     "when": "2026-11-13"
    },
@@ -1302,12 +1310,12 @@
     "when": "2026-11-13"
    }
   ],
-  "notable_total": 10,
+  "notable_total": 11,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 10
+   "notable": 11
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1356,11 +1364,11 @@
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 4.98,
-    "chg5": 0.61,
-    "z": -0.154,
+    "last": 5.1,
+    "chg5": 4.08,
+    "z": -0.236,
     "ok": true,
-    "asof": "2026-11-10"
+    "asof": "2026-11-12"
    }
   ],
   "asof": "2026-11-12",
@@ -1393,7 +1401,7 @@
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 102,
+    "items": 103,
     "error": ""
    }
   ],
@@ -2246,8 +2254,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 3.0,
-    "carry": 2.53,
+    "value": 2.0,
+    "carry": 2.39,
     "z": null,
     "score": null,
     "available": false
@@ -2353,12 +2361,6 @@
      "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26331"
     },
     {
-     "t": "Typhoon Cempaka",
-     "v": "severe storms",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26157"
-    },
-    {
      "t": "Tropical Storm Pena",
      "v": "severe storms",
      "ts": "",
@@ -2377,12 +2379,6 @@
      "v": "green",
      "ts": "2026-11-12 07:27",
      "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104280"
-    },
-    {
-     "t": "Green flood alert in Dominican Republic",
-     "v": "green",
-     "ts": "2026-11-12 21:54",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104281"
     },
     {
      "t": "Drought is on going in New Zealand",
@@ -2419,8 +2415,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 0.0,
-    "carry": 0.42,
+    "value": 1.0,
+    "carry": 0.56,
     "z": null,
     "score": null,
     "available": false
@@ -2429,7 +2425,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.62,
+    "value": 1.61,
     "carry": 0.91,
     "z": null,
     "score": null,
@@ -2446,7 +2442,14 @@
    "ongoing": true
   },
   "evidence": {
-   "who": []
+   "who": [
+    {
+     "t": "美国联邦航空管理局发布全国范围地面停飞指令",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    }
+   ]
   }
  },
  "doom": {
@@ -2490,14 +2493,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 39287,
+   "files": 141,
+   "items": 39321,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 21,
+   "items": 25,
    "error": "",
    "undated": 0
   },
@@ -2511,14 +2514,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 33,
+   "items": 31,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 13,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2598,7 +2601,7 @@
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 102,
+   "items": 103,
    "error": ""
   },
   {
@@ -2640,13 +2643,13 @@
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "error": ""
   },
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 4,
+   "items": 3,
    "error": ""
   },
   {
@@ -2664,7 +2667,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 11911,
+   "items": 4569,
    "error": ""
   },
   {
