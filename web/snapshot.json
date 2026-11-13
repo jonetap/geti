@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-12T23:37:54+00:00",
- "date": "2026-11-11",
- "geti": 73.3,
- "delta_z": 0.71,
- "delta_pts": 1.7,
+ "generated_at": "2026-11-13T06:41:41+00:00",
+ "date": "2026-11-12",
+ "geti": 73.8,
+ "delta_z": 0.65,
+ "delta_pts": 0.5,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,30 +13,64 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 79.2,
-   "delta": 0.8,
+   "score": 78.0,
+   "delta": -1.3,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.66
+     1.65
     ],
     [
-     "economy",
-     1.56
+     "diplomacy",
+     1.41
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 73.3,
-   "delta": -0.5,
+   "score": 74.7,
+   "delta": 1.4,
    "excluded": true,
    "drivers": [
     [
      "military",
-     1.38
+     1.47
+    ],
+    [
+     "diplomacy",
+     1.22
+    ]
+   ]
+  },
+  {
+   "code": "EUROPE",
+   "label": "欧洲",
+   "score": 69.7,
+   "delta": -0.8,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     1.11
+    ],
+    [
+     "diplomacy",
+     0.95
+    ]
+   ]
+  },
+  {
+   "code": "MIDDLE_EAST",
+   "label": "中东",
+   "score": 69.6,
+   "delta": -0.9,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     1.26
     ],
     [
      "diplomacy",
@@ -45,138 +79,104 @@
    ]
   },
   {
-   "code": "MIDDLE_EAST",
-   "label": "中东",
-   "score": 70.5,
-   "delta": 2.1,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.28
-    ],
-    [
-     "diplomacy",
-     1.1
-    ]
-   ]
-  },
-  {
-   "code": "EUROPE",
-   "label": "欧洲",
-   "score": 70.5,
-   "delta": -0.4,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.11
-    ],
-    [
-     "economy",
-     1.03
-    ]
-   ]
-  },
-  {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 66.2,
-   "delta": -1.7,
+   "score": 69.5,
+   "delta": 3.3,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.02
+     1.25
     ],
     [
      "diplomacy",
-     0.84
+     1.04
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 65.4,
-   "delta": -0.8,
+   "score": 68.4,
+   "delta": 3.0,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     0.77
+     "diplomacy",
+     1.05
     ],
     [
-     "diplomacy",
-     0.77
+     "military",
+     0.93
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 61.9,
-   "delta": -7.9,
+   "score": 64.7,
+   "delta": 2.8,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.84
+     0.95
     ],
     [
      "diplomacy",
-     0.62
+     0.8
     ]
    ]
   },
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 59.7,
-   "delta": -3.7,
+   "score": 63.9,
+   "delta": 4.2,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     0.69
+     0.97
     ],
     [
      "military",
-     0.58
+     0.76
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 58.5,
-   "delta": 0.8,
+   "score": 58.2,
+   "delta": -0.3,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     0.69
+     "diplomacy",
+     0.81
     ],
     [
-     "diplomacy",
-     0.66
+     "military",
+     0.7
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 49.8,
-   "delta": -1.2,
+   "score": 50.8,
+   "delta": 1.0,
    "excluded": false,
    "drivers": [
     [
-     "internal",
-     -0.64
+     "diplomacy",
+     0.51
     ],
     [
-     "diplomacy",
-     0.46
+     "internal",
+     -0.5
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.66,
-   "score": 88.9,
-   "contrib": 0.401
+   "z": 1.65,
+   "score": 88.8,
+   "contrib": 0.422
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.51,
-   "score": 86.9,
-   "contrib": 0.253
+   "z": 1.41,
+   "score": 85.4,
+   "contrib": 0.25
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.56,
-   "score": 87.5,
-   "contrib": 0.217
+   "z": 1.34,
+   "score": 84.3,
+   "contrib": 0.198
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 1.24,
-   "score": 82.4,
-   "contrib": 0.126
+   "z": 1.17,
+   "score": 81.2,
+   "contrib": 0.127
   },
   {
    "key": "narrative",
@@ -245,109 +245,18 @@
  ],
  "events": [
   {
-   "id": "3b2ef338c4ab",
-   "title": "Eight killed, including two children, in New York building collapse",
-   "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
+   "id": "5fcbdaa6fbeb",
+   "title": "After Iraq ex-MP’s killing, Lebanon asks Syria to extradite suspects",
+   "url": "https://www.aljazeera.com/news/2026/11/13/after-iraq-ex-mps-killing-lebanon-asks-syria-to-extradite-suspects?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
-   ],
-   "published": "2026-11-12T22:58:23+00:00",
-   "note": "Eight people, including two children, were killed when a residential building collapsed into an adjacent construction site in Brooklyn on Wednesday. Firefighters spent hours search",
-   "region": "OTHER"
-  },
-  {
-   "id": "c414bc475521",
-   "title": "Ngo criticizes UN's response to massacre in South Sudan",
-   "url": "https://www.france24.com/en/ngo-criticizes-un-s-response-to-massacre-in-south-sudan",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-12T21:20:52+00:00",
-   "note": "In tonight's edition, Amnesty International accuses both the government and UN peacekeepers of failing to protect civilians during a massacre in South Sudan that killed over 200 pe",
-   "region": "AFRICA"
-  },
-  {
-   "id": "d589177ed243",
-   "title": "Deadly shooting in Washington DC",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera",
     "aljazeera"
    ],
-   "published": "2026-11-12T21:18:24+00:00",
-   "note": "Police in the US capital are investigating a shooting around a mile from the White House that led to one person killed",
-   "region": "NORTH_AMERICA"
-  },
-  {
-   "id": "8496a1cf75cf",
-   "title": "Israeli strike on Gaza hospital kills six, including surgeon, medics say",
-   "url": "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-12T20:03:55+00:00",
-   "note": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike ",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "9e9b2bdd911f",
-   "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-   "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-12T19:23:02+00:00",
-   "note": "Schools across Italy have received bomb threats for the second day in a row, sparking fresh panic and evacuations.",
-   "region": "OTHER"
-  },
-  {
-   "id": "1d91681c12de",
-   "title": "Putin indicates he will not compromise on Ukraine in meeting with US envoys",
-   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374265/putin-indicates-he-will-not-compromise-ukraine-meeting-us-envoys",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-12T19:05:17+00:00",
-   "note": "Vladimir Putin indicated on Thursday that Russia will not compromise on its hardline demands to end the Ukraine offensive but offered a short-term ceasefire in a key frontline city",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "47120109c238",
-   "title": "Israeli strike on Gaza hospital kills 11 in deadliest attack since election",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-12T18:32:12+00:00",
-   "note": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike ",
+   "published": "2026-11-13T01:44:55+00:00",
+   "note": "Longtime Sunni politician and Iran critic was reportedly strangled in Beirut, sparking investigation.",
    "region": "MIDDLE_EAST"
   },
   {
@@ -366,34 +275,94 @@
    "region": "OTHER"
   },
   {
-   "id": "2c98f2ba342f",
-   "title": "俄方对圣彼得堡汽车爆炸致军人死亡案展开刑事调查",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730852.shtml",
+   "id": "3b2ef338c4ab",
+   "title": "Eight killed, including two children, in New York building collapse",
+   "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
    "component": "narrative",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-12T08:12:40+00:00",
-   "note": "中新社莫斯科11月12日电 俄罗斯侦查委员会圣彼得堡市侦查总局12日表示，针对圣彼得堡普希金区汽车爆炸致一名军人死亡事件，侦查机关已进行刑事立案，并展开调查。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "f5a7565d3344",
-   "title": "The planet ‘is being killed’, Greta Thunberg tells Cop31 climate summit",
-   "url": "https://www.theguardian.com/environment/2026/nov/12/greta-thunberg-cop31-climate-summit",
-   "component": "diplomacy",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "guardian"
+    "france24"
    ],
-   "published": "2026-11-12T16:39:47+00:00",
-   "note": "Swedish activist criticised world governments for their failure to prevent environmental breakdown The planet is “not dying, it is being killed and we know by who”, said Greta Thun",
+   "published": "2026-11-12T22:58:23+00:00",
+   "note": "Eight people, including two children, were killed when a residential building collapsed into an adjacent construction site in Brooklyn on Wednesday. Firefighters spent hours search",
    "region": "OTHER"
+  },
+  {
+   "id": "c414bc475521",
+   "title": "Ngo criticizes UN's response to massacre in South Sudan",
+   "url": "https://www.france24.com/en/ngo-criticizes-un-s-response-to-massacre-in-south-sudan",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-12T21:20:52+00:00",
+   "note": "In tonight's edition, Amnesty International accuses both the government and UN peacekeepers of failing to protect civilians during a massacre in South Sudan that killed over 200 pe",
+   "region": "AFRICA"
+  },
+  {
+   "id": "d589177ed243",
+   "title": "Deadly shooting in Washington DC",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-12T21:18:24+00:00",
+   "note": "Police in the US capital are investigating a shooting around a mile from the White House that led to one person killed",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "8496a1cf75cf",
+   "title": "Israeli strike on Gaza hospital kills six, including surgeon, medics say",
+   "url": "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-12T20:03:55+00:00",
+   "note": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike ",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "9e9b2bdd911f",
+   "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+   "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-12T19:23:02+00:00",
+   "note": "Schools across Italy have received bomb threats for the second day in a row, sparking fresh panic and evacuations.",
+   "region": "OTHER"
+  },
+  {
+   "id": "47120109c238",
+   "title": "Israeli strike on Gaza hospital deadliest since election",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-12T18:32:12+00:00",
+   "note": "Israeli fire killed 11 people in Gaza on Thursday, six of them in the bombing of Nasser hospital in south Gaza early in the day, health officials said, the deadliest single strike ",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "72bfa2811187",
@@ -427,7 +396,7 @@
   },
   {
    "id": "b87dace28cd7",
-   "title": "Suspect shoots himself after killing 1 and wounding 4 in Washington",
+   "title": "US doctor shoots building manager dead, then wounds 4 in Washington",
    "url": "https://www.scmp.com/news/world/united-states-canada/article/3374259/5-people-shot-neighbourhood-north-us-white-house",
    "component": "narrative",
    "severity": 5,
@@ -437,7 +406,7 @@
     "scmp"
    ],
    "published": "2026-11-12T14:23:48+00:00",
-   "note": "A man in a long-running dispute over the conditions of his penthouse flat gunned down the building manager in a busy gym on Thursday before fleeing and shooting four more people fr",
+   "note": "A disgruntled resident shot dead his building manager and wounded four other people in an upscale neighbourhood of Washington on Thursday before killing himself, police said amid a",
    "region": "NORTH_AMERICA"
   },
   {
@@ -457,7 +426,7 @@
   },
   {
    "id": "de9b93dc4a13",
-   "title": "Death toll rises to 8 in New York building collapse as rescuers search for survivors",
+   "title": "New York hunts for clues in Brooklyn building collapse that killed 8",
    "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
    "component": "narrative",
    "severity": 5,
@@ -467,7 +436,7 @@
     "scmp"
    ],
    "published": "2026-11-12T13:43:09+00:00",
-   "note": "At least eight people died after a three-storey building in Brooklyn collapsed at the edge of a construction site, New York City’s mayor said on Thursday, as firefighters kept digg",
+   "note": "Investigators began what could be a long search for the cause of a Brooklyn residential building collapse that killed eight people as the fire department ended rescue operations Th",
    "region": "OTHER"
   },
   {
@@ -516,36 +485,6 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "406e46c1ce10",
-   "title": "Abby Choi’s ex-brother-in-law admits to erasing evidence by wiping down car",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374193/abby-chois-ex-brother-law-admits-erasing-evidence-wiping-down-car",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-12T08:01:57+00:00",
-   "note": "The former brother-in-law of slain Hong Kong socialite Abby Choi Tin-fung has admitted to erasing evidence of her killing by cleaning the car used to transport her body to a villag",
-   "region": "OTHER"
-  },
-  {
-   "id": "3c3451cab2e3",
-   "title": "South Korean father accused of killing girl linked to son’s rape case",
-   "url": "https://www.scmp.com/news/asia/east-asia/article/3374191/south-korean-father-accused-killing-girl-linked-sons-rape-case",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-12T07:59:56+00:00",
-   "note": "South Korean police sought an arrest warrant on Thursday for a 59-year-old man, surnamed Jin, suspected of killing a 15-year-old girl who was the alleged victim in a statutory rape",
-   "region": "EAST_ASIA"
-  },
-  {
    "id": "33b7888d3ed7",
    "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
    "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
@@ -591,12 +530,72 @@
    "region": "NORTH_AMERICA"
   },
   {
+   "id": "ea9ea3067544",
+   "title": "Gaza surgeon films aftermath of Israeli strike",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/gaza-surgeon-films-aftermath-of-israeli-strike?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T03:11:43+00:00",
+   "note": "British volunteer surgeon films the terrifying aftermath of an Israeli strike on Gaza’s Nasser Hospital.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "c0f5504480aa",
+   "title": "Australian footballers will not be charged after hotel incident, police say",
+   "url": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-13T03:02:54+00:00",
+   "note": "Four Sydney Swans players had been under investigation after an alleged sexual assault after a game in Melbourne.",
+   "region": "OCEANIA"
+  },
+  {
+   "id": "dd57635ab909",
+   "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
+   "url": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T02:35:21+00:00",
+   "note": "Reports of attack in Baltic came before US envoys met with Russian and Ukrainian presidents.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "3dcc3cbafdef",
+   "title": "Haitian police retake national stadium from gangs after two years",
+   "url": "https://www.france24.com/en/americas/20261113-haitian-police-retake-national-stadium-from-gangs-after-two-years",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T02:01:26+00:00",
+   "note": "Haitian security forces regained control of the country's main football stadium on Thursday after two years under gang control, with Salvadoran troops taking over security at the v",
+   "region": "LATAM"
+  },
+  {
    "id": "97598ba7d50b",
    "title": "古巴外长批评七国集团涉古声明回避美国对古封锁影响",
    "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731243.shtml",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -608,76 +607,75 @@
  ],
  "breaking": [
   {
-   "id": "3b2ef338c4ab",
-   "title": "Eight killed, including two children, in New York building collapse",
-   "url": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-12T22:58:23+00:00",
-   "note": "Eight people, including two children, were killed when a residential building collapsed into an adjacent construction site in Brooklyn on Wednesday. Firefighters spent hours search",
-   "region": "OTHER"
-  },
-  {
-   "id": "97598ba7d50b",
-   "title": "古巴外长批评七国集团涉古声明回避美国对古封锁影响",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731243.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-12T22:02:57+00:00",
-   "note": "针对七国集团外长会议联合声明涉古巴内容，古巴外长罗德里格斯12日表示，该声明回避了美国政府对古巴实施封锁所造成的残酷影响，美国的封锁措施侵犯古巴人民的人权及第三国主权。",
-   "region": "NORTH_AMERICA"
-  },
-  {
-   "id": "c414bc475521",
-   "title": "Ngo criticizes UN's response to massacre in South Sudan",
-   "url": "https://www.france24.com/en/ngo-criticizes-un-s-response-to-massacre-in-south-sudan",
+   "id": "ea9ea3067544",
+   "title": "Gaza surgeon films aftermath of Israeli strike",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/gaza-surgeon-films-aftermath-of-israeli-strike?traffic_source=rss",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
-   ],
-   "published": "2026-11-12T21:20:52+00:00",
-   "note": "In tonight's edition, Amnesty International accuses both the government and UN peacekeepers of failing to protect civilians during a massacre in South Sudan that killed over 200 pe",
-   "region": "AFRICA"
-  },
-  {
-   "id": "d589177ed243",
-   "title": "Deadly shooting in Washington DC",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera",
     "aljazeera"
    ],
-   "published": "2026-11-12T21:18:24+00:00",
-   "note": "Police in the US capital are investigating a shooting around a mile from the White House that led to one person killed",
-   "region": "NORTH_AMERICA"
+   "published": "2026-11-13T03:11:43+00:00",
+   "note": "British volunteer surgeon films the terrifying aftermath of an Israeli strike on Gaza’s Nasser Hospital.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "c0f5504480aa",
+   "title": "Australian footballers will not be charged after hotel incident, police say",
+   "url": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-13T03:02:54+00:00",
+   "note": "Four Sydney Swans players had been under investigation after an alleged sexual assault after a game in Melbourne.",
+   "region": "OCEANIA"
+  },
+  {
+   "id": "dd57635ab909",
+   "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
+   "url": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-13T02:35:21+00:00",
+   "note": "Reports of attack in Baltic came before US envoys met with Russian and Ukrainian presidents.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "3dcc3cbafdef",
+   "title": "Haitian police retake national stadium from gangs after two years",
+   "url": "https://www.france24.com/en/americas/20261113-haitian-police-retake-national-stadium-from-gangs-after-two-years",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T02:01:26+00:00",
+   "note": "Haitian security forces regained control of the country's main football stadium on Thursday after two years under gang control, with Salvadoran troops taking over security at the v",
+   "region": "LATAM"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 41864,
-  "gdelt_events": 41607,
+  "items": 39167,
+  "gdelt_events": 38905,
   "mode": "live",
-  "data_through": "2026-11-11",
-  "clusters": 253,
-  "origins": 255,
+  "data_through": "2026-11-12",
+  "clusters": 256,
+  "origins": 257,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -695,11 +693,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.36,
-    "p50": 0.47,
-    "p90": 1.34,
-    "ratio": 7.1,
-    "z": 1.66
+    "now": 3.33,
+    "p50": 0.48,
+    "p90": 1.38,
+    "ratio": 6.93,
+    "z": 1.65
    },
    "physical": {
     "now": 0.0,
@@ -709,25 +707,25 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.54,
+    "now": 2.23,
     "p50": 0.4,
-    "p90": 1.1,
-    "ratio": 6.42,
-    "z": 1.51
+    "p90": 1.37,
+    "ratio": 5.61,
+    "z": 1.41
    },
    "economy": {
-    "now": 2.67,
+    "now": 2.05,
     "p50": 0.39,
-    "p90": 1.46,
-    "ratio": 6.82,
-    "z": 1.56
+    "p90": 1.47,
+    "ratio": 5.19,
+    "z": 1.34
    },
    "internal": {
-    "now": 1.31,
+    "now": 1.22,
     "p50": 0.15,
-    "p90": 0.5,
-    "ratio": 8.77,
-    "z": 1.24
+    "p90": 0.87,
+    "ratio": 7.93,
+    "z": 1.17
    },
    "narrative": {
     "now": 0.04,
@@ -739,10 +737,6 @@
   }
  },
  "series": [
-  {
-   "date": "2026-07-15",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-16",
    "geti": 50.0
@@ -797,107 +791,107 @@
   },
   {
    "date": "2026-07-29",
-   "geti": 47.3
+   "geti": 50.0
   },
   {
    "date": "2026-07-30",
-   "geti": 49.1
+   "geti": 50.9
   },
   {
    "date": "2026-07-31",
-   "geti": 52.5
+   "geti": 54.0
   },
   {
    "date": "2026-08-01",
-   "geti": 53.4
+   "geti": 54.7
   },
   {
    "date": "2026-08-02",
-   "geti": 53.7
+   "geti": 54.6
   },
   {
    "date": "2026-08-03",
-   "geti": 51.2
+   "geti": 51.9
   },
   {
    "date": "2026-08-04",
-   "geti": 51.3
+   "geti": 51.7
   },
   {
    "date": "2026-08-05",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-08-06",
-   "geti": 47.8
-  },
-  {
-   "date": "2026-08-07",
-   "geti": 46.3
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 44.8
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 40.9
-  },
-  {
-   "date": "2026-08-10",
-   "geti": 45.8
-  },
-  {
-   "date": "2026-08-11",
-   "geti": 47.7
-  },
-  {
-   "date": "2026-08-12",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-08-13",
-   "geti": 49.4
-  },
-  {
-   "date": "2026-08-14",
-   "geti": 48.8
-  },
-  {
-   "date": "2026-08-15",
-   "geti": 52.2
-  },
-  {
-   "date": "2026-08-16",
-   "geti": 53.3
-  },
-  {
-   "date": "2026-08-17",
-   "geti": 46.7
-  },
-  {
-   "date": "2026-08-18",
-   "geti": 42.8
-  },
-  {
-   "date": "2026-08-19",
-   "geti": 40.5
-  },
-  {
-   "date": "2026-08-20",
    "geti": 45.4
   },
   {
+   "date": "2026-08-06",
+   "geti": 48.1
+  },
+  {
+   "date": "2026-08-07",
+   "geti": 46.6
+  },
+  {
+   "date": "2026-08-08",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-08-09",
+   "geti": 41.3
+  },
+  {
+   "date": "2026-08-10",
+   "geti": 46.4
+  },
+  {
+   "date": "2026-08-11",
+   "geti": 48.4
+  },
+  {
+   "date": "2026-08-12",
+   "geti": 49.8
+  },
+  {
+   "date": "2026-08-13",
+   "geti": 49.8
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 49.2
+  },
+  {
+   "date": "2026-08-15",
+   "geti": 52.5
+  },
+  {
+   "date": "2026-08-16",
+   "geti": 53.5
+  },
+  {
+   "date": "2026-08-17",
+   "geti": 46.9
+  },
+  {
+   "date": "2026-08-18",
+   "geti": 43.0
+  },
+  {
+   "date": "2026-08-19",
+   "geti": 40.6
+  },
+  {
+   "date": "2026-08-20",
+   "geti": 45.5
+  },
+  {
    "date": "2026-08-21",
-   "geti": 48.3
+   "geti": 48.4
   },
   {
    "date": "2026-08-22",
-   "geti": 45.9
+   "geti": 46.0
   },
   {
    "date": "2026-08-23",
-   "geti": 41.1
+   "geti": 41.2
   },
   {
    "date": "2026-08-24",
@@ -905,7 +899,7 @@
   },
   {
    "date": "2026-08-25",
-   "geti": 43.3
+   "geti": 43.4
   },
   {
    "date": "2026-08-26",
@@ -913,199 +907,199 @@
   },
   {
    "date": "2026-08-27",
-   "geti": 48.3
+   "geti": 48.6
   },
   {
    "date": "2026-08-28",
-   "geti": 50.8
+   "geti": 51.0
   },
   {
    "date": "2026-08-29",
-   "geti": 51.1
+   "geti": 51.2
   },
   {
    "date": "2026-08-30",
-   "geti": 57.0
+   "geti": 57.2
   },
   {
    "date": "2026-08-31",
-   "geti": 58.4
+   "geti": 58.5
   },
   {
    "date": "2026-09-01",
-   "geti": 51.8
+   "geti": 52.0
   },
   {
    "date": "2026-09-02",
-   "geti": 50.9
+   "geti": 51.1
   },
   {
    "date": "2026-09-03",
-   "geti": 48.8
+   "geti": 49.0
   },
   {
    "date": "2026-09-04",
-   "geti": 48.8
+   "geti": 49.0
   },
   {
    "date": "2026-09-05",
-   "geti": 50.9
+   "geti": 51.1
   },
   {
    "date": "2026-09-06",
-   "geti": 48.8
+   "geti": 48.9
   },
   {
    "date": "2026-09-07",
-   "geti": 44.2
+   "geti": 44.3
   },
   {
    "date": "2026-09-08",
-   "geti": 43.4
+   "geti": 43.5
   },
   {
    "date": "2026-09-09",
-   "geti": 41.1
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 39.1
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 38.6
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 41.6
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 43.6
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 42.7
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 44.0
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.4
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 46.0
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 51.5
-  },
-  {
-   "date": "2026-09-21",
-   "geti": 48.1
-  },
-  {
-   "date": "2026-09-22",
-   "geti": 46.3
-  },
-  {
-   "date": "2026-09-23",
-   "geti": 48.4
-  },
-  {
-   "date": "2026-09-24",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 42.8
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 47.8
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 47.4
-  },
-  {
-   "date": "2026-09-28",
-   "geti": 45.4
-  },
-  {
-   "date": "2026-09-29",
-   "geti": 42.7
-  },
-  {
-   "date": "2026-09-30",
-   "geti": 39.2
-  },
-  {
-   "date": "2026-10-01",
-   "geti": 35.8
-  },
-  {
-   "date": "2026-10-02",
-   "geti": 40.0
-  },
-  {
-   "date": "2026-10-03",
    "geti": 41.2
   },
   {
+   "date": "2026-09-10",
+   "geti": 39.2
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 38.8
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 41.9
+  },
+  {
+   "date": "2026-09-13",
+   "geti": 43.9
+  },
+  {
+   "date": "2026-09-14",
+   "geti": 42.9
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 44.1
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 42.6
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 46.2
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 51.8
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 48.3
+  },
+  {
+   "date": "2026-09-22",
+   "geti": 46.5
+  },
+  {
+   "date": "2026-09-23",
+   "geti": 48.7
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 43.1
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 48.2
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 47.7
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 45.8
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 43.2
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 39.5
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 36.0
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 40.2
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 41.4
+  },
+  {
    "date": "2026-10-04",
-   "geti": 39.9
+   "geti": 40.1
   },
   {
    "date": "2026-10-05",
-   "geti": 44.2
+   "geti": 44.4
   },
   {
    "date": "2026-10-06",
-   "geti": 46.3
+   "geti": 46.5
   },
   {
    "date": "2026-10-07",
-   "geti": 45.1
+   "geti": 45.2
   },
   {
    "date": "2026-10-08",
-   "geti": 44.0
+   "geti": 44.1
   },
   {
    "date": "2026-10-09",
-   "geti": 47.1
+   "geti": 47.3
   },
   {
    "date": "2026-10-10",
-   "geti": 52.8
+   "geti": 53.0
   },
   {
    "date": "2026-10-11",
-   "geti": 57.5
+   "geti": 57.7
   },
   {
    "date": "2026-10-12",
-   "geti": 52.7
+   "geti": 52.8
   },
   {
    "date": "2026-10-13",
-   "geti": 52.2
+   "geti": 52.3
   },
   {
    "date": "2026-10-14",
-   "geti": 52.8
+   "geti": 52.9
   },
   {
    "date": "2026-10-15",
@@ -1193,11 +1187,11 @@
   },
   {
    "date": "2026-11-05",
-   "geti": 65.1
+   "geti": 65.0
   },
   {
    "date": "2026-11-06",
-   "geti": 68.4
+   "geti": 68.3
   },
   {
    "date": "2026-11-07",
@@ -1218,6 +1212,10 @@
   {
    "date": "2026-11-11",
    "geti": 73.3
+  },
+  {
+   "date": "2026-11-12",
+   "geti": 73.8
   }
  ],
  "policy": {
@@ -1225,19 +1223,19 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Icac’s dirt files expose NSW’s ‘guns for hire’ problem. But neither major party is serious about lobbying reform",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/13/icac-chris-minns-nsw-undeclared-lobbying-bill-ntwnfb",
-    "country": "",
+    "title": "Boxer on death row in Iran vows ‘not to bow before oppression’ after winning rights prize",
+    "url": "https://www.theguardian.com/global-development/2026/nov/13/mohammad-javad-vafaei-sani-iran-boxer-death-row-magnitsky-award",
+    "country": "IR",
     "source": "guardian",
-    "when": "2026-11-12"
+    "when": "2026-11-13"
    },
    {
     "kind": "judicial",
-    "title": "Iranian men guilty of spying on British journalists",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iranian-men-guilty-of-spying-on-british-journalists?traffic_source=rss",
-    "country": "GB",
-    "source": "aljazeera",
-    "when": "2026-11-12"
+    "title": "Singaporean woman who helped dispose of Megan Khung’s body gets 13 years’ jail",
+    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374302/singaporean-woman-who-helped-dispose-megan-khungs-body-gets-13-years-jail",
+    "country": "SG",
+    "source": "scmp",
+    "when": "2026-11-13"
    },
    {
     "kind": "judicial",
@@ -1249,26 +1247,10 @@
    },
    {
     "kind": "judicial",
-    "title": "广东省委宣传部原副部长倪谦被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730956.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "广西壮族自治区水利厅一级巡视员李建文接受监察调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730954.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-12"
-   },
-   {
-    "kind": "judicial",
-    "title": "山东省聊城经济技术开发区党工委书记任海波接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730861.shtml",
-    "country": "",
-    "source": "chinanews_cn",
+    "title": "Trump rejects need for Iran deal, directs Vance to focus on US",
+    "url": "https://www.scmp.com/news/world/united-states-canada/article/3374257/trump-says-us-does-not-need-deal-iran",
+    "country": "IR",
+    "source": "scmp",
     "when": "2026-11-12"
    },
    {
@@ -1278,38 +1260,22 @@
     "country": "",
     "source": "un_news_zh",
     "when": "2026-11-11"
-   },
-   {
-    "kind": "judicial",
-    "title": "黃仁勳曾告訴我，那些關於中國與國家安全的問題",
-    "url": "https://www.bbc.com/zhongwen/articles/cm36gnenlj59o/trad?at_medium=RSS&at_campaign=rss",
-    "country": "",
-    "source": "bbc_zh",
-    "when": "2026-11-11"
-   },
-   {
-    "kind": "judicial",
-    "title": "一名公務員如何長期瞞天過海，身兼五職？",
-    "url": "https://www.bbc.com/zhongwen/articles/c933x388j116o/trad?at_medium=RSS&at_campaign=rss",
-    "country": "",
-    "source": "bbc_zh",
-    "when": "2026-11-11"
    }
   ],
-  "notable_total": 9,
+  "notable_total": 5,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 9
+   "notable": 5
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 69.4,
-  "z": 0.492,
+  "index": 63.7,
+  "z": 0.337,
   "rows": [
    {
     "id": "vix",
@@ -1323,11 +1289,11 @@
    {
     "id": "oil",
     "label": "WTI 原油",
-    "last": 99.64,
-    "chg5": -3.61,
-    "z": 0.348,
+    "last": 89.62,
+    "chg5": -2.3,
+    "z": -0.118,
     "ok": true,
-    "asof": "2026-11-03"
+    "asof": "2026-11-11"
    },
    {
     "id": "hy",
@@ -1363,31 +1329,31 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 108,
+    "items": 107,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 99,
+    "items": 104,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 107,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 101,
+    "items": 100,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 103,
+    "items": 102,
     "error": ""
    }
   ],
@@ -2220,8 +2186,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.6,
-    "carry": 9.17,
+    "value": 8.88,
+    "carry": 9.13,
     "z": null,
     "score": null,
     "available": false
@@ -2230,8 +2196,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 19.0,
-    "carry": 14.23,
+    "value": 10.0,
+    "carry": 13.63,
     "z": null,
     "score": null,
     "available": false
@@ -2241,7 +2207,7 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 4.0,
-    "carry": 2.45,
+    "carry": 2.67,
     "z": null,
     "score": null,
     "available": false
@@ -2260,83 +2226,83 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 2.67,
-    "carry": 3.38,
+    "value": 1.67,
+    "carry": 3.14,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 9,
+  "history_days": 10,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 10,
-   "last_seen": "2026-11-11",
+   "active_days": 11,
+   "last_seen": "2026-11-12",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "80 km W of Panguna, Papua New Guinea",
-     "v": 5.1,
-     "ts": "2026-11-11T17:38+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8"
+     "t": "148 km NW of Kavieng, Papua New Guinea",
+     "v": 5.8,
+     "ts": "2026-11-12T22:04+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp"
     },
     {
      "t": "South Sandwich Islands region",
+     "v": 5.4,
+     "ts": "2026-11-12T03:45+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqr"
+    },
+    {
+     "t": "western Indian-Antarctic Ridge",
      "v": 5.1,
-     "ts": "2026-11-11T15:39+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txjg"
+     "ts": "2026-11-12T21:09+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txw9"
     },
     {
-     "t": "27 km WSW of Calama, Chile",
-     "v": 5.1,
-     "ts": "2026-11-11T11:36+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txis"
-    },
-    {
-     "t": "Pulau Pulau Tanimbar, Indonesia",
-     "v": 5.1,
-     "ts": "2026-11-11T11:32+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txir"
-    },
-    {
-     "t": "Balleny Islands region",
-     "v": 5.1,
-     "ts": "2026-11-11T06:21+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txhi"
-    },
-    {
-     "t": "48 km NW of Ancud, Chile",
-     "v": 5.0,
-     "ts": "2026-11-11T19:21+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txmq"
-    },
-    {
-     "t": "152 km SE of Kuril’sk, Russia",
-     "v": 5.0,
-     "ts": "2026-11-11T05:26+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txgv"
-    },
-    {
-     "t": "116 km E of Georgetown, Saint Helena",
+     "t": "41 km N of Weining, China",
      "v": 4.9,
-     "ts": "2026-11-11T22:03+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txpa"
+     "ts": "2026-11-12T20:03+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txvw"
     },
     {
-     "t": "168 km W of Fakfak, Indonesia",
-     "v": 4.7,
-     "ts": "2026-11-11T12:17+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txiw"
+     "t": "155 km E of Noda, Japan",
+     "v": 4.8,
+     "ts": "2026-11-12T04:07+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqx"
     },
     {
-     "t": "152 km WSW of Merizo Village, Guam",
-     "v": 4.7,
-     "ts": "2026-11-11T08:37+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txi0"
+     "t": "43 km SE of Severo-Kuril’sk, Russia",
+     "v": 4.8,
+     "ts": "2026-11-12T01:18+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqa"
+    },
+    {
+     "t": "117 km S of Akureyri, Iceland",
+     "v": 4.6,
+     "ts": "2026-11-12T21:53+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwi"
+    },
+    {
+     "t": "115 km ESE of Bitung, Indonesia",
+     "v": 4.5,
+     "ts": "2026-11-12T14:58+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txtd"
+    },
+    {
+     "t": "3 km E of Tako, Japan",
+     "v": 4.5,
+     "ts": "2026-11-12T13:27+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txsr"
+    },
+    {
+     "t": "off the coast of Oregon",
+     "v": 4.5,
+     "ts": "2026-11-12T08:17+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txrk"
     }
    ],
    "eonet": [
@@ -2367,83 +2333,35 @@
    ],
    "gdacs": [
     {
-     "t": "Green forest fire notification in Central African Republic, Chad",
+     "t": "Green earthquake (Magnitude 5.8M, Depth:10km) in Papua New Guinea 12/11/2026 22:",
      "v": "green",
-     "ts": "2026-11-11 16:01",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033697"
+     "ts": "2026-11-12 22:20",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577060"
     },
     {
-     "t": "Green forest fire notification in Chad",
+     "t": "Green flood alert in Myanmar",
      "v": "green",
-     "ts": "2026-11-11 20:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033743"
+     "ts": "2026-11-12 07:27",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104280"
     },
     {
-     "t": "Green forest fire notification in Senegal, Mali",
+     "t": "Green flood alert in Dominican Republic",
      "v": "green",
-     "ts": "2026-11-11 20:07",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033706"
+     "ts": "2026-11-12 21:54",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104281"
     },
     {
-     "t": "Green forest fire notification in Senegal",
+     "t": "Drought is on going in New Zealand",
      "v": "green",
-     "ts": "2026-11-11 20:13",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033753"
-    },
-    {
-     "t": "Green forest fire notification in Senegal",
-     "v": "green",
-     "ts": "2026-11-11 20:13",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033685"
-    },
-    {
-     "t": "Green forest fire notification in Central African Republic, South Sudan, Sudan",
-     "v": "green",
-     "ts": "2026-11-11 20:12",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033756"
-    },
-    {
-     "t": "Green forest fire notification in Burkina Faso, Mali",
-     "v": "green",
-     "ts": "2026-11-11 00:13",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033712"
-    },
-    {
-     "t": "Green forest fire notification in Senegal",
-     "v": "green",
-     "ts": "2026-11-11 20:13",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033714"
-    },
-    {
-     "t": "Green forest fire notification in Benin, Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-11 20:17",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033715"
-    },
-    {
-     "t": "Green forest fire notification in Chad",
-     "v": "green",
-     "ts": "2026-11-11 20:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033548"
-    },
-    {
-     "t": "Green forest fire notification in Chad",
-     "v": "green",
-     "ts": "2026-11-11 20:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033535"
-    },
-    {
-     "t": "Green forest fire notification in Chad",
-     "v": "green",
-     "ts": "2026-11-11 20:36",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033768"
+     "ts": "2026-11-12 08:29",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027737"
     }
    ],
    "kp": [
     {
-     "t": "Kp 2.67 峰值（当日 8 个时段）",
-     "v": 2.67,
-     "ts": "2026-11-11",
+     "t": "Kp 1.67 峰值（当日 8 个时段）",
+     "v": 1.67,
+     "ts": "2026-11-12",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -2458,7 +2376,7 @@
     "label": "官方通报",
     "weight": 0.4,
     "value": 0.0,
-    "carry": 0.06,
+    "carry": 0.05,
     "z": null,
     "score": null,
     "available": false
@@ -2468,7 +2386,7 @@
     "label": "政策信号",
     "weight": 0.3,
     "value": 1.0,
-    "carry": 0.49,
+    "carry": 0.56,
     "z": null,
     "score": null,
     "available": false
@@ -2477,20 +2395,20 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.95,
-    "carry": 0.8,
+    "value": 2.67,
+    "carry": 1.06,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 9,
+  "history_days": 10,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 9,
-   "last_seen": "2026-11-11",
+   "active_days": 10,
+   "last_seen": "2026-11-12",
    "ongoing": true
   },
   "evidence": {
@@ -2505,10 +2423,10 @@
   }
  },
  "doom": {
-  "index": 73.3,
-  "z": 0.61,
+  "index": 73.8,
+  "z": 0.62,
   "parts": {
-   "military": 0.61,
+   "military": 0.62,
    "hazard": null,
    "epidemic": null
   },
@@ -2519,22 +2437,40 @@
   ]
  },
  "manual": {
-  "items": [],
-  "note": "读取人工线索失败：HTTPError: HTTP Error 403: rate limit exceeded（不影响指数）",
-  "mode": "failed"
+  "items": [
+   {
+    "number": 1,
+    "title": "线索：工伤认定新闻（测试）",
+    "note": "工伤认定问题",
+    "url": "https://github.com/jonetap/geti/issues/1",
+    "author": "jonetap",
+    "created": "2026-11-04T12:36:06Z",
+    "links": [
+     "https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/SuilUDmQOA1-LzmKwmgg7g"
+    ],
+    "images": [
+     "intel/9d8835a9a14b1106.png"
+    ],
+    "kind": "link",
+    "seen": false
+   }
+  ],
+  "unseen": 1,
+  "note": "人工提交 1 条，其中 1 条抓取器没有收录——这类条目也可能是我们的盲区。本层不计分。",
+  "mode": "shadow"
  },
  "adapters": [
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 41607,
+   "files": 141,
+   "items": 38905,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 29,
+   "items": 32,
    "error": "",
    "undated": 0
   },
@@ -2555,7 +2491,7 @@
   {
    "source": "dw",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2583,7 +2519,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 9,
+   "items": 14,
    "error": "",
    "undated": 0
   },
@@ -2604,38 +2540,38 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 15,
+   "items": 13,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 108,
+   "items": 107,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 99,
+   "items": 104,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 107,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 101,
+   "items": 100,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 103,
+   "items": 102,
    "error": ""
   },
   {
@@ -2671,7 +2607,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 19,
+   "items": 10,
    "error": ""
   },
   {
@@ -2683,7 +2619,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 12,
+   "items": 4,
    "error": ""
   },
   {
@@ -2701,14 +2637,13 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 9921,
+   "items": 6058,
    "error": ""
   },
   {
    "source": "manual:intel",
-   "ok": false,
-   "items": 0,
-   "error": "HTTPError: HTTP Error 403: rate limit exceeded"
+   "ok": true,
+   "items": 1
   }
  ]
 }

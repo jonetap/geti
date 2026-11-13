@@ -18,80 +18,80 @@
     "consecutive_failures": 0
   },
   "bbc": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "aljazeera": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "guardian": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "dw": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "france24": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "nhk": {
     "last_success_at": "2026-11-04T04:38:28+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "解析到 7 条，全部超过 48 小时",
-    "consecutive_failures": 37
+    "consecutive_failures": 38
   },
   "scmp": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "un_news_zh": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:VIXCLS": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DCOILWTICO": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:BAMLH0A0HYM2": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DTWEXBGS": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:DGS10": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
@@ -102,8 +102,8 @@
     "consecutive_failures": 2
   },
   "gdelt_recent": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
@@ -120,14 +120,14 @@
     "consecutive_failures": 12
   },
   "chinanews": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "chinanews_cn": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
@@ -138,38 +138,38 @@
     "consecutive_failures": 12
   },
   "bbc_zh": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:PWHEAMTUSDM": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:PMAIZMTUSDM": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:PRICENPQUSDM": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:PSUGAISAUSDM": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   },
   "fred:PFOODINDEXM": {
-    "last_success_at": "2026-11-12T23:37:54+00:00",
-    "last_attempt_at": "2026-11-12T23:37:54+00:00",
+    "last_success_at": "2026-11-13T06:41:41+00:00",
+    "last_attempt_at": "2026-11-13T06:41:41+00:00",
     "last_error": "",
     "consecutive_failures": 0
   }
