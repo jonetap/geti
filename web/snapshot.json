@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-14T15:48:07+00:00",
+ "generated_at": "2026-11-14T22:22:11+00:00",
  "date": "2026-11-13",
  "geti": 73.9,
  "delta_z": 0.63,
@@ -245,38 +245,8 @@
  ],
  "events": [
   {
-   "id": "4e758a757812",
-   "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
-   "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T14:42:27+00:00",
-   "note": "‘We have further to go,’ says Huw Pill after increase to 4% this month as Bank seeks to tackle rising inflation The Bank of England will probably need to raise interest rates next ",
-   "region": "OTHER"
-  },
-  {
-   "id": "565274fc2eac",
-   "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
-   "url": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T14:38:36+00:00",
-   "note": "Authorities declined to file charges against napping woman whose truck accelerated on to field during youth game A soccer mom napping in her pickup truck when it suddenly accelerat",
-   "region": "OTHER"
-  },
-  {
    "id": "8ac39cb3dece",
-   "title": "Bomb found at Illinois ethanol plant, prompting evacuations",
+   "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
    "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
    "component": "military",
    "severity": 5,
@@ -285,99 +255,24 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-14T14:13:49+00:00",
+   "published": "2026-11-14T20:14:27+00:00",
    "note": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Fr",
    "region": "OTHER"
   },
   {
-   "id": "673c06c088ad",
-   "title": "Trump ‘whiplash’ on deportations putting Afghans in turmoil: ‘People already survived a war’",
-   "url": "https://www.theguardian.com/us-news/2026/nov/14/afghan-deportations-trump-administration",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T13:00:47+00:00",
-   "note": "Members of Congress and advocates warn that returning people to their home countries could be a death sentence Dozens of Afghans who are currently in the US but fear being deported",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "b6f845843ea7",
-   "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
-   "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T13:00:44+00:00",
-   "note": "People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest summer since records be",
-   "region": "OTHER"
-  },
-  {
-   "id": "db72dd8c47c4",
-   "title": "Russian casualties ‘reach 450,000’: What that means for the Ukraine war",
-   "url": "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss",
-   "component": "narrative",
+   "id": "b665249b63d2",
+   "title": "Deadly car bomb blast kills two near Syria’s capital",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-14T12:57:36+00:00",
-   "note": "Leaked Russian records reveal a war toll that falls hardest on older men, poorer regions and foreign recruits.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "2fedbb085f06",
-   "title": "Turkey detains 6 over deadly steel blast that killed 17",
-   "url": "https://www.scmp.com/news/world/europe/article/3374446/turkey-detains-6-over-deadly-steel-blast-killed-17",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-14T12:40:28+00:00",
-   "note": "Six people were arrested overnight after a huge blast at a steel plant near the western city of Izmir killed 17 workers, with grieving families waiting on Tuesday to receive their ",
+   "published": "2026-11-14T19:46:36+00:00",
+   "note": "At least two people, a man and a girl, have been killed in a car bomb blast in Jaramana, near Syria's capital Damascus.",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "aed1981811ee",
-   "title": "Inside Ethiopia's war: Rare access to a hospital treating victims of renewed fighting",
-   "url": "https://www.france24.com/en/inside-ethiopia-s-war-rare-access-to-a-hospital-treating-victims-of-renewed-fighting",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-14T12:23:32+00:00",
-   "note": "Ethiopia's renewed conflict is taking an increasing toll on civilians, with humanitarian organisations reporting a rise in casualties. In the Amhara region, FRANCE 24’s corresponde",
-   "region": "AFRICA"
-  },
-  {
-   "id": "9f83c4505e96",
-   "title": "Three killed in Russia as Ukraine claims US floated NATO membership option",
-   "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-14T11:43:06+00:00",
-   "note": "Zelenskyy says the US asked for the first time whether Kyiv would cede land to Moscow in exchange for the NATO bid.",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "a8e0008f6392",
@@ -395,19 +290,94 @@
    "region": "OTHER"
   },
   {
-   "id": "b942a9586875",
-   "title": "Qatar and Turkiye sign a mutual defence pact: What do we know?",
-   "url": "https://www.aljazeera.com/news/2026/11/14/qatar-and-turkiye-sign-a-mutual-defence-pact-what-do-we-know?traffic_source=rss",
-   "component": "narrative",
+   "id": "220ec417d11d",
+   "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+   "component": "military",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-14T09:19:43+00:00",
-   "note": "Analysts say the pact, agreed amid the US-Iran war, aims to deter attacks rather than build an offensive alliance.",
+   "published": "2026-11-14T16:13:43+00:00",
+   "note": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people.",
+   "region": "OTHER"
+  },
+  {
+   "id": "565274fc2eac",
+   "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T14:38:36+00:00",
+   "note": "Authorities declined to file charges against napping woman whose truck accelerated on to field during youth game A soccer mom napping in her pickup truck when it suddenly accelerat",
+   "region": "OTHER"
+  },
+  {
+   "id": "673c06c088ad",
+   "title": "Trump ‘whiplash’ on deportations putting Afghans in turmoil: ‘People already survived a war’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/afghan-deportations-trump-administration",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T13:00:47+00:00",
+   "note": "Members of Congress and advocates warn that returning people to their home countries could be a death sentence Dozens of Afghans who are currently in the US but fear being deported",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "b6f845843ea7",
+   "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
+   "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T13:00:44+00:00",
+   "note": "People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest summer since records be",
+   "region": "OTHER"
+  },
+  {
+   "id": "2fedbb085f06",
+   "title": "Turkey detains 6 over deadly steel blast that killed 17",
+   "url": "https://www.scmp.com/news/world/europe/article/3374446/turkey-detains-6-over-deadly-steel-blast-killed-17",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-14T12:40:28+00:00",
+   "note": "Six people were arrested overnight after a huge blast at a steel plant near the western city of Izmir killed 17 workers, with grieving families waiting on Tuesday to receive their ",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "aed1981811ee",
+   "title": "Inside Ethiopia's war: Rare access to a hospital treating victims of renewed fighting",
+   "url": "https://www.france24.com/en/inside-ethiopia-s-war-rare-access-to-a-hospital-treating-victims-of-renewed-fighting",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-14T12:23:32+00:00",
+   "note": "Ethiopia's renewed conflict is taking an increasing toll on civilians, with humanitarian organisations reporting a rise in casualties. In the Amhara region, FRANCE 24’s corresponde",
+   "region": "AFRICA"
   },
   {
    "id": "e6a196c8e2cd",
@@ -440,64 +410,19 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "2ac43cf6e71f",
-   "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
-   "url": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-13T15:42:52+00:00",
-   "note": "German reforms mean foreign and domestic intelligence services will have greater powers to combat espionage, terrorism and sabotage.",
-   "region": "OTHER"
-  },
-  {
-   "id": "0205cff1094a",
-   "title": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
-   "url": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
+   "id": "88b7518739bf",
+   "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+   "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
    "component": "military",
    "severity": 5,
    "confidence": 0.17,
    "origins": 1,
    "sources": [
-    "bbc"
+    "guardian"
    ],
-   "published": "2026-11-13T13:11:23+00:00",
-   "note": "Sergei Zavorotny, now a journalist and commentator, was previously an adviser to Ukrainian ex-prime minister Mykola Azarov.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "ab93c3a86df8",
-   "title": "How does Iran view shift in US approach after JD Vance ordered away?",
-   "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-14T13:24:44+00:00",
-   "note": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
+   "published": "2026-11-13T13:52:11+00:00",
+   "note": "First direct attack on US military installations for months was in response to US airstrike on communications tower Iran’s Islamic Revolutionary Guard Corps says it has targeted an",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "6d20068dbb23",
-   "title": "France's school principals say threats and violence have become unbearable",
-   "url": "https://www.france24.com/en/france-s-school-principals-say-threats-and-violence-have-become-unbearable",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-14T10:17:21+00:00",
-   "note": "Headteachers gathered across France this Friday, to demonstrate their frustration after nearly two months of student protests that have blockaded high schools. Many of the teachers",
-   "region": "EUROPE"
   },
   {
    "id": "989c2be1d1f0",
@@ -515,6 +440,21 @@
    "region": "EAST_ASIA"
   },
   {
+   "id": "ab93c3a86df8",
+   "title": "How does Iran view shift in US approach after JD Vance ordered away?",
+   "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-14T13:24:44+00:00",
+   "note": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
+   "region": "MIDDLE_EAST"
+  },
+  {
    "id": "c3aec74ed78f",
    "title": "Sudan: Misery worsens amid plummeting aid for displaced people",
    "url": "https://www.dw.com/en/sudan-misery-worsens-amid-plummeting-aid-for-displaced-people/a-79938864?maca=en-rss-en-world-4025-rdf",
@@ -528,21 +468,6 @@
    "published": "2026-11-14T08:31:00+00:00",
    "note": "Sudan's humanitarian crisis is exacerbated by cuts in international aid. Almost 34 million people are in need as war and drone strikes are making it difficult to deliver aid to the",
    "region": "AFRICA"
-  },
-  {
-   "id": "f6d09311bab8",
-   "title": "Live: France deploys 70,000 police for new wave of anti-government protests",
-   "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-14T07:09:32+00:00",
-   "note": "Between 50 and 60 marches are expected in France on Saturday, according to Interior Minister Laurent Nuñez, who plans to mobilise approximately 70,000 police officers and gendarmes",
-   "region": "EUROPE"
   },
   {
    "id": "4c68eea38138",
@@ -560,12 +485,102 @@
    "region": "OTHER"
   },
   {
+   "id": "5939a00ac4e1",
+   "title": "联合国：海湾局势持续紧张对国际和平与安全构成严重风险",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143197",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.22,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-13T12:00:00+00:00",
+   "note": "联合国负责政治事务的助理秘书长希阿里周五在安理会通报中东局势时表示，霍尔木兹海峡和曼德海峡及其周边地区局势持续紧张，对国际和平与安全、地区稳定和全球经济构成严重风险。他呼吁各方立即停止袭击民用船舶，恢复航行自由，通过外交途径寻求和平解决方案。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "c45952a7a970",
+   "title": "刚果（金）：武装袭击阻碍埃博拉疫情防控",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143195",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.22,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-13T12:00:00+00:00",
+   "note": "联合国应急响应人员周五警告，刚果民主共和国（刚果（金））埃博拉疫情仍在蔓延，武装团体接连袭击平民和一线医护人员，严重阻碍接触者追踪、患者救治等防疫工作。",
+   "region": "AFRICA"
+  },
+  {
+   "id": "aeed3d4cfc91",
+   "title": "More than 100,000 rally across France in new Yellow Vest protests",
+   "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests?traffic_source=rss",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-14T19:46:24+00:00",
+   "note": "Protesters chanted against declining affordability, the Macron government, police violence and poor school conditions.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "4b7f5b8944d6",
+   "title": "Tens of thousands march in latest Portugal housing protests",
+   "url": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-14T19:27:55+00:00",
+   "note": "These were the biggest protests against rising housing costs in Portugal since the social movement began weeks ago.",
+   "region": "OTHER"
+  },
+  {
+   "id": "ab4aa0225c22",
+   "title": "Rising costs and arrests fuel protests in Central African Republic",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/rising-costs-and-arrests-fuel-protests-in-central-african-republic?traffic_source=rss",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-14T17:50:28+00:00",
+   "note": "Hundreds take to the streets of Bangui to protest rising fuel prices and arrests in the Central African Republic.",
+   "region": "AFRICA"
+  },
+  {
+   "id": "e57f7634e382",
+   "title": "COP31: Protesters, UN urge swift climate deal",
+   "url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-world-4025-rdf",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-14T17:19:00+00:00",
+   "note": "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
+   "region": "MIDDLE_EAST"
+  },
+  {
    "id": "0c43d26f5bbb",
    "title": "Canada’s Stelco to recall 175 workers after government pressure",
    "url": "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss",
    "component": "economy",
    "severity": 3,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
@@ -580,7 +595,7 @@
    "url": "https://www.france24.com/en/who-are-the-street-medics-showing-up-at-protests-around-the-world",
    "component": "internal",
    "severity": 3,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -588,57 +603,12 @@
    "published": "2026-11-14T12:19:19+00:00",
    "note": "From treating tear gas exposure to tending to injuries, street medics have become an increasingly common sight at protests all over the world. But who exactly are they and when did",
    "region": "OTHER"
-  },
-  {
-   "id": "020a722d086a",
-   "title": "Greenpeace boulders may delay building of £12bn windfarms in North Sea",
-   "url": "https://www.theguardian.com/environment/2026/nov/14/greenpeace-boulders-norfolk-vanguard-windfarms",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T11:00:43+00:00",
-   "note": "Activists dumped rocks off Norfolk coast on site of Burnham-backed project in protest against seabed trawling The giant offshore windfarms backed by Andy Burnham this week may face",
-   "region": "OTHER"
   }
  ],
  "breaking": [
   {
-   "id": "4e758a757812",
-   "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
-   "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T14:42:27+00:00",
-   "note": "‘We have further to go,’ says Huw Pill after increase to 4% this month as Bank seeks to tackle rising inflation The Bank of England will probably need to raise interest rates next ",
-   "region": "OTHER"
-  },
-  {
-   "id": "565274fc2eac",
-   "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
-   "url": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T14:38:36+00:00",
-   "note": "Authorities declined to file charges against napping woman whose truck accelerated on to field during youth game A soccer mom napping in her pickup truck when it suddenly accelerat",
-   "region": "OTHER"
-  },
-  {
    "id": "8ac39cb3dece",
-   "title": "Bomb found at Illinois ethanol plant, prompting evacuations",
+   "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
    "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
    "component": "military",
    "severity": 5,
@@ -647,35 +617,65 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-14T14:13:49+00:00",
+   "published": "2026-11-14T20:14:27+00:00",
    "note": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Fr",
    "region": "OTHER"
   },
   {
-   "id": "ab93c3a86df8",
-   "title": "How does Iran view shift in US approach after JD Vance ordered away?",
-   "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 4,
+   "id": "b665249b63d2",
+   "title": "Deadly car bomb blast kills two near Syria’s capital",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-14T13:24:44+00:00",
-   "note": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
+   "published": "2026-11-14T19:46:36+00:00",
+   "note": "At least two people, a man and a girl, have been killed in a car bomb blast in Jaramana, near Syria's capital Damascus.",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "220ec417d11d",
+   "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-14T16:13:43+00:00",
+   "note": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people.",
+   "region": "OTHER"
+  },
+  {
+   "id": "565274fc2eac",
+   "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T14:38:36+00:00",
+   "note": "Authorities declined to file charges against napping woman whose truck accelerated on to field during youth game A soccer mom napping in her pickup truck when it suddenly accelerat",
+   "region": "OTHER"
   }
  ],
  "coverage": {
-  "sources_ok": 20,
-  "sources_failed": 2,
-  "items": 32594,
-  "gdelt_events": 32355,
+  "sources_ok": 21,
+  "sources_failed": 1,
+  "items": 30965,
+  "gdelt_events": 30724,
   "mode": "live",
   "data_through": "2026-11-13",
-  "clusters": 232,
-  "origins": 237,
+  "clusters": 237,
+  "origins": 239,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1231,14 +1231,6 @@
    },
    {
     "kind": "judicial",
-    "title": "Eight sentenced to jail over Nurmagomedov-Dvalishvili Abu Dhabi hotel brawl",
-    "url": "https://www.aljazeera.com/sports/2026/11/14/usman-nurmagomedov-merab-dvalishvili-abu-dhabi-hotel-brawl-jail-sentence?traffic_source=rss",
-    "country": "",
-    "source": "aljazeera",
-    "when": "2026-11-14"
-   },
-   {
-    "kind": "judicial",
     "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
     "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
     "country": "",
@@ -1259,22 +1251,6 @@
     "url": "https://www.chinanews.com.cn/gj/2026/11-14/10732065.shtml",
     "country": "JP",
     "source": "chinanews",
-    "when": "2026-11-14"
-   },
-   {
-    "kind": "judicial",
-    "title": "Nearly $20m found in Hungary’s forests, buildings amid corruption probe",
-    "url": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings?traffic_source=rss",
-    "country": "HU",
-    "source": "aljazeera",
-    "when": "2026-11-14"
-   },
-   {
-    "kind": "judicial",
-    "title": "Hungary seizes $18m cash tied to ex-Orban-era minister in probe",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/hungary-seizes-18m-cash-tied-to-ex-orban-era-minister-in-probe?traffic_source=rss",
-    "country": "HU",
-    "source": "aljazeera",
     "when": "2026-11-14"
    },
    {
@@ -1302,12 +1278,12 @@
     "when": "2026-11-13"
    }
   ],
-  "notable_total": 10,
+  "notable_total": 7,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 10
+   "notable": 7
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2246,8 +2222,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 1.0,
-    "carry": 2.2,
+    "value": 6.0,
+    "carry": 2.88,
     "z": null,
     "score": null,
     "available": false
@@ -2347,10 +2323,40 @@
    ],
    "eonet": [
     {
-     "t": "Tropical Storm Pena",
-     "v": "severe storms",
+     "t": "Iceberg A81",
+     "v": "sea and lake ice",
      "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26158"
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6320"
+    },
+    {
+     "t": "Iceberg D33B",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6424"
+    },
+    {
+     "t": "Iceberg D35",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6474"
+    },
+    {
+     "t": "Iceberg A83",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6523"
+    },
+    {
+     "t": "Iceberg A84",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12618"
+    },
+    {
+     "t": "Iceberg A85",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12716"
     }
    ],
    "gdacs": [
@@ -2411,8 +2417,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.42,
-    "carry": 0.84,
+    "value": 1.24,
+    "carry": 0.96,
     "z": null,
     "score": null,
     "available": false
@@ -2510,13 +2516,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 32355,
+   "items": 30724,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 26,
+   "items": 22,
    "error": "",
    "undated": 0
   },
@@ -2530,14 +2536,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 30,
+   "items": 28,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 12,
+   "items": 13,
    "error": "",
    "undated": 0
   },
@@ -2564,9 +2570,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）",
+   "ok": true,
+   "items": 9,
+   "error": "",
    "undated": 0
   },
   {
@@ -2586,7 +2592,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 12,
+   "items": 10,
    "error": "",
    "undated": 0
   },
@@ -2659,7 +2665,7 @@
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 1,
+   "items": 6,
    "error": ""
   },
   {
@@ -2683,7 +2689,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 10407,
+   "items": 8456,
    "error": ""
   },
   {
