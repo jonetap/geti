@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-13T23:31:00+00:00",
- "date": "2026-11-12",
- "geti": 73.8,
- "delta_z": 0.65,
- "delta_pts": 0.5,
+ "generated_at": "2026-11-14T06:18:26+00:00",
+ "date": "2026-11-13",
+ "geti": 73.9,
+ "delta_z": 0.63,
+ "delta_pts": 0.1,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,170 +13,170 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 78.0,
-   "delta": -1.3,
+   "score": 78.6,
+   "delta": 0.6,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.65
+     1.62
     ],
     [
      "diplomacy",
-     1.41
+     1.49
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 74.7,
-   "delta": 1.4,
+   "score": 73.5,
+   "delta": -1.2,
    "excluded": true,
    "drivers": [
     [
      "military",
-     1.47
+     1.31
     ],
     [
      "diplomacy",
-     1.22
+     1.19
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 69.7,
-   "delta": -0.8,
+   "score": 68.3,
+   "delta": -1.4,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     1.11
+     "diplomacy",
+     1.0
     ],
     [
-     "diplomacy",
-     0.95
-    ]
-   ]
-  },
-  {
-   "code": "MIDDLE_EAST",
-   "label": "中东",
-   "score": 69.6,
-   "delta": -0.9,
-   "excluded": false,
-   "drivers": [
-    [
      "military",
-     1.26
-    ],
-    [
-     "diplomacy",
-     1.12
+     0.97
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 69.5,
-   "delta": 3.3,
+   "score": 67.7,
+   "delta": -1.8,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.25
+     1.06
     ],
     [
      "diplomacy",
-     1.04
+     1.01
+    ]
+   ]
+  },
+  {
+   "code": "MIDDLE_EAST",
+   "label": "中东",
+   "score": 67.5,
+   "delta": -2.2,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     1.12
+    ],
+    [
+     "diplomacy",
+     0.96
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 68.4,
-   "delta": 3.0,
+   "score": 67.0,
+   "delta": -1.4,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     1.05
+     1.06
     ],
     [
-     "military",
-     0.93
+     "internal",
+     0.89
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 64.7,
-   "delta": 2.8,
+   "score": 64.6,
+   "delta": -0.1,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.95
+     1.0
     ],
     [
      "diplomacy",
-     0.8
+     0.84
     ]
    ]
   },
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 63.9,
-   "delta": 4.2,
+   "score": 63.3,
+   "delta": -0.6,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     0.97
+     "military",
+     0.81
     ],
     [
-     "military",
-     0.76
+     "diplomacy",
+     0.78
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 58.2,
-   "delta": -0.3,
+   "score": 59.6,
+   "delta": 1.4,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     0.81
+     "military",
+     0.89
     ],
     [
-     "military",
-     0.7
+     "diplomacy",
+     0.76
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 50.8,
-   "delta": 1.0,
+   "score": 48.9,
+   "delta": -1.9,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     0.51
+     "internal",
+     -0.61
     ],
     [
-     "internal",
-     -0.5
+     "economy",
+     -0.37
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.65,
-   "score": 88.8,
-   "contrib": 0.422
+   "z": 1.62,
+   "score": 88.4,
+   "contrib": 0.403
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.41,
-   "score": 85.4,
-   "contrib": 0.25
+   "z": 1.49,
+   "score": 86.5,
+   "contrib": 0.256
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.34,
-   "score": 84.3,
-   "contrib": 0.198
+   "z": 1.45,
+   "score": 85.9,
+   "contrib": 0.208
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 1.17,
-   "score": 81.2,
-   "contrib": 0.127
+   "z": 1.24,
+   "score": 82.6,
+   "contrib": 0.131
   },
   {
    "key": "narrative",
@@ -239,40 +239,55 @@
    "effective_weight": 0.103,
    "available": true,
    "z": -0.03,
-   "score": 48.9,
-   "contrib": -0.003
+   "score": 49.1,
+   "contrib": -0.002
   }
  ],
  "events": [
   {
-   "id": "22d20d3b9abd",
-   "title": "At least 10 killed in Guinea clashes over gold mining ban",
-   "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss",
-   "component": "narrative",
+   "id": "a8e0008f6392",
+   "title": "爱尔兰在多国领导人晚宴地点附近查获爆炸装置",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731932.shtml",
+   "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "chinanews"
    ],
-   "published": "2026-11-13T18:44:45+00:00",
-   "note": "Guinea banned artisanal gold mining in Siguiri on November 2 due to environmental degradation, causing mass exodus.",
+   "published": "2026-11-14T03:41:12+00:00",
+   "note": "爱尔兰警方13日查获一枚简易爆炸装置，发现地点距多国领导人前一天晚宴的场所较近。军方拆弹专家出动，成功处置这枚“制作粗糙但具备引爆能力”的爆炸装置。",
    "region": "OTHER"
   },
   {
-   "id": "be8d3da46217",
-   "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+   "id": "cbf6f01f9795",
+   "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "guardian"
    ],
-   "published": "2026-11-13T18:09:05+00:00",
-   "note": "Thousands gathered in Tehran for a mass funeral honouring 110 unidentified soldiers killed in the Iran-Iraq war.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-14T03:11:28+00:00",
+   "note": "No passengers or crew killed or critically hurt after tanker collides with river cruise ship on Mississippi, officials say In what the city’s mayor declared a “miracle on the Missi",
+   "region": "OTHER"
+  },
+  {
+   "id": "54a8a7cebfa1",
+   "title": "Russia sets cull of up to 30 per cent of brown bears after 36 people killed in attacks",
+   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374418/russia-sets-cull-30-cent-brown-bears-after-36-killed-attacks",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-14T02:15:05+00:00",
+   "note": "The Russian government has established a cull of ⁠up to ⁠30 per cent of brown bear ⁠populations to keep numbers in check after bear attacks killed 36 people this year, the Ministry",
+   "region": "RUSSIA_CIS"
   },
   {
    "id": "97ef3c4f0fc6",
@@ -305,21 +320,6 @@
    "region": "SOUTH_ASIA"
   },
   {
-   "id": "6d001d0c283f",
-   "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
-   "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-13T16:44:56+00:00",
-   "note": "Moscow blames Kyiv for a series of car bombings that have targeted people linked to the war with Ukraine.",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "ba3e1a36db44",
    "title": "Myanmar: Junta carries out double-tap airstrikes targeting civilians",
    "url": "https://www.france24.com/en/tv-shows/the-observers/20261113-myanmar-junta-airstrikes-civilians",
@@ -333,21 +333,6 @@
    "published": "2026-11-13T16:41:45+00:00",
    "note": "Numerous civilian casualties have been documented in Rakhine State amid a renewed military offensive by the junta to regain control of the area. Available evidence suggests that mi",
    "region": "OTHER"
-  },
-  {
-   "id": "f080a1482d77",
-   "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
-   "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-13T16:01:45+00:00",
-   "note": "Several children and the bus driver were among those killed, officials said, with the death toll expected to rise.",
-   "region": "SOUTH_ASIA"
   },
   {
    "id": "56fdbfe2ebc0",
@@ -455,19 +440,64 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "995622a52a98",
-   "title": "Rescue efforts under way after tanker strikes river cruise boat in US",
-   "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
-   "component": "military",
+   "id": "4c68eea38138",
+   "title": "Hong Kong police arrest 3 teens over alleged assault on 13-year-old schoolmate",
+   "url": "https://www.scmp.com/news/hong-kong/education/article/3374422/hong-kong-police-arrest-3-teens-over-alleged-assault-13-year-old-schoolmate",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-14T04:06:04+00:00",
+   "note": "Hong Kong police have arrested three teenage boys on suspicion of assaulting a 13-year-old fellow pupil on campus, after a social media post criticised the school’s handling of the",
+   "region": "OTHER"
+  },
+  {
+   "id": "7ac6a8a3c490",
+   "title": "UK police open sex offence probe into comedian and author David Walliams",
+   "url": "https://www.aljazeera.com/news/2026/11/14/uk-police-open-sex-offence-probe-into-comedian-and-author-david-walliams?traffic_source=rss",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-13T22:47:16+00:00",
-   "note": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+   "published": "2026-11-14T00:22:07+00:00",
+   "note": "The British TV personality, 55, denies sexual assault allegations, saying he has not broken the law.",
    "region": "OTHER"
+  },
+  {
+   "id": "5939a00ac4e1",
+   "title": "联合国：海湾局势持续紧张对国际和平与安全构成严重风险",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143197",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.43,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-13T12:00:00+00:00",
+   "note": "联合国负责政治事务的助理秘书长希阿里周五在安理会通报中东局势时表示，霍尔木兹海峡和曼德海峡及其周边地区局势持续紧张，对国际和平与安全、地区稳定和全球经济构成严重风险。他呼吁各方立即停止袭击民用船舶，恢复航行自由，通过外交途径寻求和平解决方案。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "c45952a7a970",
+   "title": "刚果（金）：武装袭击阻碍埃博拉疫情防控",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143195",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.43,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-13T12:00:00+00:00",
+   "note": "联合国应急响应人员周五警告，刚果民主共和国（刚果（金））埃博拉疫情仍在蔓延，武装团体接连袭击平民和一线医护人员，严重阻碍接触者追踪、患者救治等防疫工作。",
+   "region": "AFRICA"
   },
   {
    "id": "0ce484d14fb8",
@@ -475,7 +505,7 @@
    "url": "https://www.theguardian.com/society/2026/nov/13/probation-officers-in-england-and-wales-vote-for-strike-action-over-pay-and-workloads",
    "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -490,7 +520,7 @@
    "url": "https://www.france24.com/en/asia-pacific/20261113-chinese-army-military-exercises-taiwan",
    "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -515,21 +545,6 @@
    "region": "OTHER"
   },
   {
-   "id": "0eb5cdb69972",
-   "title": "The Downfall of AI’s ‘Rock Star’ Boss, Ukraine: Who speaks for Europe? Protests & Presidents",
-   "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261113-the-downfall-of-ai-s-rock-star-boss-ukraine-who-speak-for-europe-protests-presidents",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T19:46:54+00:00",
-   "note": "On The World This Week with Gavin Lee, our panel distills the breaking news and global stories of the past 7 days into 45 minutes. Ukraine: Who will speak for Europe? In a week tha",
-   "region": "EUROPE"
-  },
-  {
    "id": "5a78c981fd96",
    "title": "“达尔富拉姆事件”88周年纪念活动在澳大利亚举行",
    "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731724.shtml",
@@ -545,137 +560,122 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "35ae3fce2e17",
-   "title": "日本民间团体举行集会 反对高市政权修宪扩军",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731394.shtml",
+   "id": "a9f191ba9145",
+   "title": "Pax Silica means peace. In the Philippines, it’s a fight",
+   "url": "https://www.scmp.com/week-asia/economics/article/3374368/pax-silica-means-peace-philippines-its-fight",
    "component": "internal",
-   "severity": 3,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-13T03:41:12+00:00",
-   "note": "12日，日本多个民间团体在东京众议院第二议员会馆前举行抗议集会，反对高市政权推动修宪扩军等相关动向。集会参加者表示，近期高市政权讨论修改“安保三文件”以及不断推动修改日本宪法等举动令人担忧，日本绝不能再次走上战争道路。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "7c19f8fbda25",
-   "title": "The fight over Canadian steelworker jobs",
-   "url": "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss",
-   "component": "economy",
-   "severity": 3,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-13T17:10:43+00:00",
-   "note": "Stelco's US owner blames Trump's tariffs for layoffs, but its support for those same tariffs has raised questions.",
-   "region": "OTHER"
-  },
-  {
-   "id": "223f2abc0d85",
-   "title": "The Nvidia affair: Are markets about to fall out of love with AI?",
-   "url": "https://www.france24.com/en/americas/20261113-the-nvidia-affair-are-markets-about-to-fall-out-of-love-with-ai",
-   "component": "diplomacy",
-   "severity": 3,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T17:02:40+00:00",
-   "note": "Jensen Huang’s departure from Nvidia exposes the vulnerabilities behind the AI boom. As equities reel in response to his resignation following extramarital affairs, alleged Chinese",
-   "region": "OTHER"
-  },
-  {
-   "id": "2f94a807e4e2",
-   "title": "China could tighten rare earths exports if US escalates chip curbs over Nvidia: analysts",
-   "url": "https://www.scmp.com/economy/global-economy/article/3374328/china-could-tighten-rare-earths-exports-if-us-escalates-chip-curbs-over-nvidia-analysts",
-   "component": "economy",
    "severity": 3,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-13T13:00:08+00:00",
-   "note": "China could retaliate with tighter rare earth export controls if Washington further restricts chip sales in the wake of the Nvidia saga, Chinese analysts say, though they expect br",
-   "region": "EAST_ASIA"
+   "published": "2026-11-14T00:00:08+00:00",
+   "note": "Outside the Grand Hyatt hotel in Manila earlier this year, five people were arrested as hundreds of activists chanting “Junk Pax Silica!” clashed with anti-riot police. Inside, Phi",
+   "region": "OTHER"
+  },
+  {
+   "id": "680b7b6ba79d",
+   "title": "After a summer win, India's Gen Z protesters face a winter of uncertainty",
+   "url": "https://www.bbc.co.uk/news/articles/cq99e0z4vg1eo?at_medium=RSS&at_campaign=rss",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-13T23:11:51+00:00",
+   "note": "A new wave of youth dissent swept India this summer, fuelled by frustration and irreverent online satire.",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "0eb5cdb69972",
+   "title": "The Downfall of AI’s ‘Rock Star’ Boss, Ukraine: Who speaks for Europe? Protests & Presidents",
+   "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261113-the-downfall-of-ai-s-rock-star-boss-ukraine-who-speak-for-europe-protests-presidents",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-13T19:46:54+00:00",
+   "note": "On The World This Week with Gavin Lee, our panel distills the breaking news and global stories of the past 7 days into 45 minutes. Ukraine: Who will speak for Europe? In a week tha",
+   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "995622a52a98",
-   "title": "Rescue efforts under way after tanker strikes river cruise boat in US",
-   "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
-   "component": "military",
+   "id": "4c68eea38138",
+   "title": "Hong Kong police arrest 3 teens over alleged assault on 13-year-old schoolmate",
+   "url": "https://www.scmp.com/news/hong-kong/education/article/3374422/hong-kong-police-arrest-3-teens-over-alleged-assault-13-year-old-schoolmate",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "scmp"
    ],
-   "published": "2026-11-13T22:47:16+00:00",
-   "note": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+   "published": "2026-11-14T04:06:04+00:00",
+   "note": "Hong Kong police have arrested three teenage boys on suspicion of assaulting a 13-year-old fellow pupil on campus, after a social media post criticised the school’s handling of the",
    "region": "OTHER"
   },
   {
-   "id": "0ce484d14fb8",
-   "title": "Probation officers in England and Wales vote to strike over pay and workloads",
-   "url": "https://www.theguardian.com/society/2026/nov/13/probation-officers-in-england-and-wales-vote-for-strike-action-over-pay-and-workloads",
+   "id": "a8e0008f6392",
+   "title": "爱尔兰在多国领导人晚宴地点附近查获爆炸装置",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731932.shtml",
    "component": "military",
-   "severity": 4,
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-14T03:41:12+00:00",
+   "note": "爱尔兰警方13日查获一枚简易爆炸装置，发现地点距多国领导人前一天晚宴的场所较近。军方拆弹专家出动，成功处置这枚“制作粗糙但具备引爆能力”的爆炸装置。",
+   "region": "OTHER"
+  },
+  {
+   "id": "cbf6f01f9795",
+   "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+   "component": "military",
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-13T20:51:01+00:00",
-   "note": "Move deals blow to government’s plans to release thousands of prisoners early to tackle prison overcrowding The government’s plans to release thousands of prisoners early were deal",
+   "published": "2026-11-14T03:11:28+00:00",
+   "note": "No passengers or crew killed or critically hurt after tanker collides with river cruise ship on Mississippi, officials say In what the city’s mayor declared a “miracle on the Missi",
    "region": "OTHER"
   },
   {
-   "id": "22d20d3b9abd",
-   "title": "At least 10 killed in Guinea clashes over gold mining ban",
-   "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss",
+   "id": "54a8a7cebfa1",
+   "title": "Russia sets cull of up to 30 per cent of brown bears after 36 people killed in attacks",
+   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374418/russia-sets-cull-30-cent-brown-bears-after-36-killed-attacks",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "scmp"
    ],
-   "published": "2026-11-13T18:44:45+00:00",
-   "note": "Guinea banned artisanal gold mining in Siguiri on November 2 due to environmental degradation, causing mass exodus.",
-   "region": "OTHER"
-  },
-  {
-   "id": "0cf4a9c740a8",
-   "title": "What we know about China's military exercises around Taiwan",
-   "url": "https://www.france24.com/en/asia-pacific/20261113-chinese-army-military-exercises-taiwan",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T18:19:19+00:00",
-   "note": "China has been carrying out major military drills around Taiwan since early November. But contrary to some claims on social media, Beijing's armed forces have not actually implemen",
-   "region": "EAST_ASIA"
+   "published": "2026-11-14T02:15:05+00:00",
+   "note": "The Russian government has established a cull of ⁠up to ⁠30 per cent of brown bear ⁠populations to keep numbers in check after bear attacks killed 36 people this year, the Ministry",
+   "region": "RUSSIA_CIS"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 39569,
-  "gdelt_events": 39321,
+  "items": 37048,
+  "gdelt_events": 36792,
   "mode": "live",
-  "data_through": "2026-11-12",
-  "clusters": 240,
-  "origins": 242,
+  "data_through": "2026-11-13",
+  "clusters": 250,
+  "origins": 253,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -693,11 +693,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.33,
-    "p50": 0.48,
-    "p90": 1.38,
-    "ratio": 6.93,
-    "z": 1.65
+    "now": 3.21,
+    "p50": 0.49,
+    "p90": 2.18,
+    "ratio": 6.53,
+    "z": 1.62
    },
    "physical": {
     "now": 0.0,
@@ -707,28 +707,28 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.23,
+    "now": 2.46,
     "p50": 0.4,
     "p90": 1.37,
-    "ratio": 5.61,
-    "z": 1.41
+    "ratio": 6.14,
+    "z": 1.49
    },
    "economy": {
-    "now": 2.05,
-    "p50": 0.39,
-    "p90": 1.47,
-    "ratio": 5.19,
-    "z": 1.34
+    "now": 2.33,
+    "p50": 0.4,
+    "p90": 1.6,
+    "ratio": 5.83,
+    "z": 1.45
    },
    "internal": {
-    "now": 1.22,
-    "p50": 0.15,
-    "p90": 0.87,
-    "ratio": 7.93,
-    "z": 1.17
+    "now": 1.34,
+    "p50": 0.16,
+    "p90": 0.96,
+    "ratio": 8.56,
+    "z": 1.24
    },
    "narrative": {
-    "now": 0.04,
+    "now": 0.05,
     "p50": 0.06,
     "p90": 0.11,
     "ratio": null,
@@ -737,10 +737,6 @@
   }
  },
  "series": [
-  {
-   "date": "2026-07-16",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-17",
    "geti": 50.0
@@ -795,111 +791,111 @@
   },
   {
    "date": "2026-07-30",
-   "geti": 50.9
+   "geti": 50.0
   },
   {
    "date": "2026-07-31",
-   "geti": 54.0
+   "geti": 53.1
   },
   {
    "date": "2026-08-01",
-   "geti": 54.7
+   "geti": 53.7
   },
   {
    "date": "2026-08-02",
-   "geti": 54.6
+   "geti": 53.9
   },
   {
    "date": "2026-08-03",
-   "geti": 51.9
+   "geti": 51.4
   },
   {
    "date": "2026-08-04",
-   "geti": 51.7
+   "geti": 51.3
   },
   {
    "date": "2026-08-05",
-   "geti": 45.4
+   "geti": 45.1
   },
   {
    "date": "2026-08-06",
-   "geti": 48.1
+   "geti": 47.8
   },
   {
    "date": "2026-08-07",
-   "geti": 46.6
+   "geti": 46.3
   },
   {
    "date": "2026-08-08",
-   "geti": 45.0
+   "geti": 44.7
   },
   {
    "date": "2026-08-09",
-   "geti": 41.3
+   "geti": 40.9
   },
   {
    "date": "2026-08-10",
-   "geti": 46.4
+   "geti": 45.8
   },
   {
    "date": "2026-08-11",
-   "geti": 48.4
+   "geti": 47.7
   },
   {
    "date": "2026-08-12",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-13",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-08-14",
    "geti": 49.2
   },
   {
+   "date": "2026-08-13",
+   "geti": 49.3
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 48.8
+  },
+  {
    "date": "2026-08-15",
-   "geti": 52.5
+   "geti": 52.2
   },
   {
    "date": "2026-08-16",
-   "geti": 53.5
+   "geti": 53.2
   },
   {
    "date": "2026-08-17",
-   "geti": 46.9
+   "geti": 46.7
   },
   {
    "date": "2026-08-18",
-   "geti": 43.0
+   "geti": 42.9
   },
   {
    "date": "2026-08-19",
-   "geti": 40.6
+   "geti": 40.5
   },
   {
    "date": "2026-08-20",
-   "geti": 45.5
+   "geti": 45.4
   },
   {
    "date": "2026-08-21",
-   "geti": 48.4
+   "geti": 48.3
   },
   {
    "date": "2026-08-22",
-   "geti": 46.0
+   "geti": 45.9
   },
   {
    "date": "2026-08-23",
-   "geti": 41.2
+   "geti": 41.1
   },
   {
    "date": "2026-08-24",
-   "geti": 45.3
+   "geti": 45.2
   },
   {
    "date": "2026-08-25",
-   "geti": 43.4
+   "geti": 43.2
   },
   {
    "date": "2026-08-26",
@@ -907,199 +903,199 @@
   },
   {
    "date": "2026-08-27",
-   "geti": 48.6
-  },
-  {
-   "date": "2026-08-28",
-   "geti": 51.0
-  },
-  {
-   "date": "2026-08-29",
-   "geti": 51.2
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 57.2
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 58.5
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 52.0
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 51.1
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 49.0
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 49.0
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 51.1
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 48.9
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 44.3
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 43.5
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 41.2
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 39.2
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 38.8
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 41.9
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 43.9
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 42.9
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 44.1
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 45.4
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.6
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 46.2
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 51.8
-  },
-  {
-   "date": "2026-09-21",
-   "geti": 48.3
-  },
-  {
-   "date": "2026-09-22",
-   "geti": 46.5
-  },
-  {
-   "date": "2026-09-23",
-   "geti": 48.7
-  },
-  {
-   "date": "2026-09-24",
-   "geti": 45.4
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 43.1
-  },
-  {
-   "date": "2026-09-26",
    "geti": 48.2
   },
   {
-   "date": "2026-09-27",
-   "geti": 47.7
+   "date": "2026-08-28",
+   "geti": 50.7
   },
   {
-   "date": "2026-09-28",
-   "geti": 45.8
+   "date": "2026-08-29",
+   "geti": 51.0
   },
   {
-   "date": "2026-09-29",
-   "geti": 43.2
+   "date": "2026-08-30",
+   "geti": 57.0
   },
   {
-   "date": "2026-09-30",
-   "geti": 39.5
+   "date": "2026-08-31",
+   "geti": 58.3
   },
   {
-   "date": "2026-10-01",
-   "geti": 36.0
+   "date": "2026-09-01",
+   "geti": 51.7
   },
   {
-   "date": "2026-10-02",
-   "geti": 40.2
+   "date": "2026-09-02",
+   "geti": 50.8
   },
   {
-   "date": "2026-10-03",
-   "geti": 41.4
+   "date": "2026-09-03",
+   "geti": 48.8
   },
   {
-   "date": "2026-10-04",
-   "geti": 40.1
+   "date": "2026-09-04",
+   "geti": 48.8
   },
   {
-   "date": "2026-10-05",
-   "geti": 44.4
+   "date": "2026-09-05",
+   "geti": 50.9
   },
   {
-   "date": "2026-10-06",
-   "geti": 46.5
+   "date": "2026-09-06",
+   "geti": 48.8
   },
   {
-   "date": "2026-10-07",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-10-08",
+   "date": "2026-09-07",
    "geti": 44.1
   },
   {
+   "date": "2026-09-08",
+   "geti": 43.3
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 41.0
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 39.0
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 38.6
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 41.6
+  },
+  {
+   "date": "2026-09-13",
+   "geti": 43.6
+  },
+  {
+   "date": "2026-09-14",
+   "geti": 42.6
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 43.9
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 42.4
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 45.9
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 51.5
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 48.0
+  },
+  {
+   "date": "2026-09-22",
+   "geti": 46.2
+  },
+  {
+   "date": "2026-09-23",
+   "geti": 48.4
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 42.8
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 47.8
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 47.4
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 45.4
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 42.7
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 39.2
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 35.8
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 40.0
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 41.2
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 39.9
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 44.2
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 46.3
+  },
+  {
+   "date": "2026-10-07",
+   "geti": 45.1
+  },
+  {
+   "date": "2026-10-08",
+   "geti": 44.0
+  },
+  {
    "date": "2026-10-09",
-   "geti": 47.3
+   "geti": 47.1
   },
   {
    "date": "2026-10-10",
-   "geti": 53.0
+   "geti": 52.8
   },
   {
    "date": "2026-10-11",
-   "geti": 57.7
+   "geti": 57.5
   },
   {
    "date": "2026-10-12",
-   "geti": 52.8
+   "geti": 52.7
   },
   {
    "date": "2026-10-13",
-   "geti": 52.3
+   "geti": 52.2
   },
   {
    "date": "2026-10-14",
-   "geti": 52.8
+   "geti": 52.7
   },
   {
    "date": "2026-10-15",
@@ -1107,7 +1103,7 @@
   },
   {
    "date": "2026-10-16",
-   "geti": 56.9
+   "geti": 56.8
   },
   {
    "date": "2026-10-17",
@@ -1119,7 +1115,7 @@
   },
   {
    "date": "2026-10-19",
-   "geti": 58.5
+   "geti": 58.4
   },
   {
    "date": "2026-10-20",
@@ -1127,7 +1123,7 @@
   },
   {
    "date": "2026-10-21",
-   "geti": 50.4
+   "geti": 50.3
   },
   {
    "date": "2026-10-22",
@@ -1135,11 +1131,11 @@
   },
   {
    "date": "2026-10-23",
-   "geti": 53.8
+   "geti": 53.7
   },
   {
    "date": "2026-10-24",
-   "geti": 57.1
+   "geti": 57.0
   },
   {
    "date": "2026-10-25",
@@ -1216,11 +1212,23 @@
   {
    "date": "2026-11-12",
    "geti": 73.8
+  },
+  {
+   "date": "2026-11-13",
+   "geti": 73.9
   }
  ],
  "policy": {
   "items": [],
   "notable": [
+   {
+    "kind": "judicial",
+    "title": "Cleaner, smarter, big data: the PLA’s bet on ‘sunshine’ military recruitment",
+    "url": "https://www.scmp.com/news/china/military/article/3374390/cleaner-smarter-big-data-plas-bet-sunshine-military-recruitment",
+    "country": "",
+    "source": "scmp",
+    "when": "2026-11-14"
+   },
    {
     "kind": "judicial",
     "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
@@ -1255,67 +1263,19 @@
    },
    {
     "kind": "judicial",
-    "title": "十四届全国人大环境与资源保护委员会副主任委员王忠林被查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731691.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
-    "title": "内蒙古医科大学党委原书记白长明接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731660.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
-    "title": "中国交通建设集团有限公司党委常委刘成云接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731659.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
-    "title": "Former NSW Liberal MP Rory Amon found guilty of raping 13-year-old boy",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/13/former-nsw-liberal-mp-rory-amon-found-guilty-of-raping-13-year-old-boy",
-    "country": "AU",
-    "source": "guardian",
-    "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
-    "title": "How a bad impression put a celebrated 2,000-year-old Han cliff inscription at risk",
-    "url": "https://www.scmp.com/news/china/politics/article/3374339/how-bad-impression-put-celebrated-2000-year-old-han-cliff-inscription-risk",
-    "country": "",
-    "source": "scmp",
-    "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
     "title": "Boxer on death row in Iran vows ‘not to bow before oppression’ after winning rights prize",
     "url": "https://www.theguardian.com/global-development/2026/nov/13/mohammad-javad-vafaei-sani-iran-boxer-death-row-magnitsky-award",
     "country": "IR",
     "source": "guardian",
     "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
-    "title": "Singaporean woman who helped dispose of Megan Khung’s body gets 13 years’ jail",
-    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374302/singaporean-woman-who-helped-dispose-megan-khungs-body-gets-13-years-jail",
-    "country": "SG",
-    "source": "scmp",
-    "when": "2026-11-13"
    }
   ],
-  "notable_total": 11,
+  "notable_total": 6,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 11
+   "notable": 6
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1377,31 +1337,31 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 108,
+    "items": 107,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 104,
+    "items": 103,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 107,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 100,
+    "items": 99,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 103,
+    "items": 102,
     "error": ""
    }
   ],
@@ -2234,8 +2194,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.88,
-    "carry": 9.13,
+    "value": 9.0,
+    "carry": 9.11,
     "z": null,
     "score": null,
     "available": false
@@ -2244,8 +2204,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 11.0,
-    "carry": 13.77,
+    "value": 23.0,
+    "carry": 15.02,
     "z": null,
     "score": null,
     "available": false
@@ -2255,7 +2215,7 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 2.0,
-    "carry": 2.39,
+    "carry": 2.33,
     "z": null,
     "score": null,
     "available": false
@@ -2274,83 +2234,83 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 1.67,
-    "carry": 3.14,
+    "value": 1.33,
+    "carry": 2.89,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 10,
+  "history_days": 11,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 11,
-   "last_seen": "2026-11-12",
+   "active_days": 12,
+   "last_seen": "2026-11-13",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "148 km NW of Kavieng, Papua New Guinea",
+     "t": "79 km WSW of Changuillo, Peru",
      "v": 5.8,
-     "ts": "2026-11-12T22:04+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp"
+     "ts": "2026-11-13T16:43+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty1a"
+    },
+    {
+     "t": "79 km NE of Kuqa, China",
+     "v": 5.2,
+     "ts": "2026-11-13T16:17+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty14"
+    },
+    {
+     "t": "West Chile Rise",
+     "v": 5.2,
+     "ts": "2026-11-13T14:12+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s"
+    },
+    {
+     "t": "153 km NW of Kavieng, Papua New Guinea",
+     "v": 5.1,
+     "ts": "2026-11-13T23:30+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty56"
     },
     {
      "t": "South Sandwich Islands region",
-     "v": 5.4,
-     "ts": "2026-11-12T03:45+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqr"
-    },
-    {
-     "t": "western Indian-Antarctic Ridge",
      "v": 5.1,
-     "ts": "2026-11-12T21:09+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txw9"
+     "ts": "2026-11-13T19:04+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty3q"
     },
     {
-     "t": "41 km N of Weining, China",
+     "t": "39 km S of Moíres, Greece",
+     "v": 5.1,
+     "ts": "2026-11-13T00:05+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txx9"
+    },
+    {
+     "t": "85 km W of Mwene-Ditu, Democratic Republic of the Congo",
+     "v": 5.0,
+     "ts": "2026-11-13T01:12+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txxl"
+    },
+    {
+     "t": "south of the Kermadec Islands",
      "v": 4.9,
-     "ts": "2026-11-12T20:03+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txvw"
+     "ts": "2026-11-13T22:10+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty4w"
     },
     {
-     "t": "155 km E of Noda, Japan",
-     "v": 4.8,
-     "ts": "2026-11-12T04:07+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqx"
+     "t": "south of the Fiji Islands",
+     "v": 4.9,
+     "ts": "2026-11-13T18:55+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty3g"
     },
     {
-     "t": "43 km SE of Severo-Kuril’sk, Russia",
-     "v": 4.8,
-     "ts": "2026-11-12T01:18+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txqa"
-    },
-    {
-     "t": "83 km NE of Ruteng, Indonesia",
-     "v": 4.7,
-     "ts": "2026-11-12T11:16+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txs5"
-    },
-    {
-     "t": "117 km S of Akureyri, Iceland",
-     "v": 4.6,
-     "ts": "2026-11-12T21:53+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwi"
-    },
-    {
-     "t": "115 km ESE of Bitung, Indonesia",
-     "v": 4.5,
-     "ts": "2026-11-12T14:58+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txtd"
-    },
-    {
-     "t": "3 km E of Tako, Japan",
-     "v": 4.5,
-     "ts": "2026-11-12T13:27+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txsr"
+     "t": "southeast of the Loyalty Islands",
+     "v": 4.9,
+     "ts": "2026-11-13T09:55+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txz3"
     }
    ],
    "eonet": [
@@ -2369,29 +2329,29 @@
    ],
    "gdacs": [
     {
-     "t": "Green earthquake (Magnitude 5.8M, Depth:10km) in Papua New Guinea 12/11/2026 22:",
+     "t": "Green earthquake (Magnitude 5.8M, Depth:10km) in Peru 13/11/2026 16:43 UTC, 100 ",
      "v": "green",
-     "ts": "2026-11-12 22:20",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577060"
+     "ts": "2026-11-13 17:03",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577195"
     },
     {
-     "t": "Green flood alert in Myanmar",
+     "t": "Green forest fire notification in Argentina",
      "v": "green",
-     "ts": "2026-11-12 07:27",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104280"
+     "ts": "2026-11-13 12:04",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033788"
     },
     {
-     "t": "Drought is on going in New Zealand",
+     "t": "Green flood alert in Thailand",
      "v": "green",
-     "ts": "2026-11-12 08:29",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=DR&eventid=1027737"
+     "ts": "2026-11-13 10:41",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104283"
     }
    ],
    "kp": [
     {
-     "t": "Kp 1.67 峰值（当日 8 个时段）",
-     "v": 1.67,
-     "ts": "2026-11-12",
+     "t": "Kp 1.33 峰值（当日 8 个时段）",
+     "v": 1.33,
+     "ts": "2026-11-13",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -2415,8 +2375,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 1.0,
-    "carry": 0.56,
+    "value": 4.0,
+    "carry": 1.03,
     "z": null,
     "score": null,
     "available": false
@@ -2425,24 +2385,42 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.61,
-    "carry": 0.91,
+    "value": 1.95,
+    "carry": 1.05,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 10,
+  "history_days": 11,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 10,
-   "last_seen": "2026-11-12",
+   "active_days": 11,
+   "last_seen": "2026-11-13",
    "ongoing": true
   },
   "evidence": {
    "who": [
+    {
+     "t": "美航空局解除航班停飞令 交通部长呼吁国会拨款500亿美元",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    },
+    {
+     "t": "美国联邦航空管理局：地面停飞令已解除",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    },
+    {
+     "t": "知情人士称全美航班停飞调查指向软件更新",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    },
     {
      "t": "美国联邦航空管理局发布全国范围地面停飞指令",
      "v": "政策",
@@ -2453,7 +2431,7 @@
   }
  },
  "doom": {
-  "index": 73.8,
+  "index": 73.9,
   "z": 0.62,
   "parts": {
    "military": 0.62,
@@ -2493,8 +2471,8 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 141,
-   "items": 39321,
+   "files": 144,
+   "items": 36792,
    "error": ""
   },
   {
@@ -2549,7 +2527,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 8,
+   "items": 16,
    "error": "",
    "undated": 0
   },
@@ -2577,31 +2555,31 @@
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 108,
+   "items": 107,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 104,
+   "items": 103,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 107,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 100,
+   "items": 99,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 103,
+   "items": 102,
    "error": ""
   },
   {
@@ -2637,7 +2615,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 11,
+   "items": 23,
    "error": ""
   },
   {
@@ -2667,7 +2645,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 4569,
+   "items": 5648,
    "error": ""
   },
   {
