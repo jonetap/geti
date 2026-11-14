@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-14T06:18:26+00:00",
+ "generated_at": "2026-11-14T15:48:07+00:00",
  "date": "2026-11-13",
  "geti": 73.9,
  "delta_z": 0.63,
@@ -245,12 +245,147 @@
  ],
  "events": [
   {
+   "id": "4e758a757812",
+   "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
+   "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T14:42:27+00:00",
+   "note": "‘We have further to go,’ says Huw Pill after increase to 4% this month as Bank seeks to tackle rising inflation The Bank of England will probably need to raise interest rates next ",
+   "region": "OTHER"
+  },
+  {
+   "id": "565274fc2eac",
+   "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T14:38:36+00:00",
+   "note": "Authorities declined to file charges against napping woman whose truck accelerated on to field during youth game A soccer mom napping in her pickup truck when it suddenly accelerat",
+   "region": "OTHER"
+  },
+  {
+   "id": "8ac39cb3dece",
+   "title": "Bomb found at Illinois ethanol plant, prompting evacuations",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T14:13:49+00:00",
+   "note": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Fr",
+   "region": "OTHER"
+  },
+  {
+   "id": "673c06c088ad",
+   "title": "Trump ‘whiplash’ on deportations putting Afghans in turmoil: ‘People already survived a war’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/afghan-deportations-trump-administration",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T13:00:47+00:00",
+   "note": "Members of Congress and advocates warn that returning people to their home countries could be a death sentence Dozens of Afghans who are currently in the US but fear being deported",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "b6f845843ea7",
+   "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
+   "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T13:00:44+00:00",
+   "note": "People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest summer since records be",
+   "region": "OTHER"
+  },
+  {
+   "id": "db72dd8c47c4",
+   "title": "Russian casualties ‘reach 450,000’: What that means for the Ukraine war",
+   "url": "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-14T12:57:36+00:00",
+   "note": "Leaked Russian records reveal a war toll that falls hardest on older men, poorer regions and foreign recruits.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "2fedbb085f06",
+   "title": "Turkey detains 6 over deadly steel blast that killed 17",
+   "url": "https://www.scmp.com/news/world/europe/article/3374446/turkey-detains-6-over-deadly-steel-blast-killed-17",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-14T12:40:28+00:00",
+   "note": "Six people were arrested overnight after a huge blast at a steel plant near the western city of Izmir killed 17 workers, with grieving families waiting on Tuesday to receive their ",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "aed1981811ee",
+   "title": "Inside Ethiopia's war: Rare access to a hospital treating victims of renewed fighting",
+   "url": "https://www.france24.com/en/inside-ethiopia-s-war-rare-access-to-a-hospital-treating-victims-of-renewed-fighting",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-14T12:23:32+00:00",
+   "note": "Ethiopia's renewed conflict is taking an increasing toll on civilians, with humanitarian organisations reporting a rise in casualties. In the Amhara region, FRANCE 24’s corresponde",
+   "region": "AFRICA"
+  },
+  {
+   "id": "9f83c4505e96",
+   "title": "Three killed in Russia as Ukraine claims US floated NATO membership option",
+   "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-14T11:43:06+00:00",
+   "note": "Zelenskyy says the US asked for the first time whether Kyiv would cede land to Moscow in exchange for the NATO bid.",
+   "region": "RUSSIA_CIS"
+  },
+  {
    "id": "a8e0008f6392",
    "title": "爱尔兰在多国领导人晚宴地点附近查获爆炸装置",
    "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731932.shtml",
    "component": "military",
    "severity": 5,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -260,18 +395,33 @@
    "region": "OTHER"
   },
   {
-   "id": "cbf6f01f9795",
-   "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
-   "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
-   "component": "military",
+   "id": "b942a9586875",
+   "title": "Qatar and Turkiye sign a mutual defence pact: What do we know?",
+   "url": "https://www.aljazeera.com/news/2026/11/14/qatar-and-turkiye-sign-a-mutual-defence-pact-what-do-we-know?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "guardian"
+    "aljazeera"
    ],
-   "published": "2026-11-14T03:11:28+00:00",
-   "note": "No passengers or crew killed or critically hurt after tanker collides with river cruise ship on Mississippi, officials say In what the city’s mayor declared a “miracle on the Missi",
+   "published": "2026-11-14T09:19:43+00:00",
+   "note": "Analysts say the pact, agreed amid the US-Iran war, aims to deter attacks rather than build an offensive alliance.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "e6a196c8e2cd",
+   "title": "Chinese scientists fired after child dies in world’s first brain gene-editing attempt",
+   "url": "https://www.scmp.com/news/china/science/article/3374429/chinese-scientists-fired-after-child-dies-worlds-first-brain-gene-editing-attempt",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-14T06:23:22+00:00",
+   "note": "The world’s first attempt to edit genes inside a child’s brain, which killed a six-year-old girl in Shanghai last year, has led to the firing of scientists following an official in",
    "region": "OTHER"
   },
   {
@@ -280,7 +430,7 @@
    "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374418/russia-sets-cull-30-cent-brown-bears-after-36-killed-attacks",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -290,72 +440,12 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "97ef3c4f0fc6",
-   "title": "November 13 Paris attacks: Eleven years later, France pays tribute to victims",
-   "url": "https://www.france24.com/en/november-13-paris-attacks-eleven-years-later-france-pays-tribute-to-victims",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T16:47:52+00:00",
-   "note": "Eleven years on, France pays tribute to the victims of the November 13 attacks. French officials, victims’ associations and families gathered this Friday to pay their respects to t",
-   "region": "EUROPE"
-  },
-  {
-   "id": "706e290b2e2c",
-   "title": "Crossing Afghanistan along the 'highway of death'",
-   "url": "https://www.france24.com/en/tv-shows/revisited/20261113-crossing-afghanistan-along-the-highway-of-death",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T16:47:34+00:00",
-   "note": "Highway 1, or the Ring Road, connects Afghanistan's major cities. After September 11, 2001, it became a hotspot for crime and fighting, particularly between the capital Kabul and K",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "ba3e1a36db44",
-   "title": "Myanmar: Junta carries out double-tap airstrikes targeting civilians",
-   "url": "https://www.france24.com/en/tv-shows/the-observers/20261113-myanmar-junta-airstrikes-civilians",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T16:41:45+00:00",
-   "note": "Numerous civilian casualties have been documented in Rakhine State amid a renewed military offensive by the junta to regain control of the area. Available evidence suggests that mi",
-   "region": "OTHER"
-  },
-  {
-   "id": "56fdbfe2ebc0",
-   "title": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
-   "url": "https://www.france24.com/en/video/20261113-russian-airstrikes-continue-ukraine-launches-nearly-1-200-drones",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-13T15:46:36+00:00",
-   "note": "Russian strikes hit targets across Ukraine on Thursday, with one attack damaging a hospital. Ukraine meanwhile fired almost 1,200 drones at Russian targets overnight in one of its ",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "2ac43cf6e71f",
    "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
    "url": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -365,27 +455,12 @@
    "region": "OTHER"
   },
   {
-   "id": "419f2d385b4e",
-   "title": "At least 24 killed after bus collides with truck in north-east India",
-   "url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-13T15:16:50+00:00",
-   "note": "Several of the deceased are college students, according to local official Atul Bora, but they have not yet been publicly identified.",
-   "region": "SOUTH_ASIA"
-  },
-  {
    "id": "0205cff1094a",
    "title": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
    "url": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -395,144 +470,54 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "f2c404b1f191",
-   "title": "India road crash between bus, container truck kills 23",
-   "url": "https://www.scmp.com/news/asia/south-asia/article/3374386/india-road-crash-between-bus-container-truck-kills-23",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-13T13:02:08+00:00",
-   "note": "A head-on collision between a container truck and a passenger bus killed at least 23 people, including three children, in eastern India on Friday, a police official said The crash ",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "6c4a76b98157",
-   "title": "Malaysia turns to Turkey for warship missiles after Norway’s export freeze",
-   "url": "https://www.scmp.com/week-asia/politics/article/3374373/malaysia-turns-turkey-warship-missiles-after-norways-export-freeze",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-13T11:06:13+00:00",
-   "note": "Malaysia’s decision to pivot to Turkey for anti-ship missiles after Norway cancelled a procurement deal has offered it a way out of a costly setback, though analysts warn the episo",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "192ccc16d661",
-   "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-   "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-12T13:02:46+00:00",
-   "note": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "4c68eea38138",
-   "title": "Hong Kong police arrest 3 teens over alleged assault on 13-year-old schoolmate",
-   "url": "https://www.scmp.com/news/hong-kong/education/article/3374422/hong-kong-police-arrest-3-teens-over-alleged-assault-13-year-old-schoolmate",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-14T04:06:04+00:00",
-   "note": "Hong Kong police have arrested three teenage boys on suspicion of assaulting a 13-year-old fellow pupil on campus, after a social media post criticised the school’s handling of the",
-   "region": "OTHER"
-  },
-  {
-   "id": "7ac6a8a3c490",
-   "title": "UK police open sex offence probe into comedian and author David Walliams",
-   "url": "https://www.aljazeera.com/news/2026/11/14/uk-police-open-sex-offence-probe-into-comedian-and-author-david-walliams?traffic_source=rss",
-   "component": "narrative",
+   "id": "ab93c3a86df8",
+   "title": "How does Iran view shift in US approach after JD Vance ordered away?",
+   "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
+   "component": "diplomacy",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-14T00:22:07+00:00",
-   "note": "The British TV personality, 55, denies sexual assault allegations, saying he has not broken the law.",
-   "region": "OTHER"
-  },
-  {
-   "id": "5939a00ac4e1",
-   "title": "联合国：海湾局势持续紧张对国际和平与安全构成严重风险",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143197",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.43,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-13T12:00:00+00:00",
-   "note": "联合国负责政治事务的助理秘书长希阿里周五在安理会通报中东局势时表示，霍尔木兹海峡和曼德海峡及其周边地区局势持续紧张，对国际和平与安全、地区稳定和全球经济构成严重风险。他呼吁各方立即停止袭击民用船舶，恢复航行自由，通过外交途径寻求和平解决方案。",
+   "published": "2026-11-14T13:24:44+00:00",
+   "note": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "c45952a7a970",
-   "title": "刚果（金）：武装袭击阻碍埃博拉疫情防控",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143195",
-   "component": "narrative",
+   "id": "6d20068dbb23",
+   "title": "France's school principals say threats and violence have become unbearable",
+   "url": "https://www.france24.com/en/france-s-school-principals-say-threats-and-violence-have-become-unbearable",
+   "component": "internal",
    "severity": 4,
-   "confidence": 0.43,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-13T12:00:00+00:00",
-   "note": "联合国应急响应人员周五警告，刚果民主共和国（刚果（金））埃博拉疫情仍在蔓延，武装团体接连袭击平民和一线医护人员，严重阻碍接触者追踪、患者救治等防疫工作。",
-   "region": "AFRICA"
-  },
-  {
-   "id": "0ce484d14fb8",
-   "title": "Probation officers in England and Wales vote to strike over pay and workloads",
-   "url": "https://www.theguardian.com/society/2026/nov/13/probation-officers-in-england-and-wales-vote-for-strike-action-over-pay-and-workloads",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-13T20:51:01+00:00",
-   "note": "Move deals blow to government’s plans to release thousands of prisoners early to tackle prison overcrowding The government’s plans to release thousands of prisoners early were deal",
-   "region": "OTHER"
-  },
-  {
-   "id": "0cf4a9c740a8",
-   "title": "What we know about China's military exercises around Taiwan",
-   "url": "https://www.france24.com/en/asia-pacific/20261113-chinese-army-military-exercises-taiwan",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-13T18:19:19+00:00",
-   "note": "China has been carrying out major military drills around Taiwan since early November. But contrary to some claims on social media, Beijing's armed forces have not actually implemen",
+   "published": "2026-11-14T10:17:21+00:00",
+   "note": "Headteachers gathered across France this Friday, to demonstrate their frustration after nearly two months of student protests that have blockaded high schools. Many of the teachers",
+   "region": "EUROPE"
+  },
+  {
+   "id": "989c2be1d1f0",
+   "title": "伊朗通报4艘油轮触雷起火 联合国通报134起商船袭击事件",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-14/10732056.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-14T09:13:42+00:00",
+   "note": "中新社北京11月14日电 综合消息：伊朗伊斯兰革命卫队14日通报称，几小时内，至少有4艘油轮在霍尔木兹海峡触雷起火。联合国方面13日通报称，霍尔木兹海峡及更广泛的中东海域已发生134起商船袭击事件，造成25名海员死亡。",
    "region": "EAST_ASIA"
   },
   {
-   "id": "6d667b29c91b",
-   "title": "Czechia braces for massive protest against public media reform plans",
-   "url": "https://www.dw.com/en/czechia-braces-for-massive-protest-against-public-media-reform-plans/a-79933533?maca=en-rss-en-world-4025-rdf",
+   "id": "c3aec74ed78f",
+   "title": "Sudan: Misery worsens amid plummeting aid for displaced people",
+   "url": "https://www.dw.com/en/sudan-misery-worsens-amid-plummeting-aid-for-displaced-people/a-79938864?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 4,
    "confidence": 0.34,
@@ -540,79 +525,32 @@
    "sources": [
     "dw"
    ],
-   "published": "2026-11-13T08:35:00+00:00",
-   "note": "A fast-tracked bill to cut public media funding has sparked strikes, rallies and fears for the independence of public broadcasting in Czechia. A massive protest is planned for Prag",
-   "region": "OTHER"
+   "published": "2026-11-14T08:31:00+00:00",
+   "note": "Sudan's humanitarian crisis is exacerbated by cuts in international aid. Almost 34 million people are in need as war and drone strikes are making it difficult to deliver aid to the",
+   "region": "AFRICA"
   },
   {
-   "id": "5a78c981fd96",
-   "title": "“达尔富拉姆事件”88周年纪念活动在澳大利亚举行",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-13/10731724.shtml",
+   "id": "f6d09311bab8",
+   "title": "Live: France deploys 70,000 police for new wave of anti-government protests",
+   "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests",
    "component": "internal",
-   "severity": 3,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-13T13:40:06+00:00",
-   "note": "中新社澳大利亚伍伦贡11月13日电(记者 薄雯雯)“达尔富拉姆事件”88周年纪念活动13日在澳大利亚伍伦贡市肯布拉港举行，纪念1938年当地码头工人为反对日本军国主义、声援中国抗战而发起的罢工行动。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "a9f191ba9145",
-   "title": "Pax Silica means peace. In the Philippines, it’s a fight",
-   "url": "https://www.scmp.com/week-asia/economics/article/3374368/pax-silica-means-peace-philippines-its-fight",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-14T00:00:08+00:00",
-   "note": "Outside the Grand Hyatt hotel in Manila earlier this year, five people were arrested as hundreds of activists chanting “Junk Pax Silica!” clashed with anti-riot police. Inside, Phi",
-   "region": "OTHER"
-  },
-  {
-   "id": "680b7b6ba79d",
-   "title": "After a summer win, India's Gen Z protesters face a winter of uncertainty",
-   "url": "https://www.bbc.co.uk/news/articles/cq99e0z4vg1eo?at_medium=RSS&at_campaign=rss",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-13T23:11:51+00:00",
-   "note": "A new wave of youth dissent swept India this summer, fuelled by frustration and irreverent online satire.",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "0eb5cdb69972",
-   "title": "The Downfall of AI’s ‘Rock Star’ Boss, Ukraine: Who speaks for Europe? Protests & Presidents",
-   "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261113-the-downfall-of-ai-s-rock-star-boss-ukraine-who-speak-for-europe-protests-presidents",
-   "component": "internal",
-   "severity": 3,
+   "severity": 4,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-13T19:46:54+00:00",
-   "note": "On The World This Week with Gavin Lee, our panel distills the breaking news and global stories of the past 7 days into 45 minutes. Ukraine: Who will speak for Europe? In a week tha",
+   "published": "2026-11-14T07:09:32+00:00",
+   "note": "Between 50 and 60 marches are expected in France on Saturday, according to Interior Minister Laurent Nuñez, who plans to mobilise approximately 70,000 police officers and gendarmes",
    "region": "EUROPE"
-  }
- ],
- "breaking": [
+  },
   {
    "id": "4c68eea38138",
    "title": "Hong Kong police arrest 3 teens over alleged assault on 13-year-old schoolmate",
    "url": "https://www.scmp.com/news/hong-kong/education/article/3374422/hong-kong-police-arrest-3-teens-over-alleged-assault-13-year-old-schoolmate",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -622,24 +560,86 @@
    "region": "OTHER"
   },
   {
-   "id": "a8e0008f6392",
-   "title": "爱尔兰在多国领导人晚宴地点附近查获爆炸装置",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731932.shtml",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.64,
+   "id": "0c43d26f5bbb",
+   "title": "Canada’s Stelco to recall 175 workers after government pressure",
+   "url": "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss",
+   "component": "economy",
+   "severity": 3,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "aljazeera"
    ],
-   "published": "2026-11-14T03:41:12+00:00",
-   "note": "爱尔兰警方13日查获一枚简易爆炸装置，发现地点距多国领导人前一天晚宴的场所较近。军方拆弹专家出动，成功处置这枚“制作粗糙但具备引爆能力”的爆炸装置。",
+   "published": "2026-11-14T15:06:52+00:00",
+   "note": "Steelmaker promises back pay for workers whose layoffs its US owner blamed on tariffs, weak demand and imports.",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "4afb1b799a48",
+   "title": "Who are the 'street medics' showing up at protests around the world?",
+   "url": "https://www.france24.com/en/who-are-the-street-medics-showing-up-at-protests-around-the-world",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-14T12:19:19+00:00",
+   "note": "From treating tear gas exposure to tending to injuries, street medics have become an increasingly common sight at protests all over the world. But who exactly are they and when did",
    "region": "OTHER"
   },
   {
-   "id": "cbf6f01f9795",
-   "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
-   "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+   "id": "020a722d086a",
+   "title": "Greenpeace boulders may delay building of £12bn windfarms in North Sea",
+   "url": "https://www.theguardian.com/environment/2026/nov/14/greenpeace-boulders-norfolk-vanguard-windfarms",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T11:00:43+00:00",
+   "note": "Activists dumped rocks off Norfolk coast on site of Burnham-backed project in protest against seabed trawling The giant offshore windfarms backed by Andy Burnham this week may face",
+   "region": "OTHER"
+  }
+ ],
+ "breaking": [
+  {
+   "id": "4e758a757812",
+   "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
+   "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T14:42:27+00:00",
+   "note": "‘We have further to go,’ says Huw Pill after increase to 4% this month as Bank seeks to tackle rising inflation The Bank of England will probably need to raise interest rates next ",
+   "region": "OTHER"
+  },
+  {
+   "id": "565274fc2eac",
+   "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T14:38:36+00:00",
+   "note": "Authorities declined to file charges against napping woman whose truck accelerated on to field during youth game A soccer mom napping in her pickup truck when it suddenly accelerat",
+   "region": "OTHER"
+  },
+  {
+   "id": "8ac39cb3dece",
+   "title": "Bomb found at Illinois ethanol plant, prompting evacuations",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -647,35 +647,35 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-14T03:11:28+00:00",
-   "note": "No passengers or crew killed or critically hurt after tanker collides with river cruise ship on Mississippi, officials say In what the city’s mayor declared a “miracle on the Missi",
+   "published": "2026-11-14T14:13:49+00:00",
+   "note": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Fr",
    "region": "OTHER"
   },
   {
-   "id": "54a8a7cebfa1",
-   "title": "Russia sets cull of up to 30 per cent of brown bears after 36 people killed in attacks",
-   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374418/russia-sets-cull-30-cent-brown-bears-after-36-killed-attacks",
-   "component": "narrative",
-   "severity": 5,
+   "id": "ab93c3a86df8",
+   "title": "How does Iran view shift in US approach after JD Vance ordered away?",
+   "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
+   "component": "diplomacy",
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "scmp"
+    "aljazeera"
    ],
-   "published": "2026-11-14T02:15:05+00:00",
-   "note": "The Russian government has established a cull of ⁠up to ⁠30 per cent of brown bear ⁠populations to keep numbers in check after bear attacks killed 36 people this year, the Ministry",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-14T13:24:44+00:00",
+   "note": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
+   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
-  "sources_ok": 21,
-  "sources_failed": 1,
-  "items": 37048,
-  "gdelt_events": 36792,
+  "sources_ok": 20,
+  "sources_failed": 2,
+  "items": 32594,
+  "gdelt_events": 32355,
   "mode": "live",
   "data_through": "2026-11-13",
-  "clusters": 250,
-  "origins": 253,
+  "clusters": 232,
+  "origins": 237,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1191,7 +1191,7 @@
   },
   {
    "date": "2026-11-07",
-   "geti": 66.6
+   "geti": 66.5
   },
   {
    "date": "2026-11-08",
@@ -1203,7 +1203,7 @@
   },
   {
    "date": "2026-11-10",
-   "geti": 71.6
+   "geti": 71.5
   },
   {
    "date": "2026-11-11",
@@ -1223,6 +1223,62 @@
   "notable": [
    {
     "kind": "judicial",
+    "title": "Zero capital, 116 projects: AI spots the devils in the details of China corruption case",
+    "url": "https://www.scmp.com/news/china/politics/article/3374314/zero-capital-116-projects-ai-spots-devils-details-china-corruption-case",
+    "country": "CN",
+    "source": "scmp",
+    "when": "2026-11-14"
+   },
+   {
+    "kind": "judicial",
+    "title": "Eight sentenced to jail over Nurmagomedov-Dvalishvili Abu Dhabi hotel brawl",
+    "url": "https://www.aljazeera.com/sports/2026/11/14/usman-nurmagomedov-merab-dvalishvili-abu-dhabi-hotel-brawl-jail-sentence?traffic_source=rss",
+    "country": "",
+    "source": "aljazeera",
+    "when": "2026-11-14"
+   },
+   {
+    "kind": "judicial",
+    "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
+    "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
+    "country": "",
+    "source": "bbc",
+    "when": "2026-11-14"
+   },
+   {
+    "kind": "judicial",
+    "title": "蒙商银行股份有限公司原党委副书记廉斌被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-14/10732060.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-14"
+   },
+   {
+    "kind": "judicial",
+    "title": "因涉嫌酒驾 驻日美军上尉被日本警方逮捕",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-14/10732065.shtml",
+    "country": "JP",
+    "source": "chinanews",
+    "when": "2026-11-14"
+   },
+   {
+    "kind": "judicial",
+    "title": "Nearly $20m found in Hungary’s forests, buildings amid corruption probe",
+    "url": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings?traffic_source=rss",
+    "country": "HU",
+    "source": "aljazeera",
+    "when": "2026-11-14"
+   },
+   {
+    "kind": "judicial",
+    "title": "Hungary seizes $18m cash tied to ex-Orban-era minister in probe",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/hungary-seizes-18m-cash-tied-to-ex-orban-era-minister-in-probe?traffic_source=rss",
+    "country": "HU",
+    "source": "aljazeera",
+    "when": "2026-11-14"
+   },
+   {
+    "kind": "judicial",
     "title": "Cleaner, smarter, big data: the PLA’s bet on ‘sunshine’ military recruitment",
     "url": "https://www.scmp.com/news/china/military/article/3374390/cleaner-smarter-big-data-plas-bet-sunshine-military-recruitment",
     "country": "",
@@ -1239,30 +1295,6 @@
    },
    {
     "kind": "judicial",
-    "title": "Former Hamas bodyguard convicted of Birmingham knife crime also wanted in Germany",
-    "url": "https://www.theguardian.com/uk-news/2026/nov/13/former-hamas-bodyguard-convicted-of-birmingham-knife-also-wanted-in-germany",
-    "country": "GB",
-    "source": "guardian",
-    "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
-    "title": "重庆市农业投资集团有限公司原党委书记何勇被开除党籍",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731825.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
-    "title": "辽宁省沈抚改革创新示范区原管委会副主任范静国被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-13/10731824.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
     "title": "Boxer on death row in Iran vows ‘not to bow before oppression’ after winning rights prize",
     "url": "https://www.theguardian.com/global-development/2026/nov/13/mohammad-javad-vafaei-sani-iran-boxer-death-row-magnitsky-award",
     "country": "IR",
@@ -1270,12 +1302,12 @@
     "when": "2026-11-13"
    }
   ],
-  "notable_total": 6,
+  "notable_total": 10,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 6
+   "notable": 10
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2214,8 +2246,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 2.0,
-    "carry": 2.33,
+    "value": 1.0,
+    "carry": 2.2,
     "z": null,
     "score": null,
     "available": false
@@ -2315,12 +2347,6 @@
    ],
    "eonet": [
     {
-     "t": "Wildfire Red Hill, Perry, Mississippi",
-     "v": "wildfires",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26331"
-    },
-    {
      "t": "Tropical Storm Pena",
      "v": "severe storms",
      "ts": "",
@@ -2375,8 +2401,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 4.0,
-    "carry": 1.03,
+    "value": 6.0,
+    "carry": 1.3,
     "z": null,
     "score": null,
     "available": false
@@ -2385,8 +2411,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.95,
-    "carry": 1.05,
+    "value": 0.42,
+    "carry": 0.84,
     "z": null,
     "score": null,
     "available": false
@@ -2403,6 +2429,18 @@
   },
   "evidence": {
    "who": [
+    {
+     "t": "全美停飞令解除但混乱持续 “损害公众对美航空系统信任”",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    },
+    {
+     "t": "美国联邦航空管理局：已解除全美航班停飞令",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    },
     {
      "t": "美航空局解除航班停飞令 交通部长呼吁国会拨款500亿美元",
      "v": "政策",
@@ -2472,13 +2510,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 36792,
+   "items": 32355,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 25,
+   "items": 26,
    "error": "",
    "undated": 0
   },
@@ -2492,7 +2530,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 31,
+   "items": 30,
    "error": "",
    "undated": 0
   },
@@ -2526,9 +2564,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": true,
-   "items": 16,
-   "error": "",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）",
    "undated": 0
   },
   {
@@ -2548,7 +2586,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 13,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2621,7 +2659,7 @@
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "error": ""
   },
   {
@@ -2645,7 +2683,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 5648,
+   "items": 10407,
    "error": ""
   },
   {
