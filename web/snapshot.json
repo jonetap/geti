@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-14T22:22:11+00:00",
- "date": "2026-11-13",
- "geti": 73.9,
- "delta_z": 0.63,
- "delta_pts": 0.1,
+ "generated_at": "2026-11-15T06:26:39+00:00",
+ "date": "2026-11-14",
+ "geti": 74.2,
+ "delta_z": 0.65,
+ "delta_pts": 0.3,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,25 +13,25 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 78.6,
-   "delta": 0.6,
+   "score": 78.5,
+   "delta": -0.1,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.62
+     1.61
     ],
     [
      "diplomacy",
-     1.49
+     1.52
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 73.5,
-   "delta": -1.2,
+   "score": 73.6,
+   "delta": 0.1,
    "excluded": true,
    "drivers": [
     [
@@ -40,143 +40,143 @@
     ],
     [
      "diplomacy",
-     1.19
+     1.22
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 68.3,
-   "delta": -1.4,
+   "score": 69.2,
+   "delta": 0.9,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     1.0
+     "military",
+     1.24
     ],
     [
-     "military",
-     0.97
+     "diplomacy",
+     0.81
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 67.7,
-   "delta": -1.8,
+   "score": 68.1,
+   "delta": 0.3,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     1.06
+     "diplomacy",
+     1.07
     ],
     [
-     "diplomacy",
-     1.01
+     "military",
+     1.05
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 67.5,
-   "delta": -2.2,
+   "score": 66.7,
+   "delta": -0.7,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.12
+     1.08
     ],
     [
      "diplomacy",
-     0.96
+     0.89
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 67.0,
-   "delta": -1.4,
+   "score": 65.1,
+   "delta": -1.9,
    "excluded": false,
    "drivers": [
-    [
-     "diplomacy",
-     1.06
-    ],
-    [
-     "internal",
-     0.89
-    ]
-   ]
-  },
-  {
-   "code": "OCEANIA",
-   "label": "大洋洲",
-   "score": 64.6,
-   "delta": -0.1,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.0
-    ],
     [
      "diplomacy",
      0.84
+    ],
+    [
+     "military",
+     0.77
     ]
    ]
   },
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 63.3,
-   "delta": -0.6,
+   "score": 60.8,
+   "delta": -2.4,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.72
+    ],
+    [
+     "military",
+     0.65
+    ]
+   ]
+  },
+  {
+   "code": "OCEANIA",
+   "label": "大洋洲",
+   "score": 59.9,
+   "delta": -4.7,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.81
+     0.73
     ],
     [
      "diplomacy",
-     0.78
+     0.47
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 59.6,
-   "delta": 1.4,
+   "score": 58.6,
+   "delta": -1.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.89
+     0.84
     ],
     [
      "diplomacy",
-     0.76
+     0.61
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 48.9,
-   "delta": -1.9,
+   "score": 49.3,
+   "delta": 0.3,
    "excluded": false,
    "drivers": [
     [
      "internal",
-     -0.61
+     -0.66
     ],
     [
-     "economy",
-     -0.37
+     "diplomacy",
+     0.44
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.62,
-   "score": 88.4,
-   "contrib": 0.403
+   "z": 1.61,
+   "score": 88.3,
+   "contrib": 0.405
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.49,
-   "score": 86.5,
-   "contrib": 0.256
+   "z": 1.52,
+   "score": 87.0,
+   "contrib": 0.264
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.45,
-   "score": 85.9,
-   "contrib": 0.208
+   "z": 1.42,
+   "score": 85.5,
+   "contrib": 0.206
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 1.24,
-   "score": 82.6,
-   "contrib": 0.131
+   "z": 1.17,
+   "score": 81.3,
+   "contrib": 0.124
   },
   {
    "key": "narrative",
@@ -238,61 +238,16 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": -0.03,
-   "score": 49.1,
-   "contrib": -0.002
+   "z": -0.02,
+   "score": 49.4,
+   "contrib": -0.001
   }
  ],
  "events": [
   {
-   "id": "8ac39cb3dece",
-   "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
-   "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T20:14:27+00:00",
-   "note": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Fr",
-   "region": "OTHER"
-  },
-  {
-   "id": "b665249b63d2",
-   "title": "Deadly car bomb blast kills two near Syria’s capital",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-14T19:46:36+00:00",
-   "note": "At least two people, a man and a girl, have been killed in a car bomb blast in Jaramana, near Syria's capital Damascus.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "a8e0008f6392",
-   "title": "爱尔兰在多国领导人晚宴地点附近查获爆炸装置",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731932.shtml",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-14T03:41:12+00:00",
-   "note": "爱尔兰警方13日查获一枚简易爆炸装置，发现地点距多国领导人前一天晚宴的场所较近。军方拆弹专家出动，成功处置这枚“制作粗糙但具备引爆能力”的爆炸装置。",
-   "region": "OTHER"
-  },
-  {
-   "id": "220ec417d11d",
-   "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+   "id": "f255db1d3257",
+   "title": "Iran war live: Saudi-led coalition strikes down 3 drones",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.34,
@@ -300,8 +255,38 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-14T16:13:43+00:00",
-   "note": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people.",
+   "published": "2026-11-15T00:00:08+00:00",
+   "note": "Saudi-led coalition says it shot down three Houthi drones in as many hours; Iran says it targeted US base in Bahrain.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "966e760136a5",
+   "title": "Explosion near Syria’s capital kills father and child",
+   "url": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-14T22:43:12+00:00",
+   "note": "Syria’s Internal Security Forces have launched an investigation into a suspected bomb attack in a suburb of Damascus.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8ac39cb3dece",
+   "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-14T20:14:27+00:00",
+   "note": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Fr",
    "region": "OTHER"
   },
   {
@@ -318,21 +303,6 @@
    "published": "2026-11-14T14:38:36+00:00",
    "note": "Authorities declined to file charges against napping woman whose truck accelerated on to field during youth game A soccer mom napping in her pickup truck when it suddenly accelerat",
    "region": "OTHER"
-  },
-  {
-   "id": "673c06c088ad",
-   "title": "Trump ‘whiplash’ on deportations putting Afghans in turmoil: ‘People already survived a war’",
-   "url": "https://www.theguardian.com/us-news/2026/nov/14/afghan-deportations-trump-administration",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T13:00:47+00:00",
-   "note": "Members of Congress and advocates warn that returning people to their home countries could be a death sentence Dozens of Afghans who are currently in the US but fear being deported",
-   "region": "SOUTH_ASIA"
   },
   {
    "id": "b6f845843ea7",
@@ -380,12 +350,27 @@
    "region": "AFRICA"
   },
   {
+   "id": "a8e0008f6392",
+   "title": "爱尔兰在多国领导人晚宴地点附近查获爆炸装置",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-14/10731932.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.19,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-14T03:41:12+00:00",
+   "note": "爱尔兰警方13日查获一枚简易爆炸装置，发现地点距多国领导人前一天晚宴的场所较近。军方拆弹专家出动，成功处置这枚“制作粗糙但具备引爆能力”的爆炸装置。",
+   "region": "OTHER"
+  },
+  {
    "id": "e6a196c8e2cd",
    "title": "Chinese scientists fired after child dies in world’s first brain gene-editing attempt",
    "url": "https://www.scmp.com/news/china/science/article/3374429/chinese-scientists-fired-after-child-dies-worlds-first-brain-gene-editing-attempt",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "scmp"
@@ -400,7 +385,7 @@
    "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374418/russia-sets-cull-30-cent-brown-bears-after-36-killed-attacks",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "scmp"
@@ -425,6 +410,51 @@
    "region": "MIDDLE_EAST"
   },
   {
+   "id": "aa74547c668d",
+   "title": "Fresh coat, lighter load: Hong Kong airport puts runway-painting robots to work",
+   "url": "https://www.scmp.com/news/hong-kong/transport/article/3374454/fresh-coat-lighter-load-hong-kong-airport-puts-runway-painting-robots-work",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-15T04:00:14+00:00",
+   "note": "Hong Kong International Airport has become the world’s first to deploy robots to repaint runway markings, cutting the time needed to refresh centre lines by about 67 per cent compa",
+   "region": "OTHER"
+  },
+  {
+   "id": "9edb043f0eae",
+   "title": "Could Beijing’s HQ-17 air-defence system defend PLA amphibious forces from Taiwan strikes?",
+   "url": "https://www.scmp.com/news/china/military/article/3374448/could-beijings-hq-17-air-defence-system-defend-pla-amphibious-forces-taiwan-strikes",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-15T04:00:11+00:00",
+   "note": "Before mainland Chinese troops could attempt a landing on Taiwan, they would first have to assemble vehicles, weapons and supplies along the coast – potentially exposing them to Ta",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "caf01a45c056",
+   "title": "Israeli air strike kills senior Hamas commander in Gaza",
+   "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-15T01:00:42+00:00",
+   "note": "Hamas confirms the death of Rafah brigade commander Samir Abu Younis in an attack on Khan Younis on Saturday.",
+   "region": "MIDDLE_EAST"
+  },
+  {
    "id": "989c2be1d1f0",
    "title": "伊朗通报4艘油轮触雷起火 联合国通报134起商船袭击事件",
    "url": "https://www.chinanews.com.cn/gj/2026/11-14/10732056.shtml",
@@ -440,21 +470,6 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "ab93c3a86df8",
-   "title": "How does Iran view shift in US approach after JD Vance ordered away?",
-   "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-14T13:24:44+00:00",
-   "note": "Washington believes maritime blockade, overland border disruptions, air restrictions and isolating sanctions are working",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "c3aec74ed78f",
    "title": "Sudan: Misery worsens amid plummeting aid for displaced people",
    "url": "https://www.dw.com/en/sudan-misery-worsens-amid-plummeting-aid-for-displaced-people/a-79938864?maca=en-rss-en-world-4025-rdf",
@@ -468,21 +483,6 @@
    "published": "2026-11-14T08:31:00+00:00",
    "note": "Sudan's humanitarian crisis is exacerbated by cuts in international aid. Almost 34 million people are in need as war and drone strikes are making it difficult to deliver aid to the",
    "region": "AFRICA"
-  },
-  {
-   "id": "4c68eea38138",
-   "title": "Hong Kong police arrest 3 teens over alleged assault on 13-year-old schoolmate",
-   "url": "https://www.scmp.com/news/hong-kong/education/article/3374422/hong-kong-police-arrest-3-teens-over-alleged-assault-13-year-old-schoolmate",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-14T04:06:04+00:00",
-   "note": "Hong Kong police have arrested three teenage boys on suspicion of assaulting a 13-year-old fellow pupil on campus, after a social media post criticised the school’s handling of the",
-   "region": "OTHER"
   },
   {
    "id": "5939a00ac4e1",
@@ -515,39 +515,24 @@
    "region": "AFRICA"
   },
   {
-   "id": "aeed3d4cfc91",
-   "title": "More than 100,000 rally across France in new Yellow Vest protests",
-   "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests?traffic_source=rss",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.56,
+   "id": "4c68eea38138",
+   "title": "Hong Kong police arrest 3 teens over alleged assault on 13-year-old schoolmate",
+   "url": "https://www.scmp.com/news/hong-kong/education/article/3374422/hong-kong-police-arrest-3-teens-over-alleged-assault-13-year-old-schoolmate",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "scmp"
    ],
-   "published": "2026-11-14T19:46:24+00:00",
-   "note": "Protesters chanted against declining affordability, the Macron government, police violence and poor school conditions.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "4b7f5b8944d6",
-   "title": "Tens of thousands march in latest Portugal housing protests",
-   "url": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-14T19:27:55+00:00",
-   "note": "These were the biggest protests against rising housing costs in Portugal since the social movement began weeks ago.",
+   "published": "2026-11-14T04:06:04+00:00",
+   "note": "Hong Kong police have arrested three teenage boys on suspicion of assaulting a 13-year-old fellow pupil on campus, after a social media post criticised the school’s handling of the",
    "region": "OTHER"
   },
   {
-   "id": "ab4aa0225c22",
-   "title": "Rising costs and arrests fuel protests in Central African Republic",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/rising-costs-and-arrests-fuel-protests-in-central-african-republic?traffic_source=rss",
+   "id": "fe7a83dcde17",
+   "title": "Hundreds of men march in Switzerland to protest violence against women",
+   "url": "https://www.aljazeera.com/news/2026/11/15/hundreds-of-men-march-in-switzerland-to-protest-violence-against-women?traffic_source=rss",
    "component": "internal",
    "severity": 3,
    "confidence": 0.56,
@@ -555,9 +540,24 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-14T17:50:28+00:00",
-   "note": "Hundreds take to the streets of Bangui to protest rising fuel prices and arrests in the Central African Republic.",
-   "region": "AFRICA"
+   "published": "2026-11-15T00:27:14+00:00",
+   "note": "Organisers say men must speak out, as Swiss study finds half of men aged 18 to 24 hold restrictive view of masculinity.",
+   "region": "OTHER"
+  },
+  {
+   "id": "93140ac02373",
+   "title": "'No justice, no peace': Fifth round of protests sweep across France",
+   "url": "https://www.france24.com/en/france/20261114-no-justice-no-peace-fifth-round-of-protests-sweep-across-france",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-14T18:23:25+00:00",
+   "note": "Between 106,000 and 200,000 people took to the streets across France on Saturday for the fifth round of protests, according to figures from the interior ministry and student unions",
+   "region": "EUROPE"
   },
   {
    "id": "e57f7634e382",
@@ -565,7 +565,7 @@
    "url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-world-4025-rdf",
    "component": "internal",
    "severity": 3,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "dw"
@@ -573,21 +573,6 @@
    "published": "2026-11-14T17:19:00+00:00",
    "note": "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "0c43d26f5bbb",
-   "title": "Canada’s Stelco to recall 175 workers after government pressure",
-   "url": "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss",
-   "component": "economy",
-   "severity": 3,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-14T15:06:52+00:00",
-   "note": "Steelmaker promises back pay for workers whose layoffs its US owner blamed on tariffs, weak demand and imports.",
-   "region": "NORTH_AMERICA"
   },
   {
    "id": "4afb1b799a48",
@@ -603,43 +588,73 @@
    "published": "2026-11-14T12:19:19+00:00",
    "note": "From treating tear gas exposure to tending to injuries, street medics have become an increasingly common sight at protests all over the world. But who exactly are they and when did",
    "region": "OTHER"
+  },
+  {
+   "id": "29d0b545f62a",
+   "title": "Gen Z protests: Do Baby Boomers really have it better than young people?",
+   "url": "https://www.dw.com/en/gen-z-protests-do-baby-boomers-really-have-it-better-than-young-people/a-79918854?maca=en-rss-en-world-4025-rdf",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-14T06:09:00+00:00",
+   "note": "Should young people in Germany be more worried about their future than Baby Boomers were in the 1980s and 1990s? Or should both generations take to the streets and protest together",
+   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "8ac39cb3dece",
-   "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
-   "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-   "component": "military",
-   "severity": 5,
+   "id": "aa74547c668d",
+   "title": "Fresh coat, lighter load: Hong Kong airport puts runway-painting robots to work",
+   "url": "https://www.scmp.com/news/hong-kong/transport/article/3374454/fresh-coat-lighter-load-hong-kong-airport-puts-runway-painting-robots-work",
+   "component": "narrative",
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "scmp"
    ],
-   "published": "2026-11-14T20:14:27+00:00",
-   "note": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Fr",
+   "published": "2026-11-15T04:00:14+00:00",
+   "note": "Hong Kong International Airport has become the world’s first to deploy robots to repaint runway markings, cutting the time needed to refresh centre lines by about 67 per cent compa",
    "region": "OTHER"
   },
   {
-   "id": "b665249b63d2",
-   "title": "Deadly car bomb blast kills two near Syria’s capital",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+   "id": "9edb043f0eae",
+   "title": "Could Beijing’s HQ-17 air-defence system defend PLA amphibious forces from Taiwan strikes?",
+   "url": "https://www.scmp.com/news/china/military/article/3374448/could-beijings-hq-17-air-defence-system-defend-pla-amphibious-forces-taiwan-strikes",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-15T04:00:11+00:00",
+   "note": "Before mainland Chinese troops could attempt a landing on Taiwan, they would first have to assemble vehicles, weapons and supplies along the coast – potentially exposing them to Ta",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "caf01a45c056",
+   "title": "Israeli air strike kills senior Hamas commander in Gaza",
+   "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-14T19:46:36+00:00",
-   "note": "At least two people, a man and a girl, have been killed in a car bomb blast in Jaramana, near Syria's capital Damascus.",
+   "published": "2026-11-15T01:00:42+00:00",
+   "note": "Hamas confirms the death of Rafah brigade commander Samir Abu Younis in an attack on Khan Younis on Saturday.",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "220ec417d11d",
-   "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+   "id": "f255db1d3257",
+   "title": "Iran war live: Saudi-led coalition strikes down 3 drones",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.34,
@@ -647,35 +662,20 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-14T16:13:43+00:00",
-   "note": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people.",
-   "region": "OTHER"
-  },
-  {
-   "id": "565274fc2eac",
-   "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
-   "url": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-14T14:38:36+00:00",
-   "note": "Authorities declined to file charges against napping woman whose truck accelerated on to field during youth game A soccer mom napping in her pickup truck when it suddenly accelerat",
-   "region": "OTHER"
+   "published": "2026-11-15T00:00:08+00:00",
+   "note": "Saudi-led coalition says it shot down three Houthi drones in as many hours; Iran says it targeted US base in Bahrain.",
+   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 30965,
-  "gdelt_events": 30724,
+  "items": 25843,
+  "gdelt_events": 25608,
   "mode": "live",
-  "data_through": "2026-11-13",
-  "clusters": 237,
-  "origins": 239,
+  "data_through": "2026-11-14",
+  "clusters": 233,
+  "origins": 235,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -693,11 +693,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.21,
+    "now": 3.18,
     "p50": 0.49,
-    "p90": 2.18,
-    "ratio": 6.53,
-    "z": 1.62
+    "p90": 2.19,
+    "ratio": 6.46,
+    "z": 1.61
    },
    "physical": {
     "now": 0.0,
@@ -707,40 +707,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.46,
+    "now": 2.57,
     "p50": 0.4,
-    "p90": 1.37,
-    "ratio": 6.14,
-    "z": 1.49
+    "p90": 1.77,
+    "ratio": 6.42,
+    "z": 1.52
    },
    "economy": {
-    "now": 2.33,
+    "now": 2.26,
     "p50": 0.4,
-    "p90": 1.6,
-    "ratio": 5.83,
-    "z": 1.45
+    "p90": 1.74,
+    "ratio": 5.65,
+    "z": 1.42
    },
    "internal": {
-    "now": 1.34,
+    "now": 1.24,
     "p50": 0.16,
-    "p90": 0.96,
-    "ratio": 8.56,
-    "z": 1.24
+    "p90": 1.0,
+    "ratio": 7.55,
+    "z": 1.17
    },
    "narrative": {
     "now": 0.05,
     "p50": 0.06,
     "p90": 0.11,
     "ratio": null,
-    "z": -0.03
+    "z": -0.02
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-17",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-18",
    "geti": 50.0
@@ -795,99 +791,99 @@
   },
   {
    "date": "2026-07-31",
-   "geti": 53.1
+   "geti": 50.0
   },
   {
    "date": "2026-08-01",
-   "geti": 53.7
+   "geti": 51.7
   },
   {
    "date": "2026-08-02",
-   "geti": 53.9
+   "geti": 52.6
   },
   {
    "date": "2026-08-03",
-   "geti": 51.4
+   "geti": 50.1
   },
   {
    "date": "2026-08-04",
-   "geti": 51.3
+   "geti": 50.4
   },
   {
    "date": "2026-08-05",
-   "geti": 45.1
+   "geti": 44.4
   },
   {
    "date": "2026-08-06",
-   "geti": 47.8
+   "geti": 47.4
   },
   {
    "date": "2026-08-07",
-   "geti": 46.3
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 44.7
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 40.9
-  },
-  {
-   "date": "2026-08-10",
    "geti": 45.8
   },
   {
-   "date": "2026-08-11",
-   "geti": 47.7
+   "date": "2026-08-08",
+   "geti": 44.3
   },
   {
-   "date": "2026-08-12",
-   "geti": 49.2
-  },
-  {
-   "date": "2026-08-13",
-   "geti": 49.3
-  },
-  {
-   "date": "2026-08-14",
-   "geti": 48.8
-  },
-  {
-   "date": "2026-08-15",
-   "geti": 52.2
-  },
-  {
-   "date": "2026-08-16",
-   "geti": 53.2
-  },
-  {
-   "date": "2026-08-17",
-   "geti": 46.7
-  },
-  {
-   "date": "2026-08-18",
-   "geti": 42.9
-  },
-  {
-   "date": "2026-08-19",
+   "date": "2026-08-09",
    "geti": 40.5
   },
   {
+   "date": "2026-08-10",
+   "geti": 45.2
+  },
+  {
+   "date": "2026-08-11",
+   "geti": 47.2
+  },
+  {
+   "date": "2026-08-12",
+   "geti": 48.9
+  },
+  {
+   "date": "2026-08-13",
+   "geti": 49.0
+  },
+  {
+   "date": "2026-08-14",
+   "geti": 48.6
+  },
+  {
+   "date": "2026-08-15",
+   "geti": 51.9
+  },
+  {
+   "date": "2026-08-16",
+   "geti": 53.0
+  },
+  {
+   "date": "2026-08-17",
+   "geti": 46.5
+  },
+  {
+   "date": "2026-08-18",
+   "geti": 42.7
+  },
+  {
+   "date": "2026-08-19",
+   "geti": 40.4
+  },
+  {
    "date": "2026-08-20",
-   "geti": 45.4
+   "geti": 45.2
   },
   {
    "date": "2026-08-21",
-   "geti": 48.3
+   "geti": 48.1
   },
   {
    "date": "2026-08-22",
-   "geti": 45.9
+   "geti": 45.8
   },
   {
    "date": "2026-08-23",
-   "geti": 41.1
+   "geti": 41.0
   },
   {
    "date": "2026-08-24",
@@ -895,203 +891,203 @@
   },
   {
    "date": "2026-08-25",
-   "geti": 43.2
+   "geti": 42.9
   },
   {
    "date": "2026-08-26",
-   "geti": 38.1
+   "geti": 37.8
   },
   {
    "date": "2026-08-27",
-   "geti": 48.2
-  },
-  {
-   "date": "2026-08-28",
-   "geti": 50.7
-  },
-  {
-   "date": "2026-08-29",
-   "geti": 51.0
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 57.0
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 58.3
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 51.7
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 50.8
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 48.8
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 48.8
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 50.9
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 48.8
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 44.1
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 43.3
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 41.0
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 39.0
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 38.6
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 41.6
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 43.6
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 42.6
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 43.9
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 45.0
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.4
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 45.9
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 51.5
-  },
-  {
-   "date": "2026-09-21",
    "geti": 48.0
   },
   {
+   "date": "2026-08-28",
+   "geti": 50.5
+  },
+  {
+   "date": "2026-08-29",
+   "geti": 50.8
+  },
+  {
+   "date": "2026-08-30",
+   "geti": 56.8
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 58.1
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 51.5
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 50.5
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 48.5
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 48.5
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 50.7
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 48.6
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 43.9
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 43.2
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 40.9
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 38.9
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 38.4
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 41.4
+  },
+  {
+   "date": "2026-09-13",
+   "geti": 43.4
+  },
+  {
+   "date": "2026-09-14",
+   "geti": 42.5
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 43.8
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 44.8
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 42.3
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 45.8
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 51.3
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 47.9
+  },
+  {
    "date": "2026-09-22",
-   "geti": 46.2
+   "geti": 46.1
   },
   {
    "date": "2026-09-23",
-   "geti": 48.4
+   "geti": 48.2
   },
   {
    "date": "2026-09-24",
-   "geti": 45.2
+   "geti": 45.0
   },
   {
    "date": "2026-09-25",
-   "geti": 42.8
+   "geti": 42.6
   },
   {
    "date": "2026-09-26",
-   "geti": 47.8
+   "geti": 47.7
   },
   {
    "date": "2026-09-27",
-   "geti": 47.4
+   "geti": 47.2
   },
   {
    "date": "2026-09-28",
-   "geti": 45.4
+   "geti": 45.3
   },
   {
    "date": "2026-09-29",
-   "geti": 42.7
+   "geti": 42.5
   },
   {
    "date": "2026-09-30",
-   "geti": 39.2
+   "geti": 38.9
   },
   {
    "date": "2026-10-01",
-   "geti": 35.8
+   "geti": 35.6
   },
   {
    "date": "2026-10-02",
-   "geti": 40.0
+   "geti": 39.8
   },
   {
    "date": "2026-10-03",
-   "geti": 41.2
+   "geti": 41.1
   },
   {
    "date": "2026-10-04",
-   "geti": 39.9
+   "geti": 39.8
   },
   {
    "date": "2026-10-05",
-   "geti": 44.2
-  },
-  {
-   "date": "2026-10-06",
-   "geti": 46.3
-  },
-  {
-   "date": "2026-10-07",
-   "geti": 45.1
-  },
-  {
-   "date": "2026-10-08",
    "geti": 44.0
   },
   {
+   "date": "2026-10-06",
+   "geti": 46.2
+  },
+  {
+   "date": "2026-10-07",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-10-08",
+   "geti": 43.9
+  },
+  {
    "date": "2026-10-09",
-   "geti": 47.1
+   "geti": 47.0
   },
   {
    "date": "2026-10-10",
-   "geti": 52.8
-  },
-  {
-   "date": "2026-10-11",
-   "geti": 57.5
-  },
-  {
-   "date": "2026-10-12",
    "geti": 52.7
   },
   {
+   "date": "2026-10-11",
+   "geti": 57.4
+  },
+  {
+   "date": "2026-10-12",
+   "geti": 52.6
+  },
+  {
    "date": "2026-10-13",
-   "geti": 52.2
+   "geti": 52.1
   },
   {
    "date": "2026-10-14",
@@ -1099,7 +1095,7 @@
   },
   {
    "date": "2026-10-15",
-   "geti": 56.7
+   "geti": 56.6
   },
   {
    "date": "2026-10-16",
@@ -1111,7 +1107,7 @@
   },
   {
    "date": "2026-10-18",
-   "geti": 57.6
+   "geti": 57.5
   },
   {
    "date": "2026-10-19",
@@ -1119,7 +1115,7 @@
   },
   {
    "date": "2026-10-20",
-   "geti": 54.7
+   "geti": 54.6
   },
   {
    "date": "2026-10-21",
@@ -1216,6 +1212,10 @@
   {
    "date": "2026-11-13",
    "geti": 73.9
+  },
+  {
+   "date": "2026-11-14",
+   "geti": 74.2
   }
  ],
  "policy": {
@@ -1235,14 +1235,6 @@
     "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
     "country": "",
     "source": "bbc",
-    "when": "2026-11-14"
-   },
-   {
-    "kind": "judicial",
-    "title": "蒙商银行股份有限公司原党委副书记廉斌被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-14/10732060.shtml",
-    "country": "",
-    "source": "chinanews_cn",
     "when": "2026-11-14"
    },
    {
@@ -1268,22 +1260,14 @@
     "country": "HU",
     "source": "guardian",
     "when": "2026-11-13"
-   },
-   {
-    "kind": "judicial",
-    "title": "Boxer on death row in Iran vows ‘not to bow before oppression’ after winning rights prize",
-    "url": "https://www.theguardian.com/global-development/2026/nov/13/mohammad-javad-vafaei-sani-iran-boxer-death-row-magnitsky-award",
-    "country": "IR",
-    "source": "guardian",
-    "when": "2026-11-13"
    }
   ],
-  "notable_total": 7,
+  "notable_total": 5,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 7
+   "notable": 5
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1345,31 +1329,31 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 107,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 103,
+    "items": 102,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 106,
+    "items": 105,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 99,
+    "items": 98,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 102,
+    "items": 101,
     "error": ""
    }
   ],
@@ -2202,8 +2186,8 @@
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 9.0,
-    "carry": 9.11,
+    "value": 8.65,
+    "carry": 9.05,
     "z": null,
     "score": null,
     "available": false
@@ -2212,8 +2196,8 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 23.0,
-    "carry": 15.02,
+    "value": 16.0,
+    "carry": 15.15,
     "z": null,
     "score": null,
     "available": false
@@ -2222,8 +2206,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 6.0,
-    "carry": 2.88,
+    "value": 0.0,
+    "carry": 2.5,
     "z": null,
     "score": null,
     "available": false
@@ -2242,148 +2226,99 @@
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 1.33,
-    "carry": 2.89,
+    "value": 1.67,
+    "carry": 2.73,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 11,
+  "history_days": 12,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 12,
-   "last_seen": "2026-11-13",
+   "active_days": 13,
+   "last_seen": "2026-11-14",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "79 km WSW of Changuillo, Peru",
-     "v": 5.8,
-     "ts": "2026-11-13T16:43+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty1a"
+     "t": "northern Mid-Atlantic Ridge",
+     "v": 5.5,
+     "ts": "2026-11-14T09:26+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty84"
     },
     {
-     "t": "79 km NE of Kuqa, China",
+     "t": "State of Yap, Federated States of Micronesia",
      "v": 5.2,
-     "ts": "2026-11-13T16:17+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty14"
+     "ts": "2026-11-14T06:52+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7d"
     },
     {
-     "t": "West Chile Rise",
+     "t": "off the west coast of northern Sumatra",
      "v": 5.2,
-     "ts": "2026-11-13T14:12+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty0s"
+     "ts": "2026-11-14T02:59+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6n"
     },
     {
-     "t": "153 km NW of Kavieng, Papua New Guinea",
-     "v": 5.1,
-     "ts": "2026-11-13T23:30+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty56"
-    },
-    {
-     "t": "South Sandwich Islands region",
-     "v": 5.1,
-     "ts": "2026-11-13T19:04+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty3q"
-    },
-    {
-     "t": "39 km S of Moíres, Greece",
-     "v": 5.1,
-     "ts": "2026-11-13T00:05+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txx9"
-    },
-    {
-     "t": "85 km W of Mwene-Ditu, Democratic Republic of the Congo",
-     "v": 5.0,
-     "ts": "2026-11-13T01:12+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txxl"
+     "t": "7 km SE of Tagbina, Philippines",
+     "v": 4.9,
+     "ts": "2026-11-14T16:04+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l"
     },
     {
      "t": "south of the Kermadec Islands",
      "v": 4.9,
-     "ts": "2026-11-13T22:10+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty4w"
+     "ts": "2026-11-14T13:17+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty90"
     },
     {
-     "t": "south of the Fiji Islands",
-     "v": 4.9,
-     "ts": "2026-11-13T18:55+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty3g"
+     "t": "West Chile Rise",
+     "v": 4.8,
+     "ts": "2026-11-14T06:33+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty7b"
     },
     {
-     "t": "southeast of the Loyalty Islands",
-     "v": 4.9,
-     "ts": "2026-11-13T09:55+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txz3"
+     "t": "east central Pacific Ocean",
+     "v": 4.7,
+     "ts": "2026-11-14T22:23+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyay"
+    },
+    {
+     "t": "24 km S of Yacuiba, Bolivia",
+     "v": 4.7,
+     "ts": "2026-11-14T18:04+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z"
+    },
+    {
+     "t": "54 km NW of San Antonio de los Cobres, Argentina",
+     "v": 4.7,
+     "ts": "2026-11-14T03:18+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty6p"
+    },
+    {
+     "t": "96 km SSE of Pondaguitan, Philippines",
+     "v": 4.6,
+     "ts": "2026-11-14T16:56+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v"
     }
    ],
-   "eonet": [
-    {
-     "t": "Iceberg A81",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6320"
-    },
-    {
-     "t": "Iceberg D33B",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6424"
-    },
-    {
-     "t": "Iceberg D35",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6474"
-    },
-    {
-     "t": "Iceberg A83",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6523"
-    },
-    {
-     "t": "Iceberg A84",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12618"
-    },
-    {
-     "t": "Iceberg A85",
-     "v": "sea and lake ice",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12716"
-    }
-   ],
+   "eonet": [],
    "gdacs": [
     {
-     "t": "Green earthquake (Magnitude 5.8M, Depth:10km) in Peru 13/11/2026 16:43 UTC, 100 ",
+     "t": "Green earthquake (Magnitude 5.5M, Depth:10km) in Northern Mid-Atlantic Ridge 14/",
      "v": "green",
-     "ts": "2026-11-13 17:03",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577195"
-    },
-    {
-     "t": "Green forest fire notification in Argentina",
-     "v": "green",
-     "ts": "2026-11-13 12:04",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033788"
-    },
-    {
-     "t": "Green flood alert in Thailand",
-     "v": "green",
-     "ts": "2026-11-13 10:41",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104283"
+     "ts": "2026-11-14 09:43",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577321"
     }
    ],
    "kp": [
     {
-     "t": "Kp 1.33 峰值（当日 8 个时段）",
-     "v": 1.33,
-     "ts": "2026-11-13",
+     "t": "Kp 1.67 峰值（当日 8 个时段）",
+     "v": 1.67,
+     "ts": "2026-11-14",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
@@ -2398,7 +2333,7 @@
     "label": "官方通报",
     "weight": 0.4,
     "value": 0.0,
-    "carry": 0.05,
+    "carry": 0.04,
     "z": null,
     "score": null,
     "available": false
@@ -2408,7 +2343,7 @@
     "label": "政策信号",
     "weight": 0.3,
     "value": 6.0,
-    "carry": 1.3,
+    "carry": 1.91,
     "z": null,
     "score": null,
     "available": false
@@ -2417,20 +2352,20 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.24,
-    "carry": 0.96,
+    "value": 1.28,
+    "carry": 1.0,
     "z": null,
     "score": null,
     "available": false
    }
   ],
-  "history_days": 11,
+  "history_days": 12,
   "components_ok": 0,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 11,
-   "last_seen": "2026-11-13",
+   "active_days": 12,
+   "last_seen": "2026-11-14",
    "ongoing": true
   },
   "evidence": {
@@ -2475,10 +2410,10 @@
   }
  },
  "doom": {
-  "index": 73.9,
-  "z": 0.62,
+  "index": 74.2,
+  "z": 0.63,
   "parts": {
-   "military": 0.62,
+   "military": 0.63,
    "hazard": null,
    "epidemic": null
   },
@@ -2516,13 +2451,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 30724,
+   "items": 25608,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 22,
+   "items": 20,
    "error": "",
    "undated": 0
   },
@@ -2543,7 +2478,7 @@
   {
    "source": "dw",
    "ok": true,
-   "items": 13,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2592,38 +2527,38 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 10,
+   "items": 7,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 107,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 103,
+   "items": 102,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 106,
+   "items": 105,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 99,
+   "items": 98,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 102,
+   "items": 101,
    "error": ""
   },
   {
@@ -2659,19 +2594,19 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 23,
+   "items": 16,
    "error": ""
   },
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 6,
+   "items": 0,
    "error": ""
   },
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 3,
+   "items": 1,
    "error": ""
   },
   {
@@ -2689,7 +2624,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 8456,
+   "items": 5473,
    "error": ""
   },
   {
