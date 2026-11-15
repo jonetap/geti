@@ -1,8 +1,8 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-15T16:20:24+00:00",
+ "generated_at": "2026-11-15T22:47:34+00:00",
  "date": "2026-11-14",
- "geti": 74.2,
+ "geti": 74.1,
  "delta_z": 0.65,
  "delta_pts": 0.3,
  "confidence": 0.95,
@@ -47,7 +47,7 @@
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 69.2,
+   "score": 69.1,
    "delta": 0.9,
    "excluded": false,
    "drivers": [
@@ -245,9 +245,24 @@
  ],
  "events": [
   {
-   "id": "0706307c96a7",
-   "title": "Two killed in Leeds after car pursued by police crashes into another vehicle",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/15/leeds-car-pursued-by-police-crashes-into-another-vehicle",
+   "id": "c097ad1c7337",
+   "title": "Mexican journalist who reported on missing persons found dead in Acapulco",
+   "url": "https://www.scmp.com/news/world/americas/article/3374520/mexican-journalist-who-reported-missing-persons-found-dead-acapulco",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-15T22:23:36+00:00",
+   "note": "Mexican authorities said on Sunday they have ⁠launched a murder ⁠investigation into the death of ⁠journalist Eduardo Flores, who covered security, social issues and missing persons",
+   "region": "OTHER"
+  },
+  {
+   "id": "80a62a723560",
+   "title": "Texas puts to death man who beheaded three children, hours after Oklahoma execution",
+   "url": "https://www.theguardian.com/us-news/2026/nov/15/texas-execution-john-allen-rubio-oklahoma-james-pavatt",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -255,24 +270,24 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-15T14:01:32+00:00",
-   "note": "Four arrested after BMW collides with Volkswagen on Gelderd Road, with police appealing for witnesses Two people aged 22 and 23 have died after their car was hit by a BMW being pur",
+   "published": "2026-11-15T19:27:24+00:00",
+   "note": "Oklahoma man, 73, executed for killing ex’s estranged husband, as US nears 40 executions for second straight year A Texas man convicted of fatally stabbing and beheading his three ",
    "region": "OTHER"
   },
   {
-   "id": "b55e1657bed0",
-   "title": "Explosive attack targets investigative journalist’s home in Panama",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/explosive-attack-targets-investigative-journalists-home-in-panama?traffic_source=rss",
+   "id": "fdaef0b3e721",
+   "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
+   "url": "https://www.france24.com/en/middle-east/20261115-israel-kills-senior-member-of-hamas-s-military-wing-in-gaza-strike",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "france24"
    ],
-   "published": "2026-11-15T13:43:11+00:00",
-   "note": "An investigative journalist’s home in Panama was attacked in a suspected bombing.",
-   "region": "OTHER"
+   "published": "2026-11-15T16:41:48+00:00",
+   "note": "The Israeli military said on Sunday its forces had killed a senior member of Hamas's military wing in Gaza. The militant group confirmed the death of Samir Abu Younis, the commande",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "ed3c86c69645",
@@ -280,7 +295,7 @@
    "url": "https://www.france24.com/en/europe/20261115-ukrainian-drones-strike-russia-s-petrochemical-capital-in-overnight-assault",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -290,27 +305,12 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "97553f749cea",
-   "title": "Jordan sentences 3 men to death over deadly church attack",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-15T12:13:48+00:00",
-   "note": "A Jordanian court on Sunday sentenced three men to death by hanging over a deadly church shooting, as the kingdom’s Christmas celebrations were cancelled in solidarity with the vic",
-   "region": "OTHER"
-  },
-  {
    "id": "58dfd6a23bde",
    "title": "Top Hamas commander killed in Israeli strike in Gaza",
    "url": "https://www.scmp.com/news/world/middle-east/article/3374498/top-hamas-commander-killed-israeli-strike-gaza",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -325,7 +325,7 @@
    "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -365,9 +365,55 @@
    "region": "OTHER"
   },
   {
-   "id": "2cae49e16651",
-   "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+   "id": "fab8bfdcf496",
+   "title": "Iran launches drone attacks against US military base in Bahrain",
+   "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.74,
+   "origins": 2,
+   "sources": [
+    "guardian",
+    "france24"
+   ],
+   "published": "2026-11-15T18:03:56+00:00",
+   "note": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, ca",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "f897e13cec1a",
+   "title": "Somali-American Uber driver brutally assaulted in alleged hate crime in Minnesota",
+   "url": "https://www.theguardian.com/us-news/2026/nov/15/somali-american-uber-driver-attack-minnesota",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-15T21:10:38+00:00",
+   "note": "Mohamed Yusuf is fighting for his life after alleged attack by passenger who said he did not like driver’s first name A Somali-American Uber driver was allegedly brutally assaulted",
+   "region": "OTHER"
+  },
+  {
+   "id": "672bfd1139f9",
+   "title": "‘Pull back the curtain’ on treatment of sexual assault victims in court, says UK government adviser",
+   "url": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-15T19:40:23+00:00",
+   "note": "Professor urges ministers to use awareness triggered by Russell Brand conviction to examine use of rape myths in trials The debate triggered by high-profile cases must “pull back t",
+   "region": "OTHER"
+  },
+  {
+   "id": "b25ec254f535",
+   "title": "Trident nuclear submarine concludes record underwater deployment",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
@@ -375,99 +421,23 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-15T15:59:04+00:00",
-   "note": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-15T18:50:33+00:00",
+   "note": "HMS Vengeance’s seven-month patrol prompts fears over slow pace of maintenance of ageing fleet and strain on crew A Trident nuclear submarine has concluded a record seven-month dep",
+   "region": "OTHER"
   },
   {
-   "id": "2f70f038e149",
-   "title": "Iran claims drone attack on US military base in Bahrain",
-   "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24",
-    "france24"
-   ],
-   "published": "2026-11-15T15:29:22+00:00",
-   "note": "Bahrain issued two alerts of potential threats on Sunday, its first such warnings since September as blasts rocked the capital, Manama. It comes after Iran targeted an airbase in t",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "16a36576c9d2",
-   "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
-   "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-15T13:55:32+00:00",
-   "note": "Bahrain issued two alerts of potential threats on Sunday, its first such warnings since September. The second Iranian drone attack in three days, ending a long lull in strikes duri",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "2ed61720cc3b",
-   "title": "Chinese J-10C fighter spotted carrying modified Russian-origin heavy-strike missile",
-   "url": "https://www.scmp.com/news/china/military/article/3374496/chinese-j-10c-fighter-spotted-carrying-modified-russian-origin-heavy-strike-missile",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-15T13:00:09+00:00",
-   "note": "New state media footage has surfaced showing for the first time what appears to be a Chinese-modified variant of the Russian-origin Kh-29T air-to-surface missile mounted on a J-10C",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "88d205fc5848",
-   "title": "A disastrous Iran war? The US is now a mover and shaker of oil markets",
-   "url": "https://www.scmp.com/opinion/world-opinion/article/3374247/disastrous-iran-war-us-now-mover-and-shaker-oil-markets",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-15T12:30:06+00:00",
-   "note": "Many see the US war on Iran as a colossal geopolitical bungle, failing to secure its larger strategic objectives. Yet it has allowed the blundering Trump administration to move int",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "1b4b2db1562a",
-   "title": "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
-   "component": "military",
+   "id": "f7910f4cb8f6",
+   "title": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
+   "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden?traffic_source=rss",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-15T12:15:51+00:00",
-   "note": "Iran’s IRGC says six drones were launched at a US radar installation at an air base in Bahrain.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "aef6c4ea5a7e",
-   "title": "Global diesel prices ease as winter approaches",
-   "url": "https://www.france24.com/en/global-diesel-prices-ease-as-winter-approaches",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-15T10:40:01+00:00",
-   "note": "Global diesel prices, which have remained elevated since the start of the Iran war and the blockade of the Strait of Hormuz, have fallen sharply in recent weeks as Gulf exports rec",
+   "published": "2026-11-15T17:33:00+00:00",
+   "note": "Spokesman for the Southern Armed Forces says group is repositioning from Dhubab airport and areas around Bab al-Mandeb.",
    "region": "MIDDLE_EAST"
   },
   {
@@ -486,18 +456,78 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "24cfc5b4d3f3",
-   "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
+   "id": "8f52c3d942bd",
+   "title": "Clothing factories shut in Bangladesh as workers strike over pay",
+   "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+   "component": "internal",
    "severity": 4,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-15T08:17:41+00:00",
-   "note": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
+   "published": "2026-11-15T16:15:20+00:00",
+   "note": "Workers are striking over demands for a minimum wage of 30,000 taka (£182) a month.",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "2cae49e16651",
+   "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
+   "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-15T15:59:04+00:00",
+   "note": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "16a36576c9d2",
+   "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
+   "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-15T13:55:32+00:00",
+   "note": "Bahrain issued two alerts of potential threats on Sunday, its first such warnings since September. The second Iranian drone attack in three days, ending a long lull in strikes duri",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "2ed61720cc3b",
+   "title": "Chinese J-10C fighter spotted carrying modified Russian-origin heavy-strike missile",
+   "url": "https://www.scmp.com/news/china/military/article/3374496/chinese-j-10c-fighter-spotted-carrying-modified-russian-origin-heavy-strike-missile",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-15T13:00:09+00:00",
+   "note": "New state media footage has surfaced showing for the first time what appears to be a Chinese-modified variant of the Russian-origin Kh-29T air-to-surface missile mounted on a J-10C",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "88d205fc5848",
+   "title": "A disastrous Iran war? The US is now a mover and shaker of oil markets",
+   "url": "https://www.scmp.com/opinion/world-opinion/article/3374247/disastrous-iran-war-us-now-mover-and-shaker-oil-markets",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-15T12:30:06+00:00",
+   "note": "Many see the US war on Iran as a colossal geopolitical bungle, failing to secure its larger strategic objectives. Yet it has allowed the blundering Trump administration to move int",
    "region": "MIDDLE_EAST"
   },
   {
@@ -561,87 +591,71 @@
    "region": "AFRICA"
   },
   {
-   "id": "1179e76b9ad0",
-   "title": "法国周末示威活动中超过400人被拘捕",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732530.shtml",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-15T16:06:52+00:00",
-   "note": "当地时间11月15日，法国内政部和巴黎检察院公布的最新数据显示，在14日举行的全国性示威活动中，共有404人被警方拘捕，其中在巴黎被拘捕的人员为134人。",
-   "region": "EUROPE"
-  },
-  {
-   "id": "a8bbfeb7d59a",
-   "title": "The week in pictures: Spain protests, Pope Leo's Peru 'homecoming' and Rocky fans in Philly",
-   "url": "https://www.france24.com/en/europe/20261115-the-week-in-pictures-spain-protests-pope-leo-peru-homecoming-rocky-fans-philly-rosalia",
+   "id": "85d4af510027",
+   "title": "Police ban protests near 10 schools and five universities in Paris",
+   "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss",
    "component": "internal",
    "severity": 3,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "bbc"
    ],
-   "published": "2026-11-15T13:59:21+00:00",
-   "note": "FRANCE 24 looks back at some of the week's most striking images, from angry protests over a housing crisis that has dominated Spain's election campaign, to Leo XIV's visit to his a",
-   "region": "EUROPE"
-  },
-  {
-   "id": "34b87e31a552",
-   "title": "Protest in Prague over media freedom expected to be one of biggest in Czechia’s history",
-   "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-15T11:17:18+00:00",
-   "note": "Hundreds of thousands rally against plan to scrap licence fees and fund broadcasters from state budget Hundreds of thousands of Czechs are rallying in Prague to protest against wha",
+   "published": "2026-11-15T22:28:54+00:00",
+   "note": "The order will be in place from 16 to 20 November, Paris police chief Patrice Faure says.",
    "region": "OTHER"
   }
  ],
  "breaking": [
   {
-   "id": "2cae49e16651",
-   "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
-   "component": "military",
+   "id": "c097ad1c7337",
+   "title": "Mexican journalist who reported on missing persons found dead in Acapulco",
+   "url": "https://www.scmp.com/news/world/americas/article/3374520/mexican-journalist-who-reported-missing-persons-found-dead-acapulco",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-15T22:23:36+00:00",
+   "note": "Mexican authorities said on Sunday they have ⁠launched a murder ⁠investigation into the death of ⁠journalist Eduardo Flores, who covered security, social issues and missing persons",
+   "region": "OTHER"
+  },
+  {
+   "id": "f897e13cec1a",
+   "title": "Somali-American Uber driver brutally assaulted in alleged hate crime in Minnesota",
+   "url": "https://www.theguardian.com/us-news/2026/nov/15/somali-american-uber-driver-attack-minnesota",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-15T15:59:04+00:00",
-   "note": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-15T21:10:38+00:00",
+   "note": "Mohamed Yusuf is fighting for his life after alleged attack by passenger who said he did not like driver’s first name A Somali-American Uber driver was allegedly brutally assaulted",
+   "region": "OTHER"
   },
   {
-   "id": "2f70f038e149",
-   "title": "Iran claims drone attack on US military base in Bahrain",
-   "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
-   "component": "military",
+   "id": "672bfd1139f9",
+   "title": "‘Pull back the curtain’ on treatment of sexual assault victims in court, says UK government adviser",
+   "url": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24",
-    "france24"
+    "guardian"
    ],
-   "published": "2026-11-15T15:29:22+00:00",
-   "note": "Bahrain issued two alerts of potential threats on Sunday, its first such warnings since September as blasts rocked the capital, Manama. It comes after Iran targeted an airbase in t",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-15T19:40:23+00:00",
+   "note": "Professor urges ministers to use awareness triggered by Russell Brand conviction to examine use of rape myths in trials The debate triggered by high-profile cases must “pull back t",
+   "region": "OTHER"
   },
   {
-   "id": "0706307c96a7",
-   "title": "Two killed in Leeds after car pursued by police crashes into another vehicle",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/15/leeds-car-pursued-by-police-crashes-into-another-vehicle",
+   "id": "80a62a723560",
+   "title": "Texas puts to death man who beheaded three children, hours after Oklahoma execution",
+   "url": "https://www.theguardian.com/us-news/2026/nov/15/texas-execution-john-allen-rubio-oklahoma-james-pavatt",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -649,35 +663,20 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-15T14:01:32+00:00",
-   "note": "Four arrested after BMW collides with Volkswagen on Gelderd Road, with police appealing for witnesses Two people aged 22 and 23 have died after their car was hit by a BMW being pur",
+   "published": "2026-11-15T19:27:24+00:00",
+   "note": "Oklahoma man, 73, executed for killing ex’s estranged husband, as US nears 40 executions for second straight year A Texas man convicted of fatally stabbing and beheading his three ",
    "region": "OTHER"
-  },
-  {
-   "id": "16a36576c9d2",
-   "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
-   "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-15T13:55:32+00:00",
-   "note": "Bahrain issued two alerts of potential threats on Sunday, its first such warnings since September. The second Iranian drone attack in three days, ending a long lull in strikes duri",
-   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
   "sources_ok": 20,
   "sources_failed": 2,
-  "items": 22343,
-  "gdelt_events": 22115,
+  "items": 22483,
+  "gdelt_events": 22258,
   "mode": "live",
   "data_through": "2026-11-14",
-  "clusters": 222,
-  "origins": 226,
+  "clusters": 217,
+  "origins": 224,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1193,7 +1192,7 @@
   },
   {
    "date": "2026-11-08",
-   "geti": 69.0
+   "geti": 68.9
   },
   {
    "date": "2026-11-09",
@@ -1213,11 +1212,11 @@
   },
   {
    "date": "2026-11-13",
-   "geti": 73.9
+   "geti": 73.8
   },
   {
    "date": "2026-11-14",
-   "geti": 74.2
+   "geti": 74.1
   }
  ],
  "policy": {
@@ -1225,10 +1224,10 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Jordan sentences 3 men to death over deadly church attack",
-    "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
-    "country": "",
-    "source": "scmp",
+    "title": "Texas puts to death man who beheaded three children, hours after Oklahoma execution",
+    "url": "https://www.theguardian.com/us-news/2026/nov/15/texas-execution-john-allen-rubio-oklahoma-james-pavatt",
+    "country": "MX",
+    "source": "guardian",
     "when": "2026-11-15"
    },
    {
@@ -1241,35 +1240,19 @@
    },
    {
     "kind": "judicial",
-    "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
-    "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
-    "country": "",
-    "source": "bbc",
-    "when": "2026-11-14"
-   },
-   {
-    "kind": "judicial",
     "title": "因涉嫌酒驾 驻日美军上尉被日本警方逮捕",
     "url": "https://www.chinanews.com.cn/gj/2026/11-14/10732065.shtml",
     "country": "JP",
     "source": "chinanews",
     "when": "2026-11-14"
-   },
-   {
-    "kind": "judicial",
-    "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
-    "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
-    "country": "HU",
-    "source": "guardian",
-    "when": "2026-11-13"
    }
   ],
-  "notable_total": 5,
+  "notable_total": 3,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 5
+   "notable": 3
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2344,8 +2327,8 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 5.0,
-    "carry": 1.78,
+    "value": 4.0,
+    "carry": 1.65,
     "z": null,
     "score": null,
     "available": false
@@ -2354,8 +2337,8 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.44,
-    "carry": 0.89,
+    "value": 0.89,
+    "carry": 0.95,
     "z": null,
     "score": null,
     "available": false
@@ -2395,18 +2378,12 @@
      "v": "政策",
      "ts": "",
      "u": ""
-    },
-    {
-     "t": "美国联邦航空管理局：地面停飞令已解除",
-     "v": "政策",
-     "ts": "",
-     "u": ""
     }
    ]
   }
  },
  "doom": {
-  "index": 74.2,
+  "index": 74.1,
   "z": 0.63,
   "parts": {
    "military": 0.63,
@@ -2446,14 +2423,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 143,
-   "items": 22115,
+   "files": 141,
+   "items": 22258,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 24,
+   "items": 19,
    "error": "",
    "undated": 0
   },
@@ -2474,7 +2451,7 @@
   {
    "source": "dw",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2523,7 +2500,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "error": "",
    "undated": 0
   },
@@ -2620,7 +2597,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 11008,
+   "items": 9969,
    "error": ""
   },
   {
