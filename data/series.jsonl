@@ -3161,6 +3161,7 @@
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-13","v":1.2396}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-14","v":1.2922}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-15","v":1.1816}
+{"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-16","v":1.5478}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-25","v":3.9128}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-26","v":1.4599}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-27","v":1.0543}
@@ -5128,6 +5129,7 @@
 {"r":"OTHER","c":"narrative","d":"2026-11-14","v":1.644}
 {"r":"OTHER","c":"narrative","d":"2026-11-15","v":1.6792}
 {"r":"OTHER","c":"physical","d":"2026-11-05","v":0.5089}
+{"r":"OTHER","c":"physical","d":"2026-11-15","v":0.1272}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-07","v":3.9557}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-08","v":0.4832}
 {"r":"RUSSIA_CIS","c":"diplomacy","d":"2026-06-09","v":7.4147}

@@ -10,7 +10,7 @@
 {"r":"epidemic","c":"coverage","d":"2026-11-11","v":1.95}
 {"r":"epidemic","c":"coverage","d":"2026-11-12","v":1.61}
 {"r":"epidemic","c":"coverage","d":"2026-11-13","v":1.24}
-{"r":"epidemic","c":"coverage","d":"2026-11-14","v":1.28}
+{"r":"epidemic","c":"coverage","d":"2026-11-14","v":0.44}
 {"r":"epidemic","c":"policy","d":"2026-11-02","v":0.0}
 {"r":"epidemic","c":"policy","d":"2026-11-03","v":0.0}
 {"r":"epidemic","c":"policy","d":"2026-11-04","v":0.0}
@@ -23,7 +23,7 @@
 {"r":"epidemic","c":"policy","d":"2026-11-11","v":1.0}
 {"r":"epidemic","c":"policy","d":"2026-11-12","v":1.0}
 {"r":"epidemic","c":"policy","d":"2026-11-13","v":6.0}
-{"r":"epidemic","c":"policy","d":"2026-11-14","v":6.0}
+{"r":"epidemic","c":"policy","d":"2026-11-14","v":5.0}
 {"r":"epidemic","c":"who_don","d":"2026-11-02","v":1.0}
 {"r":"epidemic","c":"who_don","d":"2026-11-03","v":0.0}
 {"r":"epidemic","c":"who_don","d":"2026-11-04","v":0.0}
