@@ -1,8 +1,8 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-16T06:25:10+00:00",
+ "generated_at": "2026-11-16T19:34:50+00:00",
  "date": "2026-11-15",
- "geti": 73.8,
+ "geti": 73.7,
  "delta_z": 0.6,
  "delta_pts": -0.4,
  "confidence": 0.95,
@@ -47,7 +47,7 @@
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 70.0,
+   "score": 69.9,
    "delta": 1.9,
    "excluded": false,
    "drivers": [
@@ -186,7 +186,7 @@
    "key": "military",
    "label": "军事升级",
    "weight": 0.26,
-   "effective_weight": 0.333,
+   "effective_weight": 0.371,
    "available": true,
    "z": 1.58,
    "score": 87.8,
@@ -206,7 +206,7 @@
    "key": "diplomacy",
    "label": "外交",
    "weight": 0.18,
-   "effective_weight": 0.231,
+   "effective_weight": 0.257,
    "available": true,
    "z": 1.26,
    "score": 82.9,
@@ -216,7 +216,7 @@
    "key": "economy",
    "label": "经济",
    "weight": 0.15,
-   "effective_weight": 0.192,
+   "effective_weight": 0.214,
    "available": true,
    "z": 1.17,
    "score": 81.2,
@@ -226,7 +226,7 @@
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
-   "effective_weight": 0.141,
+   "effective_weight": 0.157,
    "available": true,
    "z": 0.94,
    "score": 76.3,
@@ -236,18 +236,63 @@
    "key": "narrative",
    "label": "信息/叙事",
    "weight": 0.08,
-   "effective_weight": 0.103,
-   "available": true,
-   "z": 0.01,
-   "score": 50.3,
-   "contrib": 0.001
+   "effective_weight": 0.0,
+   "available": false,
+   "z": null,
+   "score": null,
+   "contrib": 0.0
   }
  ],
  "events": [
   {
-   "id": "f85dda815d1f",
-   "title": "Shophouse fire kills at least 11 in Phuket",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket?traffic_source=rss",
+   "id": "fc63cd4afc4b",
+   "title": "Man appears in court over deaths of two people in Leeds police pursuit crash",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/16/man-charged-after-two-people-die-in-leeds-police-pursuit-crash",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-16T18:55:14+00:00",
+   "note": "Leigh Ross, 39, charged with causing death by dangerous driving of Cameron Bell, 22, and Jade Langton, 23 A man has appeared in court charged with causing the deaths of two people ",
+   "region": "OTHER"
+  },
+  {
+   "id": "4f486fff680e",
+   "title": "Devon police renewed shotgun licence of known abuser who later killed his wife",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/16/domestic-abuser-john-perkins-shotguns-kathryn-devon-police",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-16T18:46:53+00:00",
+   "note": "Ex-marine John Perkins, who also killed himself, had been violent to Kathryn Perkins over 42-year marriage, Exeter inquests hear A “controlling and violent” former Royal Marine who",
+   "region": "OTHER"
+  },
+  {
+   "id": "990b22673f8d",
+   "title": "US judge sets March retrial for Lindsay Clancy, accused of killing her 3 children",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374644/judge-sets-march-retrial-lindsay-clancy-accused-killing-her-3-children",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-16T16:41:36+00:00",
+   "note": "A Massachusetts judge on Monday set a second trial for Lindsay Clancy for March 29 after a jury deadlocked in her initial trial on murder charges for killing her three young childr",
+   "region": "OTHER"
+  },
+  {
+   "id": "e2a9c7a1452e",
+   "title": "At least 17 killed in two South Africa mass shootings",
+   "url": "https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings?traffic_source=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -255,8 +300,98 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-16T03:51:43+00:00",
-   "note": "Fire engulfed buildings in Thailand’s popular tourist town of Patong, killing several people and injuring many others.",
+   "published": "2026-11-16T15:26:39+00:00",
+   "note": "Eight men killed in shooting near Pietermaritzburg while six men and three women shot dead near Pretoria.",
+   "region": "AFRICA"
+  },
+  {
+   "id": "304f814f87c3",
+   "title": "Russia says intercepted over 1,300 Ukrainian drones in a major attack",
+   "url": "https://www.france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-16T14:00:25+00:00",
+   "note": "Russia intercepted 1,336 drones launched by Ukraine, Russia’s Defense Ministry said Monday, in what was the most claimed downings since Moscow’s all-out invasion of its neighbor ne",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "d1a696c7fdca",
+   "title": "Taiwan unveils 17% budget boost to upgrade new F-16V fighter fleet",
+   "url": "https://www.scmp.com/news/china/politics/article/3374614/taiwan-unveils-17-budget-boost-upgrade-new-f-16v-fighter-fleet",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-16T11:28:20+00:00",
+   "note": "Taiwan has earmarked an additional NT$42.8 billion (US$1.4 billion) for electronic warfare upgrades to all 66 of its new US-made F-16V fighters. The extra allocation represents an ",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "eef6f31ff083",
+   "title": "Revealed: Israel uploaded millions of photos to Amazon’s facial recognition platform to track Palestinians",
+   "url": "https://www.theguardian.com/world/2026/nov/16/israel-amazon-facial-recognition-palestinians",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-16T11:00:56+00:00",
+   "note": "Upload came as the Israeli military was increasing its reliance on Amazon’s cloud platform to meet the technological demands of its bombardment of Gaza The Israeli military uploade",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "943da84afed3",
+   "title": "Thai police probe transformer blast after Phuket shophouse fire kills 11",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374573/thai-police-probe-transformer-blast-after-phuket-shophouse-fire-kills-11",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-16T07:43:24+00:00",
+   "note": "A fire raged through a four-storey shophouse on Thailand’s resort island of Phuket early on Monday, killing 11 people and injuring 16, police said. The blaze began around 3.30am at",
+   "region": "OTHER"
+  },
+  {
+   "id": "1e404937e0f3",
+   "title": "Anthony Kwong falsely claimed father killed Abby Choi so damage was ‘minimal’, court hears",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374566/anthony-kwong-falsely-claimed-father-killed-abby-choi-so-damage-was-minimal-court-hears",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-16T07:05:00+00:00",
+   "note": "The former brother-in-law of slain Hong Kong socialite Abby Choi Tin-fung has said he previously concocted a false account with his brother to blame their father for her killing to",
+   "region": "OTHER"
+  },
+  {
+   "id": "dfbd286b5c49",
+   "title": "Thailand and Cambodia vie for global backing as Trump arrives for Asean summit",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374562/thailand-and-cambodia-vie-global-backing-trump-arrives-asean-summit",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-16T06:50:53+00:00",
+   "note": "Thailand and Cambodia are seeking to control the global diplomacy narrative over their border dispute as US President Donald Trump heads to Southeast Asia’s top annual summit. A br",
    "region": "OTHER"
   },
   {
@@ -265,119 +400,195 @@
    "url": "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
    ],
    "published": "2026-11-16T01:13:44+00:00",
-   "note": "Pontiff delivers forceful speech on final day in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for ",
+   "note": "Pontiff delivers forceful speech in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting th",
    "region": "OTHER"
   },
   {
-   "id": "76e1afdbd8e3",
-   "title": "伊朗：两艘油轮在霍尔木兹海峡触雷引发剧烈爆炸",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732537.shtml",
+   "id": "aa637ea3de86",
+   "title": "Gérard Depardieu drops appeal against sexual assault conviction",
+   "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
-   "severity": 5,
-   "confidence": 0.38,
+   "severity": 4,
+   "confidence": 0.74,
+   "origins": 2,
+   "sources": [
+    "bbc",
+    "guardian"
+   ],
+   "published": "2026-11-16T13:40:56+00:00",
+   "note": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "6c0f4d1f1387",
+   "title": "欧盟对俄罗斯发起新一轮制裁列单145名个人和实体",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10733157.shtml",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-15T23:20:21+00:00",
-   "note": "中新网11月16日电 据土耳其阿纳多卢通讯社报道，当地时间15日，伊朗伊斯兰革命卫队宣布，两艘在霍尔木兹海峡南部海域沿未经伊朗授权航线行驶的油轮触雷，引发剧烈爆炸。",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-16T15:54:43+00:00",
+   "note": "中新社布鲁塞尔11月16日电 (记者 德永健)欧盟16日对俄罗斯发起新一轮制裁，将145名个人和实体列为制裁对象。",
+   "region": "EUROPE"
   },
   {
-   "id": "e49f89982ae7",
-   "title": "胡塞武装宣布：沙特联军24小时内75次袭击也门多地",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732534.shtml",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-15T23:03:46+00:00",
-   "note": "中新网11月16日电 据也门通讯社报道，也门胡塞武装当地时间15日发表声明称，过去24小时内，沙特主导的联军对也门萨达省、塔伊兹省、拉赫季省、焦夫省和马里卜省发动了75次空袭和导弹袭击。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "c097ad1c7337",
-   "title": "Journalist who covered missing persons in Mexico found dead",
-   "url": "https://www.scmp.com/news/world/americas/article/3374520/mexican-journalist-who-reported-missing-persons-found-dead-acapulco",
+   "id": "d845b8528157",
+   "title": "Cornell announces full review of Greek life after scrutiny over sexual assault case",
+   "url": "https://www.theguardian.com/us-news/2026/nov/16/cornell-review-greek-life-sexual-assault-case",
    "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-15T22:23:36+00:00",
-   "note": "Mexican authorities said on Sunday they have ⁠launched a murder ⁠investigation into the death of ⁠journalist Eduardo Flores, who covered security, social issues and missing persons",
-   "region": "LATAM"
-  },
-  {
-   "id": "fdaef0b3e721",
-   "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
-   "url": "https://www.france24.com/en/middle-east/20261115-israel-kills-senior-member-of-hamas-s-military-wing-in-gaza-strike",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-15T16:41:48+00:00",
-   "note": "The Israeli military said on Sunday its forces had killed a senior member of Hamas's military wing in Gaza. The militant group confirmed the death of Samir Abu Younis, the commande",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "97553f749cea",
-   "title": "Jordan sentences 3 men to death over deadly church attack",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-15T12:13:48+00:00",
-   "note": "A Jordanian court on Sunday sentenced three men to death by hanging over a deadly church shooting, as the kingdom’s Christmas celebrations were cancelled in solidarity with the vic",
-   "region": "OTHER"
-  },
-  {
-   "id": "58dfd6a23bde",
-   "title": "Top Hamas commander killed in Israeli strike in Gaza",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3374498/top-hamas-commander-killed-israeli-strike-gaza",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-15T12:02:08+00:00",
-   "note": "Hamas said on Sunday that a senior commander who helped plan and oversee the October 7, 2023, attack on Israel had been killed in an Israeli air strike, with the Israeli ‌military ",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "b6f845843ea7",
-   "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
-   "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-14T13:00:44+00:00",
-   "note": "People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest summer since records be",
+   "published": "2026-11-16T19:09:36+00:00",
+   "note": "The university will conduct a series of measures after a former student was gang-raped at a fraternity house two years ago Cornell University is set to announce a “full review” of ",
    "region": "OTHER"
+  },
+  {
+   "id": "29271dd4b2bf",
+   "title": "Saudi Arabia challenged by Yemeni allies over ceding ground to Houthis",
+   "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-16T19:04:07+00:00",
+   "note": "Strategy of redeploying forces to try to relieve siege of Taiz and protect Aden comes as Islamist group makes steady gains Saudi Arabia has been accused by anti-Houthi forces over ",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "97c07acd50bc",
+   "title": "Russell Brand investigated over ‘appalling’ message from jail, Downing Street says",
+   "url": "https://www.scmp.com/news/world/europe/article/3374646/russell-brand-investigated-over-appalling-message-jail-downing-street-says",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-16T17:31:23+00:00",
+   "note": "A message from disgraced comedian Russell Brand on social media after he was jailed for rape and sexual assault was “appalling” and being investigated, a spokesperson for the UK pr",
+   "region": "OTHER"
+  },
+  {
+   "id": "c43a86b364af",
+   "title": "Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah",
+   "url": "https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-16T17:18:14+00:00",
+   "note": "US pressure on Iraq to curb Tehran's influence leaves potential for direct confrontation with Iran-linked armed group.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "188d03f3c98c",
+   "title": "Iran braces for natural gas shortages during winter energy imbalance",
+   "url": "https://www.aljazeera.com/news/2026/11/16/iran-braces-for-natural-gas-shortages-during-winter-energy-imbalance?traffic_source=rss",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-16T16:58:46+00:00",
+   "note": "The gas infrastructure in Iran has suffered from underdevelopment and sanctions, and now damage from the war.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "4515f531181d",
+   "title": "French film star Depardieu drops appeal against sexual conviction",
+   "url": "https://www.france24.com/en/video/20261116-french-film-star-depardieu-drops-appeal-against-sexual-conviction",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-16T15:51:39+00:00",
+   "note": "French film star Gérard Depardieu on Monday dropped his appeal against a conviction for sexually assaulting two women during the filming of a movie in 2021 and issued \"sincere apol",
+   "region": "EUROPE"
+  },
+  {
+   "id": "62a92e5841e0",
+   "title": "French troops in Ukraine 'wouldn't be a surprise'",
+   "url": "https://www.france24.com/en/video/20261116-french-troops-in-ukraine-wouldn-t-be-a-surprise",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-16T15:49:56+00:00",
+   "note": "French soldiers have been operating in Ukraine for several months, training Ukrainian troops and helping maintain military equipment, France 24's sister radio network Radio France ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "2bee482770bb",
+   "title": "‘My arms are empty’: Tragedy strikes Gaza family after baby dies from cold",
+   "url": "https://www.aljazeera.com/features/2026/11/16/my-arms-are-empty-gaza-mothers-brace-for-another-winter-of-cold-and-fear?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-16T14:20:43+00:00",
+   "note": "A nine-month-old baby has died from hypothermia inside his family’s displacement tent in Gaza, as winter returns.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "dcdfa7470fdf",
+   "title": "French troops 'deployed in Ukraine on secret mission'",
+   "url": "https://www.france24.com/en/video/20261116-french-troops-deployed-in-ukraine-on-secret-mission",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-16T14:02:12+00:00",
+   "note": "French soldiers have been operating in Ukraine for several months, training Ukrainian troops and helping maintain military equipment, France 24's sister radio network Radio France ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "f116c368f392",
+   "title": "波兰逮捕三名涉嫌策划恐怖袭击的青少年",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10733000.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-16T12:04:09+00:00",
+   "note": "中新网北京11月16日电 华沙消息：波兰安全部门16日逮捕了三名涉嫌策划恐怖袭击的青少年，年龄在16岁至17岁之间。",
+   "region": "EAST_ASIA"
   },
   {
    "id": "9fad14ad55bd",
@@ -385,7 +596,7 @@
    "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732664.shtml",
    "component": "military",
    "severity": 4,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -393,225 +604,13 @@
    "published": "2026-11-16T02:51:45+00:00",
    "note": "中新网11月16日电 据阿联酋《国家报》报道，一名美官员证实，美军“罗斯福”号航空母舰已于当地时间15日抵达美军中央司令部责任区。",
    "region": "OTHER"
-  },
-  {
-   "id": "b0cf080274db",
-   "title": "以色列爆料“伊朗近期可能袭击特朗普”，特朗普减少公开活动，贝森特、鲁比奥等高官住进“安全屋”",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732610.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-16T01:54:46+00:00",
-   "note": "以色列爆料“伊朗近期可能袭击特朗普”，特朗普减少公开活动，贝森特、鲁比奥等高官住进“安全屋”｜国际早察",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "fab8bfdcf496",
-   "title": "Iran launches drone attacks against US military base in Bahrain",
-   "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.6,
-   "origins": 2,
-   "sources": [
-    "guardian",
-    "france24"
-   ],
-   "published": "2026-11-15T18:03:56+00:00",
-   "note": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, ca",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "20a31fcd47be",
-   "title": "Home Office accused of trying to cancel online talk by Andreas Malm",
-   "url": "https://www.theguardian.com/politics/2026/nov/16/home-office-andreas-malm-climate-academic-online-talk",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-16T06:00:37+00:00",
-   "note": "Hackney mayor decries ‘assault’ on free speech over event featuring academic who is banned from entering UK Shabana Mahmood has been accused of an “assault” on free speech over cla",
-   "region": "OTHER"
-  },
-  {
-   "id": "d8d97e3217e4",
-   "title": "Huge waves pummel California coast, forcing closure of popular piers",
-   "url": "https://www.theguardian.com/us-news/2026/nov/15/california-coast-waves-piers-closed",
-   "component": "physical",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-16T01:00:42+00:00",
-   "note": "Large waves up to 50ft flooded southern California streets and prompted evacuation warning near coastal city The California coast was pummeled again on Sunday by huge waves that in",
-   "region": "OTHER"
-  },
-  {
-   "id": "a1b2366123b8",
-   "title": "哈马斯下属卡桑旅称其高级成员在以色列袭击中身亡",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-15/10732325.shtml",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-15T07:44:22+00:00",
-   "note": "中新社北京11月15日电 综合消息：巴勒斯坦伊斯兰抵抗运动(哈马斯)下属武装派别卡桑旅当地时间15日发表声明称，卡桑旅总军事委员会成员兼拉法旅指挥官萨米尔·阿布·尤尼斯在以色列袭击中身亡。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "6afbbb905b83",
-   "title": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-16T00:00:00+00:00",
-   "note": "The USS Theodore Roosevelt has arrived in the Middle East, while Iran warned it would not simply wait for an attack.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "f897e13cec1a",
-   "title": "Somali-American Uber driver brutally assaulted in alleged hate crime in Minnesota",
-   "url": "https://www.theguardian.com/us-news/2026/nov/15/somali-american-uber-driver-attack-minnesota",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-15T21:10:38+00:00",
-   "note": "Mohamed Yusuf is fighting for his life after alleged attack by passenger who said he did not like driver’s first name A Somali-American Uber driver was allegedly brutally assaulted",
-   "region": "OTHER"
-  },
-  {
-   "id": "2cae49e16651",
-   "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-15T15:59:04+00:00",
-   "note": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "16a36576c9d2",
-   "title": "Bahrain says air defences destroyed several Iranian drones attacking US base",
-   "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-15T13:55:32+00:00",
-   "note": "Bahrain issued two alerts of potential threats on Sunday, its first such warnings since September. The second Iranian drone attack in three days, ending a long lull in strikes duri",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "2ed61720cc3b",
-   "title": "Chinese J-10C fighter spotted carrying modified Russian-origin heavy-strike missile",
-   "url": "https://www.scmp.com/news/china/military/article/3374496/chinese-j-10c-fighter-spotted-carrying-modified-russian-origin-heavy-strike-missile",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-15T13:00:09+00:00",
-   "note": "New state media footage has surfaced showing for the first time what appears to be a Chinese-modified variant of the Russian-origin Kh-29T air-to-surface missile mounted on a J-10C",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "88d205fc5848",
-   "title": "A disastrous Iran war? The US is now a mover and shaker of oil markets",
-   "url": "https://www.scmp.com/opinion/world-opinion/article/3374247/disastrous-iran-war-us-now-mover-and-shaker-oil-markets",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-15T12:30:06+00:00",
-   "note": "Many see the US war on Iran as a colossal geopolitical bungle, failing to secure its larger strategic objectives. Yet it has allowed the blundering Trump administration to move int",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "c3aec74ed78f",
-   "title": "Sudan: Misery worsens amid plummeting aid for displaced people",
-   "url": "https://www.dw.com/en/sudan-misery-worsens-amid-plummeting-aid-for-displaced-people/a-79938864?maca=en-rss-en-world-4025-rdf",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-14T08:31:00+00:00",
-   "note": "Sudan's humanitarian crisis is exacerbated by cuts in international aid. Almost 34 million people are in need as war and drone strikes are making it difficult to deliver aid to the",
-   "region": "AFRICA"
-  },
-  {
-   "id": "e8824ca4e0d9",
-   "title": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
-   "url": "https://www.france24.com/en/europe/20261116-czechs-protest-prague-public-media-funding-plan",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.74,
-   "origins": 2,
-   "sources": [
-    "france24",
-    "guardian"
-   ],
-   "published": "2026-11-16T02:28:13+00:00",
-   "note": "Hundreds of thousands of Czechs rallied in Prague on Sunday against government plans to replace public media fees with direct state funding, which critics say threatens broadcaster",
-   "region": "OTHER"
-  },
-  {
-   "id": "7544a0111aac",
-   "title": "日本民众反对高市政权扩军修宪，直言“不能再走战争道路”",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732727.shtml",
-   "component": "military",
-   "severity": 3,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-16T05:46:26+00:00",
-   "note": "中新网11月16日电 综合报道，当地时间15日晚，部分日本民众在东京新宿车站前举行集会，抗议高市早苗政府推动扩充军备、修改和平宪法等政策动向。",
-   "region": "EAST_ASIA"
   }
  ],
  "breaking": [
   {
-   "id": "20a31fcd47be",
-   "title": "Home Office accused of trying to cancel online talk by Andreas Malm",
-   "url": "https://www.theguardian.com/politics/2026/nov/16/home-office-andreas-malm-climate-academic-online-talk",
+   "id": "d845b8528157",
+   "title": "Cornell announces full review of Greek life after scrutiny over sexual assault case",
+   "url": "https://www.theguardian.com/us-news/2026/nov/16/cornell-review-greek-life-sexual-assault-case",
    "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
@@ -619,65 +618,65 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-16T06:00:37+00:00",
-   "note": "Hackney mayor decries ‘assault’ on free speech over event featuring academic who is banned from entering UK Shabana Mahmood has been accused of an “assault” on free speech over cla",
+   "published": "2026-11-16T19:09:36+00:00",
+   "note": "The university will conduct a series of measures after a former student was gang-raped at a fraternity house two years ago Cornell University is set to announce a “full review” of ",
    "region": "OTHER"
   },
   {
-   "id": "f85dda815d1f",
-   "title": "Shophouse fire kills at least 11 in Phuket",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket?traffic_source=rss",
+   "id": "29271dd4b2bf",
+   "title": "Saudi Arabia challenged by Yemeni allies over ceding ground to Houthis",
+   "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-16T19:04:07+00:00",
+   "note": "Strategy of redeploying forces to try to relieve siege of Taiz and protect Aden comes as Islamist group makes steady gains Saudi Arabia has been accused by anti-Houthi forces over ",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "fc63cd4afc4b",
+   "title": "Man appears in court over deaths of two people in Leeds police pursuit crash",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/16/man-charged-after-two-people-die-in-leeds-police-pursuit-crash",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "guardian"
    ],
-   "published": "2026-11-16T03:51:43+00:00",
-   "note": "Fire engulfed buildings in Thailand’s popular tourist town of Patong, killing several people and injuring many others.",
+   "published": "2026-11-16T18:55:14+00:00",
+   "note": "Leigh Ross, 39, charged with causing death by dangerous driving of Cameron Bell, 22, and Jade Langton, 23 A man has appeared in court charged with causing the deaths of two people ",
    "region": "OTHER"
   },
   {
-   "id": "9fad14ad55bd",
-   "title": "“罗斯福”号抵达 美军在中东集结三个航空母舰打击群",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732664.shtml",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-16T02:51:45+00:00",
-   "note": "中新网11月16日电 据阿联酋《国家报》报道，一名美官员证实，美军“罗斯福”号航空母舰已于当地时间15日抵达美军中央司令部责任区。",
-   "region": "OTHER"
-  },
-  {
-   "id": "b0cf080274db",
-   "title": "以色列爆料“伊朗近期可能袭击特朗普”，特朗普减少公开活动，贝森特、鲁比奥等高官住进“安全屋”",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732610.shtml",
+   "id": "4f486fff680e",
+   "title": "Devon police renewed shotgun licence of known abuser who later killed his wife",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/16/domestic-abuser-john-perkins-shotguns-kathryn-devon-police",
    "component": "narrative",
-   "severity": 4,
-   "confidence": 0.64,
+   "severity": 5,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "guardian"
    ],
-   "published": "2026-11-16T01:54:46+00:00",
-   "note": "以色列爆料“伊朗近期可能袭击特朗普”，特朗普减少公开活动，贝森特、鲁比奥等高官住进“安全屋”｜国际早察",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-16T18:46:53+00:00",
+   "note": "Ex-marine John Perkins, who also killed himself, had been violent to Kathryn Perkins over 42-year marriage, Exeter inquests hear A “controlling and violent” former Royal Marine who",
+   "region": "OTHER"
   }
  ],
  "coverage": {
   "sources_ok": 20,
   "sources_failed": 2,
-  "items": 22375,
-  "gdelt_events": 22147,
+  "items": 30141,
+  "gdelt_events": 29906,
   "mode": "live",
   "data_through": "2026-11-15",
-  "clusters": 222,
-  "origins": 226,
+  "clusters": 232,
+  "origins": 234,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -734,7 +733,7 @@
     "p50": 0.06,
     "p90": 0.11,
     "ratio": null,
-    "z": 0.01
+    "z": null
    }
   }
  },
@@ -1109,11 +1108,11 @@
   },
   {
    "date": "2026-10-19",
-   "geti": 58.6
+   "geti": 58.5
   },
   {
    "date": "2026-10-20",
-   "geti": 54.8
+   "geti": 54.7
   },
   {
    "date": "2026-10-21",
@@ -1217,7 +1216,7 @@
   },
   {
    "date": "2026-11-15",
-   "geti": 73.8
+   "geti": 73.7
   }
  ],
  "policy": {
@@ -1225,76 +1224,84 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "东风云南汽车有限公司党委书记龚先华接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-16/10732699.shtml",
+    "title": "Forensic expert says his analysis raises doubts about how Epstein died",
+    "url": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
     "country": "",
-    "source": "chinanews_cn",
+    "source": "bbc",
     "when": "2026-11-16"
    },
    {
     "kind": "judicial",
-    "title": "Senior Hells Angels bikie charged with threatening to kill investigative reporter Nick McKenzie",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/16/hells-angels-bikie-charged-threats-to-kill-journalist-nick-mckenzie-ntwnfb",
+    "title": "Ministry of Justice investigating Russell Brand message from prison claiming he is not guilty",
+    "url": "https://www.theguardian.com/news/2026/nov/16/ministry-of-justice-investigating-russell-brand-message",
     "country": "",
     "source": "guardian",
     "when": "2026-11-16"
    },
    {
     "kind": "judicial",
-    "title": "河北检察机关依法对王峻涉嫌受贿案提起公诉",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-16/10732617.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-16"
-   },
-   {
-    "kind": "judicial",
-    "title": "新疆医科大学党委原书记高发水接受审查调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-16/10732573.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-16"
-   },
-   {
-    "kind": "judicial",
-    "title": "Founder of Guadalajara cartel dies in hospital after decades in prison",
-    "url": "https://www.aljazeera.com/news/2026/11/16/founder-of-guadalajara-cartel-dies-in-hospital-after-decades-in-prison?traffic_source=rss",
-    "country": "",
-    "source": "aljazeera",
-    "when": "2026-11-16"
-   },
-   {
-    "kind": "judicial",
-    "title": "Jordan sentences 3 men to death over deadly church attack",
-    "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
-    "country": "",
+    "title": "Russell Brand investigated over ‘appalling’ message from jail, Downing Street says",
+    "url": "https://www.scmp.com/news/world/europe/article/3374646/russell-brand-investigated-over-appalling-message-jail-downing-street-says",
+    "country": "GB",
     "source": "scmp",
-    "when": "2026-11-15"
+    "when": "2026-11-16"
+   },
+   {
+    "kind": "judicial",
+    "title": "Proposed NSW laws to allow coalmine to increase production pose ‘serious corruption risk’",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/17/proposed-nsw-laws-to-allow-coalmine-to-increase-production-pose-serious-corruption-risk",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-16"
+   },
+   {
+    "kind": "judicial",
+    "title": "Man sentenced over 'horrific' attempted murder of three children",
+    "url": "https://www.bbc.co.uk/news/articles/cr0qj0nzwj34o?at_medium=RSS&at_campaign=rss",
+    "country": "",
+    "source": "bbc",
+    "when": "2026-11-16"
+   },
+   {
+    "kind": "judicial",
+    "title": "波兰逮捕三名涉嫌策划恐怖袭击的青少年",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-16/10733000.shtml",
+    "country": "CN",
+    "source": "chinanews",
+    "when": "2026-11-16"
+   },
+   {
+    "kind": "judicial",
+    "title": "Ex-PM Hasina plans December return to Bangladesh despite ‘threat of death’",
+    "url": "https://www.scmp.com/news/asia/south-asia/article/3374610/ex-pm-hasina-plans-december-return-bangladesh-despite-threat-death",
+    "country": "FR",
+    "source": "scmp",
+    "when": "2026-11-16"
    }
   ],
-  "notable_total": 6,
+  "notable_total": 7,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 6
+   "notable": 7
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 65.5,
-  "z": 0.386,
+  "index": 66.9,
+  "z": 0.423,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 18.7,
-    "chg5": -33.64,
-    "z": 0.64,
+    "last": 19.3,
+    "chg5": -24.73,
+    "z": 0.735,
     "ok": true,
-    "asof": "2026-11-12"
+    "asof": "2026-11-13"
    },
    {
     "id": "oil",
@@ -1308,11 +1315,11 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.2,
-    "chg5": -3.61,
-    "z": 0.636,
+    "last": 3.23,
+    "chg5": -5.56,
+    "z": 0.652,
     "ok": true,
-    "asof": "2026-11-12"
+    "asof": "2026-11-13"
    },
    {
     "id": "usd",
@@ -1333,13 +1340,13 @@
     "asof": "2026-11-12"
    }
   ],
-  "asof": "2026-11-12",
+  "asof": "2026-11-13",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 105,
+    "items": 106,
     "error": ""
    },
    {
@@ -1351,7 +1358,7 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 104,
+    "items": 106,
     "error": ""
    },
    {
@@ -2216,8 +2223,8 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 0.0,
-    "carry": 2.19,
+    "value": 1.0,
+    "carry": 2.31,
     "z": null,
     "score": null,
     "available": false
@@ -2315,7 +2322,14 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes"
     }
    ],
-   "eonet": [],
+   "eonet": [
+    {
+     "t": "Tropical Cyclone Xavier",
+     "v": "severe storms",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26463"
+    }
+   ],
    "gdacs": [
     {
      "t": "Green earthquake (Magnitude 5.5M, Depth:9.971km) in Philippines 15/11/2026 13:41",
@@ -2352,6 +2366,18 @@
      "v": "green",
      "ts": "2026-11-15 04:20",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033874"
+    },
+    {
+     "t": "Green forest fire notification in Nigeria",
+     "v": "green",
+     "ts": "2026-11-15 04:20",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033883"
+    },
+    {
+     "t": "Green forest fire notification in Nigeria",
+     "v": "green",
+     "ts": "2026-11-15 04:20",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033886"
     },
     {
      "t": "Green forest fire notification in Nigeria",
@@ -2404,7 +2430,7 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.88,
+    "value": 0.85,
     "carry": 0.94,
     "z": null,
     "score": null,
@@ -2423,13 +2449,13 @@
   "evidence": {
    "who": [
     {
-     "t": "停飞影响持续 美航空运输预计16日全面恢复 空管老旧问题再受关注",
+     "t": "忙于“甩锅”？美交通部长拒绝为全美航班停飞事件道歉",
      "v": "政策",
      "ts": "",
      "u": ""
     },
     {
-     "t": "全美突发航班停飞，美国交通部长被要求辞职",
+     "t": "停飞影响持续 美航空运输预计16日全面恢复 空管老旧问题再受关注",
      "v": "政策",
      "ts": "",
      "u": ""
@@ -2438,7 +2464,7 @@
   }
  },
  "doom": {
-  "index": 73.8,
+  "index": 73.7,
   "z": 0.62,
   "parts": {
    "military": 0.62,
@@ -2478,8 +2504,8 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 22147,
+   "files": 142,
+   "items": 29906,
    "error": ""
   },
   {
@@ -2499,7 +2525,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 31,
+   "items": 36,
    "error": "",
    "undated": 0
   },
@@ -2555,14 +2581,14 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 9,
+   "items": 11,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 105,
+   "items": 106,
    "error": ""
   },
   {
@@ -2574,7 +2600,7 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 104,
+   "items": 106,
    "error": ""
   },
   {
@@ -2628,13 +2654,13 @@
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "error": ""
   },
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 8,
+   "items": 10,
    "error": ""
   },
   {
@@ -2652,7 +2678,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 6122,
+   "items": 11960,
    "error": ""
   },
   {
