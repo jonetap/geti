@@ -1,88 +1,88 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-16T19:34:50+00:00",
- "date": "2026-11-15",
- "geti": 73.7,
- "delta_z": 0.6,
- "delta_pts": -0.4,
+ "generated_at": "2026-11-17T03:50:52+00:00",
+ "date": "2026-11-16",
+ "geti": 72.7,
+ "delta_z": 0.53,
+ "delta_pts": -1.0,
  "confidence": 0.95,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
  "driver_label": "北美",
  "regions": [
   {
-   "code": "NORTH_AMERICA",
-   "label": "北美",
-   "score": 75.9,
-   "delta": -2.6,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.58
-    ],
-    [
-     "diplomacy",
-     1.26
-    ]
-   ]
-  },
-  {
    "code": "OTHER",
    "label": "其他",
-   "score": 71.0,
-   "delta": -2.6,
+   "score": 75.4,
+   "delta": 4.4,
    "excluded": true,
    "drivers": [
     [
      "military",
-     1.23
+     1.51
     ],
     [
      "diplomacy",
-     1.05
+     1.34
     ]
    ]
   },
   {
-   "code": "SOUTH_ASIA",
-   "label": "南亚",
-   "score": 69.9,
-   "delta": 1.9,
+   "code": "NORTH_AMERICA",
+   "label": "北美",
+   "score": 74.5,
+   "delta": -1.4,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.18
+     1.47
     ],
     [
      "diplomacy",
-     1.11
+     1.25
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 69.3,
-   "delta": 2.6,
+   "score": 69.7,
+   "delta": 0.4,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.33
+     1.34
     ],
     [
      "diplomacy",
-     1.1
+     1.06
+    ]
+   ]
+  },
+  {
+   "code": "SOUTH_ASIA",
+   "label": "南亚",
+   "score": 69.5,
+   "delta": -0.4,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     1.19
+    ],
+    [
+     "diplomacy",
+     1.07
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 68.9,
-   "delta": -0.2,
+   "score": 67.8,
+   "delta": -1.1,
    "excluded": false,
    "drivers": [
     [
@@ -91,92 +91,92 @@
     ],
     [
      "diplomacy",
-     0.89
+     0.82
     ]
    ]
   },
   {
    "code": "EAST_ASIA",
    "label": "东亚",
-   "score": 65.3,
-   "delta": 0.2,
+   "score": 66.8,
+   "delta": 1.5,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     0.85
+     0.95
     ],
     [
      "military",
-     0.79
-    ]
-   ]
-  },
-  {
-   "code": "AFRICA",
-   "label": "非洲",
-   "score": 62.7,
-   "delta": 1.9,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     0.89
-    ],
-    [
-     "diplomacy",
-     0.89
+     0.81
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 59.6,
-   "delta": -0.3,
+   "score": 65.0,
+   "delta": 5.3,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.91
+    ],
+    [
+     "diplomacy",
+     0.9
+    ]
+   ]
+  },
+  {
+   "code": "AFRICA",
+   "label": "非洲",
+   "score": 61.5,
+   "delta": -1.3,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     0.69
+     0.78
     ],
     [
      "military",
-     0.6
+     0.59
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 57.0,
-   "delta": -1.6,
+   "score": 54.7,
+   "delta": -2.3,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     0.64
+     "internal",
+     -0.69
     ],
     [
      "diplomacy",
-     0.63
+     0.61
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 43.8,
-   "delta": -5.4,
+   "score": 52.6,
+   "delta": 8.8,
    "excluded": false,
    "drivers": [
     [
      "internal",
-     -0.7
+     -0.6
     ],
     [
-     "economy",
-     -0.65
+     "diplomacy",
+     0.55
     ]
    ]
   }
@@ -186,11 +186,11 @@
    "key": "military",
    "label": "军事升级",
    "weight": 0.26,
-   "effective_weight": 0.371,
+   "effective_weight": 0.333,
    "available": true,
-   "z": 1.58,
-   "score": 87.8,
-   "contrib": 0.448
+   "z": 1.47,
+   "score": 86.2,
+   "contrib": 0.444
   },
   {
    "key": "physical",
@@ -206,63 +206,78 @@
    "key": "diplomacy",
    "label": "外交",
    "weight": 0.18,
-   "effective_weight": 0.257,
+   "effective_weight": 0.231,
    "available": true,
-   "z": 1.26,
-   "score": 82.9,
-   "contrib": 0.248
+   "z": 1.25,
+   "score": 82.7,
+   "contrib": 0.262
   },
   {
    "key": "economy",
    "label": "经济",
    "weight": 0.15,
-   "effective_weight": 0.214,
+   "effective_weight": 0.192,
    "available": true,
-   "z": 1.17,
-   "score": 81.2,
+   "z": 1.09,
+   "score": 79.7,
    "contrib": 0.191
   },
   {
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
-   "effective_weight": 0.157,
+   "effective_weight": 0.141,
    "available": true,
-   "z": 0.94,
-   "score": 76.3,
-   "contrib": 0.112
+   "z": 0.8,
+   "score": 73.0,
+   "contrib": 0.102
   },
   {
    "key": "narrative",
    "label": "信息/叙事",
    "weight": 0.08,
-   "effective_weight": 0.0,
-   "available": false,
-   "z": null,
-   "score": null,
-   "contrib": 0.0
+   "effective_weight": 0.103,
+   "available": true,
+   "z": -0.01,
+   "score": 49.6,
+   "contrib": -0.001
   }
  ],
  "events": [
   {
-   "id": "fc63cd4afc4b",
-   "title": "Man appears in court over deaths of two people in Leeds police pursuit crash",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/16/man-charged-after-two-people-die-in-leeds-police-pursuit-crash",
+   "id": "45efba71e6ad",
+   "title": "乌克兰首都基辅响起爆炸声",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-17/10733166.shtml",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "guardian"
+    "chinanews"
    ],
-   "published": "2026-11-16T18:55:14+00:00",
-   "note": "Leigh Ross, 39, charged with causing death by dangerous driving of Cameron Bell, 22, and Jade Langton, 23 A man has appeared in court charged with causing the deaths of two people ",
-   "region": "OTHER"
+   "published": "2026-11-16T23:00:51+00:00",
+   "note": "中新网11月17日电 据乌克兰媒体报道，当地时间16日晚，乌克兰首都基辅响起爆炸声。",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "4f486fff680e",
-   "title": "Devon police renewed shotgun licence of known abuser who later killed his wife",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/16/domestic-abuser-john-perkins-shotguns-kathryn-devon-police",
+   "id": "5030335ba3ab",
+   "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
+   "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-17T01:38:13+00:00",
+   "note": "Yemen's army reports 173 Houthi fighters killed or wounded as government forces reposition to defend Aden.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "4a6a2f45af79",
+   "title": "Truck driver fired for ‘unsafe’ use of smartglasses in first reported sacking over device in Australia",
+   "url": "https://www.theguardian.com/technology/2026/nov/17/toll-truck-driver-fired-sacked-smartglasses-australia-ntwnfb",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -270,8 +285,68 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-16T18:46:53+00:00",
-   "note": "Ex-marine John Perkins, who also killed himself, had been violent to Kathryn Perkins over 42-year marriage, Exeter inquests hear A “controlling and violent” former Royal Marine who",
+   "published": "2026-11-17T01:25:08+00:00",
+   "note": "Toll employee Ricardo Martins Silva used smartglasses to take photos at an LPG terminal despite the risk of an explosion caused by an electrical spark, a court heard Get our breaki",
+   "region": "OCEANIA"
+  },
+  {
+   "id": "f6b0f47ee18a",
+   "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
+   "url": "https://www.france24.com/en/europe/20261117-russian-strikes-hit-two-key-bridges-in-kyiv-disrupting-water-and-power-supplies-ukraine",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-17T00:58:33+00:00",
+   "note": "Russian forces struck two major bridges crossing the Dnipro River in Kyiv late Monday, damaging critical infrastructure and causing water and power cuts in parts of the Ukrainian c",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "c439e56b6d96",
+   "title": "UK’s Burnham says Brexit ‘has not worked’ before key EU talks",
+   "url": "https://www.scmp.com/news/world/europe/article/3374654/uk-pm-andy-burnham-says-brexit-has-not-worked-ahead-reset-summit-eu",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-16T22:08:48+00:00",
+   "note": "UK Prime Minister Andy Burnham said on Monday that it is time to admit that Brexit has not delivered for the UK and that the country needs a much closer relationship with the Europ",
+   "region": "EUROPE"
+  },
+  {
+   "id": "47b32588134d",
+   "title": "Sudanese army air attack kills 13 in western Sudan: Rights group",
+   "url": "https://www.aljazeera.com/news/2026/11/16/sudanese-army-air-attack-kills-13-in-western-sudan-rights-group?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-16T21:06:19+00:00",
+   "note": "'Preliminary monitoring' shows women and children killed, homes destroyed in West Kordofan, says Emergency Lawyers.",
+   "region": "AFRICA"
+  },
+  {
+   "id": "1cdbbf666093",
+   "title": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
+   "url": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-16T20:33:57+00:00",
+   "note": "Professor Michael Freeman tells BBC Newsnight that he believes the convicted sex offender's injuries are consistent with a homicide.",
    "region": "OTHER"
   },
   {
@@ -280,7 +355,7 @@
    "url": "https://www.scmp.com/news/world/united-states-canada/article/3374644/judge-sets-march-retrial-lindsay-clancy-accused-killing-her-3-children",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -288,51 +363,6 @@
    "published": "2026-11-16T16:41:36+00:00",
    "note": "A Massachusetts judge on Monday set a second trial for Lindsay Clancy for March 29 after a jury deadlocked in her initial trial on murder charges for killing her three young childr",
    "region": "OTHER"
-  },
-  {
-   "id": "e2a9c7a1452e",
-   "title": "At least 17 killed in two South Africa mass shootings",
-   "url": "https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-16T15:26:39+00:00",
-   "note": "Eight men killed in shooting near Pietermaritzburg while six men and three women shot dead near Pretoria.",
-   "region": "AFRICA"
-  },
-  {
-   "id": "304f814f87c3",
-   "title": "Russia says intercepted over 1,300 Ukrainian drones in a major attack",
-   "url": "https://www.france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-16T14:00:25+00:00",
-   "note": "Russia intercepted 1,336 drones launched by Ukraine, Russia’s Defense Ministry said Monday, in what was the most claimed downings since Moscow’s all-out invasion of its neighbor ne",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "d1a696c7fdca",
-   "title": "Taiwan unveils 17% budget boost to upgrade new F-16V fighter fleet",
-   "url": "https://www.scmp.com/news/china/politics/article/3374614/taiwan-unveils-17-budget-boost-upgrade-new-f-16v-fighter-fleet",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-16T11:28:20+00:00",
-   "note": "Taiwan has earmarked an additional NT$42.8 billion (US$1.4 billion) for electronic warfare upgrades to all 66 of its new US-made F-16V fighters. The extra allocation represents an ",
-   "region": "EAST_ASIA"
   },
   {
    "id": "eef6f31ff083",
@@ -350,57 +380,12 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "943da84afed3",
-   "title": "Thai police probe transformer blast after Phuket shophouse fire kills 11",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374573/thai-police-probe-transformer-blast-after-phuket-shophouse-fire-kills-11",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-16T07:43:24+00:00",
-   "note": "A fire raged through a four-storey shophouse on Thailand’s resort island of Phuket early on Monday, killing 11 people and injuring 16, police said. The blaze began around 3.30am at",
-   "region": "OTHER"
-  },
-  {
-   "id": "1e404937e0f3",
-   "title": "Anthony Kwong falsely claimed father killed Abby Choi so damage was ‘minimal’, court hears",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374566/anthony-kwong-falsely-claimed-father-killed-abby-choi-so-damage-was-minimal-court-hears",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-16T07:05:00+00:00",
-   "note": "The former brother-in-law of slain Hong Kong socialite Abby Choi Tin-fung has said he previously concocted a false account with his brother to blame their father for her killing to",
-   "region": "OTHER"
-  },
-  {
-   "id": "dfbd286b5c49",
-   "title": "Thailand and Cambodia vie for global backing as Trump arrives for Asean summit",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374562/thailand-and-cambodia-vie-global-backing-trump-arrives-asean-summit",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-16T06:50:53+00:00",
-   "note": "Thailand and Cambodia are seeking to control the global diplomacy narrative over their border dispute as US President Donald Trump heads to Southeast Asia’s top annual summit. A br",
-   "region": "OTHER"
-  },
-  {
    "id": "3eccfc9598eb",
    "title": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
    "url": "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -415,7 +400,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.74,
+   "confidence": 0.6,
    "origins": 2,
    "sources": [
     "bbc",
@@ -426,12 +411,57 @@
    "region": "EUROPE"
   },
   {
+   "id": "e6f03827f976",
+   "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
+   "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-17T03:12:54+00:00",
+   "note": "Iran reports tanker mine strikes as a drone alert in Iraq and the arrival of a US aircraft carrier raise tensions.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "399b2d4609a4",
+   "title": "Live: Russian attacks target bridges in Kyiv, knocking out heating and water",
+   "url": "https://www.france24.com/en/europe/20261117-live-russian-attacks-target-bridges-in-kyiv-knocking-out-heating-and-water-ukraine",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-17T01:38:38+00:00",
+   "note": "Russian strikes hit two major bridges in Kyiv late Monday, part of an overnight attack that damaged critical infrastructure and disrupted heating and water in parts of the capital,",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "95beb53b9b24",
+   "title": "Hong Kong to deploy over 100 police officers daily for Interpol assembly",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374608/hong-kong-deploy-over-100-police-officers-daily-interpol-assembly",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-17T00:30:05+00:00",
+   "note": "Hong Kong police will deploy more than 100 officers per day to staff security screening points and conduct searches during the coming Interpol General Assembly in the city, with of",
+   "region": "OTHER"
+  },
+  {
    "id": "6c0f4d1f1387",
    "title": "欧盟对俄罗斯发起新一轮制裁列单145名个人和实体",
    "url": "https://www.chinanews.com.cn/gj/2026/11-16/10733157.shtml",
    "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -439,141 +469,6 @@
    "published": "2026-11-16T15:54:43+00:00",
    "note": "中新社布鲁塞尔11月16日电 (记者 德永健)欧盟16日对俄罗斯发起新一轮制裁，将145名个人和实体列为制裁对象。",
    "region": "EUROPE"
-  },
-  {
-   "id": "d845b8528157",
-   "title": "Cornell announces full review of Greek life after scrutiny over sexual assault case",
-   "url": "https://www.theguardian.com/us-news/2026/nov/16/cornell-review-greek-life-sexual-assault-case",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-16T19:09:36+00:00",
-   "note": "The university will conduct a series of measures after a former student was gang-raped at a fraternity house two years ago Cornell University is set to announce a “full review” of ",
-   "region": "OTHER"
-  },
-  {
-   "id": "29271dd4b2bf",
-   "title": "Saudi Arabia challenged by Yemeni allies over ceding ground to Houthis",
-   "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-16T19:04:07+00:00",
-   "note": "Strategy of redeploying forces to try to relieve siege of Taiz and protect Aden comes as Islamist group makes steady gains Saudi Arabia has been accused by anti-Houthi forces over ",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "97c07acd50bc",
-   "title": "Russell Brand investigated over ‘appalling’ message from jail, Downing Street says",
-   "url": "https://www.scmp.com/news/world/europe/article/3374646/russell-brand-investigated-over-appalling-message-jail-downing-street-says",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-16T17:31:23+00:00",
-   "note": "A message from disgraced comedian Russell Brand on social media after he was jailed for rape and sexual assault was “appalling” and being investigated, a spokesperson for the UK pr",
-   "region": "OTHER"
-  },
-  {
-   "id": "c43a86b364af",
-   "title": "Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah",
-   "url": "https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah?traffic_source=rss",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-16T17:18:14+00:00",
-   "note": "US pressure on Iraq to curb Tehran's influence leaves potential for direct confrontation with Iran-linked armed group.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "188d03f3c98c",
-   "title": "Iran braces for natural gas shortages during winter energy imbalance",
-   "url": "https://www.aljazeera.com/news/2026/11/16/iran-braces-for-natural-gas-shortages-during-winter-energy-imbalance?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-16T16:58:46+00:00",
-   "note": "The gas infrastructure in Iran has suffered from underdevelopment and sanctions, and now damage from the war.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "4515f531181d",
-   "title": "French film star Depardieu drops appeal against sexual conviction",
-   "url": "https://www.france24.com/en/video/20261116-french-film-star-depardieu-drops-appeal-against-sexual-conviction",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-16T15:51:39+00:00",
-   "note": "French film star Gérard Depardieu on Monday dropped his appeal against a conviction for sexually assaulting two women during the filming of a movie in 2021 and issued \"sincere apol",
-   "region": "EUROPE"
-  },
-  {
-   "id": "62a92e5841e0",
-   "title": "French troops in Ukraine 'wouldn't be a surprise'",
-   "url": "https://www.france24.com/en/video/20261116-french-troops-in-ukraine-wouldn-t-be-a-surprise",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-16T15:49:56+00:00",
-   "note": "French soldiers have been operating in Ukraine for several months, training Ukrainian troops and helping maintain military equipment, France 24's sister radio network Radio France ",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "2bee482770bb",
-   "title": "‘My arms are empty’: Tragedy strikes Gaza family after baby dies from cold",
-   "url": "https://www.aljazeera.com/features/2026/11/16/my-arms-are-empty-gaza-mothers-brace-for-another-winter-of-cold-and-fear?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-16T14:20:43+00:00",
-   "note": "A nine-month-old baby has died from hypothermia inside his family’s displacement tent in Gaza, as winter returns.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "dcdfa7470fdf",
-   "title": "French troops 'deployed in Ukraine on secret mission'",
-   "url": "https://www.france24.com/en/video/20261116-french-troops-deployed-in-ukraine-on-secret-mission",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-16T14:02:12+00:00",
-   "note": "French soldiers have been operating in Ukraine for several months, training Ukrainian troops and helping maintain military equipment, France 24's sister radio network Radio France ",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "f116c368f392",
@@ -591,71 +486,176 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "9fad14ad55bd",
-   "title": "“罗斯福”号抵达 美军在中东集结三个航空母舰打击群",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732664.shtml",
+   "id": "3e90966b1b40",
+   "title": "US judge strikes down Trump visa restrictions on foreign students, journalists",
+   "url": "https://www.france24.com/en/americas/20261116-us-judge-strikes-down-trump-visa-restrictions-on-foreign-students-journalists",
    "component": "military",
    "severity": 4,
-   "confidence": 0.38,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "france24"
    ],
-   "published": "2026-11-16T02:51:45+00:00",
-   "note": "中新网11月16日电 据阿联酋《国家报》报道，一名美官员证实，美军“罗斯福”号航空母舰已于当地时间15日抵达美军中央司令部责任区。",
+   "published": "2026-11-16T21:23:21+00:00",
+   "note": "A US federal judge has struck down a Trump administration policy that would have sharply limited the length of time foreign students and journalists could stay in the country, ruli",
+   "region": "OTHER"
+  },
+  {
+   "id": "bb9015b03c46",
+   "title": "Mamdani to disband NYPD unit deployed at Columbia protests",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/mamdani-to-disband-nypd-unit-deployed-at-columbia-protests?traffic_source=rss",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-16T21:16:02+00:00",
+   "note": "New York City Mayor Zohran Mamdani says he is disbanding the NYPD’s Strategic Response Group or SRG.",
+   "region": "OTHER"
+  },
+  {
+   "id": "63c490fa8b5a",
+   "title": "Third US aircraft carrier brings thousands more troops to Middle East",
+   "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-16T21:13:02+00:00",
+   "note": "The US president oscillates between strike threats on Iran and insisting the war ‘militarily is effectively over’ A third US aircraft carrier has arrived in the Middle East, US Cen",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8dc0594f7cf2",
+   "title": "Zelensky says Ukraine held talks with US, Europeans on peace prospects",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374650/ukraine-held-new-talks-us-european-officials-peace-prospects-zelensky-says",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-16T20:03:01+00:00",
+   "note": "President Volodymyr Zelensky said ⁠on Monday that Ukraine had ⁠held new online talks with ⁠US presidential envoys Steve Witkoff and Jared Kushner, as well as European representativ",
+   "region": "EUROPE"
+  },
+  {
+   "id": "97c07acd50bc",
+   "title": "Russell Brand investigated over ‘appalling’ message from behind bars",
+   "url": "https://www.scmp.com/news/world/europe/article/3374646/russell-brand-investigated-over-appalling-message-jail-downing-street-says",
+   "component": "internal",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-16T17:31:23+00:00",
+   "note": "A message from disgraced comedian Russell Brand on social media after he was jailed for rape and sexual assault was “appalling” and being investigated, a spokesperson for the UK pr",
+   "region": "OTHER"
+  },
+  {
+   "id": "fab8bfdcf496",
+   "title": "Iran launches drone attacks against US military base in Bahrain",
+   "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-15T18:03:56+00:00",
+   "note": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, ca",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "2cae49e16651",
+   "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
+   "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-15T15:59:04+00:00",
+   "note": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "2513322bec66",
+   "title": "Irish court jails man for life over Dublin knife attack that sparked riots",
+   "url": "https://www.aljazeera.com/news/2026/11/17/irish-court-jails-man-for-life-over-dublin-knife-attack-that-sparked-riots?traffic_source=rss",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-17T01:19:56+00:00",
+   "note": "Three children and a woman were injured in the attack outside a central Dublin school in 2023.",
    "region": "OTHER"
   }
  ],
  "breaking": [
   {
-   "id": "d845b8528157",
-   "title": "Cornell announces full review of Greek life after scrutiny over sexual assault case",
-   "url": "https://www.theguardian.com/us-news/2026/nov/16/cornell-review-greek-life-sexual-assault-case",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-16T19:09:36+00:00",
-   "note": "The university will conduct a series of measures after a former student was gang-raped at a fraternity house two years ago Cornell University is set to announce a “full review” of ",
-   "region": "OTHER"
-  },
-  {
-   "id": "29271dd4b2bf",
-   "title": "Saudi Arabia challenged by Yemeni allies over ceding ground to Houthis",
-   "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+   "id": "e6f03827f976",
+   "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
+   "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "aljazeera"
    ],
-   "published": "2026-11-16T19:04:07+00:00",
-   "note": "Strategy of redeploying forces to try to relieve siege of Taiz and protect Aden comes as Islamist group makes steady gains Saudi Arabia has been accused by anti-Houthi forces over ",
+   "published": "2026-11-17T03:12:54+00:00",
+   "note": "Iran reports tanker mine strikes as a drone alert in Iraq and the arrival of a US aircraft carrier raise tensions.",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "fc63cd4afc4b",
-   "title": "Man appears in court over deaths of two people in Leeds police pursuit crash",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/16/man-charged-after-two-people-die-in-leeds-police-pursuit-crash",
-   "component": "narrative",
-   "severity": 5,
+   "id": "399b2d4609a4",
+   "title": "Live: Russian attacks target bridges in Kyiv, knocking out heating and water",
+   "url": "https://www.france24.com/en/europe/20261117-live-russian-attacks-target-bridges-in-kyiv-knocking-out-heating-and-water-ukraine",
+   "component": "military",
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "france24"
    ],
-   "published": "2026-11-16T18:55:14+00:00",
-   "note": "Leigh Ross, 39, charged with causing death by dangerous driving of Cameron Bell, 22, and Jade Langton, 23 A man has appeared in court charged with causing the deaths of two people ",
-   "region": "OTHER"
+   "published": "2026-11-17T01:38:38+00:00",
+   "note": "Russian strikes hit two major bridges in Kyiv late Monday, part of an overnight attack that damaged critical infrastructure and disrupted heating and water in parts of the capital,",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "4f486fff680e",
-   "title": "Devon police renewed shotgun licence of known abuser who later killed his wife",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/16/domestic-abuser-john-perkins-shotguns-kathryn-devon-police",
+   "id": "5030335ba3ab",
+   "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
+   "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-17T01:38:13+00:00",
+   "note": "Yemen's army reports 173 Houthi fighters killed or wounded as government forces reposition to defend Aden.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "4a6a2f45af79",
+   "title": "Truck driver fired for ‘unsafe’ use of smartglasses in first reported sacking over device in Australia",
+   "url": "https://www.theguardian.com/technology/2026/nov/17/toll-truck-driver-fired-sacked-smartglasses-australia-ntwnfb",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -663,20 +663,20 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-16T18:46:53+00:00",
-   "note": "Ex-marine John Perkins, who also killed himself, had been violent to Kathryn Perkins over 42-year marriage, Exeter inquests hear A “controlling and violent” former Royal Marine who",
-   "region": "OTHER"
+   "published": "2026-11-17T01:25:08+00:00",
+   "note": "Toll employee Ricardo Martins Silva used smartglasses to take photos at an LPG terminal despite the risk of an explosion caused by an electrical spark, a court heard Get our breaki",
+   "region": "OCEANIA"
   }
  ],
  "coverage": {
-  "sources_ok": 20,
-  "sources_failed": 2,
-  "items": 30141,
-  "gdelt_events": 29906,
+  "sources_ok": 21,
+  "sources_failed": 1,
+  "items": 34921,
+  "gdelt_events": 34677,
   "mode": "live",
-  "data_through": "2026-11-15",
-  "clusters": 232,
-  "origins": 234,
+  "data_through": "2026-11-16",
+  "clusters": 240,
+  "origins": 243,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -694,11 +694,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.06,
+    "now": 2.64,
     "p50": 0.5,
-    "p90": 2.97,
-    "ratio": 6.1,
-    "z": 1.58
+    "p90": 3.06,
+    "ratio": 5.28,
+    "z": 1.47
    },
    "physical": {
     "now": 0.0,
@@ -708,40 +708,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 1.87,
+    "now": 1.85,
     "p50": 0.4,
     "p90": 2.23,
-    "ratio": 4.68,
-    "z": 1.26
+    "ratio": 4.63,
+    "z": 1.25
    },
    "economy": {
-    "now": 1.69,
+    "now": 1.55,
     "p50": 0.4,
     "p90": 2.05,
-    "ratio": 4.22,
-    "z": 1.17
+    "ratio": 3.87,
+    "z": 1.09
    },
    "internal": {
-    "now": 0.92,
+    "now": 0.77,
     "p50": 0.16,
     "p90": 1.15,
-    "ratio": 5.59,
-    "z": 0.94
+    "ratio": 4.65,
+    "z": 0.8
    },
    "narrative": {
-    "now": 0.06,
+    "now": 0.05,
     "p50": 0.06,
     "p90": 0.11,
     "ratio": null,
-    "z": null
+    "z": -0.01
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-19",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-20",
    "geti": 50.0
@@ -796,47 +792,47 @@
   },
   {
    "date": "2026-08-02",
-   "geti": 51.4
+   "geti": 50.0
   },
   {
    "date": "2026-08-03",
-   "geti": 49.8
+   "geti": 48.2
   },
   {
    "date": "2026-08-04",
-   "geti": 50.2
+   "geti": 49.1
   },
   {
    "date": "2026-08-05",
-   "geti": 44.3
+   "geti": 43.5
   },
   {
    "date": "2026-08-06",
-   "geti": 47.4
+   "geti": 46.9
   },
   {
    "date": "2026-08-07",
-   "geti": 46.0
-  },
-  {
-   "date": "2026-08-08",
-   "geti": 44.5
-  },
-  {
-   "date": "2026-08-09",
-   "geti": 40.7
-  },
-  {
-   "date": "2026-08-10",
    "geti": 45.6
   },
   {
+   "date": "2026-08-08",
+   "geti": 44.2
+  },
+  {
+   "date": "2026-08-09",
+   "geti": 40.6
+  },
+  {
+   "date": "2026-08-10",
+   "geti": 45.7
+  },
+  {
    "date": "2026-08-11",
-   "geti": 47.6
+   "geti": 47.9
   },
   {
    "date": "2026-08-12",
-   "geti": 49.3
+   "geti": 49.4
   },
   {
    "date": "2026-08-13",
@@ -844,55 +840,55 @@
   },
   {
    "date": "2026-08-14",
-   "geti": 49.0
+   "geti": 48.9
   },
   {
    "date": "2026-08-15",
-   "geti": 52.2
+   "geti": 52.1
   },
   {
    "date": "2026-08-16",
-   "geti": 53.3
+   "geti": 53.2
   },
   {
    "date": "2026-08-17",
-   "geti": 46.9
+   "geti": 46.7
   },
   {
    "date": "2026-08-18",
-   "geti": 43.1
+   "geti": 43.0
   },
   {
    "date": "2026-08-19",
-   "geti": 40.7
+   "geti": 40.6
   },
   {
    "date": "2026-08-20",
-   "geti": 45.5
+   "geti": 45.3
   },
   {
    "date": "2026-08-21",
-   "geti": 48.4
+   "geti": 48.3
   },
   {
    "date": "2026-08-22",
-   "geti": 46.1
+   "geti": 45.9
   },
   {
    "date": "2026-08-23",
-   "geti": 41.4
+   "geti": 41.2
   },
   {
    "date": "2026-08-24",
-   "geti": 45.5
+   "geti": 45.3
   },
   {
    "date": "2026-08-25",
-   "geti": 43.1
+   "geti": 42.7
   },
   {
    "date": "2026-08-26",
-   "geti": 38.0
+   "geti": 37.7
   },
   {
    "date": "2026-08-27",
@@ -900,51 +896,51 @@
   },
   {
    "date": "2026-08-28",
-   "geti": 50.7
+   "geti": 50.6
   },
   {
    "date": "2026-08-29",
-   "geti": 51.1
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 57.0
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 58.4
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 52.0
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 51.0
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 48.9
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 48.9
-  },
-  {
-   "date": "2026-09-05",
    "geti": 50.9
   },
   {
+   "date": "2026-08-30",
+   "geti": 56.8
+  },
+  {
+   "date": "2026-08-31",
+   "geti": 58.1
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 51.7
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 50.7
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 48.7
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 48.6
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 50.7
+  },
+  {
    "date": "2026-09-06",
-   "geti": 48.9
+   "geti": 48.6
   },
   {
    "date": "2026-09-07",
-   "geti": 44.2
+   "geti": 44.0
   },
   {
    "date": "2026-09-08",
-   "geti": 43.3
+   "geti": 43.2
   },
   {
    "date": "2026-09-09",
@@ -952,15 +948,15 @@
   },
   {
    "date": "2026-09-10",
-   "geti": 39.1
+   "geti": 39.2
   },
   {
    "date": "2026-09-11",
-   "geti": 38.8
+   "geti": 39.0
   },
   {
    "date": "2026-09-12",
-   "geti": 41.9
+   "geti": 42.0
   },
   {
    "date": "2026-09-13",
@@ -976,31 +972,31 @@
   },
   {
    "date": "2026-09-16",
-   "geti": 45.2
+   "geti": 45.4
   },
   {
    "date": "2026-09-17",
-   "geti": 45.2
+   "geti": 45.5
   },
   {
    "date": "2026-09-18",
-   "geti": 42.8
+   "geti": 43.0
   },
   {
    "date": "2026-09-19",
-   "geti": 46.4
+   "geti": 46.5
   },
   {
    "date": "2026-09-20",
-   "geti": 52.1
+   "geti": 52.2
   },
   {
    "date": "2026-09-21",
-   "geti": 48.6
+   "geti": 48.8
   },
   {
    "date": "2026-09-22",
-   "geti": 46.9
+   "geti": 47.0
   },
   {
    "date": "2026-09-23",
@@ -1016,83 +1012,83 @@
   },
   {
    "date": "2026-09-26",
-   "geti": 48.4
+   "geti": 48.5
   },
   {
    "date": "2026-09-27",
-   "geti": 47.9
+   "geti": 48.0
   },
   {
    "date": "2026-09-28",
-   "geti": 45.9
+   "geti": 46.1
   },
   {
    "date": "2026-09-29",
-   "geti": 43.1
+   "geti": 43.3
   },
   {
    "date": "2026-09-30",
-   "geti": 39.5
+   "geti": 39.6
   },
   {
    "date": "2026-10-01",
-   "geti": 35.9
+   "geti": 36.1
   },
   {
    "date": "2026-10-02",
-   "geti": 40.1
+   "geti": 40.2
   },
   {
    "date": "2026-10-03",
-   "geti": 41.3
+   "geti": 41.4
   },
   {
    "date": "2026-10-04",
-   "geti": 40.0
+   "geti": 40.1
   },
   {
    "date": "2026-10-05",
-   "geti": 44.3
+   "geti": 44.4
   },
   {
    "date": "2026-10-06",
-   "geti": 46.4
+   "geti": 46.6
   },
   {
    "date": "2026-10-07",
-   "geti": 45.1
+   "geti": 45.3
   },
   {
    "date": "2026-10-08",
-   "geti": 44.0
+   "geti": 44.2
   },
   {
    "date": "2026-10-09",
-   "geti": 47.2
+   "geti": 47.4
   },
   {
    "date": "2026-10-10",
-   "geti": 52.8
+   "geti": 53.1
   },
   {
    "date": "2026-10-11",
-   "geti": 57.5
+   "geti": 57.7
   },
   {
    "date": "2026-10-12",
-   "geti": 52.7
+   "geti": 52.9
   },
   {
    "date": "2026-10-13",
-   "geti": 52.2
+   "geti": 52.3
   },
   {
    "date": "2026-10-14",
-   "geti": 52.7
+   "geti": 52.9
   },
   {
    "date": "2026-10-15",
-   "geti": 56.7
+   "geti": 56.8
   },
   {
    "date": "2026-10-16",
@@ -1100,7 +1096,7 @@
   },
   {
    "date": "2026-10-17",
-   "geti": 56.5
+   "geti": 56.6
   },
   {
    "date": "2026-10-18",
@@ -1108,11 +1104,11 @@
   },
   {
    "date": "2026-10-19",
-   "geti": 58.5
+   "geti": 58.6
   },
   {
    "date": "2026-10-20",
-   "geti": 54.7
+   "geti": 54.8
   },
   {
    "date": "2026-10-21",
@@ -1176,7 +1172,7 @@
   },
   {
    "date": "2026-11-05",
-   "geti": 65.1
+   "geti": 65.0
   },
   {
    "date": "2026-11-06",
@@ -1188,7 +1184,7 @@
   },
   {
    "date": "2026-11-08",
-   "geti": 69.0
+   "geti": 68.9
   },
   {
    "date": "2026-11-09",
@@ -1217,6 +1213,10 @@
   {
    "date": "2026-11-15",
    "geti": 73.7
+  },
+  {
+   "date": "2026-11-16",
+   "geti": 72.7
   }
  ],
  "policy": {
@@ -1224,27 +1224,27 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Forensic expert says his analysis raises doubts about how Epstein died",
-    "url": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
+    "title": "青海省海东市政协原副主席马维忠被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733261.shtml",
     "country": "",
-    "source": "bbc",
-    "when": "2026-11-16"
+    "source": "chinanews_cn",
+    "when": "2026-11-17"
    },
    {
     "kind": "judicial",
-    "title": "Ministry of Justice investigating Russell Brand message from prison claiming he is not guilty",
-    "url": "https://www.theguardian.com/news/2026/nov/16/ministry-of-justice-investigating-russell-brand-message",
-    "country": "",
-    "source": "guardian",
-    "when": "2026-11-16"
+    "title": "湖北检察机关依法对顾军涉嫌受贿案提起公诉",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733248.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-17"
    },
    {
     "kind": "judicial",
-    "title": "Russell Brand investigated over ‘appalling’ message from jail, Downing Street says",
-    "url": "https://www.scmp.com/news/world/europe/article/3374646/russell-brand-investigated-over-appalling-message-jail-downing-street-says",
-    "country": "GB",
-    "source": "scmp",
-    "when": "2026-11-16"
+    "title": "湖南省娄底市人民政府原常务副市长谢学龙被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733220.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-17"
    },
    {
     "kind": "judicial",
@@ -1252,14 +1252,30 @@
     "url": "https://www.theguardian.com/australia-news/2026/nov/17/proposed-nsw-laws-to-allow-coalmine-to-increase-production-pose-serious-corruption-risk",
     "country": "",
     "source": "guardian",
+    "when": "2026-11-17"
+   },
+   {
+    "kind": "judicial",
+    "title": "Paraguay ex-president moved to military jail amid special treatment reports",
+    "url": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports?traffic_source=rss",
+    "country": "",
+    "source": "aljazeera",
     "when": "2026-11-16"
    },
    {
     "kind": "judicial",
-    "title": "Man sentenced over 'horrific' attempted murder of three children",
-    "url": "https://www.bbc.co.uk/news/articles/cr0qj0nzwj34o?at_medium=RSS&at_campaign=rss",
+    "title": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
+    "url": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
     "country": "",
     "source": "bbc",
+    "when": "2026-11-16"
+   },
+   {
+    "kind": "judicial",
+    "title": "Russell Brand investigated over ‘appalling’ message from behind bars",
+    "url": "https://www.scmp.com/news/world/europe/article/3374646/russell-brand-investigated-over-appalling-message-jail-downing-street-says",
+    "country": "GB",
+    "source": "scmp",
     "when": "2026-11-16"
    },
    {
@@ -1269,22 +1285,14 @@
     "country": "CN",
     "source": "chinanews",
     "when": "2026-11-16"
-   },
-   {
-    "kind": "judicial",
-    "title": "Ex-PM Hasina plans December return to Bangladesh despite ‘threat of death’",
-    "url": "https://www.scmp.com/news/asia/south-asia/article/3374610/ex-pm-hasina-plans-december-return-bangladesh-despite-threat-death",
-    "country": "FR",
-    "source": "scmp",
-    "when": "2026-11-16"
    }
   ],
-  "notable_total": 7,
+  "notable_total": 8,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 7
+   "notable": 8
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1324,20 +1332,20 @@
    {
     "id": "usd",
     "label": "广义美元",
-    "last": 121.88,
-    "chg5": 0.18,
-    "z": -0.045,
+    "last": 122.65,
+    "chg5": 0.94,
+    "z": -0.07,
     "ok": true,
-    "asof": "2026-11-06"
+    "asof": "2026-11-13"
    },
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 5.1,
-    "chg5": 4.08,
-    "z": -0.236,
+    "last": 5.15,
+    "chg5": 6.4,
+    "z": -0.259,
     "ok": true,
-    "asof": "2026-11-12"
+    "asof": "2026-11-13"
    }
   ],
   "asof": "2026-11-13",
@@ -1346,7 +1354,7 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 106,
+    "items": 105,
     "error": ""
    },
    {
@@ -1358,19 +1366,19 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 106,
+    "items": 105,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 97,
+    "items": 101,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 100,
+    "items": 101,
     "error": ""
    }
   ],
@@ -2196,130 +2204,130 @@
   "mode": "live"
  },
  "hazard": {
-  "index": null,
-  "z": null,
+  "index": 48.9,
+  "z": -0.04,
   "components": [
    {
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.73,
-    "carry": 9.01,
-    "z": null,
-    "score": null,
-    "available": false
+    "value": 9.92,
+    "carry": 9.12,
+    "z": -0.08,
+    "score": 47.4,
+    "available": true
    },
    {
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 10.0,
-    "carry": 14.5,
-    "z": null,
-    "score": null,
-    "available": false
+    "value": 11.0,
+    "carry": 14.08,
+    "z": 0.15,
+    "score": 54.5,
+    "available": true
    },
    {
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
     "value": 1.0,
-    "carry": 2.31,
-    "z": null,
-    "score": null,
-    "available": false
+    "carry": 2.15,
+    "z": -0.07,
+    "score": 47.7,
+    "available": true
    },
    {
     "key": "gdacs_alert",
     "label": "红色预警",
     "weight": 0.16,
-    "value": 0.0,
-    "carry": 0.0,
-    "z": null,
-    "score": null,
-    "available": false
+    "value": 1.0,
+    "carry": 0.12,
+    "z": 0.24,
+    "score": 57.5,
+    "available": true
    },
    {
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 2.0,
-    "carry": 2.64,
-    "z": null,
-    "score": null,
-    "available": false
+    "value": 1.33,
+    "carry": 2.48,
+    "z": -0.61,
+    "score": 31.7,
+    "available": true
    }
   ],
-  "history_days": 13,
-  "components_ok": 0,
+  "history_days": 14,
+  "components_ok": 5,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 14,
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "9 km E of Union, Philippines",
-     "v": 5.5,
-     "ts": "2026-11-15T13:41+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyek"
+     "t": "148 km WSW of Tual, Indonesia",
+     "v": 6.6,
+     "ts": "2026-11-16T21:11+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu"
     },
     {
-     "t": "Fiji region",
-     "v": 5.5,
-     "ts": "2026-11-15T05:15+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyca"
+     "t": "95 km WSW of Changuillo, Peru",
+     "v": 5.4,
+     "ts": "2026-11-16T16:16+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tykh"
     },
     {
-     "t": "169 km NW of Gorontalo, Indonesia",
-     "v": 5.1,
-     "ts": "2026-11-15T15:41+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4"
+     "t": "20 km NW of Anamizu, Japan",
+     "v": 5.4,
+     "ts": "2026-11-16T04:24+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyhr"
     },
     {
-     "t": "256 km SSE of Ambon, Indonesia",
+     "t": "68 km S of Sarangani, Philippines",
      "v": 5.0,
-     "ts": "2026-11-15T20:51+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyg6"
+     "ts": "2026-11-16T07:14+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyil"
     },
     {
-     "t": "74 km N of Pārūn, Afghanistan",
-     "v": 5.0,
-     "ts": "2026-11-15T17:48+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfh"
-    },
-    {
-     "t": "44 km S of Jurm, Afghanistan",
-     "v": 4.9,
-     "ts": "2026-11-15T21:37+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyga"
-    },
-    {
-     "t": "141 km ESE of Petropavlovsk-Kamchatsky, Russia",
+     "t": "28 km SW of Changuillo, Peru",
      "v": 4.8,
-     "ts": "2026-11-15T22:38+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tygk"
+     "ts": "2026-11-16T16:23+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tykk"
     },
     {
-     "t": "19 km NW of Albardón, Argentina",
+     "t": "166 km N of Caluula, Somalia",
      "v": 4.8,
-     "ts": "2026-11-15T03:59+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tybx"
+     "ts": "2026-11-16T13:30+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyjy"
     },
     {
-     "t": "92 km NW of Houma, Tonga",
+     "t": "77 km WSW of Changuillo, Peru",
      "v": 4.7,
-     "ts": "2026-11-15T07:36+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyd3"
+     "ts": "2026-11-16T19:26+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tym8"
     },
     {
-     "t": "27 km ESE of Union, Philippines",
+     "t": "146 km SSE of Isangel, Vanuatu",
      "v": 4.6,
-     "ts": "2026-11-15T14:17+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyes"
+     "ts": "2026-11-16T21:55+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyns"
+    },
+    {
+     "t": "144 km NW of Kavieng, Papua New Guinea",
+     "v": 4.6,
+     "ts": "2026-11-16T19:33+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymc"
+    },
+    {
+     "t": "113 km ESE of Wadomari, Japan",
+     "v": 4.6,
+     "ts": "2026-11-16T13:32+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyjz"
     }
    ],
    "eonet": [
@@ -2332,79 +2340,61 @@
    ],
    "gdacs": [
     {
-     "t": "Green earthquake (Magnitude 5.5M, Depth:9.971km) in Philippines 15/11/2026 13:41",
-     "v": "green",
-     "ts": "2026-11-15 13:55",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577487"
+     "t": "Orange notification for tropical cyclone AKVAN-26. Population affected by Catego",
+     "v": "orange",
+     "ts": "2026-11-16 20:06",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351"
     },
     {
-     "t": "Green notification for tropical cyclone XAVIER-26. Population affected by Catego",
+     "t": "Green earthquake (Magnitude 6.6M, Depth:68km) in Indonesia 16/11/2026 21:11 UTC,",
      "v": "green",
-     "ts": "2026-11-15 08:51",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350"
+     "ts": "2026-11-16 21:26",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577696"
     },
     {
-     "t": "Green earthquake (Magnitude 5.5M, Depth:469.881km) in Fiji 15/11/2026 05:15 UTC,",
+     "t": "Green flood alert in Croatia",
      "v": "green",
-     "ts": "2026-11-15 05:31",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577445"
+     "ts": "2026-11-16 05:50",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104285"
     },
     {
-     "t": "Green forest fire notification in Niger, Burkina Faso",
+     "t": "Green forest fire notification in Nigeria, Niger",
      "v": "green",
-     "ts": "2026-11-15 20:01",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033869"
+     "ts": "2026-11-16 04:17",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033880"
     },
     {
-     "t": "Green forest fire notification in Nigeria",
+     "t": "Green forest fire notification in Ethiopia, Sudan",
      "v": "green",
-     "ts": "2026-11-15 04:20",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033879"
+     "ts": "2026-11-16 16:06",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033887"
     },
     {
-     "t": "Green forest fire notification in Nigeria",
+     "t": "Green forest fire notification in Central African Republic, Chad",
      "v": "green",
-     "ts": "2026-11-15 04:20",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033874"
+     "ts": "2026-11-16 16:23",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033697"
     },
     {
-     "t": "Green forest fire notification in Nigeria",
+     "t": "Green forest fire notification in Central African Republic, Chad",
      "v": "green",
-     "ts": "2026-11-15 04:20",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033883"
-    },
-    {
-     "t": "Green forest fire notification in Nigeria",
-     "v": "green",
-     "ts": "2026-11-15 04:20",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033886"
-    },
-    {
-     "t": "Green forest fire notification in Nigeria",
-     "v": "green",
-     "ts": "2026-11-15 04:20",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033856"
-    },
-    {
-     "t": "Green forest fire notification in Nigeria",
-     "v": "green",
-     "ts": "2026-11-15 04:20",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033851"
+     "ts": "2026-11-16 16:23",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033892"
     }
    ],
    "kp": [
     {
-     "t": "Kp 2.0 峰值（当日 8 个时段）",
-     "v": 2.0,
-     "ts": "2026-11-15",
+     "t": "Kp 1.33 峰值（当日 8 个时段）",
+     "v": 1.33,
+     "ts": "2026-11-16",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
   }
  },
  "epidemic": {
-  "index": null,
-  "z": null,
+  "index": 65.9,
+  "z": 0.53,
   "components": [
    {
     "key": "who_don",
@@ -2412,50 +2402,50 @@
     "weight": 0.4,
     "value": 0.0,
     "carry": 0.03,
-    "z": null,
-    "score": null,
-    "available": false
+    "z": -0.13,
+    "score": 46.0,
+    "available": true
    },
    {
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
     "value": 2.0,
-    "carry": 1.69,
-    "z": null,
-    "score": null,
-    "available": false
+    "carry": 1.73,
+    "z": 1.89,
+    "score": 91.4,
+    "available": true
    },
    {
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.85,
-    "carry": 0.94,
-    "z": null,
-    "score": null,
-    "available": false
+    "value": 0.41,
+    "carry": 0.87,
+    "z": 0.04,
+    "score": 51.1,
+    "available": true
    }
   ],
-  "history_days": 13,
-  "components_ok": 0,
+  "history_days": 14,
+  "components_ok": 3,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 13,
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "ongoing": true
   },
   "evidence": {
    "who": [
     {
-     "t": "忙于“甩锅”？美交通部长拒绝为全美航班停飞事件道歉",
+     "t": "FAA停飞风波未平，美联航又遭遇“大面积系统故障”",
      "v": "政策",
      "ts": "",
      "u": ""
     },
     {
-     "t": "停飞影响持续 美航空运输预计16日全面恢复 空管老旧问题再受关注",
+     "t": "忙于“甩锅”？美交通部长拒绝为全美航班停飞事件道歉",
      "v": "政策",
      "ts": "",
      "u": ""
@@ -2464,16 +2454,18 @@
   }
  },
  "doom": {
-  "index": 73.7,
-  "z": 0.62,
+  "index": 69.3,
+  "z": 0.49,
   "parts": {
-   "military": 0.62,
-   "hazard": null,
-   "epidemic": null
+   "military": 0.59,
+   "hazard": -0.03,
+   "epidemic": 0.4
   },
   "resonance": 0,
-  "partial": true,
+  "partial": false,
   "available": [
+   "epidemic",
+   "hazard",
    "military"
   ]
  },
@@ -2505,13 +2497,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 142,
-   "items": 29906,
+   "items": 34677,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 19,
+   "items": 20,
    "error": "",
    "undated": 0
   },
@@ -2525,14 +2517,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 36,
+   "items": 37,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 10,
+   "items": 8,
    "error": "",
    "undated": 0
   },
@@ -2559,9 +2551,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）",
+   "ok": true,
+   "items": 6,
+   "error": "",
    "undated": 0
   },
   {
@@ -2581,14 +2573,14 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 11,
+   "items": 14,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 106,
+   "items": 105,
    "error": ""
   },
   {
@@ -2600,19 +2592,19 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 106,
+   "items": 105,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 97,
+   "items": 101,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 100,
+   "items": 101,
    "error": ""
   },
   {
@@ -2648,7 +2640,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 10,
+   "items": 11,
    "error": ""
   },
   {
@@ -2660,7 +2652,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 10,
+   "items": 7,
    "error": ""
   },
   {
@@ -2678,7 +2670,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 11960,
+   "items": 6750,
    "error": ""
   },
   {
