@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-17T03:50:52+00:00",
+ "generated_at": "2026-11-17T15:57:52+00:00",
  "date": "2026-11-16",
  "geti": 72.7,
  "delta_z": 0.53,
@@ -245,54 +245,9 @@
  ],
  "events": [
   {
-   "id": "45efba71e6ad",
-   "title": "乌克兰首都基辅响起爆炸声",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-17/10733166.shtml",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-16T23:00:51+00:00",
-   "note": "中新网11月17日电 据乌克兰媒体报道，当地时间16日晚，乌克兰首都基辅响起爆炸声。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "5030335ba3ab",
-   "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
-   "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-17T01:38:13+00:00",
-   "note": "Yemen's army reports 173 Houthi fighters killed or wounded as government forces reposition to defend Aden.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "4a6a2f45af79",
-   "title": "Truck driver fired for ‘unsafe’ use of smartglasses in first reported sacking over device in Australia",
-   "url": "https://www.theguardian.com/technology/2026/nov/17/toll-truck-driver-fired-sacked-smartglasses-australia-ntwnfb",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-17T01:25:08+00:00",
-   "note": "Toll employee Ricardo Martins Silva used smartglasses to take photos at an LPG terminal despite the risk of an explosion caused by an electrical spark, a court heard Get our breaki",
-   "region": "OCEANIA"
-  },
-  {
-   "id": "f6b0f47ee18a",
-   "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
-   "url": "https://www.france24.com/en/europe/20261117-russian-strikes-hit-two-key-bridges-in-kyiv-disrupting-water-and-power-supplies-ukraine",
+   "id": "6a9fc079c60b",
+   "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
+   "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -300,69 +255,84 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-17T00:58:33+00:00",
-   "note": "Russian forces struck two major bridges crossing the Dnipro River in Kyiv late Monday, damaging critical infrastructure and causing water and power cuts in parts of the Ukrainian c",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-17T15:44:54+00:00",
+   "note": "President Donald Trump said Tuesday that US authorities take any possible threats to Washington ‘very seriously’, following reports that Iran was planning to target senior Trump ad",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "c439e56b6d96",
-   "title": "UK’s Burnham says Brexit ‘has not worked’ before key EU talks",
-   "url": "https://www.scmp.com/news/world/europe/article/3374654/uk-pm-andy-burnham-says-brexit-has-not-worked-ahead-reset-summit-eu",
-   "component": "narrative",
+   "id": "09d13504f80d",
+   "title": "Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-warns-iran-over-reported-dirty-bomb-threat-plans-against-washington?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-17T15:13:57+00:00",
+   "note": "President Donald Trump responded to a CNN report that Iran was working on plans to attack Washington, DC",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "5fda9d714ba9",
+   "title": "Is Iran plotting a ‘dirty bomb’ attack in the US? What we know",
+   "url": "https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-17T14:59:39+00:00",
+   "note": "A CNN report quoting unnamed US officials alleges Tehran is developing plans for an attack on officials in Washington.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "2da83892b3b5",
+   "title": "Did the US use ‘blackout bombs’ in Iran? Images reveal mysterious fibres at infrastructure sites",
+   "url": "https://www.france24.com/en/middle-east/20261117-iran-us-graphite-blackout-bombs-infrastructure",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-17T14:39:16+00:00",
+   "note": "Photographs published by Iranian local media suggest that US forces may have used graphite bombs, also known as ‘blackout bombs’, against infrastructure in Iran in recent days. The",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "111557c59eb7",
+   "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
+   "url": "https://www.dw.com/en/iran-dismisses-report-of-alleged-dirty-bomb-attack-on-washington/a-79970741?maca=en-rss-en-world-4025-rdf",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-17T14:39:00+00:00",
+   "note": "Iran has said CNN's claim that Tehran would attack Washington with a \"dirty bomb\" was an attempt to manufacture further legitimacy to continue the war. Trump has said his administr",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "ad92a432419f",
+   "title": "What does China’s massive warplane build-up say about its combat readiness?",
+   "url": "https://www.scmp.com/news/china/military/article/3374694/what-does-chinas-massive-warplane-build-say-about-its-combat-readiness",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-16T22:08:48+00:00",
-   "note": "UK Prime Minister Andy Burnham said on Monday that it is time to admit that Brexit has not delivered for the UK and that the country needs a much closer relationship with the Europ",
-   "region": "EUROPE"
-  },
-  {
-   "id": "47b32588134d",
-   "title": "Sudanese army air attack kills 13 in western Sudan: Rights group",
-   "url": "https://www.aljazeera.com/news/2026/11/16/sudanese-army-air-attack-kills-13-in-western-sudan-rights-group?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-16T21:06:19+00:00",
-   "note": "'Preliminary monitoring' shows women and children killed, homes destroyed in West Kordofan, says Emergency Lawyers.",
-   "region": "AFRICA"
-  },
-  {
-   "id": "1cdbbf666093",
-   "title": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
-   "url": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-16T20:33:57+00:00",
-   "note": "Professor Michael Freeman tells BBC Newsnight that he believes the convicted sex offender's injuries are consistent with a homicide.",
-   "region": "OTHER"
-  },
-  {
-   "id": "990b22673f8d",
-   "title": "US judge sets March retrial for Lindsay Clancy, accused of killing her 3 children",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374644/judge-sets-march-retrial-lindsay-clancy-accused-killing-her-3-children",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-16T16:41:36+00:00",
-   "note": "A Massachusetts judge on Monday set a second trial for Lindsay Clancy for March 29 after a jury deadlocked in her initial trial on murder charges for killing her three young childr",
-   "region": "OTHER"
+   "published": "2026-11-17T13:00:06+00:00",
+   "note": "The Chinese air force appears to have significantly expanded one of its largest annual combat exercises, with satellite imagery showing nearly 300 aircraft across 11 bases in weste",
+   "region": "EAST_ASIA"
   },
   {
    "id": "eef6f31ff083",
@@ -370,7 +340,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/16/israel-amazon-facial-recognition-palestinians",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -395,39 +365,144 @@
    "region": "OTHER"
   },
   {
-   "id": "aa637ea3de86",
-   "title": "Gérard Depardieu drops appeal against sexual assault conviction",
-   "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
+   "id": "20ac3012505c",
+   "title": "UK sanctions eight Israeli construction firms over West Bank settlements",
+   "url": "https://www.aljazeera.com/news/2026/11/17/uk-sanctions-8-israeli-firms-over-occupied-west-bank-settlements-gaza-aid?traffic_source=rss",
+   "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.6,
+   "confidence": 0.82,
    "origins": 2,
    "sources": [
-    "bbc",
-    "guardian"
+    "aljazeera",
+    "bbc"
    ],
-   "published": "2026-11-16T13:40:56+00:00",
-   "note": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
+   "published": "2026-11-17T14:09:08+00:00",
+   "note": "Settler group also sanctioned for blocking Gaza aid as foreign secretary calls for 'protecting the two-state solution'.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "aaa4be75ad26",
+   "title": "俄称克里米亚大桥再遭袭击 交通暂时中断",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-17/10733611.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-17T11:02:56+00:00",
+   "note": "中新社莫斯科11月17日电 俄罗斯侦查委员会17日通报说，针对乌克兰方面袭击克里米亚大桥，俄方已刑事立案并展开调查。",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "90ecf10a99c3",
+   "title": "France hit by fresh nationwide public sector strike",
+   "url": "https://www.france24.com/en/video/20261117-france-hit-by-fresh-nationwide-public-sector-strike",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-17T15:43:01+00:00",
+   "note": "Demonstrators gathered across France on Tuesday after unions called a nationwide strike by public sector workers in a bid to secure pay rises, despite government efforts to ease te",
    "region": "EUROPE"
   },
   {
-   "id": "e6f03827f976",
-   "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
-   "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+   "id": "1e587a85c694",
+   "title": "Ukraine hails attack on vital Kerch bridge linking Russia and Crimea – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/17/europe-ukraine-russia-crimea-kerch-bridge-attack-latest-news-updates",
    "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-17T15:29:41+00:00",
+   "note": "Zelenskyy praises ‘unprecedented attack’ as the Kremlin says bridge will be restored and will be ‘better than ever’ following strike Ukraine critically damages Kerch bridge French ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "ab607a9ec30d",
+   "title": "Ukraine damages Russia’s Crimean bridge in major strike",
+   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-17T13:21:42+00:00",
+   "note": "Ukrainian drones and missiles destroyed the central road section of the bridge linking Russia and Crimea on Tuesday, inflicting a military and symbolic blow on President Vladimir P",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "a5ed774ada0d",
+   "title": "At the origin of France’s education protests, students refuse to give up",
+   "url": "https://www.aljazeera.com/news/2026/11/17/at-the-origin-of-frances-education-protests-students-refuse-to-give-up?traffic_source=rss",
+   "component": "internal",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-17T03:12:54+00:00",
-   "note": "Iran reports tanker mine strikes as a drone alert in Iraq and the arrival of a US aircraft carrier raise tensions.",
+   "published": "2026-11-17T13:14:25+00:00",
+   "note": "Blockades continue at some schools in the Parisian suburbs as students and teachers say little has improved.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "a7c906b32dc1",
+   "title": "Ukraine: Two bridges in Kyiv heavily damaged by Russian strikes",
+   "url": "https://www.france24.com/en/video/20261117-ukraine-two-bridges-in-kyiv-heavily-damaged-by-russian-strikes",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-17T12:54:27+00:00",
+   "note": "Russia hit two major bridges in Kyiv while Ukraine struck Moscow's link to annexed Crimea for the second night in a row, officials said Tuesday, ahead of a historic meeting of Chin",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "41e6f98c8692",
+   "title": "Ed Miliband announces first sanctions on Israeli firms working in West Bank",
+   "url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-17T12:18:08+00:00",
+   "note": "Move is designed to hinder building of more illegal settlements, which Foreign Office says Israel has ‘refused to clamp down on’ UK politics live – latest updates Ed Miliband has a",
    "region": "MIDDLE_EAST"
   },
   {
+   "id": "8f68f20b08f5",
+   "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
+   "url": "https://www.france24.com/en/video/20261117-ukraine-strikes-major-russian-bridge-in-crimea-with-drones-and-missiles",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-17T12:17:34+00:00",
+   "note": "Ukrainian drones and missiles struck a vital bridge linking Russia to the occupied Crimean Peninsula, Ukrainian President Volodymyr Zelensky said Tuesday, calling it an “unpreceden",
+   "region": "RUSSIA_CIS"
+  },
+  {
    "id": "399b2d4609a4",
-   "title": "Live: Russian attacks target bridges in Kyiv, knocking out heating and water",
+   "title": "🔴 Live: Kerch Bridge to occupied Crimea closed after Ukrainian strikes collapse road section",
    "url": "https://www.france24.com/en/europe/20261117-live-russian-attacks-target-bridges-in-kyiv-knocking-out-heating-and-water-ukraine",
    "component": "military",
    "severity": 4,
@@ -436,84 +511,39 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-17T01:38:38+00:00",
-   "note": "Russian strikes hit two major bridges in Kyiv late Monday, part of an overnight attack that damaged critical infrastructure and disrupted heating and water in parts of the capital,",
+   "published": "2026-11-17T11:11:20+00:00",
+   "note": "",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "95beb53b9b24",
-   "title": "Hong Kong to deploy over 100 police officers daily for Interpol assembly",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374608/hong-kong-deploy-over-100-police-officers-daily-interpol-assembly",
+   "id": "acd800fef2b9",
+   "title": "‘Welcome to Shenzhen’ – the machine rolling out the red carpet for Apec leaders",
+   "url": "https://www.scmp.com/news/article/3374737/welcome-shenzhen-machine-rolling-out-red-carpet-apec-leaders",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-17T00:30:05+00:00",
-   "note": "Hong Kong police will deploy more than 100 officers per day to staff security screening points and conduct searches during the coming Interpol General Assembly in the city, with of",
+   "published": "2026-11-17T09:18:18+00:00",
+   "note": "It goes from zero to around 60 – metres that is – in less than a minute and is ready to go again at a moment’s notice. Meet Shenzhen airport’s red carpet machine, which can lay car",
    "region": "OTHER"
   },
   {
-   "id": "6c0f4d1f1387",
-   "title": "欧盟对俄罗斯发起新一轮制裁列单145名个人和实体",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10733157.shtml",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-16T15:54:43+00:00",
-   "note": "中新社布鲁塞尔11月16日电 (记者 德永健)欧盟16日对俄罗斯发起新一轮制裁，将145名个人和实体列为制裁对象。",
-   "region": "EUROPE"
-  },
-  {
-   "id": "f116c368f392",
-   "title": "波兰逮捕三名涉嫌策划恐怖袭击的青少年",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-16/10733000.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-16T12:04:09+00:00",
-   "note": "中新网北京11月16日电 华沙消息：波兰安全部门16日逮捕了三名涉嫌策划恐怖袭击的青少年，年龄在16岁至17岁之间。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "3e90966b1b40",
-   "title": "US judge strikes down Trump visa restrictions on foreign students, journalists",
-   "url": "https://www.france24.com/en/americas/20261116-us-judge-strikes-down-trump-visa-restrictions-on-foreign-students-journalists",
+   "id": "a1e57dc1c8c6",
+   "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+   "url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "france24"
+    "bbc"
    ],
-   "published": "2026-11-16T21:23:21+00:00",
-   "note": "A US federal judge has struck down a Trump administration policy that would have sharply limited the length of time foreign students and journalists could stay in the country, ruli",
-   "region": "OTHER"
-  },
-  {
-   "id": "bb9015b03c46",
-   "title": "Mamdani to disband NYPD unit deployed at Columbia protests",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/mamdani-to-disband-nypd-unit-deployed-at-columbia-protests?traffic_source=rss",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-16T21:16:02+00:00",
-   "note": "New York City Mayor Zohran Mamdani says he is disbanding the NYPD’s Strategic Response Group or SRG.",
-   "region": "OTHER"
+   "published": "2026-11-17T05:59:01+00:00",
+   "note": "Efforts to recover bodies after a “double-tap” attack in southern Ukraine are being hampered by continuing Russian strikes, officials say.",
+   "region": "RUSSIA_CIS"
   },
   {
    "id": "63c490fa8b5a",
@@ -531,36 +561,6 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "8dc0594f7cf2",
-   "title": "Zelensky says Ukraine held talks with US, Europeans on peace prospects",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3374650/ukraine-held-new-talks-us-european-officials-peace-prospects-zelensky-says",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-16T20:03:01+00:00",
-   "note": "President Volodymyr Zelensky said ⁠on Monday that Ukraine had ⁠held new online talks with ⁠US presidential envoys Steve Witkoff and Jared Kushner, as well as European representativ",
-   "region": "EUROPE"
-  },
-  {
-   "id": "97c07acd50bc",
-   "title": "Russell Brand investigated over ‘appalling’ message from behind bars",
-   "url": "https://www.scmp.com/news/world/europe/article/3374646/russell-brand-investigated-over-appalling-message-jail-downing-street-says",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-16T17:31:23+00:00",
-   "note": "A message from disgraced comedian Russell Brand on social media after he was jailed for rape and sexual assault was “appalling” and being investigated, a spokesperson for the UK pr",
-   "region": "OTHER"
-  },
-  {
    "id": "fab8bfdcf496",
    "title": "Iran launches drone attacks against US military base in Bahrain",
    "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
@@ -576,56 +576,56 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "2cae49e16651",
-   "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.17,
+   "id": "73f6b6a9ffa2",
+   "title": "Calls for cooperation as ASEAN summit awaits Trump",
+   "url": "https://www.france24.com/en/video/20261117-calls-for-cooperation-as-asean-summit-awaits-trump",
+   "component": "diplomacy",
+   "severity": 3,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "france24"
    ],
-   "published": "2026-11-15T15:59:04+00:00",
-   "note": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-17T15:37:28+00:00",
+   "note": "The twice-yearly ASEAN summit of Southeast Asian nations is underway, with major global powers also descending upon the Philippines. It is a crucial moment for the region, as ASEAN",
+   "region": "OTHER"
   },
   {
-   "id": "2513322bec66",
-   "title": "Irish court jails man for life over Dublin knife attack that sparked riots",
-   "url": "https://www.aljazeera.com/news/2026/11/17/irish-court-jails-man-for-life-over-dublin-knife-attack-that-sparked-riots?traffic_source=rss",
+   "id": "2c836d104bc4",
+   "title": "Mozambique opposition leader goes on trial for terrorism over deadly election protests",
+   "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
    "component": "internal",
    "severity": 3,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "bbc"
    ],
-   "published": "2026-11-17T01:19:56+00:00",
-   "note": "Three children and a woman were injured in the attack outside a central Dublin school in 2023.",
+   "published": "2026-11-17T15:19:19+00:00",
+   "note": "Venâncio Mondlane faces several charges over 2024 post-election protests that left hundreds of people dead.",
    "region": "OTHER"
   }
  ],
  "breaking": [
   {
-   "id": "e6f03827f976",
-   "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
-   "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+   "id": "6a9fc079c60b",
+   "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
+   "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
    "component": "military",
-   "severity": 4,
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "france24"
    ],
-   "published": "2026-11-17T03:12:54+00:00",
-   "note": "Iran reports tanker mine strikes as a drone alert in Iraq and the arrival of a US aircraft carrier raise tensions.",
+   "published": "2026-11-17T15:44:54+00:00",
+   "note": "President Donald Trump said Tuesday that US authorities take any possible threats to Washington ‘very seriously’, following reports that Iran was planning to target senior Trump ad",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "399b2d4609a4",
-   "title": "Live: Russian attacks target bridges in Kyiv, knocking out heating and water",
-   "url": "https://www.france24.com/en/europe/20261117-live-russian-attacks-target-bridges-in-kyiv-knocking-out-heating-and-water-ukraine",
+   "id": "90ecf10a99c3",
+   "title": "France hit by fresh nationwide public sector strike",
+   "url": "https://www.france24.com/en/video/20261117-france-hit-by-fresh-nationwide-public-sector-strike",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
@@ -633,50 +633,50 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-17T01:38:38+00:00",
-   "note": "Russian strikes hit two major bridges in Kyiv late Monday, part of an overnight attack that damaged critical infrastructure and disrupted heating and water in parts of the capital,",
+   "published": "2026-11-17T15:43:01+00:00",
+   "note": "Demonstrators gathered across France on Tuesday after unions called a nationwide strike by public sector workers in a bid to secure pay rises, despite government efforts to ease te",
+   "region": "EUROPE"
+  },
+  {
+   "id": "1e587a85c694",
+   "title": "Ukraine hails attack on vital Kerch bridge linking Russia and Crimea – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/17/europe-ukraine-russia-crimea-kerch-bridge-attack-latest-news-updates",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-17T15:29:41+00:00",
+   "note": "Zelenskyy praises ‘unprecedented attack’ as the Kremlin says bridge will be restored and will be ‘better than ever’ following strike Ukraine critically damages Kerch bridge French ",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "5030335ba3ab",
-   "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
-   "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
-   "component": "narrative",
+   "id": "09d13504f80d",
+   "title": "Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-warns-iran-over-reported-dirty-bomb-threat-plans-against-washington?traffic_source=rss",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-17T01:38:13+00:00",
-   "note": "Yemen's army reports 173 Houthi fighters killed or wounded as government forces reposition to defend Aden.",
+   "published": "2026-11-17T15:13:57+00:00",
+   "note": "President Donald Trump responded to a CNN report that Iran was working on plans to attack Washington, DC",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "4a6a2f45af79",
-   "title": "Truck driver fired for ‘unsafe’ use of smartglasses in first reported sacking over device in Australia",
-   "url": "https://www.theguardian.com/technology/2026/nov/17/toll-truck-driver-fired-sacked-smartglasses-australia-ntwnfb",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-17T01:25:08+00:00",
-   "note": "Toll employee Ricardo Martins Silva used smartglasses to take photos at an LPG terminal despite the risk of an explosion caused by an electrical spark, a court heard Get our breaki",
-   "region": "OCEANIA"
   }
  ],
  "coverage": {
-  "sources_ok": 21,
-  "sources_failed": 1,
-  "items": 34921,
-  "gdelt_events": 34677,
+  "sources_ok": 20,
+  "sources_failed": 2,
+  "items": 41207,
+  "gdelt_events": 40962,
   "mode": "live",
   "data_through": "2026-11-16",
-  "clusters": 240,
-  "origins": 243,
+  "clusters": 239,
+  "origins": 241,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1200,7 +1200,7 @@
   },
   {
    "date": "2026-11-12",
-   "geti": 73.8
+   "geti": 73.7
   },
   {
    "date": "2026-11-13",
@@ -1224,92 +1224,68 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "青海省海东市政协原副主席马维忠被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733261.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-17"
-   },
-   {
-    "kind": "judicial",
-    "title": "湖北检察机关依法对顾军涉嫌受贿案提起公诉",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733248.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-17"
-   },
-   {
-    "kind": "judicial",
-    "title": "湖南省娄底市人民政府原常务副市长谢学龙被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733220.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-17"
-   },
-   {
-    "kind": "judicial",
-    "title": "Proposed NSW laws to allow coalmine to increase production pose ‘serious corruption risk’",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/17/proposed-nsw-laws-to-allow-coalmine-to-increase-production-pose-serious-corruption-risk",
-    "country": "",
-    "source": "guardian",
-    "when": "2026-11-17"
-   },
-   {
-    "kind": "judicial",
-    "title": "Paraguay ex-president moved to military jail amid special treatment reports",
-    "url": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports?traffic_source=rss",
-    "country": "",
-    "source": "aljazeera",
-    "when": "2026-11-16"
-   },
-   {
-    "kind": "judicial",
-    "title": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
-    "url": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
-    "country": "",
-    "source": "bbc",
-    "when": "2026-11-16"
-   },
-   {
-    "kind": "judicial",
-    "title": "Russell Brand investigated over ‘appalling’ message from behind bars",
-    "url": "https://www.scmp.com/news/world/europe/article/3374646/russell-brand-investigated-over-appalling-message-jail-downing-street-says",
-    "country": "GB",
-    "source": "scmp",
-    "when": "2026-11-16"
-   },
-   {
-    "kind": "judicial",
-    "title": "波兰逮捕三名涉嫌策划恐怖袭击的青少年",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-16/10733000.shtml",
-    "country": "CN",
+    "title": "一名驻日美军涉嫌酒后损坏财物被捕",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-17/10733742.shtml",
+    "country": "JP",
     "source": "chinanews",
-    "when": "2026-11-16"
+    "when": "2026-11-17"
+   },
+   {
+    "kind": "judicial",
+    "title": "浙江：持续强化对权力运行的监督制约",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733696.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-17"
+   },
+   {
+    "kind": "judicial",
+    "title": "四川省交通运输集团有限责任公司原党委书记、董事长何平严重违纪违法被开除党籍和公职",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733649.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-17"
+   },
+   {
+    "kind": "judicial",
+    "title": "Two Marseille drug traffickers sentenced to life in prison over triple murder",
+    "url": "https://www.france24.com/en/video/20261117-two-marseille-drug-traffickers-sentenced-to-life-in-prison-over-triple-murder",
+    "country": "",
+    "source": "france24",
+    "when": "2026-11-17"
+   },
+   {
+    "kind": "judicial",
+    "title": "China charges veteran nuclear expert Gu Jun with taking ‘huge’ bribes",
+    "url": "https://www.scmp.com/news/china/politics/article/3374749/china-charges-veteran-nuclear-expert-gu-jun-taking-huge-bribes",
+    "country": "CN",
+    "source": "scmp",
+    "when": "2026-11-17"
    }
   ],
-  "notable_total": 8,
+  "notable_total": 5,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 8
+   "notable": 5
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 66.9,
-  "z": 0.423,
+  "index": 75.9,
+  "z": 0.687,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 19.3,
-    "chg5": -24.73,
-    "z": 0.735,
+    "last": 22.91,
+    "chg5": 15.01,
+    "z": 1.4,
     "ok": true,
-    "asof": "2026-11-13"
+    "asof": "2026-11-16"
    },
    {
     "id": "oil",
@@ -1323,11 +1299,11 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.23,
-    "chg5": -5.56,
-    "z": 0.652,
+    "last": 3.34,
+    "chg5": 0.0,
+    "z": 0.779,
     "ok": true,
-    "asof": "2026-11-13"
+    "asof": "2026-11-16"
    },
    {
     "id": "usd",
@@ -1348,13 +1324,13 @@
     "asof": "2026-11-13"
    }
   ],
-  "asof": "2026-11-13",
+  "asof": "2026-11-16",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 105,
+    "items": 106,
     "error": ""
    },
    {
@@ -1366,7 +1342,7 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 105,
+    "items": 106,
     "error": ""
    },
    {
@@ -2330,14 +2306,6 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyjz"
     }
    ],
-   "eonet": [
-    {
-     "t": "Tropical Cyclone Xavier",
-     "v": "severe storms",
-     "ts": "",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26463"
-    }
-   ],
    "gdacs": [
     {
      "t": "Orange notification for tropical cyclone AKVAN-26. Population affected by Catego",
@@ -2393,8 +2361,8 @@
   }
  },
  "epidemic": {
-  "index": 65.9,
-  "z": 0.53,
+  "index": 63.7,
+  "z": 0.45,
   "components": [
    {
     "key": "who_don",
@@ -2410,20 +2378,20 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 2.0,
-    "carry": 1.73,
-    "z": 1.89,
-    "score": 91.4,
+    "value": 0.0,
+    "carry": 1.49,
+    "z": 1.73,
+    "score": 89.7,
     "available": true
    },
    {
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.41,
-    "carry": 0.87,
-    "z": 0.04,
-    "score": 51.1,
+    "value": 0.0,
+    "carry": 0.82,
+    "z": -0.06,
+    "score": 48.0,
     "available": true
    }
   ],
@@ -2432,34 +2400,21 @@
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 13,
-   "last_seen": "2026-11-16",
+   "active_days": 12,
+   "last_seen": "2026-11-15",
    "ongoing": true
   },
   "evidence": {
-   "who": [
-    {
-     "t": "FAA停飞风波未平，美联航又遭遇“大面积系统故障”",
-     "v": "政策",
-     "ts": "",
-     "u": ""
-    },
-    {
-     "t": "忙于“甩锅”？美交通部长拒绝为全美航班停飞事件道歉",
-     "v": "政策",
-     "ts": "",
-     "u": ""
-    }
-   ]
+   "who": []
   }
  },
  "doom": {
-  "index": 69.3,
-  "z": 0.49,
+  "index": 69.1,
+  "z": 0.48,
   "parts": {
    "military": 0.59,
    "hazard": -0.03,
-   "epidemic": 0.4
+   "epidemic": 0.34
   },
   "resonance": 0,
   "partial": false,
@@ -2496,14 +2451,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 142,
-   "items": 34677,
+   "files": 144,
+   "items": 40962,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 20,
+   "items": 21,
    "error": "",
    "undated": 0
   },
@@ -2517,14 +2472,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 37,
+   "items": 38,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 8,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2551,9 +2506,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": true,
-   "items": 6,
-   "error": "",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）",
    "undated": 0
   },
   {
@@ -2573,14 +2528,14 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 14,
+   "items": 16,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 105,
+   "items": 106,
    "error": ""
   },
   {
@@ -2592,7 +2547,7 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 105,
+   "items": 106,
    "error": ""
   },
   {
@@ -2645,9 +2600,9 @@
   },
   {
    "source": "nasa:eonet",
-   "ok": true,
-   "items": 1,
-   "error": ""
+   "ok": false,
+   "items": 0,
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   },
   {
    "source": "gdacs:rss",
@@ -2670,7 +2625,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 6750,
+   "items": 11344,
    "error": ""
   },
   {
