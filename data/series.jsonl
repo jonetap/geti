@@ -1297,6 +1297,7 @@
 {"r":"EAST_ASIA","c":"physical","d":"2026-11-15","v":-15.5863}
 {"r":"EAST_ASIA","c":"physical","d":"2026-11-16","v":-13.679}
 {"r":"EAST_ASIA","c":"physical","d":"2026-11-17","v":-9.3396}
+{"r":"EAST_ASIA","c":"physical","d":"2026-11-18","v":0.1272}
 {"r":"EUROPE","c":"diplomacy","d":"2026-06-10","v":2.0538}
 {"r":"EUROPE","c":"diplomacy","d":"2026-06-11","v":0.5439}
 {"r":"EUROPE","c":"diplomacy","d":"2026-06-12","v":3.2543}
@@ -3215,6 +3216,7 @@
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-16","v":1.5478}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-17","v":1.5363}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-18","v":1.8323}
+{"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-19","v":0.9521}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-25","v":3.9128}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-26","v":1.4599}
 {"r":"MIDDLE_EAST","c":"narrative","d":"2026-10-27","v":1.0543}
