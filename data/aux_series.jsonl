@@ -13,6 +13,7 @@
 {"r":"epidemic","c":"coverage","d":"2026-11-14","v":0.89}
 {"r":"epidemic","c":"coverage","d":"2026-11-15","v":0.85}
 {"r":"epidemic","c":"coverage","d":"2026-11-16","v":0.0}
+{"r":"epidemic","c":"coverage","d":"2026-11-17","v":2.25}
 {"r":"epidemic","c":"policy","d":"2026-11-02","v":0.0}
 {"r":"epidemic","c":"policy","d":"2026-11-03","v":0.0}
 {"r":"epidemic","c":"policy","d":"2026-11-04","v":0.0}
@@ -28,6 +29,7 @@
 {"r":"epidemic","c":"policy","d":"2026-11-14","v":4.0}
 {"r":"epidemic","c":"policy","d":"2026-11-15","v":2.0}
 {"r":"epidemic","c":"policy","d":"2026-11-16","v":0.0}
+{"r":"epidemic","c":"policy","d":"2026-11-17","v":0.0}
 {"r":"epidemic","c":"who_don","d":"2026-11-02","v":1.0}
 {"r":"epidemic","c":"who_don","d":"2026-11-03","v":0.0}
 {"r":"epidemic","c":"who_don","d":"2026-11-04","v":0.0}
@@ -43,6 +45,7 @@
 {"r":"epidemic","c":"who_don","d":"2026-11-14","v":0.0}
 {"r":"epidemic","c":"who_don","d":"2026-11-15","v":0.0}
 {"r":"epidemic","c":"who_don","d":"2026-11-16","v":0.0}
+{"r":"epidemic","c":"who_don","d":"2026-11-17","v":0.0}
 {"r":"hazard","c":"gdacs_alert","d":"2026-11-02","v":0.0}
 {"r":"hazard","c":"gdacs_alert","d":"2026-11-03","v":0.0}
 {"r":"hazard","c":"gdacs_alert","d":"2026-11-04","v":0.0}
@@ -58,6 +61,7 @@
 {"r":"hazard","c":"gdacs_alert","d":"2026-11-14","v":0.0}
 {"r":"hazard","c":"gdacs_alert","d":"2026-11-15","v":0.0}
 {"r":"hazard","c":"gdacs_alert","d":"2026-11-16","v":1.0}
+{"r":"hazard","c":"gdacs_alert","d":"2026-11-17","v":0.0}
 {"r":"hazard","c":"quake_count","d":"2026-11-02","v":20.0}
 {"r":"hazard","c":"quake_count","d":"2026-11-03","v":12.0}
 {"r":"hazard","c":"quake_count","d":"2026-11-04","v":5.0}
@@ -73,6 +77,7 @@
 {"r":"hazard","c":"quake_count","d":"2026-11-14","v":16.0}
 {"r":"hazard","c":"quake_count","d":"2026-11-15","v":10.0}
 {"r":"hazard","c":"quake_count","d":"2026-11-16","v":11.0}
+{"r":"hazard","c":"quake_count","d":"2026-11-17","v":11.0}
 {"r":"hazard","c":"quake_energy","d":"2026-11-02","v":15.0}
 {"r":"hazard","c":"quake_energy","d":"2026-11-03","v":8.639}
 {"r":"hazard","c":"quake_energy","d":"2026-11-04","v":7.769}
@@ -88,6 +93,7 @@
 {"r":"hazard","c":"quake_energy","d":"2026-11-14","v":8.648}
 {"r":"hazard","c":"quake_energy","d":"2026-11-15","v":8.73}
 {"r":"hazard","c":"quake_energy","d":"2026-11-16","v":9.919}
+{"r":"hazard","c":"quake_energy","d":"2026-11-17","v":8.379}
 {"r":"hazard","c":"quake_max","d":"2026-11-02","v":5.3}
 {"r":"hazard","c":"quake_max","d":"2026-11-03","v":5.4}
 {"r":"hazard","c":"quake_max","d":"2026-11-04","v":5.0}
@@ -103,6 +109,7 @@
 {"r":"hazard","c":"quake_max","d":"2026-11-14","v":5.5}
 {"r":"hazard","c":"quake_max","d":"2026-11-15","v":5.5}
 {"r":"hazard","c":"quake_max","d":"2026-11-16","v":6.6}
+{"r":"hazard","c":"quake_max","d":"2026-11-17","v":5.2}
 {"r":"hazard","c":"space_weather","d":"2026-11-02","v":3.0}
 {"r":"hazard","c":"space_weather","d":"2026-11-03","v":2.0}
 {"r":"hazard","c":"space_weather","d":"2026-11-04","v":3.33}
@@ -118,6 +125,7 @@
 {"r":"hazard","c":"space_weather","d":"2026-11-14","v":1.67}
 {"r":"hazard","c":"space_weather","d":"2026-11-15","v":2.0}
 {"r":"hazard","c":"space_weather","d":"2026-11-16","v":1.33}
+{"r":"hazard","c":"space_weather","d":"2026-11-17","v":3.0}
 {"r":"hazard","c":"storm_events","d":"2026-11-02","v":2.0}
 {"r":"hazard","c":"storm_events","d":"2026-11-03","v":2.0}
 {"r":"hazard","c":"storm_events","d":"2026-11-04","v":1.0}
@@ -133,3 +141,4 @@
 {"r":"hazard","c":"storm_events","d":"2026-11-14","v":0.0}
 {"r":"hazard","c":"storm_events","d":"2026-11-15","v":1.0}
 {"r":"hazard","c":"storm_events","d":"2026-11-16","v":1.0}
+{"r":"hazard","c":"storm_events","d":"2026-11-17","v":2.0}
