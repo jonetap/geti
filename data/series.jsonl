@@ -598,6 +598,7 @@
 {"r":"AFRICA","c":"narrative","d":"2026-10-12","v":1.3297}
 {"r":"AFRICA","c":"narrative","d":"2026-10-17","v":1.8159}
 {"r":"AFRICA","c":"narrative","d":"2026-10-18","v":1.3093}
+{"r":"AFRICA","c":"narrative","d":"2026-10-19","v":1.5983}
 {"r":"AFRICA","c":"narrative","d":"2026-10-26","v":1.5782}
 {"r":"AFRICA","c":"narrative","d":"2026-10-27","v":1.7241}
 {"r":"AFRICA","c":"narrative","d":"2026-10-28","v":0.1394}
@@ -3913,6 +3914,7 @@
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-16","v":1.2451}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-17","v":1.4194}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-18","v":1.5917}
+{"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-19","v":1.3728}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-25","v":2.0257}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-26","v":1.3162}
 {"r":"NORTH_AMERICA","c":"narrative","d":"2026-10-27","v":1.261}
@@ -5182,6 +5184,7 @@
 {"r":"OTHER","c":"narrative","d":"2026-10-13","v":1.1892}
 {"r":"OTHER","c":"narrative","d":"2026-10-14","v":1.427}
 {"r":"OTHER","c":"narrative","d":"2026-10-18","v":1.1737}
+{"r":"OTHER","c":"narrative","d":"2026-10-19","v":1.2637}
 {"r":"OTHER","c":"narrative","d":"2026-10-26","v":1.5259}
 {"r":"OTHER","c":"narrative","d":"2026-10-27","v":1.8149}
 {"r":"OTHER","c":"narrative","d":"2026-10-28","v":0.1394}
@@ -5821,6 +5824,7 @@
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-13","v":1.3899}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-15","v":1.1505}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-18","v":1.1213}
+{"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-19","v":1.5214}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-26","v":1.6706}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-27","v":1.5313}
 {"r":"RUSSIA_CIS","c":"narrative","d":"2026-10-28","v":1.1967}
@@ -5860,6 +5864,7 @@
 {"r":"RUSSIA_CIS","c":"physical","d":"2026-11-15","v":-2.2266}
 {"r":"RUSSIA_CIS","c":"physical","d":"2026-11-16","v":-1.1772}
 {"r":"RUSSIA_CIS","c":"physical","d":"2026-11-17","v":-0.6195}
+{"r":"RUSSIA_CIS","c":"physical","d":"2026-11-18","v":0.5089}
 {"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-06-10","v":3.0486}
 {"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-06-11","v":0.5439}
 {"r":"SOUTH_ASIA","c":"diplomacy","d":"2026-06-12","v":2.0538}

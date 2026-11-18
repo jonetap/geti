@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-18T00:56:09+00:00",
+ "generated_at": "2026-11-18T11:38:25+00:00",
  "date": "2026-11-17",
  "geti": 74.7,
  "delta_z": 0.77,
@@ -98,8 +98,8 @@
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 68.8,
-   "delta": 7.3,
+   "score": 68.7,
+   "delta": 7.4,
    "excluded": false,
    "drivers": [
     [
@@ -210,7 +210,7 @@
    "available": true,
    "z": 1.52,
    "score": 87.0,
-   "contrib": 0.264
+   "contrib": 0.263
   },
   {
    "key": "economy",
@@ -238,27 +238,101 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": -0.01,
+   "z": -0.02,
    "score": 49.5,
    "contrib": -0.001
   }
  ],
  "events": [
   {
-   "id": "f09919bdeade",
-   "title": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
-   "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+   "id": "eb6687e2262f",
+   "title": "Gun control activist faces long recovery after Washington DC mass shooting",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/washington-dc-logan-circle-shooting-activist",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.82,
-   "origins": 2,
+   "confidence": 0.56,
+   "origins": 1,
    "sources": [
-    "guardian",
+    "guardian"
+   ],
+   "published": "2026-11-18T11:00:57+00:00",
+   "note": "Susan Thurston Hamerski was shot in the face by gunman who killed one and injured several others in Logan Circle A gun control advocate is grappling with a grueling recovery after ",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "546512356da5",
+   "title": "Latin America's mega-prisons: Can El Salvador's model work?",
+   "url": "https://www.dw.com/en/latin-america-s-mega-prisons-can-el-salvador-s-model-work/a-79973524?maca=en-rss-en-world-4025-rdf",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-18T10:45:00+00:00",
+   "note": "El Salvador's mega-prison has become a model for governments across Latin America seeking to combat organized crime. But experts question whether the approach is effective, sustain",
+   "region": "OTHER"
+  },
+  {
+   "id": "7da73660d47b",
+   "title": "Trump says ‘taking seriously’ reports Iran planning Washington dirty-bomb attack",
+   "url": "https://www.france24.com/en/video/20261118-trump-says-taking-seriously-reports-iran-planning-washington-dirty-bomb-attack",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-18T10:13:52+00:00",
+   "note": "President Donald Trump said on Tuesday the US was taking seriously the possibility that Iran could be planning an attack involving a so-called dirty bomb in Washington, after ‌bein",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "c7f09da03fd4",
+   "title": "Iran, US trade threats over dirty bombs and first strikes as new war wave looms",
+   "url": "https://www.scmp.com/week-asia/politics/article/3374868/iran-us-trade-threats-over-dirty-bombs-and-first-strikes-new-war-wave-looms",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
     "scmp"
    ],
-   "published": "2026-11-18T00:21:33+00:00",
-   "note": "Asif Merchant, allegedly linked to Iran, found by court to have sought retribution over Qassem Suleimani death A Pakistani man was sentenced to more than 27 years in prison on Tues",
-   "region": "SOUTH_ASIA"
+   "published": "2026-11-18T09:28:58+00:00",
+   "note": "Iran has warned that it may attack the United States first if it decides that another widely feared escalation in the nine-month-old conflict cannot be avoided. Mediation by region",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "0caa71d504b2",
+   "title": "Italy approves anti-semitism law despite concerns over freedom of expression",
+   "url": "https://www.france24.com/en/europe/20261118-italy-approves-anti-semitism-law-despite-concerns-over-freedom-of-expression",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-18T07:37:42+00:00",
+   "note": "Italy's ​parliament on Tuesday approved a new bill aimed at combating anti-semitism – which lists some forms of criticism of ⁠Israel as examples of anti-semitic conduct – despite c",
+   "region": "OTHER"
+  },
+  {
+   "id": "91cba744c204",
+   "title": "Bahrain and Kuwait repel drone attacks after US strikes Iranian island",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3374869/bahrain-and-kuwait-repel-drone-attacks-after-us-strikes-iranian-island",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-18T07:27:16+00:00",
+   "note": "Bahrain and Kuwait said Wednesday that they had repelled air attacks launched against them following US strikes on an Iranian island, as Gulf nations face retaliatory bombardment i",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "5db608c43b0f",
@@ -266,7 +340,7 @@
    "url": "https://www.chinanews.com.cn/gj/2026/11-18/10733825.shtml",
    "component": "military",
    "severity": 5,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -276,19 +350,64 @@
    "region": "MIDDLE_EAST"
   },
   {
+   "id": "a23eb5cee4e0",
+   "title": "Malaysian man linked to 24 armed robberies killed in police shoot-out",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374820/malaysian-man-linked-24-armed-robberies-killed-police-shoot-out",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-18T02:24:16+00:00",
+   "note": "A Malaysian man posing as a taxi driver and suspected of being involved in at least 24 armed robberies targeting women and senior citizens was shot dead in a police operation at a ",
+   "region": "OTHER"
+  },
+  {
+   "id": "74d2b83d2080",
+   "title": "Group emerges from isolation in Brazil’s Amazon in ‘historic encounter’",
+   "url": "https://www.scmp.com/news/world/americas/article/3374818/isolated-group-emerges-brazils-amazon-historic-encounter",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-18T02:16:30+00:00",
+   "note": "Around 20 Indigenous people emerged from isolation in Brazil’s Amazon rainforest, appearing thin and hungry, several organisations reported on Tuesday, raising the alarm about incr",
+   "region": "LATAM"
+  },
+  {
+   "id": "f09919bdeade",
+   "title": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
+   "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-18T00:21:33+00:00",
+   "note": "Asif Merchant, allegedly linked to Iran, found by court to have sought retribution over Qassem Suleimani death A Pakistani man was sentenced to more than 27 years in prison on Tues",
+   "region": "SOUTH_ASIA"
+  },
+  {
    "id": "607e80b480be",
    "title": "WHO sounds the alarm on antimicrobial resistance threat",
    "url": "https://www.france24.com/en/tv-shows/a-propos/20261117-who-sounds-the-alarm-on-antimicrobial-resistance-threat",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24",
     "france24"
    ],
    "published": "2026-11-17T22:08:28+00:00",
-   "note": "The spread of antimicrobial resistance (AMR) is threatening modern medicine despite progress in combating drug-resistant bacteria, senior World Health Organization officials said M",
+   "note": "The spread of antimicrobial resistance (AMR) is threatening modern medicine despite progress in combating drug-resistant bacteria, senior World Health Organization officials said o",
    "region": "OTHER"
   },
   {
@@ -297,7 +416,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -307,27 +426,12 @@
    "region": "LATAM"
   },
   {
-   "id": "e86d1190f3c1",
-   "title": "Whistleblower: Deadly drone strike in Kuwait could’ve been avoided",
-   "url": "https://www.aljazeera.com/news/2026/11/17/whistleblower-deadly-drone-strike-in-kuwait-couldve-been-avoided?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-17T21:14:31+00:00",
-   "note": "Whistleblower accuses military of dismissing advanced security warnings of drone strike that killed six US soldiers.",
-   "region": "OTHER"
-  },
-  {
    "id": "c071d4b9a3be",
    "title": "Russian military plane crashes, killing all 19 on board",
    "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -335,21 +439,6 @@
    "published": "2026-11-17T21:06:11+00:00",
    "note": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
    "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "e6fbae3487d2",
-   "title": "Iran 'playing mind games with the United States', expert says",
-   "url": "https://www.france24.com/en/iran-playing-mind-games-with-the-united-states-expert-says",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-17T20:28:50+00:00",
-   "note": "President Donald Trump said Tuesday that US authorities take \"very seriously\" any possible threat to Washington, following reports Iran was planning to target officials, possibly w",
-   "region": "NORTH_AMERICA"
   },
   {
    "id": "4b0023625ab0",
@@ -382,36 +471,6 @@
    "region": "OTHER"
   },
   {
-   "id": "1375deb219db",
-   "title": "Trump claims US is ‘looking into’ Iranian bomb plot in Washington despite ‘no credible threats’",
-   "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-17T16:03:34+00:00",
-   "note": "US officials ‘debate whether Iran can or will attempt to execute’ plot to detonate a ‘dirty bomb’, report says Donald Trump has claimed the US is “looking into” whether Iran is dev",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "6a9fc079c60b",
-   "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
-   "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-17T15:44:54+00:00",
-   "note": "President Donald Trump said Tuesday that US authorities take any possible threats to Washington ‘very seriously’, following reports that Iran was planning to target senior Trump ad",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "111557c59eb7",
    "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
    "url": "https://www.dw.com/en/iran-dismisses-report-of-alleged-dirty-bomb-attack-on-washington/a-79970741?maca=en-rss-en-world-4025-rdf",
@@ -427,69 +486,54 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "ad92a432419f",
-   "title": "What does China’s massive warplane build-up say about its combat readiness?",
-   "url": "https://www.scmp.com/news/china/military/article/3374694/what-does-chinas-massive-warplane-build-say-about-its-combat-readiness",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-17T13:00:06+00:00",
-   "note": "The Chinese air force appears to have significantly expanded one of its largest annual combat exercises, with satellite imagery showing nearly 300 aircraft across 11 bases in weste",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "cf3a00d7bce8",
-   "title": "英国对以色列定居点企业实施制裁",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10733831.shtml",
-   "component": "diplomacy",
+   "id": "61bdebb430a9",
+   "title": "阿联酋方面称一船只在霍尔木兹海峡遇袭 致11人伤、1人失踪",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10734268.shtml",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.64,
    "origins": 1,
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-18T00:20:40+00:00",
-   "note": "中新社伦敦11月17日电 (记者 欧阳开宇)当地时间11月17日，英国政府宣布实施新一轮制裁，对多家参与约旦河西岸定居点建设的以色列实体采取限制举措，以维护巴以“两国方案”推进前景。",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-18T10:53:56+00:00",
+   "note": "中新社北京11月18日电 阿布扎比消息：当地时间18日，阿联酋阿布扎比国家石油公司旗下的物流与服务公司表示，该公司一艘船只17日晚途经霍尔木兹海峡时遭到袭击，造成11人受伤、1人失踪。",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "1cf7378ebe02",
-   "title": "Haitians protest in support of El Salvador’s anti-gang troop deployment",
-   "url": "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
+   "id": "ca5759b768e0",
+   "title": "Evacuations on the rise in eastern Ukraine as fighting intensifies",
+   "url": "https://www.france24.com/en/video/20261118-evacuations-on-the-rise-in-eastern-ukraine-as-fighting-intensifies",
+   "component": "physical",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-18T10:48:14+00:00",
+   "note": "Civilian evacuations are stepping up in eastern Ukraine as fighting intensifies in the Donetsk region. According to figures released by Ukrainian authorities, more than 6,300 resid",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "ad669abc3556",
+   "title": "US hits out at Ukraine's 'deep strikes' against Russia in rift with EU over war tactics",
+   "url": "https://www.france24.com/en/video/20261118-us-hits-out-at-ukraine-s-deep-strikes-against-russia-in-rift-with-eu-over-war-tactics",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "france24"
    ],
-   "published": "2026-11-17T23:09:00+00:00",
-   "note": "El Salvador's security minister has confirmed the troops will leave once kidnapped technicians are rescued.",
-   "region": "LATAM"
+   "published": "2026-11-18T10:45:35+00:00",
+   "note": "Top US defence official Elbridge Colby criticised Ukraine's \"deep strikes\" against Russia Tuesday, as President Volodymyr Zelensky urged Kyiv's backers to send air defences without",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "7129e4e1b3f7",
-   "title": "UK sanctions Israeli settlement firms to protect two-state solution",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_uk-sanctions-eight-israeli-settlement-firms-171126?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-17T21:28:31+00:00",
-   "note": "The UK has imposed new sanctions on eight Israeli companies supporting illegal settlements in the occupied West Bank.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "057297e1ff42",
-   "title": "‘Godmother’ of illegal Israeli West Bank settler project Daniella Weiss among group sanctioned by Australia",
-   "url": "https://www.theguardian.com/world/2026/nov/18/australia-sanctions-construction-company-west-bank-settlement-expansion-ntwnfb",
+   "id": "6605b6af70cb",
+   "title": "Fears grow that US will impose sanctions on ICJ judges ahead of Myanmar genocide ruling",
+   "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
    "component": "diplomacy",
    "severity": 4,
    "confidence": 0.56,
@@ -497,167 +541,29 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-17T20:20:31+00:00",
-   "note": "Foreign affairs minister Penny Wong says rapid expansion of settlements and settler violence are ‘extinguishing the possibility of a two-state solution’ Get our breaking news email",
+   "published": "2026-11-18T09:58:28+00:00",
+   "note": "A ruling against Myanmar could set precedent for court’s judgment on Israel’s actions in Gaza Fears are growing that the US could impose sanctions on judges at the international co",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "aaa4be75ad26",
-   "title": "俄称克里米亚大桥再遭袭击 交通暂时中断",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-17/10733611.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-17T11:02:56+00:00",
-   "note": "中新社莫斯科11月17日电 俄罗斯侦查委员会17日通报说，针对乌克兰方面袭击克里米亚大桥，俄方已刑事立案并展开调查。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "4999919bd5db",
-   "title": "UK sanctions firms over Israeli West Bank settlements",
-   "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+   "id": "8e8ebcc20e65",
+   "title": "Sandpapergate: Cricket Australia to open forum for players, rules out probe",
+   "url": "https://www.aljazeera.com/sports/2026/11/18/sandpapergate-cricket-australia-to-open-forum-for-players-rules-out-probe?traffic_source=rss",
    "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "aljazeera"
    ],
-   "published": "2026-11-17T18:27:27+00:00",
-   "note": "It marks the first sanctions since the UK announced a tougher approach to Israeli actions in the territory.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-18T09:18:37+00:00",
+   "note": "Cricket Australia says it will establish a forum, likely led by a former judge, but there will be no new sanctions.",
+   "region": "OCEANIA"
   },
   {
-   "id": "0f368d06a998",
-   "title": "France: Protesters march for better salaries across the country",
-   "url": "https://www.france24.com/en/video/20261117-france-protesters-march-for-better-salaries-across-the-country",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-17T17:27:24+00:00",
-   "note": "Tens of thousands of people took part in protests across France on Tuesday after unions called a new nationwide public sector strike to demand pay rises. What started over two mont",
-   "region": "EUROPE"
-  },
-  {
-   "id": "4541ddbdc62e",
-   "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-   "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-17T17:19:57+00:00",
-   "note": "Moscow has targeted bridges in Kyiv, while Ukraine severely damaged a critical bridge linking Russia to occupied Crimea.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "52443ea45260",
-   "title": "'A lot of anger and a weak government': Why are French public sector workers striking?",
-   "url": "https://www.france24.com/en/video/20261117-a-lot-of-anger-and-a-weak-government-why-are-french-public-sector-workers-striking",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-17T16:34:48+00:00",
-   "note": "Tens of thousands of people took part in protests across France on Tuesday after unions called a new nationwide public sector strike to demand pay rises. It follows more than a mon",
-   "region": "EUROPE"
-  },
-  {
-   "id": "385f77ddd3db",
-   "title": "Latest cost-of-living protests bring more than 140,000 onto the streets across France",
-   "url": "https://www.france24.com/en/france/20261117-new-french-pay-protests-bring-tens-of-thousands-onto-the-streets",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-17T16:27:21+00:00",
-   "note": "Tens of thousands of people took part in protests across France on Tuesday after unions called a new nationwide public sector strike to demand pay rises. Participation was lower co",
-   "region": "EUROPE"
-  },
-  {
-   "id": "b5e2ef093544",
-   "title": "Organisers hoping for 'joyful' demonstration as French public workers strike",
-   "url": "https://www.france24.com/en/video/20261117-organisers-hoping-for-joyful-demonstration-as-french-public-workers-strike",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-17T16:17:45+00:00",
-   "note": "France braced for another day of protests Tuesday as unions called for a nationwide strike by public sector workers in a bid to secure pay rises. Hoping to avoid the violence that ",
-   "region": "EUROPE"
-  }
- ],
- "breaking": [
-  {
-   "id": "f09919bdeade",
-   "title": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
-   "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.82,
-   "origins": 2,
-   "sources": [
-    "guardian",
-    "scmp"
-   ],
-   "published": "2026-11-18T00:21:33+00:00",
-   "note": "Asif Merchant, allegedly linked to Iran, found by court to have sought retribution over Qassem Suleimani death A Pakistani man was sentenced to more than 27 years in prison on Tues",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "cf3a00d7bce8",
-   "title": "英国对以色列定居点企业实施制裁",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10733831.shtml",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-18T00:20:40+00:00",
-   "note": "中新社伦敦11月17日电 (记者 欧阳开宇)当地时间11月17日，英国政府宣布实施新一轮制裁，对多家参与约旦河西岸定居点建设的以色列实体采取限制举措，以维护巴以“两国方案”推进前景。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "5db608c43b0f",
-   "title": "外媒：沙特联军袭击也门多地，已致17人死亡、39人受伤",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10733825.shtml",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-17T23:09:36+00:00",
-   "note": "中新网11月18日电 据阿拉伯媒体当地时间17日消息，过去24小时内，沙特阿拉伯主导的多国联军对也门萨那、荷台达等地发动空袭已致56人伤亡。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "1cf7378ebe02",
-   "title": "Haitians protest in support of El Salvador’s anti-gang troop deployment",
-   "url": "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
+   "id": "534b16a4442f",
+   "title": "Haitians rally in celebration of El Salvador’s anti-gang troop deployment",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/haitians-rally-in-celebration-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
@@ -665,20 +571,112 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-17T23:09:00+00:00",
-   "note": "El Salvador's security minister has confirmed the troops will leave once kidnapped technicians are rescued.",
+   "published": "2026-11-18T08:53:15+00:00",
+   "note": "Hundreds of Haitians have taken to the streets, celebrating El Salvador’s anti-gang military troops.",
    "region": "LATAM"
+  },
+  {
+   "id": "162906a62a21",
+   "title": "科威特军方称防空系统正拦截敌对无人机",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10733861.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-18T01:27:54+00:00",
+   "note": "当地时间18日，科威特军方表示，该国防空系统正在应对敌对无人机袭击。",
+   "region": "OTHER"
+  },
+  {
+   "id": "cf3a00d7bce8",
+   "title": "英国对以色列定居点企业实施制裁",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10733831.shtml",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-18T00:20:40+00:00",
+   "note": "中新社伦敦11月17日电 (记者 欧阳开宇)当地时间11月17日，英国政府宣布实施新一轮制裁，对多家参与约旦河西岸定居点建设的以色列实体采取限制举措，以维护巴以“两国方案”推进前景。",
+   "region": "MIDDLE_EAST"
+  }
+ ],
+ "breaking": [
+  {
+   "id": "eb6687e2262f",
+   "title": "Gun control activist faces long recovery after Washington DC mass shooting",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/washington-dc-logan-circle-shooting-activist",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-18T11:00:57+00:00",
+   "note": "Susan Thurston Hamerski was shot in the face by gunman who killed one and injured several others in Logan Circle A gun control advocate is grappling with a grueling recovery after ",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "61bdebb430a9",
+   "title": "阿联酋方面称一船只在霍尔木兹海峡遇袭 致11人伤、1人失踪",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10734268.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-18T10:53:56+00:00",
+   "note": "中新社北京11月18日电 阿布扎比消息：当地时间18日，阿联酋阿布扎比国家石油公司旗下的物流与服务公司表示，该公司一艘船只17日晚途经霍尔木兹海峡时遭到袭击，造成11人受伤、1人失踪。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "ca5759b768e0",
+   "title": "Evacuations on the rise in eastern Ukraine as fighting intensifies",
+   "url": "https://www.france24.com/en/video/20261118-evacuations-on-the-rise-in-eastern-ukraine-as-fighting-intensifies",
+   "component": "physical",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-18T10:48:14+00:00",
+   "note": "Civilian evacuations are stepping up in eastern Ukraine as fighting intensifies in the Donetsk region. According to figures released by Ukrainian authorities, more than 6,300 resid",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "ad669abc3556",
+   "title": "US hits out at Ukraine's 'deep strikes' against Russia in rift with EU over war tactics",
+   "url": "https://www.france24.com/en/video/20261118-us-hits-out-at-ukraine-s-deep-strikes-against-russia-in-rift-with-eu-over-war-tactics",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-18T10:45:35+00:00",
+   "note": "Top US defence official Elbridge Colby criticised Ukraine's \"deep strikes\" against Russia Tuesday, as President Volodymyr Zelensky urged Kyiv's backers to send air defences without",
+   "region": "RUSSIA_CIS"
   }
  ],
  "coverage": {
-  "sources_ok": 21,
-  "sources_failed": 1,
-  "items": 45628,
-  "gdelt_events": 45361,
+  "sources_ok": 20,
+  "sources_failed": 2,
+  "items": 42804,
+  "gdelt_events": 42548,
   "mode": "live",
   "data_through": "2026-11-17",
-  "clusters": 260,
-  "origins": 262,
+  "clusters": 247,
+  "origins": 248,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -735,7 +733,7 @@
     "p50": 0.06,
     "p90": 0.11,
     "ratio": null,
-    "z": -0.01
+    "z": -0.02
    }
   }
  },
@@ -1118,7 +1116,7 @@
   },
   {
    "date": "2026-10-23",
-   "geti": 53.8
+   "geti": 53.7
   },
   {
    "date": "2026-10-24",
@@ -1146,7 +1144,7 @@
   },
   {
    "date": "2026-10-30",
-   "geti": 40.3
+   "geti": 40.2
   },
   {
    "date": "2026-10-31",
@@ -1226,18 +1224,26 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
-    "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
-    "country": "US",
+    "title": "中国银行股份有限公司原党委委员、副行长林景臻受贿案一审宣判",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-18/10734208.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-18"
+   },
+   {
+    "kind": "judicial",
+    "title": "Bikie ‘not surprised’ if he used fake $20,000 souvlaki invoice to pocket thousands on Big Build site, inquiry hears",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/18/bandidos-bikie-joel-leavitt-cfmeu-big-build-inquiry-ntwnfb",
+    "country": "",
     "source": "guardian",
     "when": "2026-11-18"
    },
    {
     "kind": "judicial",
-    "title": "Forensic experts claim Epstein was strangled to death",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/forensic-experts-claim-epstein-was-strangled-to-death?traffic_source=rss",
-    "country": "",
-    "source": "aljazeera",
+    "title": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
+    "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+    "country": "US",
+    "source": "guardian",
     "when": "2026-11-18"
    },
    {
@@ -1247,54 +1253,14 @@
     "country": "",
     "source": "dw",
     "when": "2026-11-17"
-   },
-   {
-    "kind": "judicial",
-    "title": "Deutsche Bank leaks: German lender's dealings with Russian oligarchs under scrutiny",
-    "url": "https://www.france24.com/en/video/20261117-deutsche-bank-leaks-german-lender-s-dealings-with-russian-oligarchs-under-scrutiny",
-    "country": "DE",
-    "source": "france24",
-    "when": "2026-11-17"
-   },
-   {
-    "kind": "judicial",
-    "title": "一名驻日美军涉嫌酒后损坏财物被捕",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-17/10733742.shtml",
-    "country": "JP",
-    "source": "chinanews",
-    "when": "2026-11-17"
-   },
-   {
-    "kind": "judicial",
-    "title": "浙江：持续强化对权力运行的监督制约",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733696.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-17"
-   },
-   {
-    "kind": "judicial",
-    "title": "四川省交通运输集团有限责任公司原党委书记、董事长何平严重违纪违法被开除党籍和公职",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-17/10733649.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-17"
-   },
-   {
-    "kind": "judicial",
-    "title": "China charges veteran nuclear expert Gu Jun with taking ‘huge’ bribes",
-    "url": "https://www.scmp.com/news/china/politics/article/3374749/china-charges-veteran-nuclear-expert-gu-jun-taking-huge-bribes",
-    "country": "CN",
-    "source": "scmp",
-    "when": "2026-11-17"
    }
   ],
-  "notable_total": 8,
+  "notable_total": 4,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 8
+   "notable": 4
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2206,16 +2172,16 @@
   "mode": "live"
  },
  "hazard": {
-  "index": 47.9,
-  "z": -0.07,
+  "index": 48.1,
+  "z": -0.06,
   "components": [
    {
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.38,
+    "value": 8.39,
     "carry": 9.03,
-    "z": -0.11,
+    "z": -0.1,
     "score": 46.7,
     "available": true
    },
@@ -2223,10 +2189,10 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 11.0,
-    "carry": 13.71,
-    "z": -0.02,
-    "score": 49.5,
+    "value": 12.0,
+    "carry": 13.83,
+    "z": 0.02,
+    "score": 50.5,
     "available": true
    },
    {
@@ -2320,16 +2286,16 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9"
     },
     {
+     "t": "Owen Fracture Zone region",
+     "v": 4.5,
+     "ts": "2026-11-17T23:25+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyvt"
+    },
+    {
      "t": "26 km NW of Port-Vila, Vanuatu",
      "v": 4.5,
      "ts": "2026-11-17T18:15+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz"
-    },
-    {
-     "t": "95 km W of Alotau, Papua New Guinea",
-     "v": 4.5,
-     "ts": "2026-11-17T12:26+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysa"
     }
    ],
    "eonet": [
@@ -2378,10 +2344,22 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033921"
     },
     {
+     "t": "Green forest fire notification in Benin, Burkina Faso",
+     "v": "green",
+     "ts": "2026-11-17 04:06",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033940"
+    },
+    {
      "t": "Green forest fire notification in Benin, Niger, Burkina Faso",
      "v": "green",
      "ts": "2026-11-17 04:08",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033927"
+    },
+    {
+     "t": "Green forest fire notification in Benin, Burkina Faso",
+     "v": "green",
+     "ts": "2026-11-17 04:06",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033930"
     },
     {
      "t": "Green forest fire notification in Nigeria",
@@ -2390,34 +2368,22 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033879"
     },
     {
+     "t": "Green forest fire notification in Benin, Burkina Faso",
+     "v": "green",
+     "ts": "2026-11-17 04:06",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033873"
+    },
+    {
      "t": "Green forest fire notification in Nigeria",
      "v": "green",
      "ts": "2026-11-17 16:34",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033874"
     },
     {
-     "t": "Green forest fire notification in Nigeria",
+     "t": "Green forest fire notification in Benin, Burkina Faso",
      "v": "green",
-     "ts": "2026-11-17 16:34",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033883"
-    },
-    {
-     "t": "Green forest fire notification in Nigeria",
-     "v": "green",
-     "ts": "2026-11-17 16:34",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033886"
-    },
-    {
-     "t": "Green forest fire notification in Benin, Niger, Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-17 04:08",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033895"
-    },
-    {
-     "t": "Green forest fire notification in Nigeria",
-     "v": "green",
-     "ts": "2026-11-17 16:34",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033856"
+     "ts": "2026-11-17 04:06",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033932"
     }
    ],
    "kp": [
@@ -2431,8 +2397,8 @@
   }
  },
  "epidemic": {
-  "index": 63.9,
-  "z": 0.46,
+  "index": 62.5,
+  "z": 0.41,
   "components": [
    {
     "key": "who_don",
@@ -2458,10 +2424,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 2.25,
-    "carry": 0.99,
-    "z": 0.34,
-    "score": 60.4,
+    "value": 1.56,
+    "carry": 0.91,
+    "z": 0.17,
+    "score": 55.4,
     "available": true
    }
   ],
@@ -2479,12 +2445,12 @@
   }
  },
  "doom": {
-  "index": 70.7,
-  "z": 0.53,
+  "index": 70.6,
+  "z": 0.52,
   "parts": {
    "military": 0.65,
    "hazard": -0.05,
-   "epidemic": 0.34
+   "epidemic": 0.31
   },
   "resonance": 0,
   "partial": false,
@@ -2521,14 +2487,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 45361,
+   "files": 142,
+   "items": 42548,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 28,
+   "items": 27,
    "error": "",
    "undated": 0
   },
@@ -2542,7 +2508,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 40,
+   "items": 41,
    "error": "",
    "undated": 0
   },
@@ -2576,9 +2542,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": true,
-   "items": 11,
-   "error": "",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）",
    "undated": 0
   },
   {
@@ -2665,7 +2631,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "error": ""
   },
   {
@@ -2677,7 +2643,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 14,
+   "items": 19,
    "error": ""
   },
   {
@@ -2695,7 +2661,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 8615,
+   "items": 6810,
    "error": ""
   },
   {
