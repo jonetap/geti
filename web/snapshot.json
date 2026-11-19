@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-18T20:29:05+00:00",
- "date": "2026-11-17",
- "geti": 74.7,
- "delta_z": 0.77,
- "delta_pts": 1.9,
+ "generated_at": "2026-11-19T02:32:53+00:00",
+ "date": "2026-11-18",
+ "geti": 75.1,
+ "delta_z": 0.67,
+ "delta_pts": 0.2,
  "confidence": 0.97,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,93 +13,93 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 78.5,
-   "delta": 4.0,
+   "score": 77.7,
+   "delta": -0.9,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.62
+     1.57
     ],
     [
      "diplomacy",
-     1.52
+     1.41
     ]
    ]
   },
   {
-   "code": "EUROPE",
-   "label": "欧洲",
-   "score": 74.4,
-   "delta": 6.5,
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 71.8,
+   "delta": 5.0,
    "excluded": false,
    "drivers": [
     [
      "physical",
-     1.29
-    ],
-    [
-     "military",
-     0.96
-    ]
-   ]
-  },
-  {
-   "code": "OTHER",
-   "label": "其他",
-   "score": 73.0,
-   "delta": -2.3,
-   "excluded": true,
-   "drivers": [
-    [
-     "military",
-     1.33
+     2.1
     ],
     [
      "diplomacy",
-     1.15
+     0.83
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 70.7,
-   "delta": 1.1,
+   "score": 71.5,
+   "delta": 0.7,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.06
+     1.08
     ],
     [
      "diplomacy",
-     0.84
+     0.91
     ]
    ]
   },
   {
-   "code": "SOUTH_ASIA",
-   "label": "南亚",
-   "score": 69.2,
-   "delta": -0.3,
+   "code": "RUSSIA_CIS",
+   "label": "俄与独联体",
+   "score": 71.2,
+   "delta": 6.2,
    "excluded": false,
    "drivers": [
     [
      "physical",
-     1.05
+     1.95
     ],
     [
      "military",
-     0.86
+     0.92
     ]
    ]
   },
   {
-   "code": "AFRICA",
-   "label": "非洲",
-   "score": 68.7,
-   "delta": 7.4,
+   "code": "OTHER",
+   "label": "其他",
+   "score": 70.8,
+   "delta": -2.2,
+   "excluded": true,
+   "drivers": [
+    [
+     "military",
+     1.21
+    ],
+    [
+     "economy",
+     0.97
+    ]
+   ]
+  },
+  {
+   "code": "EUROPE",
+   "label": "欧洲",
+   "score": 70.5,
+   "delta": -3.8,
    "excluded": false,
    "drivers": [
     [
@@ -108,75 +108,75 @@
     ],
     [
      "military",
-     0.85
+     0.78
     ]
    ]
   },
   {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 66.8,
-   "delta": 0.0,
+   "code": "AFRICA",
+   "label": "非洲",
+   "score": 61.9,
+   "delta": -6.9,
    "excluded": false,
    "drivers": [
+    [
+     "physical",
+     1.08
+    ],
     [
      "diplomacy",
-     0.92
-    ],
-    [
-     "physical",
-     0.67
+     0.35
     ]
    ]
   },
   {
-   "code": "RUSSIA_CIS",
-   "label": "俄与独联体",
-   "score": 65.0,
-   "delta": 10.3,
+   "code": "SOUTH_ASIA",
+   "label": "南亚",
+   "score": 61.0,
+   "delta": -8.2,
    "excluded": false,
    "drivers": [
     [
-     "physical",
-     1.21
+     "military",
+     0.79
     ],
     [
-     "military",
-     0.82
+     "diplomacy",
+     0.36
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 62.2,
-   "delta": -2.8,
+   "score": 58.6,
+   "delta": -3.7,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     0.75
+     0.64
     ],
     [
      "military",
-     0.66
+     0.54
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 51.5,
-   "delta": -1.1,
+   "score": 46.9,
+   "delta": -4.6,
    "excluded": false,
    "drivers": [
     [
      "internal",
-     -0.63
+     -0.49
     ],
     [
      "diplomacy",
-     0.37
+     0.29
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.333,
    "available": true,
-   "z": 1.62,
-   "score": 88.3,
-   "contrib": 0.404
+   "z": 1.57,
+   "score": 87.6,
+   "contrib": 0.409
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.231,
    "available": true,
-   "z": 1.52,
-   "score": 87.0,
-   "contrib": 0.263
+   "z": 1.41,
+   "score": 85.4,
+   "contrib": 0.255
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.192,
    "available": true,
-   "z": 1.44,
-   "score": 85.8,
-   "contrib": 0.207
+   "z": 1.39,
+   "score": 85.0,
+   "contrib": 0.209
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.141,
    "available": true,
-   "z": 1.17,
-   "score": 81.3,
-   "contrib": 0.124
+   "z": 1.13,
+   "score": 80.5,
+   "contrib": 0.125
   },
   {
    "key": "narrative",
@@ -238,16 +238,76 @@
    "weight": 0.08,
    "effective_weight": 0.103,
    "available": true,
-   "z": -0.02,
-   "score": 49.5,
-   "contrib": -0.001
+   "z": 0.02,
+   "score": 50.8,
+   "contrib": 0.002
   }
  ],
  "events": [
   {
-   "id": "2e8a76c142fb",
-   "title": "Four killed as Russian strikes hit Ukraine’s Odesa",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/four-killed-as-russian-strikes-hit-ukraines-odesa?traffic_source=rss",
+   "id": "ceb7b403add5",
+   "title": "Mike Lynch’s superyacht had unidentified vulnerability to high winds, report finds",
+   "url": "https://www.theguardian.com/world/2026/nov/19/mike-lynch-superyacht-bayesian-vulnerability-to-high-winds-report",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-19T00:01:11+00:00",
+   "note": "Bayesian, which sank off Sicily killing seven including tech tycoon, had not been fully assessed, say investigators The superyacht Bayesian, which sank in a storm off Sicily killin",
+   "region": "OTHER"
+  },
+  {
+   "id": "fea992d5096e",
+   "title": "EU proposes €45bn loan for Ukraine to avert cash crisis and boost defences",
+   "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-18T22:34:03+00:00",
+   "note": "Von der Leyen says she wants to give Kyiv ‘strong hand’ in talks and is confident all 27 member states will back idea The EU executive has proposed a €45bn (£37.5bn) loan for Ukrai",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "6fc713ded133",
+   "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-18T22:31:41+00:00",
+   "note": "Christian Emmanuel Sanon faces life in prison after conviction on charges arising from killing of Jovenel Moïse A Florida pastor with dual Haitian-American citizenship was convicte",
+   "region": "LATAM"
+  },
+  {
+   "id": "037774c05bde",
+   "title": "Member of anti-migrant group found guilty of Staffordshire murder",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/18/member-anti-migrant-group-guilty-murder-raise-colours-billy-allison",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-18T21:27:54+00:00",
+   "note": "Raise the Colours activist Billy Allison, 36, killed man in ‘completely unprovoked and unjustified’ attack, say police A member of anti-migrant group Raise the Colours has been fou",
+   "region": "OTHER"
+  },
+  {
+   "id": "935467cc9d0d",
+   "title": "What does Israel’s new ground offensive mean for Palestinians in Gaza?",
+   "url": "https://www.aljazeera.com/news/2026/11/18/what-does-israels-new-ground-offensive-mean-for-palestinians-in-gaza?traffic_source=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -255,23 +315,8 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-18T19:31:31+00:00",
-   "note": "At least four people have been killed and thirteen more injured after Russian strikes hit Ukraine’s port city of Odesa.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "d35436b9d88e",
-   "title": "Israeli settler kills Palestinian grandmother in occupied West Bank",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-settler-kills-palestinian-grandmother-in-occupied-west-bank?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-18T19:27:42+00:00",
-   "note": "A Palestinian grandmother was killed by an Israeli settler in the occupied West Bank.",
+   "published": "2026-11-18T20:38:06+00:00",
+   "note": "Israeli tanks advance beyond the 'Yellow Line', forcing Palestinians to flee again in Gaza.",
    "region": "MIDDLE_EAST"
   },
   {
@@ -280,7 +325,7 @@
    "url": "https://www.scmp.com/news/world/americas/article/3374964/el-salvadors-bukele-says-his-troops-destroyed-gang-leaders-mansion-haiti",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -295,7 +340,7 @@
    "url": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -310,7 +355,7 @@
    "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -320,48 +365,18 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "771c0f0ebd16",
-   "title": "Russian attacks on Ukraine kill at least five people",
-   "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-18T15:32:01+00:00",
-   "note": "Most of the casualties were in strikes on Odesa that President Volodymyr Zelenskyy described as 'brutal'.",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "5e057f3242ae",
    "title": "Israel’s parliament moves to roll back Netanyahu’s divisive legacy",
    "url": "https://www.scmp.com/news/world/middle-east/article/3374954/israels-parliament-moves-roll-back-netanyahus-divisive-legacy",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
    "published": "2026-11-18T15:00:58+00:00",
    "note": "Israel’s parliament met under a new speaker from the anti-Benjamin Netanyahu bloc on Wednesday, as opponents of the caretaker prime minister began a legislative offensive to roll b",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "da02d99c9ff8",
-   "title": "Three killed as Israel launches first ground push since ‘ceasefire’ began",
-   "url": "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-18T14:39:09+00:00",
-   "note": "Many Palestinians started to flee refugee camps as the Israeli offensive got underway.",
    "region": "MIDDLE_EAST"
   },
   {
@@ -395,27 +410,12 @@
    "region": "OTHER"
   },
   {
-   "id": "c7f09da03fd4",
-   "title": "Iran, US trade threats over dirty bombs and first strikes as new war wave looms",
-   "url": "https://www.scmp.com/week-asia/politics/article/3374868/iran-us-trade-threats-over-dirty-bombs-and-first-strikes-new-war-wave-looms",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-18T09:28:58+00:00",
-   "note": "Iran has warned that it may attack the United States first if it decides that another widely feared escalation in the nine-month-old conflict cannot be avoided. Mediation by region",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "f09919bdeade",
    "title": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
    "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -430,7 +430,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -440,24 +440,54 @@
    "region": "LATAM"
   },
   {
-   "id": "d07cb006a31f",
-   "title": "Costa Rican journalist shot dead in first such killing in 25 years",
-   "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
+   "id": "b9a41822f769",
+   "title": "US launched unarmed ICBM test hours before Trump’s Air Force One landed in China",
+   "url": "https://www.scmp.com/news/china/military/article/3374979/us-launched-unarmed-icbm-test-hours-trumps-air-force-one-landed-china",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-19T01:42:08+00:00",
+   "note": "The United States conducted an intercontinental ballistic missile test less than two hours before President Donald Trump landed in China on Wednesday for the Apec summit and a high",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "1c9920ff3488",
+   "title": "Record-breaking rain lashes California’s Bay area as ‘atmospheric river’ arrives",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
+   "component": "physical",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-17T17:19:12+00:00",
-   "note": "Camilo Rodriguez’s death comes as the country grapples with a surge in drug violence The Costa Rican journalist Camilo Rodríguez, who gained prominence for publishing allegations a",
+   "published": "2026-11-19T01:03:34+00:00",
+   "note": "Storm expected to move into southern California, with LA residents warned of potential evacuation orders Heavy rain pounded California’s Bay area, with record rainfall in downtown ",
    "region": "OTHER"
   },
   {
-   "id": "acda11233265",
-   "title": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
-   "url": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island?traffic_source=rss",
+   "id": "ca4ce38c9df9",
+   "title": "US panel urges Congress to punish China over Panama-flagged ship detentions",
+   "url": "https://www.scmp.com/news/us/article/3374807/us-panel-urges-congress-punish-china-over-panama-flagged-ship-detentions",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-19T00:43:34+00:00",
+   "note": "A bipartisan US congressional commission has urged lawmakers to declare China’s detention of hundreds of Panama-flagged ships a form of “economic coercion” and to let the US presid",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "07499edff475",
+   "title": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
@@ -465,29 +495,29 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-18T16:47:26+00:00",
-   "note": "Iranian attacks on the Gulf countries draw condemnation from across the region.",
+   "published": "2026-11-19T00:01:02+00:00",
+   "note": "Saudi-led coalition says it destroyed a missile platform in Saada, Yemen, as Iran claims three ships hit mines.",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "88ca14401435",
-   "title": "Russia’s new low-cost munitions pose a fresh threat to Ukraine",
-   "url": "https://www.france24.com/en/europe/20261118-russia-new-low-cost-munitions-threat-ukraine",
+   "id": "fea47e4c0421",
+   "title": "Crimea bridge has been attacked again, says Russian-installed governor",
+   "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "guardian"
    ],
-   "published": "2026-11-18T16:19:08+00:00",
-   "note": "Dan-T, Filin and Geran-5 might not mean anything to you, but in Ukraine, everyone is talking about these munitions. These new Russian weapons are small, fast and cheap – and a majo",
+   "published": "2026-11-18T23:27:37+00:00",
+   "note": "Assessment of damage is underway, days after two attacks that destroyed road section of key bridge across Kerch strait linking annexed peninsula to Russia A key bridge connecting a",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "cc2cd9883075",
-   "title": "Canada’s PM calls out ‘lying’ Putin for downplaying sanctions",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/canadas-pm-calls-out-lying-putin-for-downplaying-sanctions?traffic_source=rss",
+   "id": "02f59934309a",
+   "title": "US steps up pressure on Iran-backed Hezbollah with new sanctions",
+   "url": "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions?traffic_source=rss",
    "component": "diplomacy",
    "severity": 4,
    "confidence": 0.56,
@@ -495,14 +525,14 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-18T16:16:48+00:00",
-   "note": "Carney accuses Putin of ‘lying’ after the Russian leader dismissed Western sanctions as a ‘thing of the past’.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-18T22:56:19+00:00",
+   "note": "The US Treasury has accused Hezbollah of using charitable organisations as 'fronts' for fundraising.",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "ccfc3ab50dfc",
-   "title": "US strikes Iranian island after Tehran targets Bahrain",
-   "url": "https://www.france24.com/en/video/20261118-us-strikes-iranian-island-after-tehran-targets-bahrain",
+   "id": "f509675013e4",
+   "title": "Crimea bridge strike: Fact-checking fake videos of damage after Ukraine's attack",
+   "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
@@ -510,24 +540,9 @@
    "sources": [
     "france24"
    ],
-   "published": "2026-11-18T14:43:25+00:00",
-   "note": "The US and Iran exchanged fire on Tuesday, with the US striking an Iranian missile launch site after Iran said it targeted a US military radar system in Bahrain, despite talks betw",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "cb7bf057b626",
-   "title": "‘Status quo’ between US and Iran could break out into war, analysts warn",
-   "url": "https://www.aljazeera.com/news/2026/11/18/status-quo-between-us-and-iran-could-break-out-into-war-analysts-warn?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-18T14:36:20+00:00",
-   "note": "Iran and the US have continued to exchange strikes in recent days, but all-out war has so far been avoided.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-18T21:51:43+00:00",
+   "note": "Ukraine struck the Kerch Bridge linking Russia to occupied Crimea, but not all the dramatic footage circulating online is real. Multiple AI-generated videos falsely show the bridge",
+   "region": "RUSSIA_CIS"
   },
   {
    "id": "61bdebb430a9",
@@ -545,34 +560,34 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "162906a62a21",
-   "title": "科威特军方称防空系统正拦截敌对无人机",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10733861.shtml",
+   "id": "2d300b0cd0af",
+   "title": "Xi welcomes Trump: Does Nvidia scandal upend US-China AI race?",
+   "url": "https://www.france24.com/en/tv-shows/the-debate/20261118-xi-welcomes-trump-does-nvidia-scandal-upend-us-china-ai-race",
    "component": "military",
    "severity": 4,
-   "confidence": 0.38,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "france24"
    ],
-   "published": "2026-11-18T01:27:54+00:00",
-   "note": "当地时间18日，科威特军方表示，该国防空系统正在应对敌对无人机袭击。",
-   "region": "OTHER"
+   "published": "2026-11-18T19:42:17+00:00",
+   "note": "You can strike Jensen Huang from the guest list but good luck steering dinner conversation away from the topic in Shenzhen. The co-founder of the AI computing leader was to accompa",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "cf3a00d7bce8",
-   "title": "英国对以色列定居点企业实施制裁",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10733831.shtml",
-   "component": "diplomacy",
+   "id": "88ca14401435",
+   "title": "Russia’s new low-cost munitions pose a fresh threat to Ukraine",
+   "url": "https://www.france24.com/en/europe/20261118-russia-new-low-cost-munitions-threat-ukraine",
+   "component": "military",
    "severity": 4,
-   "confidence": 0.38,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "france24"
    ],
-   "published": "2026-11-18T00:20:40+00:00",
-   "note": "中新社伦敦11月17日电 (记者 欧阳开宇)当地时间11月17日，英国政府宣布实施新一轮制裁，对多家参与约旦河西岸定居点建设的以色列实体采取限制举措，以维护巴以“两国方案”推进前景。",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-18T16:19:08+00:00",
+   "note": "Dan-T, Filin and Geran-5 might not mean anything to you, but in Ukraine, everyone is talking about these munitions. These new Russian weapons are small, fast and cheap – and a majo",
+   "region": "RUSSIA_CIS"
   },
   {
    "id": "f3916e9758b5",
@@ -588,94 +603,79 @@
    "published": "2026-11-18T14:05:38+00:00",
    "note": "Attorney general says E1 settlement decision should not be taken by caretaker government led by Netanyahu Israel has postponed issuing contracts for the construction of a large set",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "3548f2f6aa7c",
-   "title": "How China’s ‘carrier nannies’ are powering the Liaoning’s long Pacific push",
-   "url": "https://www.scmp.com/news/china/military/article/3374918/how-chinas-carrier-nannies-are-powering-liaonings-long-pacific-push",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-18T14:00:07+00:00",
-   "note": "Chinese replenishment ships were seen repeatedly transiting two major waterways around Japan as the Liaoning aircraft carrier conducted an extended western Pacific Ocean deployment",
-   "region": "EAST_ASIA"
   }
  ],
  "breaking": [
   {
-   "id": "2e8a76c142fb",
-   "title": "Four killed as Russian strikes hit Ukraine’s Odesa",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/four-killed-as-russian-strikes-hit-ukraines-odesa?traffic_source=rss",
+   "id": "b9a41822f769",
+   "title": "US launched unarmed ICBM test hours before Trump’s Air Force One landed in China",
+   "url": "https://www.scmp.com/news/china/military/article/3374979/us-launched-unarmed-icbm-test-hours-trumps-air-force-one-landed-china",
    "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-18T19:31:31+00:00",
-   "note": "At least four people have been killed and thirteen more injured after Russian strikes hit Ukraine’s port city of Odesa.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "d35436b9d88e",
-   "title": "Israeli settler kills Palestinian grandmother in occupied West Bank",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-settler-kills-palestinian-grandmother-in-occupied-west-bank?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-18T19:27:42+00:00",
-   "note": "A Palestinian grandmother was killed by an Israeli settler in the occupied West Bank.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "f84a6d244364",
-   "title": "El Salvador’s Bukele says his troops destroyed gang leader’s mansion in Haiti",
-   "url": "https://www.scmp.com/news/world/americas/article/3374964/el-salvadors-bukele-says-his-troops-destroyed-gang-leaders-mansion-haiti",
-   "component": "military",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-18T18:34:47+00:00",
-   "note": "El Salvador’s President Nayib Bukele said on Wednesday that his troops had demolished the lavish home of a prominent gang leader in Haiti known as Jeff. It was not immediately clea",
-   "region": "LATAM"
+   "published": "2026-11-19T01:42:08+00:00",
+   "note": "The United States conducted an intercontinental ballistic missile test less than two hours before President Donald Trump landed in China on Wednesday for the Apec summit and a high",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "224522511e0c",
-   "title": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
-   "url": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea",
-   "component": "military",
+   "id": "1c9920ff3488",
+   "title": "Record-breaking rain lashes California’s Bay area as ‘atmospheric river’ arrives",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
+   "component": "physical",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-19T01:03:34+00:00",
+   "note": "Storm expected to move into southern California, with LA residents warned of potential evacuation orders Heavy rain pounded California’s Bay area, with record rainfall in downtown ",
+   "region": "OTHER"
+  },
+  {
+   "id": "ca4ce38c9df9",
+   "title": "US panel urges Congress to punish China over Panama-flagged ship detentions",
+   "url": "https://www.scmp.com/news/us/article/3374807/us-panel-urges-congress-punish-china-over-panama-flagged-ship-detentions",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-19T00:43:34+00:00",
+   "note": "A bipartisan US congressional commission has urged lawmakers to declare China’s detention of hundreds of Panama-flagged ships a form of “economic coercion” and to let the US presid",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "ceb7b403add5",
+   "title": "Mike Lynch’s superyacht had unidentified vulnerability to high winds, report finds",
+   "url": "https://www.theguardian.com/world/2026/nov/19/mike-lynch-superyacht-bayesian-vulnerability-to-high-winds-report",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "guardian"
    ],
-   "published": "2026-11-18T18:17:34+00:00",
-   "note": "A Ukrainian drone and missile strike on Monday night brought down a stretch of the bridge linking the annexed Crimean Peninsula to Russia, potentially crippling a route long used b",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-19T00:01:11+00:00",
+   "note": "Bayesian, which sank off Sicily killing seven including tech tycoon, had not been fully assessed, say investigators The superyacht Bayesian, which sank in a storm off Sicily killin",
+   "region": "OTHER"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 45122,
-  "gdelt_events": 44856,
+  "items": 46201,
+  "gdelt_events": 45935,
   "mode": "live",
-  "data_through": "2026-11-17",
+  "data_through": "2026-11-18",
   "clusters": 257,
-  "origins": 260,
+  "origins": 261,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -684,8 +684,8 @@
   ],
   "components_covered": 57,
   "components_required": 66,
-  "components_saturated": 0,
-  "saturated_ratio": 0.0,
+  "components_saturated": 2,
+  "saturated_ratio": 0.035,
   "note": "覆盖不足时请看置信度，不要看指数"
  },
  "diagnostics": {
@@ -693,11 +693,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.22,
+    "now": 3.01,
     "p50": 0.5,
-    "p90": 3.06,
-    "ratio": 6.42,
-    "z": 1.62
+    "p90": 3.18,
+    "ratio": 6.0,
+    "z": 1.57
    },
    "physical": {
     "now": 0.0,
@@ -707,40 +707,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.58,
+    "now": 2.24,
     "p50": 0.4,
-    "p90": 2.23,
-    "ratio": 6.44,
-    "z": 1.52
+    "p90": 2.46,
+    "ratio": 5.6,
+    "z": 1.41
    },
    "economy": {
-    "now": 2.31,
-    "p50": 0.4,
-    "p90": 2.05,
-    "ratio": 5.76,
-    "z": 1.44
+    "now": 2.19,
+    "p50": 0.41,
+    "p90": 2.07,
+    "ratio": 5.36,
+    "z": 1.39
    },
    "internal": {
-    "now": 1.24,
+    "now": 1.19,
     "p50": 0.17,
     "p90": 1.15,
-    "ratio": 7.47,
-    "z": 1.17
+    "ratio": 7.0,
+    "z": 1.13
    },
    "narrative": {
-    "now": 0.05,
+    "now": 0.07,
     "p50": 0.06,
     "p90": 0.11,
     "ratio": null,
-    "z": -0.02
+    "z": 0.02
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-21",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-22",
    "geti": 50.0
@@ -795,23 +791,23 @@
   },
   {
    "date": "2026-08-04",
-   "geti": 49.6
+   "geti": 50.0
   },
   {
    "date": "2026-08-05",
-   "geti": 43.5
+   "geti": 43.7
   },
   {
    "date": "2026-08-06",
-   "geti": 46.9
+   "geti": 47.3
   },
   {
    "date": "2026-08-07",
-   "geti": 45.4
+   "geti": 45.1
   },
   {
    "date": "2026-08-08",
-   "geti": 43.8
+   "geti": 43.2
   },
   {
    "date": "2026-08-09",
@@ -819,51 +815,51 @@
   },
   {
    "date": "2026-08-10",
-   "geti": 45.1
+   "geti": 44.8
   },
   {
    "date": "2026-08-11",
-   "geti": 47.2
+   "geti": 46.8
   },
   {
    "date": "2026-08-12",
-   "geti": 48.8
+   "geti": 48.2
   },
   {
    "date": "2026-08-13",
-   "geti": 48.8
+   "geti": 48.2
   },
   {
    "date": "2026-08-14",
-   "geti": 48.5
+   "geti": 47.7
   },
   {
    "date": "2026-08-15",
-   "geti": 51.6
+   "geti": 50.9
   },
   {
    "date": "2026-08-16",
-   "geti": 52.7
+   "geti": 51.8
   },
   {
    "date": "2026-08-17",
-   "geti": 46.4
+   "geti": 46.3
   },
   {
    "date": "2026-08-18",
-   "geti": 42.7
+   "geti": 43.0
   },
   {
    "date": "2026-08-19",
-   "geti": 40.3
+   "geti": 40.1
   },
   {
    "date": "2026-08-20",
-   "geti": 45.0
+   "geti": 44.7
   },
   {
    "date": "2026-08-21",
-   "geti": 47.5
+   "geti": 46.9
   },
   {
    "date": "2026-08-22",
@@ -871,351 +867,355 @@
   },
   {
    "date": "2026-08-23",
-   "geti": 40.7
+   "geti": 40.3
   },
   {
    "date": "2026-08-24",
-   "geti": 44.4
-  },
-  {
-   "date": "2026-08-25",
-   "geti": 41.9
-  },
-  {
-   "date": "2026-08-26",
-   "geti": 37.2
-  },
-  {
-   "date": "2026-08-27",
-   "geti": 47.8
-  },
-  {
-   "date": "2026-08-28",
-   "geti": 50.2
-  },
-  {
-   "date": "2026-08-29",
-   "geti": 50.7
-  },
-  {
-   "date": "2026-08-30",
-   "geti": 56.6
-  },
-  {
-   "date": "2026-08-31",
-   "geti": 57.9
-  },
-  {
-   "date": "2026-09-01",
-   "geti": 51.4
-  },
-  {
-   "date": "2026-09-02",
-   "geti": 50.4
-  },
-  {
-   "date": "2026-09-03",
-   "geti": 48.3
-  },
-  {
-   "date": "2026-09-04",
-   "geti": 48.2
-  },
-  {
-   "date": "2026-09-05",
-   "geti": 50.4
-  },
-  {
-   "date": "2026-09-06",
-   "geti": 48.4
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 43.7
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 42.9
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 40.9
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 39.0
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 38.7
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 41.9
-  },
-  {
-   "date": "2026-09-13",
    "geti": 43.9
   },
   {
-   "date": "2026-09-14",
-   "geti": 42.9
+   "date": "2026-08-25",
+   "geti": 41.4
   },
   {
-   "date": "2026-09-15",
-   "geti": 44.1
+   "date": "2026-08-26",
+   "geti": 37.4
   },
   {
-   "date": "2026-09-16",
-   "geti": 45.3
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 45.2
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 42.8
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 46.5
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 52.2
-  },
-  {
-   "date": "2026-09-21",
+   "date": "2026-08-27",
    "geti": 48.6
   },
   {
-   "date": "2026-09-22",
-   "geti": 46.9
+   "date": "2026-08-28",
+   "geti": 50.6
   },
   {
-   "date": "2026-09-23",
-   "geti": 49.1
+   "date": "2026-08-29",
+   "geti": 51.6
   },
   {
-   "date": "2026-09-24",
-   "geti": 45.9
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 43.5
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 48.5
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 48.1
-  },
-  {
-   "date": "2026-09-28",
-   "geti": 46.1
-  },
-  {
-   "date": "2026-09-29",
-   "geti": 43.3
-  },
-  {
-   "date": "2026-09-30",
-   "geti": 39.5
-  },
-  {
-   "date": "2026-10-01",
-   "geti": 36.0
-  },
-  {
-   "date": "2026-10-02",
-   "geti": 40.1
-  },
-  {
-   "date": "2026-10-03",
-   "geti": 41.3
-  },
-  {
-   "date": "2026-10-04",
-   "geti": 40.0
-  },
-  {
-   "date": "2026-10-05",
-   "geti": 44.3
-  },
-  {
-   "date": "2026-10-06",
-   "geti": 46.4
-  },
-  {
-   "date": "2026-10-07",
-   "geti": 45.1
-  },
-  {
-   "date": "2026-10-08",
-   "geti": 44.0
-  },
-  {
-   "date": "2026-10-09",
-   "geti": 47.2
-  },
-  {
-   "date": "2026-10-10",
-   "geti": 52.8
-  },
-  {
-   "date": "2026-10-11",
-   "geti": 57.5
-  },
-  {
-   "date": "2026-10-12",
-   "geti": 52.7
-  },
-  {
-   "date": "2026-10-13",
-   "geti": 52.2
-  },
-  {
-   "date": "2026-10-14",
-   "geti": 52.7
-  },
-  {
-   "date": "2026-10-15",
-   "geti": 56.7
-  },
-  {
-   "date": "2026-10-16",
-   "geti": 56.9
-  },
-  {
-   "date": "2026-10-17",
-   "geti": 56.5
-  },
-  {
-   "date": "2026-10-18",
-   "geti": 57.8
-  },
-  {
-   "date": "2026-10-19",
-   "geti": 58.7
-  },
-  {
-   "date": "2026-10-20",
-   "geti": 54.9
-  },
-  {
-   "date": "2026-10-21",
-   "geti": 50.5
-  },
-  {
-   "date": "2026-10-22",
-   "geti": 49.7
-  },
-  {
-   "date": "2026-10-23",
-   "geti": 53.7
-  },
-  {
-   "date": "2026-10-24",
+   "date": "2026-08-30",
    "geti": 57.0
   },
   {
+   "date": "2026-08-31",
+   "geti": 58.1
+  },
+  {
+   "date": "2026-09-01",
+   "geti": 52.2
+  },
+  {
+   "date": "2026-09-02",
+   "geti": 51.1
+  },
+  {
+   "date": "2026-09-03",
+   "geti": 49.0
+  },
+  {
+   "date": "2026-09-04",
+   "geti": 48.8
+  },
+  {
+   "date": "2026-09-05",
+   "geti": 51.2
+  },
+  {
+   "date": "2026-09-06",
+   "geti": 49.5
+  },
+  {
+   "date": "2026-09-07",
+   "geti": 44.8
+  },
+  {
+   "date": "2026-09-08",
+   "geti": 43.9
+  },
+  {
+   "date": "2026-09-09",
+   "geti": 42.1
+  },
+  {
+   "date": "2026-09-10",
+   "geti": 40.0
+  },
+  {
+   "date": "2026-09-11",
+   "geti": 39.8
+  },
+  {
+   "date": "2026-09-12",
+   "geti": 42.8
+  },
+  {
+   "date": "2026-09-13",
+   "geti": 44.6
+  },
+  {
+   "date": "2026-09-14",
+   "geti": 43.8
+  },
+  {
+   "date": "2026-09-15",
+   "geti": 45.0
+  },
+  {
+   "date": "2026-09-16",
+   "geti": 46.4
+  },
+  {
+   "date": "2026-09-17",
+   "geti": 46.5
+  },
+  {
+   "date": "2026-09-18",
+   "geti": 43.8
+  },
+  {
+   "date": "2026-09-19",
+   "geti": 47.5
+  },
+  {
+   "date": "2026-09-20",
+   "geti": 53.2
+  },
+  {
+   "date": "2026-09-21",
+   "geti": 49.7
+  },
+  {
+   "date": "2026-09-22",
+   "geti": 48.0
+  },
+  {
+   "date": "2026-09-23",
+   "geti": 50.1
+  },
+  {
+   "date": "2026-09-24",
+   "geti": 46.8
+  },
+  {
+   "date": "2026-09-25",
+   "geti": 44.4
+  },
+  {
+   "date": "2026-09-26",
+   "geti": 49.4
+  },
+  {
+   "date": "2026-09-27",
+   "geti": 49.0
+  },
+  {
+   "date": "2026-09-28",
+   "geti": 47.0
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 44.1
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 40.3
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 36.7
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 40.8
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 41.9
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 40.6
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 44.8
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 46.9
+  },
+  {
+   "date": "2026-10-07",
+   "geti": 45.7
+  },
+  {
+   "date": "2026-10-08",
+   "geti": 44.5
+  },
+  {
+   "date": "2026-10-09",
+   "geti": 47.7
+  },
+  {
+   "date": "2026-10-10",
+   "geti": 53.4
+  },
+  {
+   "date": "2026-10-11",
+   "geti": 58.1
+  },
+  {
+   "date": "2026-10-12",
+   "geti": 53.3
+  },
+  {
+   "date": "2026-10-13",
+   "geti": 52.8
+  },
+  {
+   "date": "2026-10-14",
+   "geti": 53.4
+  },
+  {
+   "date": "2026-10-15",
+   "geti": 57.3
+  },
+  {
+   "date": "2026-10-16",
+   "geti": 57.5
+  },
+  {
+   "date": "2026-10-17",
+   "geti": 57.1
+  },
+  {
+   "date": "2026-10-18",
+   "geti": 58.4
+  },
+  {
+   "date": "2026-10-19",
+   "geti": 59.3
+  },
+  {
+   "date": "2026-10-20",
+   "geti": 55.4
+  },
+  {
+   "date": "2026-10-21",
+   "geti": 51.1
+  },
+  {
+   "date": "2026-10-22",
+   "geti": 50.2
+  },
+  {
+   "date": "2026-10-23",
+   "geti": 54.3
+  },
+  {
+   "date": "2026-10-24",
+   "geti": 57.5
+  },
+  {
    "date": "2026-10-25",
-   "geti": 62.7
+   "geti": 63.2
   },
   {
    "date": "2026-10-26",
-   "geti": 46.0
+   "geti": 46.4
   },
   {
    "date": "2026-10-27",
-   "geti": 48.9
+   "geti": 49.3
   },
   {
    "date": "2026-10-28",
-   "geti": 48.7
+   "geti": 49.1
   },
   {
    "date": "2026-10-29",
-   "geti": 53.8
+   "geti": 54.2
   },
   {
    "date": "2026-10-30",
-   "geti": 40.2
+   "geti": 40.6
   },
   {
    "date": "2026-10-31",
-   "geti": 49.9
+   "geti": 50.3
   },
   {
    "date": "2026-11-01",
-   "geti": 37.8
+   "geti": 38.1
   },
   {
    "date": "2026-11-02",
-   "geti": 37.6
+   "geti": 37.9
   },
   {
    "date": "2026-11-03",
-   "geti": 52.7
+   "geti": 53.0
   },
   {
    "date": "2026-11-04",
-   "geti": 61.6
+   "geti": 61.9
   },
   {
    "date": "2026-11-05",
-   "geti": 65.0
+   "geti": 65.3
   },
   {
    "date": "2026-11-06",
-   "geti": 68.3
+   "geti": 68.7
   },
   {
    "date": "2026-11-07",
-   "geti": 66.5
+   "geti": 66.9
   },
   {
    "date": "2026-11-08",
-   "geti": 68.9
+   "geti": 69.3
   },
   {
    "date": "2026-11-09",
-   "geti": 69.0
+   "geti": 69.4
   },
   {
    "date": "2026-11-10",
-   "geti": 71.5
+   "geti": 71.9
   },
   {
    "date": "2026-11-11",
-   "geti": 73.3
+   "geti": 73.6
   },
   {
    "date": "2026-11-12",
-   "geti": 73.7
-  },
-  {
-   "date": "2026-11-13",
-   "geti": 73.8
-  },
-  {
-   "date": "2026-11-14",
    "geti": 74.1
   },
   {
+   "date": "2026-11-13",
+   "geti": 74.1
+  },
+  {
+   "date": "2026-11-14",
+   "geti": 74.4
+  },
+  {
    "date": "2026-11-15",
-   "geti": 73.7
+   "geti": 74.0
   },
   {
    "date": "2026-11-16",
-   "geti": 72.7
+   "geti": 73.0
   },
   {
    "date": "2026-11-17",
-   "geti": 74.7
+   "geti": 74.9
+  },
+  {
+   "date": "2026-11-18",
+   "geti": 75.1
   }
  ],
  "policy": {
@@ -1223,26 +1223,34 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Chinese executive convicted in case linked to Bangkok tower collapse",
-    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374963/chinese-executive-convicted-case-linked-bangkok-tower-collapse",
-    "country": "TH",
+    "title": "Beau Lamarre-Condon’s testimony about Jesse Baird and Luke Davies’ deaths ‘fanciful in the extreme’, crown alleges",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/19/beau-lamarre-condon-jesse-baird-luke-davies-ntwnfb",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-19"
+   },
+   {
+    "kind": "judicial",
+    "title": "US court convicts Florida pastor over plot to assassinate Haiti’s president",
+    "url": "https://www.scmp.com/news/world/americas/article/3374968/us-court-convicts-florida-pastor-over-plot-assassinate-haitis-president",
+    "country": "",
     "source": "scmp",
     "when": "2026-11-18"
    },
    {
     "kind": "judicial",
-    "title": "中国银行原副行长林景臻一审获刑13年",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-18/10734299.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
+    "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
+    "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
+    "country": "US",
+    "source": "guardian",
     "when": "2026-11-18"
    },
    {
     "kind": "judicial",
-    "title": "Bikie ‘not surprised’ if he used fake $20,000 souvlaki invoice to pocket thousands on Big Build site, inquiry hears",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/18/bandidos-bikie-joel-leavitt-cfmeu-big-build-inquiry-ntwnfb",
-    "country": "",
-    "source": "guardian",
+    "title": "Chinese executive convicted in case linked to Bangkok tower collapse",
+    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374963/chinese-executive-convicted-case-linked-bangkok-tower-collapse",
+    "country": "TH",
+    "source": "scmp",
     "when": "2026-11-18"
    },
    {
@@ -1270,12 +1278,12 @@
     "when": "2026-11-17"
    }
   ],
-  "notable_total": 6,
+  "notable_total": 7,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 6
+   "notable": 7
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1324,11 +1332,11 @@
    {
     "id": "ust",
     "label": "美十年期",
-    "last": 5.12,
-    "chg5": 5.35,
-    "z": -0.222,
+    "last": 5.1,
+    "chg5": 4.51,
+    "z": -0.188,
     "ok": true,
-    "asof": "2026-11-16"
+    "asof": "2026-11-17"
    }
   ],
   "asof": "2026-11-17",
@@ -1361,7 +1369,7 @@
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 102,
+    "items": 103,
     "error": ""
    }
   ],
@@ -2187,27 +2195,27 @@
   "mode": "live"
  },
  "hazard": {
-  "index": 48.1,
-  "z": -0.06,
+  "index": 50.0,
+  "z": 0.0,
   "components": [
    {
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.39,
-    "carry": 9.03,
-    "z": -0.1,
-    "score": 46.7,
+    "value": 9.64,
+    "carry": 9.1,
+    "z": -0.07,
+    "score": 47.7,
     "available": true
    },
    {
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 12.0,
-    "carry": 13.83,
-    "z": 0.02,
-    "score": 50.5,
+    "value": 20.0,
+    "carry": 14.54,
+    "z": 0.21,
+    "score": 56.7,
     "available": true
    },
    {
@@ -2215,9 +2223,9 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 2.0,
-    "carry": 2.13,
+    "carry": 2.12,
     "z": -0.08,
-    "score": 47.6,
+    "score": 47.4,
     "available": true
    },
    {
@@ -2225,92 +2233,92 @@
     "label": "红色预警",
     "weight": 0.16,
     "value": 0.0,
-    "carry": 0.11,
-    "z": 0.21,
-    "score": 56.7,
+    "carry": 0.09,
+    "z": 0.19,
+    "score": 55.9,
     "available": true
    },
    {
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 3.0,
-    "carry": 2.54,
-    "z": -0.48,
-    "score": 35.6,
+    "value": 3.33,
+    "carry": 2.63,
+    "z": -0.31,
+    "score": 40.5,
     "available": true
    }
   ],
-  "history_days": 15,
+  "history_days": 16,
   "components_ok": 5,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 14,
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "south of the Kermadec Islands",
+     "t": "Pacific-Antarctic Ridge",
+     "v": 6.1,
+     "ts": "2026-11-18T19:14+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz37"
+    },
+    {
+     "t": "85 km WNW of San Juan, Peru",
+     "v": 5.9,
+     "ts": "2026-11-18T06:07+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy8"
+    },
+    {
+     "t": "40 km N of Ruteng, Indonesia",
+     "v": 5.8,
+     "ts": "2026-11-18T04:41+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxi"
+    },
+    {
+     "t": "99 km ESE of Madang, Papua New Guinea",
+     "v": 5.8,
+     "ts": "2026-11-18T03:42+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyx2"
+    },
+    {
+     "t": "150 km SW of Merizo Village, Guam",
+     "v": 5.8,
+     "ts": "2026-11-18T02:22+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywi"
+    },
+    {
+     "t": "4 km NNW of Tsunagi, Japan",
+     "v": 5.3,
+     "ts": "2026-11-18T17:22+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n"
+    },
+    {
+     "t": "149 km SSW of Merizo Village, Guam",
+     "v": 5.3,
+     "ts": "2026-11-18T16:06+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a"
+    },
+    {
+     "t": "16 km ESE of Comandău, Romania",
+     "v": 5.3,
+     "ts": "2026-11-18T00:48+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8"
+    },
+    {
+     "t": "7 km SE of Karakenja, Tajikistan",
+     "v": 5.3,
+     "ts": "2026-11-18T00:46+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw6"
+    },
+    {
+     "t": "169 km S of Attu Station, Alaska",
      "v": 5.2,
-     "ts": "2026-11-17T14:20+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysq"
-    },
-    {
-     "t": "137 km SSE of Kirakira, Solomon Islands",
-     "v": 5.0,
-     "ts": "2026-11-17T02:00+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyq5"
-    },
-    {
-     "t": "135 km S of Vilyuchinsk, Russia",
-     "v": 4.9,
-     "ts": "2026-11-17T15:49+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt4"
-    },
-    {
-     "t": "102 km ENE of Ozernovskiy, Russia",
-     "v": 4.9,
-     "ts": "2026-11-17T15:48+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt3"
-    },
-    {
-     "t": "173 km ENE of Noda, Japan",
-     "v": 4.9,
-     "ts": "2026-11-17T10:32+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyrw"
-    },
-    {
-     "t": "43 km NW of Oxford, New Zealand",
-     "v": 4.9,
-     "ts": "2026-11-17T10:30+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyrv"
-    },
-    {
-     "t": "26 km E of Port-Olry, Vanuatu",
-     "v": 4.9,
-     "ts": "2026-11-17T03:52+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyqi"
-    },
-    {
-     "t": "141 km NW of Kavieng, Papua New Guinea",
-     "v": 4.8,
-     "ts": "2026-11-17T16:35+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9"
-    },
-    {
-     "t": "Owen Fracture Zone region",
-     "v": 4.5,
-     "ts": "2026-11-17T23:25+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyvt"
-    },
-    {
-     "t": "26 km NW of Port-Vila, Vanuatu",
-     "v": 4.5,
-     "ts": "2026-11-17T18:15+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytz"
+     "ts": "2026-11-18T21:28+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubw3"
     }
    ],
    "eonet": [
@@ -2329,143 +2337,150 @@
    ],
    "gdacs": [
     {
-     "t": "Green flood alert in South Africa",
+     "t": "Green earthquake (Magnitude 6.1M, Depth:10km) in Pacific-Antarctic Ridge 18/11/2",
      "v": "green",
-     "ts": "2026-11-17 07:24",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104286"
+     "ts": "2026-11-18 19:35",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1578046"
     },
     {
-     "t": "Green flood alert in Spain",
+     "t": "Green earthquake (Magnitude 5.9M, Depth:21.895km) in Peru 18/11/2026 06:07 UTC, ",
      "v": "green",
-     "ts": "2026-11-17 07:43",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104287"
+     "ts": "2026-11-18 06:23",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577946"
     },
     {
-     "t": "Green forest fire notification in Nigeria",
+     "t": "Green earthquake (Magnitude 5.8M, Depth:10km) in Indonesia 18/11/2026 04:41 UTC,",
      "v": "green",
-     "ts": "2026-11-17 16:34",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033904"
+     "ts": "2026-11-18 04:57",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577920"
     },
     {
-     "t": "Green forest fire notification in Nigeria",
+     "t": "Green earthquake (Magnitude 5.8M, Depth:52.291km) in Papua New Guinea 18/11/2026",
      "v": "green",
-     "ts": "2026-11-17 16:34",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033919"
+     "ts": "2026-11-18 03:56",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577911"
     },
     {
-     "t": "Green forest fire notification in Nigeria",
+     "t": "Green earthquake (Magnitude 5.8M, Depth:10km) in South Of Mariana Islands 18/11/",
      "v": "green",
-     "ts": "2026-11-17 16:34",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033921"
+     "ts": "2026-11-18 02:34",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577901"
     },
     {
-     "t": "Green forest fire notification in Nigeria",
+     "t": "Green forest fire notification in South Africa",
      "v": "green",
-     "ts": "2026-11-17 16:34",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033947"
+     "ts": "2026-11-18 08:01",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033939"
     },
     {
-     "t": "Green forest fire notification in Benin, Burkina Faso",
+     "t": "Green forest fire notification in Central African Republic",
      "v": "green",
-     "ts": "2026-11-17 04:06",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033940"
+     "ts": "2026-11-18 08:38",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033922"
     },
     {
-     "t": "Green forest fire notification in Benin, Niger, Burkina Faso",
+     "t": "Green forest fire notification in Togo, Benin, Burkina Faso",
      "v": "green",
-     "ts": "2026-11-17 04:08",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033927"
+     "ts": "2026-11-18 04:05",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033923"
     },
     {
-     "t": "Green forest fire notification in Nigeria",
+     "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
-     "ts": "2026-11-17 16:34",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033879"
+     "ts": "2026-11-18 04:12",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033905"
     },
     {
-     "t": "Green forest fire notification in Benin, Burkina Faso",
+     "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
-     "ts": "2026-11-17 04:06",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033930"
+     "ts": "2026-11-18 04:12",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033853"
     },
     {
-     "t": "Green forest fire notification in Benin, Burkina Faso",
+     "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
-     "ts": "2026-11-17 04:06",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033873"
+     "ts": "2026-11-18 04:12",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033928"
     },
     {
-     "t": "Green forest fire notification in Benin, Burkina Faso",
+     "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
-     "ts": "2026-11-17 04:06",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033932"
+     "ts": "2026-11-18 04:12",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033894"
     }
    ],
    "kp": [
     {
-     "t": "Kp 3.0 峰值（当日 8 个时段）",
-     "v": 3.0,
-     "ts": "2026-11-17",
+     "t": "Kp 3.33 峰值（当日 8 个时段）",
+     "v": 3.33,
+     "ts": "2026-11-18",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
   }
  },
  "epidemic": {
-  "index": 64.7,
-  "z": 0.48,
+  "index": 62.4,
+  "z": 0.41,
   "components": [
    {
     "key": "who_don",
     "label": "官方通报",
     "weight": 0.4,
     "value": 0.0,
-    "carry": 0.03,
-    "z": -0.12,
-    "score": 46.3,
+    "carry": 0.02,
+    "z": -0.11,
+    "score": 46.5,
     "available": true
    },
    {
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 0.0,
-    "carry": 1.31,
-    "z": 1.35,
-    "score": 84.3,
+    "value": 1.0,
+    "carry": 1.28,
+    "z": 0.98,
+    "score": 77.3,
     "available": true
    },
    {
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 2.63,
-    "carry": 1.04,
-    "z": 0.42,
-    "score": 62.9,
+    "value": 1.88,
+    "carry": 1.13,
+    "z": 0.52,
+    "score": 65.8,
     "available": true
    }
   ],
-  "history_days": 15,
+  "history_days": 16,
   "components_ok": 3,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 12,
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "ongoing": true
   },
   "evidence": {
-   "who": []
+   "who": [
+    {
+     "t": "美国土安全部长马林出席国会听证会 就全美停飞等作答",
+     "v": "政策",
+     "ts": "",
+     "u": ""
+    }
+   ]
   }
  },
  "doom": {
-  "index": 70.8,
-  "z": 0.53,
+  "index": 71.1,
+  "z": 0.54,
   "parts": {
-   "military": 0.65,
-   "hazard": -0.05,
-   "epidemic": 0.36
+   "military": 0.66,
+   "hazard": 0.0,
+   "epidemic": 0.3
   },
   "resonance": 0,
   "partial": false,
@@ -2502,14 +2517,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 141,
-   "items": 44856,
+   "files": 143,
+   "items": 45935,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 34,
+   "items": 33,
    "error": "",
    "undated": 0
   },
@@ -2523,7 +2538,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 39,
+   "items": 38,
    "error": "",
    "undated": 0
   },
@@ -2558,7 +2573,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 8,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2579,7 +2594,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 16,
+   "items": 14,
    "error": "",
    "undated": 0
   },
@@ -2610,7 +2625,7 @@
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 102,
+   "items": 103,
    "error": ""
   },
   {
@@ -2646,7 +2661,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 12,
+   "items": 20,
    "error": ""
   },
   {
@@ -2658,7 +2673,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 20,
+   "items": 23,
    "error": ""
   },
   {
@@ -2676,7 +2691,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 11652,
+   "items": 7497,
    "error": ""
   },
   {
