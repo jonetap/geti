@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-19T11:36:42+00:00",
+ "generated_at": "2026-11-19T20:33:48+00:00",
  "date": "2026-11-18",
  "geti": 75.1,
  "delta_z": 0.67,
@@ -245,9 +245,59 @@
  ],
  "events": [
   {
-   "id": "a6d838541593",
-   "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
+   "id": "65e19247a221",
+   "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.97,
+   "origins": 5,
+   "sources": [
+    "bbc",
+    "france24",
+    "guardian",
+    "scmp",
+    "dw"
+   ],
+   "published": "2026-11-19T20:07:02+00:00",
+   "note": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+   "region": "OTHER"
+  },
+  {
+   "id": "680b631f63ba",
+   "title": "Florida pastor found guilty over role in assassination of Haitian president",
+   "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.6,
+   "origins": 2,
+   "sources": [
+    "bbc",
+    "guardian"
+   ],
+   "published": "2026-11-19T11:44:57+00:00",
+   "note": "Christian Emmanuel Sanon is convicted of involvement in the plot that resulted in the killing of Jovenel Moïse.",
+   "region": "LATAM"
+  },
+  {
+   "id": "2cb0433bb431",
+   "title": "Families flee Gaza’s Bureij camp as Israel launches new offensive",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/families-flee-gazas-bureij-camp-as-israel-launches-new-offensive?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-19T19:01:00+00:00",
+   "note": "Families flee Gaza’s Bureij camp as Israel launches new offensive",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "9b806daeb3c1",
+   "title": "Mamdani signs bill to ban horse-drawn carriages in New York City",
+   "url": "https://www.theguardian.com/us-news/2026/nov/19/nyc-horse-drawn-carriage-ban-mamdani",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -255,24 +305,69 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-19T11:13:32+00:00",
-   "note": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systematic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two W",
-   "region": "OCEANIA"
+   "published": "2026-11-19T18:56:23+00:00",
+   "note": "Animal rights activists back the new law while workers’ unions oppose the ban over concerns about lost livelihoods Zohran Mamdani, New York City’s mayor, has signed a bill that wil",
+   "region": "OTHER"
   },
   {
-   "id": "8b835b2e4603",
-   "title": "Gaza: Israel launched new offensive on Nuseirat",
-   "url": "https://www.france24.com/en/gaza-israel-launched-new-offensive-on-nuseirat",
-   "component": "military",
+   "id": "edb26896da63",
+   "title": "Palestinians in Gaza face new displacement after Israeli army operation",
+   "url": "https://www.aljazeera.com/news/2026/11/19/palestinians-in-gaza-face-new-displacement-after-israeli-army-operation?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "aljazeera"
    ],
-   "published": "2026-11-19T07:50:10+00:00",
-   "note": "Israeli tanks have moved east of the Nuseirat refugee camp in central Gaza, with witnesses reporting heavy shelling, gunfire and airstrikes as the Israeli military says it has laun",
+   "published": "2026-11-19T18:46:10+00:00",
+   "note": "Families in Nuseirat spend the night without shelter, while many fear returning despite Israel ending offensive.",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "d6b3520a586b",
+   "title": "3 dead, 3 trapped as Georgia building collapses after gas blast",
+   "url": "https://www.scmp.com/news/world/europe/article/3375125/3-dead-3-trapped-georgia-building-collapses-after-gas-blast",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-19T15:52:57+00:00",
+   "note": "A suspected natural gas explosion in a residential block in Tbilisi in the country of Georgia killed three people on Thursday, while three others remained trapped under rubble, off",
+   "region": "OTHER"
+  },
+  {
+   "id": "1604ac097f79",
+   "title": "Somalia expels UAE ambassador, accuses Abu Dhabi of violating sovereignty",
+   "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty?traffic_source=rss",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-19T14:34:22+00:00",
+   "note": "Somalia says the UAE is interfering in its internal affairs with actions that amount to an 'open invasion'.",
+   "region": "AFRICA"
+  },
+  {
+   "id": "a6d838541593",
+   "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-19T11:13:32+00:00",
+   "note": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systemic betrayal of Kardell Lomas before her death recognised Get our breaking news email , free app or daily",
+   "region": "OCEANIA"
   },
   {
    "id": "91188a92b9bb",
@@ -280,7 +375,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -288,81 +383,6 @@
    "published": "2026-11-19T06:58:33+00:00",
    "note": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by",
    "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "ceb7b403add5",
-   "title": "Mike Lynch’s superyacht had unidentified vulnerability to high winds, report finds",
-   "url": "https://www.theguardian.com/world/2026/nov/19/mike-lynch-superyacht-bayesian-vulnerability-to-high-winds-report",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-19T00:01:11+00:00",
-   "note": "Bayesian, which sank off Sicily killing seven including tech tycoon, had not been fully assessed, say investigators The superyacht Bayesian, which sank in a storm off Sicily killin",
-   "region": "OTHER"
-  },
-  {
-   "id": "fea992d5096e",
-   "title": "EU proposes €45bn loan for Ukraine to avert cash crisis and boost defences",
-   "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-18T22:34:03+00:00",
-   "note": "Von der Leyen says she wants to give Kyiv ‘strong hand’ in talks and is confident all 27 member states will back idea The EU executive has proposed a €45bn (£37.5bn) loan for Ukrai",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "6fc713ded133",
-   "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
-   "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-18T22:31:41+00:00",
-   "note": "Christian Emmanuel Sanon faces life in prison after conviction on charges arising from killing of Jovenel Moïse A Florida pastor with dual Haitian-American citizenship was convicte",
-   "region": "LATAM"
-  },
-  {
-   "id": "20fe9a28f56d",
-   "title": "New video shows explosions moments before part of Crimea Bridge collapses",
-   "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-18T17:09:43+00:00",
-   "note": "BBC Verify analyses footage showing the final moments before part of the bridge fell and videos showing the scale of destruction.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "546512356da5",
-   "title": "Latin America's mega-prisons: Can El Salvador's model work?",
-   "url": "https://www.dw.com/en/latin-america-s-mega-prisons-can-el-salvador-s-model-work/a-79973524?maca=en-rss-en-world-4025-rdf",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-18T10:45:00+00:00",
-   "note": "El Salvador's mega-prison has become a model for governments across Latin America seeking to combat organized crime. But experts question whether the approach is effective, sustain",
-   "region": "OTHER"
   },
   {
    "id": "f09919bdeade",
@@ -395,12 +415,57 @@
    "region": "LATAM"
   },
   {
+   "id": "87f2c7ef4363",
+   "title": "Prison authorities consider whether Russell Brand harassed victims with YouTube message",
+   "url": "https://www.theguardian.com/news/2026/nov/19/prison-authorities-consider-russell-brand-youtube-message-rules-victim-distress",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-19T19:30:14+00:00",
+   "note": "Ministry of Justice weighs up comments issued through rapist’s wife as PM asks: ‘Why are we having to hear from him?’ The prison authorities are weighing up whether Russell Brand h",
+   "region": "OTHER"
+  },
+  {
+   "id": "b72a75311e6e",
+   "title": "Woman raped by strangers after being drugged by husband calls for consent law changes",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/19/men-convicted-sexual-assault-and-rape-woman-at-invitation-of-husband",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-19T18:54:01+00:00",
+   "note": "Four men convicted of sexual assault and rape of Joanne Young, whose husband advertised her on UK swinging websites • Spiked nightcaps and invitations to strangers: how Philip Youn",
+   "region": "OTHER"
+  },
+  {
+   "id": "9ab637777610",
+   "title": "France awaits verdict six years after police beat Black music producer",
+   "url": "https://www.aljazeera.com/news/2026/11/19/france-awaits-verdict-six-years-after-police-beat-black-music-producer?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-19T18:51:50+00:00",
+   "note": "Three officers are accused of assaulting Michel Zecler in an incident that was filmed by surveillance cameras.",
+   "region": "EUROPE"
+  },
+  {
    "id": "643487c5dbd3",
    "title": "乌克兰称袭击俄罗斯两座炼油厂",
    "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734629.shtml",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -415,7 +480,7 @@
    "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734574.shtml",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -425,34 +490,49 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "8dc7e6da09f0",
-   "title": "Will lasers weapons change warfare?",
-   "url": "https://www.aljazeera.com/video/project-force-2/2026/11/19/will-lasers-weapons-change-warfare?traffic_source=rss",
-   "component": "narrative",
+   "id": "7835fa210b8a",
+   "title": "In South Korea, women forced into prostitution on US military bases seek justice",
+   "url": "https://www.france24.com/en/tv-shows/focus/20261119-in-south-korea-women-forced-into-prostitution-on-us-military-bases-seek-justice",
+   "component": "military",
    "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-19T11:20:00+00:00",
-   "note": "The use of lasers is increasing in warfare — which countries are deploying them and how?",
-   "region": "OTHER"
-  },
-  {
-   "id": "767fb8ffbf6b",
-   "title": "South Korea tightens security for national exam over AI cheating scandal",
-   "url": "https://www.france24.com/en/south-korea-tightens-security-for-national-exam-over-ai-cheating-scandal",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-19T08:55:02+00:00",
-   "note": "More than 550,000 candidates sat South Korea’s Suneung university entrance exam under extraordinary security, after an AI cheating scandal in which a top scorer on a national tax a",
+   "published": "2026-11-19T13:21:41+00:00",
+   "note": "Tens of thousands of women were forced to work in South Korean state-sanctioned brothels used by American soldiers based in the country after the Korean War. They were raped, physi",
    "region": "EAST_ASIA"
+  },
+  {
+   "id": "d954e6ac02bc",
+   "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+   "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-19T13:07:35+00:00",
+   "note": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "9e99edaff355",
+   "title": "Houthis hit Riyadh’s tallest skyscraper in strike on Saudi wealth fund HQ",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3375108/houthis-hit-riyadhs-tallest-skyscraper-strike-saudi-wealth-fund-hq",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-19T12:56:09+00:00",
+   "note": "Riyadh’s tallest skyscraper, headquarters of the Saudi sovereign wealth fund, was struck on Thursday by a suspected Houthi missile in the latest blow in the Iran-backed Yemeni grou",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "35104383ae70",
@@ -460,7 +540,7 @@
    "url": "https://www.scmp.com/news/china/diplomacy/article/3375056/qatar-gifted-boeing-747-makes-china-debut-air-force-one-shenzhen",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -470,87 +550,12 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "c657a01afee3",
-   "title": "Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south",
-   "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-19T08:19:17+00:00",
-   "note": "Material damage was reported after ​debris fell following the latest Houthi strikes launched towards Saudi Arabia.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "2879ea417ea4",
-   "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
-   "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-19T07:08:57+00:00",
-   "note": "The US blockade of Iranian ports has a crippling effect on the economy, but Tehran insists its economy can survive.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "4dc956390d60",
-   "title": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
-   "url": "https://www.france24.com/en/middle-east/20261119-middle-east-crisis-energy-security-iea",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-19T05:11:59+00:00",
-   "note": "The International Energy Agency said on Thursday that the Middle East crisis triggered by US and Israeli strikes on Iran in February posed the “largest threat” to energy security i",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "b9a41822f769",
-   "title": "US launched unarmed ICBM test hours before Trump’s Air Force One landed in China",
-   "url": "https://www.scmp.com/news/china/military/article/3374979/us-launched-unarmed-icbm-test-hours-trumps-air-force-one-landed-china",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-19T01:42:08+00:00",
-   "note": "The United States conducted an intercontinental ballistic missile test less than two hours before President Donald Trump landed in China on Wednesday for the Apec summit and a high",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "1c9920ff3488",
-   "title": "Record-breaking rain lashes California’s Bay area as ‘atmospheric river’ arrives",
-   "url": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
-   "component": "physical",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-19T01:03:34+00:00",
-   "note": "Storm expected to move into southern California, with LA residents warned of potential evacuation orders Heavy rain pounded California’s Bay area, with record rainfall in downtown ",
-   "region": "OTHER"
-  },
-  {
    "id": "f3916e9758b5",
    "title": "Israel delays building contracts for West Bank settlement after UK sanctions",
    "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
    "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -565,7 +570,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -573,21 +578,6 @@
    "published": "2026-11-18T13:04:48+00:00",
    "note": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "8535ebc043eb",
-   "title": "苏丹：联合国报告详述无人机袭击激增对平民造成的致命影响",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143216",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.22,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-17T12:00:00+00:00",
-   "note": "联合国人权事务高级专员办事处周二发布的一份报告指出，2026年以来，苏丹武装冲突造成的平民死亡人数持续增加，无人机袭击已成为这场战争的显著特征。今年1月至10月底，至少有2230名平民丧生，其中超过1630人死于无人机袭击。",
-   "region": "AFRICA"
   },
   {
    "id": "6605b6af70cb",
@@ -603,28 +593,77 @@
    "published": "2026-11-18T09:58:28+00:00",
    "note": "A ruling against Myanmar could set precedent for court’s judgment on Israel’s actions in Gaza Fears are growing that the US could impose sanctions on judges at the international co",
    "region": "MIDDLE_EAST"
-  }
- ],
- "breaking": [
+  },
   {
-   "id": "8dc7e6da09f0",
-   "title": "Will lasers weapons change warfare?",
-   "url": "https://www.aljazeera.com/video/project-force-2/2026/11/19/will-lasers-weapons-change-warfare?traffic_source=rss",
-   "component": "narrative",
-   "severity": 4,
+   "id": "302f67a69297",
+   "title": "Man protests on roof of Spanish embassy over Fergie Chambers extradition",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/man-protests-on-roof-of-spanish-embassy-over-fergie-chambers-extradition?traffic_source=rss",
+   "component": "internal",
+   "severity": 3,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-19T11:20:00+00:00",
-   "note": "The use of lasers is increasing in warfare — which countries are deploying them and how?",
+   "published": "2026-11-19T19:15:10+00:00",
+   "note": "A man protested on the roof of Spain’s embassy in London against the extradition of US media heir Fergie Chambers.",
+   "region": "OTHER"
+  }
+ ],
+ "breaking": [
+  {
+   "id": "65e19247a221",
+   "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.97,
+   "origins": 5,
+   "sources": [
+    "bbc",
+    "france24",
+    "guardian",
+    "scmp",
+    "dw"
+   ],
+   "published": "2026-11-19T20:07:02+00:00",
+   "note": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
    "region": "OTHER"
   },
   {
-   "id": "a6d838541593",
-   "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
+   "id": "87f2c7ef4363",
+   "title": "Prison authorities consider whether Russell Brand harassed victims with YouTube message",
+   "url": "https://www.theguardian.com/news/2026/nov/19/prison-authorities-consider-russell-brand-youtube-message-rules-victim-distress",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-19T19:30:14+00:00",
+   "note": "Ministry of Justice weighs up comments issued through rapist’s wife as PM asks: ‘Why are we having to hear from him?’ The prison authorities are weighing up whether Russell Brand h",
+   "region": "OTHER"
+  },
+  {
+   "id": "2cb0433bb431",
+   "title": "Families flee Gaza’s Bureij camp as Israel launches new offensive",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/families-flee-gazas-bureij-camp-as-israel-launches-new-offensive?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-19T19:01:00+00:00",
+   "note": "Families flee Gaza’s Bureij camp as Israel launches new offensive",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "9b806daeb3c1",
+   "title": "Mamdani signs bill to ban horse-drawn carriages in New York City",
+   "url": "https://www.theguardian.com/us-news/2026/nov/19/nyc-horse-drawn-carriage-ban-mamdani",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -632,50 +671,20 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-19T11:13:32+00:00",
-   "note": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systematic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two W",
-   "region": "OCEANIA"
-  },
-  {
-   "id": "767fb8ffbf6b",
-   "title": "South Korea tightens security for national exam over AI cheating scandal",
-   "url": "https://www.france24.com/en/south-korea-tightens-security-for-national-exam-over-ai-cheating-scandal",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-19T08:55:02+00:00",
-   "note": "More than 550,000 candidates sat South Korea’s Suneung university entrance exam under extraordinary security, after an AI cheating scandal in which a top scorer on a national tax a",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "35104383ae70",
-   "title": "Qatar-gifted Boeing 747 makes China debut as Air Force One in Shenzhen",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3375056/qatar-gifted-boeing-747-makes-china-debut-air-force-one-shenzhen",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-19T08:29:35+00:00",
-   "note": "All three US presidential Boeing 747s touched down in Manila earlier this week, the first stop on Donald Trump’s Asia tour. The US Air Force typically deploys a backup aircraft on ",
-   "region": "EAST_ASIA"
+   "published": "2026-11-19T18:56:23+00:00",
+   "note": "Animal rights activists back the new law while workers’ unions oppose the ban over concerns about lost livelihoods Zohran Mamdani, New York City’s mayor, has signed a bill that wil",
+   "region": "OTHER"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 42776,
-  "gdelt_events": 42508,
+  "items": 44289,
+  "gdelt_events": 44021,
   "mode": "live",
   "data_through": "2026-11-18",
-  "clusters": 257,
-  "origins": 259,
+  "clusters": 256,
+  "origins": 261,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1223,18 +1232,42 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "李希在广西调研时强调 深入学习贯彻党的二十届五中全会精神 在持之以恒推进全面从严治党中更好担当尽责",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-19/10734844.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
+    "title": "Woman raped by strangers after being drugged by husband calls for consent law changes",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/19/men-convicted-sexual-assault-and-rape-woman-at-invitation-of-husband",
+    "country": "GB",
+    "source": "guardian",
     "when": "2026-11-19"
    },
    {
     "kind": "judicial",
-    "title": "New law ‘may be needed’ after Google rejects call to remove Russell Brand’s YouTube prison message",
-    "url": "https://www.theguardian.com/news/2026/nov/19/google-youtube-russell-brand-youtube-prison-message-jess-phillips-new-law",
+    "title": "4 UK men guilty of sex crimes against drugged woman in case with echoes of Pelicot",
+    "url": "https://www.scmp.com/news/world/europe/article/3375127/4-uk-men-guilty-sex-crimes-against-drugged-woman-case-echoes-pelicot",
     "country": "GB",
-    "source": "guardian",
+    "source": "scmp",
+    "when": "2026-11-19"
+   },
+   {
+    "kind": "judicial",
+    "title": "韩国前第一夫人金建希首案终审被判有期徒刑4年",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734932.shtml",
+    "country": "KR",
+    "source": "chinanews",
+    "when": "2026-11-19"
+   },
+   {
+    "kind": "judicial",
+    "title": "Florida pastor found guilty over role in assassination of Haitian president",
+    "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
+    "country": "",
+    "source": "bbc",
+    "when": "2026-11-19"
+   },
+   {
+    "kind": "judicial",
+    "title": "李希在广西调研时强调 深入学习贯彻党的二十届五中全会精神 在持之以恒推进全面从严治党中更好担当尽责",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-19/10734844.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
     "when": "2026-11-19"
    },
    {
@@ -1255,68 +1288,36 @@
    },
    {
     "kind": "judicial",
-    "title": "河南省商丘市人大常委会原党组成员、副主任张团结被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-19/10734683.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-19"
-   },
-   {
-    "kind": "judicial",
-    "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
-    "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
-    "country": "US",
-    "source": "guardian",
-    "when": "2026-11-18"
-   },
-   {
-    "kind": "judicial",
-    "title": "Pakistani man sentenced to 27 years for Iran-backed plot to kill Trump",
-    "url": "https://www.bbc.co.uk/news/articles/cm15ezz8n394o?at_medium=RSS&at_campaign=rss",
-    "country": "IR",
-    "source": "bbc",
-    "when": "2026-11-18"
-   },
-   {
-    "kind": "judicial",
     "title": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
     "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
     "country": "US",
     "source": "guardian",
     "when": "2026-11-18"
-   },
-   {
-    "kind": "judicial",
-    "title": "Hashim Thaci's second conviction in The Hague reignites debate in Kosovo about justice and the Kosovo Specialist Chamber",
-    "url": "https://www.dw.com/en/hashim-thaci-s-second-conviction-in-the-hague-reignites-debate-in-kosovo-about-justice-and-the-kosovo-specialist-chambers/a-79975227?maca=en-rss-en-world-4025-rdf",
-    "country": "",
-    "source": "dw",
-    "when": "2026-11-17"
    }
   ],
-  "notable_total": 9,
+  "notable_total": 8,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 9
+   "notable": 8
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
  "market": {
-  "index": 79.7,
-  "z": 0.82,
+  "index": 78.9,
+  "z": 0.792,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 25.46,
-    "chg5": 30.83,
-    "z": 1.71,
+    "last": 24.56,
+    "chg5": 40.42,
+    "z": 1.591,
     "ok": true,
-    "asof": "2026-11-17"
+    "asof": "2026-11-18"
    },
    {
     "id": "oil",
@@ -1330,11 +1331,11 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.43,
-    "chg5": 3.94,
-    "z": 0.875,
+    "last": 3.47,
+    "chg5": 5.15,
+    "z": 0.908,
     "ok": true,
-    "asof": "2026-11-17"
+    "asof": "2026-11-18"
    },
    {
     "id": "usd",
@@ -1355,13 +1356,13 @@
     "asof": "2026-11-17"
    }
   ],
-  "asof": "2026-11-17",
+  "asof": "2026-11-18",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 107,
+    "items": 108,
     "error": ""
    },
    {
@@ -1373,7 +1374,7 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 107,
+    "items": 108,
     "error": ""
    },
    {
@@ -2211,14 +2212,14 @@
   "mode": "live"
  },
  "hazard": {
-  "index": 50.0,
-  "z": 0.0,
+  "index": 50.2,
+  "z": 0.01,
   "components": [
    {
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 9.64,
+    "value": 9.6,
     "carry": 9.1,
     "z": -0.07,
     "score": 47.7,
@@ -2228,10 +2229,10 @@
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 20.0,
-    "carry": 14.54,
-    "z": 0.21,
-    "score": 56.7,
+    "value": 21.0,
+    "carry": 14.66,
+    "z": 0.25,
+    "score": 57.7,
     "available": true
    },
    {
@@ -2278,7 +2279,7 @@
    "quake": [
     {
      "t": "Pacific-Antarctic Ridge",
-     "v": 6.1,
+     "v": 6.0,
      "ts": "2026-11-18T19:14+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz37"
     },
@@ -2307,7 +2308,7 @@
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywi"
     },
     {
-     "t": "4 km NNW of Tsunagi, Japan",
+     "t": "7 km N of Tsunagi, Japan",
      "v": 5.3,
      "ts": "2026-11-18T17:22+00:00",
      "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n"
@@ -2353,7 +2354,7 @@
    ],
    "gdacs": [
     {
-     "t": "Green earthquake (Magnitude 6.1M, Depth:10km) in Pacific-Antarctic Ridge 18/11/2",
+     "t": "Green earthquake (Magnitude 6M, Depth:10km) in Pacific-Antarctic Ridge 18/11/202",
      "v": "green",
      "ts": "2026-11-18 19:35",
      "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1578046"
@@ -2383,10 +2384,22 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577901"
     },
     {
+     "t": "Green forest fire notification in Burkina Faso",
+     "v": "green",
+     "ts": "2026-11-18 04:12",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033962"
+    },
+    {
      "t": "Green forest fire notification in South Africa",
      "v": "green",
      "ts": "2026-11-18 08:01",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033939"
+    },
+    {
+     "t": "Green forest fire notification in Togo, Benin, Burkina Faso",
+     "v": "green",
+     "ts": "2026-11-18 04:05",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033923"
     },
     {
      "t": "Green forest fire notification in Central African Republic",
@@ -2401,22 +2414,10 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033905"
     },
     {
-     "t": "Green forest fire notification in Togo, Benin, Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-18 04:05",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033923"
-    },
-    {
      "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
      "ts": "2026-11-18 04:12",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033853"
-    },
-    {
-     "t": "Green forest fire notification in Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-18 04:12",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033928"
     },
     {
      "t": "Green forest fire notification in Burkina Faso",
@@ -2436,8 +2437,8 @@
   }
  },
  "epidemic": {
-  "index": 60.9,
-  "z": 0.36,
+  "index": 59.4,
+  "z": 0.3,
   "components": [
    {
     "key": "who_don",
@@ -2463,10 +2464,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.12,
-    "carry": 1.05,
-    "z": 0.36,
-    "score": 60.9,
+    "value": 0.37,
+    "carry": 0.96,
+    "z": 0.18,
+    "score": 55.7,
     "available": true
    }
   ],
@@ -2491,12 +2492,12 @@
   }
  },
  "doom": {
-  "index": 71.0,
-  "z": 0.54,
+  "index": 70.9,
+  "z": 0.53,
   "parts": {
    "military": 0.66,
    "hazard": 0.0,
-   "epidemic": 0.27
+   "epidemic": 0.23
   },
   "resonance": 0,
   "partial": false,
@@ -2534,13 +2535,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 141,
-   "items": 42508,
+   "items": 44021,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 34,
+   "items": 35,
    "error": "",
    "undated": 0
   },
@@ -2554,14 +2555,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 40,
+   "items": 42,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2589,7 +2590,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 12,
+   "items": 7,
    "error": "",
    "undated": 0
   },
@@ -2610,14 +2611,14 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 12,
+   "items": 13,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 107,
+   "items": 108,
    "error": ""
   },
   {
@@ -2629,7 +2630,7 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 107,
+   "items": 108,
    "error": ""
   },
   {
@@ -2677,7 +2678,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 20,
+   "items": 21,
    "error": ""
   },
   {
@@ -2689,7 +2690,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 23,
+   "items": 25,
    "error": ""
   },
   {
@@ -2707,7 +2708,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 7194,
+   "items": 12445,
    "error": ""
   },
   {
