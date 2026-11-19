@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-19T02:32:53+00:00",
+ "generated_at": "2026-11-19T11:36:42+00:00",
  "date": "2026-11-18",
  "geti": 75.1,
  "delta_z": 0.67,
@@ -245,12 +245,57 @@
  ],
  "events": [
   {
+   "id": "a6d838541593",
+   "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-19T11:13:32+00:00",
+   "note": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systematic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two W",
+   "region": "OCEANIA"
+  },
+  {
+   "id": "8b835b2e4603",
+   "title": "Gaza: Israel launched new offensive on Nuseirat",
+   "url": "https://www.france24.com/en/gaza-israel-launched-new-offensive-on-nuseirat",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-19T07:50:10+00:00",
+   "note": "Israeli tanks have moved east of the Nuseirat refugee camp in central Gaza, with witnesses reporting heavy shelling, gunfire and airstrikes as the Israeli military says it has laun",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "91188a92b9bb",
+   "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
+   "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-19T06:58:33+00:00",
+   "note": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by",
+   "region": "SOUTH_ASIA"
+  },
+  {
    "id": "ceb7b403add5",
    "title": "Mike Lynch’s superyacht had unidentified vulnerability to high winds, report finds",
    "url": "https://www.theguardian.com/world/2026/nov/19/mike-lynch-superyacht-bayesian-vulnerability-to-high-winds-report",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -265,7 +310,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -280,7 +325,7 @@
    "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -288,66 +333,6 @@
    "published": "2026-11-18T22:31:41+00:00",
    "note": "Christian Emmanuel Sanon faces life in prison after conviction on charges arising from killing of Jovenel Moïse A Florida pastor with dual Haitian-American citizenship was convicte",
    "region": "LATAM"
-  },
-  {
-   "id": "037774c05bde",
-   "title": "Member of anti-migrant group found guilty of Staffordshire murder",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/18/member-anti-migrant-group-guilty-murder-raise-colours-billy-allison",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-18T21:27:54+00:00",
-   "note": "Raise the Colours activist Billy Allison, 36, killed man in ‘completely unprovoked and unjustified’ attack, say police A member of anti-migrant group Raise the Colours has been fou",
-   "region": "OTHER"
-  },
-  {
-   "id": "935467cc9d0d",
-   "title": "What does Israel’s new ground offensive mean for Palestinians in Gaza?",
-   "url": "https://www.aljazeera.com/news/2026/11/18/what-does-israels-new-ground-offensive-mean-for-palestinians-in-gaza?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-18T20:38:06+00:00",
-   "note": "Israeli tanks advance beyond the 'Yellow Line', forcing Palestinians to flee again in Gaza.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "f84a6d244364",
-   "title": "El Salvador’s Bukele says his troops destroyed gang leader’s mansion in Haiti",
-   "url": "https://www.scmp.com/news/world/americas/article/3374964/el-salvadors-bukele-says-his-troops-destroyed-gang-leaders-mansion-haiti",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-18T18:34:47+00:00",
-   "note": "El Salvador’s President Nayib Bukele said on Wednesday that his troops had demolished the lavish home of a prominent gang leader in Haiti known as Jeff. It was not immediately clea",
-   "region": "LATAM"
-  },
-  {
-   "id": "224522511e0c",
-   "title": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
-   "url": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-18T18:17:34+00:00",
-   "note": "A Ukrainian drone and missile strike on Monday night brought down a stretch of the bridge linking the annexed Crimean Peninsula to Russia, potentially crippling a route long used b",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "20fe9a28f56d",
@@ -365,42 +350,12 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "5e057f3242ae",
-   "title": "Israel’s parliament moves to roll back Netanyahu’s divisive legacy",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3374954/israels-parliament-moves-roll-back-netanyahus-divisive-legacy",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-18T15:00:58+00:00",
-   "note": "Israel’s parliament met under a new speaker from the anti-Benjamin Netanyahu bloc on Wednesday, as opponents of the caretaker prime minister began a legislative offensive to roll b",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "e08292bff4ab",
-   "title": "EU proposes new US$49 billion Ukraine loan for 2027",
-   "url": "https://www.scmp.com/news/world/europe/article/3374925/eu-proposes-new-us49-billion-ukraine-loan-2027",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-18T11:45:06+00:00",
-   "note": "The European Union on Wednesday proposed member states give Ukraine an extra €45 billion (US$49 billion) loan to plug its 2027 budget shortfalls as Russia’s invasion drags on. The ",
-   "region": "EUROPE"
-  },
-  {
    "id": "546512356da5",
    "title": "Latin America's mega-prisons: Can El Salvador's model work?",
    "url": "https://www.dw.com/en/latin-america-s-mega-prisons-can-el-salvador-s-model-work/a-79973524?maca=en-rss-en-world-4025-rdf",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "dw"
@@ -440,12 +395,132 @@
    "region": "LATAM"
   },
   {
+   "id": "643487c5dbd3",
+   "title": "乌克兰称袭击俄罗斯两座炼油厂",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734629.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-19T07:28:00+00:00",
+   "note": "中新社北京11月19日电 基辅消息：乌克兰总参谋部18日表示，乌军于17日至18日袭击了俄罗斯西南部克拉斯诺达尔边疆区的两座炼油厂。",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "d65ea2177cbb",
+   "title": "洪都拉斯发生袭击事件造成至少12人死亡",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734574.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-19T07:19:09+00:00",
+   "note": "中新社北京11月19日电 特古西加尔巴消息：洪都拉斯国家警察局发言人埃德加多·巴拉奥纳(Edgardo Barahona)18日表示，该国中北部约罗省约里托市当天凌晨发生4起袭击事件，共造成至少12人死亡，其中包括一名地方市议员。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "8dc7e6da09f0",
+   "title": "Will lasers weapons change warfare?",
+   "url": "https://www.aljazeera.com/video/project-force-2/2026/11/19/will-lasers-weapons-change-warfare?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-19T11:20:00+00:00",
+   "note": "The use of lasers is increasing in warfare — which countries are deploying them and how?",
+   "region": "OTHER"
+  },
+  {
+   "id": "767fb8ffbf6b",
+   "title": "South Korea tightens security for national exam over AI cheating scandal",
+   "url": "https://www.france24.com/en/south-korea-tightens-security-for-national-exam-over-ai-cheating-scandal",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-19T08:55:02+00:00",
+   "note": "More than 550,000 candidates sat South Korea’s Suneung university entrance exam under extraordinary security, after an AI cheating scandal in which a top scorer on a national tax a",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "35104383ae70",
+   "title": "Qatar-gifted Boeing 747 makes China debut as Air Force One in Shenzhen",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3375056/qatar-gifted-boeing-747-makes-china-debut-air-force-one-shenzhen",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-19T08:29:35+00:00",
+   "note": "All three US presidential Boeing 747s touched down in Manila earlier this week, the first stop on Donald Trump’s Asia tour. The US Air Force typically deploys a backup aircraft on ",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "c657a01afee3",
+   "title": "Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south",
+   "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-19T08:19:17+00:00",
+   "note": "Material damage was reported after ​debris fell following the latest Houthi strikes launched towards Saudi Arabia.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "2879ea417ea4",
+   "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
+   "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-19T07:08:57+00:00",
+   "note": "The US blockade of Iranian ports has a crippling effect on the economy, but Tehran insists its economy can survive.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "4dc956390d60",
+   "title": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
+   "url": "https://www.france24.com/en/middle-east/20261119-middle-east-crisis-energy-security-iea",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-19T05:11:59+00:00",
+   "note": "The International Energy Agency said on Thursday that the Middle East crisis triggered by US and Israeli strikes on Iran in February posed the “largest threat” to energy security i",
+   "region": "MIDDLE_EAST"
+  },
+  {
    "id": "b9a41822f769",
    "title": "US launched unarmed ICBM test hours before Trump’s Air Force One landed in China",
    "url": "https://www.scmp.com/news/china/military/article/3374979/us-launched-unarmed-icbm-test-hours-trumps-air-force-one-landed-china",
    "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -460,7 +535,7 @@
    "url": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
    "component": "physical",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -468,126 +543,6 @@
    "published": "2026-11-19T01:03:34+00:00",
    "note": "Storm expected to move into southern California, with LA residents warned of potential evacuation orders Heavy rain pounded California’s Bay area, with record rainfall in downtown ",
    "region": "OTHER"
-  },
-  {
-   "id": "ca4ce38c9df9",
-   "title": "US panel urges Congress to punish China over Panama-flagged ship detentions",
-   "url": "https://www.scmp.com/news/us/article/3374807/us-panel-urges-congress-punish-china-over-panama-flagged-ship-detentions",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-19T00:43:34+00:00",
-   "note": "A bipartisan US congressional commission has urged lawmakers to declare China’s detention of hundreds of Panama-flagged ships a form of “economic coercion” and to let the US presid",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "07499edff475",
-   "title": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-19T00:01:02+00:00",
-   "note": "Saudi-led coalition says it destroyed a missile platform in Saada, Yemen, as Iran claims three ships hit mines.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "fea47e4c0421",
-   "title": "Crimea bridge has been attacked again, says Russian-installed governor",
-   "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-18T23:27:37+00:00",
-   "note": "Assessment of damage is underway, days after two attacks that destroyed road section of key bridge across Kerch strait linking annexed peninsula to Russia A key bridge connecting a",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "02f59934309a",
-   "title": "US steps up pressure on Iran-backed Hezbollah with new sanctions",
-   "url": "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-18T22:56:19+00:00",
-   "note": "The US Treasury has accused Hezbollah of using charitable organisations as 'fronts' for fundraising.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "f509675013e4",
-   "title": "Crimea bridge strike: Fact-checking fake videos of damage after Ukraine's attack",
-   "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-18T21:51:43+00:00",
-   "note": "Ukraine struck the Kerch Bridge linking Russia to occupied Crimea, but not all the dramatic footage circulating online is real. Multiple AI-generated videos falsely show the bridge",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "61bdebb430a9",
-   "title": "阿联酋方面称一船只在霍尔木兹海峡遇袭 致11人伤、1人失踪",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-18/10734268.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-18T10:53:56+00:00",
-   "note": "中新社北京11月18日电 阿布扎比消息：当地时间18日，阿联酋阿布扎比国家石油公司旗下的物流与服务公司表示，该公司一艘船只17日晚途经霍尔木兹海峡时遭到袭击，造成11人受伤、1人失踪。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "2d300b0cd0af",
-   "title": "Xi welcomes Trump: Does Nvidia scandal upend US-China AI race?",
-   "url": "https://www.france24.com/en/tv-shows/the-debate/20261118-xi-welcomes-trump-does-nvidia-scandal-upend-us-china-ai-race",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-18T19:42:17+00:00",
-   "note": "You can strike Jensen Huang from the guest list but good luck steering dinner conversation away from the topic in Shenzhen. The co-founder of the AI computing leader was to accompa",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "88ca14401435",
-   "title": "Russia’s new low-cost munitions pose a fresh threat to Ukraine",
-   "url": "https://www.france24.com/en/europe/20261118-russia-new-low-cost-munitions-threat-ukraine",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-18T16:19:08+00:00",
-   "note": "Dan-T, Filin and Geran-5 might not mean anything to you, but in Ukraine, everyone is talking about these munitions. These new Russian weapons are small, fast and cheap – and a majo",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "f3916e9758b5",
@@ -603,58 +558,73 @@
    "published": "2026-11-18T14:05:38+00:00",
    "note": "Attorney general says E1 settlement decision should not be taken by caretaker government led by Netanyahu Israel has postponed issuing contracts for the construction of a large set",
    "region": "MIDDLE_EAST"
-  }
- ],
- "breaking": [
-  {
-   "id": "b9a41822f769",
-   "title": "US launched unarmed ICBM test hours before Trump’s Air Force One landed in China",
-   "url": "https://www.scmp.com/news/china/military/article/3374979/us-launched-unarmed-icbm-test-hours-trumps-air-force-one-landed-china",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-19T01:42:08+00:00",
-   "note": "The United States conducted an intercontinental ballistic missile test less than two hours before President Donald Trump landed in China on Wednesday for the Apec summit and a high",
-   "region": "EAST_ASIA"
   },
   {
-   "id": "1c9920ff3488",
-   "title": "Record-breaking rain lashes California’s Bay area as ‘atmospheric river’ arrives",
-   "url": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
-   "component": "physical",
+   "id": "b90eaca166f8",
+   "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+   "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-18T13:04:48+00:00",
+   "note": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8535ebc043eb",
+   "title": "苏丹：联合国报告详述无人机袭击激增对平民造成的致命影响",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143216",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.22,
+   "origins": 1,
+   "sources": [
+    "un_news_zh"
+   ],
+   "published": "2026-11-17T12:00:00+00:00",
+   "note": "联合国人权事务高级专员办事处周二发布的一份报告指出，2026年以来，苏丹武装冲突造成的平民死亡人数持续增加，无人机袭击已成为这场战争的显著特征。今年1月至10月底，至少有2230名平民丧生，其中超过1630人死于无人机袭击。",
+   "region": "AFRICA"
+  },
+  {
+   "id": "6605b6af70cb",
+   "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
+   "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-19T01:03:34+00:00",
-   "note": "Storm expected to move into southern California, with LA residents warned of potential evacuation orders Heavy rain pounded California’s Bay area, with record rainfall in downtown ",
-   "region": "OTHER"
-  },
+   "published": "2026-11-18T09:58:28+00:00",
+   "note": "A ruling against Myanmar could set precedent for court’s judgment on Israel’s actions in Gaza Fears are growing that the US could impose sanctions on judges at the international co",
+   "region": "MIDDLE_EAST"
+  }
+ ],
+ "breaking": [
   {
-   "id": "ca4ce38c9df9",
-   "title": "US panel urges Congress to punish China over Panama-flagged ship detentions",
-   "url": "https://www.scmp.com/news/us/article/3374807/us-panel-urges-congress-punish-china-over-panama-flagged-ship-detentions",
-   "component": "diplomacy",
+   "id": "8dc7e6da09f0",
+   "title": "Will lasers weapons change warfare?",
+   "url": "https://www.aljazeera.com/video/project-force-2/2026/11/19/will-lasers-weapons-change-warfare?traffic_source=rss",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "scmp"
+    "aljazeera"
    ],
-   "published": "2026-11-19T00:43:34+00:00",
-   "note": "A bipartisan US congressional commission has urged lawmakers to declare China’s detention of hundreds of Panama-flagged ships a form of “economic coercion” and to let the US presid",
-   "region": "EAST_ASIA"
+   "published": "2026-11-19T11:20:00+00:00",
+   "note": "The use of lasers is increasing in warfare — which countries are deploying them and how?",
+   "region": "OTHER"
   },
   {
-   "id": "ceb7b403add5",
-   "title": "Mike Lynch’s superyacht had unidentified vulnerability to high winds, report finds",
-   "url": "https://www.theguardian.com/world/2026/nov/19/mike-lynch-superyacht-bayesian-vulnerability-to-high-winds-report",
+   "id": "a6d838541593",
+   "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -662,20 +632,50 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-19T00:01:11+00:00",
-   "note": "Bayesian, which sank off Sicily killing seven including tech tycoon, had not been fully assessed, say investigators The superyacht Bayesian, which sank in a storm off Sicily killin",
-   "region": "OTHER"
+   "published": "2026-11-19T11:13:32+00:00",
+   "note": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systematic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two W",
+   "region": "OCEANIA"
+  },
+  {
+   "id": "767fb8ffbf6b",
+   "title": "South Korea tightens security for national exam over AI cheating scandal",
+   "url": "https://www.france24.com/en/south-korea-tightens-security-for-national-exam-over-ai-cheating-scandal",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-19T08:55:02+00:00",
+   "note": "More than 550,000 candidates sat South Korea’s Suneung university entrance exam under extraordinary security, after an AI cheating scandal in which a top scorer on a national tax a",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "35104383ae70",
+   "title": "Qatar-gifted Boeing 747 makes China debut as Air Force One in Shenzhen",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3375056/qatar-gifted-boeing-747-makes-china-debut-air-force-one-shenzhen",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-19T08:29:35+00:00",
+   "note": "All three US presidential Boeing 747s touched down in Manila earlier this week, the first stop on Donald Trump’s Asia tour. The US Air Force typically deploys a backup aircraft on ",
+   "region": "EAST_ASIA"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 46201,
-  "gdelt_events": 45935,
+  "items": 42776,
+  "gdelt_events": 42508,
   "mode": "live",
   "data_through": "2026-11-18",
   "clusters": 257,
-  "origins": 261,
+  "origins": 259,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1099,15 +1099,15 @@
   },
   {
    "date": "2026-10-20",
-   "geti": 55.4
+   "geti": 55.6
   },
   {
    "date": "2026-10-21",
-   "geti": 51.1
+   "geti": 51.2
   },
   {
    "date": "2026-10-22",
-   "geti": 50.2
+   "geti": 50.3
   },
   {
    "date": "2026-10-23",
@@ -1167,7 +1167,7 @@
   },
   {
    "date": "2026-11-06",
-   "geti": 68.7
+   "geti": 68.6
   },
   {
    "date": "2026-11-07",
@@ -1223,19 +1223,43 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Beau Lamarre-Condon’s testimony about Jesse Baird and Luke Davies’ deaths ‘fanciful in the extreme’, crown alleges",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/19/beau-lamarre-condon-jesse-baird-luke-davies-ntwnfb",
-    "country": "",
+    "title": "李希在广西调研时强调 深入学习贯彻党的二十届五中全会精神 在持之以恒推进全面从严治党中更好担当尽责",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-19/10734844.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-19"
+   },
+   {
+    "kind": "judicial",
+    "title": "New law ‘may be needed’ after Google rejects call to remove Russell Brand’s YouTube prison message",
+    "url": "https://www.theguardian.com/news/2026/nov/19/google-youtube-russell-brand-youtube-prison-message-jess-phillips-new-law",
+    "country": "GB",
     "source": "guardian",
     "when": "2026-11-19"
    },
    {
     "kind": "judicial",
-    "title": "US court convicts Florida pastor over plot to assassinate Haiti’s president",
-    "url": "https://www.scmp.com/news/world/americas/article/3374968/us-court-convicts-florida-pastor-over-plot-assassinate-haitis-president",
-    "country": "",
+    "title": "South Korea court orders retrial of ex-PM Han in 2024 martial law case",
+    "url": "https://www.scmp.com/news/asia/east-asia/article/3375086/south-korea-court-orders-retrial-ex-pm-han-2024-martial-law-case",
+    "country": "KR",
     "source": "scmp",
-    "when": "2026-11-18"
+    "when": "2026-11-19"
+   },
+   {
+    "kind": "judicial",
+    "title": "涉嫌参与海地总统遇刺案 美国牧师或面临终身监禁",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734676.shtml",
+    "country": "US",
+    "source": "chinanews",
+    "when": "2026-11-19"
+   },
+   {
+    "kind": "judicial",
+    "title": "河南省商丘市人大常委会原党组成员、副主任张团结被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-19/10734683.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-19"
    },
    {
     "kind": "judicial",
@@ -1243,14 +1267,6 @@
     "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
     "country": "US",
     "source": "guardian",
-    "when": "2026-11-18"
-   },
-   {
-    "kind": "judicial",
-    "title": "Chinese executive convicted in case linked to Bangkok tower collapse",
-    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374963/chinese-executive-convicted-case-linked-bangkok-tower-collapse",
-    "country": "TH",
-    "source": "scmp",
     "when": "2026-11-18"
    },
    {
@@ -1278,12 +1294,12 @@
     "when": "2026-11-17"
    }
   ],
-  "notable_total": 7,
+  "notable_total": 9,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 7
+   "notable": 9
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2379,16 +2395,16 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033922"
     },
     {
-     "t": "Green forest fire notification in Togo, Benin, Burkina Faso",
-     "v": "green",
-     "ts": "2026-11-18 04:05",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033923"
-    },
-    {
      "t": "Green forest fire notification in Burkina Faso",
      "v": "green",
      "ts": "2026-11-18 04:12",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033905"
+    },
+    {
+     "t": "Green forest fire notification in Togo, Benin, Burkina Faso",
+     "v": "green",
+     "ts": "2026-11-18 04:05",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033923"
     },
     {
      "t": "Green forest fire notification in Burkina Faso",
@@ -2420,8 +2436,8 @@
   }
  },
  "epidemic": {
-  "index": 62.4,
-  "z": 0.41,
+  "index": 60.9,
+  "z": 0.36,
   "components": [
    {
     "key": "who_don",
@@ -2447,10 +2463,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.88,
-    "carry": 1.13,
-    "z": 0.52,
-    "score": 65.8,
+    "value": 1.12,
+    "carry": 1.05,
+    "z": 0.36,
+    "score": 60.9,
     "available": true
    }
   ],
@@ -2475,12 +2491,12 @@
   }
  },
  "doom": {
-  "index": 71.1,
+  "index": 71.0,
   "z": 0.54,
   "parts": {
    "military": 0.66,
    "hazard": 0.0,
-   "epidemic": 0.3
+   "epidemic": 0.27
   },
   "resonance": 0,
   "partial": false,
@@ -2517,14 +2533,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 143,
-   "items": 45935,
+   "files": 141,
+   "items": 42508,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 33,
+   "items": 34,
    "error": "",
    "undated": 0
   },
@@ -2538,14 +2554,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 38,
+   "items": 40,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 10,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2594,7 +2610,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 14,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2691,7 +2707,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 7497,
+   "items": 7194,
    "error": ""
   },
   {
