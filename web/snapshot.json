@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-20T02:18:11+00:00",
+ "generated_at": "2026-11-20T11:35:31+00:00",
  "date": "2026-11-19",
  "geti": 75.4,
  "delta_z": 0.69,
@@ -250,12 +250,11 @@
    "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.89,
-   "origins": 4,
+   "confidence": 0.8,
+   "origins": 3,
    "sources": [
     "bbc",
     "guardian",
-    "scmp",
     "dw"
    ],
    "published": "2026-11-19T20:07:02+00:00",
@@ -263,139 +262,49 @@
    "region": "OTHER"
   },
   {
-   "id": "cd0041bcf3fb",
-   "title": "Florida carries out record-breaking 20th execution of the year",
-   "url": "https://www.theguardian.com/us-news/2026/nov/19/record-executions-florida-texas",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-20T01:27:25+00:00",
-   "note": "State executes a man convicted of two counts of first-degree murder while Texas also put a man to death Florida carried out a record-breaking 20th execution of the year on a man co",
-   "region": "OTHER"
-  },
-  {
-   "id": "1f5f7916fd8d",
-   "title": "Haiti police say 34 gang members killed in capital raid",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss",
+   "id": "a0db171c9874",
+   "title": "Three Kyiv bridges hit during major Russian missile attack",
+   "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "bbc"
    ],
-   "published": "2026-11-20T00:31:02+00:00",
-   "note": "Haitian police say at least 34 gang members were killed in an operation in the capital city of Port-au-Prince.",
-   "region": "LATAM"
-  },
-  {
-   "id": "945060d59447",
-   "title": "Religion should be removed from terrorism definition under Australian law as it gives ‘false credibility’, watchdog says",
-   "url": "https://www.theguardian.com/law/2026/nov/20/religion-should-removed-from-terrorism-definition-australian-law-gives-false-credibility-watchdog-ntwnfb",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-20T00:19:57+00:00",
-   "note": "Independent National Security Legislation Monitor says reference to religion has ‘contributed to discrimination and violence against religious minorities’ Get our breaking news ema",
-   "region": "OCEANIA"
-  },
-  {
-   "id": "3894bcd2498c",
-   "title": "Six killed in suspected gas explosion at Georgia apartment building",
-   "url": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-19T23:09:48+00:00",
-   "note": "Georgian Interior Minister Sulkhan Tamazashvili said rescuers had recovered six bodies from the wreckage.",
-   "region": "OTHER"
-  },
-  {
-   "id": "ce4e342c83fe",
-   "title": "Major anti-gang offensive in Haiti kills 34 suspected gang members",
-   "url": "https://www.france24.com/en/americas/20261119-major-anti-gang-offensive-in-haiti-kills-34-suspected-gang-members",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-19T22:31:25+00:00",
-   "note": "Haitian security forces launched a major offensive on Thursday to retake Martissant, a strategic corridor linking Port-au-Prince with the country's western and southern regions tha",
-   "region": "LATAM"
-  },
-  {
-   "id": "3f1e1ae34663",
-   "title": "Haiti police say at least 34 suspected gang members killed in raid",
-   "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-19T21:39:39+00:00",
-   "note": "Police say the raid targeted the Martissant area, located on a key route out of Port-au-Prince held by gangs since 2021.",
-   "region": "LATAM"
-  },
-  {
-   "id": "42f0486eb52e",
-   "title": "Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies",
-   "url": "https://www.france24.com/en/russian-strikes-on-kyiv-kill-one-damage-dutch-and-austrian-embassies",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-19T21:25:27+00:00",
-   "note": "A wave of daytime Russian strikes on Kyiv on Thursday killed one person and damaged a historic cathedral as well as the embassies of Austria and the Netherlands. Loud explosions er",
+   "published": "2026-11-20T11:12:57+00:00",
+   "note": "Five people were killed in a wave of strikes which follow Ukraine's successful targeting of the Crimean Bridge.",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "099e439433b3",
-   "title": "Ten killed in Pakistan as bus crashes into gas tanker",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/ten-killed-in-pakistan-as-bus-crashes-into-gas-tanker?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-19T21:09:24+00:00",
-   "note": "Ten people were killed and at least 27 more injured after a passenger bus collided with an LPG tanker in Pakistan.",
-   "region": "SOUTH_ASIA"
-  },
-  {
-   "id": "c0500bf13fe0",
-   "title": "Jerusalem Daily: Israel launches ground offensive in Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/jerusalem-daily-israel-launches-ground-offensive-in-gaza-2?traffic_source=rss",
+   "id": "9018049936f1",
+   "title": "Nearly 600 women killed in South Africa within three months",
+   "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "bbc"
    ],
-   "published": "2026-11-19T20:58:41+00:00",
-   "note": "Israel launches its first major ground offensive in central Gaza, pushing beyond the ‘Yellow Line’ it controls",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-20T10:56:02+00:00",
+   "note": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
+   "region": "AFRICA"
+  },
+  {
+   "id": "d2746594b302",
+   "title": "Abby Choi’s ex-husband claims his father killed her after she berated him over affair",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375212/abby-chois-ex-husband-claims-his-father-killed-her-after-she-chastised-his-affair",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-20T08:07:20+00:00",
+   "note": "Slain Hong Kong socialite Abby Choi Tin-fung’s ex-husband has claimed that his father killed her during a violent quarrel after she chastised him over his affair with a masseuse an",
+   "region": "OTHER"
   },
   {
    "id": "680b631f63ba",
@@ -414,9 +323,9 @@
    "region": "LATAM"
   },
   {
-   "id": "d6b3520a586b",
-   "title": "3 dead, 3 trapped as Georgia building collapses after gas blast",
-   "url": "https://www.scmp.com/news/world/europe/article/3375125/3-dead-3-trapped-georgia-building-collapses-after-gas-blast",
+   "id": "481494acdf37",
+   "title": "Hong Kong’s 1996 Garley Building fire horror – SCMP archive",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3375011/hong-kongs-1996-garley-building-fire-horror-scmp-archive",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.34,
@@ -424,8 +333,53 @@
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-19T15:52:57+00:00",
-   "note": "A suspected natural gas explosion in a residential block in Tbilisi in the country of Georgia killed three people on Thursday, while three others remained trapped under rubble, off",
+   "published": "2026-11-20T04:15:05+00:00",
+   "note": "This article was first published on November 22, 1996. The death toll was later revised to 41. 39 dead in fire horror By Staff reporters Sparks from a welder’s torch are believed t",
+   "region": "OTHER"
+  },
+  {
+   "id": "cd0041bcf3fb",
+   "title": "Texas botches execution of Reinaldo Dennes as staffers struggle to find vein",
+   "url": "https://www.theguardian.com/us-news/2026/nov/19/record-executions-florida-texas",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-20T02:50:29+00:00",
+   "note": "Dennes, 70, was convicted of killing a Houston jeweler, and groaned for an hour after pentobarbital was administered Texas executed Reinaldo Dennes on Thursday in a procedure that ",
+   "region": "OTHER"
+  },
+  {
+   "id": "bc694f53e980",
+   "title": "Russian barrage damages embassies and cathedral in Ukraine capital",
+   "url": "https://www.scmp.com/news/world/europe/article/3375146/russian-barrage-damages-embassies-and-cathedral-ukraine-capital",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-20T02:33:41+00:00",
+   "note": "A wave of daytime Russian strikes on Kyiv on Thursday killed one person and damaged a historic cathedral as well as the embassies of Austria and the Netherlands. Loud explosions er",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "67d1faab5d7c",
+   "title": "US army warns detonation of unstable explosives will create toxic plume",
+   "url": "https://www.bbc.co.uk/news/articles/cmlye2334wlyo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-20T01:27:27+00:00",
+   "note": "The Army has delayed the controlled explosion of unstable lead azide in eastern Iowa to Monday after concerns from residents and lawmakers.",
    "region": "OTHER"
   },
   {
@@ -434,7 +388,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -444,12 +398,132 @@
    "region": "SOUTH_ASIA"
   },
   {
+   "id": "779d83acb9d7",
+   "title": "Italy strike draws workers, students into nationwide protests over wages and living costs",
+   "url": "https://www.france24.com/en/video/20261120-italy-strike-draws-workers-students-into-nationwide-protests-over-wages-and-living-costs",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-20T11:25:32+00:00",
+   "note": "A nationwide strike was expected to disrupt schools, hospitals and local transport across Italy on Friday as workers and students began marching in dozens of cities to demand highe",
+   "region": "OTHER"
+  },
+  {
+   "id": "b1ed58235ab7",
+   "title": "‘Traumatizing’: hunger striker in ICE detention tells of force-feeding ordeal – and what made him crack",
+   "url": "https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-20T11:00:31+00:00",
+   "note": "Exclusive: Luis Alejandro Cora Perez says in messages to Guardian from inside Texas facility pain of force-feeding caused him to break strike The text message that came from inside",
+   "region": "OTHER"
+  },
+  {
+   "id": "4b81cd7b371b",
+   "title": "France awaits verdict in landmark police brutality trial over Michel Zecler assault",
+   "url": "https://www.france24.com/en/video/20261120-france-awaits-verdict-in-landmark-police-brutality-trial-over-michel-zecler-assault",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-20T10:46:42+00:00",
+   "note": "A French prosecutor on Thursday urged a court to jail three policemen who beat up a black music producer to four to six years, in a rare case of alleged police brutality to go to c",
+   "region": "EUROPE"
+  },
+  {
+   "id": "bfb76a14d6cf",
+   "title": "Iraqi forces strike compromise with powerful pro-Iran militia",
+   "url": "https://www.france24.com/en/video/20261120-iraqi-forces-strike-compromise-with-powerful-pro-iran-militia",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-20T10:36:47+00:00",
+   "note": "Iraq has reached ​a compromise with the powerful Iran-backed militia Kataib Hezbollah, three senior security officials said, after Prime Minister Ali al-Zaidi readied security forc",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "6ec60a59a242",
+   "title": "Outcry as fossil fuels scrubbed from draft UN climate deal",
+   "url": "https://www.france24.com/en/video/20261120-outcry-as-fossil-fuels-scrubbed-from-draft-un-climate-deal",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-20T10:33:20+00:00",
+   "note": "UN climate talks co-host Australia unveiled a new draft agreement Thursday that drops any mention of fossil fuels, the leading driver of global warming, sparking anger from campaig",
+   "region": "OCEANIA"
+  },
+  {
+   "id": "76b365e3620e",
+   "title": "Brussels, London eye 'reset' deal at Burnham's EU summit",
+   "url": "https://www.france24.com/en/video/20261120-brussels-london-eye-reset-deal-at-burnham-s-eu-summit",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-20T10:28:09+00:00",
+   "note": "British Prime Minister Andy Burnham is due to meet EU chiefs Ursula von der Leyen and Antonio Costa in Brussels on Friday for a summit aimed at resetting ties after the turbulent y",
+   "region": "EUROPE"
+  },
+  {
+   "id": "b1fd17fd7358",
+   "title": "Iraqi security forces deploy in Hezbollah stronghold under compromise deal",
+   "url": "https://www.france24.com/en/middle-east/20261120-iraqi-security-forces-to-deploy-in-hezbollah-stronghold-under-compromise-deal",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-20T08:37:27+00:00",
+   "note": "Iraqi security forces deployed ​in the Kataib Hezbollah stronghold of Jurf al-Sakhar, state media said on Friday, under a compromise deal brokered by Shi'ite politicians. Iraq's pr",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "154ad501cc74",
+   "title": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
+   "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-20T06:03:03+00:00",
+   "note": "US Maritime Administration acknowledged naval blockade's impact on insurance premiums and cargo capacity, memo shows.",
+   "region": "MIDDLE_EAST"
+  },
+  {
    "id": "edcf35660534",
    "title": "Ex-Singapore police officer jailed for molesting intoxicated woman at hotel room",
    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375140/ex-singapore-police-officer-jailed-molesting-intoxicated-woman-hotel-room",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -460,11 +534,11 @@
   },
   {
    "id": "4ccdad601844",
-   "title": "Trump says no rush to decide on new Iran strikes, looks to next year",
+   "title": "Trump says no rush to decide on new Iran strikes, looks to 2027",
    "url": "https://www.scmp.com/news/world/middle-east/article/3375136/trump-says-no-rush-decide-new-iran-strikes-looks-next-year",
    "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -479,7 +553,7 @@
    "url": "https://www.scmp.com/news/china/diplomacy/article/3375133/us-crackdown-scam-networks-connected-chinese-born-tycoon-chen-zhi-ramps",
    "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -489,27 +563,12 @@
    "region": "NORTH_AMERICA"
   },
   {
-   "id": "aef3258b91c6",
-   "title": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?",
-   "url": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-19T20:54:08+00:00",
-   "note": "With crowds rallying behind El Salvador's deployment in Haiti, analysts question whether civilians are any safer.",
-   "region": "LATAM"
-  },
-  {
    "id": "0c4ea05aa9ee",
    "title": "'Humanitarian mission' for Kostiantynivka: Is it a trap?",
    "url": "https://www.dw.com/en/humanitarian-mission-for-kostiantynivka-is-it-a-trap/a-79996772?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "dw"
@@ -517,66 +576,6 @@
    "published": "2026-11-19T20:53:00+00:00",
    "note": "Russian President Putin has proposed an evacuation of the Ukrainian city of Kostiantynivka, like the recent operation in Oleshky. Experts warn this could serve military, not humani",
    "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "643487c5dbd3",
-   "title": "乌克兰称袭击俄罗斯两座炼油厂",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734629.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-19T07:28:00+00:00",
-   "note": "中新社北京11月19日电 基辅消息：乌克兰总参谋部18日表示，乌军于17日至18日袭击了俄罗斯西南部克拉斯诺达尔边疆区的两座炼油厂。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "d65ea2177cbb",
-   "title": "洪都拉斯发生袭击事件造成至少12人死亡",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734574.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-19T07:19:09+00:00",
-   "note": "中新社北京11月19日电 特古西加尔巴消息：洪都拉斯国家警察局发言人埃德加多·巴拉奥纳(Edgardo Barahona)18日表示，该国中北部约罗省约里托市当天凌晨发生4起袭击事件，共造成至少12人死亡，其中包括一名地方市议员。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "5ca903f841e0",
-   "title": "Kushner says Russia ‘comfortable’ with NATO-like guarantees for Ukraine",
-   "url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-19T19:40:23+00:00",
-   "note": "European leaders meet in Berlin after Trump summit with Putin and Xi. Putin vows to retaliate for Kerch Bridge strikes.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "87f2c7ef4363",
-   "title": "Prison authorities consider whether Russell Brand harassed victims with YouTube message",
-   "url": "https://www.theguardian.com/news/2026/nov/19/prison-authorities-consider-russell-brand-youtube-message-rules-victim-distress",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-19T19:30:14+00:00",
-   "note": "Ministry of Justice weighs up comments issued through rapist’s wife as PM asks: ‘Why are we having to hear from him?’ The prison authorities are weighing up whether Russell Brand h",
-   "region": "OTHER"
   },
   {
    "id": "d954e6ac02bc",
@@ -611,75 +610,75 @@
  ],
  "breaking": [
   {
-   "id": "cd0041bcf3fb",
-   "title": "Florida carries out record-breaking 20th execution of the year",
-   "url": "https://www.theguardian.com/us-news/2026/nov/19/record-executions-florida-texas",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-20T01:27:25+00:00",
-   "note": "State executes a man convicted of two counts of first-degree murder while Texas also put a man to death Florida carried out a record-breaking 20th execution of the year on a man co",
-   "region": "OTHER"
-  },
-  {
-   "id": "edcf35660534",
-   "title": "Ex-Singapore police officer jailed for molesting intoxicated woman at hotel room",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375140/ex-singapore-police-officer-jailed-molesting-intoxicated-woman-hotel-room",
-   "component": "narrative",
+   "id": "779d83acb9d7",
+   "title": "Italy strike draws workers, students into nationwide protests over wages and living costs",
+   "url": "https://www.france24.com/en/video/20261120-italy-strike-draws-workers-students-into-nationwide-protests-over-wages-and-living-costs",
+   "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "scmp"
+    "france24"
    ],
-   "published": "2026-11-20T01:10:16+00:00",
-   "note": "While his cousin sexually assaulted a then 25-year-old woman, a former Singapore Police Force (SPF) station inspector kissed the woman without her consent. On Thursday, Mohamad Jop",
+   "published": "2026-11-20T11:25:32+00:00",
+   "note": "A nationwide strike was expected to disrupt schools, hospitals and local transport across Italy on Friday as workers and students began marching in dozens of cities to demand highe",
    "region": "OTHER"
   },
   {
-   "id": "1f5f7916fd8d",
-   "title": "Haiti police say 34 gang members killed in capital raid",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss",
+   "id": "a0db171c9874",
+   "title": "Three Kyiv bridges hit during major Russian missile attack",
+   "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "bbc"
    ],
-   "published": "2026-11-20T00:31:02+00:00",
-   "note": "Haitian police say at least 34 gang members were killed in an operation in the capital city of Port-au-Prince.",
-   "region": "LATAM"
+   "published": "2026-11-20T11:12:57+00:00",
+   "note": "Five people were killed in a wave of strikes which follow Ukraine's successful targeting of the Crimean Bridge.",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "945060d59447",
-   "title": "Religion should be removed from terrorism definition under Australian law as it gives ‘false credibility’, watchdog says",
-   "url": "https://www.theguardian.com/law/2026/nov/20/religion-should-removed-from-terrorism-definition-australian-law-gives-false-credibility-watchdog-ntwnfb",
+   "id": "b1ed58235ab7",
+   "title": "‘Traumatizing’: hunger striker in ICE detention tells of force-feeding ordeal – and what made him crack",
+   "url": "https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-20T00:19:57+00:00",
-   "note": "Independent National Security Legislation Monitor says reference to religion has ‘contributed to discrimination and violence against religious minorities’ Get our breaking news ema",
-   "region": "OCEANIA"
+   "published": "2026-11-20T11:00:31+00:00",
+   "note": "Exclusive: Luis Alejandro Cora Perez says in messages to Guardian from inside Texas facility pain of force-feeding caused him to break strike The text message that came from inside",
+   "region": "OTHER"
+  },
+  {
+   "id": "9018049936f1",
+   "title": "Nearly 600 women killed in South Africa within three months",
+   "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-20T10:56:02+00:00",
+   "note": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
+   "region": "AFRICA"
   }
  ],
  "coverage": {
-  "sources_ok": 20,
-  "sources_failed": 2,
-  "items": 45755,
-  "gdelt_events": 45498,
+  "sources_ok": 21,
+  "sources_failed": 1,
+  "items": 42621,
+  "gdelt_events": 42346,
   "mode": "live",
   "data_through": "2026-11-19",
-  "clusters": 249,
-  "origins": 253,
+  "clusters": 266,
+  "origins": 270,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1155,7 +1154,7 @@
   },
   {
    "date": "2026-11-03",
-   "geti": 53.0
+   "geti": 52.9
   },
   {
    "date": "2026-11-04",
@@ -1183,7 +1182,7 @@
   },
   {
    "date": "2026-11-10",
-   "geti": 71.9
+   "geti": 71.8
   },
   {
    "date": "2026-11-11",
@@ -1203,7 +1202,7 @@
   },
   {
    "date": "2026-11-15",
-   "geti": 74.0
+   "geti": 73.9
   },
   {
    "date": "2026-11-16",
@@ -1227,18 +1226,58 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Financial Street Securities says chairman detained and under investigation on mainland",
-    "url": "https://www.scmp.com/business/china-business/article/3375144/financial-street-securities-says-chairman-detained-and-under-investigation-mainland",
-    "country": "CN",
+    "title": "Spain's leaders clash over corruption, economy in tense election debate",
+    "url": "https://www.france24.com/en/video/20261120-spain-s-leaders-clash-over-corruption-economy-in-tense-election-debate",
+    "country": "ES",
+    "source": "france24",
+    "when": "2026-11-20"
+   },
+   {
+    "kind": "judicial",
+    "title": "辽宁省大连市商务局原局长丛克接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-20/10735312.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-20"
+   },
+   {
+    "kind": "judicial",
+    "title": "河南省许昌市政协原副主席周亮军被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-20/10735310.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-20"
+   },
+   {
+    "kind": "judicial",
+    "title": "黑龙江广播电视传媒网络集团股份有限公司原董事长赵鸿洋被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-20/10735321.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-20"
+   },
+   {
+    "kind": "judicial",
+    "title": "Man jailed for life over murder of yoga instructor ex-girlfriend in luxury hotel",
+    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375165/man-jailed-life-murdering-yoga-instructor-ex-girlfriend-luxury-hotel",
+    "country": "HK",
     "source": "scmp",
     "when": "2026-11-20"
    },
    {
     "kind": "judicial",
-    "title": "Florida carries out record-breaking 20th execution of the year",
+    "title": "Texas botches execution of Reinaldo Dennes as staffers struggle to find vein",
     "url": "https://www.theguardian.com/us-news/2026/nov/19/record-executions-florida-texas",
     "country": "",
     "source": "guardian",
+    "when": "2026-11-20"
+   },
+   {
+    "kind": "judicial",
+    "title": "Financial Street Securities says chairman detained and under investigation on mainland",
+    "url": "https://www.scmp.com/business/china-business/article/3375144/financial-street-securities-says-chairman-detained-and-under-investigation-mainland",
+    "country": "CN",
+    "source": "scmp",
     "when": "2026-11-20"
    },
    {
@@ -1267,14 +1306,6 @@
    },
    {
     "kind": "judicial",
-    "title": "4 UK men guilty of sex crimes against drugged woman in case with echoes of Pelicot",
-    "url": "https://www.scmp.com/news/world/europe/article/3375127/4-uk-men-guilty-sex-crimes-against-drugged-woman-case-echoes-pelicot",
-    "country": "GB",
-    "source": "scmp",
-    "when": "2026-11-19"
-   },
-   {
-    "kind": "judicial",
     "title": "韩国前第一夫人金建希首案终审被判有期徒刑4年",
     "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734932.shtml",
     "country": "KR",
@@ -1283,35 +1314,19 @@
    },
    {
     "kind": "judicial",
-    "title": "Florida pastor found guilty over role in assassination of Haitian president",
-    "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
+    "title": "国际法院认定缅甸对罗兴亚人实施种族灭绝",
+    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143228",
     "country": "",
-    "source": "bbc",
-    "when": "2026-11-19"
-   },
-   {
-    "kind": "judicial",
-    "title": "South Korea court orders retrial of ex-PM Han in 2024 martial law case",
-    "url": "https://www.scmp.com/news/asia/east-asia/article/3375086/south-korea-court-orders-retrial-ex-pm-han-2024-martial-law-case",
-    "country": "KR",
-    "source": "scmp",
-    "when": "2026-11-19"
-   },
-   {
-    "kind": "judicial",
-    "title": "涉嫌参与海地总统遇刺案 美国牧师或面临终身监禁",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734676.shtml",
-    "country": "US",
-    "source": "chinanews",
+    "source": "un_news_zh",
     "when": "2026-11-19"
    }
   ],
-  "notable_total": 10,
+  "notable_total": 13,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 10
+   "notable": 13
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2351,16 +2366,22 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033965"
     },
     {
+     "t": "Green forest fire notification in Benin",
+     "v": "green",
+     "ts": "2026-11-19 16:06",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033925"
+    },
+    {
      "t": "Green forest fire notification in Benin, Burkina Faso",
      "v": "green",
      "ts": "2026-11-19 16:13",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033940"
     },
     {
-     "t": "Green forest fire notification in Benin",
+     "t": "Green flood alert in Kenya",
      "v": "green",
-     "ts": "2026-11-19 16:06",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033925"
+     "ts": "2026-11-19 08:02",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104288"
     },
     {
      "t": "Green forest fire notification in Benin, Burkina Faso",
@@ -2392,8 +2413,8 @@
   }
  },
  "epidemic": {
-  "index": 56.3,
-  "z": 0.2,
+  "index": 55.5,
+  "z": 0.18,
   "components": [
    {
     "key": "who_don",
@@ -2419,10 +2440,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.39,
-    "carry": 0.89,
-    "z": -0.03,
-    "score": 48.9,
+    "value": 0.0,
+    "carry": 0.85,
+    "z": -0.12,
+    "score": 46.2,
     "available": true
    }
   ],
@@ -2431,8 +2452,8 @@
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 13,
-   "last_seen": "2026-11-19",
+   "active_days": 12,
+   "last_seen": "2026-11-18",
    "ongoing": true
   },
   "evidence": {
@@ -2440,12 +2461,12 @@
   }
  },
  "doom": {
-  "index": 71.0,
-  "z": 0.54,
+  "index": 70.9,
+  "z": 0.53,
   "parts": {
    "military": 0.67,
    "hazard": 0.01,
-   "epidemic": 0.15
+   "epidemic": 0.13
   },
   "resonance": 0,
   "partial": false,
@@ -2483,13 +2504,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 45498,
+   "items": 42346,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 36,
+   "items": 37,
    "error": "",
    "undated": 0
   },
@@ -2503,14 +2524,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 38,
+   "items": 40,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2537,9 +2558,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）",
+   "ok": true,
+   "items": 13,
+   "error": "",
    "undated": 0
   },
   {
@@ -2559,7 +2580,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 12,
+   "items": 15,
    "error": "",
    "undated": 0
   },
@@ -2638,7 +2659,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "error": ""
   },
   {
@@ -2656,7 +2677,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 8065,
+   "items": 7645,
    "error": ""
   },
   {
