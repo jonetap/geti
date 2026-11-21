@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-21T02:12:09+00:00",
+ "generated_at": "2026-11-21T10:58:14+00:00",
  "date": "2026-11-20",
  "geti": 75.4,
  "delta_z": 0.68,
@@ -245,12 +245,117 @@
  ],
  "events": [
   {
+   "id": "ca6be0572c05",
+   "title": "Abby Choi murder trial: ex-in-laws blame each other as 2 accounts of killing emerge",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375315/abby-choi-murder-trial-ex-laws-blame-each-other-2-accounts-killing-emerge",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-21T07:26:42+00:00",
+   "note": "Three of slain Hong Kong socialite Abby Choi Tin-fung’s former in-laws have pointed fingers at one another in court regarding who killed her, while unanimously portraying her death",
+   "region": "OTHER"
+  },
+  {
+   "id": "b6525de77ec7",
+   "title": "At least four killed, 35 injured in fire at power station in Iraq’s Basra",
+   "url": "https://www.aljazeera.com/news/2026/11/21/at-least-two-people-killed-as-fire-engulfs-power-station-in-southern-iraq?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-21T07:25:29+00:00",
+   "note": "The blaze erupted at the Hartha power station and spread to nearby houses.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "5ebcd4c56916",
+   "title": "French Senate approves police shootings law dubbed ‘licence to kill’ by critics",
+   "url": "https://www.scmp.com/news/world/europe/article/3375320/french-senate-approves-police-shootings-law-dubbed-licence-kill-critics",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-21T06:44:44+00:00",
+   "note": "French senators gave final approval on Friday to a law presuming that police officers who use their weapons are acting lawfully, a proposal ‌that left-wing parliamentarians oppose ",
+   "region": "EUROPE"
+  },
+  {
+   "id": "8095f0497f26",
+   "title": "Netanyahu is playing with the fire that killed Rabin",
+   "url": "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-21T06:21:03+00:00",
+   "note": "His attacks on Arab lawmakers echo the incitement that preceded Rabin’s assassination and risk unleashing new violence.",
+   "region": "OTHER"
+  },
+  {
+   "id": "eebd93f23143",
+   "title": "Using IDs to check concert tickets, combat scalping could slow entry: tourism chief",
+   "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3375317/using-ids-check-concert-tickets-combat-scalping-could-slow-entry-tourism-chief",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-21T06:07:13+00:00",
+   "note": "Hong Kong’s tourism chief has warned that requiring fans to show identity cards that match the names on their concert tickets to combat scalping could slow entry at venues, saying ",
+   "region": "OTHER"
+  },
+  {
+   "id": "6a0d778ce9e0",
+   "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-21T04:44:00+00:00",
+   "note": "Victoria police say boy, 17, communicated with offenders under username ‘Onepercent’ Get our breaking news email , free app or daily news podcast Victorian police allege a 17-year-",
+   "region": "OTHER"
+  },
+  {
+   "id": "c3d4c9adfe3e",
+   "title": "Tanks, drone and anti-drone vehicles spotted at Zhuhai air show site",
+   "url": "https://www.scmp.com/news/china/article/3375197/tanks-drone-and-anti-drone-vehicles-spotted-zhuhai-air-show-site",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-21T04:00:12+00:00",
+   "note": "New vehicles for drone and anti-drone warfare have been spotted at the site where the Zhuhai air show will be held next month, reflecting China’s push to integrate hi-tech platform",
+   "region": "OTHER"
+  },
+  {
    "id": "afbe423a85e2",
    "title": "Russian missiles land in Poland, as Europe holds military drills nearby",
    "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375302/russian-missiles-land-poland-europe-holds-military-drills-nearby",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -265,7 +370,7 @@
    "url": "https://www.scmp.com/news/china/military/article/3375250/can-chinas-top-down-military-adapt-speed-ai-and-drone-warfare",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -273,51 +378,6 @@
    "published": "2026-11-20T22:00:19+00:00",
    "note": "Drawing on lessons from the Ukraine war, Chinese military commentators are calling for frontline commanders to have greater freedom to make battlefield decisions without waiting fo",
    "region": "EAST_ASIA"
-  },
-  {
-   "id": "db8802289580",
-   "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
-   "url": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-20T20:59:04+00:00",
-   "note": "Two others were injured in the explosion, marking the first deaths among troops deployed to Haiti since late October.",
-   "region": "LATAM"
-  },
-  {
-   "id": "4719d49b715f",
-   "title": "Two men killed after glider crashes into Loch Leven in Scotland",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/20/glider-crash-loch-leven-scotland",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-20T18:20:09+00:00",
-   "note": "The pair had taken off from the Scottish Gliding Centre at nearby Portmoak on a training flight Two men have been killed after their glider crashed into Loch Leven, a large body of",
-   "region": "OTHER"
-  },
-  {
-   "id": "fb900a541368",
-   "title": "Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper",
-   "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-20T18:16:12+00:00",
-   "note": "Russian intelligence thought to be behind plan to kill US-Ukrainian musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Co",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "9018049936f1",
@@ -350,21 +410,6 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "cd9ab6744300",
-   "title": "Russia pummels Ukraine with massive strikes, missile hits Poland",
-   "url": "https://www.france24.com/en/video/20261120-russia-pummels-ukraine-with-massive-strikes-missile-hits-poland",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-20T14:36:48+00:00",
-   "note": "Moscow pounded Ukraine with massive strikes Friday, with Kyiv saying at least six people were killed in the capital, and neighbouring Poland reporting two Russian missiles likely l",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "6e835a36609b",
    "title": "8 killed in Ukraine as Russia hits back after Crimea bridge attacks",
    "url": "https://www.scmp.com/news/world/europe/article/3375281/8-killed-ukraine-russia-hits-back-after-crimea-bridge-attacks",
@@ -380,24 +425,100 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "91188a92b9bb",
-   "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
-   "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return",
+   "id": "dbc0867d9aa7",
+   "title": "Houthis launch strikes on Saudi Arabia",
+   "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia",
    "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
+   "severity": 4,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "france24",
+    "scmp"
+   ],
+   "published": "2026-11-21T09:49:44+00:00",
+   "note": "Iran-backed Houthi rebels in Yemen continue to exchange strikes with the Saudi-led coalition. The coalition said it intercepted and destroyed three ballistic missiles fired towards",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "796e2675d575",
+   "title": "中国驻沙特大使馆再次提醒在沙中资机构和中国公民注意安全",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-21/10735774.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews_cn"
+   ],
+   "published": "2026-11-21T10:23:30+00:00",
+   "note": "中新网11月21日电 据中国驻沙特大使馆微信公众号消息，近来，沙特首都利雅得等多地频繁遭导弹和无人机袭击。据媒体报道，部分袭击造成人员伤亡，有机场、建筑物、能源电力设施等受损，局部地区出现短时停水电断网等情况。多地学校继续线上授课，部分当地机构和企业人员居家办公。利雅得哈立德国王国际机场部分恢复运营，但多地机场航班经常出现异常。局势还有可能进一步恶化。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "9673de8e51e4",
+   "title": "Rejoining EU ‘on the table’ as UK strikes deals on trade and young people",
+   "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-19T06:58:33+00:00",
-   "note": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by",
-   "region": "SOUTH_ASIA"
+   "published": "2026-11-21T09:45:52+00:00",
+   "note": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discuss",
+   "region": "EUROPE"
   },
   {
-   "id": "4cc6274c2713",
-   "title": "French police officers found guilty of racist assault on black music producer",
-   "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer",
+   "id": "6183ddbfddf2",
+   "title": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled",
+   "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-21T09:30:24+00:00",
+   "note": "Iran reiterates conditions for Hormuz reopening as US slaps sanctions on four Iranians it says acted as 'oil trustees'.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "c8de706d5f9a",
+   "title": "French police officers guilty of Michel Zecler assault: What happens now?",
+   "url": "https://www.aljazeera.com/news/2026/11/21/french-police-officers-guilty-of-michel-zecler-assault-what-happens-now?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-21T09:12:14+00:00",
+   "note": "Officers dealt more than 30 blows to the Black music producer in what the court ruled was a racially motivated crime.",
+   "region": "OTHER"
+  },
+  {
+   "id": "69f9ac56ae0d",
+   "title": "Emergency crews in Ukraine hit by a double-tap strike",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-21T07:12:03+00:00",
+   "note": "Video shows emergency crews in Ukraine approaching the scene of a Russian strike, before another strike hits.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "2391fb02d931",
+   "title": "Campaigners back call for scrutiny of consent laws by Joanne Young",
+   "url": "https://www.theguardian.com/society/2026/nov/21/campaigners-back-call-for-scrutiny-of-consent-laws-by-joanne-young",
    "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
@@ -405,24 +526,24 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-20T22:23:53+00:00",
-   "note": "Beating of Michel Zecler in 2020 sparked outrage over police brutality after it was caught on security cameras Three French police officers who beat a black music producer they sai",
+   "published": "2026-11-21T06:00:53+00:00",
+   "note": "Experts say no law states third-party consent is a valid defence and call for public debate and further education Campaigners have welcomed a call for scrutiny of consent laws by a",
    "region": "OTHER"
   },
   {
-   "id": "0e6e31e0a1fe",
-   "title": "Paris police officers sentenced to prison over 2020 beating of Black man",
-   "url": "https://www.france24.com/en/france/20261120-paris-police-officers-sentenced-to-prison-over-2020-beating-of-black-man-michel-zecler",
-   "component": "narrative",
+   "id": "8a0aac2d52a1",
+   "title": "【世界进行时】2026年11月20日",
+   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143245",
+   "component": "military",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.43,
    "origins": 1,
    "sources": [
-    "france24"
+    "un_news_zh"
    ],
-   "published": "2026-11-20T22:04:45+00:00",
-   "note": "A Paris court on Friday sentenced three policemen to serve time over the 2020 beating of Black music producer Michel Zecler, a rare such ruling. The assault, which was captured on ",
-   "region": "OTHER"
+   "published": "2026-11-20T12:00:00+00:00",
+   "note": "本期要点：国际法院裁定缅甸对罗兴亚人实施种族灭绝；古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书；苏丹：无人机袭击激增对平民造成的致命影响；儿基会：全球每四分钟就有一名儿童死于暴力；联合国报告：干扰内分泌化学物质可能在出生前影响人体健康；经巴拿马北上人流减少九成，拉美移民转向新路线。",
+   "region": "AFRICA"
   },
   {
    "id": "ceedcbbda528",
@@ -440,9 +561,24 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "de7e29f1fa18",
-   "title": "Belgrade mayor charged with assaulting opposition politician in Serbia",
-   "url": "https://www.aljazeera.com/news/2026/11/20/belgrade-mayor-charged-with-assaulting-opposition-politician-in-serbia?traffic_source=rss",
+   "id": "4932d24cf35a",
+   "title": "沙特称拦截3枚胡塞武装导弹 也门媒体称沙特袭击致41死",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-21/10735663.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-21T03:33:02+00:00",
+   "note": "中新社北京11月21日电 据沙特《利雅得报》当地时间21日凌晨报道，沙特阿拉伯主导的多国联军称摧毁了也门胡塞武装向沙特首都利雅得发射的三枚弹道导弹。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "1a28f5d76c79",
+   "title": "Three French police officers sentenced over racist assault on Black man",
+   "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
    "component": "narrative",
    "severity": 4,
    "confidence": 0.34,
@@ -450,178 +586,9 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-20T19:15:18+00:00",
-   "note": "Prosecutors say Aleksandar Sapic caused serious facial injuries to a female councillor and seek a three-year sentence.",
+   "published": "2026-11-21T03:01:24+00:00",
+   "note": "Paris criminal court finds racism was an aggravating factor in the 2020 assault of Black music producer Michel Zecler.",
    "region": "OTHER"
-  },
-  {
-   "id": "a0d785321dac",
-   "title": "Police arrest teacher who missed sentencing after indecent assault conviction",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/20/sally-anne-bowen-police-search-teacher-missed-court-sentencing",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-20T19:00:11+00:00",
-   "note": "Sally-Anne Bowen was found guilty of having sexual relationships with two pupils at a boys’ school in the 1980s A chemistry teacher who had sexual relationships with two pupils at ",
-   "region": "OTHER"
-  },
-  {
-   "id": "dba935b3be85",
-   "title": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
-   "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-20T17:06:59+00:00",
-   "note": "🇬🇧🇪🇺 A fresh start after #Brexit? The #UK and #EU have agreed on a landmark #deal to rebuild ties, following a summit in Brussels this Friday. The agreement covers easier food expo",
-   "region": "EUROPE"
-  },
-  {
-   "id": "3a4bb6f3f328",
-   "title": "France investigates actor Depardieu, writer Houellebecq over alleged gang rape",
-   "url": "https://www.france24.com/en/france/20261120-france-investigates-gerard-depardieu-writer-houellebecq-over-alleged-gang-rape",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-20T16:27:56+00:00",
-   "note": "French police are investigating allegations actor and convicted sex offender Gérard Depardieu raped and assaulted a woman with the complicity of bestselling author Michel Houellebe",
-   "region": "EUROPE"
-  },
-  {
-   "id": "c67d3d1eea2f",
-   "title": "EU and UK strike 'landmark deal' to strengthen ties after Brexit",
-   "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-20T14:30:00+00:00",
-   "note": "The European Union and the United Kingdom have agreed on \"landmark\" deals on youth mobility and trade. Leaders on both sides praised the agreement as they seek to rebuild ties.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "b1ed58235ab7",
-   "title": "‘Weak and dizzy’: the secretive ICE force-feeding tactics that ended a Cuban father’s hunger strike",
-   "url": "https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-20T11:00:31+00:00",
-   "note": "Exclusive: Luis Alejandro Cora Pérez says in messages to Guardian from inside Texas facility pain of force-feeding caused him to break strike The text message that came from inside",
-   "region": "OTHER"
-  },
-  {
-   "id": "6c8aa17a80b6",
-   "title": "Putin proposes second humanitarian ceasefire — is it a trap?",
-   "url": "https://www.dw.com/en/putin-proposes-second-humanitarian-ceasefire-is-it-a-trap/a-79996772?maca=en-rss-en-world-4025-rdf",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-19T20:53:00+00:00",
-   "note": "Russian President Putin has suggested evacuating civilians from the embattled Ukrainian city of Kostiantynivka. But experts warn this could serve military, not humanitarian, aims. ",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "f7e494429fdc",
-   "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
-   "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 3,
-   "confidence": 0.74,
-   "origins": 2,
-   "sources": [
-    "aljazeera",
-    "scmp"
-   ],
-   "published": "2026-11-21T01:12:48+00:00",
-   "note": "Copenhagen accuses Moscow of planning assassination with banned local gang; Russia says no evidence for allegation.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "cd294896ea79",
-   "title": "Cost of living protests sweep across Europe",
-   "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.6,
-   "origins": 2,
-   "sources": [
-    "bbc",
-    "france24"
-   ],
-   "published": "2026-11-20T16:45:34+00:00",
-   "note": "Thousands marched across European cities on Friday to protest against the cost of living and other issues.",
-   "region": "EUROPE"
-  },
-  {
-   "id": "dc1304e16ce6",
-   "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-   "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-21T02:09:46+00:00",
-   "note": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "383ea8f74df5",
-   "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-   "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-20T21:57:07+00:00",
-   "note": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
-   "region": "RUSSIA_CIS"
-  }
- ],
- "breaking": [
-  {
-   "id": "afbe423a85e2",
-   "title": "Russian missiles land in Poland, as Europe holds military drills nearby",
-   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375302/russian-missiles-land-poland-europe-holds-military-drills-nearby",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-20T23:43:44+00:00",
-   "note": "Two Russian missiles and a suspected drone came down in Poland on Friday in what its prime minister said was likely to be a provocation timed to coincide with European military exe",
-   "region": "EUROPE"
   },
   {
    "id": "4cc6274c2713",
@@ -629,7 +596,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -637,47 +604,80 @@
    "published": "2026-11-20T22:23:53+00:00",
    "note": "Beating of Michel Zecler in 2020 sparked outrage over police brutality after it was caught on security cameras Three French police officers who beat a black music producer they sai",
    "region": "OTHER"
+  }
+ ],
+ "breaking": [
+  {
+   "id": "796e2675d575",
+   "title": "中国驻沙特大使馆再次提醒在沙中资机构和中国公民注意安全",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-21/10735774.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews_cn"
+   ],
+   "published": "2026-11-21T10:23:30+00:00",
+   "note": "中新网11月21日电 据中国驻沙特大使馆微信公众号消息，近来，沙特首都利雅得等多地频繁遭导弹和无人机袭击。据媒体报道，部分袭击造成人员伤亡，有机场、建筑物、能源电力设施等受损，局部地区出现短时停水电断网等情况。多地学校继续线上授课，部分当地机构和企业人员居家办公。利雅得哈立德国王国际机场部分恢复运营，但多地机场航班经常出现异常。局势还有可能进一步恶化。",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "0e6e31e0a1fe",
-   "title": "Paris police officers sentenced to prison over 2020 beating of Black man",
-   "url": "https://www.france24.com/en/france/20261120-paris-police-officers-sentenced-to-prison-over-2020-beating-of-black-man-michel-zecler",
-   "component": "narrative",
+   "id": "dbc0867d9aa7",
+   "title": "Houthis launch strikes on Saudi Arabia",
+   "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "france24",
+    "scmp"
+   ],
+   "published": "2026-11-21T09:49:44+00:00",
+   "note": "Iran-backed Houthi rebels in Yemen continue to exchange strikes with the Saudi-led coalition. The coalition said it intercepted and destroyed three ballistic missiles fired towards",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "9673de8e51e4",
+   "title": "Rejoining EU ‘on the table’ as UK strikes deals on trade and young people",
+   "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+   "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "guardian"
    ],
-   "published": "2026-11-20T22:04:45+00:00",
-   "note": "A Paris court on Friday sentenced three policemen to serve time over the 2020 beating of Black music producer Michel Zecler, a rare such ruling. The assault, which was captured on ",
-   "region": "OTHER"
+   "published": "2026-11-21T09:45:52+00:00",
+   "note": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discuss",
+   "region": "EUROPE"
   },
   {
-   "id": "e471c30eb88e",
-   "title": "Can China’s top-down military adapt to the speed of AI and drone warfare?",
-   "url": "https://www.scmp.com/news/china/military/article/3375250/can-chinas-top-down-military-adapt-speed-ai-and-drone-warfare",
+   "id": "6183ddbfddf2",
+   "title": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled",
+   "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "scmp"
+    "aljazeera"
    ],
-   "published": "2026-11-20T22:00:19+00:00",
-   "note": "Drawing on lessons from the Ukraine war, Chinese military commentators are calling for frontline commanders to have greater freedom to make battlefield decisions without waiting fo",
-   "region": "EAST_ASIA"
+   "published": "2026-11-21T09:30:24+00:00",
+   "note": "Iran reiterates conditions for Hormuz reopening as US slaps sanctions on four Iranians it says acted as 'oil trustees'.",
+   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 43576,
-  "gdelt_events": 43312,
+  "items": 38037,
+  "gdelt_events": 37777,
   "mode": "live",
   "data_through": "2026-11-20",
-  "clusters": 257,
-  "origins": 262,
+  "clusters": 253,
+  "origins": 258,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1237,6 +1237,38 @@
   "notable": [
    {
     "kind": "judicial",
+    "title": "Letby trial doctor barred from treating patients was expert witness in another case",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/21/lucy-letby-trial-doctor-professor-peter-hindmarsh-barred-from-treating-patients-expert-witness-another-case",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-21"
+   },
+   {
+    "kind": "judicial",
+    "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+    "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-world-4025-rdf",
+    "country": "",
+    "source": "dw",
+    "when": "2026-11-21"
+   },
+   {
+    "kind": "judicial",
+    "title": "Three US citizens among 4 convicted in Honduras over sex-trafficking case",
+    "url": "https://www.aljazeera.com/news/2026/11/21/three-us-citizens-among-4-convicted-in-honduras-over-sex-trafficking-case?traffic_source=rss",
+    "country": "",
+    "source": "aljazeera",
+    "when": "2026-11-21"
+   },
+   {
+    "kind": "judicial",
+    "title": "Three French police officers sentenced over racist assault on Black man",
+    "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
+    "country": "",
+    "source": "aljazeera",
+    "when": "2026-11-21"
+   },
+   {
+    "kind": "judicial",
     "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
     "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
     "country": "",
@@ -1269,14 +1301,6 @@
    },
    {
     "kind": "judicial",
-    "title": "Indian man sentenced to 19 years in US Sikh separatist assassination plot",
-    "url": "https://www.aljazeera.com/news/2026/11/20/indian-man-sentenced-to-19-years-in-us-sikh-separatist-assassination-plot?traffic_source=rss",
-    "country": "IN",
-    "source": "aljazeera",
-    "when": "2026-11-20"
-   },
-   {
-    "kind": "judicial",
     "title": "Indian man jailed over US murder plot against Sikh separatist",
     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375297/indian-man-jailed-over-us-murder-plot-against-sikh-separatist",
     "country": "IN",
@@ -1285,10 +1309,10 @@
    },
    {
     "kind": "judicial",
-    "title": "Florida mechanic found guilty of murdering British woman who attorney says came to US to die",
-    "url": "https://www.theguardian.com/us-news/2026/nov/20/florida-man-guilty-murder-british-woman",
-    "country": "US",
-    "source": "guardian",
+    "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
+    "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
+    "country": "IN",
+    "source": "bbc",
     "when": "2026-11-20"
    },
    {
@@ -1306,30 +1330,14 @@
     "country": "FR",
     "source": "france24",
     "when": "2026-11-20"
-   },
-   {
-    "kind": "judicial",
-    "title": "尼泊尔法院批准羁押两名前劳工部长",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-20/10734994.shtml",
-    "country": "MY",
-    "source": "chinanews",
-    "when": "2026-11-19"
-   },
-   {
-    "kind": "judicial",
-    "title": "国际法院认定缅甸对罗兴亚人实施种族灭绝",
-    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143228",
-    "country": "",
-    "source": "un_news_zh",
-    "when": "2026-11-19"
    }
   ],
-  "notable_total": 11,
+  "notable_total": 13,
   "counts": {
    "extractive": 1,
    "control": 0,
    "redistributive": 0,
-   "notable": 11
+   "notable": 13
   },
   "pressure": {
    "GB": 0.8
@@ -2371,16 +2379,16 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1578280"
     },
     {
-     "t": "Green forest fire notification in Bolivia",
-     "v": "green",
-     "ts": "2026-11-20 12:03",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033977"
-    },
-    {
      "t": "Green forest fire notification in South Sudan, Central African Republic",
      "v": "green",
      "ts": "2026-11-20 20:02",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033983"
+    },
+    {
+     "t": "Green forest fire notification in Bolivia",
+     "v": "green",
+     "ts": "2026-11-20 12:03",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033977"
     },
     {
      "t": "Green flood alert in United States",
@@ -2497,13 +2505,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 43312,
+   "items": 37777,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 25,
+   "items": 24,
    "error": "",
    "undated": 0
   },
@@ -2517,7 +2525,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 39,
+   "items": 38,
    "error": "",
    "undated": 0
   },
@@ -2552,7 +2560,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 15,
+   "items": 17,
    "error": "",
    "undated": 0
   },
@@ -2573,7 +2581,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 14,
+   "items": 10,
    "error": "",
    "undated": 0
   },
@@ -2670,7 +2678,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 8744,
+   "items": 6599,
    "error": ""
   },
   {
