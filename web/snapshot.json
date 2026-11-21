@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-21T10:58:14+00:00",
+ "generated_at": "2026-11-21T19:13:04+00:00",
  "date": "2026-11-20",
  "geti": 75.4,
  "delta_z": 0.68,
@@ -245,12 +245,148 @@
  ],
  "events": [
   {
+   "id": "ee568734ebe0",
+   "title": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
+   "url": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-21T18:50:00+00:00",
+   "note": "Jared Schurr arrested in Mississippi after Lizeht Rodriguez and Woodrow Scott died in otherwise unrelated killings A man recently strangled a woman to death whom he did not know al",
+   "region": "OTHER"
+  },
+  {
+   "id": "5d7927297f3f",
+   "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-21T18:42:38+00:00",
+   "note": "Russia launched more than 400 drones and 110 missiles across Ukraine overnight, killing at least seven in Kyiv.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "8754c4055496",
+   "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
+   "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-21T18:21:02+00:00",
+   "note": "Former Italian police chief Gianni De Gennaro, under ⁠investigation for alleged efforts to obstruct a new probe into the 1992 killing of a top anti-mafia magistrate, has taken his ",
+   "region": "OTHER"
+  },
+  {
+   "id": "5853d57928af",
+   "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera",
+    "aljazeera"
+   ],
+   "published": "2026-11-21T17:54:19+00:00",
+   "note": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "16692a5a8aab",
+   "title": "Russia strikes Zelenskyy's hometown, killing 2",
+   "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-21T14:44:00+00:00",
+   "note": "The attacks follow Russian President Vladimir Putin's vow of a \"painful\" response to Ukraine's attacks this week on the Kerch Bridge, linking Russian-occupied Crimea.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "fb900a541368",
+   "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+   "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-21T14:03:50+00:00",
+   "note": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "a5f9347c5dcf",
+   "title": "伊朗宣布击落一架美军MQ-1无人机",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-21/10735843.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-21T11:29:36+00:00",
+   "note": "中新网11月21日电 据伊朗媒体当地时间21日报道，伊朗伊斯兰革命卫队发布声明称，美军的一架MQ-1无人机在伊朗锡里克岛上空被击落。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "7c098ba832a6",
+   "title": "In India, tainted alcohol leaves 11 dead, over 180 hospitalised",
+   "url": "https://www.scmp.com/news/asia/south-asia/article/3375332/india-tainted-alcohol-leaves-11-dead-over-180-hospitalised",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-21T11:36:40+00:00",
+   "note": "At least 11 people have died and more than 180 have been hospitalised after drinking suspected tainted alcohol in India’s northeastern state of Manipur. The victims fell ill after ",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "519cff593c9f",
+   "title": "Haitians excited but uneasy as El Salvador troops fight gangs",
+   "url": "https://www.theguardian.com/world/2026/nov/21/excitement-unease-haiti-el-salvador-troops-gangs-war-bukele",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-21T11:00:57+00:00",
+   "note": "Foreign combatants in Port-au-Prince welcomed by many after years of gang control but some fear offensive could exacerbate volatile situation A bullet-peppered mural of the Haitian",
+   "region": "LATAM"
+  },
+  {
    "id": "ca6be0572c05",
    "title": "Abby Choi murder trial: ex-in-laws blame each other as 2 accounts of killing emerge",
    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375315/abby-choi-murder-trial-ex-laws-blame-each-other-2-accounts-killing-emerge",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -260,27 +396,12 @@
    "region": "OTHER"
   },
   {
-   "id": "b6525de77ec7",
-   "title": "At least four killed, 35 injured in fire at power station in Iraq’s Basra",
-   "url": "https://www.aljazeera.com/news/2026/11/21/at-least-two-people-killed-as-fire-engulfs-power-station-in-southern-iraq?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-21T07:25:29+00:00",
-   "note": "The blaze erupted at the Hartha power station and spread to nearby houses.",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "5ebcd4c56916",
    "title": "French Senate approves police shootings law dubbed ‘licence to kill’ by critics",
    "url": "https://www.scmp.com/news/world/europe/article/3375320/french-senate-approves-police-shootings-law-dubbed-licence-kill-critics",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -290,33 +411,18 @@
    "region": "EUROPE"
   },
   {
-   "id": "8095f0497f26",
-   "title": "Netanyahu is playing with the fire that killed Rabin",
-   "url": "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-21T06:21:03+00:00",
-   "note": "His attacks on Arab lawmakers echo the incitement that preceded Rabin’s assassination and risk unleashing new violence.",
-   "region": "OTHER"
-  },
-  {
    "id": "eebd93f23143",
-   "title": "Using IDs to check concert tickets, combat scalping could slow entry: tourism chief",
+   "title": "ID card checks to tackle ticket touting could slow entry to shows: tourism chief",
    "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3375317/using-ids-check-concert-tickets-combat-scalping-could-slow-entry-tourism-chief",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
    "published": "2026-11-21T06:07:13+00:00",
-   "note": "Hong Kong’s tourism chief has warned that requiring fans to show identity cards that match the names on their concert tickets to combat scalping could slow entry at venues, saying ",
+   "note": "Hong Kong’s tourism chief has warned that requiring concertgoers to show identity cards matching the names on their tickets to combat scalping could slow entry to venues, saying ar",
    "region": "OTHER"
   },
   {
@@ -380,27 +486,12 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "9018049936f1",
-   "title": "Nearly 600 women killed in South Africa within three months",
-   "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-20T15:55:16+00:00",
-   "note": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
-   "region": "AFRICA"
-  },
-  {
    "id": "6c1d5450b7a9",
    "title": "What we know about the latest Russian missile strikes on Ukraine",
    "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -410,27 +501,12 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "6e835a36609b",
-   "title": "8 killed in Ukraine as Russia hits back after Crimea bridge attacks",
-   "url": "https://www.scmp.com/news/world/europe/article/3375281/8-killed-ukraine-russia-hits-back-after-crimea-bridge-attacks",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-20T13:33:05+00:00",
-   "note": "Russia launched one of the largest missile and drone attacks of the war on Ukraine on Friday, pummelling electricity facilities and killing eight people, after President Vladimir P",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "dbc0867d9aa7",
    "title": "Houthis launch strikes on Saudi Arabia",
    "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia",
    "component": "military",
    "severity": 4,
-   "confidence": 0.82,
+   "confidence": 0.6,
    "origins": 2,
    "sources": [
     "france24",
@@ -441,243 +517,168 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "796e2675d575",
-   "title": "中国驻沙特大使馆再次提醒在沙中资机构和中国公民注意安全",
-   "url": "https://www.chinanews.com.cn/gn/2026/11-21/10735774.shtml",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews_cn"
-   ],
-   "published": "2026-11-21T10:23:30+00:00",
-   "note": "中新网11月21日电 据中国驻沙特大使馆微信公众号消息，近来，沙特首都利雅得等多地频繁遭导弹和无人机袭击。据媒体报道，部分袭击造成人员伤亡，有机场、建筑物、能源电力设施等受损，局部地区出现短时停水电断网等情况。多地学校继续线上授课，部分当地机构和企业人员居家办公。利雅得哈立德国王国际机场部分恢复运营，但多地机场航班经常出现异常。局势还有可能进一步恶化。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "9673de8e51e4",
-   "title": "Rejoining EU ‘on the table’ as UK strikes deals on trade and young people",
-   "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+   "id": "9cddfb2c9d90",
+   "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+   "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "aljazeera"
    ],
-   "published": "2026-11-21T09:45:52+00:00",
-   "note": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discuss",
+   "published": "2026-11-21T17:20:03+00:00",
+   "note": "Attack on Kryvyi Rih comes as Russian missiles land in NATO member Poland and US-led peace efforts face uncertainty.",
    "region": "EUROPE"
   },
   {
-   "id": "6183ddbfddf2",
-   "title": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled",
-   "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
+   "id": "9e5e5d3dc663",
+   "title": "Russian helicopter suspected of violating Finnish airspace",
+   "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "dw"
    ],
-   "published": "2026-11-21T09:30:24+00:00",
-   "note": "Iran reiterates conditions for Hormuz reopening as US slaps sanctions on four Iranians it says acted as 'oil trustees'.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "c8de706d5f9a",
-   "title": "French police officers guilty of Michel Zecler assault: What happens now?",
-   "url": "https://www.aljazeera.com/news/2026/11/21/french-police-officers-guilty-of-michel-zecler-assault-what-happens-now?traffic_source=rss",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-21T09:12:14+00:00",
-   "note": "Officers dealt more than 30 blows to the Black music producer in what the court ruled was a racially motivated crime.",
-   "region": "OTHER"
-  },
-  {
-   "id": "69f9ac56ae0d",
-   "title": "Emergency crews in Ukraine hit by a double-tap strike",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-21T07:12:03+00:00",
-   "note": "Video shows emergency crews in Ukraine approaching the scene of a Russian strike, before another strike hits.",
+   "published": "2026-11-21T17:08:00+00:00",
+   "note": "Finland's Defense Ministry thinks the incursion is linked to a drone strike earlier Saturday on a Russian cargo ship, which is on a US sanctions list.",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "2391fb02d931",
-   "title": "Campaigners back call for scrutiny of consent laws by Joanne Young",
-   "url": "https://www.theguardian.com/society/2026/nov/21/campaigners-back-call-for-scrutiny-of-consent-laws-by-joanne-young",
+   "id": "52b69ef7a565",
+   "title": "French police officers convicted of racist assault",
+   "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
    "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "france24"
    ],
-   "published": "2026-11-21T06:00:53+00:00",
-   "note": "Experts say no law states third-party consent is a valid defence and call for public debate and further education Campaigners have welcomed a call for scrutiny of consent laws by a",
+   "published": "2026-11-21T16:41:49+00:00",
+   "note": "A French court on Friday sentenced three policemen to serve time over the beating of a black music producer in 2020. It also recognized the assault on Michelle Zecler was racially ",
    "region": "OTHER"
   },
   {
-   "id": "8a0aac2d52a1",
-   "title": "【世界进行时】2026年11月20日",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143245",
+   "id": "ca39b5664e4a",
+   "title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss",
    "component": "military",
    "severity": 4,
-   "confidence": 0.43,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "un_news_zh"
+    "aljazeera"
    ],
-   "published": "2026-11-20T12:00:00+00:00",
-   "note": "本期要点：国际法院裁定缅甸对罗兴亚人实施种族灭绝；古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书；苏丹：无人机袭击激增对平民造成的致命影响；儿基会：全球每四分钟就有一名儿童死于暴力；联合国报告：干扰内分泌化学物质可能在出生前影响人体健康；经巴拿马北上人流减少九成，拉美移民转向新路线。",
-   "region": "AFRICA"
-  },
-  {
-   "id": "ceedcbbda528",
-   "title": "约旦河西岸：定居者袭击事件创纪录 联合国敦促以色列保护农民",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143241",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.43,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-20T12:00:00+00:00",
-   "note": "联合国机构和人道主义非政府组织周五表示，在今年被占领的约旦河西岸橄榄收获季期间，以色列定居者发动了400多次袭击，造成人员伤亡或财产损失——这一数字超过了以往任何一个收获季。",
+   "published": "2026-11-21T14:06:06+00:00",
+   "note": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "4932d24cf35a",
-   "title": "沙特称拦截3枚胡塞武装导弹 也门媒体称沙特袭击致41死",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-21/10735663.shtml",
+   "id": "13db72c75d97",
+   "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+   "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
    "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-21T13:17:38+00:00",
+   "note": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "ef12e9f9d58b",
+   "title": "菲律宾达沃机场发生客机紧急迫降 146人安全撤离",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-21/10735857.shtml",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-21T03:33:02+00:00",
-   "note": "中新社北京11月21日电 据沙特《利雅得报》当地时间21日凌晨报道，沙特阿拉伯主导的多国联军称摧毁了也门胡塞武装向沙特首都利雅得发射的三枚弹道导弹。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "1a28f5d76c79",
-   "title": "Three French police officers sentenced over racist assault on Black man",
-   "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-21T03:01:24+00:00",
-   "note": "Paris criminal court finds racism was an aggravating factor in the 2020 assault of Black music producer Michel Zecler.",
-   "region": "OTHER"
-  },
-  {
-   "id": "4cc6274c2713",
-   "title": "French police officers found guilty of racist assault on black music producer",
-   "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-20T22:23:53+00:00",
-   "note": "Beating of Michel Zecler in 2020 sparked outrage over police brutality after it was caught on security cameras Three French police officers who beat a black music producer they sai",
-   "region": "OTHER"
+   "published": "2026-11-21T12:26:25+00:00",
+   "note": "中新网马尼拉11月21日电 一架从中国香港飞往巴布亚新几内亚的客机21日凌晨因右侧发动机出现火警警报，在菲律宾南部达沃国际机场紧急迫降。机上146名乘客及机组人员全部安全撤离，无人员受伤。初步检查发现，飞机右侧起落架4个机轮受损。",
+   "region": "EAST_ASIA"
   }
  ],
  "breaking": [
   {
-   "id": "796e2675d575",
-   "title": "中国驻沙特大使馆再次提醒在沙中资机构和中国公民注意安全",
-   "url": "https://www.chinanews.com.cn/gn/2026/11-21/10735774.shtml",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews_cn"
-   ],
-   "published": "2026-11-21T10:23:30+00:00",
-   "note": "中新网11月21日电 据中国驻沙特大使馆微信公众号消息，近来，沙特首都利雅得等多地频繁遭导弹和无人机袭击。据媒体报道，部分袭击造成人员伤亡，有机场、建筑物、能源电力设施等受损，局部地区出现短时停水电断网等情况。多地学校继续线上授课，部分当地机构和企业人员居家办公。利雅得哈立德国王国际机场部分恢复运营，但多地机场航班经常出现异常。局势还有可能进一步恶化。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "dbc0867d9aa7",
-   "title": "Houthis launch strikes on Saudi Arabia",
-   "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.82,
-   "origins": 2,
-   "sources": [
-    "france24",
-    "scmp"
-   ],
-   "published": "2026-11-21T09:49:44+00:00",
-   "note": "Iran-backed Houthi rebels in Yemen continue to exchange strikes with the Saudi-led coalition. The coalition said it intercepted and destroyed three ballistic missiles fired towards",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "9673de8e51e4",
-   "title": "Rejoining EU ‘on the table’ as UK strikes deals on trade and young people",
-   "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
-   "component": "military",
-   "severity": 4,
+   "id": "ee568734ebe0",
+   "title": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
+   "url": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges",
+   "component": "narrative",
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-21T09:45:52+00:00",
-   "note": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discuss",
-   "region": "EUROPE"
+   "published": "2026-11-21T18:50:00+00:00",
+   "note": "Jared Schurr arrested in Mississippi after Lizeht Rodriguez and Woodrow Scott died in otherwise unrelated killings A man recently strangled a woman to death whom he did not know al",
+   "region": "OTHER"
   },
   {
-   "id": "6183ddbfddf2",
-   "title": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled",
-   "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
+   "id": "5d7927297f3f",
+   "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
    "component": "military",
-   "severity": 4,
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-21T09:30:24+00:00",
-   "note": "Iran reiterates conditions for Hormuz reopening as US slaps sanctions on four Iranians it says acted as 'oil trustees'.",
+   "published": "2026-11-21T18:42:38+00:00",
+   "note": "Russia launched more than 400 drones and 110 missiles across Ukraine overnight, killing at least seven in Kyiv.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "8754c4055496",
+   "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
+   "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-21T18:21:02+00:00",
+   "note": "Former Italian police chief Gianni De Gennaro, under ⁠investigation for alleged efforts to obstruct a new probe into the 1992 killing of a top anti-mafia magistrate, has taken his ",
+   "region": "OTHER"
+  },
+  {
+   "id": "5853d57928af",
+   "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera",
+    "aljazeera"
+   ],
+   "published": "2026-11-21T17:54:19+00:00",
+   "note": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
    "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 38037,
-  "gdelt_events": 37777,
+  "items": 34361,
+  "gdelt_events": 34114,
   "mode": "live",
   "data_through": "2026-11-20",
-  "clusters": 253,
-  "origins": 258,
+  "clusters": 238,
+  "origins": 243,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1149,7 +1150,7 @@
   },
   {
    "date": "2026-11-03",
-   "geti": 53.0
+   "geti": 52.9
   },
   {
    "date": "2026-11-04",
@@ -1221,50 +1222,30 @@
   }
  ],
  "policy": {
-  "items": [
-   {
-    "type": "extractive",
-    "country": "GB",
-    "source": "guardian",
-    "score": 0.8,
-    "signed": 0.8,
-    "title": "JP Morgan boss says he will find ways to offset ‘unfair’ rise in UK tax on banks",
-    "url": "https://www.theguardian.com/business/2026/nov/20/jp-morgan-jamie-dimon-uk-tax-hike-bank-surcharge",
-    "origins": 1,
-    "when": "2026-11-20"
-   }
-  ],
+  "items": [],
   "notable": [
    {
     "kind": "judicial",
-    "title": "Letby trial doctor barred from treating patients was expert witness in another case",
-    "url": "https://www.theguardian.com/uk-news/2026/nov/21/lucy-letby-trial-doctor-professor-peter-hindmarsh-barred-from-treating-patients-expert-witness-another-case",
+    "title": "Man convicted of starting palisades fire",
+    "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire",
     "country": "",
-    "source": "guardian",
+    "source": "france24",
     "when": "2026-11-21"
    },
    {
     "kind": "judicial",
-    "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
-    "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-world-4025-rdf",
+    "title": "French police officers convicted of racist assault",
+    "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
     "country": "",
-    "source": "dw",
+    "source": "france24",
     "when": "2026-11-21"
    },
    {
     "kind": "judicial",
-    "title": "Three US citizens among 4 convicted in Honduras over sex-trafficking case",
-    "url": "https://www.aljazeera.com/news/2026/11/21/three-us-citizens-among-4-convicted-in-honduras-over-sex-trafficking-case?traffic_source=rss",
+    "title": "天津通报正风肃纪反腐“成绩单” 部署深化“三不腐”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-21/10735863.shtml",
     "country": "",
-    "source": "aljazeera",
-    "when": "2026-11-21"
-   },
-   {
-    "kind": "judicial",
-    "title": "Three French police officers sentenced over racist assault on Black man",
-    "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
-    "country": "",
-    "source": "aljazeera",
+    "source": "chinanews_cn",
     "when": "2026-11-21"
    },
    {
@@ -1281,14 +1262,6 @@
     "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
     "country": "",
     "source": "bbc",
-    "when": "2026-11-20"
-   },
-   {
-    "kind": "judicial",
-    "title": "Paris police officers sentenced to prison over 2020 beating of Black man",
-    "url": "https://www.france24.com/en/france/20261120-paris-police-officers-sentenced-to-prison-over-2020-beating-of-black-man-michel-zecler",
-    "country": "FR",
-    "source": "france24",
     "when": "2026-11-20"
    },
    {
@@ -1322,26 +1295,16 @@
     "country": "IN",
     "source": "guardian",
     "when": "2026-11-20"
-   },
-   {
-    "kind": "judicial",
-    "title": "France investigates actor Depardieu, writer Houellebecq over alleged gang rape",
-    "url": "https://www.france24.com/en/france/20261120-france-investigates-gerard-depardieu-writer-houellebecq-over-alleged-gang-rape",
-    "country": "FR",
-    "source": "france24",
-    "when": "2026-11-20"
    }
   ],
-  "notable_total": 13,
+  "notable_total": 9,
   "counts": {
-   "extractive": 1,
+   "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 13
+   "notable": 9
   },
-  "pressure": {
-   "GB": 0.8
-  },
+  "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
@@ -2231,8 +2194,8 @@
   "mode": "live"
  },
  "hazard": {
-  "index": 50.6,
-  "z": 0.02,
+  "index": 59.0,
+  "z": 0.29,
   "components": [
    {
     "key": "quake_energy",
@@ -2258,10 +2221,10 @@
     "key": "storm_events",
     "label": "灾害事件",
     "weight": 0.2,
-    "value": 2.0,
-    "carry": 2.19,
-    "z": 0.06,
-    "score": 51.8,
+    "value": 10.0,
+    "carry": 3.08,
+    "z": 1.43,
+    "score": 85.6,
     "available": true
    },
    {
@@ -2359,6 +2322,54 @@
    ],
    "eonet": [
     {
+     "t": "Iceberg A76C",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_5359"
+    },
+    {
+     "t": "Iceberg C39",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6051"
+    },
+    {
+     "t": "Iceberg D32",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6288"
+    },
+    {
+     "t": "Iceberg A81",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6320"
+    },
+    {
+     "t": "Iceberg D33B",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6424"
+    },
+    {
+     "t": "Iceberg A83",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_6523"
+    },
+    {
+     "t": "Iceberg A84",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12618"
+    },
+    {
+     "t": "Iceberg A85",
+     "v": "sea and lake ice",
+     "ts": "",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_12716"
+    },
+    {
      "t": "Tropical Cyclone Xavier",
      "v": "severe storms",
      "ts": "",
@@ -2377,12 +2388,6 @@
      "v": "green",
      "ts": "2026-11-20 01:06",
      "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1578280"
-    },
-    {
-     "t": "Green forest fire notification in South Sudan, Central African Republic",
-     "v": "green",
-     "ts": "2026-11-20 20:02",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033983"
     },
     {
      "t": "Green forest fire notification in Bolivia",
@@ -2414,8 +2419,8 @@
   }
  },
  "epidemic": {
-  "index": 52.8,
-  "z": 0.09,
+  "index": 54.4,
+  "z": 0.14,
   "components": [
    {
     "key": "who_don",
@@ -2441,10 +2446,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.0,
-    "carry": 0.76,
-    "z": -0.25,
-    "score": 42.3,
+    "value": 0.81,
+    "carry": 0.85,
+    "z": -0.07,
+    "score": 47.8,
     "available": true
    }
   ],
@@ -2453,8 +2458,8 @@
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 11,
-   "last_seen": "2026-11-18",
+   "active_days": 12,
+   "last_seen": "2026-11-20",
    "ongoing": true
   },
   "evidence": {
@@ -2462,12 +2467,12 @@
   }
  },
  "doom": {
-  "index": 70.7,
-  "z": 0.53,
+  "index": 71.8,
+  "z": 0.56,
   "parts": {
    "military": 0.67,
-   "hazard": 0.01,
-   "epidemic": 0.07
+   "hazard": 0.22,
+   "epidemic": 0.11
   },
   "resonance": 0,
   "partial": false,
@@ -2478,40 +2483,22 @@
   ]
  },
  "manual": {
-  "items": [
-   {
-    "number": 1,
-    "title": "线索：工伤认定新闻（测试）",
-    "note": "工伤认定问题",
-    "url": "https://github.com/jonetap/geti/issues/1",
-    "author": "jonetap",
-    "created": "2026-11-04T12:36:06Z",
-    "links": [
-     "https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/SuilUDmQOA1-LzmKwmgg7g"
-    ],
-    "images": [
-     "intel/9d8835a9a14b1106.png"
-    ],
-    "kind": "link",
-    "seen": false
-   }
-  ],
-  "unseen": 1,
-  "note": "人工提交 1 条，其中 1 条抓取器没有收录——这类条目也可能是我们的盲区。本层不计分。",
-  "mode": "shadow"
+  "items": [],
+  "note": "读取人工线索失败：HTTPError: HTTP Error 403: rate limit exceeded（不影响指数）",
+  "mode": "failed"
  },
  "adapters": [
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 37777,
+   "files": 142,
+   "items": 34114,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 24,
+   "items": 26,
    "error": "",
    "undated": 0
   },
@@ -2525,14 +2512,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 38,
+   "items": 33,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2560,7 +2547,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 17,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2581,7 +2568,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 10,
+   "items": 7,
    "error": "",
    "undated": 0
   },
@@ -2654,13 +2641,13 @@
   {
    "source": "nasa:eonet",
    "ok": true,
-   "items": 2,
+   "items": 10,
    "error": ""
   },
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "error": ""
   },
   {
@@ -2678,13 +2665,14 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 6599,
+   "items": 11511,
    "error": ""
   },
   {
    "source": "manual:intel",
-   "ok": true,
-   "items": 1
+   "ok": false,
+   "items": 0,
+   "error": "HTTPError: HTTP Error 403: rate limit exceeded"
   }
  ]
 }
