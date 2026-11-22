@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-22T11:19:43+00:00",
+ "generated_at": "2026-11-22T19:36:33+00:00",
  "date": "2026-11-21",
  "geti": 74.9,
  "delta_z": 0.62,
@@ -245,12 +245,179 @@
  ],
  "events": [
   {
+   "id": "0ca5515a8f69",
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "bbc",
+    "aljazeera"
+   ],
+   "published": "2026-11-22T19:26:54+00:00",
+   "note": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "b205e6a4b2c3",
+   "title": "Russian strikes kill 6 in Kyiv region, Ukraine says",
+   "url": "https://www.scmp.com/news/world/europe/article/3375401/russian-strikes-kill-6-kyiv-region-ukraine-says",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "scmp",
+    "france24"
+   ],
+   "published": "2026-11-22T18:32:59+00:00",
+   "note": "Russian strikes across the Kyiv region, including on a block of flats that partially collapsed, killed at least six people, Ukraine said on Sunday, warning there could be more vict",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "0d65beda571b",
+   "title": "3 killed and 1 wounded in shooting at Ohio baby shower, police say",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3375402/3-killed-and-1-wounded-shooting-ohio-baby-shower-police-say",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-22T19:13:54+00:00",
+   "note": "Three people were killed and one was injured at an Ohio baby shower during an apparent domestic dispute, authorities said. Officers responded to a shooting on Saturday evening at P",
+   "region": "OTHER"
+  },
+  {
+   "id": "8da8c0b6c9d1",
+   "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
+   "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-22T18:50:56+00:00",
+   "note": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia A suspected Ukrainian drone attack caused an explosion on a Russian warsh",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "cf245e1552cd",
+   "title": "Civilians killed in RSF drone strikes in Sudan",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-22T18:12:07+00:00",
+   "note": "Several civilians have been killed and several buildings damaged in drone strikes by Sudan’s Rapid Support Forces.",
+   "region": "AFRICA"
+  },
+  {
+   "id": "3f73d51aa89a",
+   "title": "Dozens drown as boat capsizes in Nigeria en route to funeral",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dozens-drown-as-boat-capsizes-in-nigeria-en-route-to-funeral?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-22T15:24:20+00:00",
+   "note": "At least 24 people have been killed after a boat carrying mourners to a funeral capsized in Nigeria.",
+   "region": "AFRICA"
+  },
+  {
+   "id": "2fb86dcb0738",
+   "title": "The Drugs Don’t Work",
+   "url": "https://www.aljazeera.com/video/featured-documentaries/2026/11/22/the-drugs-dont-work?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-22T14:51:39+00:00",
+   "note": "A look at how antibiotic overuse could fuel superbugs, killing eight million people annually by 2050.",
+   "region": "OTHER"
+  },
+  {
+   "id": "c3ca7d7d8c57",
+   "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 7 in Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-22T14:48:50+00:00",
+   "note": "Three Russian attacks kill at least six people near Kyiv as overnight Russian shelling kills one in Zaporizhzhia.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "a4c584e8cde1",
+   "title": "Three killed and dozens missing after fire at Indonesian factory",
+   "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-22T14:05:20+00:00",
+   "note": "At least three people were killed and many more feared dead after a fire at a confectionary factory.",
+   "region": "OTHER"
+  },
+  {
+   "id": "00e13b4ae89d",
+   "title": "阿富汗警方称打死3名武装分子",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-22/10736173.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-22T12:22:35+00:00",
+   "note": "中新社北京11月22日电 喀布尔消息：当地时间11月22日，阿富汗内政部发布通报称，阿富汗警方特种部队21日在首都喀布尔第11区开展行动，其间与武装分子发生交火，打死3名武装分子。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "aa26c4d60cf0",
+   "title": "Indonesia factory hit by deadly blaze: Three killed and 36 missing",
+   "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-22T12:11:00+00:00",
+   "note": "At least three people have been killed and dozens are missing after a fire broke out at a factory in Indonesia producing sweets and snack products. Fifteen people were rescued aliv",
+   "region": "OTHER"
+  },
+  {
    "id": "f43bffd2509e",
    "title": "Former Italian police chief found dead",
    "url": "https://www.france24.com/en/former-italian-police-chief-found-dead",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
@@ -260,33 +427,18 @@
    "region": "OTHER"
   },
   {
-   "id": "5efeb49451c3",
-   "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-22T07:59:29+00:00",
-   "note": "Dashcam video captured the moment a missile struck a residential neighbourhood in Lviv, western Ukraine.",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "32020a2afad1",
    "title": "Man arrested after Tsim Sha Tsui crash kills 1 pedestrian, injures 3",
    "url": "https://www.scmp.com/news/hong-kong/society/article/3375367/hong-kong-manhunt-after-tsim-sha-tsui-hit-and-run-leaves-1-dead-3-injured",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
    "published": "2026-11-22T07:38:38+00:00",
-   "note": "A man has been arrested on suspicion of drink-driving after a car allegedly struck a lamppost and another vehicle before mounting a pavement in Hong Kong’s busy Tsim Sha Tsui shopp",
+   "note": "A man has been arrested on suspicion of drink-driving after a car allegedly struck a lamp post and another vehicle before mounting a pavement in Hong Kong’s busy Tsim Sha Tsui shop",
    "region": "OTHER"
   },
   {
@@ -295,7 +447,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
@@ -305,18 +457,33 @@
    "region": "OTHER"
   },
   {
+   "id": "b39b6016d665",
+   "title": "Live: Ukrainian rescuers search for survivors in rubble after Russian attack",
+   "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-22T06:15:38+00:00",
+   "note": "Ukrainian rescue teams on Sunday searched for survivors in the rubble of a collapsed residential building in Dymer, in the Kyiv region, after a Russian drone strike, which killed t",
+   "region": "RUSSIA_CIS"
+  },
+  {
    "id": "397e0f763365",
    "title": "Dozens missing as deadly fire hits Indonesian candy factory",
    "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-rdf",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "dw"
    ],
    "published": "2026-11-22T06:14:00+00:00",
-   "note": "A fire at a confectionery factory in Indonesia's Banten province has killed at least three people. Dozens are also unaccounted for after the blaze, which destroyed large parts of t",
+   "note": "At least three people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger",
    "region": "OTHER"
   },
   {
@@ -325,43 +492,13 @@
    "url": "https://www.theguardian.com/australia-news/2026/nov/22/police-say-man-whose-body-lay-undiscovered-in-sydney-bushland-for-12-days-was-killed-in-suspected-hit-and-run-ntwnfb",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "guardian"
    ],
    "published": "2026-11-22T05:21:01+00:00",
    "note": "Joshua Howard, 31, is believed to have been struck by a car and thrown over the guardrail as he was walking home from a party in Rouse Hill Get our breaking news email , free app o",
-   "region": "OTHER"
-  },
-  {
-   "id": "a5f9347c5dcf",
-   "title": "伊朗宣布击落一架美军MQ-1无人机",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-21/10735843.shtml",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-21T11:29:36+00:00",
-   "note": "中新网11月21日电 据伊朗媒体当地时间21日报道，伊朗伊斯兰革命卫队发布声明称，美军的一架MQ-1无人机在伊朗锡里克岛上空被击落。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "5914b32e2518",
-   "title": "Eleven killed in burst of violence during Mexican cartel leader’s capture",
-   "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-22T03:34:02+00:00",
-   "note": "Seven alleged cartel gunmen and four soldiers were killed in operation to arrest cartel boss Fausto Isidro Meza Flores.",
    "region": "OTHER"
   },
   {
@@ -410,72 +547,12 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "02762ea310ab",
-   "title": "Man charged with attempted murder after councillor stabbed in Bradford",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/21/man-charged-with-attempted-after-councillor-stabbed-in-bradford",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-21T19:42:42+00:00",
-   "note": "Arfan Ali, 31, has also been charged with assault and possession of an offensive weapon in a public place A man has been charged with attempted murder after a local councillor was ",
-   "region": "OTHER"
-  },
-  {
-   "id": "ee568734ebe0",
-   "title": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
-   "url": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-21T18:50:00+00:00",
-   "note": "Jared Schurr arrested in Mississippi after Lizeht Rodriguez and Woodrow Scott died in otherwise unrelated killings A man recently strangled a woman to death whom he did not know al",
-   "region": "OTHER"
-  },
-  {
-   "id": "8754c4055496",
-   "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
-   "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-21T18:21:02+00:00",
-   "note": "Former Italian police chief Gianni De Gennaro, under ⁠investigation for alleged efforts to obstruct a new probe into the 1992 killing of a top anti-mafia magistrate, has taken his ",
-   "region": "OTHER"
-  },
-  {
-   "id": "303bdd750274",
-   "title": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight",
-   "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-21T15:00:15+00:00",
-   "note": "Mexico's military forces captured ​one of the most wanted suspected drug lords, Fausto Isidro Meza Flores, known as \"El Chapo Isidro,\" the military announced on Saturday, after a d",
-   "region": "LATAM"
-  },
-  {
    "id": "16692a5a8aab",
    "title": "Russia strikes Zelenskyy's hometown, killing 2",
    "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "dw"
@@ -483,21 +560,6 @@
    "published": "2026-11-21T14:44:00+00:00",
    "note": "The attacks follow Russian President Vladimir Putin's vow of a \"painful\" response to Ukraine's attacks this week on the Kerch Bridge, linking Russian-occupied Crimea.",
    "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "7c098ba832a6",
-   "title": "In India, tainted alcohol leaves 11 dead, over 180 hospitalised",
-   "url": "https://www.scmp.com/news/asia/south-asia/article/3375332/india-tainted-alcohol-leaves-11-dead-over-180-hospitalised",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-21T11:36:40+00:00",
-   "note": "At least 11 people have died and more than 180 have been hospitalised after drinking suspected tainted alcohol in India’s northeastern state of Manipur. The victims fell ill after ",
-   "region": "SOUTH_ASIA"
   },
   {
    "id": "519cff593c9f",
@@ -515,146 +577,59 @@
    "region": "LATAM"
   },
   {
-   "id": "ca6be0572c05",
-   "title": "Abby Choi murder trial: ex-in-laws blame each other as 2 accounts of killing emerge",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375315/abby-choi-murder-trial-ex-laws-blame-each-other-2-accounts-killing-emerge",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-21T07:26:42+00:00",
-   "note": "Three of slain Hong Kong socialite Abby Choi Tin-fung’s former in-laws have pointed fingers at one another in court regarding who killed her, while unanimously portraying her death",
-   "region": "OTHER"
-  },
-  {
-   "id": "6c1d5450b7a9",
-   "title": "What we know about the latest Russian missile strikes on Ukraine",
-   "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-20T15:14:01+00:00",
-   "note": "Russia struck bridges and railway stations in the capital Kyiv in a major attack.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "9978cec095d3",
-   "title": "‘Trump’s exit strategy may depend on quietly lifting Iran blockade’",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss",
+   "id": "976fe1db2e89",
+   "title": "Israel investigates West Bank fires blamed on Israeli settlers",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3375395/israel-investigates-west-bank-fires-blamed-israeli-settlers",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
+   "confidence": 0.82,
+   "origins": 2,
    "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-22T09:06:27+00:00",
-   "note": "US President Donald Trump will have to ease the naval blockade on Iran if he wants the war to wind down, says analyst.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "b39b6016d665",
-   "title": "Live: At least 14 feared trapped after Russian strike in Kyiv region, Zelensky says",
-   "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
+    "scmp",
     "france24"
    ],
-   "published": "2026-11-22T06:15:38+00:00",
-   "note": "Ukrainian President Volodymyr Zelensky said at least 14 people were missing after a Russian drone struck a five-story residential building in Dymer, in the Kyiv region, injuring tw",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "424c2feaf073",
-   "title": "伊朗革命卫队称袭击美军在巴林两处基地防空雷达",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-22/10735934.shtml",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-21T22:10:13+00:00",
-   "note": "新华社德黑兰11月21日电(记者刁慧琳 沙达提)据伊朗伊斯兰共和国通讯社21日报道，伊朗伊斯兰革命卫队当天发表声明称，革命卫队航空航天部队使用导弹和无人机袭击了美国在巴林里法和阿瓦利两处军事基地的防空雷达。",
+   "published": "2026-11-22T16:25:23+00:00",
+   "note": "Israeli authorities said on Sunday that they opened an investigation after Palestinian cars and properties were torched in four occupied West Bank villages, in attacks a local acti",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "ef12e9f9d58b",
-   "title": "菲律宾达沃机场发生客机紧急迫降 146人安全撤离",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-21/10735857.shtml",
-   "component": "narrative",
+   "id": "d159e69a8061",
+   "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+   "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
    "severity": 4,
-   "confidence": 0.38,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "bbc",
+    "bbc"
    ],
-   "published": "2026-11-21T12:26:25+00:00",
-   "note": "中新网马尼拉11月21日电 一架从中国香港飞往巴布亚新几内亚的客机21日凌晨因右侧发动机出现火警警报，在菲律宾南部达沃国际机场紧急迫降。机上146名乘客及机组人员全部安全撤离，无人员受伤。初步检查发现，飞机右侧起落架4个机轮受损。",
-   "region": "EAST_ASIA"
+   "published": "2026-11-22T17:57:43+00:00",
+   "note": "The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region.",
+   "region": "RUSSIA_CIS"
   }
  ],
  "breaking": [
   {
-   "id": "f43bffd2509e",
-   "title": "Former Italian police chief found dead",
-   "url": "https://www.france24.com/en/former-italian-police-chief-found-dead",
+   "id": "0ca5515a8f69",
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
+   "confidence": 0.82,
+   "origins": 2,
    "sources": [
-    "france24"
-   ],
-   "published": "2026-11-22T10:25:52+00:00",
-   "note": "Italian Prime Minister Giorgia Meloni has expressed shock following the death of a former national police chief, whose body was found on Saturday. He had been under investigation o",
-   "region": "OTHER"
-  },
-  {
-   "id": "9978cec095d3",
-   "title": "‘Trump’s exit strategy may depend on quietly lifting Iran blockade’",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
+    "bbc",
     "aljazeera"
    ],
-   "published": "2026-11-22T09:06:27+00:00",
-   "note": "US President Donald Trump will have to ease the naval blockade on Iran if he wants the war to wind down, says analyst.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "5efeb49451c3",
-   "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-22T07:59:29+00:00",
-   "note": "Dashcam video captured the moment a missile struck a residential neighbourhood in Lviv, western Ukraine.",
+   "published": "2026-11-22T19:26:54+00:00",
+   "note": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "32020a2afad1",
-   "title": "Man arrested after Tsim Sha Tsui crash kills 1 pedestrian, injures 3",
-   "url": "https://www.scmp.com/news/hong-kong/society/article/3375367/hong-kong-manhunt-after-tsim-sha-tsui-hit-and-run-leaves-1-dead-3-injured",
+   "id": "0d65beda571b",
+   "title": "3 killed and 1 wounded in shooting at Ohio baby shower, police say",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3375402/3-killed-and-1-wounded-shooting-ohio-baby-shower-police-say",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -662,20 +637,51 @@
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-22T07:38:38+00:00",
-   "note": "A man has been arrested on suspicion of drink-driving after a car allegedly struck a lamppost and another vehicle before mounting a pavement in Hong Kong’s busy Tsim Sha Tsui shopp",
+   "published": "2026-11-22T19:13:54+00:00",
+   "note": "Three people were killed and one was injured at an Ohio baby shower during an apparent domestic dispute, authorities said. Officers responded to a shooting on Saturday evening at P",
    "region": "OTHER"
+  },
+  {
+   "id": "8da8c0b6c9d1",
+   "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
+   "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-22T18:50:56+00:00",
+   "note": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia A suspected Ukrainian drone attack caused an explosion on a Russian warsh",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "b205e6a4b2c3",
+   "title": "Russian strikes kill 6 in Kyiv region, Ukraine says",
+   "url": "https://www.scmp.com/news/world/europe/article/3375401/russian-strikes-kill-6-kyiv-region-ukraine-says",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.82,
+   "origins": 2,
+   "sources": [
+    "scmp",
+    "france24"
+   ],
+   "published": "2026-11-22T18:32:59+00:00",
+   "note": "Russian strikes across the Kyiv region, including on a block of flats that partially collapsed, killed at least six people, Ukraine said on Sunday, warning there could be more vict",
+   "region": "RUSSIA_CIS"
   }
  ],
  "coverage": {
   "sources_ok": 20,
   "sources_failed": 2,
-  "items": 23867,
-  "gdelt_events": 23630,
+  "items": 23283,
+  "gdelt_events": 23042,
   "mode": "live",
   "data_through": "2026-11-21",
-  "clusters": 229,
-  "origins": 234,
+  "clusters": 231,
+  "origins": 236,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1107,7 +1113,7 @@
   },
   {
    "date": "2026-10-25",
-   "geti": 63.3
+   "geti": 63.2
   },
   {
    "date": "2026-10-26",
@@ -1167,7 +1173,7 @@
   },
   {
    "date": "2026-11-09",
-   "geti": 69.4
+   "geti": 69.3
   },
   {
    "date": "2026-11-10",
@@ -1235,18 +1241,34 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "行贿犯罪嫌疑人刘贤志被遣返回国",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-22/10736121.shtml",
+    "title": "Russell Brand’s wife vows to abide by prison rules after video controversy",
+    "url": "https://www.theguardian.com/news/2026/nov/22/russell-brand-wife-laura-gallacher-youtube-video",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-22"
+   },
+   {
+    "kind": "judicial",
+    "title": "China’s shale gas star Xie Jun under investigation for corruption: authorities",
+    "url": "https://www.scmp.com/news/china/politics/article/3375381/chinas-shale-gas-star-xie-jun-under-investigation-corruption-authorities",
+    "country": "CN",
+    "source": "scmp",
+    "when": "2026-11-22"
+   },
+   {
+    "kind": "judicial",
+    "title": "内蒙古医科大学党委原书记赵云山被开除党籍和公职",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-22/10736192.shtml",
     "country": "",
     "source": "chinanews_cn",
     "when": "2026-11-22"
    },
    {
     "kind": "judicial",
-    "title": "‘Intimidating’ vigilantes posing as far-right security on the rise, UK experts say",
-    "url": "https://www.theguardian.com/politics/2026/nov/22/intimidating-vigilantes-posing-as-far-right-security-on-the-rise-uk-experts-say",
-    "country": "GB",
-    "source": "guardian",
+    "title": "行贿犯罪嫌疑人刘贤志被遣返回国",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-22/10736121.shtml",
+    "country": "",
+    "source": "chinanews_cn",
     "when": "2026-11-22"
    },
    {
@@ -1259,34 +1281,10 @@
    },
    {
     "kind": "judicial",
-    "title": "French police officers jailed for racist violence against black man in landmark ruling",
-    "url": "https://www.scmp.com/news/world/europe/article/3375350/french-police-officers-jailed-racist-violence-against-black-man-landmark-ruling",
+    "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+    "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-world-4025-rdf",
     "country": "",
-    "source": "scmp",
-    "when": "2026-11-21"
-   },
-   {
-    "kind": "judicial",
-    "title": "Man convicted of starting palisades fire",
-    "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire",
-    "country": "",
-    "source": "france24",
-    "when": "2026-11-21"
-   },
-   {
-    "kind": "judicial",
-    "title": "French police officers convicted of racist assault",
-    "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
-    "country": "",
-    "source": "france24",
-    "when": "2026-11-21"
-   },
-   {
-    "kind": "judicial",
-    "title": "天津通报正风肃纪反腐“成绩单” 部署深化“三不腐”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-21/10735863.shtml",
-    "country": "",
-    "source": "chinanews_cn",
+    "source": "dw",
     "when": "2026-11-21"
    },
    {
@@ -1312,22 +1310,14 @@
     "country": "RU",
     "source": "dw",
     "when": "2026-11-20"
-   },
-   {
-    "kind": "judicial",
-    "title": "Indian man sentenced to 19 years in prison for conspiring to kill Sikh separatist in New York",
-    "url": "https://www.theguardian.com/us-news/2026/nov/20/indian-man-sentenced-prison-murder-plot-sikh-separatist",
-    "country": "IN",
-    "source": "guardian",
-    "when": "2026-11-20"
    }
   ],
-  "notable_total": 11,
+  "notable_total": 9,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 1,
-   "notable": 11
+   "notable": 9
   },
   "pressure": {
    "US": -0.2
@@ -2393,16 +2383,16 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104292"
     },
     {
-     "t": "Green forest fire notification in Madagascar",
-     "v": "green",
-     "ts": "2026-11-21 12:05",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033981"
-    },
-    {
      "t": "Green forest fire notification in South Sudan, Central African Republic",
      "v": "green",
      "ts": "2026-11-21 16:02",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033997"
+    },
+    {
+     "t": "Green forest fire notification in Madagascar",
+     "v": "green",
+     "ts": "2026-11-21 12:05",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033981"
     },
     {
      "t": "Green forest fire notification in Ethiopia, Sudan",
@@ -2428,8 +2418,8 @@
   }
  },
  "epidemic": {
-  "index": 53.5,
-  "z": 0.11,
+  "index": 55.2,
+  "z": 0.17,
   "components": [
    {
     "key": "who_don",
@@ -2455,10 +2445,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.84,
-    "carry": 0.84,
-    "z": -0.01,
-    "score": 49.7,
+    "value": 1.66,
+    "carry": 0.93,
+    "z": 0.17,
+    "score": 55.3,
     "available": true
    }
   ],
@@ -2476,12 +2466,12 @@
   }
  },
  "doom": {
-  "index": 71.2,
-  "z": 0.54,
+  "index": 71.3,
+  "z": 0.55,
   "parts": {
    "military": 0.66,
    "hazard": 0.19,
-   "epidemic": 0.08
+   "epidemic": 0.13
   },
   "resonance": 0,
   "partial": false,
@@ -2518,14 +2508,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 140,
-   "items": 23630,
+   "files": 144,
+   "items": 23042,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 28,
+   "items": 33,
    "error": "",
    "undated": 0
   },
@@ -2539,7 +2529,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 32,
+   "items": 33,
    "error": "",
    "undated": 0
   },
@@ -2575,7 +2565,7 @@
    "source": "un_news_zh",
    "ok": false,
    "items": 0,
-   "error": "解析到 0 条（可能改版）",
+   "error": "解析到 30 条，全部超过 48 小时",
    "undated": 0
   },
   {
@@ -2595,7 +2585,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 7,
+   "items": 5,
    "error": "",
    "undated": 0
   },
@@ -2692,7 +2682,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 6818,
+   "items": 11634,
    "error": ""
   },
   {
