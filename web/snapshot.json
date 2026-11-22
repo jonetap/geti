@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-21T19:13:04+00:00",
- "date": "2026-11-20",
- "geti": 75.4,
- "delta_z": 0.68,
- "delta_pts": 0.0,
+ "generated_at": "2026-11-22T01:16:59+00:00",
+ "date": "2026-11-21",
+ "geti": 74.9,
+ "delta_z": 0.62,
+ "delta_pts": -0.5,
  "confidence": 0.98,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,170 +13,170 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 78.1,
-   "delta": 0.1,
+   "score": 78.0,
+   "delta": -0.1,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.56
+     1.6
     ],
     [
      "economy",
-     1.49
+     1.53
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 72.2,
-   "delta": -5.1,
+   "score": 72.4,
+   "delta": 0.3,
    "excluded": true,
    "drivers": [
     [
      "military",
-     1.27
+     1.3
     ],
     [
      "diplomacy",
-     1.14
+     1.09
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 71.5,
-   "delta": -0.6,
+   "score": 70.2,
+   "delta": -1.3,
    "excluded": false,
    "drivers": [
+    [
+     "military",
+     0.97
+    ],
     [
      "physical",
-     1.05
-    ],
-    [
-     "military",
-     0.88
-    ]
-   ]
-  },
-  {
-   "code": "SOUTH_ASIA",
-   "label": "南亚",
-   "score": 68.3,
-   "delta": 7.6,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     0.9
-    ],
-    [
-     "diplomacy",
-     0.81
+     0.84
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 67.4,
-   "delta": -2.1,
+   "score": 64.9,
+   "delta": -2.5,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.94
+     0.89
     ],
     [
      "diplomacy",
-     0.93
+     0.65
     ]
    ]
   },
   {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 64.9,
-   "delta": 1.6,
+   "code": "SOUTH_ASIA",
+   "label": "南亚",
+   "score": 64.3,
+   "delta": -4.0,
    "excluded": false,
    "drivers": [
     [
-     "diplomacy",
-     0.88
+     "military",
+     0.8
     ],
     [
-     "economy",
-     0.52
+     "diplomacy",
+     0.76
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 63.5,
-   "delta": -1.2,
+   "score": 64.2,
+   "delta": 0.7,
    "excluded": false,
    "drivers": [
     [
-     "physical",
-     1.04
+     "military",
+     0.87
     ],
     [
-     "military",
-     0.66
+     "diplomacy",
+     0.76
     ]
    ]
   },
   {
-   "code": "OCEANIA",
-   "label": "大洋洲",
-   "score": 62.0,
-   "delta": 3.9,
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 58.8,
+   "delta": -6.0,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     0.94
+     "diplomacy",
+     0.72
     ],
     [
-     "diplomacy",
-     0.59
+     "economy",
+     0.5
     ]
    ]
   },
   {
    "code": "AFRICA",
    "label": "非洲",
-   "score": 60.3,
-   "delta": -7.7,
+   "score": 56.9,
+   "delta": -3.4,
    "excluded": false,
    "drivers": [
     [
      "physical",
-     0.64
+     0.42
+    ],
+    [
+     "military",
+     0.34
+    ]
+   ]
+  },
+  {
+   "code": "OCEANIA",
+   "label": "大洋洲",
+   "score": 54.7,
+   "delta": -7.3,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.41
     ],
     [
      "diplomacy",
-     0.61
+     0.29
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 48.1,
-   "delta": -0.1,
+   "score": 48.3,
+   "delta": 0.1,
    "excluded": false,
    "drivers": [
     [
      "internal",
-     -0.7
+     -0.61
     ],
     [
      "diplomacy",
-     0.23
+     0.25
     ]
    ]
   }
@@ -188,9 +188,9 @@
    "weight": 0.26,
    "effective_weight": 0.371,
    "available": true,
-   "z": 1.56,
-   "score": 87.6,
-   "contrib": 0.4
+   "z": 1.6,
+   "score": 88.1,
+   "contrib": 0.411
   },
   {
    "key": "physical",
@@ -208,9 +208,9 @@
    "weight": 0.18,
    "effective_weight": 0.257,
    "available": true,
-   "z": 1.47,
-   "score": 86.3,
-   "contrib": 0.26
+   "z": 1.45,
+   "score": 85.9,
+   "contrib": 0.257
   },
   {
    "key": "economy",
@@ -218,9 +218,9 @@
    "weight": 0.15,
    "effective_weight": 0.214,
    "available": true,
-   "z": 1.49,
-   "score": 86.6,
-   "contrib": 0.22
+   "z": 1.53,
+   "score": 87.2,
+   "contrib": 0.227
   },
   {
    "key": "internal",
@@ -228,9 +228,9 @@
    "weight": 0.11,
    "effective_weight": 0.157,
    "available": true,
-   "z": 1.12,
-   "score": 80.1,
-   "contrib": 0.121
+   "z": 0.97,
+   "score": 77.0,
+   "contrib": 0.105
   },
   {
    "key": "narrative",
@@ -245,9 +245,39 @@
  ],
  "events": [
   {
-   "id": "ee568734ebe0",
-   "title": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
-   "url": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges",
+   "id": "1bb17b1010fd",
+   "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
+   "url": "https://www.france24.com/en/europe/20261121-russia-attacks-zelensky-s-hometown-ukraine-reaffirms-wish-to-join-nato",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-21T19:56:39+00:00",
+   "note": "A Russian ballistic missile attack on President Volodymyr Zelensky’s hometown in central Ukraine on Saturday killed two people and wounded dozens. Hours later, Zelensky reiterated ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "18eb3b13c661",
+   "title": "Russia launches ballistic missile attack on Zelensky's hometown in central Ukraine",
+   "url": "https://www.france24.com/en/russia-launches-ballistic-missile-attack-on-zelensky-s-hometown-in-central-ukraine",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-21T19:55:07+00:00",
+   "note": "A Russian ballistic missile attack on President Volodymyr Zelensky’s hometown in central Ukraine on Saturday killed two people and wounded dozens. Hours later, Zelensky reiterated ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "02762ea310ab",
+   "title": "Man charged with attempted murder after councillor stabbed in Bradford",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/21/man-charged-with-attempted-after-councillor-stabbed-in-bradford",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -255,85 +285,9 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-21T18:50:00+00:00",
-   "note": "Jared Schurr arrested in Mississippi after Lizeht Rodriguez and Woodrow Scott died in otherwise unrelated killings A man recently strangled a woman to death whom he did not know al",
+   "published": "2026-11-21T19:42:42+00:00",
+   "note": "Arfan Ali, 31, has also been charged with assault and possession of an offensive weapon in a public place A man has been charged with attempted murder after a local councillor was ",
    "region": "OTHER"
-  },
-  {
-   "id": "5d7927297f3f",
-   "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-21T18:42:38+00:00",
-   "note": "Russia launched more than 400 drones and 110 missiles across Ukraine overnight, killing at least seven in Kyiv.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "8754c4055496",
-   "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
-   "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-21T18:21:02+00:00",
-   "note": "Former Italian police chief Gianni De Gennaro, under ⁠investigation for alleged efforts to obstruct a new probe into the 1992 killing of a top anti-mafia magistrate, has taken his ",
-   "region": "OTHER"
-  },
-  {
-   "id": "5853d57928af",
-   "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera",
-    "aljazeera"
-   ],
-   "published": "2026-11-21T17:54:19+00:00",
-   "note": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "16692a5a8aab",
-   "title": "Russia strikes Zelenskyy's hometown, killing 2",
-   "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-21T14:44:00+00:00",
-   "note": "The attacks follow Russian President Vladimir Putin's vow of a \"painful\" response to Ukraine's attacks this week on the Kerch Bridge, linking Russian-occupied Crimea.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "fb900a541368",
-   "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
-   "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-21T14:03:50+00:00",
-   "note": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "a5f9347c5dcf",
@@ -349,6 +303,111 @@
    "published": "2026-11-21T11:29:36+00:00",
    "note": "中新网11月21日电 据伊朗媒体当地时间21日报道，伊朗伊斯兰革命卫队发布声明称，美军的一架MQ-1无人机在伊朗锡里克岛上空被击落。",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "ee568734ebe0",
+   "title": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
+   "url": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-21T18:50:00+00:00",
+   "note": "Jared Schurr arrested in Mississippi after Lizeht Rodriguez and Woodrow Scott died in otherwise unrelated killings A man recently strangled a woman to death whom he did not know al",
+   "region": "OTHER"
+  },
+  {
+   "id": "5d7927297f3f",
+   "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-21T18:42:38+00:00",
+   "note": "Russia launched more than 400 drones and 110 missiles across Ukraine overnight, killing at least seven in Kyiv.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "8754c4055496",
+   "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
+   "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-21T18:21:02+00:00",
+   "note": "Former Italian police chief Gianni De Gennaro, under ⁠investigation for alleged efforts to obstruct a new probe into the 1992 killing of a top anti-mafia magistrate, has taken his ",
+   "region": "OTHER"
+  },
+  {
+   "id": "5853d57928af",
+   "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-21T17:54:19+00:00",
+   "note": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "303bdd750274",
+   "title": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight",
+   "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-21T15:00:15+00:00",
+   "note": "Mexico's military forces captured ​one of the most wanted suspected drug lords, Fausto Isidro Meza Flores, known as \"El Chapo Isidro,\" the military announced on Saturday, after a d",
+   "region": "LATAM"
+  },
+  {
+   "id": "16692a5a8aab",
+   "title": "Russia strikes Zelenskyy's hometown, killing 2",
+   "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "dw"
+   ],
+   "published": "2026-11-21T14:44:00+00:00",
+   "note": "The attacks follow Russian President Vladimir Putin's vow of a \"painful\" response to Ukraine's attacks this week on the Kerch Bridge, linking Russian-occupied Crimea.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "fb900a541368",
+   "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+   "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-21T14:03:50+00:00",
+   "note": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would",
+   "region": "RUSSIA_CIS"
   },
   {
    "id": "7c098ba832a6",
@@ -426,21 +485,6 @@
    "region": "OTHER"
   },
   {
-   "id": "6a0d778ce9e0",
-   "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-21T04:44:00+00:00",
-   "note": "Victoria police say boy, 17, communicated with offenders under username ‘Onepercent’ Get our breaking news email , free app or daily news podcast Victorian police allege a 17-year-",
-   "region": "OTHER"
-  },
-  {
    "id": "c3d4c9adfe3e",
    "title": "Tanks, drone and anti-drone vehicles spotted at Zhuhai air show site",
    "url": "https://www.scmp.com/news/china/article/3375197/tanks-drone-and-anti-drone-vehicles-spotted-zhuhai-air-show-site",
@@ -454,36 +498,6 @@
    "published": "2026-11-21T04:00:12+00:00",
    "note": "New vehicles for drone and anti-drone warfare have been spotted at the site where the Zhuhai air show will be held next month, reflecting China’s push to integrate hi-tech platform",
    "region": "OTHER"
-  },
-  {
-   "id": "afbe423a85e2",
-   "title": "Russian missiles land in Poland, as Europe holds military drills nearby",
-   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375302/russian-missiles-land-poland-europe-holds-military-drills-nearby",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-20T23:43:44+00:00",
-   "note": "Two Russian missiles and a suspected drone came down in Poland on Friday in what its prime minister said was likely to be a provocation timed to coincide with European military exe",
-   "region": "EUROPE"
-  },
-  {
-   "id": "e471c30eb88e",
-   "title": "Can China’s top-down military adapt to the speed of AI and drone warfare?",
-   "url": "https://www.scmp.com/news/china/military/article/3375250/can-chinas-top-down-military-adapt-speed-ai-and-drone-warfare",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-20T22:00:19+00:00",
-   "note": "Drawing on lessons from the Ukraine war, Chinese military commentators are calling for frontline commanders to have greater freedom to make battlefield decisions without waiting fo",
-   "region": "EAST_ASIA"
   },
   {
    "id": "6c1d5450b7a9",
@@ -501,25 +515,24 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "dbc0867d9aa7",
-   "title": "Houthis launch strikes on Saudi Arabia",
-   "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia",
+   "id": "424c2feaf073",
+   "title": "伊朗革命卫队称袭击美军在巴林两处基地防空雷达",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-22/10735934.shtml",
    "component": "military",
    "severity": 4,
-   "confidence": 0.6,
-   "origins": 2,
+   "confidence": 0.64,
+   "origins": 1,
    "sources": [
-    "france24",
-    "scmp"
+    "chinanews"
    ],
-   "published": "2026-11-21T09:49:44+00:00",
-   "note": "Iran-backed Houthi rebels in Yemen continue to exchange strikes with the Saudi-led coalition. The coalition said it intercepted and destroyed three ballistic missiles fired towards",
+   "published": "2026-11-21T22:10:13+00:00",
+   "note": "新华社德黑兰11月21日电(记者刁慧琳 沙达提)据伊朗伊斯兰共和国通讯社21日报道，伊朗伊斯兰革命卫队当天发表声明称，革命卫队航空航天部队使用导弹和无人机袭击了美国在巴林里法和阿瓦利两处军事基地的防空雷达。",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "9cddfb2c9d90",
-   "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
-   "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+   "id": "22088da7bb40",
+   "title": "Moviegoers head for the exits as quake strikes Peru",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/moviegoers-head-for-the-exits-as-quake-strikes-peru?traffic_source=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
@@ -527,69 +540,39 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-21T17:20:03+00:00",
-   "note": "Attack on Kryvyi Rih comes as Russian missiles land in NATO member Poland and US-led peace efforts face uncertainty.",
-   "region": "EUROPE"
+   "published": "2026-11-22T01:07:19+00:00",
+   "note": "Moviegoers head for the exits as quake strikes Peru",
+   "region": "OTHER"
   },
   {
-   "id": "9e5e5d3dc663",
-   "title": "Russian helicopter suspected of violating Finnish airspace",
-   "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-world-4025-rdf",
+   "id": "3965a62473cd",
+   "title": "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "dw"
+    "aljazeera"
    ],
-   "published": "2026-11-21T17:08:00+00:00",
-   "note": "Finland's Defense Ministry thinks the incursion is linked to a drone strike earlier Saturday on a Russian cargo ship, which is on a US sanctions list.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-21T23:59:03+00:00",
+   "note": "Bahrain has condemned Iran's strikes on US military assets in the Gulf country, as Houthis keep Saudi Arabia on edge.",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "52b69ef7a565",
-   "title": "French police officers convicted of racist assault",
-   "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
+   "id": "953f66b4d1b1",
+   "title": "French police officers jailed for racist violence against black man in landmark ruling",
+   "url": "https://www.scmp.com/news/world/europe/article/3375350/french-police-officers-jailed-racist-violence-against-black-man-landmark-ruling",
    "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24"
+    "scmp"
    ],
-   "published": "2026-11-21T16:41:49+00:00",
-   "note": "A French court on Friday sentenced three policemen to serve time over the beating of a black music producer in 2020. It also recognized the assault on Michelle Zecler was racially ",
+   "published": "2026-11-21T20:22:55+00:00",
+   "note": "The lawyer for a black man who was beaten up by three French police officers hailed a “historic ruling” on Saturday after a court acknowledged the racist nature of the violence and",
    "region": "OTHER"
-  },
-  {
-   "id": "ca39b5664e4a",
-   "title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-21T14:06:06+00:00",
-   "note": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "13db72c75d97",
-   "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
-   "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-21T13:17:38+00:00",
-   "note": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
-   "region": "RUSSIA_CIS"
   },
   {
    "id": "ef12e9f9d58b",
@@ -605,80 +588,94 @@
    "published": "2026-11-21T12:26:25+00:00",
    "note": "中新网马尼拉11月21日电 一架从中国香港飞往巴布亚新几内亚的客机21日凌晨因右侧发动机出现火警警报，在菲律宾南部达沃国际机场紧急迫降。机上146名乘客及机组人员全部安全撤离，无人员受伤。初步检查发现，飞机右侧起落架4个机轮受损。",
    "region": "EAST_ASIA"
+  },
+  {
+   "id": "796e2675d575",
+   "title": "中国驻沙特大使馆再次提醒在沙中资机构和中国公民注意安全",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-21/10735774.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews_cn"
+   ],
+   "published": "2026-11-21T10:23:30+00:00",
+   "note": "中新网11月21日电 据中国驻沙特大使馆微信公众号消息，近来，沙特首都利雅得等多地频繁遭导弹和无人机袭击。据媒体报道，部分袭击造成人员伤亡，有机场、建筑物、能源电力设施等受损，局部地区出现短时停水电断网等情况。多地学校继续线上授课，部分当地机构和企业人员居家办公。利雅得哈立德国王国际机场部分恢复运营，但多地机场航班经常出现异常。局势还有可能进一步恶化。",
+   "region": "EAST_ASIA"
   }
  ],
  "breaking": [
   {
-   "id": "ee568734ebe0",
-   "title": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
-   "url": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-21T18:50:00+00:00",
-   "note": "Jared Schurr arrested in Mississippi after Lizeht Rodriguez and Woodrow Scott died in otherwise unrelated killings A man recently strangled a woman to death whom he did not know al",
-   "region": "OTHER"
-  },
-  {
-   "id": "5d7927297f3f",
-   "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+   "id": "22088da7bb40",
+   "title": "Moviegoers head for the exits as quake strikes Peru",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/moviegoers-head-for-the-exits-as-quake-strikes-peru?traffic_source=rss",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-21T18:42:38+00:00",
-   "note": "Russia launched more than 400 drones and 110 missiles across Ukraine overnight, killing at least seven in Kyiv.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-22T01:07:19+00:00",
+   "note": "Moviegoers head for the exits as quake strikes Peru",
+   "region": "OTHER"
   },
   {
-   "id": "8754c4055496",
-   "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
-   "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
+   "id": "3965a62473cd",
+   "title": "Iran war live: Iran targets US bases in Bahrain; Houthi strikes continue",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-21T23:59:03+00:00",
+   "note": "Bahrain has condemned Iran's strikes on US military assets in the Gulf country, as Houthis keep Saudi Arabia on edge.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "424c2feaf073",
+   "title": "伊朗革命卫队称袭击美军在巴林两处基地防空雷达",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-22/10735934.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-21T22:10:13+00:00",
+   "note": "新华社德黑兰11月21日电(记者刁慧琳 沙达提)据伊朗伊斯兰共和国通讯社21日报道，伊朗伊斯兰革命卫队当天发表声明称，革命卫队航空航天部队使用导弹和无人机袭击了美国在巴林里法和阿瓦利两处军事基地的防空雷达。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "953f66b4d1b1",
+   "title": "French police officers jailed for racist violence against black man in landmark ruling",
+   "url": "https://www.scmp.com/news/world/europe/article/3375350/french-police-officers-jailed-racist-violence-against-black-man-landmark-ruling",
    "component": "narrative",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-21T18:21:02+00:00",
-   "note": "Former Italian police chief Gianni De Gennaro, under ⁠investigation for alleged efforts to obstruct a new probe into the 1992 killing of a top anti-mafia magistrate, has taken his ",
+   "published": "2026-11-21T20:22:55+00:00",
+   "note": "The lawyer for a black man who was beaten up by three French police officers hailed a “historic ruling” on Saturday after a court acknowledged the racist nature of the violence and",
    "region": "OTHER"
-  },
-  {
-   "id": "5853d57928af",
-   "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera",
-    "aljazeera"
-   ],
-   "published": "2026-11-21T17:54:19+00:00",
-   "note": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
-   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
-  "sources_ok": 21,
-  "sources_failed": 1,
-  "items": 34361,
-  "gdelt_events": 34114,
+  "sources_ok": 20,
+  "sources_failed": 2,
+  "items": 31735,
+  "gdelt_events": 31498,
   "mode": "live",
-  "data_through": "2026-11-20",
-  "clusters": 238,
-  "origins": 243,
+  "data_through": "2026-11-21",
+  "clusters": 230,
+  "origins": 234,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -696,11 +693,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.09,
-    "p50": 0.54,
+    "now": 3.28,
+    "p50": 0.55,
     "p90": 3.18,
-    "ratio": 5.76,
-    "z": 1.56
+    "ratio": 5.95,
+    "z": 1.6
    },
    "physical": {
     "now": 0.0,
@@ -710,25 +707,25 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.42,
-    "p50": 0.41,
+    "now": 2.39,
+    "p50": 0.42,
     "p90": 2.46,
-    "ratio": 5.94,
-    "z": 1.47
+    "ratio": 5.66,
+    "z": 1.45
    },
    "economy": {
-    "now": 2.54,
-    "p50": 0.42,
-    "p90": 2.19,
-    "ratio": 5.99,
-    "z": 1.49
+    "now": 2.69,
+    "p50": 0.43,
+    "p90": 2.26,
+    "ratio": 6.22,
+    "z": 1.53
    },
    "internal": {
-    "now": 1.18,
-    "p50": 0.18,
+    "now": 1.0,
+    "p50": 0.19,
     "p90": 1.18,
-    "ratio": 6.54,
-    "z": 1.12
+    "ratio": 5.27,
+    "z": 0.97
    },
    "narrative": {
     "now": 0.06,
@@ -740,10 +737,6 @@
   }
  },
  "series": [
-  {
-   "date": "2026-07-24",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-25",
    "geti": 50.0
@@ -798,43 +791,43 @@
   },
   {
    "date": "2026-08-07",
-   "geti": 46.8
+   "geti": 50.0
   },
   {
    "date": "2026-08-08",
-   "geti": 44.3
+   "geti": 46.6
   },
   {
    "date": "2026-08-09",
-   "geti": 40.8
+   "geti": 42.4
   },
   {
    "date": "2026-08-10",
-   "geti": 45.3
+   "geti": 46.5
   },
   {
    "date": "2026-08-11",
-   "geti": 47.1
+   "geti": 48.1
   },
   {
    "date": "2026-08-12",
-   "geti": 48.4
+   "geti": 49.2
   },
   {
    "date": "2026-08-13",
-   "geti": 48.2
+   "geti": 48.9
   },
   {
    "date": "2026-08-14",
-   "geti": 47.7
+   "geti": 48.3
   },
   {
    "date": "2026-08-15",
-   "geti": 51.0
+   "geti": 51.5
   },
   {
    "date": "2026-08-16",
-   "geti": 51.9
+   "geti": 52.1
   },
   {
    "date": "2026-08-17",
@@ -842,75 +835,75 @@
   },
   {
    "date": "2026-08-18",
-   "geti": 43.2
+   "geti": 43.4
   },
   {
    "date": "2026-08-19",
-   "geti": 40.3
+   "geti": 40.6
   },
   {
    "date": "2026-08-20",
-   "geti": 44.9
+   "geti": 45.2
   },
   {
    "date": "2026-08-21",
-   "geti": 47.0
+   "geti": 47.3
   },
   {
    "date": "2026-08-22",
-   "geti": 45.6
+   "geti": 45.9
   },
   {
    "date": "2026-08-23",
-   "geti": 40.4
+   "geti": 40.7
   },
   {
    "date": "2026-08-24",
-   "geti": 44.0
+   "geti": 44.2
   },
   {
    "date": "2026-08-25",
-   "geti": 41.5
+   "geti": 41.7
   },
   {
    "date": "2026-08-26",
-   "geti": 37.5
+   "geti": 37.7
   },
   {
    "date": "2026-08-27",
-   "geti": 48.7
+   "geti": 48.9
   },
   {
    "date": "2026-08-28",
-   "geti": 50.7
+   "geti": 50.9
   },
   {
    "date": "2026-08-29",
-   "geti": 51.8
+   "geti": 52.0
   },
   {
    "date": "2026-08-30",
-   "geti": 57.1
+   "geti": 57.4
   },
   {
    "date": "2026-08-31",
-   "geti": 58.1
+   "geti": 58.4
   },
   {
    "date": "2026-09-01",
-   "geti": 52.3
+   "geti": 52.6
   },
   {
    "date": "2026-09-02",
-   "geti": 51.2
+   "geti": 51.5
   },
   {
    "date": "2026-09-03",
-   "geti": 49.1
+   "geti": 49.4
   },
   {
    "date": "2026-09-04",
-   "geti": 48.9
+   "geti": 49.1
   },
   {
    "date": "2026-09-05",
@@ -918,15 +911,15 @@
   },
   {
    "date": "2026-09-06",
-   "geti": 49.7
+   "geti": 49.8
   },
   {
    "date": "2026-09-07",
-   "geti": 44.9
+   "geti": 44.7
   },
   {
    "date": "2026-09-08",
-   "geti": 44.0
+   "geti": 43.9
   },
   {
    "date": "2026-09-09",
@@ -934,95 +927,95 @@
   },
   {
    "date": "2026-09-10",
-   "geti": 40.0
+   "geti": 40.1
   },
   {
    "date": "2026-09-11",
-   "geti": 39.8
+   "geti": 39.4
   },
   {
    "date": "2026-09-12",
-   "geti": 42.8
+   "geti": 42.6
   },
   {
    "date": "2026-09-13",
-   "geti": 44.7
+   "geti": 44.6
   },
   {
    "date": "2026-09-14",
-   "geti": 43.8
+   "geti": 44.0
   },
   {
    "date": "2026-09-15",
-   "geti": 45.1
+   "geti": 45.3
   },
   {
    "date": "2026-09-16",
-   "geti": 46.4
+   "geti": 46.6
   },
   {
    "date": "2026-09-17",
-   "geti": 46.5
+   "geti": 46.7
   },
   {
    "date": "2026-09-18",
-   "geti": 43.8
+   "geti": 44.0
   },
   {
    "date": "2026-09-19",
-   "geti": 47.5
+   "geti": 47.7
   },
   {
    "date": "2026-09-20",
-   "geti": 53.2
+   "geti": 53.3
   },
   {
    "date": "2026-09-21",
-   "geti": 49.7
+   "geti": 49.8
   },
   {
    "date": "2026-09-22",
-   "geti": 48.0
+   "geti": 48.1
   },
   {
    "date": "2026-09-23",
-   "geti": 50.1
+   "geti": 50.3
   },
   {
    "date": "2026-09-24",
-   "geti": 46.8
+   "geti": 46.9
   },
   {
    "date": "2026-09-25",
-   "geti": 44.4
+   "geti": 44.5
   },
   {
    "date": "2026-09-26",
-   "geti": 49.5
+   "geti": 49.6
   },
   {
    "date": "2026-09-27",
-   "geti": 49.0
+   "geti": 49.1
   },
   {
    "date": "2026-09-28",
-   "geti": 47.0
+   "geti": 47.1
   },
   {
    "date": "2026-09-29",
-   "geti": 44.1
+   "geti": 44.2
   },
   {
    "date": "2026-09-30",
-   "geti": 40.3
+   "geti": 40.4
   },
   {
    "date": "2026-10-01",
-   "geti": 36.7
+   "geti": 36.8
   },
   {
    "date": "2026-10-02",
-   "geti": 40.8
+   "geti": 40.9
   },
   {
    "date": "2026-10-03",
@@ -1030,7 +1023,7 @@
   },
   {
    "date": "2026-10-04",
-   "geti": 40.6
+   "geti": 40.7
   },
   {
    "date": "2026-10-05",
@@ -1058,7 +1051,7 @@
   },
   {
    "date": "2026-10-11",
-   "geti": 58.1
+   "geti": 58.2
   },
   {
    "date": "2026-10-12",
@@ -1066,7 +1059,7 @@
   },
   {
    "date": "2026-10-13",
-   "geti": 52.8
+   "geti": 52.9
   },
   {
    "date": "2026-10-14",
@@ -1074,35 +1067,35 @@
   },
   {
    "date": "2026-10-15",
-   "geti": 57.3
+   "geti": 57.4
   },
   {
    "date": "2026-10-16",
-   "geti": 57.5
+   "geti": 57.6
   },
   {
    "date": "2026-10-17",
-   "geti": 57.1
+   "geti": 57.2
   },
   {
    "date": "2026-10-18",
-   "geti": 58.4
+   "geti": 58.5
   },
   {
    "date": "2026-10-19",
-   "geti": 59.3
+   "geti": 59.4
   },
   {
    "date": "2026-10-20",
-   "geti": 55.6
+   "geti": 55.7
   },
   {
    "date": "2026-10-21",
-   "geti": 51.3
+   "geti": 51.4
   },
   {
    "date": "2026-10-22",
-   "geti": 50.4
+   "geti": 50.5
   },
   {
    "date": "2026-10-23",
@@ -1114,7 +1107,7 @@
   },
   {
    "date": "2026-10-25",
-   "geti": 63.2
+   "geti": 63.3
   },
   {
    "date": "2026-10-26",
@@ -1154,7 +1147,7 @@
   },
   {
    "date": "2026-11-04",
-   "geti": 61.9
+   "geti": 61.8
   },
   {
    "date": "2026-11-05",
@@ -1178,7 +1171,7 @@
   },
   {
    "date": "2026-11-10",
-   "geti": 71.9
+   "geti": 71.8
   },
   {
    "date": "2026-11-11",
@@ -1206,7 +1199,7 @@
   },
   {
    "date": "2026-11-17",
-   "geti": 74.9
+   "geti": 75.0
   },
   {
    "date": "2026-11-18",
@@ -1219,11 +1212,43 @@
   {
    "date": "2026-11-20",
    "geti": 75.4
+  },
+  {
+   "date": "2026-11-21",
+   "geti": 74.9
   }
  ],
  "policy": {
-  "items": [],
+  "items": [
+   {
+    "type": "redistributive",
+    "country": "US",
+    "source": "scmp",
+    "score": 0.2,
+    "signed": -0.2,
+    "title": "Weak yen, tax cuts put Japan’s defence plans in a Trump bind",
+    "url": "https://www.scmp.com/week-asia/politics/article/3375224/weak-yen-tax-cuts-put-japans-defence-plans-trump-bind",
+    "origins": 1,
+    "when": "2026-11-22"
+   }
+  ],
   "notable": [
+   {
+    "kind": "judicial",
+    "title": "Indian man jailed over plot to kill Sikh separatist in US",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-us-sikh-separatist-pannun-assassination-plot?traffic_source=rss",
+    "country": "IN",
+    "source": "aljazeera",
+    "when": "2026-11-21"
+   },
+   {
+    "kind": "judicial",
+    "title": "French police officers jailed for racist violence against black man in landmark ruling",
+    "url": "https://www.scmp.com/news/world/europe/article/3375350/french-police-officers-jailed-racist-violence-against-black-man-landmark-ruling",
+    "country": "",
+    "source": "scmp",
+    "when": "2026-11-21"
+   },
    {
     "kind": "judicial",
     "title": "Man convicted of starting palisades fire",
@@ -1274,14 +1299,6 @@
    },
    {
     "kind": "judicial",
-    "title": "Indian man jailed over US murder plot against Sikh separatist",
-    "url": "https://www.scmp.com/news/world/united-states-canada/article/3375297/indian-man-jailed-over-us-murder-plot-against-sikh-separatist",
-    "country": "IN",
-    "source": "scmp",
-    "when": "2026-11-20"
-   },
-   {
-    "kind": "judicial",
     "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
     "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
     "country": "IN",
@@ -1297,14 +1314,16 @@
     "when": "2026-11-20"
    }
   ],
-  "notable_total": 9,
+  "notable_total": 10,
   "counts": {
    "extractive": 0,
    "control": 0,
-   "redistributive": 0,
-   "notable": 9
+   "redistributive": 1,
+   "notable": 10
   },
-  "pressure": {},
+  "pressure": {
+   "US": -0.2
+  },
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
   "mode": "shadow"
  },
@@ -1364,31 +1383,31 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 107,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 103,
+    "items": 102,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 107,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 99,
+    "items": 98,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 103,
+    "items": 102,
     "error": ""
    }
   ],
@@ -2194,27 +2213,27 @@
   "mode": "live"
  },
  "hazard": {
-  "index": 59.0,
-  "z": 0.29,
+  "index": 62.7,
+  "z": 0.42,
   "components": [
    {
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.8,
-    "carry": 9.01,
-    "z": -0.09,
-    "score": 47.2,
+    "value": 10.45,
+    "carry": 9.17,
+    "z": 0.0,
+    "score": 50.0,
     "available": true
    },
    {
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 13.0,
-    "carry": 14.31,
-    "z": 0.1,
-    "score": 53.2,
+    "value": 14.0,
+    "carry": 14.27,
+    "z": 0.06,
+    "score": 51.8,
     "available": true
    },
    {
@@ -2222,9 +2241,9 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 10.0,
-    "carry": 3.08,
-    "z": 1.43,
-    "score": 85.6,
+    "carry": 3.84,
+    "z": 1.94,
+    "score": 91.9,
     "available": true
    },
    {
@@ -2233,91 +2252,91 @@
     "weight": 0.16,
     "value": 0.0,
     "carry": 0.07,
-    "z": 0.15,
-    "score": 54.7,
+    "z": 0.13,
+    "score": 54.2,
     "available": true
    },
    {
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 2.0,
-    "carry": 2.8,
-    "z": -0.08,
-    "score": 47.6,
+    "value": 2.67,
+    "carry": 2.79,
+    "z": -0.05,
+    "score": 48.6,
     "available": true
    }
   ],
-  "history_days": 18,
+  "history_days": 19,
   "components_ok": 5,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 14,
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "southeast of the Loyalty Islands",
-     "v": 5.6,
-     "ts": "2026-11-20T00:49+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc4v"
+     "t": "105 km NE of Lospalos, Timor Leste",
+     "v": 6.8,
+     "ts": "2026-11-21T09:42+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij"
     },
     {
-     "t": "Carlsberg Ridge",
-     "v": 5.4,
-     "ts": "2026-11-20T08:44+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc82"
+     "t": "9 km NE of Carhuamayo, Peru",
+     "v": 6.7,
+     "ts": "2026-11-21T00:09+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm"
     },
     {
-     "t": "32 km NE of Port-Olry, Vanuatu",
-     "v": 5.1,
-     "ts": "2026-11-20T17:53+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucd6"
+     "t": "238 km SW of Yanglong, China",
+     "v": 5.9,
+     "ts": "2026-11-21T10:45+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly"
     },
     {
-     "t": "15 km SSW of Balangonan, Philippines",
-     "v": 5.1,
-     "ts": "2026-11-20T13:09+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc96"
+     "t": "112 km SSE of Tateyama, Japan",
+     "v": 5.2,
+     "ts": "2026-11-21T10:09+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucky"
     },
     {
-     "t": "southeast of the Loyalty Islands",
+     "t": "0 km NE of Carhuamayo, Peru",
      "v": 5.0,
-     "ts": "2026-11-20T10:30+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc8g"
+     "ts": "2026-11-21T05:12+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uchd"
     },
     {
-     "t": "10 km NW of Pinnacles, CA",
-     "v": 5.0,
-     "ts": "2026-11-20T06:49+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702"
-    },
-    {
-     "t": "113 km ESE of Pangai, Tonga",
+     "t": "88 km WNW of El Aguilar, Argentina",
      "v": 4.9,
-     "ts": "2026-11-20T22:34+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucf0"
+     "ts": "2026-11-21T19:03+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucni"
     },
     {
-     "t": "54 km W of Madang, Papua New Guinea",
+     "t": "65 km NNW of Port-Vila, Vanuatu",
      "v": 4.9,
-     "ts": "2026-11-20T05:17+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc6c"
+     "ts": "2026-11-21T07:20+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uci2"
     },
     {
-     "t": "24 km ESE of Calingasta, Argentina",
-     "v": 4.8,
-     "ts": "2026-11-20T02:57+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc5s"
+     "t": "Reykjanes Ridge",
+     "v": 4.9,
+     "ts": "2026-11-21T02:24+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucgj"
     },
     {
-     "t": "94 km W of Illapel, Chile",
+     "t": "Reykjanes Ridge",
+     "v": 4.9,
+     "ts": "2026-11-21T01:26+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucga"
+    },
+    {
+     "t": "38 km NE of Calama, Chile",
      "v": 4.7,
-     "ts": "2026-11-20T14:16+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc9c"
+     "ts": "2026-11-21T01:24+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucg8"
     }
    ],
    "eonet": [
@@ -2384,43 +2403,79 @@
    ],
    "gdacs": [
     {
-     "t": "Green earthquake (Magnitude 5.6M, Depth:10km) in Southeast Of Loyalty Islands 20",
+     "t": "Green earthquake (Magnitude 5.9M, Depth:10km) in China 21/11/2026 10:45 UTC, Few",
      "v": "green",
-     "ts": "2026-11-20 01:06",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1578280"
+     "ts": "2026-11-21 11:02",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1578540"
     },
     {
-     "t": "Green forest fire notification in Bolivia",
+     "t": "Green earthquake (Magnitude 6.8M, Depth:143.423km) in Indonesia 21/11/2026 09:42",
      "v": "green",
-     "ts": "2026-11-20 12:03",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033977"
+     "ts": "2026-11-21 09:54",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1578530"
     },
     {
-     "t": "Green flood alert in United States",
+     "t": "Green earthquake (Magnitude 6.7M, Depth:107.991km) in Peru 21/11/2026 00:09 UTC,",
      "v": "green",
-     "ts": "2026-11-20 09:07",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104290"
+     "ts": "2026-11-21 00:18",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1578468"
     },
     {
-     "t": "Green flood alert in Mexico",
+     "t": "Green forest fire notification in South Sudan, Central African Republic",
      "v": "green",
-     "ts": "2026-11-20 09:07",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104289"
+     "ts": "2026-11-21 16:02",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033983"
+    },
+    {
+     "t": "Green flood alert in Islamic Republic of Iran",
+     "v": "green",
+     "ts": "2026-11-21 09:27",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104291"
+    },
+    {
+     "t": "Green flood alert in Türkiye",
+     "v": "green",
+     "ts": "2026-11-21 12:32",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104292"
+    },
+    {
+     "t": "Green forest fire notification in South Sudan, Central African Republic",
+     "v": "green",
+     "ts": "2026-11-21 16:02",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033997"
+    },
+    {
+     "t": "Green forest fire notification in Madagascar",
+     "v": "green",
+     "ts": "2026-11-21 12:05",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033981"
+    },
+    {
+     "t": "Green forest fire notification in Ethiopia, Sudan",
+     "v": "green",
+     "ts": "2026-11-21 12:29",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033887"
+    },
+    {
+     "t": "Green forest fire notification in Ethiopia, Sudan",
+     "v": "green",
+     "ts": "2026-11-21 12:29",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033961"
     }
    ],
    "kp": [
     {
-     "t": "Kp 2.0 峰值（当日 8 个时段）",
-     "v": 2.0,
-     "ts": "2026-11-20",
+     "t": "Kp 2.67 峰值（当日 8 个时段）",
+     "v": 2.67,
+     "ts": "2026-11-21",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
   }
  },
  "epidemic": {
-  "index": 54.4,
-  "z": 0.14,
+  "index": 53.5,
+  "z": 0.11,
   "components": [
    {
     "key": "who_don",
@@ -2428,8 +2483,8 @@
     "weight": 0.4,
     "value": 0.0,
     "carry": 0.02,
-    "z": -0.1,
-    "score": 47.0,
+    "z": -0.09,
+    "score": 47.2,
     "available": true
    },
    {
@@ -2437,29 +2492,29 @@
     "label": "政策信号",
     "weight": 0.3,
     "value": 0.0,
-    "carry": 1.01,
-    "z": 0.67,
-    "score": 69.9,
+    "carry": 0.9,
+    "z": 0.5,
+    "score": 65.2,
     "available": true
    },
    {
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.81,
-    "carry": 0.85,
-    "z": -0.07,
-    "score": 47.8,
+    "value": 0.84,
+    "carry": 0.84,
+    "z": -0.01,
+    "score": 49.7,
     "available": true
    }
   ],
-  "history_days": 18,
+  "history_days": 19,
   "components_ok": 3,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 12,
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "ongoing": true
   },
   "evidence": {
@@ -2467,12 +2522,12 @@
   }
  },
  "doom": {
-  "index": 71.8,
+  "index": 71.7,
   "z": 0.56,
   "parts": {
-   "military": 0.67,
-   "hazard": 0.22,
-   "epidemic": 0.11
+   "military": 0.66,
+   "hazard": 0.31,
+   "epidemic": 0.08
   },
   "resonance": 0,
   "partial": false,
@@ -2483,22 +2538,40 @@
   ]
  },
  "manual": {
-  "items": [],
-  "note": "读取人工线索失败：HTTPError: HTTP Error 403: rate limit exceeded（不影响指数）",
-  "mode": "failed"
+  "items": [
+   {
+    "number": 1,
+    "title": "线索：工伤认定新闻（测试）",
+    "note": "工伤认定问题",
+    "url": "https://github.com/jonetap/geti/issues/1",
+    "author": "jonetap",
+    "created": "2026-11-04T12:36:06Z",
+    "links": [
+     "https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/SuilUDmQOA1-LzmKwmgg7g"
+    ],
+    "images": [
+     "intel/9d8835a9a14b1106.png"
+    ],
+    "kind": "link",
+    "seen": false
+   }
+  ],
+  "unseen": 1,
+  "note": "人工提交 1 条，其中 1 条抓取器没有收录——这类条目也可能是我们的盲区。本层不计分。",
+  "mode": "shadow"
  },
  "adapters": [
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 142,
-   "items": 34114,
+   "files": 144,
+   "items": 31498,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 26,
+   "items": 27,
    "error": "",
    "undated": 0
   },
@@ -2546,9 +2619,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": true,
-   "items": 11,
-   "error": "",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）",
    "undated": 0
   },
   {
@@ -2575,31 +2648,31 @@
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 107,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 103,
+   "items": 102,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 107,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 99,
+   "items": 98,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 103,
+   "items": 102,
    "error": ""
   },
   {
@@ -2635,7 +2708,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 13,
+   "items": 14,
    "error": ""
   },
   {
@@ -2647,7 +2720,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 4,
+   "items": 10,
    "error": ""
   },
   {
@@ -2665,14 +2738,13 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 11511,
+   "items": 7396,
    "error": ""
   },
   {
    "source": "manual:intel",
-   "ok": false,
-   "items": 0,
-   "error": "HTTPError: HTTP Error 403: rate limit exceeded"
+   "ok": true,
+   "items": 1
   }
  ]
 }
