@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-23T01:40:39+00:00",
+ "generated_at": "2026-11-23T12:33:07+00:00",
  "date": "2026-11-22",
  "geti": 71.8,
  "delta_z": 0.39,
@@ -240,17 +240,17 @@
    "available": true,
    "z": 0.07,
    "score": 52.2,
-   "contrib": 0.008
+   "contrib": 0.007
   }
  ],
  "events": [
   {
    "id": "806d599ea7f8",
-   "title": "Russian ship attacked near Benghazi in suspected drone attack",
+   "title": "Russian ship hit near Benghazi in suspected drone attack",
    "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
    "component": "military",
    "severity": 5,
-   "confidence": 0.82,
+   "confidence": 0.6,
    "origins": 2,
    "sources": [
     "france24",
@@ -261,41 +261,54 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "0ca5515a8f69",
-   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+   "id": "1fd29616f0f7",
+   "title": "German police respond to multiple school bomb threats",
+   "url": "https://www.dw.com/en/german-police-respond-to-multiple-school-bomb-threats/a-80018842?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 5,
-   "confidence": 0.74,
-   "origins": 2,
+   "confidence": 0.56,
+   "origins": 1,
    "sources": [
-    "bbc",
-    "aljazeera"
+    "dw"
    ],
-   "published": "2026-11-22T20:28:09+00:00",
-   "note": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-23T11:01:00+00:00",
+   "note": "Police in Germany are responding to bomb threats against a series of schools, but say that at present they don't believe them to be credible. Danish authorities are reporting a sim",
+   "region": "EUROPE"
   },
   {
-   "id": "b205e6a4b2c3",
-   "title": "Russian strikes kill 6 in Kyiv region, Ukraine says",
-   "url": "https://www.scmp.com/news/world/europe/article/3375401/russian-strikes-kill-6-kyiv-region-ukraine-says",
-   "component": "military",
+   "id": "a9cf48c2a98a",
+   "title": "Abby Choi’s ex-husband denies lying, says lawyer’s advice hurt brother’s defence",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375496/abby-chois-ex-husband-denies-lying-says-lawyers-advice-hurt-brothers-defence",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.6,
-   "origins": 2,
+   "confidence": 0.56,
+   "origins": 1,
    "sources": [
-    "scmp",
-    "france24"
+    "scmp"
    ],
-   "published": "2026-11-22T18:32:59+00:00",
-   "note": "Russian strikes across the Kyiv region, including on a block of flats that partially collapsed, killed at least six people, Ukraine said on Sunday, warning there could be more vict",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-23T10:42:00+00:00",
+   "note": "Slain Hong Kong socialite Abby Choi Tin-fung’s ex-husband has denied lying about the circumstances of her death and blamed a lawyer for allegedly giving misconceived advice that un",
+   "region": "OTHER"
   },
   {
-   "id": "2373c4607749",
-   "title": "US army to blow up bomb-making chemicals despite safety concerns",
-   "url": "https://www.theguardian.com/us-news/2026/nov/22/army-blow-up-bomb-making-chemicals-iowa",
+   "id": "435cd93cc11e",
+   "title": "Alleged triad member in fatal Hong Kong crash was freed from jail two weeks ago",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375493/alleged-triad-member-fatal-hong-kong-crash-was-released-jail-two-weeks-ago",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-23T10:39:29+00:00",
+   "note": "A man arrested on suspicion of drink-driving after a crash in Hong Kong’s busy Tsim Sha Tsui district killed a pedestrian is an alleged triad member who was released from prison tw",
+   "region": "OTHER"
+  },
+  {
+   "id": "5a43962d6247",
+   "title": "From mocked to mainstream: how Spain’s far-right Vox transformed its fortunes",
+   "url": "https://www.theguardian.com/world/2026/nov/23/vox-party-spain-far-right-mocked-to-mainstream",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -303,14 +316,44 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-23T00:50:39+00:00",
-   "note": "Army invokes emergency provisions in Iowa to avoid court order despite worries about health and environment risks The US army plans to invoke emergency provisions to avoid a court ",
+   "published": "2026-11-23T10:37:48+00:00",
+   "note": "Party that won just 0.2% of the vote in 2016 is on course for almost 20% this time and could be part of next government Almost exactly eight years ago, a video clip of a stocky, be",
    "region": "OTHER"
   },
   {
-   "id": "00e13b4ae89d",
-   "title": "阿富汗警方称打死3名武装分子",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-22/10736173.shtml",
+   "id": "f99a8f812e2e",
+   "title": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks",
+   "url": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-23T09:34:25+00:00",
+   "note": "Mulitple strikes unleashed days after Putin promises a ‘painful’ response to Ukrainian attacks.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "1433dcfeefe3",
+   "title": "How will China’s ties with Myanmar change with the ICJ’s genocide ruling?",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3375454/how-will-chinas-ties-myanmar-change-icjs-genocide-ruling",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-23T08:26:05+00:00",
+   "note": "An international court ruling of genocide against Myanmar might complicate Beijing’s diplomatic engagement with Naypyidaw and cast a shadow over Belt and Road Initiative infrastruc",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "fe9838a2ed7b",
+   "title": "美伊谈判僵持冲突外溢 内塔尼亚胡被曝欲单独对伊动武",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-23/10736273.shtml",
    "component": "military",
    "severity": 5,
    "confidence": 0.38,
@@ -318,14 +361,29 @@
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-22T12:22:35+00:00",
-   "note": "中新社北京11月22日电 喀布尔消息：当地时间11月22日，阿富汗内政部发布通报称，阿富汗警方特种部队21日在首都喀布尔第11区开展行动，其间与武装分子发生交火，打死3名武装分子。",
-   "region": "EAST_ASIA"
+   "published": "2026-11-23T01:47:06+00:00",
+   "note": "当地时间22日，美国与伊朗之间军事冲突不断。伊朗宣布24小时内击落4架美军无人机，当天霍尔木兹海峡又有油轮触雷起火。与此同时，美伊冲突外溢持续，巴林称伊朗对该国的袭击造成人员受伤。美国提醒在巴林公民提高警惕，称敌对行动可能升级。",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "0d65beda571b",
-   "title": "3 killed and 1 wounded in shooting at Ohio baby shower, police say",
-   "url": "https://www.scmp.com/news/world/united-states-canada/article/3375402/3-killed-and-1-wounded-shooting-ohio-baby-shower-police-say",
+   "id": "9d13810f8734",
+   "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
+   "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-23T05:45:12+00:00",
+   "note": "Rescuers brave unstable structures in search for missing as DNA needed to identify victims Indonesia has confirmed the deaths of 24 people in a fire that tore ⁠through a factory, a",
+   "region": "OTHER"
+  },
+  {
+   "id": "e9c2c4bdee5f",
+   "title": "Japan looks to Bangladesh, Nepal for farm workers as Southeast Asian arrivals slow",
+   "url": "https://www.scmp.com/news/asia/east-asia/article/3375413/japan-looks-bangladesh-nepal-farm-workers-southeast-asian-arrivals-slow",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.34,
@@ -333,24 +391,9 @@
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-22T19:13:54+00:00",
-   "note": "Three people were killed and one was injured at an Ohio baby shower during an apparent domestic dispute, authorities said. Officers responded to a shooting on Saturday evening at P",
-   "region": "OTHER"
-  },
-  {
-   "id": "cf245e1552cd",
-   "title": "Civilians killed in RSF drone strikes in Sudan",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-22T18:12:07+00:00",
-   "note": "Several civilians have been killed and several buildings damaged in drone strikes by Sudan’s Rapid Support Forces.",
-   "region": "AFRICA"
+   "published": "2026-11-23T02:44:20+00:00",
+   "note": "Workers from South Asian countries such as Bangladesh and Nepal are making their mark on Japan’s agricultural sector, outpacing their Southeast Asian counterparts as Tokyo races to",
+   "region": "EAST_ASIA"
   },
   {
    "id": "a4c584e8cde1",
@@ -368,78 +411,33 @@
    "region": "OTHER"
   },
   {
-   "id": "aa26c4d60cf0",
-   "title": "Indonesia factory hit by deadly blaze: Three killed and 36 missing",
-   "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-22T12:11:00+00:00",
-   "note": "At least three people have been killed and dozens are missing after a fire broke out at a factory in Indonesia producing sweets and snack products. Fifteen people were rescued aliv",
-   "region": "OTHER"
-  },
-  {
-   "id": "f43bffd2509e",
-   "title": "Former Italian police chief found dead",
-   "url": "https://www.france24.com/en/former-italian-police-chief-found-dead",
+   "id": "00e13b4ae89d",
+   "title": "阿富汗警方称打死3名武装分子",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-22/10736173.shtml",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.19,
    "origins": 1,
    "sources": [
-    "france24"
+    "chinanews"
    ],
-   "published": "2026-11-22T10:25:52+00:00",
-   "note": "Italian Prime Minister Giorgia Meloni has expressed shock following the death of a former national police chief, whose body was found on Saturday. He had been under investigation o",
-   "region": "OTHER"
+   "published": "2026-11-22T12:22:35+00:00",
+   "note": "中新社北京11月22日电 喀布尔消息：当地时间11月22日，阿富汗内政部发布通报称，阿富汗警方特种部队21日在首都喀布尔第11区开展行动，其间与武装分子发生交火，打死3名武装分子。",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "32020a2afad1",
-   "title": "Man arrested after Tsim Sha Tsui crash kills 1 pedestrian, injures 3",
-   "url": "https://www.scmp.com/news/hong-kong/society/article/3375367/hong-kong-manhunt-after-tsim-sha-tsui-hit-and-run-leaves-1-dead-3-injured",
+   "id": "97ea58bb7149",
+   "title": "Dozens missing as deadly fire tears through Indonesian candy factory",
+   "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-tears-through-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-rdf",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-22T07:38:38+00:00",
-   "note": "A man has been arrested on suspicion of drink-driving after a car allegedly struck a lamp post and another vehicle before mounting a pavement in Hong Kong’s busy Tsim Sha Tsui shop",
-   "region": "OTHER"
-  },
-  {
-   "id": "9d13810f8734",
-   "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
-   "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-22T07:11:17+00:00",
-   "note": "Relatives of the missing victims flocked to the factory’s entrance, seeking updates about their loved ones A fire at a confectionery factory west of Jakarta has killed three people",
-   "region": "OTHER"
-  },
-  {
-   "id": "397e0f763365",
-   "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-   "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-rdf",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "dw"
    ],
    "published": "2026-11-22T06:14:00+00:00",
-   "note": "At least three people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger",
+   "note": "At least 24 people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger tr",
    "region": "OTHER"
   },
   {
@@ -458,24 +456,9 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "519cff593c9f",
-   "title": "Haitians excited but uneasy as El Salvador troops fight gangs",
-   "url": "https://www.theguardian.com/world/2026/nov/21/excitement-unease-haiti-el-salvador-troops-gangs-war-bukele",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-21T11:00:57+00:00",
-   "note": "Foreign combatants in Port-au-Prince welcomed by many after years of gang control but some fear offensive could exacerbate volatile situation A bullet-peppered mural of the Haitian",
-   "region": "LATAM"
-  },
-  {
-   "id": "512e89fe8580",
-   "title": "内塔尼亚胡被曝正考虑单独对伊朗动武",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-23/10736221.shtml",
+   "id": "9154e1fbc9e2",
+   "title": "苏丹首都遭无人机袭击造成4人死亡",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-23/10736507.shtml",
    "component": "military",
    "severity": 4,
    "confidence": 0.64,
@@ -483,185 +466,196 @@
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-22T22:39:07+00:00",
-   "note": "当地时间22日，据以色列方面消息，以色列看守政府总理内塔尼亚胡正考虑在未经美国批准的情况下单独对伊朗发动袭击。以军军事情报局在近日一场闭门会议中警告，此举可能引发多条战线同时爆发冲突。",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-23T11:09:46+00:00",
+   "note": "中新社北京11月23日电 喀土穆消息：当地时间11月22日，苏丹首都喀土穆及其西北恩图曼市遭无人机袭击，造成至少4人死亡，一处联合国设施受损。",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "976fe1db2e89",
-   "title": "Israel investigates West Bank fires blamed on Israeli settlers",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3375395/israel-investigates-west-bank-fires-blamed-israeli-settlers",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.6,
-   "origins": 2,
-   "sources": [
-    "scmp",
-    "france24"
-   ],
-   "published": "2026-11-22T16:25:23+00:00",
-   "note": "Israeli authorities said on Sunday that they opened an investigation after Palestinian cars and properties were torched in four occupied West Bank villages, in attacks a local acti",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "8bcfde760bec",
-   "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
-   "url": "https://www.france24.com/en/video/20261123-drone-strikes-hit-homes-united-nations-building-in-sudan-s-capital",
+   "id": "22be31965087",
+   "title": "Flights grounded in Belgium due to strike against austerity measures",
+   "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24",
-    "france24"
-   ],
-   "published": "2026-11-23T00:43:36+00:00",
-   "note": "Drone strikes damaged residential homes and a United Nations building in Sudan's capital Khartoum early Sunday, with the army accusing neighbouring Ethiopia of launching the attack",
-   "region": "AFRICA"
-  },
-  {
-   "id": "5dd7d6195121",
-   "title": "Russian warship docked at a Libya base hit in sea drone attack",
-   "url": "https://www.scmp.com/news/world/africa/article/3375407/suspected-ukrainian-sea-drones-hit-russian-warship-libyan-naval-base-officials-say",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-22T22:46:18+00:00",
-   "note": "A suspected Ukrainian drone strike hit a Russian warship Sunday at a naval base in Libya, officials said, the latest attack in the North African nation linked to the Russia-Ukraine",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "d159e69a8061",
-   "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-   "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc",
-    "bbc"
-   ],
-   "published": "2026-11-22T22:37:43+00:00",
-   "note": "The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "243f7b41c806",
-   "title": "Russia starts towing its ship hit by drones in Baltic, Finland says",
-   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375406/russia-starts-towing-its-ship-hit-drones-baltic-finland-says",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-22T21:32:37+00:00",
-   "note": "A Russian rescue vessel on Sunday began towing a Russian-owned cargo ship that was struck by drones in the Baltic Sea out of Finnish waters after two days of firefighting, Finland’",
-   "region": "EUROPE"
-  },
-  {
-   "id": "58a16b290375",
-   "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
-   "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-22T17:18:26+00:00",
-   "note": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
+   "published": "2026-11-23T12:27:34+00:00",
+   "note": "A series of strikes have hit Belgium in recent months as the prime minister struggles to agree a budget to cut costs.",
+   "region": "OTHER"
+  },
+  {
+   "id": "fa6af59e3fd8",
+   "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+   "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-23T11:42:51+00:00",
+   "note": "Ukraine’s security service says seven drones were launched from mothership in operation that sank Merkury warship Europe live – latest updates Ukraine has confirmed it deployed nav",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "4501b2e171be",
-   "title": "West Bank attacks: Opposition leader Eisenkot decries \"Jewish terrorism\"",
-   "url": "https://www.france24.com/en/west-bank-attacks-opposition-leader-eisenkot-decries-jewish-terrorism",
-   "component": "narrative",
+   "id": "49362d3d8bfc",
+   "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
+   "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+   "component": "military",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-23T11:10:12+00:00",
+   "note": "A series of drone strikes on Russian vessels in Libyan and Finnish territories fuels fears of Ukraine war's spread.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "506737b48a1b",
+   "title": "Ukrainian drones sink Russian warship at naval base in Libya",
+   "url": "https://www.france24.com/en/video/20261123-ukrainian-drones-sink-russian-warship-at-naval-base-in-libya",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-22T16:25:09+00:00",
-   "note": "Israeli authorities have opened an investigation after Palestinian vehicles and properties were set on fire in three villages in the occupied West Bank. Israeli soldiers were deplo",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-23T10:53:00+00:00",
+   "note": "Ukraine carried out an attack on a Russian warship moored at a port in Libya, President Volodymyr Zelensky said Monday, claiming that sea drones sank the navy vessel in a surprise ",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "158558165a97",
-   "title": "Man carrying alarm gun on train in Germany sparks major police operation",
-   "url": "https://www.scmp.com/news/world/europe/article/3375389/man-carrying-alarm-gun-train-germany-sparks-major-police-operation",
+   "id": "cf7359082a98",
+   "title": "Ukraine-Russia peace talks: Row over who will represent the EU",
+   "url": "https://www.france24.com/en/video/20261123-ukraine-russia-peace-talks-row-over-who-will-represent-the-eu",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-23T10:20:05+00:00",
+   "note": "As Russia and Ukraine continue to trade strikes a row is erupting over who Europe should send to any future peace talks with the two countries along with the US. The EU's High Repr",
+   "region": "EUROPE"
+  },
+  {
+   "id": "045617a02bea",
+   "title": "Odesa pupils switch to remote learning as Russia pounds Ukraine’s energy grid",
+   "url": "https://www.france24.com/en/video/20261123-odesa-pupils-switch-to-remote-learning-as-russia-pounds-ukraine-s-energy-grid",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-23T09:51:02+00:00",
+   "note": "Schools in Odesa will switch to remote teaching after Russian strikes gravely damaged the energy grid in the major Ukrainian Black Sea port city. Russia has carried out a wide-rang",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "85a6ea78ea5b",
+   "title": "Thousands evacuated from UK concert after ‘unknown substance’ released",
+   "url": "https://www.scmp.com/news/world/europe/article/3375481/thousands-evacuated-uk-concert-after-unknown-substance-released",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-22T13:17:12+00:00",
-   "note": "A major police operation was triggered in northern Germany when passengers noticed a 23-year-old man carrying an alarm gun, police said on Sunday. A passenger on the train travelli",
-   "region": "EUROPE"
+   "published": "2026-11-23T09:19:15+00:00",
+   "note": "Thousands were evacuated from a concert at the UK’s largest indoor arena after an “unknown substance” was released and several people reported suffering side-effects, police said M",
+   "region": "OTHER"
+  },
+  {
+   "id": "a9f081ebcf8c",
+   "title": "Taliban deploys police to protect Afghanistan’s vanishing forests",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/taliban-deploys-police-to-protect-afghanistans-vanishing-forests?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-23T07:47:32+00:00",
+   "note": "Afghanistan’s last remaining forests are being guarded by a Taliban-run police force known as Green Units.",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "7a877844e9a1",
+   "title": "泽连斯基敦促美国提供“爱国者”导弹 乌军一周袭击俄8处石油设施",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-23/10736321.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-23T03:42:28+00:00",
+   "note": "中新社北京11月23日电 综合消息：乌克兰总统泽连斯基22日称，本周乌克兰多地遭到俄军袭击，美国在“爱国者”导弹项目上的拖延令人费解。同日，乌国防部称，乌军在一周内袭击了俄罗斯8处石油基础设施。",
+   "region": "RUSSIA_CIS"
   }
  ],
  "breaking": [
   {
-   "id": "2373c4607749",
-   "title": "US army to blow up bomb-making chemicals despite safety concerns",
-   "url": "https://www.theguardian.com/us-news/2026/nov/22/army-blow-up-bomb-making-chemicals-iowa",
+   "id": "22be31965087",
+   "title": "Flights grounded in Belgium due to strike against austerity measures",
+   "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-23T12:27:34+00:00",
+   "note": "A series of strikes have hit Belgium in recent months as the prime minister struggles to agree a budget to cut costs.",
+   "region": "OTHER"
+  },
+  {
+   "id": "fa6af59e3fd8",
+   "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+   "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
+   "component": "military",
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-23T00:50:39+00:00",
-   "note": "Army invokes emergency provisions in Iowa to avoid court order despite worries about health and environment risks The US army plans to invoke emergency provisions to avoid a court ",
-   "region": "OTHER"
-  },
-  {
-   "id": "8bcfde760bec",
-   "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
-   "url": "https://www.france24.com/en/video/20261123-drone-strikes-hit-homes-united-nations-building-in-sudan-s-capital",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24",
-    "france24"
-   ],
-   "published": "2026-11-23T00:43:36+00:00",
-   "note": "Drone strikes damaged residential homes and a United Nations building in Sudan's capital Khartoum early Sunday, with the army accusing neighbouring Ethiopia of launching the attack",
-   "region": "AFRICA"
-  },
-  {
-   "id": "5dd7d6195121",
-   "title": "Russian warship docked at a Libya base hit in sea drone attack",
-   "url": "https://www.scmp.com/news/world/africa/article/3375407/suspected-ukrainian-sea-drones-hit-russian-warship-libyan-naval-base-officials-say",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-22T22:46:18+00:00",
-   "note": "A suspected Ukrainian drone strike hit a Russian warship Sunday at a naval base in Libya, officials said, the latest attack in the North African nation linked to the Russia-Ukraine",
+   "published": "2026-11-23T11:42:51+00:00",
+   "note": "Ukraine’s security service says seven drones were launched from mothership in operation that sank Merkury warship Europe live – latest updates Ukraine has confirmed it deployed nav",
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "512e89fe8580",
-   "title": "内塔尼亚胡被曝正考虑单独对伊朗动武",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-23/10736221.shtml",
+   "id": "49362d3d8bfc",
+   "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
+   "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-23T11:10:12+00:00",
+   "note": "A series of drone strikes on Russian vessels in Libyan and Finnish territories fuels fears of Ukraine war's spread.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "9154e1fbc9e2",
+   "title": "苏丹首都遭无人机袭击造成4人死亡",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-23/10736507.shtml",
    "component": "military",
    "severity": 4,
    "confidence": 0.64,
@@ -669,20 +663,20 @@
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-22T22:39:07+00:00",
-   "note": "当地时间22日，据以色列方面消息，以色列看守政府总理内塔尼亚胡正考虑在未经美国批准的情况下单独对伊朗发动袭击。以军军事情报局在近日一场闭门会议中警告，此举可能引发多条战线同时爆发冲突。",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-23T11:09:46+00:00",
+   "note": "中新社北京11月23日电 喀土穆消息：当地时间11月22日，苏丹首都喀土穆及其西北恩图曼市遭无人机袭击，造成至少4人死亡，一处联合国设施受损。",
+   "region": "EAST_ASIA"
   }
  ],
  "coverage": {
   "sources_ok": 20,
   "sources_failed": 2,
-  "items": 22446,
-  "gdelt_events": 22214,
+  "items": 24596,
+  "gdelt_events": 24363,
   "mode": "live",
   "data_through": "2026-11-22",
-  "clusters": 221,
-  "origins": 227,
+  "clusters": 224,
+  "origins": 226,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1162,7 +1156,7 @@
   },
   {
    "date": "2026-11-07",
-   "geti": 67.3
+   "geti": 67.2
   },
   {
    "date": "2026-11-08",
@@ -1230,75 +1224,67 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "中国农业发展银行董事会办公室原主任张俊强被查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-23/10736252.shtml",
+    "title": "Indonesia’s Prabowo names 2 vice-president candidates to replace Gibran",
+    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375506/indonesias-prabowo-names-2-vp-candidates-replace-gibran",
+    "country": "ID",
+    "source": "scmp",
+    "when": "2026-11-23"
+   },
+   {
+    "kind": "judicial",
+    "title": "浙江省人大常委会原副主任高兴夫一审被判死缓",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-23/10736593.shtml",
     "country": "CN",
     "source": "chinanews_cn",
     "when": "2026-11-23"
    },
    {
     "kind": "judicial",
-    "title": "新疆维吾尔自治区乌鲁木齐市人大常委会原党组副书记、主任阿不都热依木·阿不力孜被查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-23/10736250.shtml",
+    "title": "海南省公安厅原党委委员、副厅长董长青被开除党籍",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-23/10736531.shtml",
     "country": "",
     "source": "chinanews_cn",
     "when": "2026-11-23"
    },
    {
     "kind": "judicial",
-    "title": "Russell Brand’s wife vows to abide by prison rules after video controversy",
-    "url": "https://www.theguardian.com/news/2026/nov/22/russell-brand-wife-laura-gallacher-youtube-video",
+    "title": "山东省供销合作社联合社原党组书记张传忠被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-23/10736514.shtml",
     "country": "",
-    "source": "guardian",
-    "when": "2026-11-22"
+    "source": "chinanews_cn",
+    "when": "2026-11-23"
    },
    {
     "kind": "judicial",
-    "title": "China’s shale gas star Xie Jun under investigation for corruption: authorities",
-    "url": "https://www.scmp.com/news/china/politics/article/3375381/chinas-shale-gas-star-xie-jun-under-investigation-corruption-authorities",
+    "title": "山东省自然资源厅原一级巡视员李树民被开除党籍",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-23/10736512.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-23"
+   },
+   {
+    "kind": "judicial",
+    "title": "黑龙江省大兴安岭地区原副厅级干部郭晓锋被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-23/10736510.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-23"
+   },
+   {
+    "kind": "judicial",
+    "title": "China sentences ministry official to death for leaking over 100 state secrets",
+    "url": "https://www.scmp.com/news/china/politics/article/3375436/china-sentences-ministry-official-death-leaking-over-100-state-secrets",
     "country": "CN",
     "source": "scmp",
-    "when": "2026-11-22"
-   },
-   {
-    "kind": "judicial",
-    "title": "内蒙古医科大学党委原书记赵云山被开除党籍和公职",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-22/10736192.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-22"
-   },
-   {
-    "kind": "judicial",
-    "title": "行贿犯罪嫌疑人刘贤志被遣返回国",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-22/10736121.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-22"
-   },
-   {
-    "kind": "judicial",
-    "title": "中国石油天然气集团有限公司副总经理谢军被查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-22/10736022.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-22"
-   },
-   {
-    "kind": "judicial",
-    "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
-    "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-world-4025-rdf",
-    "country": "",
-    "source": "dw",
-    "when": "2026-11-21"
+    "when": "2026-11-23"
    }
   ],
-  "notable_total": 8,
+  "notable_total": 7,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 8
+   "notable": 7
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2343,8 +2329,8 @@
   }
  },
  "epidemic": {
-  "index": 53.9,
-  "z": 0.13,
+  "index": 52.2,
+  "z": 0.07,
   "components": [
    {
     "key": "who_don",
@@ -2370,10 +2356,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 1.29,
-    "carry": 0.97,
-    "z": 0.18,
-    "score": 55.7,
+    "value": 0.43,
+    "carry": 0.88,
+    "z": -0.0,
+    "score": 50.0,
     "available": true
    }
   ],
@@ -2391,12 +2377,12 @@
   }
  },
  "doom": {
-  "index": 68.3,
+  "index": 68.1,
   "z": 0.46,
   "parts": {
    "military": 0.56,
    "hazard": 0.12,
-   "epidemic": 0.09
+   "epidemic": 0.05
   },
   "resonance": 0,
   "partial": false,
@@ -2433,8 +2419,8 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 142,
-   "items": 22214,
+   "files": 144,
+   "items": 24363,
    "error": ""
   },
   {
@@ -2461,7 +2447,7 @@
   {
    "source": "dw",
    "ok": true,
-   "items": 10,
+   "items": 8,
    "error": "",
    "undated": 0
   },
@@ -2510,7 +2496,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 8,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2607,7 +2593,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 7785,
+   "items": 8138,
    "error": ""
   },
   {
