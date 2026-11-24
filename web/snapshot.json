@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-24T13:40:00+00:00",
+ "generated_at": "2026-11-24T23:53:16+00:00",
  "date": "2026-11-23",
  "geti": 67.3,
  "delta_z": 0.21,
@@ -245,12 +245,222 @@
  ],
  "events": [
   {
+   "id": "3dd8fd597556",
+   "title": "美媒：美国中情局及国家情报总监办公室疑遭网络入侵",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737281.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-24T22:35:44+00:00",
+   "note": "中新网11月25日电 据美国有线电视新闻网(CNN)援引4位消息人士的话报道，美国中央情报局(CIA)以及国家情报总监办公室疑似遭到网络入侵，部分非机密信息受到影响。",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "9149a124ab01",
+   "title": "Burnham launches inquiry into nuclear bomb test veterans’ records",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/24/burnham-inquiry-nuclear-bomb-test-veterans",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-24T22:30:57+00:00",
+   "note": "Hillsborough panel chair to lead investigation into programme of blood tests during nuclear weapons trials Andy Burnham has launched a Hillsborough-style investigation to examine a",
+   "region": "OTHER"
+  },
+  {
+   "id": "0d8d0a62de21",
+   "title": "Colombian president blames ex-FARC rebels for car bomb blast",
+   "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-24T21:45:42+00:00",
+   "note": "Colombian President De la Espriella blames the FARC for plotting a bombing that injured tens and pledges to retaliate.",
+   "region": "LATAM"
+  },
+  {
+   "id": "e4361ff02d51",
+   "title": "Car bomb destroys buildings in central Colombian city",
+   "url": "https://www.france24.com/en/car-bomb-destroys-buildings-in-central-colombian-city",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-24T19:27:10+00:00",
+   "note": "A car bomb detonated in the central Colombian city of Villavicencio on Monday, destroying a local governor's office and surrounding buildings, President Abelardo de la Espriella sa",
+   "region": "LATAM"
+  },
+  {
+   "id": "3454635b33b2",
+   "title": "Russian losses on Ukrainian front top 700,000 including missing",
+   "url": "https://www.france24.com/en/russian-losses-on-ukrainian-front-top-700-000-including-missing",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-24T19:22:31+00:00",
+   "note": "New analysis of leaked Russian government data suggests more than 700,000 Russian soldiers have died in the war against Ukraine. Independent Russian media outlets have updated thei",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "26feecad9a86",
+   "title": "Global landmine casualties hit a five-year high, driven by Myanmar, Syria",
+   "url": "https://www.aljazeera.com/news/2026/11/24/global-landmine-casualties-hit-a-five-year-high-driven-by-myanmar-syria?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-24T18:47:05+00:00",
+   "note": "Landmine monitor found 84 percent of deaths caused by landmines were in Southeast Asia.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "292b9ea4ae2d",
+   "title": "Senior Hamas security official killed in Israeli drone strikes",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-24T18:20:00+00:00",
+   "note": "A senior Hamas security official has been killed in a series of Israeli strikes across Gaza",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "923dce40b106",
+   "title": "Colombia at a Crossroads: Searching for peace amid conflict",
+   "url": "https://www.aljazeera.com/video/witness/2026/11/24/colombia-at-a-crossroads-searching-for-peace-amid-conflict?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-24T18:00:00+00:00",
+   "note": "A decade after Colombia's peace accords, former FARC fighter and artist honours killed signatories with a mural.",
+   "region": "EUROPE"
+  },
+  {
+   "id": "6efae39087f9",
+   "title": "Cameroon separatist leader pleads not guilty at war crimes trial in Norway",
+   "url": "https://www.aljazeera.com/news/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-in-war-crimes-trial?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-24T17:39:18+00:00",
+   "note": "Lucas Cho Ayaba is accused of remotely planning attacks that killed and injured dozens of civilians.",
+   "region": "OTHER"
+  },
+  {
+   "id": "604dc3fe93b8",
+   "title": "More than 300 Russians killed as Moscow props up Mali’s junta, leaked data reveals",
+   "url": "https://www.theguardian.com/world/2026/nov/24/russian-fighters-killed-in-mali-africa-leaked-data",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-24T16:00:50+00:00",
+   "note": "Exclusive: Records list 349 deaths in three years in Mali and also shed light on Russia’s military activity elsewhere in Africa When the attack on Kidal began before dawn on 25 Apr",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "192185e95bc9",
+   "title": "French police officer who shot teenager to face murder trial",
+   "url": "https://www.france24.com/en/video/20261124-french-police-officer-who-shot-teenager-to-face-murder-trial",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-24T15:54:17+00:00",
+   "note": "A French police officer will stand trial for murder in the killing of a teenager in 2023 that sparked violent protests across the country, the Versailles appeals court said on Tues",
+   "region": "OTHER"
+  },
+  {
+   "id": "10b13d61c0b6",
+   "title": "Leaked data suggests 500,000 Russian soldiers killed since start of Ukraine invasion",
+   "url": "https://www.france24.com/en/video/20261124-leaked-data-suggests-500-000-russian-soldiers-killed-since-start-of-ukraine-invasion",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-24T15:53:03+00:00",
+   "note": "More than 500,000 Russian soldiers have been killed in the war with Ukraine, according to an estimate by a number of media organisations. The figures are based on a huge dataset th",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "27e01214f4b5",
+   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+   "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-24T15:35:53+00:00",
+   "note": "Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "da4066bb3bdb",
+   "title": "Land mine casualties soar in Syria, two years after war",
+   "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-24T15:17:28+00:00",
+   "note": "Nearly 1,000 children are among those killed or injured by explosives left over from the conflict, figures show.",
+   "region": "MIDDLE_EAST"
+  },
+  {
    "id": "541b38aa0310",
    "title": "Hamas security chief killed in Israeli air strike on Gaza City",
    "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -260,27 +470,12 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "8a2c1b75c359",
-   "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
-   "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-24T13:07:03+00:00",
-   "note": "Israeli air strikes on the devastated Gaza Strip killed Brigadier General Naeem Abu Nahel, director-general of the Palestinian territory's Internal Security Service on Tuesday, the",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "28a63e2a9ff1",
    "title": "Car bomb tears through Colombian city wounding more than 20",
    "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -295,7 +490,7 @@
    "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375639/suspected-gas-explosion-vietnamese-hotpot-restaurant-kills-6",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -310,7 +505,7 @@
    "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -320,27 +515,12 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "83457391a4c7",
-   "title": "Death of Nahel: French police officer who shot dead a teenage boy to stand trial for murder",
-   "url": "https://www.france24.com/en/france/20261124-death-of-nahel-french-police-officer-who-shot-dead-a-teenage-boy-to-stand-trial-for-murder",
-   "component": "internal",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-24T09:54:58+00:00",
-   "note": "A French police officer who shot and killed 17-year-old Nahel Merzouk during a traffic stop in June 2023 will stand trial for murder following a ruling by the Versailles appeals co",
-   "region": "OTHER"
-  },
-  {
    "id": "4f906cd1419e",
    "title": "US B94 nuclear bomb designation signals renewed push for bunker-busting weapons",
    "url": "https://www.scmp.com/news/china/military/article/3375597/us-b94-nuclear-bomb-designation-signals-renewed-push-bunker-busting-weapons",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -348,81 +528,6 @@
    "published": "2026-11-24T09:00:13+00:00",
    "note": "A new nuclear bomb designation buried in a US Senate budget document suggests Washington may be pursuing a weapon to destroy targets deep underground. The B94 designation surfaced ",
    "region": "NORTH_AMERICA"
-  },
-  {
-   "id": "727392f3821d",
-   "title": "Campaigners urge Albanese government to reject ‘climate bomb’ coalmine expansion after Cop31",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/24/campaigners-urge-albanese-government-to-reject-climate-bomb-coalmine-expansion-after-cop31",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-24T07:42:57+00:00",
-   "note": "Hunter Valley Operations expansion in New South Wales would allow additional 430m tonnes of coal to be extracted and burned Sign up for climate and environment editor Adam Morton’s",
-   "region": "OTHER"
-  },
-  {
-   "id": "38dc8ab758f9",
-   "title": "哥伦比亚一警察指挥部遭无人机袭击已致3名平民受伤",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-24/10736779.shtml",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-24T02:06:25+00:00",
-   "note": "中新网北京11月24日电 波哥大消息：哥伦比亚北部北桑坦德省首府库库塔市一警察指挥部当地时间23日遭装载爆炸物的无人机袭击，造成至少3名平民受伤，其中包括一名婴儿。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "9dc90c5f02a0",
-   "title": "Why has Yemen’s offensive against the Houthis in al-Bayda stalled?",
-   "url": "https://www.aljazeera.com/news/2026/11/24/why-has-yemens-offensive-against-the-houthis-in-al-bayda-stalled?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-24T07:36:07+00:00",
-   "note": "Government forces made early gains in September, but Houthi fighting on multiple fronts has slowed the offensive.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "b40cddb30efe",
-   "title": "Live: Russian strikes on Ukraine’s Zaporizhzhia kill two people and wound dozens more",
-   "url": "https://www.france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-24T05:50:16+00:00",
-   "note": "A Russian attack killed two people in the Ukrainian city of Zaporizhzhia overnight, regional governor Mykhailo Semikin said on Tuesday. Some 40 people, four of them children, were ",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "4f648ef46f1f",
-   "title": "Driver who allegedly killed 1, injured 3 others in Tsim Sha Tsui crash denied bail",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375573/driver-who-allegedly-killed-1-injured-3-others-tsim-sha-tsui-crash-denied-bail",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-24T05:40:12+00:00",
-   "note": "A man accused of killing a pedestrian and injuring three others in Tsim Sha Tsui while driving illegally has been denied bail in a Hong Kong court. Ngai Ho-lam, 38, was brought to ",
-   "region": "OTHER"
   },
   {
    "id": "d61f61ae642d",
@@ -470,212 +575,107 @@
    "region": "EUROPE"
   },
   {
-   "id": "9d13810f8734",
-   "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
-   "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-23T05:45:12+00:00",
-   "note": "Rescuers brave unstable structures in search for missing as DNA needed to identify victims Indonesia has confirmed the deaths of 24 people in a fire that tore ⁠through a factory, a",
-   "region": "OTHER"
-  },
-  {
-   "id": "8da8c0b6c9d1",
-   "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-   "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-22T21:33:44+00:00",
-   "note": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia A Russian warship docked in the Libyan port city of Benghazi was struck i",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "2993f64e0871",
-   "title": "广西崇左借力民族传统体育 搭建各民族“三交”新平台",
-   "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737066.shtml",
-   "component": "narrative",
+   "id": "6b508cce3e1c",
+   "title": "普京：乌方袭击俄能源设施必招致俄方回应",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737277.shtml",
+   "component": "economy",
    "severity": 4,
    "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "chinanews_cn"
+    "chinanews"
    ],
-   "published": "2026-11-24T09:26:23+00:00",
-   "note": "中新网崇左11月24日电(杨陈 陆锋)广西第十六届少数民族传统体育运动会近期落下帷幕，崇左代表团载誉而归。赛场之上，各族运动员奋勇争先、携手同行；赛场之外，抛绣球、板鞋竞速、竹竿舞、珍珠球等特色民族体育项目走进崇左校园、边境村寨、边关景区和城市社区，成为当地促进各民族交往交流交融、铸牢中华民族共同体意识的生动实践。",
-   "region": "OTHER"
+   "published": "2026-11-24T22:17:29+00:00",
+   "note": "中新社莫斯科11月24日电 俄罗斯总统普京24日主持召开能源发展战略和环境安全委员会会议时表示，针对乌克兰对俄能源基础设施的袭击，俄方必然作出回应。",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "b6f046bead9e",
-   "title": "Italy expresses concern to Ukraine over Libya ship attacks – Europe live",
-   "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
-   "component": "military",
+   "id": "008aaf7fb53c",
+   "title": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
+   "url": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+   "component": "physical",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-24T13:28:22+00:00",
-   "note": "Ukraine earlier confirmed that it deployed naval drones in strikes on Russian vessels off the coast of Libya The leader of Spain’s leftwing Broad Front coalition has called for a d",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "1ad9086e17d5",
-   "title": "UK sanctions Yemen’s Houthi group and four of its top officials",
-   "url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-24T12:55:55+00:00",
-   "note": "Group must be held accountable for 'targeting our partners and innocent civilians', says Foreign Secretary Ed Miliband.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "96e280cc31af",
-   "title": "‘We’ll keep sinking Russian ships’: Ukraine challenges Putin’s global reach",
-   "url": "https://www.aljazeera.com/news/2026/11/24/can-ukraine-disrupt-russias-operations-in-africa?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-24T12:47:23+00:00",
-   "note": "Ukraine's strike off Libya signals Kyiv's ability to challenge Russian influence beyond the front lines.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "f14563147b95",
-   "title": "Luxury barge discovery in North Korea raises questions about UN sanctions compliance",
-   "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3375646/luxury-barge-discovery-north-korea-raises-questions-about-un-sanctions-compliance",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-24T12:30:58+00:00",
-   "note": "A newly identified luxury barge in North Korea’s eastern port city of Wonsan could be intended for use by leader Kim Jong-un to shore up loyalty among ruling elites and entertain f",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "27e01214f4b5",
-   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-   "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-24T12:12:48+00:00",
-   "note": "Naeem Abu Nahel, who had only been in the position for two months, was targeted in western Gaza City, Gaza's interior ministry says.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "c7901d82f6d8",
-   "title": "Australian music teacher jailed for 8½ years for raping pupil, having his baby",
-   "url": "https://www.scmp.com/week-asia/people/article/3375643/australian-music-teacher-jailed-8-1/2-years-raping-pupil-having-his-baby",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-24T12:09:47+00:00",
-   "note": "An Australian teacher who sexually abused a 12-year-old pupil and gave birth to his child has been sentenced to 8½ years in prison and ordered to stay away from the boy for life. N",
-   "region": "OCEANIA"
+   "published": "2026-11-24T23:20:24+00:00",
+   "note": "Monthly tide records were set across the city, with some expected to hit even higher tomorrow Explainer: What to know about flooding in California over Thanksgiving California is g",
+   "region": "OTHER"
   }
  ],
  "breaking": [
   {
-   "id": "b6f046bead9e",
-   "title": "Italy expresses concern to Ukraine over Libya ship attacks – Europe live",
-   "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
-   "component": "military",
+   "id": "008aaf7fb53c",
+   "title": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
+   "url": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+   "component": "physical",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-24T13:28:22+00:00",
-   "note": "Ukraine earlier confirmed that it deployed naval drones in strikes on Russian vessels off the coast of Libya The leader of Spain’s leftwing Broad Front coalition has called for a d",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-24T23:20:24+00:00",
+   "note": "Monthly tide records were set across the city, with some expected to hit even higher tomorrow Explainer: What to know about flooding in California over Thanksgiving California is g",
+   "region": "OTHER"
   },
   {
-   "id": "541b38aa0310",
-   "title": "Hamas security chief killed in Israeli air strike on Gaza City",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+   "id": "3dd8fd597556",
+   "title": "美媒：美国中情局及国家情报总监办公室疑遭网络入侵",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737281.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-24T22:35:44+00:00",
+   "note": "中新网11月25日电 据美国有线电视新闻网(CNN)援引4位消息人士的话报道，美国中央情报局(CIA)以及国家情报总监办公室疑似遭到网络入侵，部分非机密信息受到影响。",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "9149a124ab01",
+   "title": "Burnham launches inquiry into nuclear bomb test veterans’ records",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/24/burnham-inquiry-nuclear-bomb-test-veterans",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "scmp"
+    "guardian"
    ],
-   "published": "2026-11-24T13:28:18+00:00",
-   "note": "Israeli air strikes in Gaza on Tuesday killed seven people including Hamas’ director of internal security, Palestinian officials in the territory said, despite a ceasefire in place",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-24T22:30:57+00:00",
+   "note": "Hillsborough panel chair to lead investigation into programme of blood tests during nuclear weapons trials Andy Burnham has launched a Hillsborough-style investigation to examine a",
+   "region": "OTHER"
   },
   {
-   "id": "8a2c1b75c359",
-   "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
-   "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-24T13:07:03+00:00",
-   "note": "Israeli air strikes on the devastated Gaza Strip killed Brigadier General Naeem Abu Nahel, director-general of the Palestinian territory's Internal Security Service on Tuesday, the",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "1ad9086e17d5",
-   "title": "UK sanctions Yemen’s Houthi group and four of its top officials",
-   "url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
-   "component": "diplomacy",
+   "id": "6b508cce3e1c",
+   "title": "普京：乌方袭击俄能源设施必招致俄方回应",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737277.shtml",
+   "component": "economy",
    "severity": 4,
-   "confidence": 0.56,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "chinanews"
    ],
-   "published": "2026-11-24T12:55:55+00:00",
-   "note": "Group must be held accountable for 'targeting our partners and innocent civilians', says Foreign Secretary Ed Miliband.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-24T22:17:29+00:00",
+   "note": "中新社莫斯科11月24日电 俄罗斯总统普京24日主持召开能源发展战略和环境安全委员会会议时表示，针对乌克兰对俄能源基础设施的袭击，俄方必然作出回应。",
+   "region": "RUSSIA_CIS"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 38225,
-  "gdelt_events": 37968,
+  "items": 42886,
+  "gdelt_events": 42619,
   "mode": "live",
   "data_through": "2026-11-23",
-  "clusters": 255,
-  "origins": 256,
+  "clusters": 263,
+  "origins": 264,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1099,15 +1099,15 @@
   },
   {
    "date": "2026-10-25",
-   "geti": 63.7
+   "geti": 63.8
   },
   {
    "date": "2026-10-26",
-   "geti": 46.7
+   "geti": 46.8
   },
   {
    "date": "2026-10-27",
-   "geti": 49.7
+   "geti": 49.8
   },
   {
    "date": "2026-10-28",
@@ -1223,7 +1223,31 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "中共上海市委書記陳吉寧被查 政治局委員罕見落馬",
+    "title": "Thomas Markle, father of Meghan, indicted over child sexual abuse material",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/24/thomas-markle-indicted",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
+    "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&at_campaign=rss",
+    "country": "RU",
+    "source": "bbc",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "Gisele Pelicot slams publisher for using nude images from her rape case in book promo",
+    "url": "https://www.scmp.com/news/world/europe/article/3375670/gisele-pelicot-slams-publisher-using-nude-images-her-rape-case-book-promo",
+    "country": "",
+    "source": "scmp",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "陳吉寧被調查：「清華系」失勢、「上海跳板」失靈與政治局委員落馬創紀錄",
     "url": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
     "country": "",
     "source": "bbc_zh",
@@ -1292,30 +1316,6 @@
     "country": "",
     "source": "chinanews_cn",
     "when": "2026-11-24"
-   },
-   {
-    "kind": "judicial",
-    "title": "贵州省委原常委、毕节市委原书记吴胜华一审被判无期徒刑",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737116.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-24"
-   },
-   {
-    "kind": "judicial",
-    "title": "非法收受财物1.13亿余元 吴胜华一审被判无期徒刑",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737058.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-24"
-   },
-   {
-    "kind": "judicial",
-    "title": "Sports whistleblowers protected under proposed laws amid Australian cricket ball tampering saga",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/24/sports-whistleblowers-protected-proposed-laws-australian-cricket-ball-tampering-sandpapergate-ntwnfb",
-    "country": "ZA",
-    "source": "guardian",
-    "when": "2026-11-24"
    }
   ],
   "notable_total": 15,
@@ -1330,17 +1330,17 @@
   "mode": "shadow"
  },
  "market": {
-  "index": 85.6,
-  "z": 1.068,
+  "index": 81.7,
+  "z": 0.899,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 35.89,
-    "chg5": 85.96,
-    "z": 2.144,
+    "last": 26.62,
+    "chg5": 16.19,
+    "z": 1.795,
     "ok": true,
-    "asof": "2026-11-20"
+    "asof": "2026-11-23"
    },
    {
     "id": "oil",
@@ -1354,11 +1354,11 @@
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.76,
-    "chg5": 16.41,
-    "z": 1.184,
+    "last": 3.63,
+    "chg5": 8.68,
+    "z": 1.027,
     "ok": true,
-    "asof": "2026-11-20"
+    "asof": "2026-11-23"
    },
    {
     "id": "usd",
@@ -1373,19 +1373,19 @@
     "id": "ust",
     "label": "美十年期",
     "last": 4.92,
-    "chg5": -4.47,
-    "z": -0.004,
+    "chg5": -3.91,
+    "z": -0.0,
     "ok": true,
-    "asof": "2026-11-20"
+    "asof": "2026-11-23"
    }
   ],
-  "asof": "2026-11-20",
+  "asof": "2026-11-23",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 105,
+    "items": 106,
     "error": ""
    },
    {
@@ -1397,7 +1397,7 @@
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 105,
+    "items": 106,
     "error": ""
    },
    {
@@ -1409,7 +1409,7 @@
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 101,
+    "items": 102,
     "error": ""
    }
   ],
@@ -2393,22 +2393,10 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034039"
     },
     {
-     "t": "Green forest fire notification in Togo, Burkina Faso, Benin",
-     "v": "green",
-     "ts": "2026-11-23 16:01",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034024"
-    },
-    {
      "t": "Green forest fire notification in Ghana, Burkina Faso",
      "v": "green",
      "ts": "2026-11-23 00:10",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034013"
-    },
-    {
-     "t": "Green flood alert in Colombia",
-     "v": "green",
-     "ts": "2026-11-23 07:13",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104294"
     },
     {
      "t": "Green forest fire notification in Bolivia",
@@ -2421,6 +2409,18 @@
      "v": "green",
      "ts": "2026-11-23 00:15",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034014"
+    },
+    {
+     "t": "Green forest fire notification in Togo, Burkina Faso, Benin",
+     "v": "green",
+     "ts": "2026-11-23 16:01",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034024"
+    },
+    {
+     "t": "Green forest fire notification in Benin, Burkina Faso",
+     "v": "green",
+     "ts": "2026-11-23 00:15",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033986"
     }
    ],
    "kp": [
@@ -2435,7 +2435,7 @@
  },
  "epidemic": {
   "index": 50.5,
-  "z": 0.02,
+  "z": 0.01,
   "components": [
    {
     "key": "who_don",
@@ -2461,10 +2461,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.78,
+    "value": 0.75,
     "carry": 0.87,
-    "z": -0.02,
-    "score": 49.3,
+    "z": -0.03,
+    "score": 49.1,
     "available": true
    }
   ],
@@ -2498,22 +2498,40 @@
   ]
  },
  "manual": {
-  "items": [],
-  "note": "读取人工线索失败：HTTPError: HTTP Error 403: rate limit exceeded（不影响指数）",
-  "mode": "failed"
+  "items": [
+   {
+    "number": 1,
+    "title": "线索：工伤认定新闻（测试）",
+    "note": "工伤认定问题",
+    "url": "https://github.com/jonetap/geti/issues/1",
+    "author": "jonetap",
+    "created": "2026-11-04T12:36:06Z",
+    "links": [
+     "https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/SuilUDmQOA1-LzmKwmgg7g"
+    ],
+    "images": [
+     "intel/9d8835a9a14b1106.png"
+    ],
+    "kind": "link",
+    "seen": false
+   }
+  ],
+  "unseen": 1,
+  "note": "人工提交 1 条，其中 1 条抓取器没有收录——这类条目也可能是我们的盲区。本层不计分。",
+  "mode": "shadow"
  },
  "adapters": [
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 143,
-   "items": 37968,
+   "files": 141,
+   "items": 42619,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 27,
+   "items": 30,
    "error": "",
    "undated": 0
   },
@@ -2527,14 +2545,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 39,
+   "items": 41,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 8,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2583,14 +2601,14 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 17,
+   "items": 19,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 105,
+   "items": 106,
    "error": ""
   },
   {
@@ -2602,7 +2620,7 @@
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 105,
+   "items": 106,
    "error": ""
   },
   {
@@ -2614,7 +2632,7 @@
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 101,
+   "items": 102,
    "error": ""
   },
   {
@@ -2662,7 +2680,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 18,
+   "items": 16,
    "error": ""
   },
   {
@@ -2680,14 +2698,13 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 9912,
+   "items": 9502,
    "error": ""
   },
   {
    "source": "manual:intel",
-   "ok": false,
-   "items": 0,
-   "error": "HTTPError: HTTP Error 403: rate limit exceeded"
+   "ok": true,
+   "items": 1
   }
  ]
 }
