@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-24T02:12:06+00:00",
+ "generated_at": "2026-11-24T13:40:00+00:00",
  "date": "2026-11-23",
  "geti": 67.3,
  "delta_z": 0.21,
@@ -245,64 +245,199 @@
  ],
  "events": [
   {
-   "id": "0fbe498d14c8",
-   "title": "外媒：以军空袭加沙致3死 其中含1名联合国工作人员",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-24/10736730.shtml",
+   "id": "541b38aa0310",
+   "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
    "component": "military",
    "severity": 5,
-   "confidence": 0.64,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-24T13:28:18+00:00",
+   "note": "Israeli air strikes in Gaza on Tuesday killed seven people including Hamas’ director of internal security, Palestinian officials in the territory said, despite a ceasefire in place",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8a2c1b75c359",
+   "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
+   "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-24T13:07:03+00:00",
+   "note": "Israeli air strikes on the devastated Gaza Strip killed Brigadier General Naeem Abu Nahel, director-general of the Palestinian territory's Internal Security Service on Tuesday, the",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "28a63e2a9ff1",
+   "title": "Car bomb tears through Colombian city wounding more than 20",
+   "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-24T11:45:52+00:00",
+   "note": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
+   "region": "LATAM"
+  },
+  {
+   "id": "5f69224d1adf",
+   "title": "Suspected gas explosion at Vietnamese hotpot restaurant kills 6",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375639/suspected-gas-explosion-vietnamese-hotpot-restaurant-kills-6",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-24T11:32:25+00:00",
+   "note": "An explosion at a hotpot restaurant in Vietnam’s capital of Hanoi on Tuesday, suspected to have been caused by a gas leak, killed six people, injured more than a dozen others and d",
+   "region": "OTHER"
+  },
+  {
+   "id": "9b805a67b1f0",
+   "title": "Myanmar, Syria top list as global landmine casualties hit 5-year high of 7,000",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-24T10:46:01+00:00",
+   "note": "Casualties from landmines or unexploded ordnance reached a five-year high in 2025, with Southeast Asia making up a disproportionate number of those killed or wounded, largely due t",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "83457391a4c7",
+   "title": "Death of Nahel: French police officer who shot dead a teenage boy to stand trial for murder",
+   "url": "https://www.france24.com/en/france/20261124-death-of-nahel-french-police-officer-who-shot-dead-a-teenage-boy-to-stand-trial-for-murder",
+   "component": "internal",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-24T09:54:58+00:00",
+   "note": "A French police officer who shot and killed 17-year-old Nahel Merzouk during a traffic stop in June 2023 will stand trial for murder following a ruling by the Versailles appeals co",
+   "region": "OTHER"
+  },
+  {
+   "id": "4f906cd1419e",
+   "title": "US B94 nuclear bomb designation signals renewed push for bunker-busting weapons",
+   "url": "https://www.scmp.com/news/china/military/article/3375597/us-b94-nuclear-bomb-designation-signals-renewed-push-bunker-busting-weapons",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-24T09:00:13+00:00",
+   "note": "A new nuclear bomb designation buried in a US Senate budget document suggests Washington may be pursuing a weapon to destroy targets deep underground. The B94 designation surfaced ",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "727392f3821d",
+   "title": "Campaigners urge Albanese government to reject ‘climate bomb’ coalmine expansion after Cop31",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/24/campaigners-urge-albanese-government-to-reject-climate-bomb-coalmine-expansion-after-cop31",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-24T07:42:57+00:00",
+   "note": "Hunter Valley Operations expansion in New South Wales would allow additional 430m tonnes of coal to be extracted and burned Sign up for climate and environment editor Adam Morton’s",
+   "region": "OTHER"
+  },
+  {
+   "id": "38dc8ab758f9",
+   "title": "哥伦比亚一警察指挥部遭无人机袭击已致3名平民受伤",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-24/10736779.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-23T23:11:43+00:00",
-   "note": "中新网11月24日电 据路透社报道，当地时间23日，以色列对加沙发动多轮空袭，造成3人死亡，其中包括一名联合国近东巴勒斯坦难民救济和工程处(近东救济工程处)的工作人员。",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-24T02:06:25+00:00",
+   "note": "中新网北京11月24日电 波哥大消息：哥伦比亚北部北桑坦德省首府库库塔市一警察指挥部当地时间23日遭装载爆炸物的无人机袭击，造成至少3名平民受伤，其中包括一名婴儿。",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "9013459af648",
-   "title": "Robert Macfarlane says trust in Cop to deliver change on climate is ‘misplaced’",
-   "url": "https://www.theguardian.com/environment/2026/nov/24/robert-macfarlane-trust-cop-climate-summit-deliver-change-misplaced",
-   "component": "diplomacy",
+   "id": "9dc90c5f02a0",
+   "title": "Why has Yemen’s offensive against the Houthis in al-Bayda stalled?",
+   "url": "https://www.aljazeera.com/news/2026/11/24/why-has-yemens-offensive-against-the-houthis-in-al-bayda-stalled?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-24T00:01:00+00:00",
-   "note": "Nature writer reveals in his first Reith lecture that he finds ‘much more hope’ in emerging alliances We are “misplacing our trust” in the Cop climate summits and their “capacity t",
-   "region": "OTHER"
-  },
-  {
-   "id": "d7c8247f2141",
-   "title": "Federal court clears way for army to detonate bomb-making material in Iowa",
-   "url": "https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-23T23:57:33+00:00",
-   "note": "Decision comes after Trump urged court to first sign off on what he called the safest way to resolve the situation A federal appeals court cleared way for the US army to detonate s",
-   "region": "OTHER"
-  },
-  {
-   "id": "38ccf2e18b36",
-   "title": "Drone attack on Colombia police base injures civilians, including infant",
-   "url": "https://www.aljazeera.com/news/2026/11/23/drone-attack-on-colombia-police-base-injures-civilians-including-infant?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-23T23:49:37+00:00",
-   "note": "Far-right President De la Espriella steps up offensive as rebel groups strike back with drone strikes, roadside bombs.",
-   "region": "LATAM"
+   "published": "2026-11-24T07:36:07+00:00",
+   "note": "Government forces made early gains in September, but Houthi fighting on multiple fronts has slowed the offensive.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "b40cddb30efe",
+   "title": "Live: Russian strikes on Ukraine’s Zaporizhzhia kill two people and wound dozens more",
+   "url": "https://www.france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-24T05:50:16+00:00",
+   "note": "A Russian attack killed two people in the Ukrainian city of Zaporizhzhia overnight, regional governor Mykhailo Semikin said on Tuesday. Some 40 people, four of them children, were ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "4f648ef46f1f",
+   "title": "Driver who allegedly killed 1, injured 3 others in Tsim Sha Tsui crash denied bail",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375573/driver-who-allegedly-killed-1-injured-3-others-tsim-sha-tsui-crash-denied-bail",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-24T05:40:12+00:00",
+   "note": "A man accused of killing a pedestrian and injuring three others in Tsim Sha Tsui while driving illegally has been denied bail in a Hong Kong court. Ngai Ho-lam, 38, was brought to ",
+   "region": "OTHER"
+  },
+  {
+   "id": "d61f61ae642d",
+   "title": "Dad who discovered daughter's murder on Facebook feels ignored by South African police",
+   "url": "https://www.bbc.co.uk/news/articles/cqglr0d5jejxo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-24T00:02:15+00:00",
+   "note": "South African communities tell the BBC of measures they're taking to keep women safe after a wave of horrific killings.",
+   "region": "AFRICA"
   },
   {
    "id": "1ed3f30d712b",
@@ -310,7 +445,7 @@
    "url": "https://news.un.org/feed/view/zh/story/2026/11/1143252",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.43,
+   "confidence": 0.22,
    "origins": 1,
    "sources": [
     "un_news_zh"
@@ -320,57 +455,12 @@
    "region": "AFRICA"
   },
   {
-   "id": "9af1f42dbc8e",
-   "title": "Ukraine claims it sank Russian warship off Libya",
-   "url": "https://www.france24.com/en/ukraine-claims-it-sank-russian-warship-off-libya",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-23T19:39:00+00:00",
-   "note": "Ukraine on Monday claimed it was behind strikes on two Russian vessels off Libya, including one that sank a modern warship, in the latest spillover from Moscow's invasion. The atta",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "22dd64f36768",
-   "title": "Armenian PM unveils draft constitution, key to Azerbaijan peace deal",
-   "url": "https://www.scmp.com/news/world/europe/article/3375528/armenian-pm-unveils-draft-constitution-key-azerbaijan-peace-deal",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-23T19:27:08+00:00",
-   "note": "Armenian leader Nikol Pashinyan unveiled a proposed new constitution on Monday that would get rid of a claim to the Karabakh region, saying it was the only way to reach a peace dea",
-   "region": "OTHER"
-  },
-  {
-   "id": "cbeb667c2fae",
-   "title": "Indonesia says 24 killed in factory fire, rescuers search for dozens missing",
-   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-23T12:52:00+00:00",
-   "note": "Indonesia confirmed on ⁠Monday the deaths of 24 ⁠people in a fire that tore ⁠through a factory at the weekend, as rescuers braved unstable structures in the burned wreckage in the ",
-   "region": "OTHER"
-  },
-  {
    "id": "1fd29616f0f7",
    "title": "German police respond to multiple school bomb threats",
    "url": "https://www.dw.com/en/german-police-respond-to-multiple-school-bomb-threats/a-80018842?maca=en-rss-en-world-4025-rdf",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "dw"
@@ -380,42 +470,12 @@
    "region": "EUROPE"
   },
   {
-   "id": "a9cf48c2a98a",
-   "title": "Abby Choi’s ex-husband denies lying, says lawyer’s advice hurt brother’s defence",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375496/abby-chois-ex-husband-denies-lying-says-lawyers-advice-hurt-brothers-defence",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-23T10:42:00+00:00",
-   "note": "Slain Hong Kong socialite Abby Choi Tin-fung’s ex-husband has denied lying about the circumstances of her death and blamed a lawyer for allegedly giving misconceived advice that un",
-   "region": "OTHER"
-  },
-  {
-   "id": "435cd93cc11e",
-   "title": "Alleged triad member in fatal Hong Kong crash was freed from jail two weeks ago",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375493/alleged-triad-member-fatal-hong-kong-crash-was-released-jail-two-weeks-ago",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-23T10:39:29+00:00",
-   "note": "A man arrested on suspicion of drink-driving after a crash in Hong Kong’s busy Tsim Sha Tsui district killed a pedestrian is an alleged triad member who was released from prison tw",
-   "region": "OTHER"
-  },
-  {
    "id": "9d13810f8734",
    "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
    "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -440,39 +500,39 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "a4c584e8cde1",
-   "title": "Three killed and dozens missing after fire at Indonesian factory",
-   "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+   "id": "2993f64e0871",
+   "title": "广西崇左借力民族传统体育 搭建各民族“三交”新平台",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737066.shtml",
    "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
+   "severity": 4,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "bbc"
+    "chinanews_cn"
    ],
-   "published": "2026-11-22T14:05:20+00:00",
-   "note": "At least three people were killed and many more feared dead after a fire at a confectionary factory.",
+   "published": "2026-11-24T09:26:23+00:00",
+   "note": "中新网崇左11月24日电(杨陈 陆锋)广西第十六届少数民族传统体育运动会近期落下帷幕，崇左代表团载誉而归。赛场之上，各族运动员奋勇争先、携手同行；赛场之外，抛绣球、板鞋竞速、竹竿舞、珍珠球等特色民族体育项目走进崇左校园、边境村寨、边关景区和城市社区，成为当地促进各民族交往交流交融、铸牢中华民族共同体意识的生动实践。",
    "region": "OTHER"
   },
   {
-   "id": "97ea58bb7149",
-   "title": "Dozens missing as deadly fire tears through Indonesian candy factory",
-   "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-tears-through-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-rdf",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
+   "id": "b6f046bead9e",
+   "title": "Italy expresses concern to Ukraine over Libya ship attacks – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "dw"
+    "guardian"
    ],
-   "published": "2026-11-22T06:14:00+00:00",
-   "note": "At least 24 people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger tr",
-   "region": "OTHER"
+   "published": "2026-11-24T13:28:22+00:00",
+   "note": "Ukraine earlier confirmed that it deployed naval drones in strikes on Russian vessels off the coast of Libya The leader of Spain’s leftwing Broad Front coalition has called for a d",
+   "region": "RUSSIA_CIS"
   },
   {
-   "id": "892602a0eca1",
-   "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
-   "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
+   "id": "1ad9086e17d5",
+   "title": "UK sanctions Yemen’s Houthi group and four of its top officials",
+   "url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
    "component": "diplomacy",
    "severity": 4,
    "confidence": 0.56,
@@ -480,89 +540,121 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-23T23:26:16+00:00",
-   "note": "Proposed sanctions aim to curb Russian crypto financing and 'propaganda' in sports.",
-   "region": "EUROPE"
+   "published": "2026-11-24T12:55:55+00:00",
+   "note": "Group must be held accountable for 'targeting our partners and innocent civilians', says Foreign Secretary Ed Miliband.",
+   "region": "MIDDLE_EAST"
   },
   {
-   "id": "b9df46f31fa0",
-   "title": "14 countries acknowledge ICJ ruling of genocide against Rohingya",
-   "url": "https://www.france24.com/en/asia-pacific/20261123-14-countries-acknowledge-icj-ruling-of-genocide-against-rohingya",
+   "id": "96e280cc31af",
+   "title": "‘We’ll keep sinking Russian ships’: Ukraine challenges Putin’s global reach",
+   "url": "https://www.aljazeera.com/news/2026/11/24/can-ukraine-disrupt-russias-operations-in-africa?traffic_source=rss",
    "component": "military",
    "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-24T12:47:23+00:00",
+   "note": "Ukraine's strike off Libya signals Kyiv's ability to challenge Russian influence beyond the front lines.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "f14563147b95",
+   "title": "Luxury barge discovery in North Korea raises questions about UN sanctions compliance",
+   "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3375646/luxury-barge-discovery-north-korea-raises-questions-about-un-sanctions-compliance",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-24T12:30:58+00:00",
+   "note": "A newly identified luxury barge in North Korea’s eastern port city of Wonsan could be intended for use by leader Kim Jong-un to shore up loyalty among ruling elites and entertain f",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "27e01214f4b5",
+   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+   "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-24T12:12:48+00:00",
+   "note": "Naeem Abu Nahel, who had only been in the position for two months, was targeted in western Gaza City, Gaza's interior ministry says.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "c7901d82f6d8",
+   "title": "Australian music teacher jailed for 8½ years for raping pupil, having his baby",
+   "url": "https://www.scmp.com/week-asia/people/article/3375643/australian-music-teacher-jailed-8-1/2-years-raping-pupil-having-his-baby",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-24T12:09:47+00:00",
+   "note": "An Australian teacher who sexually abused a 12-year-old pupil and gave birth to his child has been sentenced to 8½ years in prison and ordered to stay away from the boy for life. N",
+   "region": "OCEANIA"
+  }
+ ],
+ "breaking": [
+  {
+   "id": "b6f046bead9e",
+   "title": "Italy expresses concern to Ukraine over Libya ship attacks – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-24T13:28:22+00:00",
+   "note": "Ukraine earlier confirmed that it deployed naval drones in strikes on Russian vessels off the coast of Libya The leader of Spain’s leftwing Broad Front coalition has called for a d",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "541b38aa0310",
+   "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-24T13:28:18+00:00",
+   "note": "Israeli air strikes in Gaza on Tuesday killed seven people including Hamas’ director of internal security, Palestinian officials in the territory said, despite a ceasefire in place",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8a2c1b75c359",
+   "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
+   "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+   "component": "military",
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-23T23:10:22+00:00",
-   "note": "14 from Europe, Africa and Oceania have acknowledged a landmark ruling by the International Court of Justice that Myanmar committed genocide against its Rohingya minority, calling ",
-   "region": "EUROPE"
-  },
-  {
-   "id": "7467c3f54a68",
-   "title": "US escalates sanctions on Iran, targets ‘shadow banking’ networks",
-   "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-23T21:30:40+00:00",
-   "note": "US Treasury sanctions over two dozen Iranian entities, citing efforts to disrupt Tehran's global financial activities.",
+   "published": "2026-11-24T13:07:03+00:00",
+   "note": "Israeli air strikes on the devastated Gaza Strip killed Brigadier General Naeem Abu Nahel, director-general of the Palestinian territory's Internal Security Service on Tuesday, the",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "15ffd0eb528c",
-   "title": "EU proposes banning Russian flags at sports events under new sanctions",
-   "url": "https://www.scmp.com/news/world/europe/article/3375530/eu-moves-ban-russian-flags-sports-events-under-new-sanctions",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-23T21:15:30+00:00",
-   "note": "European Commission President Ursula von der Leyen has announced a proposal for the next sanctions package over Russia’s war against Ukraine that would ban Russian teams and indivi",
-   "region": "EUROPE"
-  },
-  {
-   "id": "3fed1097fc5e",
-   "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-   "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-23T20:48:35+00:00",
-   "note": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "ff5f901d6db7",
-   "title": "UK sanctions Myanmar’s Min Aung Hlaing over genocide ruling; giving Rohingya aid, money",
-   "url": "https://www.scmp.com/news/world/europe/article/3375529/uk-sanctions-myanmar-president-military-figures-after-genocide-ruling",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-23T20:29:04+00:00",
-   "note": "Britain ⁠on Monday announced sanctions against five ‌people under its Myanmar and global human rights sanctions ⁠regimes, including senior ‌members of the nation’s military. The ‌s",
-   "region": "EUROPE"
-  },
-  {
-   "id": "d648c1f2de19",
-   "title": "Iran hits US bases and civilian sites in the Gulf after a lull",
-   "url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
+   "id": "1ad9086e17d5",
+   "title": "UK sanctions Yemen’s Houthi group and four of its top officials",
+   "url": "https://www.aljazeera.com/news/2026/11/24/uk-sanctions-yemens-houthi-group-four-senior-officials?traffic_source=rss",
    "component": "diplomacy",
    "severity": 4,
    "confidence": 0.56,
@@ -570,112 +662,20 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-23T20:26:40+00:00",
-   "note": "Tehran has ramped up attacks in recent days as the US naval blockade and sanctions campaign hurt the country.",
+   "published": "2026-11-24T12:55:55+00:00",
+   "note": "Group must be held accountable for 'targeting our partners and innocent civilians', says Foreign Secretary Ed Miliband.",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "c2ed3f76c67e",
-   "title": "利比亚：联合国特派团敦促对班加西港口袭击事件展开调查",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143251",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.43,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-23T12:00:00+00:00",
-   "note": "联合国利比亚支助团呼吁对周日发生在东部城市班加西港口及近海的袭击事件展开独立调查。",
-   "region": "AFRICA"
-  },
-  {
-   "id": "122b249dd6fc",
-   "title": "安理会讨论乌克兰局势：袭击加剧平民苦难，黑海粮食运输受阻",
-   "url": "https://news.un.org/feed/view/zh/story/2026/11/1143250",
-   "component": "economy",
-   "severity": 4,
-   "confidence": 0.43,
-   "origins": 1,
-   "sources": [
-    "un_news_zh"
-   ],
-   "published": "2026-11-23T12:00:00+00:00",
-   "note": "联合国负责政治事务的副秘书长迪卡洛、世界粮食计划署执行主任林德伯格和联合国开发计划署署长德克罗周一在安理会就乌克兰局势作通报，指出俄罗斯对乌克兰能源及其他民用基础设施的持续袭击，正在加剧平民苦难，随着冬季临近，供电、供暖和供水中断带来的人道主义风险进一步上升。与此同时，黑海地区的袭击持续威胁粮食运输，影响全球粮食安全。",
-   "region": "RUSSIA_CIS"
-  }
- ],
- "breaking": [
-  {
-   "id": "9013459af648",
-   "title": "Robert Macfarlane says trust in Cop to deliver change on climate is ‘misplaced’",
-   "url": "https://www.theguardian.com/environment/2026/nov/24/robert-macfarlane-trust-cop-climate-summit-deliver-change-misplaced",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-24T00:01:00+00:00",
-   "note": "Nature writer reveals in his first Reith lecture that he finds ‘much more hope’ in emerging alliances We are “misplacing our trust” in the Cop climate summits and their “capacity t",
-   "region": "OTHER"
-  },
-  {
-   "id": "d7c8247f2141",
-   "title": "Federal court clears way for army to detonate bomb-making material in Iowa",
-   "url": "https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-23T23:57:33+00:00",
-   "note": "Decision comes after Trump urged court to first sign off on what he called the safest way to resolve the situation A federal appeals court cleared way for the US army to detonate s",
-   "region": "OTHER"
-  },
-  {
-   "id": "38ccf2e18b36",
-   "title": "Drone attack on Colombia police base injures civilians, including infant",
-   "url": "https://www.aljazeera.com/news/2026/11/23/drone-attack-on-colombia-police-base-injures-civilians-including-infant?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-23T23:49:37+00:00",
-   "note": "Far-right President De la Espriella steps up offensive as rebel groups strike back with drone strikes, roadside bombs.",
-   "region": "LATAM"
-  },
-  {
-   "id": "892602a0eca1",
-   "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
-   "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-23T23:26:16+00:00",
-   "note": "Proposed sanctions aim to curb Russian crypto financing and 'propaganda' in sports.",
-   "region": "EUROPE"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 34460,
-  "gdelt_events": 34210,
+  "items": 38225,
+  "gdelt_events": 37968,
   "mode": "live",
   "data_through": "2026-11-23",
-  "clusters": 243,
-  "origins": 245,
+  "clusters": 255,
+  "origins": 256,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1223,43 +1223,107 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "甘肃检察机关依法对方红卫涉嫌受贿案提起公诉",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10736803.shtml",
+    "title": "中共上海市委書記陳吉寧被查 政治局委員罕見落馬",
+    "url": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
+    "country": "",
+    "source": "bbc_zh",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "Australian music teacher jailed for 8½ years for raping pupil, having his baby",
+    "url": "https://www.scmp.com/week-asia/people/article/3375643/australian-music-teacher-jailed-8-1/2-years-raping-pupil-having-his-baby",
+    "country": "AU",
+    "source": "scmp",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "原四川省交通投资集团有限责任公司党委委员、职工董事、工会主席彭洪严重违纪违法被开除党籍",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737156.shtml",
     "country": "",
     "source": "chinanews_cn",
     "when": "2026-11-24"
    },
    {
     "kind": "judicial",
-    "title": "Iranian singer and four others receive lashes after performance without hijab",
-    "url": "https://www.theguardian.com/world/2026/nov/23/iranian-singer-lashes-performing-without-hijab",
-    "country": "IR",
-    "source": "guardian",
-    "when": "2026-11-23"
-   },
-   {
-    "kind": "judicial",
-    "title": "Gisèle Pelicot ‘deeply shocked’ after nude images used to promote book",
-    "url": "https://www.theguardian.com/world/2026/nov/23/gisele-pelicot-deeply-shocked-nude-images-book-france",
+    "title": "四川省阿坝州人大常委会原党组副书记、副主任贺松严重违纪违法被开除党籍和公职",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737154.shtml",
     "country": "",
-    "source": "guardian",
-    "when": "2026-11-23"
+    "source": "chinanews_cn",
+    "when": "2026-11-24"
    },
    {
     "kind": "judicial",
-    "title": "UK Grand Theft Auto VI hacker gets 7-year sentence",
-    "url": "https://www.scmp.com/news/world/europe/article/3375524/uk-grand-theft-auto-vi-hacker-gets-7-year-sentence",
-    "country": "GB",
+    "title": "江西省金融控股集团有限公司副总经理吴晓接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737107.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "甘肃省人大环境资源保护委员会原副主任委员苏跃华被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737069.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "Shanghai Communist Party chief Chen Jining placed under investigation",
+    "url": "https://www.scmp.com/news/china/politics/article/3375640/shanghai-party-chief-faces-corruption-probe",
+    "country": "",
     "source": "scmp",
-    "when": "2026-11-23"
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737144.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "2026年10月全国查处违反中央八项规定精神问题28934起",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737139.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "贵州省委原常委、毕节市委原书记吴胜华一审被判无期徒刑",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737116.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "非法收受财物1.13亿余元 吴胜华一审被判无期徒刑",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-24/10737058.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-24"
+   },
+   {
+    "kind": "judicial",
+    "title": "Sports whistleblowers protected under proposed laws amid Australian cricket ball tampering saga",
+    "url": "https://www.theguardian.com/australia-news/2026/nov/24/sports-whistleblowers-protected-proposed-laws-australian-cricket-ball-tampering-sandpapergate-ntwnfb",
+    "country": "ZA",
+    "source": "guardian",
+    "when": "2026-11-24"
    }
   ],
-  "notable_total": 4,
+  "notable_total": 15,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 4
+   "notable": 15
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2370,8 +2434,8 @@
   }
  },
  "epidemic": {
-  "index": 51.0,
-  "z": 0.03,
+  "index": 50.5,
+  "z": 0.02,
   "components": [
    {
     "key": "who_don",
@@ -2387,20 +2451,20 @@
     "key": "policy",
     "label": "政策信号",
     "weight": 0.3,
-    "value": 1.0,
-    "carry": 0.82,
-    "z": 0.31,
-    "score": 59.5,
+    "value": 0.0,
+    "carry": 0.71,
+    "z": 0.18,
+    "score": 55.7,
     "available": true
    },
    {
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.4,
-    "carry": 0.83,
-    "z": -0.1,
-    "score": 46.8,
+    "value": 0.78,
+    "carry": 0.87,
+    "z": -0.02,
+    "score": 49.3,
     "available": true
    }
   ],
@@ -2414,14 +2478,7 @@
    "ongoing": true
   },
   "evidence": {
-   "who": [
-    {
-     "t": "伊朗制定综合措施应对制裁和封锁 卡塔尔首相赴美继续调解",
-     "v": "政策",
-     "ts": "",
-     "u": ""
-    }
-   ]
+   "who": []
   }
  },
  "doom": {
@@ -2430,7 +2487,7 @@
   "parts": {
    "military": 0.43,
    "hazard": 0.08,
-   "epidemic": 0.02
+   "epidemic": 0.01
   },
   "resonance": 0,
   "partial": false,
@@ -2441,40 +2498,22 @@
   ]
  },
  "manual": {
-  "items": [
-   {
-    "number": 1,
-    "title": "线索：工伤认定新闻（测试）",
-    "note": "工伤认定问题",
-    "url": "https://github.com/jonetap/geti/issues/1",
-    "author": "jonetap",
-    "created": "2026-11-04T12:36:06Z",
-    "links": [
-     "https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/SuilUDmQOA1-LzmKwmgg7g"
-    ],
-    "images": [
-     "intel/9d8835a9a14b1106.png"
-    ],
-    "kind": "link",
-    "seen": false
-   }
-  ],
-  "unseen": 1,
-  "note": "人工提交 1 条，其中 1 条抓取器没有收录——这类条目也可能是我们的盲区。本层不计分。",
-  "mode": "shadow"
+  "items": [],
+  "note": "读取人工线索失败：HTTPError: HTTP Error 403: rate limit exceeded（不影响指数）",
+  "mode": "failed"
  },
  "adapters": [
   {
    "source": "gdelt_recent",
    "ok": true,
    "files": 143,
-   "items": 34210,
+   "items": 37968,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 30,
+   "items": 27,
    "error": "",
    "undated": 0
   },
@@ -2488,14 +2527,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 35,
+   "items": 39,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "error": "",
    "undated": 0
   },
@@ -2523,7 +2562,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 5,
+   "items": 7,
    "error": "",
    "undated": 0
   },
@@ -2544,7 +2583,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 14,
+   "items": 17,
    "error": "",
    "undated": 0
   },
@@ -2641,13 +2680,14 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 7725,
+   "items": 9912,
    "error": ""
   },
   {
    "source": "manual:intel",
-   "ok": true,
-   "items": 1
+   "ok": false,
+   "items": 0,
+   "error": "HTTPError: HTTP Error 403: rate limit exceeded"
   }
  ]
 }
