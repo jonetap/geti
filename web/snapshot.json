@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-25T08:29:20+00:00",
+ "generated_at": "2026-11-25T19:14:24+00:00",
  "date": "2026-11-24",
  "geti": 65.1,
  "delta_z": 0.27,
@@ -245,25 +245,101 @@
  ],
  "events": [
   {
-   "id": "544159a04029",
-   "title": "🔴 Colombia president says all hostages freed, one assailant killed after supermarket hostage siege",
-   "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
+   "id": "7b5f3620d7d0",
+   "title": "All hostages rescued after Colombian security forces storm supermarket",
+   "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.97,
+   "origins": 3,
+   "sources": [
+    "guardian",
+    "aljazeera",
+    "france24"
+   ],
+   "published": "2026-11-25T18:20:20+00:00",
+   "note": "Operation in which one hostage-taker was killed ends daylong siege in Cartagena shopping centre, where 30 people were initially held Colombian police have stormed a supermarket in ",
+   "region": "LATAM"
+  },
+  {
+   "id": "a5b4e63f241c",
+   "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+   "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24",
-    "france24"
+    "bbc"
    ],
-   "published": "2026-11-25T07:20:50+00:00",
-   "note": "",
+   "published": "2026-11-25T18:41:33+00:00",
+   "note": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
    "region": "LATAM"
   },
   {
-   "id": "a250095fe693",
-   "title": "Energy bills in Great Britain to rise 26% in January, lifting annual bills over £2,000",
-   "url": "https://www.theguardian.com/money/2026/nov/25/energy-bills-in-great-britain-to-rise-ofgem-price-cap",
+   "id": "d503fbd3f5d0",
+   "title": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-25T18:24:48+00:00",
+   "note": "Controlled blast to dispose of lead azide risks releasing plumes of toxic chemicals in 100-mile radius The US army detonated the nation’s entire stockpile of the the bomb-making ma",
+   "region": "OTHER"
+  },
+  {
+   "id": "6d0900ba5bef",
+   "title": "Turkey's deadly factory blast: 'Investing in safety costs more than letting people die'",
+   "url": "https://www.france24.com/en/europe/20261125-factory-blast-turkey-izmir",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-25T17:28:33+00:00",
+   "note": "An explosion at a steel factory on November 9 in Turkey's Aliaga, near Izmir, killed 19 people. This tragedy follows several others and highlights the issues surrounding workers’ s",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "429a1ffbdd67",
+   "title": "US Army calls Iowa lead detonation a ‘huge success’ and says threat of spontaneous explosions has been ‘eliminated’ – as it happened",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/25/iowa-lead-azide-detonation-army-explosion-bomb-live-updates",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-25T17:20:49+00:00",
+   "note": "This live blog is now closed. For the latest news on this detonation in Iowa, read our full story: Smoke seen from a mile away as army detonates bomb-making chemicals The United St",
+   "region": "OTHER"
+  },
+  {
+   "id": "2da5f5a5022a",
+   "title": "Paris takes on masculinist movements",
+   "url": "https://www.france24.com/en/video/20261125-paris-takes-on-masculinist-movements",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-25T16:52:22+00:00",
+   "note": "As masculinist movements face their first major trial in Paris, the city has announced several initiatives to combat this ideology. The campaign aims to call attention to the real-",
+   "region": "OTHER"
+  },
+  {
+   "id": "091a4819372d",
+   "title": "‘Russia wants more than Ukraine,’ Germany’s Merz warns – as it happened",
+   "url": "https://www.theguardian.com/world/live/2026/nov/25/ukraine-russia-energy-strikes-mark-rutte-donald-trump-friedrich-merz-germany-latest-news-updates",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -271,9 +347,189 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-25T07:03:21+00:00",
-   "note": "Ofgem’s price cap will increase for third quarter in a row after rise in wholesale cost of gas Millions of British households will face annual energy bills of more than £2,000 a ye",
-   "region": "EUROPE"
+   "published": "2026-11-25T16:20:53+00:00",
+   "note": "German chancellor, in wide-ranging speech, says Moscow is ‘escalating on a massive scale’ If you want to hear more about the new death toll, listen to today’s Today in Focus podcas",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "8bffeec849ec",
+   "title": "Russian casualties in Ukraine war: New reports suggest death toll as high as 700,000",
+   "url": "https://www.france24.com/en/video/20261125-russian-casualties-in-ukraine-war-new-reports-suggest-death-toll-as-high-as-700-000",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-25T16:17:02+00:00",
+   "note": "New analysis of leaked Russian government data suggests some 700,000 Russian soldiers have died in the war against Ukraine. Independent Russian media outlets have updated their est",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "1e1eaafbb103",
+   "title": "Iowa: Toxic dust fears as US Army blows up 10,000 pounds of explosives",
+   "url": "https://www.france24.com/en/video/20261125-iowa-toxic-dust-fears-as-us-army-blows-up-10-000-pounds-of-explosives",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-25T16:14:40+00:00",
+   "note": "An enormous explosion rang out across rural Iowa Tuesday as the US military carried out the controlled detonation of some 10,000 pounds of lead azide. US officials say the material",
+   "region": "OTHER"
+  },
+  {
+   "id": "c09833a01bc1",
+   "title": "Jerusalem Daily: Israel kills Hamas’s Gaza security chief",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/jerusalem-daily-israel-kills-hamass-gaza-security-chief?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-25T16:02:22+00:00",
+   "note": "Israel assassinated Hamas’s internal security chief in Gaza City, killing him and six others in a strike",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "2f7f25903e5e",
+   "title": "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war",
+   "url": "https://www.france24.com/en/europe/20261125-kremlin-declines-comment-reports-700-000-russian-soldiers-killed-ukraine-war",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-25T15:14:07+00:00",
+   "note": "Kremlin spokesman Dmitry Peskov on Wednesday declined to comment on reports in Russian and international news outlets that around 700,000 Russian soldiers have been killed in the U",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "c83707ca2567",
+   "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-25T14:46:41+00:00",
+   "note": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "1b03e01b70c1",
+   "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
+   "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-25T14:06:13+00:00",
+   "note": "Mohammed Abu al-Ouf, head of Hamas's internal security service in northern Gaza, was killed with his wife and two teenage daughters, doctors say.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "f5848a240e52",
+   "title": "Swiss tourist killed and British and Americans injured by elephants in Cameroon",
+   "url": "https://www.theguardian.com/environment/2026/nov/25/swiss-tourist-killed-british-americans-injured-elephants-cameroon",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-25T14:03:18+00:00",
+   "note": "Alain Throo, insurance executive based in London, reportedly gored and later died on hike near Mount Cameroon national park A Swiss tourist has been killed and British and American",
+   "region": "OTHER"
+  },
+  {
+   "id": "30b5b58de3a8",
+   "title": "Syrian teams clear landmines after deadly explosion",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/syrian-teams-clear-landmines-after-deadly-explosion?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-25T13:51:15+00:00",
+   "note": "Syrian teams clear landmines after deadly explosion",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "150493361e3c",
+   "title": "Number of women killed by men in Ireland almost doubles in a year",
+   "url": "https://www.theguardian.com/society/2026/nov/25/number-of-women-killed-by-men-in-ireland-almost-doubles-in-a-year",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-25T13:28:39+00:00",
+   "note": "Figures from past 30 years show more than half of victims killed by current or ex-partner The number of women in Ireland killed by men has surged in the past five years and risen e",
+   "region": "OTHER"
+  },
+  {
+   "id": "29635db50b49",
+   "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+   "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-25T12:21:49+00:00",
+   "note": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "354138f78885",
+   "title": "Sri Lankan asylum seeker killed himself after being sent by UK to Eswatini",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/25/sri-lanka-asylum-seeker-convicted-sexual-assault-uk-kills-himself-eswatini",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-25T11:28:05+00:00",
+   "note": "Kishanth Peramalya was denied entry due to sexual assault convictions and sent to Africa where he had no connections The UK sent a Sri Lankan asylum seeker who had been convicted o",
+   "region": "AFRICA"
+  },
+  {
+   "id": "d8d7e9e65276",
+   "title": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughters",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3375752/israeli-strike-gaza-kills-hamas-security-chief-wife-and-teenage-daughters",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-25T09:27:55+00:00",
+   "note": "An Israeli strike killed a Gaza security official, his wife and their two daughters on Wednesday, first responders and officials said, while the Israeli military said it “targeted ",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "deb51d509b11",
@@ -281,7 +537,7 @@
    "url": "https://www.scmp.com/news/hong-kong/society/article/3375666/families-9-out-10-helpers-killed-tai-po-blaze-still-awaiting-compensation",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -291,83 +547,8 @@
    "region": "OTHER"
   },
   {
-   "id": "522969cfde51",
-   "title": "Israeli strike kills four people in Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-25T04:13:58+00:00",
-   "note": "An Israeli airstrike on an apartment building in the Shati refugee camp has killed at least four people.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "0fba011a9bf5",
-   "title": "Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi",
-   "url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-25T03:46:51+00:00",
-   "note": "Two Libyan soldiers have died from injuries sustained in an attack, claimed by Ukraine, on Russian ships near Benghazi, a senior figure in the administration in eastern Libya said ",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "47923092526f",
-   "title": "The Russian army’s secret death toll – podcast",
-   "url": "https://www.theguardian.com/news/audio/2026/nov/25/the-russian-armys-secret-death-toll-podcast",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-25T03:00:03+00:00",
-   "note": "Vladimir Putin has always kept the number of soldiers killed in Ukraine a secret, but at one point 720 were dying in 24 hours. Pjotr Sauer reports. Send your comments and questions",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "8af13705fbd5",
-   "title": "Police free hostages held in Colombia supermarket after failed armoured car raid",
-   "url": "https://www.scmp.com/news/world/americas/article/3375682/gunmen-hold-hostages-colombia-supermarket-after-failed-armoured-car-raid",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-25T01:56:28+00:00",
-   "note": "Colombian security forces stormed a supermarket in the Caribbean city of Cartagena early on Wednesday, ending a day-long hostage siege – with the president saying all hostages had ",
-   "region": "LATAM"
-  },
-  {
-   "id": "29635db50b49",
-   "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
-   "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-25T00:56:51+00:00",
-   "note": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "bf6713e6bddb",
-   "title": "My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+   "title": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
    "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
@@ -381,57 +562,12 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "b7a2db06d0a9",
-   "title": "US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving",
-   "url": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-25T00:33:16+00:00",
-   "note": "Residents warned to stay indoors amid conflicting information about how far the dust plume could travel The US Army is set to detonate 68 barrels – five tons – of lead azide at an ",
-   "region": "OTHER"
-  },
-  {
-   "id": "e4361ff02d51",
-   "title": "Car bomb destroys buildings in central Colombian city",
-   "url": "https://www.france24.com/en/car-bomb-destroys-buildings-in-central-colombian-city",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-24T19:27:10+00:00",
-   "note": "A car bomb detonated in the central Colombian city of Villavicencio on Monday, destroying a local governor's office and surrounding buildings, President Abelardo de la Espriella sa",
-   "region": "LATAM"
-  },
-  {
-   "id": "3454635b33b2",
-   "title": "Russian losses on Ukrainian front top 700,000 including missing",
-   "url": "https://www.france24.com/en/russian-losses-on-ukrainian-front-top-700-000-including-missing",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-24T19:22:31+00:00",
-   "note": "New analysis of leaked Russian government data suggests more than 700,000 Russian soldiers have died in the war against Ukraine. Independent Russian media outlets have updated thei",
-   "region": "RUSSIA_CIS"
-  },
-  {
    "id": "604dc3fe93b8",
    "title": "More than 300 Russians killed as Moscow props up Mali’s junta, leaked data reveals",
    "url": "https://www.theguardian.com/world/2026/nov/24/russian-fighters-killed-in-mali-africa-leaked-data",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -441,114 +577,9 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "27e01214f4b5",
-   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-   "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-24T15:35:53+00:00",
-   "note": "Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "da4066bb3bdb",
-   "title": "Land mine casualties soar in Syria, two years after war",
-   "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-24T15:17:28+00:00",
-   "note": "Nearly 1,000 children are among those killed or injured by explosives left over from the conflict, figures show.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "541b38aa0310",
-   "title": "Hamas security chief killed in Israeli air strike on Gaza City",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-24T13:28:18+00:00",
-   "note": "Israeli air strikes in Gaza on Tuesday killed seven people including Hamas’ director of internal security, Palestinian officials in the territory said, despite a ceasefire in place",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "d61f61ae642d",
-   "title": "Dad who discovered daughter's murder on Facebook feels ignored by South African police",
-   "url": "https://www.bbc.co.uk/news/articles/cqglr0d5jejxo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-24T00:02:15+00:00",
-   "note": "South African communities tell the BBC of measures they're taking to keep women safe after a wave of horrific killings.",
-   "region": "AFRICA"
-  },
-  {
-   "id": "1fd29616f0f7",
-   "title": "German police respond to multiple school bomb threats",
-   "url": "https://www.dw.com/en/german-police-respond-to-multiple-school-bomb-threats/a-80018842?maca=en-rss-en-world-4025-rdf",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "dw"
-   ],
-   "published": "2026-11-23T11:01:00+00:00",
-   "note": "Police in Germany are responding to bomb threats against a series of schools, but say that at present they don't believe them to be credible. Danish authorities are reporting a sim",
-   "region": "EUROPE"
-  },
-  {
-   "id": "94494d1b92a0",
-   "title": "沙特主导联军袭击也门荷台达港 胡塞武装威胁沙特红海沿岸港口",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737475.shtml",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-25T05:56:34+00:00",
-   "note": "中新社北京11月25日电 综合消息：沙特主导的多国联军25日对也门荷台达港及萨达省、阿姆兰省目标实施打击。此前，也门胡塞武装军事发言人叶海亚·萨雷亚威胁称，若荷台达港遭袭，沙特红海沿岸所有港口都将成为打击目标。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "c60154b1afb9",
-   "title": "泽连斯基证实乌方袭击芬兰湾俄货船 多国担忧俄乌冲突外溢",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737420.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-25T03:27:58+00:00",
-   "note": "中新社北京11月25日电 综合消息：乌克兰总统泽连斯基24日证实，乌方此前在芬兰湾袭击了俄罗斯货船。乌克兰近期在波罗的海和利比亚水域发动的袭击，引发各国对俄乌冲突向其他地区蔓延的担忧。",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "9554fccc7226",
-   "title": "‘They don’t believe in freedom’: Yemenis plan their escape as Houthis advance on Aden",
-   "url": "https://www.theguardian.com/world/2026/nov/25/yemen-houthis-advance-aden",
+   "id": "f4e183d12cad",
+   "title": "Trump administration approves Elon Musk’s plan for datacenters in space",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/spacex-datacenter-satellites-approval",
    "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
@@ -556,128 +587,99 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-25T05:00:06+00:00",
-   "note": "With Iran’s proxy fighters encircling the temporary capital, residents and NGOs prepare to evacuate Hussein fled his home six years ago after it fell under Houthi control, moving a",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "d1a01a78db40",
-   "title": "外媒：胡塞武装再次袭击沙特首都高楼 至少11人受伤",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737354.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-25T02:15:26+00:00",
-   "note": "中新网11月25日电 综合外媒报道，也门胡塞武装24日再次袭击沙特阿拉伯首都利雅得的一栋大楼，造成至少11人受伤。这是该建筑不到一周内第二次遭袭。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "94bc7c3181dd",
-   "title": "WHO chief urges end to US fuel blockade on Cuba",
-   "url": "https://www.aljazeera.com/news/2026/11/25/who-chief-urges-end-to-us-fuel-blockade-on-cuba?traffic_source=rss",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-25T02:23:19+00:00",
-   "note": "UN allocates $2m for immunisation and medical equipment as Cuban healthcare struggles with critical shortages.",
+   "published": "2026-11-25T18:21:47+00:00",
+   "note": "The FCC approved 1m Starmind satellites, with the deployment of 100,000 no later than November 2035 US federal regulators approved a constellation of datacenters to process data in",
    "region": "OTHER"
   },
   {
-   "id": "0c0e86f30a7c",
-   "title": "One lame duck and two turkeys as Trump plays the hits at Thanksgiving ceremony",
-   "url": "https://www.theguardian.com/us-news/2026/nov/24/donald-trump-turkey-pardon",
-   "component": "internal",
+   "id": "6b7d473b0f9c",
+   "title": "Woman did not believe husband had drugged her for rape by strangers, Manchester trial told",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/25/woman-did-not-believe-husband-drugged-her-for-rape-by-strangers-manchester-trial",
+   "component": "narrative",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-25T00:56:48+00:00",
-   "note": "Levity was in short supply as president, reeling from midterms rout, talked up his achievements – and fixated on White House vanity project For some, it was his pardoning of the Ja",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-25T17:36:42+00:00",
+   "note": "Wife said to detectives: ‘I had no knowledge of what you told me had happened and I still can’t believe it’s true’ A woman who was allegedly raped and sexually assaulted by men her",
+   "region": "OTHER"
   }
  ],
  "breaking": [
   {
-   "id": "544159a04029",
-   "title": "🔴 Colombia president says all hostages freed, one assailant killed after supermarket hostage siege",
-   "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights",
+   "id": "a5b4e63f241c",
+   "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+   "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "france24",
-    "france24"
+    "bbc"
    ],
-   "published": "2026-11-25T07:20:50+00:00",
-   "note": "",
+   "published": "2026-11-25T18:41:33+00:00",
+   "note": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
    "region": "LATAM"
   },
   {
-   "id": "a250095fe693",
-   "title": "Energy bills in Great Britain to rise 26% in January, lifting annual bills over £2,000",
-   "url": "https://www.theguardian.com/money/2026/nov/25/energy-bills-in-great-britain-to-rise-ofgem-price-cap",
-   "component": "narrative",
+   "id": "d503fbd3f5d0",
+   "title": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-25T07:03:21+00:00",
-   "note": "Ofgem’s price cap will increase for third quarter in a row after rise in wholesale cost of gas Millions of British households will face annual energy bills of more than £2,000 a ye",
-   "region": "EUROPE"
-  },
-  {
-   "id": "deb51d509b11",
-   "title": "Families of 9 out of 10 helpers killed in Tai Po blaze still awaiting compensation",
-   "url": "https://www.scmp.com/news/hong-kong/society/article/3375666/families-9-out-10-helpers-killed-tai-po-blaze-still-awaiting-compensation",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-25T07:00:06+00:00",
-   "note": "Relatives of nine out of the 10 foreign domestic helpers who died at their Hong Kong employers’ homes in Wang Fuk Court have yet to receive statutory death compensation from insure",
+   "published": "2026-11-25T18:24:48+00:00",
+   "note": "Controlled blast to dispose of lead azide risks releasing plumes of toxic chemicals in 100-mile radius The US army detonated the nation’s entire stockpile of the the bomb-making ma",
    "region": "OTHER"
   },
   {
-   "id": "94494d1b92a0",
-   "title": "沙特主导联军袭击也门荷台达港 胡塞武装威胁沙特红海沿岸港口",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737475.shtml",
-   "component": "military",
+   "id": "f4e183d12cad",
+   "title": "Trump administration approves Elon Musk’s plan for datacenters in space",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/spacex-datacenter-satellites-approval",
+   "component": "narrative",
    "severity": 4,
-   "confidence": 0.64,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "guardian"
    ],
-   "published": "2026-11-25T05:56:34+00:00",
-   "note": "中新社北京11月25日电 综合消息：沙特主导的多国联军25日对也门荷台达港及萨达省、阿姆兰省目标实施打击。此前，也门胡塞武装军事发言人叶海亚·萨雷亚威胁称，若荷台达港遭袭，沙特红海沿岸所有港口都将成为打击目标。",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-25T18:21:47+00:00",
+   "note": "The FCC approved 1m Starmind satellites, with the deployment of 100,000 no later than November 2035 US federal regulators approved a constellation of datacenters to process data in",
+   "region": "OTHER"
+  },
+  {
+   "id": "7b5f3620d7d0",
+   "title": "All hostages rescued after Colombian security forces storm supermarket",
+   "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.97,
+   "origins": 3,
+   "sources": [
+    "guardian",
+    "aljazeera",
+    "france24"
+   ],
+   "published": "2026-11-25T18:20:20+00:00",
+   "note": "Operation in which one hostage-taker was killed ends daylong siege in Cartagena shopping centre, where 30 people were initially held Colombian police have stormed a supermarket in ",
+   "region": "LATAM"
   }
  ],
  "coverage": {
-  "sources_ok": 20,
-  "sources_failed": 2,
-  "items": 41555,
-  "gdelt_events": 41294,
+  "sources_ok": 21,
+  "sources_failed": 1,
+  "items": 42696,
+  "gdelt_events": 42435,
   "mode": "live",
   "data_through": "2026-11-24",
-  "clusters": 254,
-  "origins": 256,
+  "clusters": 257,
+  "origins": 259,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1237,10 +1239,82 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "河南省焦作市政协原党组成员、副主席吕沛被“双开”",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737581.shtml",
+    "title": "Iranian family seeks release of twin sisters facing death penalty and 25 years in prison",
+    "url": "https://www.france24.com/en/video/20261125-iranian-family-seeks-release-of-twin-sisters-facing-death-penalty-and-25-years-in-prison",
+    "country": "IR",
+    "source": "france24",
+    "when": "2026-11-25"
+   },
+   {
+    "kind": "judicial",
+    "title": "'We need to stop the war in Iran': US Congresswoman Pramila Jayapal",
+    "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261125-we-need-to-stop-the-war-in-iran-us-congresswoman-pramila-jayapal",
+    "country": "FR",
+    "source": "france24",
+    "when": "2026-11-25"
+   },
+   {
+    "kind": "judicial",
+    "title": "重庆市人大社会委原副主任委员张兴益被开除党籍",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737802.shtml",
     "country": "",
     "source": "chinanews_cn",
+    "when": "2026-11-25"
+   },
+   {
+    "kind": "judicial",
+    "title": "哈萨克斯坦警方今年前10个月打掉40余个犯罪团伙",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737661.shtml",
+    "country": "KZ",
+    "source": "chinanews",
+    "when": "2026-11-25"
+   },
+   {
+    "kind": "judicial",
+    "title": "四川省广安市政府原党组成员、副市长、市公安局原党委书记、局长邓文国严重违纪违法被开除党籍",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737771.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-25"
+   },
+   {
+    "kind": "judicial",
+    "title": "Sri Lankan asylum seeker killed himself after being sent by UK to Eswatini",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/25/sri-lanka-asylum-seeker-convicted-sexual-assault-uk-kills-himself-eswatini",
+    "country": "GB",
+    "source": "guardian",
+    "when": "2026-11-25"
+   },
+   {
+    "kind": "judicial",
+    "title": "上海市委書記陳吉寧被查 中共高層明日之星意外隕落",
+    "url": "https://www.bbc.com/zhongwen/articles/c83vgd1l5erlo/trad?at_medium=RSS&at_campaign=rss",
+    "country": "",
+    "source": "bbc_zh",
+    "when": "2026-11-25"
+   },
+   {
+    "kind": "judicial",
+    "title": "重庆市文化旅游委原党委委员朱茂被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737726.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-25"
+   },
+   {
+    "kind": "judicial",
+    "title": "原中央防范和处理邪教问题领导小组办公室副主任高以忱获刑11年",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-25/10737717.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-25"
+   },
+   {
+    "kind": "judicial",
+    "title": "金建希“卖官鬻爵”案12月3日终审宣判",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737650.shtml",
+    "country": "KR",
+    "source": "chinanews",
     "when": "2026-11-25"
    },
    {
@@ -1253,51 +1327,19 @@
    },
    {
     "kind": "judicial",
-    "title": "两名男子涉嫌侵入英国威廉王子夫妇乡间别墅行窃被捕",
-    "url": "https://www.chinanews.com.cn/gj/2026/11-25/10737296.shtml",
-    "country": "GB",
-    "source": "chinanews",
-    "when": "2026-11-25"
-   },
-   {
-    "kind": "judicial",
-    "title": "Gisele Pelicot blasts publisher over book promo nude photos",
-    "url": "https://www.scmp.com/news/world/europe/article/3375670/gisele-pelicot-slams-publisher-using-nude-images-her-rape-case-book-promo",
-    "country": "",
-    "source": "scmp",
-    "when": "2026-11-24"
-   },
-   {
-    "kind": "judicial",
     "title": "陳吉寧被調查：「清華系」失勢、「上海跳板」失靈與政治局委員落馬創紀錄",
     "url": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
     "country": "",
     "source": "bbc_zh",
     "when": "2026-11-24"
-   },
-   {
-    "kind": "judicial",
-    "title": "China sentences official to death for spying for foreign country",
-    "url": "https://www.theguardian.com/world/2026/nov/24/china-official-ma-death-sentence-spying-leaking-national-secrets",
-    "country": "CN",
-    "source": "guardian",
-    "when": "2026-11-24"
-   },
-   {
-    "kind": "judicial",
-    "title": "Iranian singer and four others receive lashes after performance without hijab",
-    "url": "https://www.theguardian.com/world/2026/nov/23/iranian-singer-lashes-performing-without-hijab",
-    "country": "IR",
-    "source": "guardian",
-    "when": "2026-11-23"
    }
   ],
-  "notable_total": 7,
+  "notable_total": 12,
   "counts": {
    "extractive": 1,
    "control": 0,
    "redistributive": 0,
-   "notable": 7
+   "notable": 12
   },
   "pressure": {
    "AU": 0.3
@@ -1306,35 +1348,35 @@
   "mode": "shadow"
  },
  "market": {
-  "index": 81.7,
-  "z": 0.899,
+  "index": 79.6,
+  "z": 0.818,
   "rows": [
    {
     "id": "vix",
     "label": "VIX 波动率",
-    "last": 26.62,
-    "chg5": 16.19,
-    "z": 1.795,
+    "last": 26.36,
+    "chg5": 3.53,
+    "z": 1.773,
     "ok": true,
-    "asof": "2026-11-23"
+    "asof": "2026-11-24"
    },
    {
     "id": "oil",
     "label": "WTI 原油",
-    "last": 89.53,
-    "chg5": -0.1,
-    "z": -0.125,
+    "last": 82.24,
+    "chg5": -8.14,
+    "z": -0.435,
     "ok": true,
-    "asof": "2026-11-17"
+    "asof": "2026-11-24"
    },
    {
     "id": "hy",
     "label": "高收益债利差",
-    "last": 3.63,
-    "chg5": 8.68,
-    "z": 1.027,
+    "last": 3.72,
+    "chg5": 8.45,
+    "z": 1.116,
     "ok": true,
-    "asof": "2026-11-23"
+    "asof": "2026-11-24"
    },
    {
     "id": "usd",
@@ -1355,25 +1397,25 @@
     "asof": "2026-11-23"
    }
   ],
-  "asof": "2026-11-23",
+  "asof": "2026-11-24",
   "source": "FRED (fredgraph.csv, 无需 key)",
   "health": [
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 106,
+    "items": 107,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 100,
+    "items": 105,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 106,
+    "items": 107,
     "error": ""
    },
    {
@@ -2341,7 +2383,13 @@
      "t": "Green forest fire notification in Madagascar",
      "v": "green",
      "ts": "2026-11-24 04:14",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034051"
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034074"
+    },
+    {
+     "t": "Green forest fire notification in Madagascar",
+     "v": "green",
+     "ts": "2026-11-24 04:14",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034075"
     },
     {
      "t": "Green forest fire notification in Madagascar",
@@ -2356,12 +2404,6 @@
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033981"
     },
     {
-     "t": "Green forest fire notification in Bolivia, Brazil",
-     "v": "green",
-     "ts": "2026-11-24 20:10",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034053"
-    },
-    {
      "t": "Green forest fire notification in Madagascar",
      "v": "green",
      "ts": "2026-11-24 04:14",
@@ -2372,6 +2414,18 @@
      "v": "green",
      "ts": "2026-11-24 04:04",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034045"
+    },
+    {
+     "t": "Green forest fire notification in Madagascar",
+     "v": "green",
+     "ts": "2026-11-24 04:14",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034051"
+    },
+    {
+     "t": "Green forest fire notification in Bolivia, Brazil",
+     "v": "green",
+     "ts": "2026-11-24 20:10",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034053"
     },
     {
      "t": "Green forest fire notification in Madagascar",
@@ -2391,8 +2445,8 @@
   }
  },
  "epidemic": {
-  "index": 48.0,
-  "z": -0.06,
+  "index": 49.5,
+  "z": -0.02,
   "components": [
    {
     "key": "who_don",
@@ -2418,10 +2472,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.38,
-    "carry": 0.82,
-    "z": -0.12,
-    "score": 46.4,
+    "value": 1.15,
+    "carry": 0.9,
+    "z": 0.05,
+    "score": 51.4,
     "available": true
    }
   ],
@@ -2439,12 +2493,12 @@
   }
  },
  "doom": {
-  "index": 61.6,
-  "z": 0.28,
+  "index": 61.7,
+  "z": 0.29,
   "parts": {
    "military": 0.37,
    "hazard": -0.02,
-   "epidemic": -0.05
+   "epidemic": -0.01
   },
   "resonance": 0,
   "partial": false,
@@ -2481,14 +2535,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 143,
-   "items": 41294,
+   "files": 140,
+   "items": 42435,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 35,
+   "items": 26,
    "error": "",
    "undated": 0
   },
@@ -2502,7 +2556,7 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 41,
+   "items": 43,
    "error": "",
    "undated": 0
   },
@@ -2536,9 +2590,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": false,
-   "items": 0,
-   "error": "解析到 0 条（可能改版）",
+   "ok": true,
+   "items": 8,
+   "error": "",
    "undated": 0
   },
   {
@@ -2558,26 +2612,26 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 15,
+   "items": 14,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 106,
+   "items": 107,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 100,
+   "items": 105,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 106,
+   "items": 107,
    "error": ""
   },
   {
@@ -2637,7 +2691,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 10,
+   "items": 12,
    "error": ""
   },
   {
@@ -2655,7 +2709,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 5944,
+   "items": 11505,
    "error": ""
   },
   {
