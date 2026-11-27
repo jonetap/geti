@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-27T01:43:42+00:00",
+ "generated_at": "2026-11-27T12:13:29+00:00",
  "date": "2026-11-26",
  "geti": 62.3,
  "delta_z": 0.32,
@@ -82,7 +82,7 @@
    "code": "OCEANIA",
    "label": "大洋洲",
    "score": 62.6,
-   "delta": 11.3,
+   "delta": 11.4,
    "excluded": false,
    "drivers": [
     [
@@ -245,19 +245,81 @@
  ],
  "events": [
   {
-   "id": "ea87a68ff1a2",
-   "title": "Global news agency AFP reports cyberattack, shuts down content platform",
-   "url": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform?traffic_source=rss",
+   "id": "6138ff978ce7",
+   "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
+   "url": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.74,
+   "origins": 2,
+   "sources": [
+    "aljazeera",
+    "bbc"
+   ],
+   "published": "2026-11-27T11:51:26+00:00",
+   "note": "Iran has openly claimed its strikes on Gulf states throughout the war. So why is it denying an attack on Kuwait?",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "cfc2916eaec3",
+   "title": "Kuwait: Two Italians killed in drone attack",
+   "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.74,
+   "origins": 2,
+   "sources": [
+    "france24",
+    "scmp"
+   ],
+   "published": "2026-11-27T11:45:48+00:00",
+   "note": "A drone attack in Kuwait killed two Italian technicians working on an air defence system on Thursday, marking the first fatal strike in the Gulf state for months.",
+   "region": "OTHER"
+  },
+  {
+   "id": "ded1bba3e362",
+   "title": "China and India hold fresh border talks as both boost military readiness before winter",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3376066/china-and-india-hold-fresh-border-talks-both-boost-military-readiness-winter",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-27T10:27:13+00:00",
+   "note": "China and India have held talks to manage tensions over their hotly contested frontier, even as both ramp up combat readiness and logistical support. They remained in contact throu",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "169c08ac80cf",
+   "title": "Grace Tame calls out ex-Murdoch media executive who said she ‘must be looking to be raped again’",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/27/grace-tame-responds-former-murdoch-executive-nephew-rape-comment-ntwnfb",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "guardian"
    ],
-   "published": "2026-11-27T01:07:44+00:00",
-   "note": "France's cybersecurity chief urges collective action to combat unprecedented threat levels in the nation.",
-   "region": "EUROPE"
+   "published": "2026-11-27T06:54:59+00:00",
+   "note": "Matt Handbury, nephew of Rupert Murdoch, admits making offensive remark and says he was referencing assault survivor’s ‘strikingly attractive get-up’ Get our breaking news email , ",
+   "region": "OTHER"
+  },
+  {
+   "id": "48fa7b790991",
+   "title": "配备星链终端、搭载高爆炸药，乌无人艇在非洲突袭俄战舰",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738656.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-27T05:01:20+00:00",
+   "note": "中新网11月27日电(记者 刁炜)近日，乌克兰出动大批无人艇在利比亚沿海袭击俄方舰船，报道称一艘俄战舰倾覆，另有一艘干货船起火。",
+   "region": "AFRICA"
   },
   {
    "id": "61ce63209223",
@@ -265,7 +327,7 @@
    "url": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -280,7 +342,7 @@
    "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
@@ -290,99 +352,9 @@
    "region": "OTHER"
   },
   {
-   "id": "3da0fb11b7f2",
-   "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-   "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-26T21:17:53+00:00",
-   "note": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "4cb623b77217",
-   "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
-   "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-26T21:08:44+00:00",
-   "note": "Prosecutors order drug tests for the 21-year-old suspect, who says he was overtaking when the crash happened.",
-   "region": "OTHER"
-  },
-  {
-   "id": "eaf20d2ce675",
-   "title": "Hamas weighs response after Israel kills 10 people in Gaza",
-   "url": "https://www.france24.com/en/hamas-weighs-response-after-israel-kills-10-people-in-gaza",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-26T20:35:23+00:00",
-   "note": "Five Israeli strikes and a shooting overnight and on Thursday killed 10 Palestinians across Gaza, according to officials at Shifa and Al-Aqsa Martyrs hospitals, where the casualtie",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "83ff131fe20b",
-   "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
-   "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-26T20:34:34+00:00",
-   "note": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says.",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "ae483ef381b0",
    "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
    "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-26T20:33:07+00:00",
-   "note": "Statement follows death of sisters, aged 15 and 13, in airstrike on residential apartment in Gaza City Israeli strikes have killed at least 16 schoolchildren in Gaza since the star",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "3ce9060ddac2",
-   "title": "外媒：泰国曼谷一炼油厂发生爆炸 造成至少7人受伤",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-26/10738244.shtml",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-26T09:49:51+00:00",
-   "note": "中新网11月26日电 综合外媒报道，当地时间26日，泰国首都曼谷邦纳区政府称，当地一家炼油厂发生爆炸。",
-   "region": "OTHER"
-  },
-  {
-   "id": "aa69ec347866",
-   "title": "US army calls detonation of bomb chemicals in Iowa a success after fears of toxic plume",
-   "url": "https://www.theguardian.com/us-news/2026/nov/26/iowa-chemical-lead-bomb-detonation-toxic-dust-fears",
    "component": "military",
    "severity": 5,
    "confidence": 0.34,
@@ -390,9 +362,9 @@
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-26T17:05:02+00:00",
-   "note": "The army blows up US stockpile of lead azide, a chemical used for explosives, to avoid uncontrollable explosion The US army blew up the nation’s entire stockpile of lead azide, a c",
-   "region": "OTHER"
+   "published": "2026-11-26T20:33:07+00:00",
+   "note": "Statement follows death of sisters, aged 15 and 13, in airstrike on residential apartment in Gaza City Israeli strikes have killed at least 16 schoolchildren in Gaza since the star",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "1bc98ccaa4b1",
@@ -440,66 +412,6 @@
    "region": "OTHER"
   },
   {
-   "id": "16f089721d60",
-   "title": "Tai Po fire: remembering the victims",
-   "url": "https://www.scmp.com/news/hong-kong/society/article/3375926/tai-po-fire-remembering-victims",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-26T10:21:21+00:00",
-   "note": "Hong Kong is still healing, one year after a devastating inferno engulfed Tai Po’s Wang Fuk Court residential complex. Survivors are trying to move forward while grieving loved one",
-   "region": "OTHER"
-  },
-  {
-   "id": "3af320b1f002",
-   "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
-   "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-26T10:14:08+00:00",
-   "note": "The killings are the latest from a series of near daily attacks by Israel against what it says are Hamas targets.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "eb6b260345bb",
-   "title": "Watch: Alaskan flying team airdrops Thanksgiving turkeys to remote communities",
-   "url": "https://www.bbc.co.uk/news/videos/cvze7yk7dy5lo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-26T09:22:34+00:00",
-   "note": "For the last few years, the \"turkey bombers\" have taken to the skies for the benefit of residents in off-grid communities.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "02a7eb6a95e7",
-   "title": "Nepal starts legal process to declare 4,000 dead 3 months after fatal floods",
-   "url": "https://www.scmp.com/news/asia/south-asia/article/3375910/nepal-starts-legal-process-declare-4000-dead-3-months-after-fatal-floods",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-26T09:06:52+00:00",
-   "note": "Nepal had begun a process to legally declare dead thousands of people still missing after its catastrophic summer floods, authorities said on Thursday, three months after the disas",
-   "region": "OTHER"
-  },
-  {
    "id": "ceb40619ed58",
    "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
    "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
@@ -512,21 +424,6 @@
    ],
    "published": "2026-11-26T00:39:10+00:00",
    "note": "Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a huge fire on a highway ",
-   "region": "OTHER"
-  },
-  {
-   "id": "423b6a41b2cc",
-   "title": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
-   "url": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-25T23:26:50+00:00",
-   "note": "A year after one of Hong Kong's deadliest fires, families left behind are still waiting for justice.",
    "region": "OTHER"
   },
   {
@@ -575,51 +472,94 @@
    "region": "OTHER"
   },
   {
-   "id": "354138f78885",
-   "title": "Sri Lankan asylum seeker killed himself after being sent by UK to Eswatini",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/25/sri-lanka-asylum-seeker-convicted-sexual-assault-uk-kills-himself-eswatini",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
+   "id": "9e9119684a9e",
+   "title": "Ukraine: Residents brace for another difficult winter",
+   "url": "https://www.france24.com/en/video/20261127-ukraine-residents-brace-for-another-difficult-winter",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-27T11:54:15+00:00",
+   "note": "As Russia continues to target Ukraine's energy infrastructure, residents are preparing for another difficult winter of strikes and power cuts. With supply chains under pressure, fo",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "5fcd3ce63a1b",
+   "title": "French town divided over church bells ringing every 15 minutes at night",
+   "url": "https://www.theguardian.com/world/2026/nov/27/for-whom-the-bells-troll-french-town-divided-over-churchs-night-time-chimes",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-25T11:28:05+00:00",
-   "note": "Kishanth Peramalya was denied entry due to sexual assault convictions and sent to Africa where he had no connections The UK sent a Sri Lankan asylum seeker who had been convicted o",
-   "region": "AFRICA"
+   "published": "2026-11-27T10:46:57+00:00",
+   "note": "Longtime residents of La Garnache defeat newer neighbours in latest rural culture clash over ‘sensory heritage’ A ding-dong has divided the town of La Garnache in western France ov",
+   "region": "OTHER"
   },
   {
-   "id": "ac5b8850d933",
-   "title": "2名意籍工程师遇袭身亡，中东冲突波及到了普通欧洲民众",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738507.shtml",
-   "component": "narrative",
+   "id": "323763581c4a",
+   "title": "Australia sanctions suspects in Iran-linked anti-Semitic attacks",
+   "url": "https://www.aljazeera.com/news/2026/11/27/australia-sanctions-suspects-in-iran-linked-anti-semitic-attacks?traffic_source=rss",
+   "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-27T00:59:39+00:00",
-   "note": "突发袭击！伊朗、科威特、德国与意大利四国卷入同一场风波，2名工程师遇袭身亡，中东冲突波及到了普通欧洲民众｜国际早察",
-   "region": "EUROPE"
-  }
- ],
- "breaking": [
-  {
-   "id": "ea87a68ff1a2",
-   "title": "Global news agency AFP reports cyberattack, shuts down content platform",
-   "url": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-27T01:07:44+00:00",
-   "note": "France's cybersecurity chief urges collective action to combat unprecedented threat levels in the nation.",
+   "published": "2026-11-27T10:31:20+00:00",
+   "note": "Sanctions aim to restrict funds for two men alleged to have planned attacks for IRGC.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "a0fe85f88459",
+   "title": "‘Will I get taller?’: Gaza’s children suffer stunting amid war, blockade",
+   "url": "https://www.aljazeera.com/features/2026/11/27/will-i-get-taller-gazas-children-suffer-stunting-amid-war-blockade?traffic_source=rss",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-27T08:37:52+00:00",
+   "note": "One in eight children is stunted. Many have bones that have not matured the way they should. Treatment is elusive.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "5d66adb03a32",
+   "title": "France and Germany push for EU budget deal by year-end as far-right rise threatens Ukraine aid",
+   "url": "https://www.france24.com/en/europe/20261127-france-and-germany-push-for-eu-budget-deal-by-year-end-as-far-right-rise-threatens-ukraine-aid",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-27T08:17:02+00:00",
+   "note": "As Europe braces itself for a slew of tense elections in 2027, Paris and Berlin are pushing for the European Union to strike a budget deal by December 31 to lock in financial aid f",
    "region": "EUROPE"
+  },
+  {
+   "id": "24790883c739",
+   "title": "伊朗否认袭击科威特致两意大利人死亡 提议三国联合调查",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738565.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-27T02:58:19+00:00",
+   "note": "中新社北京11月27日电 德黑兰消息：当地时间26日，伊朗否认袭击科威特，并表示愿与科威特、意大利开展联合调查，以查明事件原因。",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "ac5b8850d933",
@@ -627,7 +567,7 @@
    "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738507.shtml",
    "component": "narrative",
    "severity": 4,
-   "confidence": 0.64,
+   "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
@@ -637,45 +577,109 @@
    "region": "EUROPE"
   },
   {
-   "id": "61ce63209223",
-   "title": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
-   "url": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
+   "id": "ff1a55872a47",
+   "title": "科威特称伊朗袭击该国致两名意大利人身亡，伊朗否认",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738482.shtml",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-26T23:25:02+00:00",
+   "note": "中新网11月27日电 据伊朗媒体报道，伊朗武装部队发言人谢卡尔希26日否认科威特军方有关伊朗军队袭击科威特一处重要设施的指控。",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "001744c8e003",
+   "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
+   "url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-26T23:03:16+00:00",
-   "note": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
+   "published": "2026-11-27T06:04:51+00:00",
+   "note": "Despite the strikes, markets and restaurants in Riyadh remain busy as residents express trust in the government to protect them.",
+   "region": "MIDDLE_EAST"
+  }
+ ],
+ "breaking": [
+  {
+   "id": "9e9119684a9e",
+   "title": "Ukraine: Residents brace for another difficult winter",
+   "url": "https://www.france24.com/en/video/20261127-ukraine-residents-brace-for-another-difficult-winter",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-27T11:54:15+00:00",
+   "note": "As Russia continues to target Ukraine's energy infrastructure, residents are preparing for another difficult winter of strikes and power cuts. With supply chains under pressure, fo",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "6138ff978ce7",
+   "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
+   "url": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.74,
+   "origins": 2,
+   "sources": [
+    "aljazeera",
+    "bbc"
+   ],
+   "published": "2026-11-27T11:51:26+00:00",
+   "note": "Iran has openly claimed its strikes on Gulf states throughout the war. So why is it denying an attack on Kuwait?",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "cfc2916eaec3",
+   "title": "Kuwait: Two Italians killed in drone attack",
+   "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.74,
+   "origins": 2,
+   "sources": [
+    "france24",
+    "scmp"
+   ],
+   "published": "2026-11-27T11:45:48+00:00",
+   "note": "A drone attack in Kuwait killed two Italian technicians working on an air defence system on Thursday, marking the first fatal strike in the Gulf state for months.",
    "region": "OTHER"
   },
   {
-   "id": "f5367675356f",
-   "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-   "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
+   "id": "5fcd3ce63a1b",
+   "title": "French town divided over church bells ringing every 15 minutes at night",
+   "url": "https://www.theguardian.com/world/2026/nov/27/for-whom-the-bells-troll-french-town-divided-over-churchs-night-time-chimes",
    "component": "military",
-   "severity": 5,
+   "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "guardian"
    ],
-   "published": "2026-11-26T22:01:22+00:00",
-   "note": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
+   "published": "2026-11-27T10:46:57+00:00",
+   "note": "Longtime residents of La Garnache defeat newer neighbours in latest rural culture clash over ‘sensory heritage’ A ding-dong has divided the town of La Garnache in western France ov",
    "region": "OTHER"
   }
  ],
  "coverage": {
-  "sources_ok": 21,
-  "sources_failed": 1,
-  "items": 37049,
-  "gdelt_events": 36786,
+  "sources_ok": 20,
+  "sources_failed": 2,
+  "items": 32600,
+  "gdelt_events": 32344,
   "mode": "live",
   "data_through": "2026-11-26",
-  "clusters": 259,
-  "origins": 259,
+  "clusters": 249,
+  "origins": 252,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1099,11 +1103,11 @@
   },
   {
    "date": "2026-10-28",
-   "geti": 49.5
+   "geti": 49.6
   },
   {
    "date": "2026-10-29",
-   "geti": 54.6
+   "geti": 54.7
   },
   {
    "date": "2026-10-30",
@@ -1111,7 +1115,7 @@
   },
   {
    "date": "2026-10-31",
-   "geti": 50.6
+   "geti": 50.7
   },
   {
    "date": "2026-11-01",
@@ -1127,15 +1131,15 @@
   },
   {
    "date": "2026-11-04",
-   "geti": 62.2
+   "geti": 62.1
   },
   {
    "date": "2026-11-05",
-   "geti": 65.7
+   "geti": 65.6
   },
   {
    "date": "2026-11-06",
-   "geti": 69.0
+   "geti": 68.9
   },
   {
    "date": "2026-11-07",
@@ -1143,7 +1147,7 @@
   },
   {
    "date": "2026-11-08",
-   "geti": 69.7
+   "geti": 69.6
   },
   {
    "date": "2026-11-09",
@@ -1219,111 +1223,123 @@
   }
  ],
  "policy": {
-  "items": [],
+  "items": [
+   {
+    "type": "extractive",
+    "country": "",
+    "source": "guardian",
+    "score": 0.3,
+    "signed": 0.3,
+    "title": "Banks may pass on £1.5bn tax rise to customers, warns Bank of England chief",
+    "url": "https://www.theguardian.com/business/2026/nov/27/bank-tax-rise-customers-bank-of-england-andrew-bailey",
+    "origins": 1,
+    "when": "2026-11-27"
+   }
+  ],
   "notable": [
    {
     "kind": "judicial",
-    "title": "Met Police ruined my life, says Kenyan man wrongly sentenced over attack on UK couple",
+    "title": "广西壮族自治区政府原主席蓝天立一审被判死缓",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738930.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "Why Benjamin Netanyahu’s corruption trial could be unravelling",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/why-benjamin-netanyahus-corruption-trial-could-be-unravelling?traffic_source=rss",
+    "country": "",
+    "source": "aljazeera",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "Momentous decision awaits after judges’ call for Netanyahu charges to be dropped",
+    "url": "https://www.theguardian.com/world/2026/nov/27/israeli-justice-system-judges-call-drop-netanyahu-charges",
+    "country": "IL",
+    "source": "guardian",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "中国建设银行青岛市分行原行长郝子建被开除党籍",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738911.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "安徽省民政厅原党组成员、巡视员王佛生接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738880.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "广东省珠海市人大常委会原副主任邓群芳接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738878.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "浙江大学金融研究院上市公司研究中心原主任包纯田接受审查调查",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738875.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "甘肃省建设投资(控股)集团原副总经理李文恩被“双开”",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738872.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "前三季度中国共办理固体废物行政处罚案件2995件",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738859.shtml",
+    "country": "CN",
+    "source": "chinanews_cn",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "非法收受财物5.87亿余元 蓝天立一审被判死缓",
+    "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738856.shtml",
+    "country": "",
+    "source": "chinanews_cn",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "Malaysian teacher gets 60 years, 24 strokes in Sarawak school sex abuse case",
+    "url": "https://www.scmp.com/week-asia/people/article/3375992/malaysian-teacher-gets-60-years-24-strokes-sarawak-school-sex-abuse-case",
+    "country": "MY",
+    "source": "scmp",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "Met Police ruined my life, says Kenyan man wrongly convicted over attack on UK couple",
     "url": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
     "country": "GB",
     "source": "bbc",
     "when": "2026-11-27"
-   },
-   {
-    "kind": "judicial",
-    "title": "Death-sentenced Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
-    "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
-    "country": "IN",
-    "source": "bbc",
-    "when": "2026-11-27"
-   },
-   {
-    "kind": "judicial",
-    "title": "The ‘Angry Nerds’ campaign exposing red flags in the Philippines’ 2027 budget",
-    "url": "https://www.scmp.com/week-asia/people/article/3375922/angry-nerds-campaign-exposing-red-flags-philippines-2027-budget",
-    "country": "PH",
-    "source": "scmp",
-    "when": "2026-11-27"
-   },
-   {
-    "kind": "judicial",
-    "title": "Albania's youth are protesting in Flamingo Revolution, not leaving the country anymore",
-    "url": "https://www.dw.com/en/albania-s-youth-are-protesting-in-flamingo-revolution-not-leaving-the-country-anymore/a-80068939?maca=en-rss-en-world-4025-rdf",
-    "country": "",
-    "source": "dw",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "UK man convicted of knife rampage on London-bound train",
-    "url": "https://www.scmp.com/news/world/europe/article/3375965/uk-man-convicted-knife-rampage-london-bound-train",
-    "country": "GB",
-    "source": "scmp",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "Netanyahu’s corruption trial: Is it really all over?",
-    "url": "https://www.aljazeera.com/news/2026/11/26/netanyahus-corruption-trial-is-it-really-all-over?traffic_source=rss",
-    "country": "IL",
-    "source": "aljazeera",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "Singapore doctor remanded over filming 874 women in Melbourne: ‘abhorrent sexual predator’",
-    "url": "https://www.scmp.com/week-asia/people/article/3375950/singapore-doctor-remanded-over-filming-874-women-melbourne-abhorrent-sexual-predator",
-    "country": "AU",
-    "source": "scmp",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "中国官方连打三“虎”：李伟被“双开” 蔡赴朝、王益华被开除党籍",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738337.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "国家能源局四川监管办公室原党组成员、一级调研员张毅接受纪律审查和监察调查",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738310.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "四川省达州市商务局原党组书记、局长熊长虹严重违纪违法被开除党籍",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738309.shtml",
-    "country": "",
-    "source": "chinanews_cn",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "陕西省西安市人大常委会原主任韩松一审获刑13年",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738276.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
-    "url": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&at_campaign=rss",
-    "country": "",
-    "source": "bbc",
-    "when": "2026-11-26"
    }
   ],
-  "notable_total": 18,
+  "notable_total": 16,
   "counts": {
-   "extractive": 0,
+   "extractive": 1,
    "control": 0,
    "redistributive": 0,
-   "notable": 18
+   "notable": 16
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -2379,8 +2395,8 @@
   }
  },
  "epidemic": {
-  "index": 47.6,
-  "z": -0.08,
+  "index": 46.2,
+  "z": -0.12,
   "components": [
    {
     "key": "who_don",
@@ -2406,10 +2422,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.76,
-    "carry": 0.87,
-    "z": -0.02,
-    "score": 49.2,
+    "value": 0.0,
+    "carry": 0.79,
+    "z": -0.18,
+    "score": 44.4,
     "available": true
    }
   ],
@@ -2418,8 +2434,8 @@
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
-   "active_days": 12,
-   "last_seen": "2026-11-26",
+   "active_days": 11,
+   "last_seen": "2026-11-25",
    "ongoing": true
   },
   "evidence": {
@@ -2427,12 +2443,12 @@
   }
  },
  "doom": {
-  "index": 58.4,
+  "index": 58.3,
   "z": 0.2,
   "parts": {
    "military": 0.3,
    "hazard": -0.18,
-   "epidemic": -0.06
+   "epidemic": -0.09
   },
   "resonance": 0,
   "partial": false,
@@ -2470,13 +2486,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 36786,
+   "items": 32344,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 30,
+   "items": 35,
    "error": "",
    "undated": 0
   },
@@ -2490,14 +2506,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 40,
+   "items": 38,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2524,9 +2540,9 @@
   },
   {
    "source": "un_news_zh",
-   "ok": true,
-   "items": 8,
-   "error": "",
+   "ok": false,
+   "items": 0,
+   "error": "解析到 0 条（可能改版）",
    "undated": 0
   },
   {
@@ -2546,7 +2562,7 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 14,
+   "items": 13,
    "error": "",
    "undated": 0
   },
@@ -2643,7 +2659,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 4429,
+   "items": 7617,
    "error": ""
   },
   {
