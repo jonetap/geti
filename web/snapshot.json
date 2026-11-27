@@ -1,10 +1,10 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-26T16:52:00+00:00",
- "date": "2026-11-25",
- "geti": 61.8,
- "delta_z": 0.14,
- "delta_pts": -3.3,
+ "generated_at": "2026-11-27T01:43:42+00:00",
+ "date": "2026-11-26",
+ "geti": 62.3,
+ "delta_z": 0.32,
+ "delta_pts": 0.5,
  "confidence": 0.98,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
@@ -13,170 +13,170 @@
   {
    "code": "NORTH_AMERICA",
    "label": "北美",
-   "score": 72.8,
-   "delta": -4.7,
+   "score": 75.2,
+   "delta": 2.5,
    "excluded": false,
    "drivers": [
     [
      "military",
-     1.26
+     1.36
     ],
     [
-     "diplomacy",
-     1.19
+     "economy",
+     1.34
     ]
    ]
   },
   {
    "code": "OTHER",
    "label": "其他",
-   "score": 64.5,
-   "delta": -11.5,
+   "score": 74.6,
+   "delta": 10.1,
    "excluded": true,
    "drivers": [
     [
      "military",
-     0.95
+     1.14
     ],
     [
      "diplomacy",
-     0.62
-    ]
-   ]
-  },
-  {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 61.0,
-   "delta": 1.1,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.92
-    ],
-    [
-     "economy",
-     0.63
-    ]
-   ]
-  },
-  {
-   "code": "MIDDLE_EAST",
-   "label": "中东",
-   "score": 58.4,
-   "delta": -0.1,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.57
-    ],
-    [
-     "economy",
-     0.46
+     1.05
     ]
    ]
   },
   {
    "code": "EUROPE",
    "label": "欧洲",
-   "score": 56.6,
-   "delta": -0.5,
+   "score": 64.6,
+   "delta": 8.0,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.56
+     0.91
     ],
     [
-     "economy",
-     0.32
+     "diplomacy",
+     0.8
     ]
    ]
   },
   {
    "code": "SOUTH_ASIA",
    "label": "南亚",
-   "score": 52.6,
-   "delta": -4.2,
+   "score": 62.7,
+   "delta": 10.1,
    "excluded": false,
    "drivers": [
+    [
+     "military",
+     0.94
+    ],
     [
      "diplomacy",
-     0.7
-    ],
-    [
-     "physical",
-     -0.28
-    ]
-   ]
-  },
-  {
-   "code": "AFRICA",
-   "label": "非洲",
-   "score": 52.6,
-   "delta": 2.5,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.45
-    ],
-    [
-     "economy",
-     -0.32
-    ]
-   ]
-  },
-  {
-   "code": "RUSSIA_CIS",
-   "label": "俄与独联体",
-   "score": 51.7,
-   "delta": 0.7,
-   "excluded": false,
-   "drivers": [
-    [
-     "economy",
-     0.83
-    ],
-    [
-     "internal",
-     -0.47
+     0.94
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 51.3,
-   "delta": -6.7,
+   "score": 62.6,
+   "delta": 11.3,
    "excluded": false,
    "drivers": [
     [
-     "internal",
-     -0.33
+     "diplomacy",
+     0.93
     ],
     [
-     "economy",
-     0.28
+     "military",
+     0.76
+    ]
+   ]
+  },
+  {
+   "code": "AFRICA",
+   "label": "非洲",
+   "score": 59.9,
+   "delta": 7.3,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.85
+    ],
+    [
+     "military",
+     0.76
+    ]
+   ]
+  },
+  {
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 59.3,
+   "delta": -1.7,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.9
+    ],
+    [
+     "diplomacy",
+     0.78
+    ]
+   ]
+  },
+  {
+   "code": "MIDDLE_EAST",
+   "label": "中东",
+   "score": 58.0,
+   "delta": -0.4,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.85
+    ],
+    [
+     "diplomacy",
+     0.85
+    ]
+   ]
+  },
+  {
+   "code": "RUSSIA_CIS",
+   "label": "俄与独联体",
+   "score": 55.3,
+   "delta": 3.6,
+   "excluded": false,
+   "drivers": [
+    [
+     "military",
+     0.77
+    ],
+    [
+     "diplomacy",
+     0.55
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 50.8,
-   "delta": -0.8,
+   "score": 49.7,
+   "delta": -1.1,
    "excluded": false,
    "drivers": [
     [
-     "economy",
-     0.69
+     "internal",
+     -0.47
     ],
     [
-     "internal",
-     -0.63
+     "diplomacy",
+     0.27
     ]
    ]
   }
@@ -186,11 +186,11 @@
    "key": "military",
    "label": "军事升级",
    "weight": 0.26,
-   "effective_weight": 0.333,
+   "effective_weight": 0.371,
    "available": true,
-   "z": 1.26,
-   "score": 82.8,
-   "contrib": 0.417
+   "z": 1.36,
+   "score": 84.5,
+   "contrib": 0.398
   },
   {
    "key": "physical",
@@ -206,63 +206,63 @@
    "key": "diplomacy",
    "label": "外交",
    "weight": 0.18,
-   "effective_weight": 0.231,
+   "effective_weight": 0.257,
    "available": true,
-   "z": 1.19,
-   "score": 81.6,
-   "contrib": 0.273
+   "z": 1.25,
+   "score": 82.8,
+   "contrib": 0.254
   },
   {
    "key": "economy",
    "label": "经济",
    "weight": 0.15,
-   "effective_weight": 0.192,
+   "effective_weight": 0.214,
    "available": true,
-   "z": 1.0,
-   "score": 77.7,
-   "contrib": 0.191
+   "z": 1.34,
+   "score": 84.2,
+   "contrib": 0.226
   },
   {
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
-   "effective_weight": 0.141,
+   "effective_weight": 0.157,
    "available": true,
-   "z": 0.78,
-   "score": 72.5,
-   "contrib": 0.109
+   "z": 0.99,
+   "score": 77.5,
+   "contrib": 0.123
   },
   {
    "key": "narrative",
    "label": "信息/叙事",
    "weight": 0.08,
-   "effective_weight": 0.103,
-   "available": true,
-   "z": 0.1,
-   "score": 53.3,
-   "contrib": 0.011
+   "effective_weight": 0.0,
+   "available": false,
+   "z": null,
+   "score": null,
+   "contrib": 0.0
   }
  ],
  "events": [
   {
-   "id": "3da0fb11b7f2",
-   "title": "Italy says two citizens killed in Iranian strike in Kuwait",
-   "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
+   "id": "ea87a68ff1a2",
+   "title": "Global news agency AFP reports cyberattack, shuts down content platform",
+   "url": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "aljazeera"
    ],
-   "published": "2026-11-26T16:39:30+00:00",
-   "note": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-27T01:07:44+00:00",
+   "note": "France's cybersecurity chief urges collective action to combat unprecedented threat levels in the nation.",
+   "region": "EUROPE"
   },
   {
-   "id": "1bc98ccaa4b1",
-   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+   "id": "61ce63209223",
+   "title": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
+   "url": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -270,39 +270,9 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-26T16:21:19+00:00",
-   "note": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
+   "published": "2026-11-26T23:03:16+00:00",
+   "note": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
    "region": "OTHER"
-  },
-  {
-   "id": "c31621ffb3eb",
-   "title": "Diesel tanker capsizes near Ibiza, killing crew member",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_loaded-diesel-tanker-capsizes-off-ibiza-killing-one-261126?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-26T15:56:39+00:00",
-   "note": "Aerial footage shows the capsized Maltese-flagged Med Emre chemical tanker off the Spanish island of Ibiza.",
-   "region": "OTHER"
-  },
-  {
-   "id": "459a2b676663",
-   "title": "Two dead after Iranian drone attack on Kuwait",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-26T15:55:15+00:00",
-   "note": "Kuwait’s army says two Italian workers were killed and four others were injured in an Iranian drone attack.",
-   "region": "MIDDLE_EAST"
   },
   {
    "id": "f5367675356f",
@@ -315,89 +285,14 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-26T15:17:18+00:00",
+   "published": "2026-11-26T22:01:22+00:00",
    "note": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
    "region": "OTHER"
   },
   {
-   "id": "643d366553d6",
-   "title": "Beau Lamarre-Condon used his service weapon to murder two men. Did NSW police recruiters miss any red flags?",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-26T14:26:00+00:00",
-   "note": "Video of convicted double murderer shows him in 2020 deploying a Taser at close range to an Indigenous man’s face, chest and neck Get our breaking news email , free app or daily ne",
-   "region": "OTHER"
-  },
-  {
-   "id": "92e648ab29be",
-   "title": "Fighting in eastern Congo forces Ebola workers to evacuate, disrupts outbreak response",
-   "url": "https://www.france24.com/en/video/20261126-fighting-in-eastern-congo-forces-ebola-workers-to-evacuate-disrupts-outbreak-response",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-26T14:20:13+00:00",
-   "note": "Escalating fighting in eastern Congo has forced Ebola response workers to leave affected areas and disrupted efforts to contain the deadliest outbreak in the country, health offici",
-   "region": "AFRICA"
-  },
-  {
-   "id": "af2a251ebd5e",
-   "title": "Moscow drone incursions: Poland to create no-fly zone at Ukraine border",
-   "url": "https://www.france24.com/en/video/20261126-moscow-drone-incursions-poland-to-create-no-fly-zone-at-ukraine-border",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-26T14:19:11+00:00",
-   "note": "Poland will soon create a no-fly zone near the Ukrainian border, a deputy defence minister announced on Wednesday, after several incursions into its airspace it blamed on Russia. P",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "a69a4a6320cc",
-   "title": "Rescuers blocked from a fire. A child killed on the way to school. Miles-long trains are upending US lives",
-   "url": "https://www.theguardian.com/us-news/2026/nov/26/freight-trains-blocking-streets-disrupting-life",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-26T13:00:35+00:00",
-   "note": "Communities say big railroad companies won’t act and that lawmakers are moving too slowly to address a major problem The drive from the Lockland fire station to a house fire on Pat",
-   "region": "OTHER"
-  },
-  {
-   "id": "45831890fcf0",
-   "title": "‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record",
-   "url": "https://www.theguardian.com/world/2026/nov/26/lana-nusseibeh-uae-sudan-un-secretary-general",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-26T12:37:42+00:00",
-   "note": "The US and Russia’s candidate for secretary general is on a charm offensive. Can she overcome London’s resistance to her bid? Lana Nusseibeh is in Britain this week, attempting to ",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "7fcaa4173ac6",
-   "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
-   "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
+   "id": "3da0fb11b7f2",
+   "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+   "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -405,24 +300,69 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-26T12:16:06+00:00",
-   "note": "Officials say the man confessed to travelling at speed and clipping the fuel truck as he was overtaking traffic.",
+   "published": "2026-11-26T21:17:53+00:00",
+   "note": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "4cb623b77217",
+   "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
+   "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-26T21:08:44+00:00",
+   "note": "Prosecutors order drug tests for the 21-year-old suspect, who says he was overtaking when the crash happened.",
    "region": "OTHER"
   },
   {
-   "id": "f468780a196b",
-   "title": "Egypt: 31 people killed in Cairo after fuel truck overturns",
-   "url": "https://www.france24.com/en/video/20261126-egypt-31-people-killed-in-cairo-after-fuel-truck-overturns",
-   "component": "narrative",
+   "id": "eaf20d2ce675",
+   "title": "Hamas weighs response after Israel kills 10 people in Gaza",
+   "url": "https://www.france24.com/en/hamas-weighs-response-after-israel-kills-10-people-in-gaza",
+   "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "france24"
    ],
-   "published": "2026-11-26T11:28:29+00:00",
-   "note": "A fire broke out on a busy highway in Egypt’s capital, Cairo, on Wednesday, killing at least 31 people after a fuel truck reportedly overturned. The suspected driver was arrested o",
-   "region": "OTHER"
+   "published": "2026-11-26T20:35:23+00:00",
+   "note": "Five Israeli strikes and a shooting overnight and on Thursday killed 10 Palestinians across Gaza, according to officials at Shifa and Al-Aqsa Martyrs hospitals, where the casualtie",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "83ff131fe20b",
+   "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+   "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-26T20:34:34+00:00",
+   "note": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "ae483ef381b0",
+   "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
+   "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-26T20:33:07+00:00",
+   "note": "Statement follows death of sisters, aged 15 and 13, in airstrike on residential apartment in Gaza City Israeli strikes have killed at least 16 schoolchildren in Gaza since the star",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "3ce9060ddac2",
@@ -440,19 +380,64 @@
    "region": "OTHER"
   },
   {
-   "id": "b112dae481b9",
-   "title": "阿富汗警方称击毙6名武装分子",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-26/10737988.shtml",
+   "id": "aa69ec347866",
+   "title": "US army calls detonation of bomb chemicals in Iowa a success after fears of toxic plume",
+   "url": "https://www.theguardian.com/us-news/2026/nov/26/iowa-chemical-lead-bomb-detonation-toxic-dust-fears",
    "component": "military",
    "severity": 5,
-   "confidence": 0.38,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "chinanews"
+    "guardian"
    ],
-   "published": "2026-11-26T03:30:34+00:00",
-   "note": "中新网11月26日电 据阿富汗帕杰瓦克通讯社报道，阿富汗喀布尔警方25日表示，安全部队24日深夜在首都喀布尔与6名武装分子交火，并将其击毙。",
-   "region": "SOUTH_ASIA"
+   "published": "2026-11-26T17:05:02+00:00",
+   "note": "The army blows up US stockpile of lead azide, a chemical used for explosives, to avoid uncontrollable explosion The US army blew up the nation’s entire stockpile of lead azide, a c",
+   "region": "OTHER"
+  },
+  {
+   "id": "1bc98ccaa4b1",
+   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+   "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-26T16:21:19+00:00",
+   "note": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
+   "region": "OTHER"
+  },
+  {
+   "id": "45831890fcf0",
+   "title": "‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record",
+   "url": "https://www.theguardian.com/world/2026/nov/26/lana-nusseibeh-uae-sudan-un-secretary-general",
+   "component": "diplomacy",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-26T12:37:42+00:00",
+   "note": "The US and Russia’s candidate for secretary general is on a charm offensive. Can she overcome London’s resistance to her bid? Lana Nusseibeh is in Britain this week, attempting to ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "7fcaa4173ac6",
+   "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+   "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-26T12:16:06+00:00",
+   "note": "Officials say the man confessed to travelling at speed and clipping the fuel truck as he was overtaking traffic.",
+   "region": "OTHER"
   },
   {
    "id": "16f089721d60",
@@ -500,21 +485,6 @@
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "e78b0b879e7b",
-   "title": "Deadly fire erupts near Cairo killing dozens of people",
-   "url": "https://www.bbc.co.uk/news/videos/c52e8ndplvemo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-26T09:09:49+00:00",
-   "note": "At least 31 people have died in a large fire on a busy highway in Cairo, after a fuel tanker overturned, says Egypt's health ministry.",
-   "region": "OTHER"
-  },
-  {
    "id": "02a7eb6a95e7",
    "title": "Nepal starts legal process to declare 4,000 dead 3 months after fatal floods",
    "url": "https://www.scmp.com/news/asia/south-asia/article/3375910/nepal-starts-legal-process-declare-4000-dead-3-months-after-fatal-floods",
@@ -535,7 +505,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -550,7 +520,7 @@
    "url": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc"
@@ -565,7 +535,7 @@
    "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize",
    "component": "military",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -580,7 +550,7 @@
    "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "guardian"
@@ -603,28 +573,73 @@
    "published": "2026-11-25T14:03:18+00:00",
    "note": "Alain Throo, insurance executive based in London, reportedly gored and later died on hike near Mount Cameroon national park A Swiss tourist has been killed and British and American",
    "region": "OTHER"
+  },
+  {
+   "id": "354138f78885",
+   "title": "Sri Lankan asylum seeker killed himself after being sent by UK to Eswatini",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/25/sri-lanka-asylum-seeker-convicted-sexual-assault-uk-kills-himself-eswatini",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-25T11:28:05+00:00",
+   "note": "Kishanth Peramalya was denied entry due to sexual assault convictions and sent to Africa where he had no connections The UK sent a Sri Lankan asylum seeker who had been convicted o",
+   "region": "AFRICA"
+  },
+  {
+   "id": "ac5b8850d933",
+   "title": "2名意籍工程师遇袭身亡，中东冲突波及到了普通欧洲民众",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738507.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-27T00:59:39+00:00",
+   "note": "突发袭击！伊朗、科威特、德国与意大利四国卷入同一场风波，2名工程师遇袭身亡，中东冲突波及到了普通欧洲民众｜国际早察",
+   "region": "EUROPE"
   }
  ],
  "breaking": [
   {
-   "id": "3da0fb11b7f2",
-   "title": "Italy says two citizens killed in Iranian strike in Kuwait",
-   "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-   "component": "military",
+   "id": "ea87a68ff1a2",
+   "title": "Global news agency AFP reports cyberattack, shuts down content platform",
+   "url": "https://www.aljazeera.com/news/2026/11/27/global-news-agency-afp-reports-cyberattack-shuts-down-content-platform?traffic_source=rss",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "bbc"
+    "aljazeera"
    ],
-   "published": "2026-11-26T16:39:30+00:00",
-   "note": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-27T01:07:44+00:00",
+   "note": "France's cybersecurity chief urges collective action to combat unprecedented threat levels in the nation.",
+   "region": "EUROPE"
   },
   {
-   "id": "1bc98ccaa4b1",
-   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+   "id": "ac5b8850d933",
+   "title": "2名意籍工程师遇袭身亡，中东冲突波及到了普通欧洲民众",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738507.shtml",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-27T00:59:39+00:00",
+   "note": "突发袭击！伊朗、科威特、德国与意大利四国卷入同一场风波，2名工程师遇袭身亡，中东冲突波及到了普通欧洲民众｜国际早察",
+   "region": "EUROPE"
+  },
+  {
+   "id": "61ce63209223",
+   "title": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
+   "url": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
@@ -632,50 +647,35 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-26T16:21:19+00:00",
-   "note": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
+   "published": "2026-11-26T23:03:16+00:00",
+   "note": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
    "region": "OTHER"
   },
   {
-   "id": "c31621ffb3eb",
-   "title": "Diesel tanker capsizes near Ibiza, killing crew member",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_loaded-diesel-tanker-capsizes-off-ibiza-killing-one-261126?traffic_source=rss",
+   "id": "f5367675356f",
+   "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+   "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "bbc"
    ],
-   "published": "2026-11-26T15:56:39+00:00",
-   "note": "Aerial footage shows the capsized Maltese-flagged Med Emre chemical tanker off the Spanish island of Ibiza.",
+   "published": "2026-11-26T22:01:22+00:00",
+   "note": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
    "region": "OTHER"
-  },
-  {
-   "id": "459a2b676663",
-   "title": "Two dead after Iranian drone attack on Kuwait",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-26T15:55:15+00:00",
-   "note": "Kuwait’s army says two Italian workers were killed and four others were injured in an Iranian drone attack.",
-   "region": "MIDDLE_EAST"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 39713,
-  "gdelt_events": 39448,
+  "items": 37049,
+  "gdelt_events": 36786,
   "mode": "live",
-  "data_through": "2026-11-25",
-  "clusters": 261,
-  "origins": 262,
+  "data_through": "2026-11-26",
+  "clusters": 259,
+  "origins": 259,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -693,11 +693,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 2.22,
-    "p50": 0.57,
+    "now": 3.03,
+    "p50": 0.58,
     "p90": 3.21,
-    "ratio": 3.87,
-    "z": 1.26
+    "ratio": 5.19,
+    "z": 1.36
    },
    "physical": {
     "now": 0.0,
@@ -707,40 +707,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 1.9,
-    "p50": 0.49,
+    "now": 2.08,
+    "p50": 0.51,
     "p90": 2.46,
-    "ratio": 3.91,
-    "z": 1.19
+    "ratio": 4.07,
+    "z": 1.25
    },
    "economy": {
-    "now": 1.51,
-    "p50": 0.47,
+    "now": 2.22,
+    "p50": 0.48,
     "p90": 2.31,
-    "ratio": 3.24,
-    "z": 1.0
+    "ratio": 4.59,
+    "z": 1.34
    },
    "internal": {
-    "now": 0.81,
-    "p50": 0.21,
+    "now": 1.08,
+    "p50": 0.22,
     "p90": 1.19,
-    "ratio": 3.93,
-    "z": 0.78
+    "ratio": 4.96,
+    "z": 0.99
    },
    "narrative": {
-    "now": 0.12,
+    "now": 0.06,
     "p50": 0.06,
     "p90": 0.11,
     "ratio": null,
-    "z": 0.1
+    "z": null
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-29",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-30",
    "geti": 50.0
@@ -795,43 +791,43 @@
   },
   {
    "date": "2026-08-12",
-   "geti": 51.0
+   "geti": 50.0
   },
   {
    "date": "2026-08-13",
-   "geti": 50.7
+   "geti": 49.9
   },
   {
    "date": "2026-08-14",
-   "geti": 49.1
+   "geti": 48.6
   },
   {
    "date": "2026-08-15",
-   "geti": 51.2
+   "geti": 50.8
   },
   {
    "date": "2026-08-16",
-   "geti": 51.4
+   "geti": 51.2
   },
   {
    "date": "2026-08-17",
-   "geti": 46.9
+   "geti": 46.5
   },
   {
    "date": "2026-08-18",
-   "geti": 44.1
+   "geti": 43.9
   },
   {
    "date": "2026-08-19",
-   "geti": 41.2
+   "geti": 41.1
   },
   {
    "date": "2026-08-20",
-   "geti": 44.8
+   "geti": 44.6
   },
   {
    "date": "2026-08-21",
-   "geti": 46.9
+   "geti": 46.8
   },
   {
    "date": "2026-08-22",
@@ -847,7 +843,7 @@
   },
   {
    "date": "2026-08-25",
-   "geti": 41.8
+   "geti": 41.9
   },
   {
    "date": "2026-08-26",
@@ -863,7 +859,7 @@
   },
   {
    "date": "2026-08-29",
-   "geti": 52.5
+   "geti": 52.6
   },
   {
    "date": "2026-08-30",
@@ -883,7 +879,7 @@
   },
   {
    "date": "2026-09-03",
-   "geti": 49.9
+   "geti": 49.8
   },
   {
    "date": "2026-09-04",
@@ -891,231 +887,231 @@
   },
   {
    "date": "2026-09-05",
-   "geti": 51.5
+   "geti": 51.6
   },
   {
    "date": "2026-09-06",
-   "geti": 50.3
-  },
-  {
-   "date": "2026-09-07",
-   "geti": 45.3
-  },
-  {
-   "date": "2026-09-08",
-   "geti": 44.5
-  },
-  {
-   "date": "2026-09-09",
-   "geti": 42.9
-  },
-  {
-   "date": "2026-09-10",
-   "geti": 41.1
-  },
-  {
-   "date": "2026-09-11",
-   "geti": 40.4
-  },
-  {
-   "date": "2026-09-12",
-   "geti": 43.4
-  },
-  {
-   "date": "2026-09-13",
-   "geti": 45.4
-  },
-  {
-   "date": "2026-09-14",
-   "geti": 44.7
-  },
-  {
-   "date": "2026-09-15",
-   "geti": 45.8
-  },
-  {
-   "date": "2026-09-16",
-   "geti": 47.0
-  },
-  {
-   "date": "2026-09-17",
-   "geti": 47.2
-  },
-  {
-   "date": "2026-09-18",
-   "geti": 44.4
-  },
-  {
-   "date": "2026-09-19",
-   "geti": 48.2
-  },
-  {
-   "date": "2026-09-20",
-   "geti": 53.9
-  },
-  {
-   "date": "2026-09-21",
    "geti": 50.4
   },
   {
-   "date": "2026-09-22",
-   "geti": 48.7
-  },
-  {
-   "date": "2026-09-23",
-   "geti": 50.9
-  },
-  {
-   "date": "2026-09-24",
-   "geti": 47.6
-  },
-  {
-   "date": "2026-09-25",
-   "geti": 45.1
-  },
-  {
-   "date": "2026-09-26",
-   "geti": 50.2
-  },
-  {
-   "date": "2026-09-27",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-09-28",
-   "geti": 47.8
-  },
-  {
-   "date": "2026-09-29",
+   "date": "2026-09-07",
    "geti": 44.9
   },
   {
-   "date": "2026-09-30",
-   "geti": 41.1
+   "date": "2026-09-08",
+   "geti": 44.3
   },
   {
-   "date": "2026-10-01",
-   "geti": 37.5
+   "date": "2026-09-09",
+   "geti": 42.8
   },
   {
-   "date": "2026-10-02",
-   "geti": 41.8
+   "date": "2026-09-10",
+   "geti": 40.9
   },
   {
-   "date": "2026-10-03",
+   "date": "2026-09-11",
+   "geti": 39.9
+  },
+  {
+   "date": "2026-09-12",
    "geti": 43.1
   },
   {
-   "date": "2026-10-04",
-   "geti": 41.7
+   "date": "2026-09-13",
+   "geti": 45.2
   },
   {
-   "date": "2026-10-05",
-   "geti": 46.1
+   "date": "2026-09-14",
+   "geti": 44.6
   },
   {
-   "date": "2026-10-06",
-   "geti": 48.3
+   "date": "2026-09-15",
+   "geti": 45.6
   },
   {
-   "date": "2026-10-07",
+   "date": "2026-09-16",
+   "geti": 46.8
+  },
+  {
+   "date": "2026-09-17",
    "geti": 47.0
   },
   {
-   "date": "2026-10-08",
-   "geti": 45.9
+   "date": "2026-09-18",
+   "geti": 44.2
   },
   {
-   "date": "2026-10-09",
-   "geti": 49.1
+   "date": "2026-09-19",
+   "geti": 48.0
   },
   {
-   "date": "2026-10-10",
-   "geti": 54.7
+   "date": "2026-09-20",
+   "geti": 53.7
   },
   {
-   "date": "2026-10-11",
-   "geti": 59.4
+   "date": "2026-09-21",
+   "geti": 50.2
   },
   {
-   "date": "2026-10-12",
-   "geti": 54.6
+   "date": "2026-09-22",
+   "geti": 48.6
   },
   {
-   "date": "2026-10-13",
-   "geti": 54.1
+   "date": "2026-09-23",
+   "geti": 50.7
   },
   {
-   "date": "2026-10-14",
-   "geti": 54.7
+   "date": "2026-09-24",
+   "geti": 47.4
   },
   {
-   "date": "2026-10-15",
-   "geti": 58.6
+   "date": "2026-09-25",
+   "geti": 44.9
   },
   {
-   "date": "2026-10-16",
-   "geti": 58.7
+   "date": "2026-09-26",
+   "geti": 50.0
   },
   {
-   "date": "2026-10-17",
-   "geti": 58.2
-  },
-  {
-   "date": "2026-10-18",
-   "geti": 59.4
-  },
-  {
-   "date": "2026-10-19",
-   "geti": 60.3
-  },
-  {
-   "date": "2026-10-20",
-   "geti": 56.5
-  },
-  {
-   "date": "2026-10-21",
-   "geti": 52.2
-  },
-  {
-   "date": "2026-10-22",
-   "geti": 51.3
-  },
-  {
-   "date": "2026-10-23",
-   "geti": 55.2
-  },
-  {
-   "date": "2026-10-24",
-   "geti": 58.4
-  },
-  {
-   "date": "2026-10-25",
-   "geti": 63.9
-  },
-  {
-   "date": "2026-10-26",
-   "geti": 46.9
-  },
-  {
-   "date": "2026-10-27",
-   "geti": 49.8
-  },
-  {
-   "date": "2026-10-28",
+   "date": "2026-09-27",
    "geti": 49.6
   },
   {
+   "date": "2026-09-28",
+   "geti": 47.6
+  },
+  {
+   "date": "2026-09-29",
+   "geti": 44.6
+  },
+  {
+   "date": "2026-09-30",
+   "geti": 40.9
+  },
+  {
+   "date": "2026-10-01",
+   "geti": 37.3
+  },
+  {
+   "date": "2026-10-02",
+   "geti": 41.6
+  },
+  {
+   "date": "2026-10-03",
+   "geti": 42.9
+  },
+  {
+   "date": "2026-10-04",
+   "geti": 41.6
+  },
+  {
+   "date": "2026-10-05",
+   "geti": 45.9
+  },
+  {
+   "date": "2026-10-06",
+   "geti": 48.1
+  },
+  {
+   "date": "2026-10-07",
+   "geti": 46.9
+  },
+  {
+   "date": "2026-10-08",
+   "geti": 45.7
+  },
+  {
+   "date": "2026-10-09",
+   "geti": 48.9
+  },
+  {
+   "date": "2026-10-10",
+   "geti": 54.6
+  },
+  {
+   "date": "2026-10-11",
+   "geti": 59.3
+  },
+  {
+   "date": "2026-10-12",
+   "geti": 54.4
+  },
+  {
+   "date": "2026-10-13",
+   "geti": 54.0
+  },
+  {
+   "date": "2026-10-14",
+   "geti": 54.5
+  },
+  {
+   "date": "2026-10-15",
+   "geti": 58.4
+  },
+  {
+   "date": "2026-10-16",
+   "geti": 58.5
+  },
+  {
+   "date": "2026-10-17",
+   "geti": 57.9
+  },
+  {
+   "date": "2026-10-18",
+   "geti": 59.2
+  },
+  {
+   "date": "2026-10-19",
+   "geti": 60.0
+  },
+  {
+   "date": "2026-10-20",
+   "geti": 56.3
+  },
+  {
+   "date": "2026-10-21",
+   "geti": 52.0
+  },
+  {
+   "date": "2026-10-22",
+   "geti": 51.0
+  },
+  {
+   "date": "2026-10-23",
+   "geti": 54.9
+  },
+  {
+   "date": "2026-10-24",
+   "geti": 58.1
+  },
+  {
+   "date": "2026-10-25",
+   "geti": 63.7
+  },
+  {
+   "date": "2026-10-26",
+   "geti": 46.7
+  },
+  {
+   "date": "2026-10-27",
+   "geti": 49.6
+  },
+  {
+   "date": "2026-10-28",
+   "geti": 49.5
+  },
+  {
    "date": "2026-10-29",
-   "geti": 54.7
+   "geti": 54.6
   },
   {
    "date": "2026-10-30",
-   "geti": 41.0
+   "geti": 40.9
   },
   {
    "date": "2026-10-31",
-   "geti": 50.7
+   "geti": 50.6
   },
   {
    "date": "2026-11-01",
@@ -1123,11 +1119,11 @@
   },
   {
    "date": "2026-11-02",
-   "geti": 38.3
+   "geti": 38.2
   },
   {
    "date": "2026-11-03",
-   "geti": 53.3
+   "geti": 53.2
   },
   {
    "date": "2026-11-04",
@@ -1143,7 +1139,7 @@
   },
   {
    "date": "2026-11-07",
-   "geti": 67.3
+   "geti": 67.2
   },
   {
    "date": "2026-11-08",
@@ -1151,31 +1147,31 @@
   },
   {
    "date": "2026-11-09",
-   "geti": 69.8
+   "geti": 69.7
   },
   {
    "date": "2026-11-10",
-   "geti": 72.3
+   "geti": 72.2
   },
   {
    "date": "2026-11-11",
-   "geti": 74.0
+   "geti": 73.9
   },
   {
    "date": "2026-11-12",
-   "geti": 74.5
+   "geti": 74.4
   },
   {
    "date": "2026-11-13",
-   "geti": 74.5
+   "geti": 74.4
   },
   {
    "date": "2026-11-14",
-   "geti": 74.7
+   "geti": 74.6
   },
   {
    "date": "2026-11-15",
-   "geti": 74.3
+   "geti": 74.2
   },
   {
    "date": "2026-11-16",
@@ -1216,6 +1212,10 @@
   {
    "date": "2026-11-25",
    "geti": 61.8
+  },
+  {
+   "date": "2026-11-26",
+   "geti": 62.3
   }
  ],
  "policy": {
@@ -1223,10 +1223,50 @@
   "notable": [
    {
     "kind": "judicial",
-    "title": "Beau Lamarre-Condon used his service weapon to murder two men. Did NSW police recruiters miss any red flags?",
-    "url": "https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb",
+    "title": "Met Police ruined my life, says Kenyan man wrongly sentenced over attack on UK couple",
+    "url": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
+    "country": "GB",
+    "source": "bbc",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "Death-sentenced Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
+    "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
+    "country": "IN",
+    "source": "bbc",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "The ‘Angry Nerds’ campaign exposing red flags in the Philippines’ 2027 budget",
+    "url": "https://www.scmp.com/week-asia/people/article/3375922/angry-nerds-campaign-exposing-red-flags-philippines-2027-budget",
+    "country": "PH",
+    "source": "scmp",
+    "when": "2026-11-27"
+   },
+   {
+    "kind": "judicial",
+    "title": "Albania's youth are protesting in Flamingo Revolution, not leaving the country anymore",
+    "url": "https://www.dw.com/en/albania-s-youth-are-protesting-in-flamingo-revolution-not-leaving-the-country-anymore/a-80068939?maca=en-rss-en-world-4025-rdf",
     "country": "",
-    "source": "guardian",
+    "source": "dw",
+    "when": "2026-11-26"
+   },
+   {
+    "kind": "judicial",
+    "title": "UK man convicted of knife rampage on London-bound train",
+    "url": "https://www.scmp.com/news/world/europe/article/3375965/uk-man-convicted-knife-rampage-london-bound-train",
+    "country": "GB",
+    "source": "scmp",
+    "when": "2026-11-26"
+   },
+   {
+    "kind": "judicial",
+    "title": "Netanyahu’s corruption trial: Is it really all over?",
+    "url": "https://www.aljazeera.com/news/2026/11/26/netanyahus-corruption-trial-is-it-really-all-over?traffic_source=rss",
+    "country": "IL",
+    "source": "aljazeera",
     "when": "2026-11-26"
    },
    {
@@ -1243,14 +1283,6 @@
     "url": "https://www.chinanews.com.cn/gn/2026/11-26/10738337.shtml",
     "country": "CN",
     "source": "chinanews_cn",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "Alleged Islamic State group propagandist Emily Konig on trial in France",
-    "url": "https://www.france24.com/en/video/20261126-alleged-islamic-state-group-propagandist-emily-konig-on-trial-in-france",
-    "country": "FR",
-    "source": "france24",
     "when": "2026-11-26"
    },
    {
@@ -1284,46 +1316,14 @@
     "country": "",
     "source": "bbc",
     "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "Shanghai party chief’s downfall shows reach of anti-corruption drive",
-    "url": "https://www.scmp.com/plus/news/china/politics/article/3375916/shanghai-party-chiefs-downfall-shows-reach-anti-corruption-drive",
-    "country": "CN",
-    "source": "scmp",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "8 French nationals jailed for life in Iraq for joining Syrian Islamic State",
-    "url": "https://www.scmp.com/news/world/middle-east/article/3375901/8-french-nationals-jailed-life-iraq-joining-syrian-islamic-state",
-    "country": "IQ",
-    "source": "scmp",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "Up to 4½ years in jail for 6 men who had sex with 14-year-old girl they met on dating app",
-    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375903/4-1/2-years-jail-6-men-who-had-sex-14-year-old-girl-they-met-dating-app",
-    "country": "HK",
-    "source": "scmp",
-    "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "Desperate appeals from women on death row in Iran after protests",
-    "url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
-    "country": "IR",
-    "source": "bbc",
-    "when": "2026-11-26"
    }
   ],
-  "notable_total": 16,
+  "notable_total": 18,
   "counts": {
    "extractive": 0,
    "control": 0,
    "redistributive": 0,
-   "notable": 16
+   "notable": 18
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1385,31 +1385,31 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 107,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 105,
+    "items": 104,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 107,
+    "items": 106,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 101,
+    "items": 100,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 103,
+    "items": 102,
     "error": ""
    }
   ],
@@ -2215,27 +2215,27 @@
   "mode": "live"
  },
  "hazard": {
-  "index": 45.5,
-  "z": -0.14,
+  "index": 42.4,
+  "z": -0.24,
   "components": [
    {
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.97,
-    "carry": 9.21,
-    "z": 0.01,
-    "score": 50.5,
+    "value": 8.88,
+    "carry": 9.17,
+    "z": -0.0,
+    "score": 49.9,
     "available": true
    },
    {
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 7.0,
-    "carry": 13.26,
-    "z": -0.25,
-    "score": 42.3,
+    "value": 9.0,
+    "carry": 12.82,
+    "z": -0.36,
+    "score": 38.9,
     "available": true
    },
    {
@@ -2243,9 +2243,9 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 0.0,
-    "carry": 1.99,
-    "z": -0.41,
-    "score": 37.5,
+    "carry": 1.78,
+    "z": -0.75,
+    "score": 28.3,
     "available": true
    },
    {
@@ -2254,127 +2254,133 @@
     "weight": 0.16,
     "value": 0.0,
     "carry": 0.04,
-    "z": 0.09,
-    "score": 52.7,
+    "z": 0.08,
+    "score": 52.4,
     "available": true
    },
    {
     "key": "space_weather",
     "label": "地磁扰动",
     "weight": 0.1,
-    "value": 3.0,
-    "carry": 2.57,
-    "z": -0.31,
-    "score": 40.5,
+    "value": 2.33,
+    "carry": 2.55,
+    "z": -0.34,
+    "score": 39.5,
     "available": true
    }
   ],
-  "history_days": 23,
+  "history_days": 24,
   "components_ok": 5,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 14,
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "Balleny Islands region",
-     "v": 5.9,
-     "ts": "2026-11-25T01:38+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udd1"
+     "t": "Revilla Gigedo Islands region",
+     "v": 5.7,
+     "ts": "2026-11-26T15:26+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udq5"
     },
     {
-     "t": "83 km ESE of Hengchun, Taiwan",
-     "v": 5.3,
-     "ts": "2026-11-25T08:47+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udef"
+     "t": "204 km S of Taliwang, Indonesia",
+     "v": 5.5,
+     "ts": "2026-11-26T09:08+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udm8"
     },
     {
-     "t": "175 km N of Hicks Bay, New Zealand",
+     "t": "265 km WNW of Houma, Tonga",
      "v": 5.2,
-     "ts": "2026-11-25T06:34+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ude3"
+     "ts": "2026-11-26T09:22+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udmc"
     },
     {
-     "t": "67 km NNE of Luwuk, Indonesia",
+     "t": "183 km N of Hicks Bay, New Zealand",
+     "v": 5.2,
+     "ts": "2026-11-26T01:48+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udjx"
+    },
+    {
+     "t": "Bonin Islands, Japan region",
+     "v": 5.1,
+     "ts": "2026-11-26T19:33+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udry"
+    },
+    {
+     "t": "184 km N of Hicks Bay, New Zealand",
      "v": 5.0,
-     "ts": "2026-11-25T12:08+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udf2"
+     "ts": "2026-11-26T02:09+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udjz"
     },
     {
-     "t": "190 km N of Hicks Bay, New Zealand",
+     "t": "225 km S of Taliwang, Indonesia",
      "v": 4.8,
-     "ts": "2026-11-25T21:32+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udib"
+     "ts": "2026-11-26T09:00+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udm5"
     },
     {
-     "t": "13 km NW of Port-Vila, Vanuatu",
-     "v": 4.7,
-     "ts": "2026-11-25T18:59+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udht"
+     "t": "97 km SW of Puerto Madero, Mexico",
+     "v": 4.6,
+     "ts": "2026-11-26T03:30+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udki"
     },
     {
-     "t": "178 km ESE of Kimbe, Papua New Guinea",
-     "v": 4.7,
-     "ts": "2026-11-25T04:30+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uddj"
+     "t": "95 km SSE of Sarangani, Philippines",
+     "v": 4.5,
+     "ts": "2026-11-26T16:18+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udqa"
     }
    ],
    "eonet": [],
    "gdacs": [
     {
-     "t": "Green earthquake (Magnitude 5.9M, Depth:10km) in Balleny Islands Region 25/11/20",
+     "t": "Green earthquake (Magnitude 5.7M, Depth:10km) in Revilla Gigedo Islands Region 2",
      "v": "green",
-     "ts": "2026-11-25 01:52",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1579132"
+     "ts": "2026-11-26 15:46",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1579445"
     },
     {
-     "t": "Green flood alert in Uganda",
+     "t": "Green earthquake (Magnitude 5.5M, Depth:15.139km) in South Of Sumbawa, Indonesia",
      "v": "green",
-     "ts": "2026-11-25 07:17",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104299"
+     "ts": "2026-11-26 09:24",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1579362"
     },
     {
-     "t": "Green flood alert in Ukraine",
+     "t": "Green forest fire notification in Mali",
      "v": "green",
-     "ts": "2026-11-25 11:14",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104300"
+     "ts": "2026-11-26 20:01",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034096"
     },
     {
-     "t": "Green forest fire notification in Mozambique",
+     "t": "Green forest fire notification in India",
      "v": "green",
-     "ts": "2026-11-25 16:02",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034056"
+     "ts": "2026-11-26 12:18",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033959"
     },
     {
-     "t": "Green forest fire notification in Mozambique",
+     "t": "Green forest fire notification in India",
      "v": "green",
-     "ts": "2026-11-25 16:02",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034073"
-    },
-    {
-     "t": "Green forest fire notification in Central African Republic, Chad",
-     "v": "green",
-     "ts": "2026-11-25 20:23",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034020"
+     "ts": "2026-11-26 12:18",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034077"
     }
    ],
    "kp": [
     {
-     "t": "Kp 3.0 峰值（当日 8 个时段）",
-     "v": 3.0,
-     "ts": "2026-11-25",
+     "t": "Kp 2.33 峰值（当日 8 个时段）",
+     "v": 2.33,
+     "ts": "2026-11-26",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
   }
  },
  "epidemic": {
-  "index": 48.2,
-  "z": -0.06,
+  "index": 47.6,
+  "z": -0.08,
   "components": [
    {
     "key": "who_don",
@@ -2383,7 +2389,7 @@
     "value": 0.0,
     "carry": 0.01,
     "z": -0.07,
-    "score": 47.8,
+    "score": 47.9,
     "available": true
    },
    {
@@ -2391,29 +2397,29 @@
     "label": "政策信号",
     "weight": 0.3,
     "value": 0.0,
-    "carry": 0.57,
-    "z": -0.1,
-    "score": 47.0,
+    "carry": 0.51,
+    "z": -0.14,
+    "score": 45.7,
     "available": true
    },
    {
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.75,
-    "carry": 0.88,
-    "z": 0.0,
-    "score": 50.0,
+    "value": 0.76,
+    "carry": 0.87,
+    "z": -0.02,
+    "score": 49.2,
     "available": true
    }
   ],
-  "history_days": 23,
+  "history_days": 24,
   "components_ok": 3,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 12,
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "ongoing": true
   },
   "evidence": {
@@ -2421,12 +2427,12 @@
   }
  },
  "doom": {
-  "index": 58.5,
-  "z": 0.21,
+  "index": 58.4,
+  "z": 0.2,
   "parts": {
-   "military": 0.29,
-   "hazard": -0.11,
-   "epidemic": -0.04
+   "military": 0.3,
+   "hazard": -0.18,
+   "epidemic": -0.06
   },
   "resonance": 0,
   "partial": false,
@@ -2464,13 +2470,13 @@
    "source": "gdelt_recent",
    "ok": true,
    "files": 144,
-   "items": 39448,
+   "items": 36786,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 28,
+   "items": 30,
    "error": "",
    "undated": 0
   },
@@ -2484,14 +2490,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 42,
+   "items": 40,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 13,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2540,38 +2546,38 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 15,
+   "items": 14,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 107,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 105,
+   "items": 104,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 107,
+   "items": 106,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 101,
+   "items": 100,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 103,
+   "items": 102,
    "error": ""
   },
   {
@@ -2607,7 +2613,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 7,
+   "items": 9,
    "error": ""
   },
   {
@@ -2619,7 +2625,7 @@
   {
    "source": "gdacs:rss",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "error": ""
   },
   {
@@ -2637,7 +2643,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 8703,
+   "items": 4429,
    "error": ""
   },
   {
