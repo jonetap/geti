@@ -1,6 +1,6 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-28T07:45:22+00:00",
+ "generated_at": "2026-11-28T17:31:04+00:00",
  "date": "2026-11-27",
  "geti": 60.3,
  "delta_z": 0.16,
@@ -245,39 +245,69 @@
  ],
  "events": [
   {
-   "id": "dfb334fc8032",
-   "title": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
-   "url": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault",
-   "component": "military",
+   "id": "8a5bb58684cf",
+   "title": "日本长崎篡改“南京大屠杀”展陈表述引发不满",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-28/10739447.shtml",
+   "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.64,
    "origins": 1,
    "sources": [
-    "france24"
+    "chinanews"
    ],
-   "published": "2026-11-28T07:12:00+00:00",
-   "note": "Russia shot down 1,200 drones targeting Moscow overnight, Russian authorities said Saturday. Both Russia and Ukraine have stepped up their attacks using projectiles in recent month",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-28T13:57:05+00:00",
+   "note": "据日本方面消息，日本长崎市27日召开长崎原子弹爆炸资料馆运营审议会，公布了展陈解说文本方案，其中，竟然将有关南京大屠杀的解说文案改为所谓“杀害大量平民和俘虏的南京事件”。",
+   "region": "EAST_ASIA"
   },
   {
-   "id": "6be34d824506",
-   "title": "Abby Choi’s ex-husband deflects blame as he insists his father killed her",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3376114/abby-chois-ex-husband-deflects-blame-he-defends-claim-his-father-killed-her",
+   "id": "b2d77b8b20e3",
+   "title": "阿富汗东部一学校附近发生爆炸致10死110伤",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-28/10739414.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-28T13:02:38+00:00",
+   "note": "中新社北京11月28日电 喀布尔消息：当地时间28日，阿富汗东部库纳尔省一所中学附近发生爆炸，造成至少10人死亡、110余人受伤。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "3b696cfac5fe",
+   "title": "阿富汗一中学附近爆炸致10死110伤 疑涉及人为疏忽",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-28/10739368.shtml",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-28T11:57:21+00:00",
+   "note": "中新网11月28日电 据英国广播公司(BBC)最新报道，阿富汗内政部表示，东部库纳尔省一所中学附近28日发生爆炸，已造成至少10人死亡、110人受伤。",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "544c973c127a",
+   "title": "Watchdog to investigate police after woman dies in Staffordshire car crash after pursuit",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/28/woman-21-killed-car-crash-staffordshire-police-pursuit",
    "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "scmp"
+    "guardian"
    ],
-   "published": "2026-11-28T07:00:13+00:00",
-   "note": "Slain Hong Kong socialite Abby Choi Tin-fung’s ex-husband has blamed several people in court while defending an account of the killing that the prosecution and two family members a",
+   "published": "2026-11-28T16:58:03+00:00",
+   "note": "Police force reported itself to IOPC after Seat Ibiza involved in collision with Vauxhall Astra in Hednesford Two police forces are being investigated after a 21-year-old woman was",
    "region": "OTHER"
   },
   {
-   "id": "fdba3abad1dd",
-   "title": "Eight killed in Peruvian military helicopter crash",
-   "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+   "id": "d6966ce4844c",
+   "title": "Dozens killed in Myanmar military strikes on wedding venue and school",
+   "url": "https://www.bbc.co.uk/news/articles/cm752q30q5leo?at_medium=RSS&at_campaign=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -285,14 +315,29 @@
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-28T04:19:16+00:00",
-   "note": "The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking.",
+   "published": "2026-11-28T16:53:20+00:00",
+   "note": "Air strikes by Myanmar's military government have killed dozens of civilians across the South East Asian nation in recent days.",
    "region": "OTHER"
   },
   {
-   "id": "d176564754ba",
-   "title": "Israel kills two MSF staff in targeted strike on Gaza clinic",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/israel-kills-two-msf-staff-in-targeted-strike-on-gaza-clinic?traffic_source=rss",
+   "id": "35f5eb2bf7b1",
+   "title": "EPA finds no elevated lead levels in drinking water following Iowa explosion",
+   "url": "https://www.theguardian.com/us-news/2026/nov/28/iowa-explosion-lead-levels-water-epa",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-28T16:42:51+00:00",
+   "note": "US army detonated lead azide earlier this week to prevent uncontrolled explosion of toxic bomb-making material There are no indications of elevated lead levels in Iowa ’s drinking ",
+   "region": "OTHER"
+  },
+  {
+   "id": "f89a1a397a86",
+   "title": "Video shows aftermath of deadly air strike at Myanmar wedding venue",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/video-shows-aftermath-of-deadly-air-strike-at-myanmar-wedding-venue?traffic_source=rss",
    "component": "military",
    "severity": 5,
    "confidence": 0.56,
@@ -300,8 +345,129 @@
    "sources": [
     "aljazeera"
    ],
-   "published": "2026-11-28T01:55:03+00:00",
-   "note": "An Israeli strike on a clinic operated by Doctors Without Borders (MSF) in Gaza has killed two watchmen.",
+   "published": "2026-11-28T15:59:08+00:00",
+   "note": "A rights group says that at least 21 people have been killed after Myanmar’s military struck a wedding venue.",
+   "region": "OTHER"
+  },
+  {
+   "id": "ba523119e32b",
+   "title": "Myanmar air strike on wedding venue kills 20, including children: witnesses",
+   "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376152/myanmar-air-strike-wedding-venue-kills-20-including-children-witnesses",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-28T15:25:22+00:00",
+   "note": "Around 20 people were killed when a Myanmar military air strike hit a wedding venue in a conflict area on Saturday, witnesses said, the second mass casualty incident in the country",
+   "region": "OTHER"
+  },
+  {
+   "id": "23fcdc70832c",
+   "title": "Gaza strike kills two Doctors Without Borders staff Israel links to Hamas",
+   "url": "https://www.france24.com/en/gaza-strike-kills-two-doctors-without-borders-staff-israel-links-to-hamas",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24",
+    "france24"
+   ],
+   "published": "2026-11-28T14:31:26+00:00",
+   "note": "Doctors Without Borders (MSF) voiced outrage on Saturday after an Israeli strike killed two staff members at a clinic in Gaza, while the Israeli military said the pair were Hamas \"",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "afe0c3604425",
+   "title": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+   "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-28T14:10:01+00:00",
+   "note": "A spokesman for Afghanistan's interior ministry says the blast was caused by carelessness at an explosives depot nearby.",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "f7f830ef51d6",
+   "title": "Ukraine reports at least 9 killed, Russia shoots down over 1200 drones",
+   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376148/ukraine-reports-least-9-killed-russia-shoots-down-over-1200-drones",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-28T14:09:55+00:00",
+   "note": "At least nine civilians across Ukraine were reported killed on Saturday, while Russia said it had downed a near-record number of Ukrainian drones during the night. Seven people wer",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "52034d9ec47d",
+   "title": "Iran points to Europe’s war role after Italians killed in Kuwait strike",
+   "url": "https://www.aljazeera.com/news/2026/11/28/iran-points-to-europes-war-role-after-italians-killed-in-kuwait-strike?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-28T13:42:53+00:00",
+   "note": "Italy and Kuwait say an Iranian drone was involved, but Tehran says the US and Israel may be looking to escalate war.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "1448667f2209",
+   "title": "Israeli strike on Gaza kills two medics from Doctors Without Borders",
+   "url": "https://www.france24.com/en/middle-east/20261128-israeli-strike-on-gaza-kills-two-medics-from-doctors-without-borders",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-28T13:32:17+00:00",
+   "note": "An Israeli strike killed two doctors who were working members of Doctors Without Borders in Gaza City on Friday night, drawing widespread condemnation, including from the UN's Worl",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "6dc5874ea148",
+   "title": "16 years after Sandy Hook school massacre, US court case targets assault weapons ban",
+   "url": "https://www.scmp.com/news/world/united-states-canada/article/3376146/16-years-after-sandy-hook-school-massacre-us-court-case-targets-assault-weapons-ban",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-28T13:12:38+00:00",
+   "note": "In a country of frequent ⁠mass shootings, the December 14, 2012, massacre at Sandy Hook Elementary School in Newtown, Connecticut, has stood out. A ⁠lone gunman fired 154 rounds in",
+   "region": "OTHER"
+  },
+  {
+   "id": "bb77b5dc8e0b",
+   "title": "Two Médecins Sans Frontières staff killed by Israeli strike in Gaza, charity says",
+   "url": "https://www.theguardian.com/world/2026/nov/28/medecins-sans-frontieres-staff-killed-gaza-israeli-strike",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-28T12:14:49+00:00",
+   "note": "MSF and head of WHO denounce attack on Gaza City clinic as Israel claims security guards were members of Hamas Israeli forces have bombed a clinic run by Médecins Sans Frontières i",
    "region": "MIDDLE_EAST"
   },
   {
@@ -320,305 +486,78 @@
    "region": "NORTH_AMERICA"
   },
   {
-   "id": "9de588f88c8e",
-   "title": "Taiwan is expanding its military draft. Will those troops make a difference?",
-   "url": "https://www.scmp.com/news/china/politics/article/3376027/taiwan-expanding-its-military-draft-will-those-troops-make-difference",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-27T22:00:15+00:00",
-   "note": "Taiwan’s move to toughen up on exemptions to military service has sparked anxiety among some young men facing conscription and raised questions over whether expanding recruitment w",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "e1198a611d4d",
-   "title": "Ukraine says it used laser weapon to shoot down Russian drone for first time",
-   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376104/ukraine-says-it-used-laser-weapon-shoot-down-russian-drone-first-time",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-27T21:08:33+00:00",
-   "note": "Ukraine has for the first time used a laser weapon to shoot down a Russian jet-powered drone, its state-backed defence group Brave1 said on Friday. Earlier this week, Serhiy Beskre",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "e464e17f7338",
-   "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
-   "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+   "id": "0d6a722484d5",
+   "title": "Afghanistan school explosion kills 7 pupils, over 90 injured",
+   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
    "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-28T11:07:35+00:00",
+   "note": "An explosion near a school in Afghanistan’s northeastern Kunar province killed seven students and injured up ‌to 99 others on Saturday, a spokesperson for the Taliban Interior Mini",
+   "region": "SOUTH_ASIA"
+  },
+  {
+   "id": "2e1e3662eb9f",
+   "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+   "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
    "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
    ],
-   "published": "2026-11-27T17:19:31+00:00",
-   "note": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
-   "region": "OTHER"
-  },
-  {
-   "id": "ded1bba3e362",
-   "title": "China and India hold fresh border talks as both boost military readiness before winter",
-   "url": "https://www.scmp.com/news/china/diplomacy/article/3376066/china-and-india-hold-fresh-border-talks-both-boost-military-readiness-winter",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-27T10:27:13+00:00",
-   "note": "China and India have held talks to manage tensions over their hotly contested frontier, even as both ramp up combat readiness and logistical support. They remained in contact throu",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "ae483ef381b0",
-   "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
-   "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-26T20:33:07+00:00",
-   "note": "Statement follows death of sisters, aged 15 and 13, in airstrike on residential apartment in Gaza City Israeli strikes have killed at least 16 schoolchildren in Gaza since the star",
+   "published": "2026-11-28T10:34:58+00:00",
+   "note": "The Israeli military says it targeted \"Hamas terrorists\" in the strike which has been condemned by the World Health Organization.",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "45831890fcf0",
-   "title": "‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record",
-   "url": "https://www.theguardian.com/world/2026/nov/26/lana-nusseibeh-uae-sudan-un-secretary-general",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-26T12:37:42+00:00",
-   "note": "The US and Russia’s candidate for secretary general is on a charm offensive. Can she overcome London’s resistance to her bid? Lana Nusseibeh is in Britain this week, attempting to ",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "b445bea12ac4",
-   "title": "About 200 evacuated as scaffolding catches fire at Hong Kong industrial building",
-   "url": "https://www.scmp.com/news/hong-kong/society/article/3376121/about-200-evacuated-scaffolding-catches-fire-hong-kong-industrial-building",
-   "component": "physical",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-28T07:36:59+00:00",
-   "note": "About 200 people have been evacuated after a fire broke out at an industrial building in Hong Kong’s Tuen Mun when exterior scaffolding caught alight. Police said they were alerted",
-   "region": "OTHER"
-  },
-  {
-   "id": "22aa378c8718",
-   "title": "Palestinian tells of ‘devastating’ struggle after being made redundant by EU in Gaza",
-   "url": "https://www.theguardian.com/world/2026/nov/28/mohammad-baraka-palestinian-eu-gaza-redundancy-pay-access",
+   "id": "1383337b8f9d",
+   "title": "Several students killed in blast beside Afghan school",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school?traffic_source=rss",
    "component": "narrative",
-   "severity": 4,
-   "confidence": 0.56,
+   "severity": 5,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
-    "guardian"
+    "aljazeera"
    ],
-   "published": "2026-11-28T06:00:34+00:00",
-   "note": "Mohammad Baraka unable to access redundancy pay for almost 20 years’ service as family’s situation becomes ‘increasingly desperate’ A Palestinian man who worked for the EU in Gaza ",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-28T10:05:26+00:00",
+   "note": "At least six students have been killed and 97 injured in an explosion beside a middle school in Asadabad, Afghanistan.",
+   "region": "SOUTH_ASIA"
   },
   {
-   "id": "0c7b4e0ca909",
-   "title": "Chinese engineers defy Hormuz blockade to install Abu Dhabi drilling rigs",
-   "url": "https://www.scmp.com/news/china/article/3376116/chinese-engineers-defy-hormuz-blockade-install-abu-dhabi-drilling-rigs",
+   "id": "7dced5e62d8d",
+   "title": "Scientists find dice, game tiles in Kublai Khan shipwreck, revealing how troops coped at sea",
+   "url": "https://www.scmp.com/news/people-culture/trending-china/article/3376112/scientists-find-dice-game-tiles-kublai-khan-shipwreck-revealing-how-troops-coped-sea",
    "component": "military",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-28T06:00:13+00:00",
-   "note": "As fighter jets screamed just above, a group of Chinese engineers defied wartime blockades in the Strait of Hormuz to deliver and install drilling rigs on an Abu Dhabi island. A te",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "e01b13f62d81",
-   "title": "科威特召见伊朗大使 抗议伊“持续袭击”",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-28/10739097.shtml",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-27T22:46:38+00:00",
-   "note": "科威特外交部27日召见伊朗驻科大使，就前一天导致两名意大利公民死亡的无人机袭击事件提出抗议。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "57ab45265f4d",
-   "title": "Trade, gold and culture: Russian envoy pushes for closer ties with Hong Kong",
-   "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3376084/trade-gold-and-culture-russian-envoy-pushes-closer-ties-hong-kong",
-   "component": "diplomacy",
-   "severity": 4,
+   "severity": 5,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-28T01:00:11+00:00",
-   "note": "Russian businesses in Hong Kong are finding ways to overcome hurdles brought about by Western-led sanctions, the country’s top diplomat in the city has said, noting that the issue ",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "be8ca1e723da",
-   "title": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-28T00:00:00+00:00",
-   "note": "Italian Foreign Minister Antonio Tajani says the drone behind the deadly Kuwait strike was made in Iran.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "fc36235353e3",
-   "title": "US disables ship attempting to breach Iran blockade",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-27T23:55:16+00:00",
-   "note": "The US military says it disabled a commercial ship after it left an Iranian port and ignored warnings to stop.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "6fe7d160ffcb",
-   "title": "Son of Hamas chief survived Israeli strike, group says",
-   "url": "https://www.scmp.com/news/world/middle-east/article/3376106/son-hamas-chief-survives-israeli-strike-group-says",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "scmp"
-   ],
-   "published": "2026-11-27T23:52:33+00:00",
-   "note": "The son of Hamas ⁠chief Khalil al-Hayya survived an assassination attempt ⁠by the Israeli military on Friday, senior Hamas official ⁠Basem Naim said. He said that Izzeldeen al-Hayy",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "e80e92ed60d9",
-   "title": "US military says it disabled merchant ship trying to breach Iran blockade",
-   "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-27T22:22:02+00:00",
-   "note": "The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "ac5d05ab0f9e",
-   "title": "失去伊朗石油供應，中國小型煉油廠如何應對？",
-   "url": "https://www.bbc.com/zhongwen/articles/c3qj5y7lwrn9o/trad?at_medium=RSS&at_campaign=rss",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc_zh"
-   ],
-   "published": "2026-11-27T03:35:06+00:00",
-   "note": "美國對伊朗實施海上封鎖，迫使長期依賴廉價伊朗石油的中國獨立煉油廠轉向伊拉克等產油國，面臨成本上升和經營虧損的壓力。即使封鎖解除，伊朗能否重新贏得這些中國買家，仍取決於油價及美國的制裁政策。",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "9028b11b8356",
-   "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
-   "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
-   "component": "diplomacy",
-   "severity": 4,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-26T10:00:52+00:00",
-   "note": "Public Committee Against Torture in Israel examined 42 complaints against Shin Bet interrogators over past decade Israel has institutionalised the use of torture to extract confess",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "417716d1ce3f",
-   "title": "墨西哥抗议美国在墨开通举报热线",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-28/10739125.shtml",
-   "component": "internal",
-   "severity": 3,
-   "confidence": 0.64,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-28T01:59:00+00:00",
-   "note": "中新社北京11月28日电 墨西哥城消息：墨西哥总统辛鲍姆27日在新闻发布会上表示，墨方已就美国毒品管制局在墨西哥开通举报热线一事向美方提出正式抗议。该热线旨在收集有关涉嫌参与毒品贩运人员及墨西哥官员涉嫌腐败的信息。",
-   "region": "EAST_ASIA"
-  },
-  {
-   "id": "fd9b26a5afc6",
-   "title": "Trump’s tariffs have become America’s new normal",
-   "url": "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss",
-   "component": "economy",
-   "severity": 3,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-28T06:57:19+00:00",
-   "note": "Even a Democratic administration may struggle to reverse tariffs that help finance Trump's tax cuts.",
+   "published": "2026-11-28T10:00:17+00:00",
+   "note": "When Mongol leader Kublai Khan launched one of the largest naval invasions in human history in 1281, he was seeking a place to resettle a defeated Chinese army – and Japan was in h",
    "region": "OTHER"
-  }
- ],
- "breaking": [
+  },
   {
-   "id": "b445bea12ac4",
-   "title": "About 200 evacuated as scaffolding catches fire at Hong Kong industrial building",
-   "url": "https://www.scmp.com/news/hong-kong/society/article/3376121/about-200-evacuated-scaffolding-catches-fire-hong-kong-industrial-building",
-   "component": "physical",
-   "severity": 4,
-   "confidence": 0.56,
+   "id": "55dea93061ab",
+   "title": "Teary-eyed fiancée, brother of firefighter Ho Wai-ho receive posthumous medal",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3376125/teary-eyed-fiancee-brother-firefighter-ho-wai-ho-receive-posthumous-medal",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-28T07:36:59+00:00",
-   "note": "About 200 people have been evacuated after a fire broke out at an industrial building in Hong Kong’s Tuen Mun when exterior scaffolding caught alight. Police said they were alerted",
+   "published": "2026-11-28T08:54:33+00:00",
+   "note": "Tears welled up in the eyes of the fiancée of firefighter Ho Wai-ho, who was killed in the city’s deadliest blaze in decades, as she joined his brother on Saturday to accept a post",
    "region": "OTHER"
   },
   {
@@ -627,13 +566,13 @@
    "url": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "france24"
    ],
    "published": "2026-11-28T07:12:00+00:00",
-   "note": "Russia shot down 1,200 drones targeting Moscow overnight, Russian authorities said Saturday. Both Russia and Ukraine have stepped up their attacks using projectiles in recent month",
+   "note": "Russia shot down over 1,200 drones targeting Moscow overnight, Russian authorities said Saturday. Both Russia and Ukraine have stepped up their attacks using projectiles in recent ",
    "region": "RUSSIA_CIS"
   },
   {
@@ -642,7 +581,7 @@
    "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3376114/abby-chois-ex-husband-deflects-blame-he-defends-claim-his-father-killed-her",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -652,30 +591,92 @@
    "region": "OTHER"
   },
   {
-   "id": "22aa378c8718",
-   "title": "Palestinian tells of ‘devastating’ struggle after being made redundant by EU in Gaza",
-   "url": "https://www.theguardian.com/world/2026/nov/28/mohammad-baraka-palestinian-eu-gaza-redundancy-pay-access",
+   "id": "fdba3abad1dd",
+   "title": "Eight killed in Peruvian military helicopter crash",
+   "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-28T04:19:16+00:00",
+   "note": "The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking.",
+   "region": "OTHER"
+  }
+ ],
+ "breaking": [
+  {
+   "id": "544c973c127a",
+   "title": "Watchdog to investigate police after woman dies in Staffordshire car crash after pursuit",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/28/woman-21-killed-car-crash-staffordshire-police-pursuit",
    "component": "narrative",
-   "severity": 4,
+   "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-28T06:00:34+00:00",
-   "note": "Mohammad Baraka unable to access redundancy pay for almost 20 years’ service as family’s situation becomes ‘increasingly desperate’ A Palestinian man who worked for the EU in Gaza ",
-   "region": "MIDDLE_EAST"
+   "published": "2026-11-28T16:58:03+00:00",
+   "note": "Police force reported itself to IOPC after Seat Ibiza involved in collision with Vauxhall Astra in Hednesford Two police forces are being investigated after a 21-year-old woman was",
+   "region": "OTHER"
+  },
+  {
+   "id": "d6966ce4844c",
+   "title": "Dozens killed in Myanmar military strikes on wedding venue and school",
+   "url": "https://www.bbc.co.uk/news/articles/cm752q30q5leo?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-28T16:53:20+00:00",
+   "note": "Air strikes by Myanmar's military government have killed dozens of civilians across the South East Asian nation in recent days.",
+   "region": "OTHER"
+  },
+  {
+   "id": "35f5eb2bf7b1",
+   "title": "EPA finds no elevated lead levels in drinking water following Iowa explosion",
+   "url": "https://www.theguardian.com/us-news/2026/nov/28/iowa-explosion-lead-levels-water-epa",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-28T16:42:51+00:00",
+   "note": "US army detonated lead azide earlier this week to prevent uncontrolled explosion of toxic bomb-making material There are no indications of elevated lead levels in Iowa ’s drinking ",
+   "region": "OTHER"
+  },
+  {
+   "id": "f89a1a397a86",
+   "title": "Video shows aftermath of deadly air strike at Myanmar wedding venue",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/video-shows-aftermath-of-deadly-air-strike-at-myanmar-wedding-venue?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-28T15:59:08+00:00",
+   "note": "A rights group says that at least 21 people have been killed after Myanmar’s military struck a wedding venue.",
+   "region": "OTHER"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 28372,
-  "gdelt_events": 28134,
+  "items": 28392,
+  "gdelt_events": 28148,
   "mode": "live",
   "data_through": "2026-11-27",
-  "clusters": 231,
-  "origins": 233,
+  "clusters": 237,
+  "origins": 237,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -1219,20 +1220,24 @@
   }
  ],
  "policy": {
-  "items": [
-   {
-    "type": "redistributive",
-    "country": "",
-    "source": "aljazeera",
-    "score": 0.2,
-    "signed": -0.2,
-    "title": "Trump’s tariffs have become America’s new normal",
-    "url": "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss",
-    "origins": 1,
-    "when": "2026-11-28"
-   }
-  ],
+  "items": [],
   "notable": [
+   {
+    "kind": "judicial",
+    "title": "Police make 33 arrests as part of child sexual abuse inquiry in Southampton",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/28/child-sexual-abuse-investigation-southampton",
+    "country": "",
+    "source": "guardian",
+    "when": "2026-11-28"
+   },
+   {
+    "kind": "judicial",
+    "title": "Taiwan elections: KMT loses Yilan county in setback ahead of 2028 general election",
+    "url": "https://www.scmp.com/news/china/politics/article/3376122/taiwan-elections-kmt-loses-yilan-county-setback-ahead-2028-general-election",
+    "country": "TW",
+    "source": "scmp",
+    "when": "2026-11-28"
+   },
    {
     "kind": "judicial",
     "title": "墨西哥抗议美国在墨开通举报热线",
@@ -1251,14 +1256,6 @@
    },
    {
     "kind": "judicial",
-    "title": "No warning, no mercy: why China moved fast to topple Chen Jining",
-    "url": "https://www.scmp.com/news/china/politics/article/3376088/no-warning-no-mercy-why-china-moved-fast-topple-chen-jining",
-    "country": "CN",
-    "source": "scmp",
-    "when": "2026-11-27"
-   },
-   {
-    "kind": "judicial",
     "title": "日媒：涉嫌非法侵入住宅，一名驻日美军人员被捕",
     "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738996.shtml",
     "country": "JP",
@@ -1272,21 +1269,13 @@
     "country": "IL",
     "source": "guardian",
     "when": "2026-11-27"
-   },
-   {
-    "kind": "judicial",
-    "title": "Albania's youth are protesting, no longer leaving the country",
-    "url": "https://www.dw.com/en/albania-s-youth-are-protesting-no-longer-leaving-the-country/a-80068939?maca=en-rss-en-world-4025-rdf",
-    "country": "",
-    "source": "dw",
-    "when": "2026-11-26"
    }
   ],
   "notable_total": 6,
   "counts": {
    "extractive": 0,
    "control": 0,
-   "redistributive": 1,
+   "redistributive": 0,
    "notable": 6
   },
   "pressure": {},
@@ -2290,16 +2279,16 @@
    "eonet": [],
    "gdacs": [
     {
+     "t": "Green flood alert in Bolivia",
+     "v": "green",
+     "ts": "2026-11-27 08:17",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104303"
+    },
+    {
      "t": "Green forest fire notification in Papua New Guinea",
      "v": "green",
      "ts": "2026-11-27 04:20",
      "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034104"
-    },
-    {
-     "t": "Green flood alert in Paraguay",
-     "v": "green",
-     "ts": "2026-11-27 07:13",
-     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302"
     },
     {
      "t": "Green forest fire notification in South Sudan, Sudan",
@@ -2325,8 +2314,8 @@
   }
  },
  "epidemic": {
-  "index": 49.1,
-  "z": -0.03,
+  "index": 49.8,
+  "z": -0.01,
   "components": [
    {
     "key": "who_don",
@@ -2352,10 +2341,10 @@
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 2.1,
-    "carry": 0.96,
-    "z": 0.16,
-    "score": 55.0,
+    "value": 2.46,
+    "carry": 1.0,
+    "z": 0.23,
+    "score": 57.3,
     "available": true
    }
   ],
@@ -2373,12 +2362,12 @@
   }
  },
  "doom": {
-  "index": 56.5,
+  "index": 56.6,
   "z": 0.16,
   "parts": {
    "military": 0.25,
    "hazard": -0.26,
-   "epidemic": -0.02
+   "epidemic": -0.0
   },
   "resonance": 0,
   "partial": false,
@@ -2415,14 +2404,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 140,
-   "items": 28134,
+   "files": 144,
+   "items": 28148,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 20,
+   "items": 25,
    "error": "",
    "undated": 0
   },
@@ -2436,14 +2425,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 32,
+   "items": 33,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "error": "",
    "undated": 0
   },
@@ -2471,7 +2460,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "error": "",
    "undated": 0
   },
@@ -2589,7 +2578,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 5368,
+   "items": 11604,
    "error": ""
   },
   {
