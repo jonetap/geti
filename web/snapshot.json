@@ -1,182 +1,182 @@
 {
  "index_version": "geti-0.4.3",
- "generated_at": "2026-11-27T21:17:24+00:00",
- "date": "2026-11-26",
- "geti": 62.3,
- "delta_z": 0.32,
- "delta_pts": 0.5,
+ "generated_at": "2026-11-28T07:45:22+00:00",
+ "date": "2026-11-27",
+ "geti": 60.3,
+ "delta_z": 0.16,
+ "delta_pts": -2.0,
  "confidence": 0.98,
  "history_days": 120,
  "driver_region": "NORTH_AMERICA",
  "driver_label": "北美",
  "regions": [
   {
-   "code": "NORTH_AMERICA",
-   "label": "北美",
-   "score": 75.2,
-   "delta": 2.5,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     1.36
-    ],
-    [
-     "economy",
-     1.34
-    ]
-   ]
-  },
-  {
    "code": "OTHER",
    "label": "其他",
-   "score": 74.6,
-   "delta": 10.1,
+   "score": 70.5,
+   "delta": -4.1,
    "excluded": true,
    "drivers": [
     [
      "military",
-     1.14
+     1.11
     ],
     [
      "diplomacy",
-     1.05
+     1.04
     ]
    ]
   },
   {
-   "code": "EUROPE",
-   "label": "欧洲",
-   "score": 64.6,
-   "delta": 8.0,
+   "code": "NORTH_AMERICA",
+   "label": "北美",
+   "score": 69.1,
+   "delta": -6.1,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.91
+     1.0
     ],
     [
-     "diplomacy",
-     0.8
-    ]
-   ]
-  },
-  {
-   "code": "SOUTH_ASIA",
-   "label": "南亚",
-   "score": 62.7,
-   "delta": 10.1,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     0.94
-    ],
-    [
-     "diplomacy",
-     0.94
+     "economy",
+     0.97
     ]
    ]
   },
   {
    "code": "OCEANIA",
    "label": "大洋洲",
-   "score": 62.6,
-   "delta": 11.4,
+   "score": 65.4,
+   "delta": 2.8,
    "excluded": false,
    "drivers": [
     [
      "diplomacy",
-     0.93
+     0.98
     ],
     [
-     "military",
-     0.76
-    ]
-   ]
-  },
-  {
-   "code": "AFRICA",
-   "label": "非洲",
-   "score": 59.9,
-   "delta": 7.3,
-   "excluded": false,
-   "drivers": [
-    [
-     "diplomacy",
-     0.85
-    ],
-    [
-     "military",
-     0.76
-    ]
-   ]
-  },
-  {
-   "code": "EAST_ASIA",
-   "label": "东亚",
-   "score": 59.3,
-   "delta": -1.7,
-   "excluded": false,
-   "drivers": [
-    [
-     "military",
-     0.9
-    ],
-    [
-     "diplomacy",
-     0.78
+     "economy",
+     0.84
     ]
    ]
   },
   {
    "code": "MIDDLE_EAST",
    "label": "中东",
-   "score": 58.0,
-   "delta": -0.4,
+   "score": 62.3,
+   "delta": 4.3,
    "excluded": false,
    "drivers": [
     [
      "military",
-     0.85
+     1.09
     ],
     [
      "diplomacy",
      0.85
+    ]
+   ]
+  },
+  {
+   "code": "SOUTH_ASIA",
+   "label": "南亚",
+   "score": 60.1,
+   "delta": -2.5,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.77
+    ],
+    [
+     "military",
+     0.63
+    ]
+   ]
+  },
+  {
+   "code": "EAST_ASIA",
+   "label": "东亚",
+   "score": 56.8,
+   "delta": -2.5,
+   "excluded": false,
+   "drivers": [
+    [
+     "diplomacy",
+     0.69
+    ],
+    [
+     "military",
+     0.6
+    ]
+   ]
+  },
+  {
+   "code": "EUROPE",
+   "label": "欧洲",
+   "score": 56.2,
+   "delta": -8.4,
+   "excluded": false,
+   "drivers": [
+    [
+     "physical",
+     -1.01
+    ],
+    [
+     "economy",
+     0.78
     ]
    ]
   },
   {
    "code": "RUSSIA_CIS",
    "label": "俄与独联体",
-   "score": 55.3,
-   "delta": 3.6,
+   "score": 53.1,
+   "delta": -2.2,
    "excluded": false,
    "drivers": [
     [
-     "military",
-     0.77
+     "physical",
+     -0.79
     ],
     [
      "diplomacy",
-     0.55
+     0.6
+    ]
+   ]
+  },
+  {
+   "code": "AFRICA",
+   "label": "非洲",
+   "score": 51.4,
+   "delta": -8.5,
+   "excluded": false,
+   "drivers": [
+    [
+     "physical",
+     -1.16
+    ],
+    [
+     "diplomacy",
+     0.93
     ]
    ]
   },
   {
    "code": "LATAM",
    "label": "拉美",
-   "score": 49.7,
-   "delta": -1.1,
+   "score": 49.0,
+   "delta": -0.7,
    "excluded": false,
    "drivers": [
     [
      "internal",
-     -0.47
+     -0.55
     ],
     [
      "diplomacy",
-     0.27
+     0.52
     ]
    ]
   }
@@ -186,11 +186,11 @@
    "key": "military",
    "label": "军事升级",
    "weight": 0.26,
-   "effective_weight": 0.371,
+   "effective_weight": 0.333,
    "available": true,
-   "z": 1.36,
-   "score": 84.5,
-   "contrib": 0.398
+   "z": 1.0,
+   "score": 77.8,
+   "contrib": 0.404
   },
   {
    "key": "physical",
@@ -206,51 +206,141 @@
    "key": "diplomacy",
    "label": "外交",
    "weight": 0.18,
-   "effective_weight": 0.257,
+   "effective_weight": 0.231,
    "available": true,
-   "z": 1.25,
-   "score": 82.8,
-   "contrib": 0.254
+   "z": 0.96,
+   "score": 77.0,
+   "contrib": 0.27
   },
   {
    "key": "economy",
    "label": "经济",
    "weight": 0.15,
-   "effective_weight": 0.214,
+   "effective_weight": 0.192,
    "available": true,
-   "z": 1.34,
-   "score": 84.2,
-   "contrib": 0.226
+   "z": 0.97,
+   "score": 77.2,
+   "contrib": 0.227
   },
   {
    "key": "internal",
    "label": "内部动荡",
    "weight": 0.11,
-   "effective_weight": 0.157,
+   "effective_weight": 0.141,
    "available": true,
-   "z": 0.99,
-   "score": 77.5,
-   "contrib": 0.123
+   "z": 0.55,
+   "score": 66.6,
+   "contrib": 0.094
   },
   {
    "key": "narrative",
    "label": "信息/叙事",
    "weight": 0.08,
-   "effective_weight": 0.0,
-   "available": false,
-   "z": null,
-   "score": null,
-   "contrib": 0.0
+   "effective_weight": 0.103,
+   "available": true,
+   "z": 0.04,
+   "score": 51.1,
+   "contrib": 0.004
   }
  ],
  "events": [
+  {
+   "id": "dfb334fc8032",
+   "title": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
+   "url": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-28T07:12:00+00:00",
+   "note": "Russia shot down 1,200 drones targeting Moscow overnight, Russian authorities said Saturday. Both Russia and Ukraine have stepped up their attacks using projectiles in recent month",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "6be34d824506",
+   "title": "Abby Choi’s ex-husband deflects blame as he insists his father killed her",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3376114/abby-chois-ex-husband-deflects-blame-he-defends-claim-his-father-killed-her",
+   "component": "narrative",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-28T07:00:13+00:00",
+   "note": "Slain Hong Kong socialite Abby Choi Tin-fung’s ex-husband has blamed several people in court while defending an account of the killing that the prosecution and two family members a",
+   "region": "OTHER"
+  },
+  {
+   "id": "fdba3abad1dd",
+   "title": "Eight killed in Peruvian military helicopter crash",
+   "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "bbc"
+   ],
+   "published": "2026-11-28T04:19:16+00:00",
+   "note": "The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking.",
+   "region": "OTHER"
+  },
+  {
+   "id": "d176564754ba",
+   "title": "Israel kills two MSF staff in targeted strike on Gaza clinic",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/israel-kills-two-msf-staff-in-targeted-strike-on-gaza-clinic?traffic_source=rss",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-28T01:55:03+00:00",
+   "note": "An Israeli strike on a clinic operated by Doctors Without Borders (MSF) in Gaza has killed two watchmen.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "8a8b32e85ccd",
+   "title": "美官员称美国空军云计算平台遭黑客入侵",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-28/10739096.shtml",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.38,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-27T22:44:34+00:00",
+   "note": "当地时间11月27日，央视记者获悉，一名美国官员证实，美国空军的云计算平台遭黑客入侵，此次网络安全事件可能导致敏感军事信息泄露。目前，官方尚未透露入侵发生的具体时间及其造成的实际影响。",
+   "region": "NORTH_AMERICA"
+  },
+  {
+   "id": "9de588f88c8e",
+   "title": "Taiwan is expanding its military draft. Will those troops make a difference?",
+   "url": "https://www.scmp.com/news/china/politics/article/3376027/taiwan-expanding-its-military-draft-will-those-troops-make-difference",
+   "component": "military",
+   "severity": 5,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-27T22:00:15+00:00",
+   "note": "Taiwan’s move to toughen up on exemptions to military service has sparked anxiety among some young men facing conscription and raised questions over whether expanding recruitment w",
+   "region": "EAST_ASIA"
+  },
   {
    "id": "e1198a611d4d",
    "title": "Ukraine says it used laser weapon to shoot down Russian drone for first time",
    "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376104/ukraine-says-it-used-laser-weapon-shoot-down-russian-drone-first-time",
    "component": "military",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
@@ -260,123 +350,18 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "e7366fd38708",
-   "title": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
-   "url": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-27T19:53:25+00:00",
-   "note": "Four of Khalil al-Hayya's other sons were previously killed by Israeli forces, according to the Palestinian group.",
-   "region": "MIDDLE_EAST"
-  },
-  {
    "id": "e464e17f7338",
    "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
    "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
    "component": "narrative",
    "severity": 5,
-   "confidence": 0.56,
+   "confidence": 0.34,
    "origins": 1,
    "sources": [
     "bbc"
    ],
    "published": "2026-11-27T17:19:31+00:00",
    "note": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
-   "region": "OTHER"
-  },
-  {
-   "id": "90e1944c66f6",
-   "title": "‘Bear trap’: Ukraine hails new operation as Russian casualties mount",
-   "url": "https://www.aljazeera.com/news/2026/11/27/ukraine-rejects-unfavourable-compromises-as-it-frees-more-territory?traffic_source=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-27T17:13:46+00:00",
-   "note": "Russian assaults met with stout defence along the front as Western powers discuss ceasefire proposals.",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "eaf4b221e453",
-   "title": "Jared Kushner’s 70-minute interview reveals naive bias in handling of Putin’s aggression",
-   "url": "https://www.theguardian.com/us-news/2026/nov/27/jared-kushner-interview-peril-putin-corporate-rival",
-   "component": "diplomacy",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-27T16:49:59+00:00",
-   "note": "Trump’s son-in-law and senior negotiator paints Russian invasion of Ukraine as a misunderstanding to be resolved In the space of a 70-minute interview, Jared Kushner – Donald Trump",
-   "region": "RUSSIA_CIS"
-  },
-  {
-   "id": "d6658791eade",
-   "title": "Jerusalem Daily: Kushner calls Gaza rebuilding ‘act of kindness’",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/jerusalem-daily-kushner-calls-gaza-rebuilding-act-of?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-27T16:01:44+00:00",
-   "note": "As Gaza remains under Israeli bombardment, US envoy Jared Kushner calls its reconstruction a ‘huge act of kindness'.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "83a098f18e6f",
-   "title": "Back to Black Friday: 'We are now bombarded with offers throughout the year'",
-   "url": "https://www.france24.com/en/video/20261127-black-friday-how-the-global-shopping-phenomenon-is-evolving-amid-the-cost-of-living-crisis",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-27T15:53:10+00:00",
-   "note": "Black Friday was once a single day of holiday sales, held the day after Thanksgiving. Then retailers began kicking things off a day early, on Thanksgiving itself. “We are now bomba",
-   "region": "OTHER"
-  },
-  {
-   "id": "48fa7b790991",
-   "title": "配备星链终端、搭载高爆炸药，乌无人艇在非洲突袭俄战舰",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738656.shtml",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-27T05:01:20+00:00",
-   "note": "中新网11月27日电(记者 刁炜)近日，乌克兰出动大批无人艇在利比亚沿海袭击俄方舰船，报道称一艘俄战舰倾覆，另有一艘干货船起火。",
-   "region": "AFRICA"
-  },
-  {
-   "id": "7fa62e31cefe",
-   "title": "Funeral prayers held for 31 victims of Egypt tanker crash",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/funeral-prayers-held-for-31-victims-of-egypt-tanker-crash?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-27T15:07:22+00:00",
-   "note": "Funeral prayers were held at Cairo’s Al-Azhar Mosque on Friday for 31 people killed when a car collided with a tanker",
    "region": "OTHER"
   },
   {
@@ -395,36 +380,6 @@
    "region": "EAST_ASIA"
   },
   {
-   "id": "169c08ac80cf",
-   "title": "Grace Tame calls out ex-Murdoch media executive who said she ‘must be looking to be raped again’",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/27/grace-tame-responds-former-murdoch-executive-nephew-rape-comment-ntwnfb",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "guardian"
-   ],
-   "published": "2026-11-27T06:54:59+00:00",
-   "note": "Matt Handbury, nephew of Rupert Murdoch, admits making offensive remark and says he was referencing assault survivor’s ‘strikingly attractive get-up’ Get our breaking news email , ",
-   "region": "OTHER"
-  },
-  {
-   "id": "61ce63209223",
-   "title": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
-   "url": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-26T23:03:16+00:00",
-   "note": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
-   "region": "OTHER"
-  },
-  {
    "id": "ae483ef381b0",
    "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
    "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes",
@@ -438,21 +393,6 @@
    "published": "2026-11-26T20:33:07+00:00",
    "note": "Statement follows death of sisters, aged 15 and 13, in airstrike on residential apartment in Gaza City Israeli strikes have killed at least 16 schoolchildren in Gaza since the star",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "1bc98ccaa4b1",
-   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.17,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-26T16:21:19+00:00",
-   "note": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
-   "region": "OTHER"
   },
   {
    "id": "45831890fcf0",
@@ -470,124 +410,139 @@
    "region": "RUSSIA_CIS"
   },
   {
-   "id": "ceb40619ed58",
-   "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
-   "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
+   "id": "b445bea12ac4",
+   "title": "About 200 evacuated as scaffolding catches fire at Hong Kong industrial building",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3376121/about-200-evacuated-scaffolding-catches-fire-hong-kong-industrial-building",
+   "component": "physical",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "guardian"
+    "scmp"
    ],
-   "published": "2026-11-26T00:39:10+00:00",
-   "note": "Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a huge fire on a highway ",
+   "published": "2026-11-28T07:36:59+00:00",
+   "note": "About 200 people have been evacuated after a fire broke out at an industrial building in Hong Kong’s Tuen Mun when exterior scaffolding caught alight. Police said they were alerted",
    "region": "OTHER"
   },
   {
-   "id": "2ec86cc5eb8f",
-   "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
-   "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.17,
+   "id": "22aa378c8718",
+   "title": "Palestinian tells of ‘devastating’ struggle after being made redundant by EU in Gaza",
+   "url": "https://www.theguardian.com/world/2026/nov/28/mohammad-baraka-palestinian-eu-gaza-redundancy-pay-access",
+   "component": "narrative",
+   "severity": 4,
+   "confidence": 0.56,
    "origins": 1,
    "sources": [
     "guardian"
    ],
-   "published": "2026-11-25T23:06:06+00:00",
-   "note": "Mariam Dagga shares award with two of her colleagues from AP for ‘powerful coverage’ of human cost of war Mariam Dagga, the Palestinian war correspondent who was killed at the age ",
+   "published": "2026-11-28T06:00:34+00:00",
+   "note": "Mohammad Baraka unable to access redundancy pay for almost 20 years’ service as family’s situation becomes ‘increasingly desperate’ A Palestinian man who worked for the EU in Gaza ",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "704905cb11f2",
-   "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
+   "id": "0c7b4e0ca909",
+   "title": "Chinese engineers defy Hormuz blockade to install Abu Dhabi drilling rigs",
+   "url": "https://www.scmp.com/news/china/article/3376116/chinese-engineers-defy-hormuz-blockade-install-abu-dhabi-drilling-rigs",
    "component": "military",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "scmp"
    ],
-   "published": "2026-11-27T20:18:45+00:00",
-   "note": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday.",
+   "published": "2026-11-28T06:00:13+00:00",
+   "note": "As fighter jets screamed just above, a group of Chinese engineers defied wartime blockades in the Strait of Hormuz to deliver and install drilling rigs on an Abu Dhabi island. A te",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "7d4408112375",
-   "title": "Nigeria: Political violence and attacks on candidates raise fears ahead of January elections",
-   "url": "https://www.france24.com/en/video/20261127-nigeria-political-violence-and-attacks-on-candidates-raise-fears-ahead-of-january-elections",
-   "component": "internal",
-   "severity": 4,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "france24"
-   ],
-   "published": "2026-11-27T16:25:05+00:00",
-   "note": "Political violence is escalating in Nigeria ahead of the general elections scheduled for January. Candidates and their supporters have increasingly come under attack, with armed gr",
-   "region": "AFRICA"
-  },
-  {
-   "id": "24790883c739",
-   "title": "伊朗否认袭击科威特致两意大利人死亡 提议三国联合调查",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738565.shtml",
-   "component": "narrative",
+   "id": "e01b13f62d81",
+   "title": "科威特召见伊朗大使 抗议伊“持续袭击”",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-28/10739097.shtml",
+   "component": "military",
    "severity": 4,
    "confidence": 0.38,
    "origins": 1,
    "sources": [
     "chinanews"
    ],
-   "published": "2026-11-27T02:58:19+00:00",
-   "note": "中新社北京11月27日电 德黑兰消息：当地时间26日，伊朗否认袭击科威特，并表示愿与科威特、意大利开展联合调查，以查明事件原因。",
+   "published": "2026-11-27T22:46:38+00:00",
+   "note": "科威特外交部27日召见伊朗驻科大使，就前一天导致两名意大利公民死亡的无人机袭击事件提出抗议。",
    "region": "MIDDLE_EAST"
   },
   {
-   "id": "ac5b8850d933",
-   "title": "2名意籍工程师遇袭身亡，中东冲突波及到了普通欧洲民众",
-   "url": "https://www.chinanews.com.cn/gj/2026/11-27/10738507.shtml",
-   "component": "narrative",
-   "severity": 4,
-   "confidence": 0.38,
-   "origins": 1,
-   "sources": [
-    "chinanews"
-   ],
-   "published": "2026-11-27T00:59:39+00:00",
-   "note": "突发袭击！伊朗、科威特、德国与意大利四国卷入同一场风波，2名工程师遇袭身亡，中东冲突波及到了普通欧洲民众｜国际早察",
-   "region": "EUROPE"
-  },
-  {
-   "id": "001744c8e003",
-   "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
-   "url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss",
-   "component": "military",
-   "severity": 4,
-   "confidence": 0.34,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-27T06:04:51+00:00",
-   "note": "Despite the strikes, markets and restaurants in Riyadh remain busy as residents express trust in the government to protect them.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "daf9f2db106d",
-   "title": "Malaysian teacher gets 60 years, 24 strokes in Sarawak school sex abuse case",
-   "url": "https://www.scmp.com/week-asia/people/article/3375992/malaysian-teacher-gets-60-years-24-strokes-sarawak-school-sex-abuse-case",
-   "component": "narrative",
+   "id": "57ab45265f4d",
+   "title": "Trade, gold and culture: Russian envoy pushes for closer ties with Hong Kong",
+   "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3376084/trade-gold-and-culture-russian-envoy-pushes-closer-ties-hong-kong",
+   "component": "diplomacy",
    "severity": 4,
    "confidence": 0.34,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-27T04:58:43+00:00",
-   "note": "A teacher in Malaysia has been sentenced to 60 years in prison for sexually assaulting eight girls aged between seven and 12 at a primary school in Sarawak, the latest in a string ",
-   "region": "OTHER"
+   "published": "2026-11-28T01:00:11+00:00",
+   "note": "Russian businesses in Hong Kong are finding ways to overcome hurdles brought about by Western-led sanctions, the country’s top diplomat in the city has said, noting that the issue ",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "be8ca1e723da",
+   "title": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-28T00:00:00+00:00",
+   "note": "Italian Foreign Minister Antonio Tajani says the drone behind the deadly Kuwait strike was made in Iran.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "fc36235353e3",
+   "title": "US disables ship attempting to breach Iran blockade",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-27T23:55:16+00:00",
+   "note": "The US military says it disabled a commercial ship after it left an Iranian port and ignored warnings to stop.",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "6fe7d160ffcb",
+   "title": "Son of Hamas chief survived Israeli strike, group says",
+   "url": "https://www.scmp.com/news/world/middle-east/article/3376106/son-hamas-chief-survives-israeli-strike-group-says",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-27T23:52:33+00:00",
+   "note": "The son of Hamas ⁠chief Khalil al-Hayya survived an assassination attempt ⁠by the Israeli military on Friday, senior Hamas official ⁠Basem Naim said. He said that Izzeldeen al-Hayy",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "e80e92ed60d9",
+   "title": "US military says it disabled merchant ship trying to breach Iran blockade",
+   "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+   "component": "military",
+   "severity": 4,
+   "confidence": 0.34,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-27T22:22:02+00:00",
+   "note": "The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.",
+   "region": "MIDDLE_EAST"
   },
   {
    "id": "ac5d05ab0f9e",
@@ -595,7 +550,7 @@
    "url": "https://www.bbc.com/zhongwen/articles/c3qj5y7lwrn9o/trad?at_medium=RSS&at_campaign=rss",
    "component": "diplomacy",
    "severity": 4,
-   "confidence": 0.34,
+   "confidence": 0.17,
    "origins": 1,
    "sources": [
     "bbc_zh"
@@ -603,79 +558,124 @@
    "published": "2026-11-27T03:35:06+00:00",
    "note": "美國對伊朗實施海上封鎖，迫使長期依賴廉價伊朗石油的中國獨立煉油廠轉向伊拉克等產油國，面臨成本上升和經營虧損的壓力。即使封鎖解除，伊朗能否重新贏得這些中國買家，仍取決於油價及美國的制裁政策。",
    "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "9028b11b8356",
+   "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
+   "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
+   "component": "diplomacy",
+   "severity": 4,
+   "confidence": 0.17,
+   "origins": 1,
+   "sources": [
+    "guardian"
+   ],
+   "published": "2026-11-26T10:00:52+00:00",
+   "note": "Public Committee Against Torture in Israel examined 42 complaints against Shin Bet interrogators over past decade Israel has institutionalised the use of torture to extract confess",
+   "region": "MIDDLE_EAST"
+  },
+  {
+   "id": "417716d1ce3f",
+   "title": "墨西哥抗议美国在墨开通举报热线",
+   "url": "https://www.chinanews.com.cn/gj/2026/11-28/10739125.shtml",
+   "component": "internal",
+   "severity": 3,
+   "confidence": 0.64,
+   "origins": 1,
+   "sources": [
+    "chinanews"
+   ],
+   "published": "2026-11-28T01:59:00+00:00",
+   "note": "中新社北京11月28日电 墨西哥城消息：墨西哥总统辛鲍姆27日在新闻发布会上表示，墨方已就美国毒品管制局在墨西哥开通举报热线一事向美方提出正式抗议。该热线旨在收集有关涉嫌参与毒品贩运人员及墨西哥官员涉嫌腐败的信息。",
+   "region": "EAST_ASIA"
+  },
+  {
+   "id": "fd9b26a5afc6",
+   "title": "Trump’s tariffs have become America’s new normal",
+   "url": "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss",
+   "component": "economy",
+   "severity": 3,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "aljazeera"
+   ],
+   "published": "2026-11-28T06:57:19+00:00",
+   "note": "Even a Democratic administration may struggle to reverse tariffs that help finance Trump's tax cuts.",
+   "region": "OTHER"
   }
  ],
  "breaking": [
   {
-   "id": "e1198a611d4d",
-   "title": "Ukraine says it used laser weapon to shoot down Russian drone for first time",
-   "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376104/ukraine-says-it-used-laser-weapon-shoot-down-russian-drone-first-time",
+   "id": "b445bea12ac4",
+   "title": "About 200 evacuated as scaffolding catches fire at Hong Kong industrial building",
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3376121/about-200-evacuated-scaffolding-catches-fire-hong-kong-industrial-building",
+   "component": "physical",
+   "severity": 4,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "scmp"
+   ],
+   "published": "2026-11-28T07:36:59+00:00",
+   "note": "About 200 people have been evacuated after a fire broke out at an industrial building in Hong Kong’s Tuen Mun when exterior scaffolding caught alight. Police said they were alerted",
+   "region": "OTHER"
+  },
+  {
+   "id": "dfb334fc8032",
+   "title": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
+   "url": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault",
    "component": "military",
+   "severity": 5,
+   "confidence": 0.56,
+   "origins": 1,
+   "sources": [
+    "france24"
+   ],
+   "published": "2026-11-28T07:12:00+00:00",
+   "note": "Russia shot down 1,200 drones targeting Moscow overnight, Russian authorities said Saturday. Both Russia and Ukraine have stepped up their attacks using projectiles in recent month",
+   "region": "RUSSIA_CIS"
+  },
+  {
+   "id": "6be34d824506",
+   "title": "Abby Choi’s ex-husband deflects blame as he insists his father killed her",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3376114/abby-chois-ex-husband-deflects-blame-he-defends-claim-his-father-killed-her",
+   "component": "narrative",
    "severity": 5,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
     "scmp"
    ],
-   "published": "2026-11-27T21:08:33+00:00",
-   "note": "Ukraine has for the first time used a laser weapon to shoot down a Russian jet-powered drone, its state-backed defence group Brave1 said on Friday. Earlier this week, Serhiy Beskre",
-   "region": "RUSSIA_CIS"
+   "published": "2026-11-28T07:00:13+00:00",
+   "note": "Slain Hong Kong socialite Abby Choi Tin-fung’s ex-husband has blamed several people in court while defending an account of the killing that the prosecution and two family members a",
+   "region": "OTHER"
   },
   {
-   "id": "704905cb11f2",
-   "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
-   "component": "military",
+   "id": "22aa378c8718",
+   "title": "Palestinian tells of ‘devastating’ struggle after being made redundant by EU in Gaza",
+   "url": "https://www.theguardian.com/world/2026/nov/28/mohammad-baraka-palestinian-eu-gaza-redundancy-pay-access",
+   "component": "narrative",
    "severity": 4,
    "confidence": 0.56,
    "origins": 1,
    "sources": [
-    "aljazeera"
+    "guardian"
    ],
-   "published": "2026-11-27T20:18:45+00:00",
-   "note": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday.",
+   "published": "2026-11-28T06:00:34+00:00",
+   "note": "Mohammad Baraka unable to access redundancy pay for almost 20 years’ service as family’s situation becomes ‘increasingly desperate’ A Palestinian man who worked for the EU in Gaza ",
    "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "e7366fd38708",
-   "title": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
-   "url": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike?traffic_source=rss",
-   "component": "military",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "aljazeera"
-   ],
-   "published": "2026-11-27T19:53:25+00:00",
-   "note": "Four of Khalil al-Hayya's other sons were previously killed by Israeli forces, according to the Palestinian group.",
-   "region": "MIDDLE_EAST"
-  },
-  {
-   "id": "e464e17f7338",
-   "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
-   "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
-   "component": "narrative",
-   "severity": 5,
-   "confidence": 0.56,
-   "origins": 1,
-   "sources": [
-    "bbc"
-   ],
-   "published": "2026-11-27T17:19:31+00:00",
-   "note": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
-   "region": "OTHER"
   }
  ],
  "coverage": {
   "sources_ok": 21,
   "sources_failed": 1,
-  "items": 33717,
-  "gdelt_events": 33465,
+  "items": 28372,
+  "gdelt_events": 28134,
   "mode": "live",
-  "data_through": "2026-11-26",
-  "clusters": 245,
-  "origins": 248,
+  "data_through": "2026-11-27",
+  "clusters": 231,
+  "origins": 233,
   "failed_days": 3,
   "failed_days_last": [
    "2026-10-26",
@@ -693,11 +693,11 @@
   "history_days": 90,
   "components": {
    "military": {
-    "now": 3.03,
-    "p50": 0.58,
+    "now": 2.19,
+    "p50": 0.59,
     "p90": 3.21,
-    "ratio": 5.19,
-    "z": 1.36
+    "ratio": 3.71,
+    "z": 1.0
    },
    "physical": {
     "now": 0.0,
@@ -707,40 +707,36 @@
     "z": null
    },
    "diplomacy": {
-    "now": 2.08,
-    "p50": 0.51,
+    "now": 1.55,
+    "p50": 0.52,
     "p90": 2.46,
-    "ratio": 4.07,
-    "z": 1.25
+    "ratio": 2.98,
+    "z": 0.96
    },
    "economy": {
-    "now": 2.22,
-    "p50": 0.48,
+    "now": 1.54,
+    "p50": 0.5,
     "p90": 2.31,
-    "ratio": 4.59,
-    "z": 1.34
+    "ratio": 3.07,
+    "z": 0.97
    },
    "internal": {
-    "now": 1.08,
-    "p50": 0.22,
+    "now": 0.64,
+    "p50": 0.23,
     "p90": 1.19,
-    "ratio": 4.96,
-    "z": 0.99
+    "ratio": 2.72,
+    "z": 0.55
    },
    "narrative": {
-    "now": 0.06,
+    "now": 0.08,
     "p50": 0.06,
     "p90": 0.11,
     "ratio": null,
-    "z": null
+    "z": 0.04
    }
   }
  },
  "series": [
-  {
-   "date": "2026-07-30",
-   "geti": 50.0
-  },
   {
    "date": "2026-07-31",
    "geti": 50.0
@@ -795,107 +791,107 @@
   },
   {
    "date": "2026-08-13",
-   "geti": 49.9
+   "geti": 50.0
   },
   {
    "date": "2026-08-14",
-   "geti": 48.6
+   "geti": 48.5
   },
   {
    "date": "2026-08-15",
-   "geti": 50.8
+   "geti": 50.6
   },
   {
    "date": "2026-08-16",
-   "geti": 51.2
+   "geti": 50.9
   },
   {
    "date": "2026-08-17",
-   "geti": 46.5
+   "geti": 46.3
   },
   {
    "date": "2026-08-18",
-   "geti": 43.9
+   "geti": 43.6
   },
   {
    "date": "2026-08-19",
-   "geti": 41.1
+   "geti": 40.9
   },
   {
    "date": "2026-08-20",
-   "geti": 44.6
+   "geti": 44.4
   },
   {
    "date": "2026-08-21",
-   "geti": 46.8
+   "geti": 46.6
   },
   {
    "date": "2026-08-22",
-   "geti": 46.2
+   "geti": 45.9
   },
   {
    "date": "2026-08-23",
-   "geti": 41.0
+   "geti": 40.8
   },
   {
    "date": "2026-08-24",
-   "geti": 44.3
+   "geti": 44.1
   },
   {
    "date": "2026-08-25",
-   "geti": 41.9
+   "geti": 41.7
   },
   {
    "date": "2026-08-26",
-   "geti": 38.0
+   "geti": 37.8
   },
   {
    "date": "2026-08-27",
-   "geti": 49.4
+   "geti": 49.2
   },
   {
    "date": "2026-08-28",
-   "geti": 51.1
+   "geti": 50.9
   },
   {
    "date": "2026-08-29",
-   "geti": 52.6
+   "geti": 52.4
   },
   {
    "date": "2026-08-30",
-   "geti": 57.7
+   "geti": 57.6
   },
   {
    "date": "2026-08-31",
-   "geti": 58.7
+   "geti": 58.6
   },
   {
    "date": "2026-09-01",
-   "geti": 53.3
+   "geti": 53.1
   },
   {
    "date": "2026-09-02",
-   "geti": 52.1
+   "geti": 51.9
   },
   {
    "date": "2026-09-03",
-   "geti": 49.8
+   "geti": 49.7
   },
   {
    "date": "2026-09-04",
-   "geti": 49.5
+   "geti": 49.4
   },
   {
    "date": "2026-09-05",
-   "geti": 51.6
+   "geti": 51.5
   },
   {
    "date": "2026-09-06",
-   "geti": 50.4
+   "geti": 50.3
   },
   {
    "date": "2026-09-07",
-   "geti": 44.9
+   "geti": 44.8
   },
   {
    "date": "2026-09-08",
@@ -903,15 +899,15 @@
   },
   {
    "date": "2026-09-09",
-   "geti": 42.8
+   "geti": 42.7
   },
   {
    "date": "2026-09-10",
-   "geti": 40.9
+   "geti": 40.8
   },
   {
    "date": "2026-09-11",
-   "geti": 39.9
+   "geti": 39.7
   },
   {
    "date": "2026-09-12",
@@ -919,27 +915,27 @@
   },
   {
    "date": "2026-09-13",
-   "geti": 45.2
+   "geti": 45.3
   },
   {
    "date": "2026-09-14",
-   "geti": 44.6
+   "geti": 44.7
   },
   {
    "date": "2026-09-15",
-   "geti": 45.6
+   "geti": 45.8
   },
   {
    "date": "2026-09-16",
-   "geti": 46.8
+   "geti": 46.9
   },
   {
    "date": "2026-09-17",
-   "geti": 47.0
+   "geti": 47.1
   },
   {
    "date": "2026-09-18",
-   "geti": 44.2
+   "geti": 44.3
   },
   {
    "date": "2026-09-19",
@@ -955,7 +951,7 @@
   },
   {
    "date": "2026-09-22",
-   "geti": 48.6
+   "geti": 48.5
   },
   {
    "date": "2026-09-23",
@@ -971,95 +967,95 @@
   },
   {
    "date": "2026-09-26",
-   "geti": 50.0
+   "geti": 49.9
   },
   {
    "date": "2026-09-27",
-   "geti": 49.6
+   "geti": 49.5
   },
   {
    "date": "2026-09-28",
-   "geti": 47.6
+   "geti": 47.5
   },
   {
    "date": "2026-09-29",
-   "geti": 44.6
+   "geti": 44.7
   },
   {
    "date": "2026-09-30",
-   "geti": 40.9
+   "geti": 41.0
   },
   {
    "date": "2026-10-01",
-   "geti": 37.3
+   "geti": 37.4
   },
   {
    "date": "2026-10-02",
-   "geti": 41.6
+   "geti": 41.7
   },
   {
    "date": "2026-10-03",
-   "geti": 42.9
+   "geti": 43.0
   },
   {
    "date": "2026-10-04",
-   "geti": 41.6
+   "geti": 41.7
   },
   {
    "date": "2026-10-05",
-   "geti": 45.9
+   "geti": 46.0
   },
   {
    "date": "2026-10-06",
-   "geti": 48.1
+   "geti": 48.2
   },
   {
    "date": "2026-10-07",
-   "geti": 46.9
+   "geti": 47.0
   },
   {
    "date": "2026-10-08",
-   "geti": 45.7
+   "geti": 45.9
   },
   {
    "date": "2026-10-09",
-   "geti": 48.9
+   "geti": 49.1
   },
   {
    "date": "2026-10-10",
-   "geti": 54.6
+   "geti": 54.7
   },
   {
    "date": "2026-10-11",
-   "geti": 59.3
+   "geti": 59.4
   },
   {
    "date": "2026-10-12",
-   "geti": 54.4
+   "geti": 54.6
   },
   {
    "date": "2026-10-13",
-   "geti": 54.0
+   "geti": 54.1
   },
   {
    "date": "2026-10-14",
-   "geti": 54.5
+   "geti": 54.7
   },
   {
    "date": "2026-10-15",
-   "geti": 58.4
+   "geti": 58.6
   },
   {
    "date": "2026-10-16",
-   "geti": 58.5
+   "geti": 58.7
   },
   {
    "date": "2026-10-17",
-   "geti": 57.9
+   "geti": 58.1
   },
   {
    "date": "2026-10-18",
-   "geti": 59.2
+   "geti": 59.3
   },
   {
    "date": "2026-10-19",
@@ -1103,7 +1099,7 @@
   },
   {
    "date": "2026-10-29",
-   "geti": 54.7
+   "geti": 54.6
   },
   {
    "date": "2026-10-30",
@@ -1111,15 +1107,15 @@
   },
   {
    "date": "2026-10-31",
-   "geti": 50.7
+   "geti": 50.6
   },
   {
    "date": "2026-11-01",
-   "geti": 38.4
+   "geti": 38.3
   },
   {
    "date": "2026-11-02",
-   "geti": 38.2
+   "geti": 38.1
   },
   {
    "date": "2026-11-03",
@@ -1131,7 +1127,7 @@
   },
   {
    "date": "2026-11-05",
-   "geti": 65.6
+   "geti": 65.5
   },
   {
    "date": "2026-11-06",
@@ -1139,19 +1135,19 @@
   },
   {
    "date": "2026-11-07",
-   "geti": 67.2
+   "geti": 67.1
   },
   {
    "date": "2026-11-08",
-   "geti": 69.6
+   "geti": 69.5
   },
   {
    "date": "2026-11-09",
-   "geti": 69.7
+   "geti": 69.6
   },
   {
    "date": "2026-11-10",
-   "geti": 72.2
+   "geti": 72.1
   },
   {
    "date": "2026-11-11",
@@ -1175,7 +1171,7 @@
   },
   {
    "date": "2026-11-16",
-   "geti": 73.3
+   "geti": 73.2
   },
   {
    "date": "2026-11-17",
@@ -1183,7 +1179,7 @@
   },
   {
    "date": "2026-11-18",
-   "geti": 75.4
+   "geti": 75.3
   },
   {
    "date": "2026-11-19",
@@ -1216,11 +1212,35 @@
   {
    "date": "2026-11-26",
    "geti": 62.3
+  },
+  {
+   "date": "2026-11-27",
+   "geti": 60.3
   }
  ],
  "policy": {
-  "items": [],
+  "items": [
+   {
+    "type": "redistributive",
+    "country": "",
+    "source": "aljazeera",
+    "score": 0.2,
+    "signed": -0.2,
+    "title": "Trump’s tariffs have become America’s new normal",
+    "url": "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss",
+    "origins": 1,
+    "when": "2026-11-28"
+   }
+  ],
   "notable": [
+   {
+    "kind": "judicial",
+    "title": "墨西哥抗议美国在墨开通举报热线",
+    "url": "https://www.chinanews.com.cn/gj/2026/11-28/10739125.shtml",
+    "country": "US",
+    "source": "chinanews",
+    "when": "2026-11-28"
+   },
    {
     "kind": "judicial",
     "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
@@ -1247,34 +1267,10 @@
    },
    {
     "kind": "judicial",
-    "title": "广西壮族自治区政府原主席蓝天立一审被判死缓",
-    "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738930.shtml",
-    "country": "CN",
-    "source": "chinanews_cn",
-    "when": "2026-11-27"
-   },
-   {
-    "kind": "judicial",
     "title": "Momentous decision looms after judges call for Netanyahu charges to be dropped",
     "url": "https://www.theguardian.com/world/2026/nov/27/israeli-justice-system-judges-call-drop-netanyahu-charges",
     "country": "IL",
     "source": "guardian",
-    "when": "2026-11-27"
-   },
-   {
-    "kind": "judicial",
-    "title": "Malaysian teacher gets 60 years, 24 strokes in Sarawak school sex abuse case",
-    "url": "https://www.scmp.com/week-asia/people/article/3375992/malaysian-teacher-gets-60-years-24-strokes-sarawak-school-sex-abuse-case",
-    "country": "MY",
-    "source": "scmp",
-    "when": "2026-11-27"
-   },
-   {
-    "kind": "judicial",
-    "title": "Met Police ruined my life, says Kenyan man wrongly convicted over attack on UK couple",
-    "url": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
-    "country": "GB",
-    "source": "bbc",
     "when": "2026-11-27"
    },
    {
@@ -1284,22 +1280,14 @@
     "country": "",
     "source": "dw",
     "when": "2026-11-26"
-   },
-   {
-    "kind": "judicial",
-    "title": "Desperate appeals from women on death row in Iran after protests",
-    "url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
-    "country": "IR",
-    "source": "bbc",
-    "when": "2026-11-26"
    }
   ],
-  "notable_total": 9,
+  "notable_total": 6,
   "counts": {
    "extractive": 0,
    "control": 0,
-   "redistributive": 0,
-   "notable": 9
+   "redistributive": 1,
+   "notable": 6
   },
   "pressure": {},
   "note": "政策是原因、抗议是结果，这一层只做背景，不参与 GETI 计算。个案列为客观参考，不归类也不计分。",
@@ -1361,31 +1349,31 @@
    {
     "source": "fred:VIXCLS",
     "ok": true,
-    "items": 108,
+    "items": 107,
     "error": ""
    },
    {
     "source": "fred:DCOILWTICO",
     "ok": true,
-    "items": 104,
+    "items": 103,
     "error": ""
    },
    {
     "source": "fred:BAMLH0A0HYM2",
     "ok": true,
-    "items": 108,
+    "items": 107,
     "error": ""
    },
    {
     "source": "fred:DTWEXBGS",
     "ok": true,
-    "items": 100,
+    "items": 99,
     "error": ""
    },
    {
     "source": "fred:DGS10",
     "ok": true,
-    "items": 103,
+    "items": 102,
     "error": ""
    }
   ],
@@ -2191,27 +2179,27 @@
   "mode": "live"
  },
  "hazard": {
-  "index": 42.4,
-  "z": -0.24,
+  "index": 39.3,
+  "z": -0.35,
   "components": [
    {
     "key": "quake_energy",
     "label": "地震能量",
     "weight": 0.34,
-    "value": 8.88,
-    "carry": 9.17,
-    "z": -0.0,
-    "score": 49.9,
+    "value": 8.15,
+    "carry": 9.07,
+    "z": -0.05,
+    "score": 48.6,
     "available": true
    },
    {
     "key": "quake_count",
     "label": "强震次数",
     "weight": 0.2,
-    "value": 9.0,
-    "carry": 12.82,
-    "z": -0.36,
-    "score": 38.9,
+    "value": 7.0,
+    "carry": 12.23,
+    "z": -0.52,
+    "score": 34.4,
     "available": true
    },
    {
@@ -2219,9 +2207,9 @@
     "label": "灾害事件",
     "weight": 0.2,
     "value": 0.0,
-    "carry": 1.78,
-    "z": -0.75,
-    "score": 28.3,
+    "carry": 1.6,
+    "z": -1.02,
+    "score": 21.9,
     "available": true
    },
    {
@@ -2229,9 +2217,9 @@
     "label": "红色预警",
     "weight": 0.16,
     "value": 0.0,
-    "carry": 0.04,
-    "z": 0.08,
-    "score": 52.4,
+    "carry": 0.03,
+    "z": 0.07,
+    "score": 52.1,
     "available": true
    },
    {
@@ -2239,92 +2227,106 @@
     "label": "地磁扰动",
     "weight": 0.1,
     "value": 2.33,
-    "carry": 2.55,
-    "z": -0.34,
-    "score": 39.5,
+    "carry": 2.53,
+    "z": -0.37,
+    "score": 38.6,
     "available": true
    }
   ],
-  "history_days": 24,
+  "history_days": 25,
   "components_ok": 5,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 14,
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "ongoing": true
   },
   "evidence": {
    "quake": [
     {
-     "t": "Revilla Gigedo Islands region",
-     "v": 5.7,
-     "ts": "2026-11-26T15:26+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udq5"
-    },
-    {
-     "t": "204 km S of Taliwang, Indonesia",
-     "v": 5.5,
-     "ts": "2026-11-26T09:08+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udm8"
-    },
-    {
-     "t": "265 km WNW of Houma, Tonga",
-     "v": 5.2,
-     "ts": "2026-11-26T09:22+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udmc"
-    },
-    {
-     "t": "183 km N of Hicks Bay, New Zealand",
-     "v": 5.2,
-     "ts": "2026-11-26T01:48+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udjx"
-    },
-    {
-     "t": "Bonin Islands, Japan region",
+     "t": "107 km SSE of Auki, Solomon Islands",
      "v": 5.1,
-     "ts": "2026-11-26T19:33+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udry"
+     "ts": "2026-11-27T00:07+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udt9"
     },
     {
-     "t": "184 km N of Hicks Bay, New Zealand",
+     "t": "Off the coast of Aisen, Chile",
      "v": 5.0,
-     "ts": "2026-11-26T02:09+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udjz"
+     "ts": "2026-11-27T04:44+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udua"
     },
     {
-     "t": "225 km S of Taliwang, Indonesia",
+     "t": "89 km SSE of Sola, Vanuatu",
+     "v": 5.0,
+     "ts": "2026-11-27T02:13+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udtu"
+    },
+    {
+     "t": "183 km SSE of Vilyuchinsk, Russia",
      "v": 4.8,
-     "ts": "2026-11-26T09:00+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udm5"
+     "ts": "2026-11-27T11:02+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udw4"
     },
     {
-     "t": "97 km SW of Puerto Madero, Mexico",
+     "t": "155 km WNW of Tobelo, Indonesia",
      "v": 4.6,
-     "ts": "2026-11-26T03:30+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udki"
+     "ts": "2026-11-27T04:17+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udu6"
     },
     {
-     "t": "95 km SSE of Sarangani, Philippines",
+     "t": "Izu Islands, Japan region",
      "v": 4.5,
-     "ts": "2026-11-26T16:18+00:00",
-     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udqa"
+     "ts": "2026-11-27T21:47+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue0a"
+    },
+    {
+     "t": "131 km WNW of Neiafu, Tonga",
+     "v": 4.5,
+     "ts": "2026-11-27T12:48+00:00",
+     "u": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udwh"
     }
    ],
    "eonet": [],
+   "gdacs": [
+    {
+     "t": "Green forest fire notification in Papua New Guinea",
+     "v": "green",
+     "ts": "2026-11-27 04:20",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034104"
+    },
+    {
+     "t": "Green flood alert in Paraguay",
+     "v": "green",
+     "ts": "2026-11-27 07:13",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302"
+    },
+    {
+     "t": "Green forest fire notification in South Sudan, Sudan",
+     "v": "green",
+     "ts": "2026-11-27 17:10",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033996"
+    },
+    {
+     "t": "Green forest fire notification in South Sudan, Sudan",
+     "v": "green",
+     "ts": "2026-11-27 17:10",
+     "u": "http://www.gdacs.org/report.aspx?eventtype=WF&eventid=1034102"
+    }
+   ],
    "kp": [
     {
      "t": "Kp 2.33 峰值（当日 8 个时段）",
      "v": 2.33,
-     "ts": "2026-11-26",
+     "ts": "2026-11-27",
      "u": "https://www.swpc.noaa.gov/products/planetary-k-index"
     }
    ]
   }
  },
  "epidemic": {
-  "index": 47.0,
-  "z": -0.1,
+  "index": 49.1,
+  "z": -0.03,
   "components": [
    {
     "key": "who_don",
@@ -2332,8 +2334,8 @@
     "weight": 0.4,
     "value": 0.0,
     "carry": 0.01,
-    "z": -0.07,
-    "score": 47.9,
+    "z": -0.06,
+    "score": 48.1,
     "available": true
    },
    {
@@ -2341,29 +2343,29 @@
     "label": "政策信号",
     "weight": 0.3,
     "value": 0.0,
-    "carry": 0.51,
-    "z": -0.14,
-    "score": 45.7,
+    "carry": 0.46,
+    "z": -0.18,
+    "score": 44.5,
     "available": true
    },
    {
     "key": "coverage",
     "label": "报道密度",
     "weight": 0.3,
-    "value": 0.4,
-    "carry": 0.83,
-    "z": -0.1,
-    "score": 46.9,
+    "value": 2.1,
+    "carry": 0.96,
+    "z": 0.16,
+    "score": 55.0,
     "available": true
    }
   ],
-  "history_days": 24,
+  "history_days": 25,
   "components_ok": 3,
   "decay_days": 7.0,
   "persistence": {
    "span": 14,
    "active_days": 12,
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "ongoing": true
   },
   "evidence": {
@@ -2371,12 +2373,12 @@
   }
  },
  "doom": {
-  "index": 58.3,
-  "z": 0.2,
+  "index": 56.5,
+  "z": 0.16,
   "parts": {
-   "military": 0.3,
-   "hazard": -0.18,
-   "epidemic": -0.07
+   "military": 0.25,
+   "hazard": -0.26,
+   "epidemic": -0.02
   },
   "resonance": 0,
   "partial": false,
@@ -2413,14 +2415,14 @@
   {
    "source": "gdelt_recent",
    "ok": true,
-   "files": 144,
-   "items": 33465,
+   "files": 140,
+   "items": 28134,
    "error": ""
   },
   {
    "source": "bbc",
    "ok": true,
-   "items": 32,
+   "items": 20,
    "error": "",
    "undated": 0
   },
@@ -2434,14 +2436,14 @@
   {
    "source": "guardian",
    "ok": true,
-   "items": 36,
+   "items": 32,
    "error": "",
    "undated": 0
   },
   {
    "source": "dw",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "error": "",
    "undated": 0
   },
@@ -2469,7 +2471,7 @@
   {
    "source": "un_news_zh",
    "ok": true,
-   "items": 1,
+   "items": 5,
    "error": "",
    "undated": 0
   },
@@ -2490,38 +2492,38 @@
   {
    "source": "bbc_zh",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "error": "",
    "undated": 0
   },
   {
    "source": "fred:VIXCLS",
    "ok": true,
-   "items": 108,
+   "items": 107,
    "error": ""
   },
   {
    "source": "fred:DCOILWTICO",
    "ok": true,
-   "items": 104,
+   "items": 103,
    "error": ""
   },
   {
    "source": "fred:BAMLH0A0HYM2",
    "ok": true,
-   "items": 108,
+   "items": 107,
    "error": ""
   },
   {
    "source": "fred:DTWEXBGS",
    "ok": true,
-   "items": 100,
+   "items": 99,
    "error": ""
   },
   {
    "source": "fred:DGS10",
    "ok": true,
-   "items": 103,
+   "items": 102,
    "error": ""
   },
   {
@@ -2557,7 +2559,7 @@
   {
    "source": "usgs:quake",
    "ok": true,
-   "items": 9,
+   "items": 7,
    "error": ""
   },
   {
@@ -2568,9 +2570,9 @@
   },
   {
    "source": "gdacs:rss",
-   "ok": false,
-   "items": 0,
-   "error": "URLError: <urlopen error timed out>"
+   "ok": true,
+   "items": 4,
+   "error": ""
   },
   {
    "source": "noaa:swpc",
@@ -2587,7 +2589,7 @@
   {
    "source": "opensky",
    "ok": true,
-   "items": 10058,
+   "items": 5368,
    "error": ""
   },
   {
